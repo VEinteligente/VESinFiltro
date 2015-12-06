@@ -1,0 +1,46 @@
+<header class="site-header">
+
+	<div class="wrapper">
+
+		<img id="graph-back" src="{{ site.baseurl }}/res/graphback.svg"/>
+
+		<div class="logo-wrapper">
+			<a href="{{ site.baseurl }}/">
+				<img src="{{ site.baseurl }}/res/VeSinFiltro-long.svg" height="84px"/>
+			</a>
+			<i>Infórmate sobre el estado de internet en Venezuela</i>
+		</div>
+
+		<div id="general-state-internet" class='regular'>
+			<i>Internet en Vzla</i>
+			<b></b><div></div>
+		</div>
+
+		<nav class="site-nav">
+			<a href="#" class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Todas las guías <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+				{% for link in site.bloqueos %}
+					<li class=""><a href="{{ link.url | prepend: site.baseurl }}">
+						{{ link.small }}</a></li>
+				{% endfor %}
+				<li class="divider"></li>
+				{% for link in site.documenta %}
+					<li class=""><a href="{{ link.url | prepend: site.baseurl }}">
+						{{ link.small }}</a></li>
+				{% endfor %}
+				</ul>
+			</a>
+			{% for link in site.navigation reversed %}
+				{% if link.title %}
+					<a {% if page.url == link.url %}class="active"{% endif %}
+					href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
+				{% endif %}
+			{% endfor %}
+		</nav>
+
+	</div>
+
+</header>

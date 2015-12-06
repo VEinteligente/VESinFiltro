@@ -1,0 +1,133 @@
+body, html {
+	margin:0px !important;
+	border:0px !important;
+	font-family: 'Fira Sans', sans-serif !important;
+	font-size:14px;
+	background:#F8F8F8 !important;
+}
+
+.wrapper { width:100%; }
+@media (min-width:900px) {
+	.wrapper {
+		width:900px;
+		margin:auto;
+	}
+}
+
+#graph-back {
+	position:absolute;
+	height:130px;
+	bottom:-10px;
+	right:0px;
+}
+
+.site-header {
+	background:url(../res/back.png);
+	font-family: 'Fira Sans', sans-serif !important;
+	font-size:14px;
+	font-weight:200;
+}
+
+.site-header > .wrapper {
+	height:260px;
+	position:relative;
+}
+
+.site-header .logo-wrapper {
+	display:block;
+	position:absolute;
+	top:78px;
+}
+.site-header .logo-wrapper i {
+	display:block;
+	color:#666;
+	padding-left:85px;
+}
+
+.site-header .site-nav {
+	height:60px;
+	line-height:60px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.site-header .site-nav > a {
+	float:right;
+	text-shadow:#000 0px 1px 3px;
+	padding:0 20px;
+	position:relative;
+}
+
+.site-header .site-nav > a:link,
+.site-header .site-nav > a:visited,
+.site-header .site-nav > a:active {
+	color:#FFF;
+	text-decoration:none;
+}
+
+.site-header .site-nav > a:hover,
+.site-header .site-nav > a.active {
+	text-decoration:none;
+	background:rgba(255,255,255,.05);
+}
+
+#general-state-internet {
+	line-height:23px;
+	font-size:13px;
+	position:absolute;
+	text-align:right;
+	bottom:-23px;
+	right:60px;
+	color:#FFF;
+}
+#general-state-internet b {
+	color:#000;
+	font-size:15px;
+	display:block;
+}
+#general-state-internet div {
+	position:absolute;
+	height:50px;
+	width:50px;
+	margin-top:-25px;
+	top:50%;
+	right:-60px;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	border-radius:50%;
+	box-shadow:0px 0px 20px rgba(0,0,0,0.1),
+				0px 3px 5px rgba(0,0,0,0.1);
+}
+
+#general-state-internet.normal b:before { content:"Grave"; }
+#general-state-internet.normal div      { background:#00B54C; }
+#general-state-internet.regular b:before { content:"Regular"; }
+#general-state-internet.regular div      { background:#FF7F07; }
+#general-state-internet.grave b:before { content:"Grave"; }
+#general-state-internet.grave div      { background:red; }
+
+.page-content > .wrapper > div {
+	background:#FFF;
+	box-shadow:
+		0px 0px 20px rgba(0,0,0,0.05),
+		0px 0px 3px rgba(0,0,0,0.05);
+	padding:40px;
+}
+.page-content > .post-header > h1 {
+	padding:30px 0;
+	margin:0;
+}
+.page-content > div.wrapper:first-child {
+	margin-top:60px;
+}
+
+.site-footer > .wrapper {
+	padding:30px 0;
+}
+.site-footer .logo-vi {
+	display:block;
+	height:30px;
+	width:110px;
+	background:url(../res/logo-vi.png);
+}
