@@ -29,14 +29,14 @@ body, html {
 }
 
 .site-header > .wrapper {
-	height:260px;
+	height:200px;
 	position:relative;
 }
 
 .site-header .logo-wrapper {
 	display:block;
 	position:absolute;
-	top:78px;
+	top:48px;
 }
 .site-header .logo-wrapper i {
 	display:block;
@@ -109,9 +109,8 @@ body, html {
 
 .page-content > .wrapper > div {
 	background:#FFF;
-	box-shadow:
-		0px 0px 20px rgba(0,0,0,0.05),
-		0px 0px 3px rgba(0,0,0,0.05);
+	border-radius:2px;
+	box-shadow:0 5px 10px rgba(0,0,0,0.2);
 	padding:40px;
 }
 .page-content > .post-header > h1 {
