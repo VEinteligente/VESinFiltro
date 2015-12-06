@@ -8,10 +8,10 @@ url: "http://vesinfiltro.com" # the base hostname & protocol for your site
 twitter_username: vesinfiltro
 
 navigation:
-- title: Bloqueos
-  url: /bloqueos/
-- title: reporta
+- title: Reporta
   url: /
+- title: Evade los bloqueos
+  url: /bloqueos/
 
 # Build settings
 markdown: kramdown

@@ -52,24 +52,37 @@ body, html {
 	right:0px;
 }
 
-.site-header .site-nav > a {
+.site-header .site-nav > a,
+.site-header .site-nav > div {
 	float:right;
-	text-shadow:#000 0px 1px 3px;
-	padding:0 20px;
 	position:relative;
+}
+.site-header .site-nav > a,
+.site-header .site-nav > div > a {
+	padding:0 20px;
+	text-shadow:#000 0px 1px 3px;
+	display:block;
 }
 
 .site-header .site-nav > a:link,
+.site-header .site-nav > div > a:link,
 .site-header .site-nav > a:visited,
-.site-header .site-nav > a:active {
+.site-header .site-nav > div > a:visited,
+.site-header .site-nav > a:active,
+.site-header .site-nav > div > a:active {
 	color:#FFF;
 	text-decoration:none;
 }
 
 .site-header .site-nav > a:hover,
-.site-header .site-nav > a.active {
+.site-header .site-nav > div:hover {
 	text-decoration:none;
 	background:rgba(255,255,255,.05);
+}
+
+.site-header .site-nav > div .dropdown-menu {
+	right:0px;
+	left:auto;
 }
 
 #general-state-internet {
@@ -109,7 +122,9 @@ body, html {
 
 .page-content > .wrapper > div {
 	background:#FFF;
-	border-radius:2px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
 	box-shadow:0 5px 10px rgba(0,0,0,0.2);
 	padding:40px;
 }
