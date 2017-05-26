@@ -12,6 +12,8 @@ navigation:
   url: /
 - title: Evade los bloqueos
   url: /bloqueos/
+- title: Noticias
+  url: /noticias/  
 
 # Build settings
 markdown: kramdown
@@ -20,4 +22,6 @@ collections:
   bloqueos:
     output: true
   documenta:
+    output: true
+  noticias:
     output: true
