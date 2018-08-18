@@ -4,9 +4,11 @@ title: Noticias
 permalink: /noticias/
 ---
 
-  {% for post in site.noticias %}
+  {% for post in site.noticias reversed %}
     <article class="post">
+	  
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+      <p class="date">{{post.date | date_to_long_string }}</p>
       <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}
