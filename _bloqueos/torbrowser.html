@@ -8,20 +8,21 @@ permalink: /bloqueos/torbrowser/
 <article class="herramienta">
 	<header>
 		<h3>Tor Browser</h3>
-		<p>Tor Browser es un navegador gratuito de código abierto configurado para funcionar en la red Tor, en la que tus páginas pasan encriptado por varios servidores antes de salir a internet.</p>
-		<p class="detalles">Es un poco más lento que Hotspot Shield pero te da privacidad</p>
+		<p>Tor Browser es un navegador gratuito de código abierto configurado para funcionar en la red Tor, en la que tus páginas pasan encriptado por varios servidores antes de salir a internet, ofuscando su origen para mejorar tu privacidad y sirve para evadir los bloqueos en internet.</p>
+		<p class="detalles">Es un poco más lento que otras herramientas, pero además de evadir la censura ofusca el origen del trafico</p>
 	</header>
 	<section class="disponible">
 		Descarga disponible para
-		<a target="_blank" href=https://www.torproject.org/dist/torbrowser/5.0.4/torbrowser-install-5.0.4_en-US.exe" class="btn btn-primary btn-xs"><i class="fa fa-windows"></i> Windows</a>
-		<a target="_blank" href="https://www.torproject.org/dist/torbrowser/5.0.4/TorBrowser-5.0.4-osx64_en-US.dmg" class="btn btn-primary btn-xs"><i class="fa fa-apple"></i> Mac</a>
-		<a target="_blank" href="https://www.torproject.org/dist/torbrowser/5.0.4/tor-browser-linux32-5.0.4_en-US.tar.xz" class="btn btn-primary btn-xs"><i class="fa fa-linux"></i> Linux</a>
+		<a target="_blank" href="https://torproject.org/download/download-easy.html.es" class="btn btn-primary btn-xs"><i class="fa fa-windows"></i> Windows</a>
+		<a target="_blank" href="https://torproject.org/download/download-easy.html.es" class="btn btn-primary btn-xs"><i class="fa fa-apple"></i> Mac</a>
+		<a target="_blank" href="https://torproject.org/download/download-easy.html.es" class="btn btn-primary btn-xs"><i class="fa fa-linux"></i> Linux</a>
+		<a target="_blank" href="https://torproject.org/download/download-easy.html.es" class="btn btn-primary btn-xs"> Otras opciones</a>
 	</section>
 
 	<section class="instalacion">
 		<h3>Instalaci&oacute;n</h3>
 		<ol>
-			<li>Abre el archivo descargado para iniciar a descomprimirlo</li><img src="/img/tor1.png" width="500"/>
+			<li>Abre el archivo descargado para iniciar a descomprimirlo</li>
 			<li>Abra la carpeta descomprimida</li>
 			<li>La aplicación está en esa carpeta lista para usarse, la puedes mover a otra carpeta o pen drive</li>
 		</ol>
@@ -29,20 +30,55 @@ permalink: /bloqueos/torbrowser/
 
 
 	<section class="conexion">
-		<h3>Conexión con Tor Browser</h3>
+		<h3>Conexión con Tor Browser en CANTV</h3>
+		<p>Tor ha sido bloqueado en CANTV, usar las instrucciones para evadir el bloqueo en CANTV, o usa la conexi&oacute;n est&aacute;ndar en otros proveedores</p>
 		<ol>
-			<li>La aplicación haciendo doble click sobre ella<br>
+			<li>Abre la aplicación haciendo doble click sobre ella<br>
 				<span class="muted">En Windows la aplicación se llama <strong>Start Tor Browser</strong> o <strong>Start Tor Browser.exe</strong></span>
 			</li>
-			<li>Se abrirá una ventana mostrando el estado actual mientras te conecta a la red de Tor de manera anónima <img src="/img/tor2.png" width="500" /></li>
+			<li>Se abrirá una ventana mostrando el estado actual mientras te conecta a la red de Tor de manera anónima</li>
+			<img src="/img/tor-alt-0.png" width="300" />
+			<li>Esta conexión fallará en CANTV si no se ha configurado especialmente, seleccione la opción <strong>configurar</strong>.  <br/> 
+			<div><strong>A partir de aquí tines dos opciones:</strong></div>
+				<span class="option">
+					<h5>Opción A: Utilizar un puente no bloquedo</h5>
+					<ol>
+						<img src="/img/tor-bridge-1.png" width="300" />
+						<li>Visitar página con puentes de Tor no públicos <a href="https://bridge.torbroser.org">bridge.torbroser.org</a> (recomendado: tipo obfs4) </li>
+						<img src="/img/tor-bridge-2.png" width="300" />
+						<li>Copia la lista de puentes</li>
+						<li>En la configuración de conexión seleccionar “Tor está censurado en mi país”</li>
+						<li>Pegar los puentes en la sección "Colocar un puente que conozco”</li>
+						<img src="/img/tor-bridge-3.png" width="300" />
+					</ol>
+					<h5>Opción 2, utilizar un puente tipo meek</h5>
+						<ol>
+							<li>En la configuraci&oacute;n de conexión seleccionar &ldquo;Tor est&aacute; censurado en mi pa&iacute;s&rdquo;</li>
+							<li>Marca la opción &quot;Selecciona un puente integrado&quot;</li>
+							<li>Elige el puente &ldquo;meek-Azure&quot; </li>
+							 <img src="/img/tor-meek-1.png" width="300" />
+						</ol>
+				</span>
+			</li>
 			<li>Una vez conectado el programa abrirá automáticamente un Navegador de Internet. <span class="muted">El navegador de Tor Browser no guarda historial una vez se cierre por tu seguridad, al cerrar todas sus ventas te desconectará de Tor</li>
-			<img src="/img/tor3.png" width="500" />
 		</ol>
-		<div class="alert alert-warning">Tor Browser Bundle s&oacute;lo evade bloqueos y protege tus comunicaciones al usar el navegador incluido</div>
+		<br/>
+		<br/>
+		<h3>Conexión estándard con Tor Browser</h3>
+		<p>Tor ha sido bloqueado en CANTV, usar las instrucciones para evadir el bloqueo en CANTV, o usa la conexión estándar en otros proveedores</p>
+		<ol>
+			<li>Abre la aplicación haciendo doble click sobre ella<br>
+				<span class="muted">En Windows la aplicación se llama <strong>Start Tor Browser</strong> o <strong>Start Tor Browser.exe</strong></span>
+			</li>
+			<li>Se abrirá una ventana mostrando el estado actual mientras te conecta a la red de Tor de manera anónima <img src="/img/tor2.png" width="300" /></li>
+			<li>Una vez conectado el programa abrirá automáticamente un Navegador de Internet. <span class="muted">El navegador de Tor Browser no guarda historial una vez se cierre por tu seguridad, al cerrar todas sus ventas te desconectará de Tor</li>
+			<img src="/img/tor3.png" width="300" />
+		</ol>
 	</section>
 </article>
 
-
+<h5> Advertencias:</h5>
+<div class="alert alert-warning">Tor Browser Bundle s&oacute;lo evade bloqueos y protege tu privacidad al usar al usar el navegador incluido</div>
 <div class="alert alert-info">Recuerda que cualquier herramienta para evadir bloqueos o aumentar tu privacidad podría ponerte en peligro si es maliciosa, usa herramientas probadas y conocidas, descarga sólo desde la fuente o alguien de confianza.</div>
 
 <div class="alert alert-warning">Algunas de estas herramientas proveen mayor privacidad ante el gobierno y proveedor de servicio, pero no son infalibles y puede ser posible que se detecte su uso</div>
