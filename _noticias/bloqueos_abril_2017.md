@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Bloqueos de internet en Abril de 2017
-small: Bloqueos de internet en Abril de 2017
+small: El 7 de Abril de 2017 los principales proveedores de internet de Venezuela comenzaron a bloquear los sitios web de Vivo Play; El Capitolio TV, canal oficial de la Asamblea Nacional; y VPITV.com
+excerpt: El 7 de Abril de 2017 los principales proveedores de internet de Venezuela comenzaron a bloquear los sitios web de Vivo Play; El Capitolio TV, canal oficial de la Asamblea Nacional; y Venezolanos por la información los tres sitios se dedican principalmente al streaming de noticias y TV por internet.
 permalink: /noticias/bloqueos_abril_2017/
 date:   2017-05-24 11:16:00 -0400
 categories: bloqueos
@@ -38,4 +39,3 @@ Otras formas de evadir bloqueo son el uso de VPN, que es como un túnel especial
 - [Psiphon](https://psiphon.ca)
 - [Lantern](https://getlantern.org)
 - [Tunnel Bear](https://www.tunnelbear.com)
-
