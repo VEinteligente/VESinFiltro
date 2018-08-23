@@ -15,10 +15,10 @@ author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Ch
 
 Nota: Próximamente publicaremos la traducción a español del presente estudio
 
+You can [download this report in PDF here](/res/The%20State%20of%20Internet%20Censorship%20in%20Venezuela%202018-08-16%20-%20Venezuela%20Inteligente-VEsinFiltro%20OONI%20ipysve.pdf)
+
 A study by IPYS Venezuela, Venezuela Inteligente, and the Open
 Observatory of Network Interference (OONI).
-
-You can [download this report in PDF here](/res/The%20State%20of%20Internet%20Censorship%20in%20Venezuela%202018-08-16%20-%20Venezuela%20Inteligente-VEsinFiltro%20OONI%20ipysve.pdf)
 
 # Table of contents
 
@@ -481,7 +481,7 @@ recent OONI measurements).
 | http://noticias.com/     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180315Z_AS264731_X0r1s85WEziWdCc6cGXReVTTYWLL4RaEna8Y3YsxKSy9hzU3Ph?input=http:%2F%2Fnoticias.com)      | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180006Z_AS8048_HLGzZWAvpEmL2AankRtIhTiVkxCvLQDLvZ15ptdBrNJc2b6XBR?input=http:%2F%2Fnoticias.com)  | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180719T180025Z_AS6306_ph9f3EY0DvPQyYbgDqCt0v1q2KsW00rWiL5Wtqk1Y53flpPGZo?input=http:%2F%2Fnoticias.com)     | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180806T220516Z_AS27889_2fUK4PvrYpicA5AfBU5xNLMeWeyK9vYQ7x122nOiVAkv1RS4oc?input=http:%2F%2Fnoticias.com)      |
 | http://ntn24.com/        | N/A                | [DNS tampering](https://explorer.ooni.torproject.org/measurement/20180810T024406Z_AS8048_GxLMU1Y4WYhmJldyTKetLGsq0FyPFuQJw7TWcYuT1NFpDtVZ7y?input=http:%2F%2Fntn24.com)  | N/A               | N/A                |
 | http://armando.info      | N/A                | [HTTP failure](https://explorer.ooni.torproject.org/measurement/20180813T223843Z_AS8048_XsMtNp6XzoS2otdCYdznzZ43U2TxAtpH4ETiKTEqBbGfhH8Rev?input=http:%2F%2Fwww.armando.info)   | [Accessible](https://explorer.ooni.torproject.org/measurement/20180813T223816Z_AS6306_xfdvcNktQis2kD5IxMHdEFKrhcfBZDJCHUW31BaRuCbtCIzQQD?input=http:%2F%2Fwww.armando.info)        | N/A                |
-                                                                                                                                                                       
+
 El Pitazo is an independent news outlet run by Venezuelans that
 [started off](https://elpitazo.com/quienes-somos/) as a YouTube
 channel in 2014, expanded to a radio program, and eventually created a
@@ -842,7 +842,7 @@ The “parasitic reverse traceroute” experiment was designed in the
 following way: a) the client tried to establish 1000+ connections to the
 TCP port of Tor relay, b) both “blocked” and “non-blocked” relays were
 tested, c) the relay was replying with a batch of marked SYN-ACKs with
-varying TTL fields. 
+varying TTL fields.
 
 The following chart summarizes the percentage of
 replies from specific routers and latency to them. It highlights that
@@ -928,4 +928,3 @@ Venezuela’s political and economic environment is fragile and as events
 unfold, its internet censorship apparatus may evolve. Continuing to
 monitor censorship events in Venezuela is therefore essential. This
 study can be reproduced and expanded upon through the use of [OONI Probe](https://ooni.torproject.org/install/) and [OONI data](https://api.ooni.io/files/by_country/VE).
-
