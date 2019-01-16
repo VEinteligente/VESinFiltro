@@ -10,7 +10,7 @@ author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
 
-Desde la mañana del sábado 12 de Enero de 2018 hasta la mañana del lunes 14 de Enero los usuarios de CANTV tuvieron dificultades para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos.
+Desde la mañana del sábado 12 de Enero de 2018 hasta la mañana del lunes 14 de Enero los usuarios de CANTV tuvieron dificultades para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
 
 El bloqueo ocurrió luego de ediciones a varios artículos de wikipedia haciendo referencia a Juan Guaidó y la presidencia de la República Bolivariana de Venezuela. El artículo de Juan Guaidó, Presidente de la Asamblea Nacional (parlamento) llegó a nombrarlo Presidente de la República, entre otros cambios controversiales. Imágenes de su artículo se volvieron virales en Venezuela y la guerra de ediciones fue cubierta por la prensa nacional.
 
