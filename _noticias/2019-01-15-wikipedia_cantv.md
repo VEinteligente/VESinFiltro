@@ -26,7 +26,7 @@ Pruebas de [publicadas en Ooni Explorer](https://explorer.ooni.torproject.org/me
 
 Intentos de conexión a wikipedia suelen fallar en el _handshake_ TLS, pero cuando la sesión TLS se establece exitosamente, por la razón que fuese, se puede navegar la página durante esa sesión del navegador. 
 
-Ejemplo
+Ejemplo de múltiples pruebas:
 ```shell
 $ curl -v https://es.wikipedia.org
 * Rebuilt URL to: https://es.wikipedia.org/
@@ -50,7 +50,7 @@ Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake
 
 Para probar que el bloqueo funciona únicamente filtrado se hacía según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conexta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hya bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
 
-Ejemplo:
+Ejemplo de múltiples pruebas:
 ```shell
 * Rebuilt URL to: https://www.wikipedia.org/
 * Connecting to hostname: www.kernel.org
@@ -74,5 +74,8 @@ Adicionalmente se realizaron pruebas conectandose a Wikipedia mediante SNI encri
 
 Pudimos verificar con la técnica de internar un handshake TLS a terceros servidores que el filtrado SNI ocurre para cualquier * wikipedia.org, abarcando todas las ediciones de wikipedia pero tambien dominios que no se están usando como foo.wikipedia.org y cualquiercosawikipedia.org. Técnicamente el bloqueo estaría afectando cualquier otro sitio, si exitistiera, con un dominio que termine en wikipedia.org.
 
-
 ![Cover image](/res/post_img/2019-01-15-wikipedia.png)
+
+### Agradecimientos
+Agradecemos a Ooni por su platforma y software, que hemos usado de diversas maneras en multiples estudios por años
+
