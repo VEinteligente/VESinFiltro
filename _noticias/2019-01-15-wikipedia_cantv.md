@@ -27,7 +27,7 @@ Pruebas de [publicadas en Ooni Explorer](https://explorer.ooni.torproject.org/me
 Intentos de conexión a wikipedia suelen fallar en el _handshake_ TLS, pero cuando la sesión TLS se establece exitosamente, por la razón que fuese, se puede navegar la página durante esa sesión del navegador. 
 
 Ejemplo
-'''shell
+```shell
 $ curl -v https://es.wikipedia.org
 * Rebuilt URL to: https://es.wikipedia.org/
 *   Trying 208.80.154.224...
@@ -44,14 +44,14 @@ $ curl -v https://es.wikipedia.org
 * stopped the pause stream!
 * Closing connection 0
 curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to es.wikipedia.org:443
-'''
+```
 
 Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake_, _Client Hello_. Pero sí se pudo establercer una connexión TCP con el servidor, el bloqueo parecía ser en la capa de aplicación impidiendo la sesión TLS. Esto coincide con la expeiencia de usuarios en sus navegadores web, si la sesión TLS se establece por cualquier vía el usuario puede navegar en Wikipedia.
 
 Para probar que el bloqueo funciona únicamente filtrado se hacía según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conexta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hya bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
 
 Ejemplo:
-'''shell
+```shell
 * Rebuilt URL to: https://www.wikipedia.org/
 * Connecting to hostname: www.kernel.org
 *   Trying 147.75.58.133...
@@ -68,7 +68,7 @@ Ejemplo:
 * stopped the pause stream!
 * Closing connection 0
 curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.wikipedia.org:443
-'''
+```
 
 Adicionalmente se realizaron pruebas conectandose a Wikipedia mediante SNI encriptado (ESNI), que transmite el nombre del servidor solicitado de forma encryptada, y terceros como el ISP no pueden leer.
 
