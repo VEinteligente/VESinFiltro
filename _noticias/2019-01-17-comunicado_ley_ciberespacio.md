@@ -6,7 +6,7 @@ small: Comunicado: Frente a la Ley del Ciberespacio
 excerpt: La Ley Constitucional del Ciberespacio justifica y expande aún más los poderes del gobierno para controlar y vigilar el uso de internet sin contrapesos institucionales.
 permalink: /noticias/comunicado_ley_ciberespacio/
 date:   2019-01-17 01:00:00 -0400
-categories: advocacy
+categories: bloqueos
 image: no
 ---
 
