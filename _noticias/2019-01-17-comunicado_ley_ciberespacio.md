@@ -53,3 +53,4 @@ El anteproyecto presenta una grave amenaza a los derechos fundamentales de todos
 * Raisa Urribarri 
 * Andrés Cañizález - Profesor universitario y periodista.
 * Luis Carlos Diaz Vazquez - Periodista
+* Iván Méndez - Periodista
