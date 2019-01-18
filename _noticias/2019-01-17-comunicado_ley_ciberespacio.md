@@ -48,8 +48,23 @@ El anteproyecto presenta una grave amenaza a los derechos fundamentales de todos
 * Redes Ayuda
 * Espacio Público
 * Humano Derecho
+* Hiperderecho
+* Alfa-Redi
+* PEN Venezuela
+* IPANDETEC
+* Comité por una Radiotelevisión de Servicio Público
+* OBSERVACOM
+* Dirección de Telecomunicaciones y Servicios. Universidad de Los Andes.
+* Ipys Venezuela
+* Open Net Korea
+* League of African bloggers and cyberactivists for democracy – AFRICTIVISTES
 
 * Raisa Urribarri 
 * Andrés Cañizález - Profesor universitario y periodista.
 * Luis Carlos Diaz Vazquez - Periodista
 * Iván Méndez - Periodista
+* Antonio Pasquali
+* Marcelino Bisbal
+* Luis Núñez – Universidad de Los Andes
+* Jesús Urbina – Dirección general de Comunicación de la Universidad del Zulia.
+* Moraima Guanipa, periodista y docente universitaria.
