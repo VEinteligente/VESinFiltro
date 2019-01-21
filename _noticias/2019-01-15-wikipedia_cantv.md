@@ -12,6 +12,8 @@ author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 
 Desde la mañana del sábado 12 de Enero de 2018, los usuarios de CANTV han tendio para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
 
+Actualización 2019-01-19: El bloqueo culminó el viernes 18 de Enero.
+
 El bloqueo ocurrió luego de ediciones a varios artículos de wikipedia haciendo referencia a Juan Guaidó y la presidencia de la República Bolivariana de Venezuela. El artículo de Juan Guaidó, Presidente de la Asamblea Nacional (parlamento) llegó a nombrarlo Presidente de la República, entre otros cambios controversiales. Imágenes de su artículo se volvieron virales en Venezuela y la guerra de ediciones fue [cubierta por la prensa nacional]().
 
 Análisis técnicos de VEsinFiltro, con colaboración de OONI, y análisis independientementes de NetBlocks han comprobaron la existencia del bloqueo.
