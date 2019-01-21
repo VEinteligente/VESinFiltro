@@ -17,7 +17,7 @@ El bloqueo parece estar motivado por la circulación enredes sociales de videos 
 
 El bloqueo funciona mediante filtrado de _Server Name Indication_ (SNI), impidiendo el handshake TLS; sin embargo el bloqueo no parecía cubrir el 100% del tráfico de CANTV, ocasionalmente el handshake TLS sí lograba efectuarse. Este comportamiento es similar al bloqueo de [Wikipedia del 12 al 18 de Enero](http://vesinfiltro.com/noticias/wikipedia_2019-01/) por CANTV y al bloqueo de algunos medios de comunicación como El Nacional en 2018. También comparte el patrón de funcionamiento inconsistente con el [bloqueo de Tor en 2018](https://vesinfiltro.com/noticias/CANTV_bloquea_Tor_2017-06-26/) analizado por VEsinFiltro junto a OONI en un [reporte publicado el mismo año](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/). VEsinFiltro posee evidencias técnicas de distintos tipos que soportan el caso de bloqueo, además de las [incontables testimonios en Redes Sociales](https://twitter.com/search?q=bloqueado%20cantv&src=typd).
 
-CANTV es por un muy amplio margen el principal proveedor de internet residencial del país. Cualquier bloqueo por CANTV puede ser  una gravísima limitación al ejercicio e los derechos humanos en línea de los venezolanos y venezolanas.
+CANTV es por un muy amplio margen el principal proveedor de internet residencial del país. Cualquier bloqueo por CANTV puede ser  una gravísima limitación al ejercicio de los derechos de los venezolanos y las venezolanas.
 
 Ante el agravamiento de la crisis política venezolana, podemos esperar mayor cantidad de bloqueos esta sem
 
