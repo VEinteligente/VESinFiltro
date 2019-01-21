@@ -10,7 +10,7 @@ author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
 
-Desde la mañana del sábado 12 de Enero de 2018, los usuarios de CANTV han tendio problemas para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
+Desde la mañana del sábado 12 de Enero de 2018, los usuarios de CANTV han tendio problemas para acceder a Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
 
 Actualización 2019-01-19: El bloqueo culminó el viernes 18 de Enero.
 
