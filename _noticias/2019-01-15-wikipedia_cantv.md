@@ -5,7 +5,7 @@ small: El sitio web de todas las ediciones de Wikipedia fue bloqueado por CANTV,
 permalink: /noticias/wikipedia_2019-01/
 date:   2019-01-15 6:30:00 -0400
 categories: bloqueos
-image: /res/post_img/2019-01-15-wikipedia.png
+image: /res/post_img/2019-01-18-wikipedia.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
@@ -78,7 +78,7 @@ Adicionalmente se realizaron pruebas conectandose a Wikipedia mediante SNI encri
 
 Pudimos verificar con la técnica de internar un handshake TLS a terceros servidores que el filtrado SNI ocurre para cualquier * wikipedia.org, abarcando todas las ediciones de wikipedia pero tambien dominios que no se están usando como foo.wikipedia.org y cualquiercosawikipedia.org. Técnicamente el bloqueo estaría afectando cualquier otro sitio, si exitistiera, con un dominio que termine en wikipedia.org.
 
-![Cover image](/res/post_img/2019-01-15-wikipedia.png)
+![Cover image](/res/post_img/2019-01-18-wikipedia.png)
 
 
 ### Agradecimientos
