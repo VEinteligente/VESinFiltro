@@ -10,7 +10,7 @@ author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
 
-Desde la mañana del sábado 12 de Enero de 2018, los usuarios de CANTV han tendio para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
+Desde la mañana del sábado 12 de Enero de 2018, los usuarios de CANTV han tendio problemas para acceder Wikipedia, la enciclopedia libre, en todas sus ediciones por un bloqueo intencional con aparentes motivos políticos. El ha podido ser medido intermitentemente desde entonces.
 
 Actualización 2019-01-19: El bloqueo culminó el viernes 18 de Enero.
 
@@ -48,7 +48,7 @@ $ curl -v https://es.wikipedia.org
 curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to es.wikipedia.org:443
 ```
 
-Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake_, _Client Hello_. Pero sí se pudo establercer una connexión TCP con el servidor, el bloqueo parecía ser en la capa de aplicación impidiendo la sesión TLS. Esto coincide con la expeiencia de usuarios en sus navegadores web, si la sesión TLS se establece por cualquier vía el usuario puede navegar en Wikipedia.
+Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake_, _Client Hello_. Pero sí se pudo establercer una connexión TCP con el servidor, el bloqueo parecía ser en la capa de aplicación impidiendo la sesión TLS. Esto coincide con la experiencia de usuarios en sus navegadores web, si la sesión TLS se establece por cualquier vía el usuario puede navegar en Wikipedia.
 
 ![handshake TLS]
 
