@@ -16,15 +16,15 @@ El bloqueo ocurrió luego de ediciones a varios artículos de wikipedia haciendo
 
 Análisis técnicos de VEsinFiltro, con colaboración de OONI, y análisis independientementes de NetBlocks han comprobaron la existencia del bloqueo.
 
-Nuestro análisis coloca a este bloqueo en la categoría de bloqueo HTTP; específicamente funciona bloqueando los paquetes del _TLS handshake_, neceisario para  establecer una conexión segura con el servidor. El bloqueo se realiza filtrando los paquetes cuyo SNI (Server Name Indication) termina en wikipedia.org. Al impedir que se establezca la conexión segura con el servidor, se impide la navegación a cualquier pagina de Wikipedia. 
+Nuestro análisis coloca a este bloqueo en la categoría de bloqueo HTTP; específicamente funciona bloqueando los paquetes del _TLS handshake_, neceisario para  establecer una conexión segura con el servidor. El bloqueo se realiza filtrando los paquetes cuyo SNI (Server Name Indication) termina en wikipedia.org. Al impedir que se establezca la conexión segura con el servidor, se impide la navegación a cualquier pagina de Wikipedia.
 
 Similar a otros bloqueos en 2018, el bloqueo no fue uniformemente efectivo, con una tasa de conexiones bloqueadas que varió durante la vida del mismo. El bloqueo sólo fue detectable en CANTV, el proveedor de internet estatal que además maneja la gan mayoría de las conexiones residenciales a internet.
 
 ## Detalles del análisis técnico
 
-Pruebas de [publicadas en Ooni Explorer](https://explorer.ooni.torproject.org/measurement/20190113T203747Z_AS8048_zmgCmhj2SnRKM6utWKbrj2GHz9UFtYq5db0nYWIbSJzDsHOXWE?input=http://wikipedia.org) muestran que no se puede cargar la página de Wikipedia desde CANTV (ASN 8048) a pesar de haber resuelto DNS correctamente y de establecer conexión TCP con el servidor exitosamente. 
+Pruebas de [publicadas en Ooni Explorer](https://explorer.ooni.torproject.org/measurement/20190113T203747Z_AS8048_zmgCmhj2SnRKM6utWKbrj2GHz9UFtYq5db0nYWIbSJzDsHOXWE?input=http://wikipedia.org) muestran que no se puede cargar la página de Wikipedia desde CANTV (ASN 8048) a pesar de haber resuelto DNS correctamente y de establecer conexión TCP con el servidor exitosamente.
 
-Intentos de conexión a wikipedia suelen fallar en el _handshake_ TLS, pero cuando la sesión TLS se establece exitosamente, por la razón que fuese, se puede navegar la página durante esa sesión del navegador. 
+Intentos de conexión a wikipedia suelen fallar en el _handshake_ TLS, pero cuando la sesión TLS se establece exitosamente, por la razón que fuese, se puede navegar la página durante esa sesión del navegador.
 
 Ejemplo de múltiples pruebas:
 ```shell
@@ -48,7 +48,9 @@ curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to es.wikipedia
 
 Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake_, _Client Hello_. Pero sí se pudo establercer una connexión TCP con el servidor, el bloqueo parecía ser en la capa de aplicación impidiendo la sesión TLS. Esto coincide con la expeiencia de usuarios en sus navegadores web, si la sesión TLS se establece por cualquier vía el usuario puede navegar en Wikipedia.
 
-Para probar que el bloqueo funciona únicamente filtrado se hacía según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conexta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hya bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
+![handshake TLS]
+
+Para probar que el bloqueo funciona únicamente filtrado se hacía según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conecta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hya bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
 
 Ejemplo de múltiples pruebas:
 ```shell
@@ -70,12 +72,12 @@ Ejemplo de múltiples pruebas:
 curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to www.wikipedia.org:443
 ```
 
-Adicionalmente se realizaron pruebas conectandose a Wikipedia mediante SNI encriptado (ESNI), que transmite el nombre del servidor solicitado de forma encryptada, y terceros como el ISP no pueden leer.
+Adicionalmente se realizaron pruebas conectandose a Wikipedia mediante SNI encriptado (ESNI), que transmite el nombre del servidor solicitado de forma encryptada, y terceros como el ISP no pueden leer. Se pudo cargar sin experimentar el bloqueo Wikipedia usando ESNI en Firefox Nightly.
 
 Pudimos verificar con la técnica de internar un handshake TLS a terceros servidores que el filtrado SNI ocurre para cualquier * wikipedia.org, abarcando todas las ediciones de wikipedia pero tambien dominios que no se están usando como foo.wikipedia.org y cualquiercosawikipedia.org. Técnicamente el bloqueo estaría afectando cualquier otro sitio, si exitistiera, con un dominio que termine en wikipedia.org.
 
 ![Cover image](/res/post_img/2019-01-15-wikipedia.png)
 
-### Agradecimientos
-Agradecemos a Ooni por su platforma y software, que hemos usado de diversas maneras en multiples estudios por años
 
+### Agradecimientos
+Agradecemos a Ooni por su platforma y software, que hemos usado de diversas maneras en multiples estudios por años y Simonne Basso por recomendaciones técnicas claves mejorar el análisis.

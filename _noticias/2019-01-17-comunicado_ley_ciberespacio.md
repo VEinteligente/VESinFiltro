@@ -60,6 +60,40 @@ El anteproyecto presenta una grave amenaza a los derechos fundamentales de todos
 * Ipys Venezuela
 * Open Net Korea
 * League of African bloggers and cyberactivists for democracy – AFRICTIVISTES
+* Institute for War and Peace Reporting
+* Public Knowledge
+* Centro de Investigaciones de la Comunicación - UCAB
+* FOPEA
+* IPLEX Costa Rica
+* Instituto Prensa y Libertad de Expresión
+* CENCOS Mexico
+* Ipys Perú
+* Centro de Estudios en Gobernanza de Internet - Facultad de Derecho Universidad San Martín de Porres (CGIUSMP)
+* Internet Society, Capítulo Honduras
+* Red de Desarrollo Sostenible Honduras
+* Fundamedios
+* Le Biklab
+* Observatorio de Derechos Humanos de la Universidad de Los Andes
+* Epikeia OUDH
+* Electronic Frontier Foundation
+* Sindicato de Periodistas del Paraguay
+* Asociación Nacional de la Prensa de Bolivia (ANP)
+* Brazilian Association of Investigative Journalism (ABRAJI)
+* Creative Commons, Capitulo Venezuela
+* Centro Latinoamericano de Investigaciones Sobre Internet
+* Digital Rights Foundation - Pakistan
+* CAinfo
+* Point of View - India
+* SMEX - Libano
+* Internet Sans Frontières
+* Ubunteam
+* Fundacion Datos Protegidos
+* Fundación Huaira
+* Human Rights Foundation
+* Paradigm Initiative
+* Index on Censorship
+* OpenMedia
+
 
 * Raisa Urribarri
 * Andrés Cañizález - Profesor universitario y periodista.
@@ -70,3 +104,8 @@ El anteproyecto presenta una grave amenaza a los derechos fundamentales de todos
 * Luis Núñez – Universidad de Los Andes
 * Jesús Urbina – Dirección general de Comunicación de la Universidad del Zulia.
 * Moraima Guanipa, periodista y docente universitaria.
+* Nomsa Mlambo
+* Betty Fausta
+* Alejandra Stolk - DTES-ULA
+* Soudeh Rad - Spectrum
+* Kemel Zaidan Maluf - Analista de sistemas
