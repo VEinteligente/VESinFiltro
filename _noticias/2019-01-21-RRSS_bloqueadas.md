@@ -6,7 +6,7 @@ excerpt: El lunes 21 de enero fue documentado cómo Twitter, Youtube e Instagram
 permalink: /noticias/twitter_youtube_instagram_2019-01/
 date:   2019-01-21 14:30:00 -0400
 categories: bloqueos
-image: no
+image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
@@ -22,3 +22,5 @@ CANTV es por un muy amplio marjen el principal proveedor de internet residencial
 Ante el argavamiento de la crisis política venezolana, podemos esperar mayor cantidad de bloqueos esta sem
 
 Detalles del funcionamiento y diagnóstico de este caso son iguales a los del bloqueo de [Wikipedia del 12 al 18 de Enero](http://vesinfiltro.com/noticias/wikipedia_2019-01/). *Este artículo será acutalizado con cualquier nueva información relacionada*
+
+![Cover image](/res/post_img/2019-01-21-RRSS.png)
