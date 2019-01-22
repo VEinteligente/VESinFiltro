@@ -52,7 +52,7 @@ Como se pudo observar que no hubo respuesta al primer mensaje del _TLS handshake
 
 ![handshake TLS]
 
-Para probar que el bloqueo funciona únicamente filtrado se hacía según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conecta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hya bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
+Para probar que el bloqueo funciona únicamente filtrado según el SNI (Server Name Indication), realizamos conexiones a servidores no relacionados con Wikipedia que no estuvieran bloqueados pero haciendo la solicitud pididendo la URL de wikipedia; de esta forma se conecta a un servidor destinto pero el SNI dice "www.wikipedia.org" o similar. Si no hay bloqueo por TLS se recibiría la respuesta del servidor y completarse el handshake aunque el servidor no hospede ese url.
 
 Ejemplo de múltiples pruebas:
 ```shell
