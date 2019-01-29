@@ -4,7 +4,7 @@ title: "From the blocking of Wikipedia to Social Media: Venezuela's Political Cr
 small:  "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
 excerpt: As political tension escalated in Venezuela over the last few weeks, so did internet censorship. Including the bloking of Wikipedia, Twitter, Facebook, Instagram and youtube.
 permalink: /noticias/report-jan-2019/
-date: 2019-01-29 16:00:00 -0400
+date: 2019-01-29 10:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
