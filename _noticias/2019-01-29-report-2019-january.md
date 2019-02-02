@@ -9,6 +9,7 @@ categories: reporte
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
 ---
+#### Joint report by [OONI](http://ooni.torproject.org), [VE sin Filtro](http://vesinfiltro.com), [IPYS Venezuela](http://ipysvenezuela.org) and DFRlab.
 
 As political tension escalated in Venezuela over the last few weeks, so did internet censorship.
 
@@ -95,7 +96,7 @@ IP-based blocking is ruled out by the fact that OONI Probe tests
 successfully connected to the IPs of wikipedia.org, but HTTP(S) requests
 resulted in connection timeouts.
 
-To investigate further, we [collaborated with Venezuela Inteligente on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
+To investigate further, [OONI and Venezuela Inteligente collaborated on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
 curl. We were able to validate the blocking by fingerprinting the [TLS SNI field](https://en.wikipedia.org/wiki/Server_Name_Indication).
 
 In the curl request below, we can see that the connection aborted after
@@ -293,7 +294,7 @@ the crisis, used by independent news organizations and by public figures
 for their announcements. Venezuela Inteligente also
 [reported](https://twitter.com/vesinfiltro/status/1089883867618652160)
 that Instagram, Youtube, Facebook and Periscope were temporarily blocked
-on 27th January 2019, coinciding with an online statement made by Juan
+on 27th January 2019, also reported by NetBlocks, coinciding with an online statement made by Juan
 Guaidó.
 
 # What happened during the protests?
@@ -326,8 +327,7 @@ which may have occurred due to transient network failures.
 
 Alternatively, the Google anomalies might have been triggered by the
 blocking of *some* Google IPs, particularly since the only anomalous
-measurements present TCP/IP anomalies. No [major internet disruption](https://netblocks.org/reports/major-internet-disruptions-in-venezuela-amid-protests-4JBQ2kyo)
-appears to have occurred.
+measurements present TCP/IP anomalies. Analysis by OONI of this anomalies suggests no critical internet disruption appears to have occurred.
 
 This is further corroborated by [Google traffic data](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1546300800000;end:1548374400000;product:1;region:VE&lu=fraction_traffic),
 illustrated below, which shows that traffic originating from Venezuela
