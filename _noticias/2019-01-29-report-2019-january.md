@@ -294,7 +294,7 @@ the crisis, used by independent news organizations and by public figures
 for their announcements. Venezuela Inteligente also
 [reported](https://twitter.com/vesinfiltro/status/1089883867618652160)
 that Instagram, Youtube, Facebook and Periscope were temporarily blocked
-on 27th January 2019, coinciding with an online statement made by Juan
+on 27th January 2019, also reported by NetBlocks, coinciding with an online statement made by Juan
 Guaidó.
 
 # What happened during the protests?
