@@ -96,7 +96,7 @@ IP-based blocking is ruled out by the fact that OONI Probe tests
 successfully connected to the IPs of wikipedia.org, but HTTP(S) requests
 resulted in connection timeouts.
 
-To investigate further, we [collaborated with Venezuela Inteligente on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
+To investigate further, [OONI and Venezuela Inteligente collaborated on some manual testing](https://vesinfiltro.com/noticias/wikipedia_2019-01/), using
 curl. We were able to validate the blocking by fingerprinting the [TLS SNI field](https://en.wikipedia.org/wiki/Server_Name_Indication).
 
 In the curl request below, we can see that the connection aborted after
