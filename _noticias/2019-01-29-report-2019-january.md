@@ -327,8 +327,7 @@ which may have occurred due to transient network failures.
 
 Alternatively, the Google anomalies might have been triggered by the
 blocking of *some* Google IPs, particularly since the only anomalous
-measurements present TCP/IP anomalies. No [major internet disruption](https://netblocks.org/reports/major-internet-disruptions-in-venezuela-amid-protests-4JBQ2kyo)
-appears to have occurred.
+measurements present TCP/IP anomalies. Analysis by OONI of this anomalies suggests no critical internet disruption appears to have occurred.
 
 This is further corroborated by [Google traffic data](https://transparencyreport.google.com/traffic/overview?fraction_traffic=start:1546300800000;end:1548374400000;product:1;region:VE&lu=fraction_traffic),
 illustrated below, which shows that traffic originating from Venezuela
