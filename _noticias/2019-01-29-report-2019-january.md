@@ -9,6 +9,7 @@ categories: reporte
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
 ---
+#### Joint report by [OONI](http://ooni.torproject.org), [VE sin Filtro](http://vesinfiltro.com), [IPYS Venezuela](http://ipysvenezuela.org) and DFRlab.
 
 As political tension escalated in Venezuela over the last few weeks, so did internet censorship.
 
