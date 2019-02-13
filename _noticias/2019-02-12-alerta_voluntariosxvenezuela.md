@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "ALERTA: CANTV impulsa phishing contra plataforma voluntarios X Venezuela, poniendo en riego a disidentes y opositores."
+title:  "ALERTA: CANTV impulsa phishing contra plataforma de voluntariado, poniendo en riego a disidentes y opositores."
 small:  "VALERTA: CANTV impulsa phishing contra plataforma de voluntarios"
 excerpt: Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV
 permalink: /noticias/alerta-phishing_voluntariado/
 date:   2019-02-12 17:20:00 -0400
 categories: bloqueos
-image:
+image: /res/post_img/2019-02-12-alerta.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
 ---
 
@@ -32,4 +32,9 @@ Es sumamente importante reconocer el URL (dirección) del sitio que uno esta vis
 
 Los administradores de sitios similares deben asegurarse de colocar certificados SSL y usar DNSsec para minimizar las probabilidades de éxito phishing (engaños dirigidos) a sus usuarios
 
-Para acceder sitios bloqueados o inaccesibles en Venezuela tenemos [estas recomendaciones generales]()
+Para acceder sitios bloqueados o inaccesibles en Venezuela tenemos [estas recomendaciones generales](https://twitter.com/vesinfiltro/status/1088156683317231621)
+
+
+![Cover image](/res/post_img/2019-02-12-alerta.png)
+
+![SSL error](/res/post_img/2019-02-12-alerta-capture.png)
