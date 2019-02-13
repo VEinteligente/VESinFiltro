@@ -26,11 +26,16 @@ Desde tempranas horas de la tarde [hemos estado alertando](https://twitter.com/a
 
 VE sin Filtro publicará mañana un informe más completo de estos hallazgos.
 
+## Actualización 2019-02-13
+
+En horas de la mañana la DNS injection de #CANTV fue levantado y el sitio malicioso fuera de línea, pero podría ser temporal.
+
+
 ## Recomendaciones
 
 Es sumamente importante reconocer el URL (dirección) del sitio que uno esta visitando y asegurarse que haya una conexión segura (HTTPS://) sin errores o alertas de parte del navegador. Si el navegador dice que no es segura, desconfía inmediatamente del sitio.
 
-Los administradores de sitios similares deben asegurarse de colocar certificados SSL, redigirir el traffico http a https y sólo compartir URLS https de sus sitios en comunicaciones oficiales, y usar DNSsec; para minimizar las probabilidades de éxito phishing (engaños dirigidos) a sus usuarios. 
+Los administradores de sitios similares deben asegurarse de colocar certificados SSL, redigirir el traffico http a https y sólo compartir URLS https de sus sitios en comunicaciones oficiales, y usar DNSsec; para minimizar las probabilidades de éxito phishing (engaños dirigidos) a sus usuarios.
 
 Para acceder sitios bloqueados o inaccesibles en Venezuela tenemos [estas recomendaciones generales](https://twitter.com/vesinfiltro/status/1088156683317231621)
 
