@@ -6,7 +6,7 @@ permalink: /noticias/wikipedia_2019-01/
 date:   2019-01-15 6:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-01-18-wikipedia.png
-author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro)"
+author: "Andrés Azpúrua"
 ---
 
 
