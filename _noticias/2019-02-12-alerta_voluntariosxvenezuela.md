@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ALERTA: CANTV impulsa phishing contra plataforma de voluntariado, poniendo en riego a disidentes y opositores."
+title:  "ALERTA: CANTV impulsa phishing contra plataforma de voluntariado, poniendo en riesgo a disidentes y opositores."
 small:  "VALERTA: CANTV impulsa phishing contra plataforma de voluntarios"
 excerpt: Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV
 permalink: /noticias/alerta-phishing_voluntariado/
