@@ -111,7 +111,7 @@ y organismos como Freedom House catalogan el [internet de Venezuela
 como no
 libre](http://freedomhouse.org/report/freedom-net/2018/venezuela).
 
-Como respuesta a la crisis humanitaria, y en muestra de apoyo al gobierno interino, 
+Como respuesta a la crisis humanitaria, y en muestra de apoyo al gobierno interino,
 se han organizado centros de acopio para recibir ayuda
 humanitaria y prepararla para su envío a Venezuela, con el apoyo de
 países como Colombia, Brasil, Chile, Argentina, Costa Rica, Estados
@@ -227,7 +227,7 @@ DNS sobre voluntariosxvenezuela.com y hacerse pasar por ese servidor
 para dar una respuesta forjada.
 
 La intercepción de las solicitudes DNS para enviar una respuesta forjada
-se llama *DNS injection.* El ***DNS injection* puede hacerse a cualquier 
+se llama *DNS injection.* El ***DNS injection* puede hacerse a cualquier
 solicitud DNS a cualquier servidor en internet, inclusive a servidores de
 confianza.** Pudimos observar esto en servidores externos a CANTV, como
 8.8.8.8 de Google y 1.1.1.1 de Cloudflare que deberían dar la respuesta
@@ -792,16 +792,16 @@ en NIC.ve, en CONATEL. (La URL del sitio web se tiene preservada, así como
 los contenidos preservados en servicios de archivo web; pero no se
 publican para cuidar los datos personales de otras personas que se encuentran en los mismos)
 
-![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/14.png)
+![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/14_b.png)
 
-NIC.ve fnciona bajo CONATEL, y es responsable de los dominios en la zona
-del TLD .ve y Gabriel Porco es el encargado de NIC.ve. Su número está
+NIC.ve funciona bajo CONATEL, y es responsable de los dominios en la zona
+del TLD .ve y Gabriel Porco es el encargado de NIC.ve. El número de esa oficina está
 enlazado con un email fachada.
 
 El mecanismo que ha usado NIC.ve previamente para re-adquirir dominios
-ha sido asignándolos a una especie de agujeros negros donde el titular
+ha sido asignándolos a de forma ad-hoc donde el titular
 es NIC VE y el correo asociado es del tipo
-\"[domainer4@nic.ve](mailto:domainer@nic.ve)\". Esto
+"[domainer4@nic.ve](mailto:domainer@nic.ve)". Esto
 puede verse en el whois de dominios recuperados durante procesos de
 censura contra medios de comunicación como ntn24.com.ve,
 vivoplay.com.ve, vpitv.com.ve, entre otros.
@@ -810,13 +810,12 @@ Se realizaron llamadas a este número de teléfono y la persona que respondió
 el número de teléfono asociado con estos registros en primera instancia
 dijo llamarse Gabriel. Luego de hacerse viral el hilo en Twitter con
 todos estos elementos, los registros fueron rápidamente cambiados a un
-número telefónico que envía a un correo de voz
+número telefónico que envía a un correo de voz.
 0212-5554545![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/15.png)
 
-Gabriel Porco trabaja en la operación en de los dominios en el root .ve.
-El correo fachada posiblemente pertenece a él o alguien que trabaja en esa oficina,
-pues se usó ese número de CONATEL para confirmar el email fachada, y
-además tiene la posición en NIC.ve para hacer estos cambios rápidamente;
+El correo fachada posiblemente pertenece probablemente a alguien que trabaja o trabajó en su oficina,
+pues se usó ese número de CONATEL para confirmar el email fachada. Solo alguien
+en NIC.ve podría hacer estos cambios rápidamente;
 cambios que para el resto de los usuarios debe pasar por tickets de
 soporte o emails y tiempos de espera de varias semanas por no haber plataforma automatizada del nic.ve.
 
