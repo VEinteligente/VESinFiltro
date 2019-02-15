@@ -195,7 +195,7 @@ que promueve links al sitio de registro con conexiones http no seguras,
 que facilitan la caída en esta campaña de phishing sin que ocurran mensajes
 de error que induzcan a la sospecha.
 
-El 14 de febrero de 2018 la campaña de phishing fue reactivada
+El 14 de febrero de 2019 la campaña de phishing fue reactivada
 brevemente de 5:00pm a 5:55 aproximadamente, con DNS injection para
 llevar el tráfico al sitio web malicioso, en otra dirección IP.
 
@@ -716,7 +716,7 @@ información en correo electrónico y número telefónico:
 y 0212 909 0597.\
 \
 Las entradas DNS para estos dominios apuntaban, el 13 de febrero de
-2018, al servidor
+2019, al servidor
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/8.jpg)
 
@@ -764,7 +764,7 @@ intentar recuperar la contraseña de la cuenta
 el número telefónico asociado con la cuenta para pasar al siguiente paso
 coincide con el teléfono 0212 9090597.
 
-Al llamar a este teléfono a las 11am del 13 de Febrero de 2018,
+Al llamar a este teléfono a las 11am del 13 de Febrero de 2019,
 respondió una persona que se dijo llamar Gabriel y al preguntarle si
 respondía de una empresa lo negó, al preguntar si era una casa de
 familia respondió \"Esto es CNTI\".
