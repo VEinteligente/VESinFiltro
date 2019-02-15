@@ -16,8 +16,8 @@ author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
 El sitio web voluntariosxvenezuela.com, un portal asociado a la
 oposición venezolana para el registro de voluntarios en la distribución
 de ayuda humanitaria ha sufrido una campaña de phishing impulsada por el
-gobierno. El 12 de febrero de 2018 se detectó que el proveedor de
-servicio de internet CANTV, controlado por el gobierno de Nicolás
+gobierno. El 12 de febrero de 2019 se detectó que el proveedor de
+servicio de internet con el mayor número de usuarios, CANTV, controlado por el gobierno de Nicolás
 Maduro, hacía una redirección de las visitas a otro servidor con un
 sitio web visualmente idéntico, que no es controlado por los
 administradores del sitio legítimo voluntariosxvenezuela.com
