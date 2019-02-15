@@ -159,7 +159,7 @@ Febrero](https://twitter.com/search?f=tweets&vertical=default&q=voluntariovenezu
 malicioso. Destaca [este
 Tweet](https://twitter.com/Wil_Ardilax1/status/1095071269538721793)
 ([archivado](https://web.archive.org/web/20190214143056/https:/twitter.com/Wil_Ardilax1/status/1095071269538721793),
-[2](https://archive.fo/AGjvI)) del usuario \@Wil\_Ardilax1
+[2](https://archive.fo/AGjvI)) del usuario @Wil\_Ardilax1
 a las 5:25pm que contiene el URL al sitio malicioso
 [https://www.voluntariovenezuela.com/index.html\#como-puedo-ayudar](https://www.voluntariovenezuela.com/index.html#como-puedo-ayudar),
 que debió ser copiado y pegado del sitio malicioso. Y un
@@ -167,7 +167,7 @@ que debió ser copiado y pegado del sitio malicioso. Y un
 ([archivado](https://web.archive.org/web/20190214143240/https:/twitter.com/alerodriguez150/status/1095073021939847170),
 [2](https://archive.fo/E1cPd)) del 11 de Febrero a las
 5:32 que pide escribir con cuidado el URL y coloca el dominio falso, en
-respuesta a la cuenta oficial \@voluntariosxve.
+respuesta a la cuenta oficial @voluntariosxve.
 
 A partir de las 10:30am (GMT-4) Se registra en twitter [en
 twitter](https://twitter.com/ZombVE/status/1095329455529091074)
@@ -188,9 +188,9 @@ campaña de phishing fue levantada entre las 2:30am y 7:30am del 13 de
 Febrero.
 
 También existe una cuenta en Twitter
-[\@voluntariosvene](https://web.archive.org/web/20190214175249/https:/twitter.com/voluntariosvene),
+[@voluntariosvene](https://web.archive.org/web/20190214175249/https:/twitter.com/voluntariosvene),
 similar a la cuenta verificada
-[\@voluntariosxve](https://twitter.com/voluntariosxve),
+[@voluntariosxve](https://twitter.com/voluntariosxve),
 que promueve links al sitio de registro con conexiones http no seguras,
 que facilitan la caída en esta campaña de phishing sin mensajes de error
 sospechosos.
@@ -241,72 +241,48 @@ voluntariosxvenezuela.com y voluntariovenezuela.com con DNS de CANTV:
 
 ```
 
-\$ dig voluntariosxvenezuela.com \@200.44.32.12
+$ dig voluntariosxvenezuela.com @200.44.32.12
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@200.44.32.12
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @200.44.32.12
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 47904
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47904
 ;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
 ;; WARNING: recursion requested but not available
-
 ;; OPT PSEUDOSECTION:
 
 ; EDNS: version: 0, flags:; udp: 1280
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 2427 IN A 159.65.65.194
-
 ;; Query time: 32 msec
-
 ;; SERVER: 200.44.32.12\#53(200.44.32.12)
-
 ;; WHEN: Tue Feb 12 17:56:41 -04 2019
-
 ;; MSG SIZE rcvd: 70
 
-\$ dig voluntariovenezuela.com \@200.44.32.12
+$ dig voluntariovenezuela.com @200.44.32.12
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariovenezuela.com \@200.44.32.12
-
+; <<>> DiG 9.10.6 <<>> voluntariovenezuela.com @200.44.32.12
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 33913
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 33913
 ;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
 ;; WARNING: recursion requested but not available
-
 ;; OPT PSEUDOSECTION:
 
 ; EDNS: version: 0, flags:; udp: 1280
-
 ;; QUESTION SECTION:
 
 ;voluntariovenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariovenezuela.com. 126 IN A 159.65.65.194
-
 ;; Query time: 139 msec
-
 ;; SERVER: 200.44.32.12\#53(200.44.32.12)
-
 ;; WHEN: Tue Feb 12 17:56:53 -04 2019
-
 ;; MSG SIZE rcvd: 68
 
 ```
@@ -320,60 +296,40 @@ DNS. Ejemplo de repetidas pruebas:
 
 ```
 
-\$ dig voluntariosxvenezuela.com \@8.8.8.8
+$ dig voluntariosxvenezuela.com @8.8.8.8
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@8.8.8.8
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @8.8.8.8
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 27141
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27141
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 159.65.65.194
-
 ;; Query time: 31 msec
-
 ;; SERVER: 8.8.8.8\#53(8.8.8.8)
-
 ;; WHEN: Tue Feb 12 18:09:33 -04 2019
-
 ;; MSG SIZE rcvd: 84
 
-\$ dig voluntariosxvenezuela.com \@1.1.1.1
+$ dig voluntariosxvenezuela.com @1.1.1.1
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@1.1.1.1
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @1.1.1.1
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 65246
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65246
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 159.65.65.194
-
 ;; Query time: 96 msec
-
 ;; SERVER: 1.1.1.1\#53(1.1.1.1)
-
 ;; WHEN: Tue Feb 12 18:09:40 -04 2019
-
 ;; MSG SIZE rcvd: 84
 
 ```
@@ -381,23 +337,17 @@ voluntariosxvenezuela.com. 327680 IN A 159.65.65.194
 Y a IPs donde no hay servidores DNS, como 185.199.108.153. Ejemplo:\
 ```
 
-\$ dig voluntariosxvenezuela.com \@185.199.108.153
+$ dig voluntariosxvenezuela.com @185.199.108.153
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com
-\@185.199.108.153
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com
+@185.199.108.153
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 65246
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65246
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 159.65.65.194\
@@ -409,123 +359,81 @@ resultados pero con respuesta 134.209.13.64.
 
 ```
 
-dig voluntariosxvenezuela.com \@1.1.1.1
+dig voluntariosxvenezuela.com @1.1.1.1
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@1.1.1.1
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @1.1.1.1
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 26833
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 26833
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 134.209.13.64
-
 ;; Query time: 178 msec
-
 ;; SERVER: 1.1.1.1\#53(1.1.1.1)
-
 ;; WHEN: Thu Feb 14 17:11:30 -04 2019
-
 ;; MSG SIZE rcvd: 84
 
-\$ dig voluntariosxvenezuela.com \@8.8.8.8
+$ dig voluntariosxvenezuela.com @8.8.8.8
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@8.8.8.8
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @8.8.8.8
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 55983
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55983
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 134.209.13.64
-
 ;; Query time: 32 msec
-
 ;; SERVER: 8.8.8.8\#53(8.8.8.8)
-
 ;; WHEN: Thu Feb 14 17:11:36 -04 2019
-
 ;; MSG SIZE rcvd: 84
 
-\$ dig voluntariosxvenezuela.com \@200.44.32.12
+$ dig voluntariosxvenezuela.com @200.44.32.12
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com \@200.44.32.12
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @200.44.32.12
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 55331
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55331
 ;; flags: qr rd ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
-
 ;; WARNING: recursion requested but not available
-
 ;; OPT PSEUDOSECTION:
 
 ; EDNS: version: 0, flags:; udp: 1280
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 1009 IN A 134.209.13.64
-
 ;; Query time: 57 msec
-
 ;; SERVER: 200.44.32.12\#53(200.44.32.12)
-
 ;; WHEN: Thu Feb 14 17:11:40 -04 2019
-
 ;; MSG SIZE rcvd: 70
 
-\$ dig voluntariosxvenezuela.com \@185.199.111.153
+$ dig voluntariosxvenezuela.com @185.199.111.153
 
-; \<\<\>\> DiG 9.10.6 \<\<\>\> voluntariosxvenezuela.com
-\@185.199.111.153
-
+; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com
+@185.199.111.153
 ;; global options: +cmd
-
 ;; Got answer:
-
-;; -\>\>HEADER\<\<- opcode: QUERY, status: NOERROR, id: 57551
-
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57551
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
-
 ;; QUESTION SECTION:
 
 ;voluntariosxvenezuela.com. IN A
-
 ;; ANSWER SECTION:
 
 voluntariosxvenezuela.com. 327680 IN A 134.209.13.64
-
 ;; Query time: 34 msec
-
 ;; SERVER: 185.199.111.153\#53(185.199.111.153)
-
 ;; WHEN: Thu Feb 14 17:12:24 -04 2019
-
 ;; MSG SIZE rcvd: 84
 
 ```
@@ -556,8 +464,8 @@ web original a través del siguiente comentario en el código:
 
 ```
 
-\<!\-- Mirrored from www.voluntariosxvenezuela.com/ by HTTrack Website
-Copier/3.x \[XR&CO\'2014\], Mon, 11 Feb 2019 13:41:27 GMT \--\>
+<!\-- Mirrored from www.voluntariosxvenezuela.com/ by HTTrack Website
+Copier/3.x \[XR&CO\'2014\], Mon, 11 Feb 2019 13:41:27 GMT \-->
 
 ```
 
@@ -565,9 +473,9 @@ Comentario en www.voluntariovenezuela.com
 
 ```
 
-\<!\-- Mirrored from www.voluntariosxvenezuela.com/descargar-kit/ by
+<!\-- Mirrored from www.voluntariosxvenezuela.com/descargar-kit/ by
 HTTrack Website Copier/3.x \[XR&CO\'2014\], Mon, 11 Feb 2019 13:41:34
-GMT \--\>
+GMT \-->
 
 ```
 
@@ -725,7 +633,7 @@ disponibles, exponiendo los siguientes datos de propietario:
 Nombre: Frank Lopez
 
 Correo electrónico:
-[franklopezsystem\@gmail.com](mailto:franklopezsystem@gmail.com)
+[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com)
 
 Empresa: micompraventa
 
@@ -801,13 +709,13 @@ historia de cada uno de esos dominios en
 [securitytrails](https://securitytrails.com/list/ip/159.65.65.194).
 
 Al hacer una búsqueda con la herramienta ReverseWhois para el correo
-electrónico franklopezsystem\@gmail.com se consiguió que habían diversos
+electrónico franklopezsystem@gmail.com se consiguió que habían diversos
 dominios bajo el root .ve que parecían apuntar a similares de redes
 sociales. (Archive del Reverse Whois:
 [archivo](https://archive.fo/eZkhr)). Haciendo comparación
 con los whois de los dominios de interés, todos tenían la misma
 información en correo electrónico y número telefónico:
-[franklopezsystem\@gmail.com](mailto:franklopezsystem@gmail.com)
+[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com)
 y 0212 909 0597.\
 \
 Las entradas DNS para estos dominios apuntaban, el 13 de Febrero de
@@ -855,7 +763,7 @@ de las campañas de phishing con los otros dominios.
 
 Con ayuda de varios investigadores de seguridad, pudimos conocer que al
 intentar recuperar la contraseña de la cuenta
-[franklopezsystem\@gmail.com](mailto:franklopezsystem@gmail.com),
+[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com),
 el número telefónico asociado con la cuenta para pasar al siguiente paso
 coincide con el teléfono 0212 9090597.
 
@@ -894,7 +802,7 @@ enlazado con un email fachada.
 El mecanismo que ha usado NIC.ve previamente para re-adquirir dominios
 ha sido asignándolos a una especie de agujeros negros donde el titular
 es NIC VE y el correo asociado es del tipo
-\"[domainer4\@nic.ve](mailto:domainer@nic.ve)\". Esto
+\"[domainer4@nic.ve](mailto:domainer@nic.ve)\". Esto
 puede verse en el whois de dominios recuperados durante procesos de
 censura contra medios de comunicación como ntn24.com.ve,
 vivoplay.com.ve, vpitv.com.ve, entre otros.
@@ -906,13 +814,12 @@ todos estos elementos los registros fueron rápidamente cambiados a un
 número telefónico que envía a un correo de voz
 0212-5554545![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/15.png)
 
-Esto sugiere que Gabriel Porco es el encargado de la operación en
-asignación de dominios en el root .ve o tiene contacto cercano con quien
-lo sea. El correo fachada probablemente pertenece a él, pues usó el
-número asignado a él en CONATEL para confirmar el email fachada sino que
+Gabriel Porco trabaja en la operación en de los dominios en el root .ve.
+El correo fachada posiblemente pertenece a él o alguien que trabaja en esa oficina,
+pues se usó ese número de CONATEL para confirmar el email fachada y
 además tiene la posición en NIC.ve para hacer estos cambios rápidamente;
 cambios que para el resto de los usuarios debe pasar por tickets de
-soporte o emails y tiempos de espera de varias semanas.
+soporte o emails y tiempos de espera de varias semanas por no haber plataforma automatizada del nic.ve.
 
 Conclusiones
 ============
