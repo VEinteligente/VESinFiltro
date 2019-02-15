@@ -10,8 +10,6 @@ image: /res/post_img/2019-02-15-report.png
 author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
 ---
 
-![Cover image](/res/post_img/2019-02-15-report.png)
-
 ### Resumen Ejecutivo
 
 
@@ -151,6 +149,9 @@ phishing](https://twitter.com/andresAzp/status/1095420751979708417)
 para que tengan cuidado y no otorguen su información privada en el sitio
 falso colocado para engañarlos, así como proveyendo apoyo a distintos
 actores en relación a este incidente.
+
+![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/0.png)
+
 
 Existen menciones en Twitter del dominio falso [desde la tarde del 11
 de
@@ -455,7 +456,7 @@ El servidor hospeda un clon visualmente idéntico al sitio oficial
 VoluntariosXVenezuela.com, clonado a base del código fuente y recursos
 como imágenes.
 
-![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/1.png)
+
 
 El análisis del código HTML que compone a cada sitio muestra las escasas
 diferencias en el código. Pudimos observar que se utilizó
@@ -770,7 +771,7 @@ coincide con el teléfono 0212 9090597.
 Al llamar a este teléfono a las 11am del 13 de Febrero de 2018,
 respondió una persona que se dijo llamar Gabriel y al preguntarle si
 respondía de una empresa lo negó, al preguntar si era una casa de
-familia respondió \"Esto es CNTI\".
+familia respondió "Esto es CNTI".
 
 Sin embargo, una investigación posterior ha conseguido que el número de
 teléfono no corresponde con los rangos que suelen usar desde el CNTI
@@ -812,7 +813,9 @@ el número de teléfono asociado con estos registros, en primera instancia
 dijo llamarse Gabriel. Luego de hacerse viral el hilo en Twitter con
 todos estos elementos los registros fueron rápidamente cambiados a un
 número telefónico que envía a un correo de voz
-0212-5554545![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/15.png)
+0212-5554545
+
+![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/15.png)
 
 Gabriel Porco trabaja en la operación en de los dominios en el root .ve.
 El correo fachada posiblemente pertenece a él o alguien que trabaja en esa oficina,
@@ -928,3 +931,5 @@ persona creía haberse probablemente fue víctima del phishing.
 Ofrecer más información y ayuda.
 
 Por: [Andrés Azpúrua](https://twitter.com/andresAzp), [Carlos Guerra](https://twitter.com/cguerrave), [Jose Luis Rivas](https://twitter.com/joseluisrivas)
+
+![Cover image](/res/post_img/2019-02-15-report.png)
