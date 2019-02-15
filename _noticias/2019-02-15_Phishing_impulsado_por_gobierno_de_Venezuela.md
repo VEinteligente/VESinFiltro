@@ -787,6 +787,8 @@ al rango de teléfonos usados por CONATEL: 0212-909.03.11,
 0212-909.03.47, 0212-909.04.18
 [https://web.archive.org/web/20141024115047/https://www.conatel.gob.ve/index.php/principal/contactos](https://web.archive.org/web/20141024115047/https://www.conatel.gob.ve/index.php/principal/contactos)
 
+Al llamar al número en cuestión en otras oportunidades, pudimos escuchar una mensaje de contestadora automática explicando que estábamos llamando a Conatel.
+
 Así mismo, se pudo conseguir en un sitio web de pasantías de la UNEFA
 Caracas quey montarlo en el éste número telefónico había sido
 referenciado el 15 de Octubre de 2018 por Gabriel Porco para su pasantía
