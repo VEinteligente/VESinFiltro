@@ -1,246 +1,127 @@
 ---
 layout: post
-title: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activistas y usuarios de internet.
-small: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activistas
-excerpt: El sitio web voluntariosxvenezuela.com, asociado a la oposición venezolana para el registro de voluntarios en la distribución de ayuda humanitaria ha sufrido una campaña de phishing impulsada por el gobierno con DNS injection.
-permalink: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/
-date:   2019-02-15 12:00:00 -0400
+title: Phishing by Venezuelan government puts activists and internet users at risk.
+small: Phishing by Venezuelan government puts activists at risk.
+excerpt: "Report: voluntariosxvenezuela.com, a site to register humanitarian aid volunteers, has suffered a state-sponsored phishing campaign empowered by DNS injection."
+permalink: /noticias/Phishing_by_Venezuelan_government_targets_activists/
+date:   2019-02-16 18:00:00 -0400
 categories: bloqueos
-image: /res/post_img/2019-02-15-report.png
+image: /res/post_img/2019-02-15-report_en.png
 author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
 ---
 
-![Cover image](/res/post_img/2019-02-15-report.png)
+This report was originally [published in Spanish on 2019-02-15](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
 
-### Resumen Ejecutivo
+### Executive Summary
 
+The website voluntariosxvenezuela.com, a portal associated with the Venezuelan opposition led by Juan Guaidó, was created to register volunteers interested in helping with the distribution of humanitarian aid. It has become a target of a phishing campaign led by those aligned with the Nicolás Maduro government.
 
-El sitio web voluntariosxvenezuela.com, un portal asociado a la
-oposición venezolana para el registro de voluntarios en la distribución
-de ayuda humanitaria ha sufrido una campaña de phishing impulsada por el
-gobierno. El 12 de febrero de 2019 se detectó que el proveedor de
-servicio de internet con el mayor número de usuarios, CANTV, controlado por el gobierno de Nicolás
-Maduro, hacía una redirección de las visitas a otro servidor con un
-sitio web visualmente idéntico, que no es controlado por los
-administradores del sitio legítimo voluntariosxvenezuela.com
+On February 12, 2019 we detected that CANTV, the largest internet service provider in Venezuela owned by the government of Nicolás Maduro, was redirecting users visiting the website to another server hosting a visually identical malicious website which is not owned or controlled by the legitimate site administrators of voluntariosxvenezuela.com.
 
-El 12 de febrero también se realizó una marcha masiva y un comunicado
-del presidente encargado, acompañado de una campaña para promover que
-las personas se registraran como voluntarios. Se estima que al menos
-decenas de miles de personas pudieron haber entregando sus datos a la
-página fraudulenta dada la magnitud de la movilización, el alcance de la
-campaña y el porcentaje del tráfico de internet que pasa a través de las
-redes de CANTV.
+On the same day, interim President Juan Guaidó launched a massive campaign  encouraging people to register as volunteers. As a result, thanks to the scope and number of people mobilized through the campaign, and the percentage of Internet traffic that passes through CANTV networks, we estimate that tens of thousands of people submitted their data to the malicious cloned website.
 
-A través de pruebas técnicas se pudo verificar que la redirección
-sucedía incluso al usar otros servidores DNS distintos a los de CANTV:
-activamente se monitoreaba el tráfico y se falsificaban respuestas ante
-las solicitudes de los usuarios. La investigación también vinculó
-directamente a CONATEL (Instituto regulador de las comunicaciones en
-Venezuela) con el registro del dominio falso. También se consiguieron
-múltiples dominios adicionales muy similares a dominios de redes
-sociales y sitios web populares, que podrían haberse usado o usarse en
-un futuro para campañas de phishing para -por ejemplo- capturar
-credenciales de cuentas.
+We were able to verify that the redirection to the malicious website happened even when using DNS servers that were not CANTV servers (for example, when using Google’s 8.8.8.8 or Cloudflare/APNIC’s 1.1.1.1); traffic was actively monitored and CANTV gave falsified DNS responses to user requests. Our research also directly linked CONATEL, Venezuela’s regulatory institute for communications, with the registration of the false domain. In addition, our research also discovered multiple domains that are similar to social media sites and popular websites that could be used in future phishing campaigns (or have been used already) to collect user data.
 
-Todo estos nuevos desarrollos son muy preocupantes porque apuntan a un
-aumento de la sofisticación de los ataques, y además los vinculan
-directamente al gobierno disputado de Nicolás Maduro. Aumenta
-drásticamente la necesidad de tomar medidas para evitar caer en esta o
-campañas similares de phishing, tanto desde el punto de vista de los
-usuarios como de los administradores de sitios web.
+These developments are worrying because they point to an increased sophistication in digital attacks linked to and originating from the government of Nicolás Maduro. This dramatically increases the need for both users and website administrators to take preventative measures to avoid falling into this type or similar phishing campaigns.
 
-### Índice
+### Index
 
 
-* [Contexto](#contexto)
+* [Context](#context)
 
-* [Bloqueo y phishing a
-VoluntariosXVenezuela.com](#bloqueo-y-phishing-a-voluntariosxvenezuela.com)
+* [Blocking and phishing of VoluntariosXVenezuela.com](#blocking-and-phishing-of-voluntariosxvenezuela.com)
 
-    - [Spoofing DNS e inyección
-DNS](#spoofing-envenenamiento-e-inyección-dns)
+    - [DNS Spoofing and injection](#dns-spoofing-and-injections)
 
-    - [El sitio malicioso en
-159.65.65.194](#el-sitio-malicioso)
+    - [Malicioso website in
+159.65.65.194](#malicioso-website)
 
-    - [Comportamiento visible a
-usuarios](#comportamiento-visible-a-usuarios)
+    - [What Users Saw and Experienced](#what-users-saw-and-experienced)
 
-    - [Afectación y estatus
-actual](#afectación-y-estatus-actual)
+    - [Affectation and current status](#affectation-and-current-status)
 
-* [Otras campañas de Phishing](#otras-campañas-de-phishing)
+* [Other phishing campaings](#other-phishing-campaigns)
 
-    - [Propietarios del
-servidor](#propietarios-del-servidor-y-dominios)
+    - [Server owners](#server-owners)
 
-* [Conclusiones](#conclusiones)
+* [Conclusions](#conclusions)
 
-* [Recomendaciones](#recomendaciones)
+* [Recomendations](#recommendations)
 
 
 
-Contexto
-========
 
-Venezuela ha vivido una crisis humanitaria compleja en los últimos años
-que ha llevado a millones a emigrar, incluso a pie. [La
-ONU] [estima que más de 3 millones han salido del
-país](https://www.unhcr.org/news/press/2018/11/5be4192b4/number-refugees-migrants-venezuela-reaches-3-million.html).
-A esta situación se le suma en enero de 2019 una [grave crisis de
-legitimidad](http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019),
-al estar en entredicho la legitimidad de Nicolás Maduro como Presidente
-luego de proclamarse el Presidente de la Asamblea Nacional, Juan Guaidó,
-como Presidente interino de Venezuela.
 
-La crisis de legitimidad ha sido el detonante de una ola de bloqueos en
-internet mucho más tácticos usando herramientas como filtrado por SNI.
-Esta nueva ola de bloqueos comenzó con el [bloqueo de
-Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/)
-cuando reflejó a Juan Guaidó como Presidente de Venezuela, y se ha
-enfocado en silenciar los discursos públicos que son transmitidos vía
-streaming. [El bloqueo de las plataformas con
-streaming](http://vesinfiltro.com/noticias/report-jan-2019/#blocking-of-instagram-twitter-and-youtube)
-es de particular importancia en el contexto venezolano, donde se tiene
-una [hermética censura en los medios
-tradicionales](https://rsf.org/en/venezuela). Hemos
-reportado múltiples casos de bloqueos incluyendo el [bloqueo de Tor en
-2018](http://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/),
-y organismos como Freedom House catalogan el [internet de Venezuela
-como no
-libre](http://freedomhouse.org/report/freedom-net/2018/venezuela).
 
-Como respuesta a la crisis humanitaria, y en muestra de apoyo al gobierno interino,
-se han organizado centros de acopio para recibir ayuda
-humanitaria y prepararla para su envío a Venezuela, con el apoyo de
-países como Colombia, Brasil, Chile, Argentina, Costa Rica, Estados
-Unidos y los Países Bajos entre otros. La gran mayoría no ha podido
-entrar por impedimento del Gobierno de Venezuela. La oposición
-venezolana ha organizado un movimiento de voluntarios para ayudar en la
-logística y distribución de la ayuda humanitaria, a través del sitio web
-[voluntariosxvenezuela.com](https://voluntariosxvenezuela.com/)
+Context
+Venezuela has experienced a complex humanitarian crisis in recent years that has led millions of Venezuelans seeking refugee in other countries, even fleeing Venezuela by foot. [The UN estimates that more than 3 million Venezuelan refugees have fled the country] (https://www.unhcr.org/news/press/2018/11/5be4192b4/number-refugees-migrants-venezuela-reaches-3-million.html).
 
-Bloqueo y phishing a VoluntariosXVenezuela.com
+In addition, in January 2019 the world witnessed a Venezuelan presidential crisis - the legitimacy of Nicolás Maduro as President was questioned after Juan Guaidó was proclaimed the President of the National Assembly and Interim President of Venezuela  (http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019).
+
+The presidential crisis has triggered a wave of internet censorship that has been much more tactical, using tools such as SNI filtering. The first blocking occured with the
+[blocking of Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/) when various articles began referring to Juan Guaidó as President of Venezuela, and has focused on silencing public debates that are transmitted via streaming.  
+[The blocking of streaming platforms](http://vesinfiltro.com/noticias/report-jan-2019/#blocking-of-instagram-twitter-and-youtube) is particularly important in the Venezuelan context where there is a near  
+[complete censorship of traditional media](https://rsf.org/en/venezuela). We have reported multiple cases of blocking including the [blocking of Tor in
+2018](http://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/), and entities like Freedom House classify [internet in Venezuela as not free.](http://freedomhouse.org/report/freedom-net/2018/venezuela).
+
+In response to the humanitarian crisis, and in support of the interim government,
+collection centers have been created in various countries to collect aid to ship to Venezuela, including in places like Colombia, Brazil, Chile, Argentina, Costa Rica, The United States, and the Netherlands among others. However, the Maduro government has impeded this humanitarian aid from entering the country.  As a result, the Venezuelan opposition led by Juan Guaidó organized a movement of volunteers to help with the logistics and distribution of this humanitarian aid using the website
+[voluntariosxvenezuela.com] (https://voluntariosxvenezuela.com/) for coordination.
+
+
+Blocking and phishing of VoluntariosXVenezuela.com
 ==============================================
 
-Hemos identificado y analizado una campaña sofisticada de phishing
-contra venezolanos que deseen registrarse como voluntarios para la
-distribución de ayuda humanitaria, iniciativa asociada directamente a la
-oposición venezolana y promovida por Juan Guaidó.
+We have identified and analyzed a sophisticated phishing campaign against Venezuelans that volunteered to help with the distribution of humanitarian aid through an initiative organized and lead by the Venezuelan opposition lead Juan Guaidó.
 
-**Este grave caso de phishing fue impulsado, al menos en parte, por el
-proveedor de servicio de internet (ISP) estatal de Venezuela, CANTV, y
-su filial móvil Movilnet**. Los usuarios de internet en CANTV y Movilnet
-que intentaban visitar el portal para el registro de voluntarios
-[voluntariosxvenezuela.com](https://voluntariosxvenezuela.com)
-fueron dirigidos a un servidor malicioso que responde a
-voluntariovenezuela.com.
+**This grave phishing campaign was at least in part driven by the state owned internet service provider (ISP) of Venezuela, CANTV, and its mobile subsidiary Movilnet ** Individuals using CANTV and Movilnet who tried to visit the website to register as volunteers at [voluntariosxvenezuela.com](https://voluntariosxvenezuela.com) where directed to a server hosting the malicious website voluntariovenezuela.com (without the s or x).
 
-Esta campaña de phishing utiliza un sitio web virtualmente idéntico al
-original para captar los datos de voluntarios que creían estar registrándose
-en el sitio genuino, y **pudo obtener grandes cantidades de tráfico por
-técnicas sofisticadas de intercepción y spoofing de DNS en la red de
-CANTV/Movilnet.**
+This malicious website used by the phishing campaign was visually identical to the real website, and was used to collect personal information from volunteers, who only submitted their data because they thought they were registering on the real website. The malicious website **obtained a massive amount of traffic from the CANTV/Movilnet net using sophisticated techniques of interception and DNS spoofing**
 
-Es difícil conocer con exactitud el inicio de la campaña de phishing, puesto que es
-posible que el sitio malicioso haya sido puesto en uso antes de el
-spoofing DNS. Desde tempranas horas de la tarde del 12 de febrero hemos
-estado [alertando a los usuarios del
-phishing](https://twitter.com/andresAzp/status/1095420751979708417)
-para que tengan cuidado y no otorguen su información privada en el sitio
-falso colocado para engañarlos, así como proveyendo apoyo a distintos
-actores en relación a este incidente.
+It is difficult to know exactly when the phishing campaign began, since it is
+possible that the malicious website was put to use before DNS spoofing was used. We began [alerting people of the
+phishing campaign] (https://twitter.com/andresAzp/status/1095420751979708417) in the early afternoon of February 12, letting them know that they should not submit personal data to the malicious website, as well as supporting victims who had already done so.
 
-Existen menciones en Twitter del dominio falso [desde la tarde del 11
-de
-febrero](https://twitter.com/search?f=tweets&vertical=default&q=voluntariovenezuela.com%20since%3A2019-02-11%20until%3A2019-02-12&src=typd&lang=en)
-(hora de Venezuela, GMT-4), con usuarios promoviendo el URL del sitio
-malicioso. Destaca [este
-tweet](https://twitter.com/Wil_Ardilax1/status/1095071269538721793)
-([archivado](https://web.archive.org/web/20190214143056/https:/twitter.com/Wil_Ardilax1/status/1095071269538721793),
-[2](https://archive.fo/AGjvI)) del usuario @Wil\_Ardilax1
-a las 5:25pm que contiene el URL al sitio malicioso
-[https://www.voluntariovenezuela.com/index.html\#como-puedo-ayudar](https://www.voluntariovenezuela.com/index.html#como-puedo-ayudar),
-que debió ser copiado y pegado del sitio malicioso. Igualmente, un
-[tweet](https://twitter.com/alerodriguez150/status/1095073021939847170)
-([archivado](https://web.archive.org/web/20190214143240/https:/twitter.com/alerodriguez150/status/1095073021939847170),
-[2](https://archive.fo/E1cPd)) del 11 de Febrero a las
-5:32 que pide escribir con cuidado el URL y enlaza al dominio falso, en
-respuesta a la cuenta oficial @voluntariosxve.
+The malicious site was posted on Twitter [starting in the afternoon of February 11](https://twitter.com/search?f=tweets&vertical=default&q=voluntariovenezuela.com%20since%3A2019-02-11%20until%3A2019-02-12&src=typd&lang=en)
+(Venezuela timezone, GMT-4), by various users promoting it. This [particular tweet stands out](https://twitter.com/Wil_Ardilax1/status/1095071269538721793)
+([archived](https://web.archive.org/web/20190214143056/https:/twitter.com/Wil_Ardilax1/status/1095071269538721793),
+[2](https://archive.fo/AGjvI)) by user @Wil\_Ardilax1, sent out at 5:25pm(GMT-4), and contains the URL of the malicious website [https://www.voluntariovenezuela.com/index.html\#como-puedo-ayudar](https://www.voluntariovenezuela.com/index.html#como-puedo-ayudar) - we suspect he probably copied the link directly from the website and pasted into his post. In addition, a [tweet](https://twitter.com/alerodriguez150/status/1095073021939847170)
+([archived](https://web.archive.org/web/20190214143240/https:/twitter.com/alerodriguez150/status/1095073021939847170),
+[2](https://archive.fo/E1cPd)) from February 11 at 5:32pm(GMT-4), responding to  @voluntariosxve, asks that people take care in writing the URL correctly, and then links to the malicious website.
 
-A partir de las 10:30am (GMT-4) se registra [en
+From 10:30am(GMT-4) one of the first complaints consistent with DNS spoofing  of [voluntariosxvenezuela.com](https://voluntariosxvenezuela.com), is registered [on
 Twitter](https://twitter.com/ZombVE/status/1095329455529091074)
-([archivado](https://web.archive.org/web/20190214145414/https:/twitter.com/ZombVE/status/1095329455529091074),
-[2](https://archive.fo/YKtC6)) una de las primeras quejas
-consistentes en el spoofing DNS del sitio
-[voluntariosxvenezuela.com](https://voluntariosxvenezuela.com), y
-otras claras
-[referencias](https://twitter.com/josraf/status/1095385577946599424)
-([archivado](https://web.archive.org/web/20190214145250/https:/twitter.com/josraf/status/1095385577946599424),
-[2](https://archive.fo/hfqek)) al incidente aparecen
-posteriormente.
+([archived](https://web.archive.org/web/20190214145414/https:/twitter.com/ZombVE/status/1095329455529091074),
+[2](https://archive.fo/YKtC6)), as well as other clear
+[references](https://twitter.com/josraf/status/1095385577946599424)
+([archived](https://web.archive.org/web/20190214145250/https:/twitter.com/josraf/status/1095385577946599424),
+[2](https://archive.fo/hfqek)) to the incident appear later.
 
-Se puede estimar que la campaña de phishing comenzó el 11 de febrero a
-las 5:25 pm (GMT-4), y probablemente comenzó a efectuarse spoofing DNS
-el 12 de febrero a las 10:30 am. Mediciones realizadas apuntan a que la
-campaña de phishing fue levantada entre las 2:30am y 7:30am del 13 de
-febrero.
+We can estimate that the phishing campaign began on February 11 at 5:25pm (GMT-4), and DNS spoofing began on February 12 around 10:30am.
+Our measurements indicate that the phishing campaign was lifted between 2:30 am and 7:30 am February 13.
 
-También existe una cuenta en Twitter
-[@voluntariosvene](https://web.archive.org/web/20190214175249/https:/twitter.com/voluntariosvene),
-similar a la cuenta verificada
-[@voluntariosxve](https://twitter.com/voluntariosxve),
-que promueve links al sitio de registro con conexiones http no seguras,
-que facilitan la caída en esta campaña de phishing sin que ocurran mensajes
-de error que induzcan a la sospecha.
+There is also an account on Twitter,
+[@voluntariosvene](https://web.archive.org/web/20190214175249/https:/twitter.com/voluntariosvene), that is similar to the verified account [@voluntariosxve](https://twitter.com/voluntariosxve), that was promoting links to the site with unsafe HTTP connections, which facilitates users falling victim to the phishing campaign without receiving any warning or error messages from their browser that may trigger a user to be suspicious or cautious of the website.
 
-El 14 de febrero de 2018 la campaña de phishing fue reactivada
-brevemente de 5:00pm a 5:55 aproximadamente, con DNS injection para
-llevar el tráfico al sitio web malicioso, en otra dirección IP.
+On February 14, the phishing campaign was reactivated briefly between 5:00 to 5:55pm, the malicious site was online with a different IP and CANTV restarted DNS injection of any DNS request to send traffic to the malicious.
 
-Spoofing, envenenamiento e inyección DNS
-----------------------------------------
+Spoofing, poisoning and DNS injection
 
-Los navegadores de internet utilizan servidores DNS (sistema de nombres
-de dominio) para traducir el nombre de un sitio web, como dominio.com, a
-una dirección IP que se usará para conectarse con el servidor deseado.
-El spoofing DNS es una familia de técnicas en las que se entrega al
-equipo del usuario una respuesta DNS no genuina, y de esta forma el
-equipo no puede contactar al destino deseado o contacta otro distinto.
+Internet browsers use DNS servers (Domain Name System) to translate the name of a website, such as example.com, to an IP address that will be used to connect to the desired server. Essentially, this what allows you to use your web browser to find or “visit” web sites.  DNS spoofing is a family of techniques that allows for corrupt DNS data to be introduced, causing the server to return an incorrect result, such as the wrong IP address. As a result, the user cannot visit their desired website or is sent to another website that they did not request.  
 
-El 12 de febrero todo el tráfico saliente DNS fue inspeccionado y
-cualquier solicitud por el IP asociado a voluntariosxvenezuela.com es
-respondida indicando la dirección IP 159.65.65.194, la dirección IP del
-servidor que hospeda el sitio malicioso y que claramente no coincide con
-el [rango de
-IPs](https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
-de voluntariosxvenezuela.com hospedado en AWS. Adicionalmente, la
-respuesta es la misma para las respuestas de los servidores DNS de
-CANTV. Se desconoce si este ip fue configurado en los servidores de
-CANTV o si su caché (memoria temporal) fue \"envenenado\" el consultar
-el servidor autoritativo y ser afectado también el DNS injection.
+On February 12 all outgoing DNS traffic was inspected and any request for the IP address associated with voluntariosxvenezuela.com was returned with the IP address of the malicious site,159.65.65.194, and clearly does not match the [range of
+IPs of the real site] (https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
+ voluntariosxvenezuela.com, which is hosted at AWS.  Additionally, the IP address of the malicious site is also returned by the DNS servers of
+CANTV. It is unknown if this IP was configured in the CANTV servers or if its caches (temporary memory) were \ "poisoned \" and were also affected by the  malicious DNS injection.
 
-Hay equipos sofisticados que fueron configurados para inspeccionar la
-totalidad o casi totalidad del tráfico y detectar cualquier solicitud
-DNS sobre voluntariosxvenezuela.com y hacerse pasar por ese servidor
-para dar una respuesta forjada.
+Sophisticated equipment was configured by the malicious actors to inspect all (or almost all) of the traffic to detect any DNS request on volunteersxvenezuela.com and then impersonate that server to give a fake response. This is called DNS injection.
 
-La intercepción de las solicitudes DNS para enviar una respuesta forjada
-se llama *DNS injection.* El ***DNS injection* puede hacerse a cualquier
-solicitud DNS a cualquier servidor en internet, inclusive a servidores de
-confianza.** Pudimos observar esto en servidores externos a CANTV, como
-8.8.8.8 de Google y 1.1.1.1 de Cloudflare que deberían dar la respuesta
-verdadera, y al hacer solicitudes DNS a servidores DNS inexistentes que
-no deberían generar respuesta, en todos los casos se obtuvo la misma
-respuesta.
+  **DNS injection can be done to any DNS request to any server on the Internet, including trusted servers.**  We were able to observe this phenomena happening even when using servers external to CANTV, such as 8.8.8.8 from Google and 1.1.1.1 from Cloudflare. Even when we sent requests to non-existent DNS servers, the same fake IP address was returned.
 
-Se corrieron numerosas pruebas para obtener el IP de
-voluntariosxvenezuela.com y voluntariovenezuela.com con DNS de CANTV:
-200.44.32.12, en todos los casos la respuesta es 159.65.65.194
+We ran several tests to obtain the IP address of voluntariosxvenezuela.com and voluntariovenezuela.com with the CANTV DNS:
+200.44.32.12. In every case, the response was 159.65.65.194
 
 ```
-
 $ dig voluntariosxvenezuela.com @200.44.32.12
 
 ; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @200.44.32.12
@@ -286,13 +167,10 @@ voluntariovenezuela.com. 126 IN A 159.65.65.194
 ;; MSG SIZE rcvd: 68
 
 ```
-
-Adicionalmente se probó repetidamente cómo la respuesta seguía siendo
-inconsistente con el rango de [IPs genuino de
+Additionally, we repeatedly found that the returned IP continued to be inconsistent with the range of [authentic IPs of
 voluntariosxvenezuela.com](https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
-al hacer solicitudes DNS a servidores distintos a los de CANTV, como
-8.8.8.8 de Google, 1.1.1.1 de Cloudfare e IPs donde no hay servidores
-DNS. Ejemplo de repetidas pruebas:
+when requests were sent to different CANTV DNS servers, 8.8.8.8 of Google, 1.1.1.1 of Cloudfare, and for IPs where no DNS server existed. The following is an example of these repeated tests:
+
 
 ```
 
@@ -334,7 +212,7 @@ voluntariosxvenezuela.com. 327680 IN A 159.65.65.194
 
 ```
 
-Lo mismo sucede con IPs donde no hay servidores DNS, como 185.199.108.153. Ejemplo:\
+The same occurred with IPs with no DNS servers like 185.199.108.153. For example:\
 ```
 
 $ dig voluntariosxvenezuela.com @185.199.108.153
@@ -353,9 +231,7 @@ $ dig voluntariosxvenezuela.com @185.199.108.153
 voluntariosxvenezuela.com. 327680 IN A 159.65.65.194\
 ```
 
-Durante la breve ventana de tiempo en que el Spoofing DNS, incluyendo
-inyección DNS, estuvo activo el 14 de febrero, se obtuvieron los mismos
-resultados, pero con respuesta 134.209.13.64.
+During a small window on February 14,  DNS spoofing including DNS injection was observed again, the behaviour was the same as before but with DNS queries pointing to 134.209.13.64.
 
 ```
 
@@ -438,223 +314,144 @@ voluntariosxvenezuela.com. 327680 IN A 134.209.13.64
 
 ```
 
-El sitio malicioso
-------------------
 
-El servidor con IP 159.65.65.194 está hospedado en [Digital
-Ocean](https://www.shodan.io/host/159.65.65.194), según lo
-observado en la configuración [DNS del
-dominio](https://securitytrails.com/domain/voluntariovenezuela.com/dns)
-([archived](https://web.archive.org/web/20190215022940/https://securitytrails.com/domain/voluntariovenezuela.com/dns))
-y responde al dominio voluntariovenezuela.com (sin la s y sin x) además
-de voluntariosxvenezuela.com. Tiene un certificado SSL para el dominio
-falso voluntariovenezuela.com y no muestra certificados para el dominio
-genuino.
+The Malicious Site
 
-El servidor hospeda un clon visualmente idéntico al sitio oficial
-VoluntariosXVenezuela.com, clonado a base del código fuente y recursos
-como imágenes.
+The server with the IP of 159.65.65.194 was housed in [Digital
+Ocean](https://www.shodan.io/host/159.65.65.194), according to what was observed in the configuration. [Domain DNS](https://securitytrails.com/domain/voluntariovenezuela.com/dns)
+([archived](https://web.archive.org/web/20190215022940/https://securitytrails.com/domain/voluntariovenezuela.com/dns)) and responds to the domain of
+voluntariovenezuela.com (without the s or x) in addition to
+voluntariosxvenezuela.com. It has a SSL certificate for the fake domain
+voluntariovenezuela.com and does not show a certificate for the real site.
+
+The malicious server hosts a visually identical clone to the official site
+VoluntariosXVenezuela.com, the clone is based on the html source code and and resources, like images.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/1.png)
 
-El análisis del código HTML que compone a cada sitio muestra las escasas
-diferencias en el código. Pudimos observar que se utilizó
-[HTtrack](https://www.httrack.com) para descargar el sitio
-web original a través del siguiente comentario en el código:
+Analysis of the HTML code that makes up each site shows scarce differences in the source code. We noted that [HTtrack](https://www.httrack.com) was used to download the original site thanks to these code comments:
 
 ```
-
 <!\-- Mirrored from www.voluntariosxvenezuela.com/ by HTTrack Website
 Copier/3.x \[XR&CO\'2014\], Mon, 11 Feb 2019 13:41:27 GMT \-->
+```
+Comment on www.voluntariovenezuela.com
 
 ```
-
-Comentario en www.voluntariovenezuela.com
-
-```
-
 <!\-- Mirrored from www.voluntariosxvenezuela.com/descargar-kit/ by
 HTTrack Website Copier/3.x \[XR&CO\'2014\], Mon, 11 Feb 2019 13:41:34
 GMT \-->
-
 ```
+The comment on www.voluntariovenezuela.com/descargar-kit/  suggests the site was downloaded on February 11, 2019, one day before the discovery of the fake site.
 
-Comentario en www.voluntariovenezuela.com/descargar-kit/
+The use of this tool suggests that the real site was not compromised, but rather had to be cloned from what's user accessible, so that it could be setup on another server. The original site doesn't have these lines of comments in its code.
 
-Sugiriendo que el sitio fue descargado el lunes 11 de febrero de 2019,
-un día antes del hallazgo del sitio falso.
+The differences in code are minor, especially on the [initial HTML source
+](https://www.diffchecker.com/7jJKq1oH) (without dynamic changes in the DOM, such as the registration form that loads afterwards). Appreciable differences are whitespace, comments by HTTrack, changes in some URLs so that the malicious site would work and look correctly and, the removal of a Facebook pixel tracking code and the different ways the form submits after it's loaded.
 
-El uso de esta herramienta sugiere que el sitio real no fue
-comprometido, sino más bien tuvo que ser clonado desde las vistas de
-usuario para poder ser configurado en otro servidor. El sitio original
-no posee esta línea en su código.
-
-Las diferencias de código son menores, especialmente en el código [HTML
-inicial](https://www.diffchecker.com/7jJKq1oH) (sin cambios
-dinámicos en el DOM, como el formulario que se carga luego). Las
-diferencias apreciables son espacio en blanco, los comentarios del
-sistema HTTrack, cambios de algunas URLs para que el sitio malicioso
-funcione y muestre el contenido correctamente, remoción de código de
-tracking de Facebook y el funcionamiento del formulario de registro que
-se carga dinámicamente.
-
-Los formularios de registro de ambos sitios son tratados de forma
-diferente, enviando su información a un lugar distinto. En el sitio
-malicioso se envía la información a un script en el mismo servidor
-llamado guardar.php
+The registration forms for both are treated differently, sending the information to different locations. The malicious site sends the information to a PHP script on the same server called guardar.php.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/2.png)
 
-Dirección de envío para el sitio real
+Submission destination on the original site
 (//system.voluntariosxvenezuela.com/venezuela/PublicForm?source=1&jquery=0&geo=4&publicFormGroupClass=col-md-6)
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/3.png)
 
-Dirección de envío para el sitio falso (guardar.php)
+Submission destination on the malicious site (guardar.php)
 
-Al compararlo con el servidor del sitio genuino, se observan mensajes de
-error distintos al ejecutar software de servidor web distinto. Esto se
-pudo apreciar buscando urls inexistentes en ambos sitios. Se recibieron
-respuestas con formatos diferentes, denotando que ambos sitios estaban
-siendo ejecutados en servidores diferentes.
+In comparing the servers, they provided different error messages when trying to load non existing URLs on both sites, indicating that they are running different web server software. The responses had different formats.
 
-El servidor contaba con un certificado SSL expedido por Let\'s Encrypt
-para
+The malicious site had a SSL certificate by Let's Encrypt for
 [www.voluntariovenezuela.com](http://www.voluntariovenezuela.com)
 elaborado en Feb 11 17:38:42 2019 GMT
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/4.png)
 
-Error 404 correspondiente al sitio voluntariosxvenezuela.com (real)
+404 Error corresponding to voluntariosxvenezuela.com (real)
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/5.png)
 
-Error 404 correspondiente al sitio voluntariovenezuela.com (falso)
+404 Error corresponding to voluntariovenezuela.com (malicious)
 
-El servidor del sitio falso
+The server hosting the malicious site
 [www.voluntariovenezuela.com](http://www.voluntariovenezuela.com)
-tuvo la dirección IP 159.65.65.194. Durante la breve reaparición de la
-campaña de phishing el mismo servidor, u otro con el mismo propósito, tuvo
-la dirección IP 134.209.13.64.
+had the IP address 159.65.65.194. During the brief appearance during of the phishing campaign on January 14, the same server or a different one hosting the malicious site with the same purpose, had the IP address 134.209.13.64.
 
-Luego del levantamiento de la campaña, momentáneamente en la
-tarde del 13 de febrero el servidor respondía a ese dominio [solamente
-con](http://web.archive.org/web/20190213223700/http://voluntariovenezuela.com/)
-`{\"status\":\"ok\"}`.
+After the lifting of the phishing campaign momentarily in the afternoon of February 13, the server responded to that domain [only
+with] (http://web.archive.org/web/20190213223700/http://voluntariovenezuela.com/)
+`{" status ":" ok "}`.
 
-Comportamiento visible a usuarios
+
+
+What Users Saw and Experienced
 ---------------------------------
 
-Cuando el usuario de CANTV intentaba navegar al dominio real
-voluntariosxvenezuela.com en una conexión insegura (HTTP) el navegador
-terminaba en el servidor malicioso, que redirige al URL
-www.voluntariovenezuela.com y no hay otro indicio de que haya ocurrido
-algo incorrecto más allá del cambio de URL.
+When CANTV users used an insecure connection (HTTP) to navigated to the real domain Volunteersxvenezuela.com, the browser was redirected, taking users to the malicious site,  www.voluntariovenezuela.com Users had no indication that this had occurred, or that there was something wrong beyond the URL change.
 
-Si un ciudadano accedía mediante una conexión HTTPS el navegador web
-mostraba una alerta indicando la inconsistencia entre el dominio
-navegado voluntariosxvenezuela.com y el del certificado SSL del servidor
-que correspondía al dominio falso.
+
+If users used a secure connection (HTTPS) to navigate to the real domain, they were shown an alert letting them know of the inconsistencies of of navigating to the domain  
+voluntariosxvenezuela.com with an SSL certificate that corresponded to the fake site.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/6.png)
 
-Afectación y estatus actual
+
+Implementation and current status
 ---------------------------
 
-El ataque fue observado desde el 12 de febrero de 2019 y se reportó
-hasta la mañana del día 13 de febrero, coincidiendo el inicio del ataque
-con la marcha convocada por el presidente encargado Juan Guaidó en el
-marco del Día de la Juventud.
+The attack began February 12, 2019 and it was reported until the morning of February 13. The start of the phishing attack coincided with the massive march lead by interim president Juan Guaidó for Youth Day.
 
-Se estima que la campaña activa con spoofing DNS duró desde las 10:30 am
-del 12 de febrero hasta las 4 am del día siguiente. Considerando que
-muchos usuarios habrían de conectarse el 12 de febrero luego de escuchar
-a Juan Guaidó en la marcha de ese día, que algunas importantes cuentas
-de Twitter de la oposición compartieron el link https y no https ese
-día, la predominancia de CANTV en el tráfico de internet y una idea de
-el número de registros en ese día, se puede estimar de forma
-conservadora que el número de afectados en las decenas de miles de
-víctimas del phishing, es posible que sean más.
 
-Es práctica en Venezuela la [discriminación
-política](https://www.derechos.org.ve/opinion/discriminacion-politica-en-venezuela)
-en los [trabajos del sector
-público](http://elestimulo.com/blog/cidh-asegura-que-despidos-por-la-lista-tascon-violan-los-derechos-humanos/) y la [obtención de beneficios
-sociales](https://www.derechos.org.ve/investigacion/los-clap-7-indicios-de-discriminacion-politica).
-Esto ha generado un razonable temor entre los que no están seguros si
-fueron víctimas del phishing o nol. Esto ha producido comparaciones con
-una lista de opositores conocida como la [\"lista
-Tascón\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos),
-derivada de la participación en un proceso político y que se ha usado
-para aplicar discriminación política, y cuya utilización por parte del gobierno fue
-[condenada](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos)
-por la Corte Interamericana de Derechos Humanos.
+We estimate that the DNS spoofing lasted from 10:30 am of February 12, 2019 to 4:00am of February 13, 2019.  On February 12, many users attempted to connect to the site after listening to a speech by Juan Guaidó during the march, and after many highly visible members of the opposition tweeted the link, both HTTP and HTTPS versions. Considering the number of CANTV users and the publicity the website received through various calls to action by Juan Guaido and opposition leaders, we can conservatively estimate that the number of individuals that fell victims to the phishing attack and provided their personal data to the malicious site is in the tens of thousands, and probably much higher than that.
 
-La campaña terminó temprano el 13 de febrero y volvió brevemente en la
-tarde del 14. Las razones detrás de la suspensión de la campaña se
-desconocen, pero posiblemente están relacionadas con el impacto de las
-denuncias sustentadas técnicamente. El cese en el spoofing DNS no
-necesariamente tendría que coincidir con la inaccesibilidad del sitio,
-pero en el incidente han venido de la mano.
+In Venezuela, [political discrimination is common](https://www.derechos.org.ve/opinion/discriminacion-politica-en-venezuela)
+against employees in the [public sector](http://elestimulo.com/blog/cidh-asegura-que-despidos-por-la-lista-tascon-violan-los-derechos-humanos/) and against individuals [recieving social welfare](https://www.derechos.org.ve/investigacion/los-clap-7-indicios-de-discriminacion-politica).
 
-La inaccesibilidad del sitio malicioso pudo ser producida por los
-administradores desactivando el sitio, ataques de denegación de servicio
-(DoS) exitosos de usuarios indignados como reportaron en redes sociales
-el 13 de febrero, o por la bajada exitosa por parte de los proveedores de
-alojamiento.
 
-Para el momento de publicación de este informe ninguno de los dominios
-de phishing descubiertos resuelve a alguna dirección IP.
+As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many who are still unsure if they were victims or not. This incident has been compared to what is known as the [\ "list
+Tascón \ "] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
 
-Otras campañas de phishing
+The phishing campaign ended early on February 13, and re-started briefly again during the afternoon of February 14. It is unclear why the phishing campaign was suspended, but one reason may be because the attack was publicized, with technical evidence backing up the allegations . The cessation in DNS spoofing does not necessarily have to match the inaccessibility of the site, but in this incident they came hand in hand.
+
+There could be many reasons for the inaccessibility of the malicious site, among them include administrators deactivated the site, denial of service attacks (DoS), users successfully complaining on social media about the attack on February 13, or or because the hosting provider disabled the site.
+
+As of the publishing of this report, none of the websites involved in the phishing campaign resolve to any IP address.
+
+
+Other Phishing Campaigns
 ==========================
 
-### Propietarios del servidor y dominios
+### Domain and Server Owners
 
-Se observó que el servidor analizado no tenía ninguna información que
-diera pistas de quién sería el propietario del sitio, además de que este
-estaba alojado en la empresa Digital Ocean.
+The server we analyzed did not have any information or clues as to who owned the site. What we did discover is that it was hosted by Digital Ocean.
 
-Al analizar el dominio voluntariovenezuela.com se observó que tenía
-habilitada protección Whois, por lo que no se pudo obtener información
-sobre la persona y/o empresa que registró el dominio. Sin embargo, al
-indagar sobre otros dominios asociados a la dirección IP correspondiente
-surgieron varios otros presuntamente usados para alojar sitios falsos de
-redes sociales y otros servicios conocidos. Todos estos dominios
-adicionales terminan en .ve, los cuales son arrendados y autorizados por
-el órgano regulador de telecomunicaciones de Venezuela CONATEL.
+Since the domain voluntariovenezuela.com had Whois privacy protection, we were unable to identify who or what company registered the domain. However, when researching other domains associated with the corresponding IP address, we discovered that it housed various fake sites that are malicious clones of popular social media sites and popular websites. All these additional domains end in .ve, which means they are approved and authorized by CONATEL, the telecommunications regulatory body of Venezuela.
 
-Los nuevos dominios encontrados tienen datos de registro Whois
-disponibles, exponiendo los siguientes datos de propietario:
+These fakes sites did have public Whois register information, with the following person being listed as registrant:
 
-Nombre: Frank Lopez
 
-Correo electrónico:
+Name: Frank Lopez
+
+Email
 [franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com)
 
-Empresa: micompraventa
+Company: micompraventa
 
-Dirección: Caracas, 1 VE
+Address: Caracas, 1 VE
 
-Teléfono: 0212-0212-5554545 (Se asume 0212-5554545)
+Phone Number: 0212-0212-5554545 (We assume its 0212-5554545)
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/7.jpg)
 
-Respuesta de whois para gmail.web.ve, uno de los nuevos dominios
-encontrados.
+Reply from Whois to gmail.web.ve, one of the new domains discovered.
 
-Archive con data truncada del whois de google.web.ve:
+Archive with truncated data for Whois of google.web.ve:
 [https://archive.fo/BBnZf](https://archive.fo/BBnZf)\
 \
-Previo a la denuncia al sitio voluntariovenezuela.com, la información
-Whois de todos los dominios coincidían tanto en email como en número
-telefónico del propietario, luego, posteriormente a la publicación en Twitter
-de estos dominios se cambió el número telefónico a 0212-5554545. Sin
-embargo, previamente todos tenían el número que coincide con el que está
-aún registrado en google.web.ve al tiempo de la publicación: 0212-9090597.
 
-Los dominios encontrados en servicios de búsqueda inversa de DNS e
-historia de DNS para el servidor de interés fueron:
+Prior to reporting the site voluntariovenezuela.com, the email and phone number in the Whois information of all the discovered malicious domains matched. After publication of these domains on Twitter, the telephone number in the Whois was changed for almost all the websites from 0212-9090597 to to 212-5554545. Notably, the Whois for the website google.web.ve still has the phone number of 0212-9090597
+
+The Domains found in the reverse lookup services for DNS or DNS history for the servers were:
 
 -   m.facebook.co.ve
 
@@ -698,231 +495,142 @@ historia de DNS para el servidor de interés fueron:
 
 -   voluntariovenezuela.com
 
-Resultado disponible en
+Results available in
 [https://securitytrails.com/list/ip/159.65.65.194](https://securitytrails.com/list/ip/159.65.65.194)
-para el 12 de febrero, antes de publicaciones en redes sociales sobre la
-relación entre los mismos. Esta información sigue disponible en la en la
-historia de cada uno de esos dominios en
+for February 12, before the publication in social media about the relationship between them. This information is still available in the history of every domain in
 [securitytrails](https://securitytrails.com/list/ip/159.65.65.194).
 
-Al hacer una búsqueda con la herramienta ReverseWhois para el correo
-electrónico franklopezsystem@gmail.com se consiguió que habían diversos
-dominios bajo el root .ve que parecían apuntar a similares de redes
-sociales. (Archive del Reverse Whois:
-[archivo](https://archive.fo/eZkhr)). Haciendo comparación
-con los whois de los dominios de interés, todos tenían la misma
-información en correo electrónico y número telefónico:
-[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com)
+
+When we did a search using ReverseWhois for the email franklopezsystem@gmail.com we discovered that there were diverse domains under the root.ve that seem to point to similar social media networks.
+(Archive of Reverse Whois:
+[archivo](https://archive.fo/eZkhr)).
+
+All the discovered domains had the same email and number in their Whois registrant information: [franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com)
 y 0212 909 0597.\
 \
-Las entradas DNS para estos dominios apuntaban, el 13 de febrero de
-2018, al servidor
+
+On February 13, the DNS entries for these domains pointed to server:
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/8.jpg)
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/9.png)
 
-(Capturas de pantalla de las respuestas de dig:
+(Screenshots of the responses to dig:
 [https://twitter.com/joseluisrivas/status/1095691955693150214](https://twitter.com/joseluisrivas/status/1095691955693150214)
-y
+and
 [https://twitter.com/joseluisrivas/status/1095715963138387970](https://twitter.com/joseluisrivas/status/1095715963138387970))
 
-Al revisar el host 159.65.65.194 contra shodan.io, se pudo conseguir que
-había hecho un scan de puertos el 8 de febrero de 2018 y en el puerto 80
-tenía una redirección a twitter.web.ve en una clara campaña de phishing
-(Captura de pantalla en
+When reviewing host 159.65.65.194 against shodan.io, we discovered that on February 8, 2018 a scan of ports was conducted, and port 80 had a redirection to twitter.web.ve for a phishing campaign.
+
+(Screenshot:
 [https://twitter.com/joseluisrivas/status/1095702783880245248](https://twitter.com/joseluisrivas/status/1095702783880245248)).
 
-Los dominios encontrados en su mayoría se corresponden con servicios de
-alto tráfico, y parecen dominios legítimos que pudieron ser usados
-potencialmente para alojar otros sitios falsos en ataques diferentes de
-phishing. Esto es sugerido en
+The discovered domains try to imitate popular and high traffic websites, and are made to look like legitimate domains. They potentially might have been in other phishing attacks. This is suggested in
 [checkphish.ai](https://checkphish.ai/insights/url/1534412032063/33aabce69dc4ba807c062a746bf80289d82884907d3302d9620238421f85eb1d)
-en donde se puede observar como resultado histórico que en el dominio
-accounts.gmail.web.ve se alojó un sitio que imitaba al formulario de
-inicio de sesión de Google.
+where we could observe in the history results that the domain accounts.gmail.web.ve housed a form that imitated a Google sign-in form.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/10.png)
 
-Resultado en checkphish.ai para accounts.gmail.web.ve. Muestra una
-captura web idéntica a un login de Gmail genuino.
+Results in checkphish.ai for accounts.gmail.web.ve., shows a web capture identical to the authentic Gmail web capture.
 
-Con esta evidencia, se establece un enlace claro entre los operadores de
-la campaña de phishing contra voluntariosxvenezuela.com y los operadores
-de las campañas de phishing con los otros dominios.
+With this evidence, there is a clear connection or link established between the operators of the phishing campaign against  voluntariosxvenezuela.com and the operators of other phishing campaigns associated with the fake websites we discovered.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/11.png)
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/12.png)
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/13.png)
 
-### Atribución de las campañas de phishing
+### Attribution of the phishing campaigns
 
-Con ayuda de varios investigadores de seguridad, pudimos conocer que al
-intentar recuperar la contraseña de la cuenta
-[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com),
-el número telefónico asociado con la cuenta para pasar al siguiente paso
-coincide con el teléfono 0212 9090597.
+With the help of various security researchers, we tried to recuperate the password for Gmail account
+[franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com), and found that the number associated with that email account was 0212 9090597.
 
-Al llamar a este teléfono a las 11am del 13 de Febrero de 2018,
-respondió una persona que se dijo llamar Gabriel y al preguntarle si
-respondía de una empresa lo negó, al preguntar si era una casa de
-familia respondió \"Esto es CNTI\".
+We called this phone number at 11am on February 13, 2018, and the person who answered stated their name was Gabriel. When we asked if this number corresponded with a company or a family home, he stated that it did not. He then stated  \"This is CNTI\". (CNTI is the government’s national IT center, part of the Ministry of Popular Power for University Education, Science and Technology)
 
-Sin embargo, una investigación posterior ha conseguido que el número de
-teléfono no corresponde con los rangos que suelen usar desde el CNTI
-sino con los que suelen usar en CONATEL. En el footer de la página web
-de CONATEL pueden verse los dos números principales que son 0212 909
-0599 y 0212 909 0419 (el registrado en los dominios es 0212 909 0597 y
-el registrado para recuperación del email también) (archive del
-frontpage de conatel:
+However, our previous research revealed that the phone number did not correspond with the ranges that are usually used by CNTI but rather with the ranges used by CONATEL. On the footer of the CONATEL website the two main numbers  listed are: 0212 909
+0599 and 0212 909 0419 (the phone number registered in the malicious domain is 0212 909 0597 and is listed for password recovery on the email)
+) (archive ofl
+Conatel homepage:
 [https://archive.fo/lCYho](https://archive.fo/lCYho))\
 \
-Al buscar en archive.org, nos conseguimos con más información apuntando
-al rango de teléfonos usados por CONATEL: 0212-909.03.11,
+
+When searching in archive.org, we found more information pointing to the range of telephone numbers used with CONATEL: 0212-909.03.11,
 0212-909.03.47, 0212-909.04.18
 [https://web.archive.org/web/20141024115047/https://www.conatel.gob.ve/index.php/principal/contactos](https://web.archive.org/web/20141024115047/https://www.conatel.gob.ve/index.php/principal/contactos)
 
-Al llamar al número en cuestión en otras oportunidades, pudimos escuchar una mensaje de contestadora automática explicando que estábamos llamando a Conatel.
+When we called the phone number in question in other occasions, we got an answering machine recording explaining that we had reached CONATEL.
 
-Así mismo, se pudo conseguir en un sitio web de pasantías de la UNEFA
-Caracas que éste número telefónico había sido
-referenciado el 15 de Octubre de 2018 por Gabriel Porco para su pasantía
-en NIC.ve, en CONATEL. (La URL del sitio web se tiene preservada, así como
-los contenidos preservados en servicios de archivo web; pero no se
-publican para cuidar los datos personales de otras personas que se encuentran en los mismos)
+We also found that this number has been referenced on the UNEFA Caracas website, a website for internships, on October 15, 2018. The phone number corresponded to Gabriel Porco for his internship in NIC.ve, in CONATEL. (The URL of the website has been preserved, as well as the contents in web archive services. However, we do not wish to publish them to protect the data of other people who are listed on the snapshot of the website).
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/14_b.png)
 
-NIC.ve funciona bajo CONATEL, y es responsable de los dominios en la zona
-del TLD .ve y Gabriel Porco es el encargado de NIC.ve. El número de esa oficina está
-enlazado con un email fachada.
+NIC.ve which administers the .ve top level domain (TLD), functions as a department of CONATEL (National Commission of Telecommunications, Venezuela's telecomunicaitons regulator). Gabriel Porco is currently in charge of NIC.ve. The number of that office is linked with the email.
 
-El mecanismo que ha usado NIC.ve previamente para re-adquirir dominios
-ha sido asignándolos a de forma ad-hoc donde el titular
-es NIC VE y el correo asociado es del tipo
-"[domainer4@nic.ve](mailto:domainer@nic.ve)". Esto
-puede verse en el whois de dominios recuperados durante procesos de
-censura contra medios de comunicación como ntn24.com.ve,
-vivoplay.com.ve, vpitv.com.ve, entre otros.
+The mechanism that NIC.ve has previously used to re-acquire domains has been done ad-hoc, where the owner is NIC VE and the associated email is in the format:
+"[domainer4@nic.ve](mailto:domainer@nic.ve)".  This can be seen in the Whois of domains retrieved during censorship against media such as  ntn24.com.ve, vivoplay.com.ve, and vpitv.com.ve, among others.
 
-Se realizaron llamadas a este número de teléfono y la persona que respondió
-el número de teléfono asociado con estos registros en primera instancia
-dijo llamarse Gabriel. Luego de hacerse viral el hilo en Twitter con
-todos estos elementos, los registros fueron rápidamente cambiados a un
-número telefónico que envía a un correo de voz.
+To recap, when we called the number listed in the in the Whois of the malicious site various times, the person who picked up the phone stated that their name was Gabriel. After different elements covered by this report was published on Twitter and became viral, the phone number on the Whois registries was quickly changed to a  phone number that sends you to a voicemail at CONATEL (The administration of NIC.ve is located in the main CONATEL building in Caracas, NIC.ve functions as a department of CONATEL)
 0212-5554545![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/15.png)
 
-El correo fachada posiblemente pertenece probablemente a alguien que trabaja o trabajó en su oficina,
-pues se usó ese número de CONATEL para confirmar el email fachada. Solo alguien
-en NIC.ve podría hacer estos cambios rápidamente;
-cambios que para el resto de los usuarios debe pasar por tickets de
-soporte o emails y tiempos de espera de varias semanas por no haber plataforma automatizada del nic.ve.
+We suspect the email probably belongs to someone that works in his office, since that CONATEL number was associated with that email account and used for password recovery. Only someone working for NIC.ve could have made those changes so quickly - changes that for every other user take a long time because there is no automatic platform for nic.ve. Essentially, users must submit a request via a support ticketing system or email, and must wait a period of various weeks.
 
 Conclusiones
 ============
 
-Este caso resulta sumamente grave por los precedentes de persecución a
-activistas, voluntarios y opositores en Venezuela; particularmente el
-uso de listas de ciudadanos usadas para ejercer discriminación en contra
-de opositores al gobierno, que [datan al menos desde el año
-2004](https://prodavinci.com/la-lista-tascon-y-la-persecucion-politica-a-proposito-de-la-sentencia-de-la-corte-interamericana/).
-Esta situación pone en riesgo no sólo los datos de identificación de los ciudadanos
-que deseaban inscribirse en el sitio web anunciado, sino además
-información personal, privada o con la que pueden ser incriminados en la
-medida en que algunos hayan sido víctimas de otros ataques usando sitios
-falsos de redes sociales o correos electrónicos. Estimamos de forma
-conservadora un número de decenas de miles de víctimas del phishing a
-voluntariosxvenezuela.com, si bien es posible que sean más.
+This case is very worrying considering the the precedent in Venezuela of persecuting activists and political dissidents. Particularly troublesome is the creation of lists for the purpose of targeting citizens that may be critical of the government, a tactics that [has been used since at least since  2004](https://prodavinci.com/la-lista-tascon-y-la-persecucion-politica-a-proposito-de-la-sentencia-de-la-corte-interamericana/).
 
-En el caso puntual del ataque de suplantación de identidad del sitio
-voluntariosxvenezuela.com observamos el uso conjunto de 2 técnicas
-diferentes: la primera es la configuración de un sitio falso con un
-dominio similar en donde las personas que accedieron podían ingresar sus
-datos como voluntarios de la misma forma que en el sitio original. La
-segunda técnica es la intercepción y alteración de solicitudes DNS
-hechas dentro del ISP más importante del país, CANTV, tanto a sus
-propios servidores DNS como a cualquier otro fuera de este (DNS
-*injection*), sugiriendo el uso de inspección de paquetes como
-estrategia de interceptación. Estas solicitudes eran redirigidas al
-sitio clon descubierto.
+The current situation puts the privacy and safety of citizens at risk, as many shared personal, identifying data on the malicious site. Most importantly, if they previously have been victims of other digital attacks such as being redirected to malicious clones of popular social media sites or fake email sites, their account information could be used against them for retaliation. We conservatively estimate that the number of victims of the phishing attack of voluntariosxvenezuela.com is in the tens of thousands, and probably much more than that.
 
-Para este caso se pudo recabar evidencia suficiente para demostrar que
-no sólo se trató de un episodio de bloqueo sino de un ataque de
-suplantación a un sitio web lanzado por la oposición a la administración
-de Nicolás Maduro, para recopilar datos personales de
-ciudadanos críticos con fines desconocidos. Además se pudo recabar
-evidencia que conecta por primera vez un ataque de suplantación de
-identidad con personas asociadas a instituciones públicas.
+In this specific digital attack involving voluntariosxvenezuela.com we observed the joint use of 2 different techniques. The first is the configuration of a fake site with a similar domain that asked users to register as volunteers and submit their personal information, just like the real, authentic site. The second technique is the interception and alteration of the DNS requests, which was made through the most important ISP in the country, CANTV. This was done both with CANTV’s own servers as well as outside servers using package inspection as interception strategy. These requests were redirected to the cloned, malicious site.
 
-Recomendaciones
+Sufficient evidence was gathered in this case to demonstrate that it was not just an episode of blocking, but in fact an attack on the opposition designed by the administration of Nicolás Maduro with the purpose of collecting the personal data of citizens that are critical of their government. How this data will be used is still unknown. We have also evidence that, for the first time, connects individuals working in public institutions with a digital attack of this nature.
+
+Recommendations
 ===============
 
-### Para usuarios
+### For Users
 
--   Es sumamente importante reconocer el URL (dirección) del sitio que
-uno está visitando y asegurarse de que haya una conexión segura
-(HTTPS://) sin errores o alertas de parte del navegador. Si el
-navegador dice que la conexión no es segura, desconfía
-inmediatamente del sitio.
+It is incredibly important to be certain of the correct URL or direction of the website you are visiting, and make sure that the connection is secure (HTTPS://).If your browser gives you an error message or alert that suggests the site is not secure, immediately disconnect from it.
 
--   Hay que tener especial atención a potenciales sitios que intenten
-suplantar a portales de redes sociales.
 
--   Como mecanismo de mitigación de estos riesgos, el cambio de
-servidores DNS en dispositivos y routers resulta insuficiente,
-dado que las peticiones a servidores confiables pueden ser
-interceptadas. Se recomienda el uso de servicios VPN o Tor.
+You have to be extra careful of being directed to sites that are malicious clones of popular social media sites.
 
--   Como medida avanzada de mitigación de riesgos, el uso de
-administradores de contraseñas que detectan el sitio web en donde
-se está navegando puede ayudar a detectar dominios falsos y evitar
-ingresar credenciales en estos sitios.
 
-    -   También para usuarios con niveles altos de riesgo, el uso de
-    llaves de seguridad USB para realizar inicios de sesión en
-    servicios que las soportan como Google o Facebook entre otros
-    ayuda a detectar cuando se quiere inciar sesión en un sitio
-    falso.
+It is recommended individuals use a VPN or Tor.  This is because changing DNS servers on devices and routers is an insufficient way to mitigate these risks, since requests to trusted servers can be intercepted.
 
-### Para administradores de sitios web
 
--   Asegurarse de colocar certificados SSL/TLS en los sitios web
-    administrados y proteger muy bien estos certificados.
+As an advanced measure of risk mitigation, the use of password managers may help users detect a domain as fake and thus help them avoid entering credentials on these sites.
 
--   Redirigir siempre el tráfico HTTP a HTTPS usando las configuraciones
-    de servidores virtuales, redirección por .htaccess, inclusión de
-    la cabecera HSTS, etc.
 
--   Sólo compartir URLS con HTTPS de sus sitios en comunicaciones
-    oficiales.
+For high risk users, it is advisable that they use USB security keys to login to services like Google or Facebook.
 
--   Usar DNSsec para minimizar las probabilidades de éxito de ataques de
-    phishing (engaños dirigidos) a sus usuarios.
 
--   Específicamente para la respuesta a incidentes similares y al
-    equipo de VoluntariosXVenezuela.com:
+### For website administrators
 
--   Alertar de forma clara sobre incidentes de seguridad como el observado.
+- Make sure your websites have SLL/TLS certificates, and that they are managed and protected.  
 
--   Educar a los usuarios sobre cómo detectar cambios de URLS, uso de HTTPS
-    y tomar en serio advertencias de seguridad de los navegadores.
+-   Make sure all HTTP traffic is redirected to HTTPS using the configurations of your virtual servers, redirecting by .htaccess, and the inclusion of the HSTS header, etc.
 
--   Tener protocolos claros de comunicación y funcionamiento:
+-   Only share HTTPS links with the public, for example on social media, press releases etc.
 
-    -   Explicar por qué canales se van a comunicar con los voluntarios
-    o miembros de la plataforma. Al saber de dónde vendrían las
-comunicaciones posteriores al registro las víctimas y no
-víctimas podrán saber si la información es oficial, y evitar
-seguir siendo victimizados.
+-  Use DNSsec to minimize the chances of successful phishing attacks (targeted cheating)
 
-    -   Ofrecer una forma sencilla y clara basada en correo electrónico
-para identificar si una persona está o no en la lista de
-registro, y así cada quién pueda saber si fue afectado o no
-por el phishing.\
-Posible implementación: Enviar un mensaje a este correo que diga si
-ese correo fue registrado antes del 13 de febrero, si la
-persona creía haberse registrado probablemente fue víctima del phishing.
-Ofrecer más información y ayuda.
+- The following are recommendations specifically for incidents similar to
+VoluntariosXVenezuela.com:
 
-Por: [Andrés Azpúrua](https://twitter.com/andresAzp), [Carlos Guerra](https://twitter.com/cguerrave), [Jose Luis Rivas](https://twitter.com/joseluisrivas)
+    - Clearly share alerts of any security incidents that you observe.
+
+    - Educate your users on how to detect changes to URLs, how to use HTTPS, and seriously heed browser security warnings.
+
+    - Have clear communications and operations protocols to respond to incidents
+
+        - Make sure your users understand where and how you will communicate with them. By knowing how you will communicate with them post-registration, users can know if the information is official, and avoid being victimized.
+
+        - If the malicious site's registrations weren't forwarded by it to the genuine site, as it seems to be the case: Offer a simple and clear email-based form on your website to help people identify if they were a victim of the phishing attack. For example, users could submit their email they registered with and receive a message sent to that email clarifying if they were registered during the phishing attack.
+
+Authors:  
+[Andrés Azpúrua](https://twitter.com/andresAzp),
+[Carlos Guerra](https://twitter.com/cguerrave),
+[Jose Luis Rivas](https://twitter.com/joseluisrivas)
+
+![Cover image](/res/post_img/2019-02-15-report_en.png)
