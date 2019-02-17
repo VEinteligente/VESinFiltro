@@ -12,8 +12,8 @@ author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
 
 ![Cover image](/res/post_img/2019-02-15-report.png)
 
-Este reporte también está publicado [en inglés](https://vesinfiltro.com/noticias/noticias/Phishing_by_Venezuelan_government_targets_activists/)
-This report is also published [in english](https://vesinfiltro.com/noticias/noticias/Phishing_by_Venezuelan_government_targets_activists/)
+Este reporte también está publicado [en inglés](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/).
+This report is also published [in english](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/)
 
 ### Resumen Ejecutivo
 
