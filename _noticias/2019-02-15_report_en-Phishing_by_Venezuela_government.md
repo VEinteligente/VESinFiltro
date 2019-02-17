@@ -29,16 +29,15 @@ These developments are worrying because they point to an increased sophisticatio
 
 * [Context](#context)
 
-* [Blocking and phishing of VoluntariosXVenezuela.com](#blocking-and-phishing-of-voluntariosxvenezuela.com)
+* [Blocking and phishing of VoluntariosXVenezuela.com](#blocking-and-phishing-of-voluntariosxvenezuelacom)
 
-    - [DNS Spoofing and injection](#dns-spoofing-and-injections)
+    - [Spoofing, poisoning and DNS injection](#spoofing-poisoning-and-dns-injection)
 
-    - [Malicioso website in
-159.65.65.194](#malicioso-website)
+    - [The Malicious Site](#the-malicious-site)
 
     - [What Users Saw and Experienced](#what-users-saw-and-experienced)
 
-    - [Affectation and current status](#affectation-and-current-status)
+    - [Impact and current status](#impact-and-current-status)
 
 * [Other phishing campaings](#other-phishing-campaigns)
 
@@ -49,11 +48,9 @@ These developments are worrying because they point to an increased sophisticatio
 * [Recomendations](#recommendations)
 
 
-
-
-
-
 Context
+=======
+
 Venezuela has experienced a complex humanitarian crisis in recent years that has led millions of Venezuelans seeking refugee in other countries, even fleeing Venezuela by foot. [The UN estimates that more than 3 million Venezuelan refugees have fled the country] (https://www.unhcr.org/news/press/2018/11/5be4192b4/number-refugees-migrants-venezuela-reaches-3-million.html).
 
 In addition, in January 2019 the world witnessed a Venezuelan presidential crisis - the legitimacy of Nicolás Maduro as President was questioned after Juan Guaidó was proclaimed the President of the National Assembly and Interim President of Venezuela  (http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019).
@@ -106,6 +103,7 @@ There is also an account on Twitter,
 On February 14, the phishing campaign was reactivated briefly between 5:00 to 5:55pm, the malicious site was online with a different IP and CANTV restarted DNS injection of any DNS request to send traffic to the malicious.
 
 Spoofing, poisoning and DNS injection
+----------------------------------------
 
 Internet browsers use DNS servers (Domain Name System) to translate the name of a website, such as example.com, to an IP address that will be used to connect to the desired server. Essentially, this what allows you to use your web browser to find or “visit” web sites.  DNS spoofing is a family of techniques that allows for corrupt DNS data to be introduced, causing the server to return an incorrect result, such as the wrong IP address. As a result, the user cannot visit their desired website or is sent to another website that they did not request.  
 
@@ -212,7 +210,7 @@ voluntariosxvenezuela.com. 327680 IN A 159.65.65.194
 
 ```
 
-The same occurred with IPs with no DNS servers like 185.199.108.153. For example:\
+The same occurred with IPs with no DNS servers like 185.199.108.153. For example:
 ```
 
 $ dig voluntariosxvenezuela.com @185.199.108.153
@@ -231,10 +229,9 @@ $ dig voluntariosxvenezuela.com @185.199.108.153
 voluntariosxvenezuela.com. 327680 IN A 159.65.65.194\
 ```
 
-During a small window on February 14,  DNS spoofing including DNS injection was observed again, the behaviour was the same as before but with DNS queries pointing to 134.209.13.64.
+During a small window on February 14,  DNS spoofing including DNS injection was observed again, the behaviour was the same as before but with DNS queries pointing to 134.209.13.64 instead of the previous IP address.
 
 ```
-
 dig voluntariosxvenezuela.com @1.1.1.1
 
 ; <<>> DiG 9.10.6 <<>> voluntariosxvenezuela.com @1.1.1.1
@@ -315,7 +312,7 @@ voluntariosxvenezuela.com. 327680 IN A 134.209.13.64
 ```
 
 
-The Malicious Site
+## The Malicious Site
 
 The server with the IP of 159.65.65.194 was housed in [Digital
 Ocean](https://www.shodan.io/host/159.65.65.194), according to what was observed in the configuration. [Domain DNS](https://securitytrails.com/domain/voluntariovenezuela.com/dns)
@@ -396,7 +393,7 @@ voluntariosxvenezuela.com with an SSL certificate that corresponded to the fake 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/6.png)
 
 
-Implementation and current status
+Impact and current status
 ---------------------------
 
 The attack began February 12, 2019 and it was reported until the morning of February 13. The start of the phishing attack coincided with the massive march lead by interim president Juan Guaidó for Youth Day.
@@ -408,8 +405,7 @@ In Venezuela, [political discrimination is common](https://www.derechos.org.ve/o
 against employees in the [public sector](http://elestimulo.com/blog/cidh-asegura-que-despidos-por-la-lista-tascon-violan-los-derechos-humanos/) and against individuals [recieving social welfare](https://www.derechos.org.ve/investigacion/los-clap-7-indicios-de-discriminacion-politica).
 
 
-As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many who are still unsure if they were victims or not. This incident has been compared to what is known as the [\ "list
-Tascón \ "] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
+As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many who are still unsure if they were victims or not. This incident has been compared to what is known as the [\"Tascón list\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
 
 The phishing campaign ended early on February 13, and re-started briefly again during the afternoon of February 14. It is unclear why the phishing campaign was suspended, but one reason may be because the attack was publicized, with technical evidence backing up the allegations . The cessation in DNS spoofing does not necessarily have to match the inaccessibility of the site, but in this incident they came hand in hand.
 
@@ -574,8 +570,8 @@ To recap, when we called the number listed in the in the Whois of the malicious 
 
 We suspect the email probably belongs to someone that works in his office, since that CONATEL number was associated with that email account and used for password recovery. Only someone working for NIC.ve could have made those changes so quickly - changes that for every other user take a long time because there is no automatic platform for nic.ve. Essentially, users must submit a request via a support ticketing system or email, and must wait a period of various weeks.
 
-Conclusiones
-============
+Conclusions
+===========
 
 This case is very worrying considering the the precedent in Venezuela of persecuting activists and political dissidents. Particularly troublesome is the creation of lists for the purpose of targeting citizens that may be critical of the government, a tactics that [has been used since at least since  2004](https://prodavinci.com/la-lista-tascon-y-la-persecucion-politica-a-proposito-de-la-sentencia-de-la-corte-interamericana/).
 
