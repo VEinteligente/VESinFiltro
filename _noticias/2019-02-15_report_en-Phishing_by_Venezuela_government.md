@@ -516,7 +516,7 @@ On February 13, the DNS entries for these domains pointed to server:
 and
 [https://twitter.com/joseluisrivas/status/1095715963138387970](https://twitter.com/joseluisrivas/status/1095715963138387970))
 
-When reviewing host 159.65.65.194 against shodan.io, we discovered that on February 8, 2018 a scan of ports was conducted, and port 80 had a redirection to twitter.web.ve for a phishing campaign.
+When reviewing host 159.65.65.194 against shodan.io, we discovered that on February 8,  a scan of ports was conducted, and port 80 had a redirection to twitter.web.ve for a phishing campaign.
 
 (Screenshot:
 [https://twitter.com/joseluisrivas/status/1095702783880245248](https://twitter.com/joseluisrivas/status/1095702783880245248)).
@@ -541,7 +541,7 @@ With this evidence, there is a clear connection or link established between the 
 With the help of various security researchers, we tried to recuperate the password for Gmail account
 [franklopezsystem@gmail.com](mailto:franklopezsystem@gmail.com), and found that the number associated with that email account was 0212 9090597.
 
-We called this phone number at 11am on February 13, 2018, and the person who answered stated their name was Gabriel. When we asked if this number corresponded with a company or a family home, he stated that it did not. He then stated  \"This is CNTI\". (CNTI is the government’s national IT center, part of the Ministry of Popular Power for University Education, Science and Technology)
+We called this phone number at 11am on February 13, 2019, and the person who answered stated their name was Gabriel. When we asked if this number corresponded with a company or a family home, he stated that it did not. He then stated  \"This is CNTI\". (CNTI is the government’s national IT center, part of the Ministry of Popular Power for University Education, Science and Technology)
 
 However, our previous research revealed that the phone number did not correspond with the ranges that are usually used by CNTI but rather with the ranges used by CONATEL. On the footer of the CONATEL website the two main numbers  listed are: 0212 909
 0599 and 0212 909 0419 (the phone number registered in the malicious domain is 0212 909 0597 and is listed for password recovery on the email)
@@ -556,7 +556,7 @@ When searching in archive.org, we found more information pointing to the range o
 
 When we called the phone number in question in other occasions, we got an answering machine recording explaining that we had reached CONATEL.
 
-We also found that this number has been referenced on the UNEFA Caracas website, a website for internships, on October 15, 2018. The phone number corresponded to Gabriel Porco for his internship in NIC.ve, in CONATEL. (The URL of the website has been preserved, as well as the contents in web archive services. However, we do not wish to publish them to protect the data of other people who are listed on the snapshot of the website).
+We also found that this number has been referenced on the UNEFA Caracas website, a website for internships, on October 15, 2019. The phone number corresponded to Gabriel Porco for his internship in NIC.ve, in CONATEL. (The URL of the website has been preserved, as well as the contents in web archive services. However, we do not wish to publish them to protect the data of other people who are listed on the snapshot of the website).
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/14_b.png)
 
