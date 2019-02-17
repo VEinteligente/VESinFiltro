@@ -4,7 +4,7 @@ title: Phishing by Venezuelan government puts activists and internet users at ri
 small: Phishing by Venezuelan government puts activists at risk.
 excerpt: "Report: voluntariosxvenezuela.com, a site to register humanitarian aid volunteers, has suffered a state-sponsored phishing campaign empowered by DNS injection."
 permalink: /noticias/Phishing_by_Venezuelan_government_targets_activists/
-date:   2019-02-16 18:00:00 -0400
+date:   2019-02-15 18:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report_en.png
 author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
