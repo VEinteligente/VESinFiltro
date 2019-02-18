@@ -10,10 +10,10 @@ twitter_username: vesinfiltro
 navigation:
 - title: Reporta
   url: /
-- title: Evade los bloqueos
-  url: /bloqueos/
 - title: Noticias
   url: /noticias/  
+- title: Evade los bloqueos
+  url: /bloqueos/
 
 # Build settings
 markdown: kramdown
