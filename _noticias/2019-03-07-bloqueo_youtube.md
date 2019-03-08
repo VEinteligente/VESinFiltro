@@ -2,14 +2,13 @@
 layout: post
 title: "Por un día entero bloquearon YouTube en CANTV"
 small: "Por un día entero bloquearon YouTube"
-excerpt: "CANTV, el principal proveedor de internet de Venezuela, bloqueó por todo un día el acceso a youtube.com. Este bloqueo aplicó Filtrado SNI, por lo que no afectó a otros servicios de google.  Bloqueos previos a YouTube habían sido más cortos."
+excerpt: "CANTV, el principal proveedor de internet de Venezuela, bloqueó por todo un día el acceso a youtube.com. Este bloqueo aplicó Filtrado SNI, por lo que no afectó a otros servicios de google. Bloqueos previos a YouTube habían sido más cortos."
 permalink: /noticias/bloqueo_youtube_un_dia/
-date:   2019-03-07 12:00:00 -0400
+date:   2019-03-07 15:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-03-07-post.png
 ---
 
-![Cover image](/res/post_img/2019-03-07-post.png)
 
 VE sin Filtro **ha podido documentar que YouTube estuvo bloqueado por
 todo un día en CANTV**, el principal proveedor de internet de Venezuela
@@ -24,9 +23,9 @@ de google.com.
 Desde el [6 de marzo de
 2019](https://explorer.ooni.io/measurement/20190306T193453Z_AS8048_jmYnrsmmhaJP8SKiMDvhORIe99M74ucNTn5zmUxCdv31pVd1W0?input=https:%2F%2Fwww.youtube.com%2F)
 entre las 10am y 4pm (hora de Venezuela) se pudo evidenciar este bloqueo
-a YouTube en CANTV utilizando Filtrado por SNI. Este bloqueo de YouTube
+a YouTube en CANTV utilizando Filtrado por SNI. **\"Este bloqueo de YouTube
 es distinto a los bloqueos cortos que hemos visto desde febrero, los
-censores parecen apuntar a bloqueos más extensos de plataformas claves\"
+censores parecen apuntar a bloqueos más extensos de plataformas claves\"**
 expresó Andrés Azpúrua, Director de VE sin Filtro y la organización VE
 inteligente. \"Los venezolanos tenemos que prepararnos para una censura
 cada vez más fuerte en internet\" --agregó.
@@ -55,17 +54,17 @@ Los anteriores bloqueos a YouTube habían sido altamente tácticos,
 durando sólo hasta el fin del evento, \"antes parecían balancear el
 deseo de limitar el acceso a noticias por streaming con el impacto de
 bloquear todo YouTube y otros servicios de Google, ahora están
-dispuestos a dejar YouTube bloqueado\" afirmó Andrés Azpúrua, en un
+dispuestos a dejar YouTube bloqueado\" afirmó Andrés Azpúrua. Esto ocurre en un
 contexto donde el sitio de muchos medios de comunicación nacionales e
 internacionales que ofrecen streaming están bloqueados y la TV abierta y
 por suscripción altamente censurada.
 
-Este bloqueo es distinto porque duró un día entero y al usar una técnica
-distinta no afectó de forma colateral otros servicios de Google, bajando
+**Este bloqueo es distinto porque duró un día entero y al usar una técnica
+distinta no afectó de forma colateral otros servicios de Google**, bajando
 el impacto no intencional del bloqueo y cambiando la ecuación
-costo-beneficio de un bloqueo más prolongado de Google. \"Esto pudo ser
+costo-beneficio de un bloqueo más prolongado de Google. Esto pudo ser
 una prueba para próximos bloqueos de Youtube aún más prolongados o
-indefinidos\", afirmó Andrés Azpúrua.
+indefinidos.
 
 La mayoría de los bloqueos de YouTube en Febrero fueron mediante
 bloqueos TCP a una lista de direcciones IP, que al bloquearlas impedían
@@ -82,6 +81,9 @@ de
 reportado el 27 de Febrero, y fue utilizada previamente [contra
 Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/)
 en enero de 2019.
+
+![Cover image](/res/post_img/2019-03-07-post.png)
+
 
 ### Detalles técnicos
 
