@@ -10,6 +10,7 @@ categories: reporte
 image: /res/post_img/2019-03-12-reporte.png
 ---
 
+![](/res/post_img/2019-03-12-reporte.png)
 
 
 **El deterioro progresivo de la capacidad de los venezolanos para ejercer los Derechos Humanos en internet se ha acelerado dramáticamente con el agravamiento de la crisis económica y especialmente de la crisis política a partir del 10 de enero de 2019.**
@@ -336,7 +337,6 @@ siguientes herramientas ante la posibilidad de que alguna sea bloqueada.
 -   Tor Browser [https://torproject.org](https://torproject.org)
 
 
-![](/res/img/tecnicas_evadir_bloqueos.png)
 
 
 Y para evitar caer en phihing y otras amenzas recomendamos tener cuidado al navegar tomando en cuenta:
@@ -367,4 +367,4 @@ ingresar credenciales en estos sitios.
     falso.
 
 
-    ![](/res/post_img/2019-03-12-reporte.png)
+    ![](/res/img/tecnicas_evadir_bloqueos.png)
