@@ -20,4 +20,4 @@ Union Radio ha habilitado el número telefónico [0212-2016056](tel:+58212201605
 En VE sin Filtro y Venezuela Inteligente, esperamos la inmediata aparición de Luis Carlos Díaz, en solidaridad con su familia, sus colegas en Unión Radio y comunidades de activistas digitales y de Derechos Humanos a las que pertenece.
 
 Actualización:
-Se confirma que Luis Carlos fue detenido por el SEBIN (Servicio Bolivariano de Inteligencia Nacional) y su residencia fue allanda por fucnionarios de ese cuerpo de seguridad. #LiberenALuisCarlos
+Se confirma a las 3am durante allanamiento a su residencia por el SEBIN (Servicio Bolivariano de Inteligencia Nacional) que **[Luis Carlos fue detenido por fucnionarios del SEBIN](https://twitter.com/sntpvenezuela/status/1105361886575558657)** y estaría siendo llevado a [El Helicodie](https://www.bbc.com/mundo/noticias-america-latina-46978545). #LiberenALuisCarlos
