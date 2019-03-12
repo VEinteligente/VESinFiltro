@@ -18,3 +18,6 @@ Union Radio ha habilitado el número telefónico [0212-2016056](tel:+58212201605
 **Usuarios de internet y activistas reclaman infomración usando el hashtag  [#DóndeEstáLuisCarlos](https://twitter.com/hashtag/DóndeEstáLuisCarlos?src=hash)**
 
 En VE sin Filtro y Venezuela Inteligente, esperamos la inmediata aparición de Luis Carlos Díaz, en solidaridad con su familia, sus colegas en Unión Radio y comunidades de activistas digitales y de Derechos Humanos a las que pertenece.
+
+Actualización:
+Se confirma que Luis Carlos fue detenido por el SEBIN (Servicio Bolivariano de Inteligencia Nacional) y su residencia fue allanda por fucnionarios de ese cuerpo de seguridad. #LiberenALuisCarlos
