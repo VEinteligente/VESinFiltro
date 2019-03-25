@@ -11,7 +11,7 @@ author: "Andrés Azpúrua"
 
 El sitio de **[Antena 3 Internacional](antena3internacional.com) ha sido bloqueado en Venezuela por CANTV**, proveedor de internet mas importante del país y una empresa estatal. Este bloqueo existe al menos desde 2019-03-24, fecha en la que empezamos a registrar el estado de antena3internacional.com.
 
-**Este bloqueo impide disfrutar de la transmisión por internet del canal que habilitado para su audiencia en Venezuela**. Antena 3 Internacional [había habilitado un streaming en vivo libre para usuarios en Venezuela](https://twitter.com/antena3int/status/1107630484505403393) *www.antena3internacional.com/venezuela/*, en respuesta a a la censura del canal en servicios de TV por cable y satélite desde 2019-02-23 por ordenes del regulador de las telecomunicaciones, CONATEL.
+**Este bloqueo impide disfrutar de la transmisión por internet del canal que fue habilitado para su audiencia en Venezuela**. Antena 3 Internacional [había habilitado un streaming en vivo para usuarios en Venezuela](https://twitter.com/antena3int/status/1107630484505403393) *www.antena3internacional.com/venezuela/*, en respuesta a a la censura del canal en servicios de TV por cable y satélite desde 2019-02-23 por ordenes del regulador de las telecomunicaciones, CONATEL.
 
 ![antena3int tweet](/res/post_img/2019-03-24/antena3int_tweet.png)
 
