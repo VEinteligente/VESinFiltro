@@ -11,7 +11,9 @@ navigation:
 - title: Reporta
   url: /
 - title: Noticias
-  url: /noticias/  
+  url: /noticias/
+- title: Test
+  url: /test/
 - title: Evade los bloqueos
   url: /bloqueos/
 
