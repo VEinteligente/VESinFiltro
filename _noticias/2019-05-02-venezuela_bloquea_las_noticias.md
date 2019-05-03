@@ -3,13 +3,13 @@ layout: post
 title: "Venezuela bloquea las nociticas en internet"
 small: "Venezuela bloquea las nociticas en internet"
 excerpt: "Durante el Día de la Libertad de Prensa observamos cómo el Gobierno de Nicolás Maduro ha enfocado la extensiva censura en internet para bloquear noticias y entorpecer el acceso a la información**"
-permalink: /noticias/venezuela_bloquea_las_noticias/
+permalink: /noticias/venezuela_bloquea_las_noticias-2019-05/
 date:   2019-05-03 12:00:00 -0400
 categories: reporte
-image: /res/post_img/2019-03-12-reporte.png
+image: /res/post_img/2019-05-03-reporte.png
 ---
 
-![](/res/post_img/2019-05-03-es.png)
+![](/res/post_img/2019-05-03-reporte.png)
 
 **Durante el Día Mundial de la Libertad de Prensa observamos cómo el Gobierno de Nicolás Maduro ha enfocado la extensiva censura en internet para bloquear noticias y entorpecer el acceso a la información**
 
