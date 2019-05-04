@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Venezuela bloquea las noticias en internet"
+title: "Venezuela bloquea las noticias Y a los medios en internet"
 small: "Venezuela bloquea las noticias en internet"
 excerpt: "Durante el Día de la Libertad de Prensa observamos cómo el Gobierno de Nicolás Maduro ha enfocado la extensiva censura en internet para bloquear noticias y entorpecer el acceso a la información**"
 permalink: /noticias/venezuela_bloquea_las_noticias-2019-05/
