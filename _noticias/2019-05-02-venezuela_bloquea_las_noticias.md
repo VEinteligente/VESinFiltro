@@ -7,6 +7,7 @@ permalink: /noticias/venezuela_bloquea_las_noticias-2019-05/
 date:   2019-05-03 12:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-05-03-reporte.png
+author: "Andrés Azpúrua"
 ---
 
 ![](/res/post_img/2019-05-03-reporte.png)
@@ -67,7 +68,8 @@ Antena 3 Internacional|CANTV|2019-02-22
 Diario 2001|CANTV|2019-03-01
 Meridiano|CANTV|2019-03-01
 Bloque de Armas|Movistar|2019-03-01
-noticiasvenezuela.org|CANTV,|2019-03-19
+noticiasvenezuela.org|CANTV|2019-03-19
+CNN en Español|CANTV|De forma no corrida: 2019-04-30, 2019-05-02
 
 
 
@@ -116,6 +118,17 @@ Fecha|Num Plataformas Bloqueadas| Plataformas Bloqueadas|Eventos totales
 2019-05-02 | 5| Youtube (dos veces), Instagram, Periscope, Twitter, Facebook.|6
 2019-05-03| 5| Youtube (dos veces), Periscope (dos veces), Facebook.|7
 
+Esto muestra una tendencia a que los bloqueos tácticos de plataformas claves tienen a abarcar cada vez más plataformas, dejando pocas opciones a los usuarios.
+
+## Conclusiones
+
+El fuerte aumento del bloqueo a la prensa en línea y plataformas claves de comunicacion implican graves limitaciones a las libertades de prensa, expresión e información. Especialment en un contexto donde los medios tradicionales están fuertemente censurados.
+
+La tendencia el uso de bloqueos tácticos más largos cubriendo todas las principales plataformas de redes sociales y streaming es sumamente preocupante. Y se ha emepzado a bloquear sitios de medios de esta forma como el caso de CNN en Español.
+
+Hay momentos en el que niguna de las principales plataformas de streaming o redes sociales son accesibles en CANTV y su subsidiaria Movilnet, obligando a los usuarios a usar herramientas de evación de sensura como VPNs ya que estos bloqueos no son solventables mediante otras tácticas como el cambio de servidors DNS.
+
+Se hace fundamental apoyat a medios, comunicadores y ciudadanos a evadir estos controles con estrategias de comunicación, canales alternativos de distribución de información, búsqueda de soluciones innovadores y educación en la disponibilidad de herramientas digitales y su uso.
 
 ## Métodos
 
@@ -126,8 +139,11 @@ El análisis de las pruebas ad-hoc depende del tipo de bloqueo, pero siempre bus
 
 Las mediciones basadas en la red de mediciones no se han cargado al repositorio público OONI Explorer a la fecha de publicación pero se plenea su inclusión. La gran mayoría de mediciones de OONI utilizadas se basan en la prueba [web conectivity](https://ooni.torproject.org/nettest/web-connectivity/). Las listas de sitios a probar por los voluntarios y en las sondas han sido distribuidas por VE sin Filtro.
 
+Las puebas son analizadas, revisando los datos crudos en su contenido individualmente y en conjunto con el resto de pruebas disponibles para alcanzar una conclusión sobre la existencia del bloqueo para evitar falsos positivos, basado en conocimientos técnicos y del funcionamiento
 
-## Recomendaciones
+Agradecemos a todos los colaboradores de VE sin Filtro que corren mediciones voluntariamente, todos los usuarios de OONI Probe en Venezuela, el equipo de OONI y a otras organizaciones que también realizan estudios sobre libertad de Expresón en Venezuela.
+
+## Recomendaciones a usuarios de internet en Venezuela
 
 Recomendamos el uso de herramientas confiables de circunvención de
 bloqueos en internet por los suuarios en Venezuela. Recomendamos tener instaladas varias de las
