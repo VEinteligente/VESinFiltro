@@ -80,7 +80,7 @@ Estos sitios mencionados son solo los que categorizamos “noticias y medios”,
 
 Estos bloqueos han afectado de manera muy importante las operaciones de medios de información venezolanos. Esto ha obligado a algunos medios y periodistas a buscar formas alternativas de difundir sus noticias y garantizar visitas a pesar del bloqueo.
 
-# Bloqueos a plataformas de internet para silenciar voces y noticias específicas
+## Bloqueos a plataformas de internet para silenciar voces y noticias específicas
 
 Hemos documentado un aumento en el bloqueo de plataformas de comunicación en internet, especialmente plataformas [de transmisión en vivo y plataformas de redes sociales](). Ya desde antes del inicio de la crisis política de 2019, Zello, la aplicación de comunicación por voz (similar a un radio “walkie-talkie”) se encontraba bloqueada, lo que ocurrió en 2014 motivado a su uso por parte de manifestantes.
 
