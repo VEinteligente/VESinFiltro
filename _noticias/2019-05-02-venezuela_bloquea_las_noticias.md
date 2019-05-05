@@ -69,8 +69,7 @@ Diario 2001|CANTV|2019-03-01
 Meridiano|CANTV|2019-03-01
 Bloque de Armas|Movistar|2019-03-01
 noticiasvenezuela.org|CANTV|2019-03-19
-CNN en Español|CANTV|De forma no corrida: 2019-04-30,
-2019-05-02
+CNN en Español|CANTV|De forma no corrida: 2019-04-30, 2019-05-02
 
 
 
