@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Venezuela bloquea las noticias y a los medios en internet"
