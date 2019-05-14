@@ -14,7 +14,7 @@ author: "Andrés Azpúrua"
 
 **Durante el Día Mundial de la Libertad de Prensa observamos cómo el Gobierno de Nicolás Maduro ha re-enfocado la extensiva censura en internet para bloquear noticias y entorpecer el acceso a la información**
 
-Los bloqueos en internet de Venezuela han sido indefindos, cambiando su foco según el momento político que vive el país y las necesidades del gobierno, entre bloquear sitios que publican la tasa de cambio no oficial, censurar ciertas páginas pornográficas y censurar medios específicos. Pero no se había observado el empeño actual para controlar el acceso a las noticias.
+Históricamente bloqueos en internet de Venezuela han sido indefindos, cambiando su foco según el momento político que vive el país y las necesidades del gobierno, entre bloquear sitios que publican la tasa de cambio no oficial, censurar ciertas páginas pornográficas y censurar medios específicos. Pero no se había observado el empeño actual para controlar el acceso a las noticias.
 
 En lo que va de 2019, con la crisis política que vive Venezuela en torno a quién debe ocupar legítimamente la presidencia de Venezuela, hemos observado un grave crecimiento en el número de bloqueos en internet, especialmente enfocados a medios de comunicación, sitios de noticias y herramientas utilizadas para la difusión en vivo de noticias y mensajes.
 
@@ -69,8 +69,7 @@ Diario 2001|CANTV|2019-03-01
 Meridiano|CANTV|2019-03-01
 Bloque de Armas|Movistar|2019-03-01
 noticiasvenezuela.org|CANTV|2019-03-19
-CNN en Español|CANTV|De forma no corrida: 2019-04-30,
-2019-05-02
+CNN en Español|CANTV|De forma no corrida: 2019-04-30, 2019-05-02
 
 
 
