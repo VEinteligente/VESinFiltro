@@ -1,14 +1,22 @@
 ---
 layout: page
 title: Noticias
-permalink: /noticias/
+permalink: /
+redirect_from:
+  - /noticias
 ---
 
   {% for post in site.noticias reversed %}
     <article class="post">
-	  
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
-      <p class="date">{{post.date | date_to_long_string }}</p>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <p class="metadata">
+            <span class="date">{{post.date | date_to_long_string }}</span>
+            {% if post.author %}
+                <span class="byline">Autor:
+                    <span class="author-name">{{ post.author }}</span>
+                </span>
+            {% endif %}
+        </p>
       <p>{{ post.excerpt }}</p>
     </article>
   {% endfor %}

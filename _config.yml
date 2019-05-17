@@ -8,14 +8,14 @@ url: "https://vesinfiltro.com" # the base hostname & protocol for your site
 twitter_username: vesinfiltro
 
 navigation:
-- title: Reporta
-  url: /
 - title: Noticias
-  url: /noticias/
+    url: /
+- title: Reporta
+    url: /reporta/
 - title: Test
-  url: /test/
+    url: /test/
 - title: Evade los bloqueos
-  url: /bloqueos/
+    url: /bloqueos/
 
 # Build settings
 markdown: kramdown
@@ -27,3 +27,7 @@ collections:
     output: true
   noticias:
     output: true
+
+
+plugins:
+- jekyll-redirect-from
