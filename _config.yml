@@ -9,13 +9,13 @@ twitter_username: vesinfiltro
 
 navigation:
 - title: Noticias
-    url: /
+  url: /
 - title: Reporta
-    url: /reporta/
+  url: /reporta/
 - title: Test
-    url: /test/
+  url: /test/
 - title: Evade los bloqueos
-    url: /bloqueos/
+  url: /bloqueos/
 
 # Build settings
 markdown: kramdown
@@ -31,3 +31,8 @@ collections:
 
 plugins:
 - jekyll-redirect-from
+- jekyll-paginate
+# - jekyll-sass-converter
+
+
+paginate: 5
