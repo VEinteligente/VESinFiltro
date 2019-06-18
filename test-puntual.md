@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prueba rápida de internet
+title: "Prueba puntual temporal
 permalink: /test-puntual/
 image: /res/TWcard.png
 destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Felpitazo.net%22%2C%22https%3A%2F%2Felpitazo.ml%22%2C%22https%3A%2F%2Felpitazo.info%22%2C%22https%3A%2F%2Felpitazo.com%22%5D%7D&mv=1.2.0"
@@ -8,7 +8,7 @@ destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%
 
 ---
 
-# Pruebapuntual temporal
+# Prueba puntual temporal
 ### 1.- [Instala](https://ooni.torproject.org/install/) la app móvil OONI:
 * [iOS](https://itunes.apple.com/us/app/id1199566366)
 * [Android](https://play.google.com/store/apps/details?id=org.openobservatory.ooniprobe)
