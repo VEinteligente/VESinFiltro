@@ -6,6 +6,7 @@ excerpt: "La visita de la Alta Comisionada para los Derechos Humanos, Michelle B
 permalink: /noticias/la_censura_no_se_detiene_por_visita_de_bachelet/
 redirect_from:
   - /noticias/la_censura_no_se_detiene-2019-06/
+  - /noticias/la_censura_no_se_detiene_por_visita_de_Bachelete/
 date:   2019-06-21 6:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-06-21-reporte.png
