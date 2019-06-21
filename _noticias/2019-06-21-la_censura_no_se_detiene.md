@@ -26,7 +26,7 @@ El día anterior, 18 de Junio, los accesos a Twitter e Instagram fueron bloquead
 
 Adicionalmente el mismo 18 de Junio se evidenció **la expansión del bloqueo ya existente a *el pitazo***, un medio de noticias digital que ganó el premio [Ortega y Gasset](https://elpais.com/elpais/2019/04/11/actualidad/1554985144_479110.html) en Abril de 2019. [El pitazo ha estado bloqueado](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/#media) desde 2018 afectando múltiples nombres de dominio que han cambiado para evadir la censura: elpitazo.ml, elpitazo.info, elpitazo.com. **Este día comenzó a bloquearse en  los principales proveedores de internet de Venezuela el dominio [elpitazo.net](https://explorer.ooni.io/measurement/20190618T124401Z_AS8048_dO2KtBi6Nz774u5pR59W5dp5iGvLKEYr6XAE4NiBmbiniiwgl0?input=https:%2F%2Fwww.elpitazo.net)**.
 
-### !!! >>> TODO: colocar detalles elpitazo no.ml
+<!-- ### !!! >>> TODO: colocar detalles elpitazo no.ml -->
 
 
 Días antes, se evidenció el inicio del bloqueo a otro meido digital independiente, **[efecto cocuyo](http://efectococuyo.com), desde el [12 de Junio de 2019](https://explorer.ooni.io/measurement/20190613T234014Z_AS8048_F8mRCvc4T78IZFsz2UQGKwSLWTAicQ0oPErsHVkfcIqm3tfjAe?input=http:%2F%2Fefectococuyo.com%2F)**. Cuando menos, para este bloqueo se implementan unas técnicas más sofisticadas de bloqueo HTTP y HTTPS (específicamente el bloqueo HTTPS funciona mediante filtrado por SNI).
