@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Visita de Bachelete no detiene la censura en #InternetVE"
-small: "Visita de Bachelete no detiene la censura en #InternetVE"
+title: "Visita de Michelle Bachelet no detiene la censura en #InternetVE"
+small: "Visita de Bachelet no detiene la censura en #InternetVE"
 excerpt: "La visita de la Alta Comisionada para los Derechos Humanos, Michelle Bachelet, no ha frenado el avance de la censura en internet en Venezuela"
-permalink: /noticias/la_censura_no_se_detiene_por_visita_de_Bachelete/
+permalink: /noticias/la_censura_no_se_detiene_por_visita_de_bachelet/
 redirect_from:
   - /noticias/la_censura_no_se_detiene-2019-06/
 date:   2019-06-21 6:00:00 -0400
