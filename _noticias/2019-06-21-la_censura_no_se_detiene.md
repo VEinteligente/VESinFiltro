@@ -9,7 +9,7 @@ redirect_from:
   - /noticias/la_censura_no_se_detiene_por_visita_de_Bachelete/
 date:   2019-06-21 6:00:00 -0400
 categories: reporte
-image: /res/post_img/2019-06-21-reporte.png
+image: /res/post_img/2019-06-21-reporte-b.png
 author: "Andrés Azpúrua"
 ---
 
@@ -171,7 +171,7 @@ Adicionalmente se hace referecnai a reportaje independiente de otras organizacio
 
 Agradecemos a todos los colaboradores de VE sin Filtro que corren mediciones voluntariamente, todos los usuarios de OONI Probe en Venezuela, el equipo de OONI y a otras organizaciones que también realizan estudios sobre libertad de Expresión en Venezuela.
 
-![](/res/post_img/2019-06-21-reporte.png)
+![](/res/post_img/2019-06-21-reporte-b.png)
 
 ## Recomendaciones a usuarios de internet en Venezuela
 
