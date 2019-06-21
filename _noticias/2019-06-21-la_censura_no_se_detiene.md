@@ -10,8 +10,6 @@ image: /res/post_img/2019-06-21-reporte.png
 author: "Andrés Azpúrua"
 ---
 
-![](/res/post_img/2019-06-21-reporte.png)
-
 **La visita de la Alta Comisionada para los Derechos Humanos, Michelle Bachelet, no impidió  que el mismo día se bloqueara Youtube**, el principal sitio de hospedaje y streaming y video. Más bien, **la censura contra medios en internet ha crecido en días previos, bloqueos que permanecen durante la visita de Bachelet.**
 
 Los bloqueos de internet más recientemente vistos en 2019 se pueden categorizar como: **indefinidos**, en los que un sitio web es bloqueado de forma contínua por días sin conocer cuando será levantado el bloqueo, estos bloqueos suelen ser aplicados por todos los proveedores de internet (ISPs); y **bloqueos tácticos** que suelen durar horas o minutos, afectando plataformas claves de comunicación con la intención de silenciar discursos u ocultar eventos específicos en tiempo real, estos bloqueos suelen ser aplicados solo por el proveedor estatal CANTV y su filial Movilnet.
@@ -78,7 +76,7 @@ El Venezolano TV Miami evtvmiami.com|CANTV|2019-02-23
 El Tiempo|CANTV, Inter, Digitel, Movistar|2019-02-22
 "Streaming de venezuelaaidlive.mdstrm.com"|CANTV, Inter, Digitel, Movistar|Solo el 2019-02-22
 venezuelaaidlive.com|Inter, Digitel, Movistar|Solo el 2019-03-24
-Antena 3 Internacional|CANTV|2019-02-22
+Antena 3 Internacional|CANTV|2019-02-22, no continúa
 Diario 2001|CANTV|2019-03-01
 Meridiano|CANTV|2019-03-01
 Bloque de Armas|Movistar|2019-03-01
@@ -169,6 +167,8 @@ Las pruebas son analizadas, revisando los datos crudos en su contenido individua
 Adicionalmente se hace referecnai a reportaje independiente de otras organizaciones como Neblocks, los cuales tiene su propia metodología y fuenets de datos independeintes a los de VE sin Filtro, normalmente coniciden las observaciones de ambos.
 
 Agradecemos a todos los colaboradores de VE sin Filtro que corren mediciones voluntariamente, todos los usuarios de OONI Probe en Venezuela, el equipo de OONI y a otras organizaciones que también realizan estudios sobre libertad de Expresión en Venezuela.
+
+![](/res/post_img/2019-06-21-reporte.png)
 
 ## Recomendaciones a usuarios de internet en Venezuela
 
