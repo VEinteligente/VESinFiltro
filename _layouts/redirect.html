@@ -21,7 +21,7 @@
         <meta name="twitter:image" content="{% if page.image == "no" %}{{ "/res/TWcard.png" | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
     </head>
 
-  <body>
+  <body class="{{page.bodyclass}}">
 
     {% include header.html %}
 
