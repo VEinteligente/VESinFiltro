@@ -3,6 +3,7 @@ title: VeSinFiltro
 email: info@vesinfiltro.com
 description: > # this means to ignore newlines until "baseurl:"
   VEsinFiltro es un repositorio de información sobre la censura y filtrado de contenidos en Venezuela. Herramientas para denucniar y evaduar bloqueos y más
+tagline: "Infórmate sobre el estado de internet en Venezuela"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vesinfiltro.com" # the base hostname & protocol for your site
 twitter_username: vesinfiltro

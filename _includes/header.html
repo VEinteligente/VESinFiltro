@@ -8,7 +8,9 @@
 			<a href="{{ site.baseurl }}/">
 				<img src="{{ site.baseurl }}/res/VeSinFiltro-long.svg" style="max-height: 84px; max-width: 100%;" />
 			</a>
-			<i>Infórmate sobre el estado de internet en Venezuela</i>
+			{% if page.tagline %}
+				<i class="tagline">{{ site.tagline }}</i>
+			{% endif %}
 		</div>
 
 		<div id="general-state-internet" class='regular'>
@@ -51,7 +53,7 @@
                         <li>
         					<a {% if page.url == link.url %}class="active"{% endif %}
         					href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
-        					
+
                         </li>
         				{% endif %}
         			{% endfor %}
