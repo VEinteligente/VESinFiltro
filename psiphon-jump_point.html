@@ -1,0 +1,46 @@
+---
+layout: minimal
+title: Bienvenido a Psiphon
+permalink: /psiphon-jump_point/
+sites:
+    - nombre: El Nacional
+      url: https://www.elnacional.com
+    - nombre: Efecto cocuyo
+      url: https://efectococuyo.com
+    - nombre: La Patilla
+      url: https://www.lapatilla.com
+    - nombre: Armando Info
+      url: http://armando.info
+    - nombre: EL Pitazo
+      url: https://elpitazo.net
+    - nombre: Cronica uno
+      url: http://cronica.uno
+    - nombre: NTN 24
+      url: https://www.ntn24.com
+bodyclass: no-tagline
+
+---
+
+<p>
+    Venezuela sufre fuerte censura en internet. <br>Esta aplicación permite visitar sitios bloqueados, incluyendo los de medios frecuentemente bloqueados.
+</p>
+
+<h3> Importantes medios en Venezuela </h3>
+<div class="link-list-block">
+    <p>
+        <ul class="link-list nav nav-tabs-justified nav-stacked">
+            {% for media in page.sites %}
+                  <li class=""><a href="{{media.URL}}"><i class="glyphicon glyphicon-chevron-right action"></i> {{media.nombre}}</a></li>
+            {% endfor %}
+        </ul>
+    </p>
+</div>
+
+<h4>Ayuda a docuemntar los bloqueos en internet</h4>
+<p>
+    Tú puedes ayudar a documentar los bloqueos en internet, sólo necesitas teener unstalada la aplicación <a href="https://itunes.apple.com/us/app/id1199566366">OONI Probe</a> y correr cada cierto tiempo (con el VPN apagado) nuestra prueba especial en el link <a href="http://vesinfiltro.com/test/">vesinfiltro.com/test</a>
+</p>
+
+<p>
+    En <a href="{{site.url}}">VEsinFiltro.com</a> publicamos nuestros reportes e investigaciones sobre censura en internet y otras amenazas contra tus libertades en línea.
+<p>
