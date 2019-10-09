@@ -81,6 +81,9 @@ Venezuela del estado Táchira
 - EXCUBITUS Derechos Humanos en Educacion
 - fundacion Aguaclara
 - Acción Solidaria
+- Red apoyaT
+- Observatorio Venezolano de Prisiones
+- Provea
 - Vicaria de DDHH de la Arquidiócesis de Barquisimeto
 - Proyecto sobre Organización, Desarrollo, Educación e Investigación
 (PODER)

@@ -86,6 +86,9 @@ Venezuela del estado Táchira
 - fundacion Aguaclara
 - Acción Solidaria
 - Vicaria de DDHH de la Arquidiócesis de Barquisimeto
+- Red apoyaT
+- Observatorio Venezolano de Prisiones
+- Provea
 - Proyecto sobre Organización, Desarrollo, Educación e Investigación
 (PODER)
 - NetBlocks
