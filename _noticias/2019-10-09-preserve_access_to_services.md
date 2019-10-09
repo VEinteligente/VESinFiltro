@@ -9,7 +9,7 @@ categories: bloqueos
 image: /res/post_img/generic.png
 ---
 
-Venezuela Inteligente and the VE sin Filtro project, together with over 27 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
+Venezuela Inteligente and the VE sin Filtro project, together with ISOC Venezuela, Redes Ayuda and over 30 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 
 "Online services are critical for every day lives of millions of Venezuelans, for their work, education and the exercise of their rights online," said Andrés Azpúrua, director of the VE sin Filtro Project and Vice-president of the Internet Society Venezuelan Chapter. <br>
 "Unnecessary and overzealous measures like blocking all Venezuelan accounts create even more harm to Venezuelans that already struggle to be productive, stay informed and express themselves freely" he added.
@@ -99,4 +99,4 @@ Venezuela del estado Táchira
 - Internet Sans Frontieres
 - Open Observatory of Network Interference (OONI)
 
-We will continue to recibe more co-signatures until 2019-10-10 12:00 GMT via https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform
+We will continue to recibe more co-signatures until 2019-10-10 12:00 GMT via [this form](https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform)
