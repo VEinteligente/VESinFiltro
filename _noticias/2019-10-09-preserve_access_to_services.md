@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech companies: Preserve access to services and platforms for Venezuelans"
-small: Tech companies: Preserve access to services and platforms for Venezuelans.
+small: "Tech companies: Preserve access to services and platforms for Venezuelans."
 excerpt: With over 27 organizations we urge tech companies to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 permalink: /noticias/2019-10-09-preserve_access_to_services/
 date:   2019-10-09 07:22:00 -0400
