@@ -98,3 +98,5 @@ Venezuela del estado Táchira
 - International Media Support
 - Internet Sans Frontieres
 - Open Observatory of Network Interference (OONI)
+
+We will continue to recibe more co-signatures until 2019-10-10 12:00 GMT via https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform
