@@ -6,7 +6,7 @@ excerpt: With over 27 organizations we urge tech companies to preserve access to
 permalink: /noticias/2019-10-09-preserve_access_to_services/
 date:   2019-10-09 07:22:00 -0400
 categories: bloqueos
-image: no
+image: /res/post_img/generic.png
 ---
 
 Venezuela Inteligente and the VE sin Filtro project, together with over 27 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
