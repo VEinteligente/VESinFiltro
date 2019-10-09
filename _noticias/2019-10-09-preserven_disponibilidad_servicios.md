@@ -85,10 +85,15 @@ Venezuela del estado Táchira
 - EXCUBITUS Derechos Humanos en Educacion
 - fundacion Aguaclara
 - Acción Solidaria
-- Vicaria de DDHH de la Arquidiócesis de Barquisimeto
 - Red apoyaT
 - Observatorio Venezolano de Prisiones
 - Provea
+- Centro de Cultura Digital
+- Vicaria de DDHH de la Arquidiócesis de Barquisimeto
+- FundaREDES
+- estamosenlínea.com.ve
+- Labo Ciudadano
+- Fundatrabajo
 - Proyecto sobre Organización, Desarrollo, Educación e Investigación
 (PODER)
 - NetBlocks
@@ -102,5 +107,8 @@ Venezuela del estado Táchira
 - International Media Support
 - Internet Sans Frontieres
 - Open Observatory of Network Interference (OONI)
+- Roia Foundation
+- ProPolitik LLC
+- World Association of News Publishers (WAN-IFRA)
 
 Se seguirán recibiendo adhesiones a esta carta hasta el 2019-10-10 12:00 GMT via [este formulario](https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform)
