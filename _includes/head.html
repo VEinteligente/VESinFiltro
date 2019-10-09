@@ -15,5 +15,5 @@
     <meta name="twitter:creator" content="@VEinteligente">
     <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}">
-    <meta name="twitter:image" content="{% if page.image == "no" %}{{ "/res/TWcard.png" | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image == false or page.image == "no" %}{{ "/res/TWcard.png" | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
 </head>
