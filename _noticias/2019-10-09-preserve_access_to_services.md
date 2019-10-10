@@ -2,7 +2,7 @@
 layout: post
 title: "Tech companies: Preserve access to services and platforms for Venezuelans"
 small: "Tech companies: Preserve access to services and platforms for Venezuelans."
-excerpt: With over 27 organizations we urge tech companies to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
+excerpt: We urge tech companies to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 permalink: /noticias/2019-10-09-preserve_access_to_services/
 date:   2019-10-09 07:22:00 -0400
 categories: bloqueos
@@ -11,8 +11,7 @@ image: /res/post_img/generic.png
 
 Venezuela Inteligente and the VE sin Filtro project, together with ISOC Venezuela, Redes Ayuda and over 30 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 
-"Online services are critical for every day lives of millions of Venezuelans, for their work, education and the exercise of their rights online," said Andrés Azpúrua, director of the VE sin Filtro Project and Vice-president of the Internet Society Venezuelan Chapter. <br>
-"Unnecessary and overzealous measures like blocking all Venezuelan accounts create even more harm to Venezuelans that already struggle to be productive, stay informed and express themselves freely" he added.
+"Online services are critical for every day lives of millions of Venezuelans, for their work, education and the exercise of their rights online," said Andrés Azpúrua, director of the VE sin Filtro Project. "Unnecessary and overzealous measures like blocking all Venezuelan accounts create even more harm to Venezuelans that already struggle to be productive, stay informed and express themselves freely," added.
 
 <br>
 <h2 style="font-weight: normal;"> Letter to tech companies: <b>Preserve access to services and platforms for Venezuelans</b></h2>
