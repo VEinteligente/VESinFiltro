@@ -9,7 +9,7 @@ categories: bloqueos
 image: /res/post_img/generic.png
 ---
 
-Venezuela Inteligente and the VE sin Filtro project, together with ISOC Venezuela, Redes Ayuda and over 30 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
+Venezuela Inteligente and the VE sin Filtro project, together with ISOC Venezuela, Redes Ayuda and over 40 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 
 "Online services are critical for every day lives of millions of Venezuelans, for their work, education and the exercise of their rights online," said Andrés Azpúrua, director of the VE sin Filtro Project. "Unnecessary and overzealous measures like blocking all Venezuelan accounts create even more harm to Venezuelans that already struggle to be productive, stay informed and express themselves freely," added.
 
@@ -67,16 +67,14 @@ instead of further endangering them.
 - Internet Society, Capítulo Venezuela
 - VE sin Filtro, Venezuela Inteligente
 - Redes Ayuda
-- CAVEDATOS Cámara Venezolana de Empresas de Tecnologías la Información,
-Electrónica y Economía Digital
+- Cámara Venezolana de Empresas de Tecnologías de la Información y Economía Digital - CAVEDATOS
 - Asociación Civil Consorcio Desarrollo y Justicia
 - Dirección de Telecomunicaciones y Servicios (ULA)
-- Comisión Nacional de DdHh de la Federación de colegios de abogados de
-Venezuela del estado Táchira
+- Comisión Nacional de DdHh de la Federación de colegios de abogados de Venezuela del estado Táchira
 - Gobiérnatec
 - Fundación Fronteras Humanas Fundafronh
 - Instituto Prensa y Sociedad de Venezuela
-- Promoción Educación y Defensa en DDHH -- PROMEDEHUM
+- Promoción Educación y Defensa en DDHH - PROMEDEHUM
 - EXCUBITUS Derechos Humanos en Educacion
 - fundacion Aguaclara
 - Acción Solidaria
@@ -85,25 +83,26 @@ Venezuela del estado Táchira
 - Provea
 - Centro de Cultura Digital
 - Vicaria de DDHH de la Arquidiócesis de Barquisimeto
-- FundaREDES
-- estamosenlínea.com.ve
+- Estamosenlínea.com.ve
 - Labo Ciudadano
 - Fundatrabajo
-- Proyecto sobre Organización, Desarrollo, Educación e Investigación
-(PODER)
+- Observatorio de Derechos Humanos de la Universidad de Los Andes
+- Epikeia Observatorio Universitario de Derechos Humanos
+- Fundación CELTA
+- Centro Latinoamericano de Investigaciones Sobre Internet
+- Proyecto sobre Organización, Desarrollo, Educación e Investigación (PODER)
 - NetBlocks
 - IPANDETEC
 - Access Now
 - Majal.org
-- Derechos Digitales -- América Latina
-- Derechos Digitales, America Latina
-- \#SeguridadDigital
+- Derechos Digitales - América Latina
+- #SeguridadDigital
 - Usuarios Digitales
 - International Media Support
 - Internet Sans Frontieres
 - Open Observatory of Network Interference (OONI)
 - Roia Foundation
 - ProPolitik LLC
+- Rubberband Design Studio
 - World Association of News Publishers (WAN-IFRA)
-
-We will continue to recibe more co-signatures until 2019-10-10 12:00 GMT via [this form](https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform)
+- Rubberband Design Studio

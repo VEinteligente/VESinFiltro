@@ -72,16 +72,14 @@ vulnerarlos aún más.**
 - Internet Society, Capítulo Venezuela
 - VE sin Filtro, Venezuela Inteligente
 - Redes Ayuda
-- CAVEDATOS Cámara Venezolana de Empresas de Tecnologías la Información,
-Electrónica y Economía Digital
+- Cámara Venezolana de Empresas de Tecnologías de la Información y Economía Digital - CAVEDATOS
 - Asociación Civil Consorcio Desarrollo y Justicia
 - Dirección de Telecomunicaciones y Servicios (ULA)
-- Comisión Nacional de DdHh de la Federación de colegios de abogados de
-Venezuela del estado Táchira
+- Comisión Nacional de DdHh de la Federación de colegios de abogados de Venezuela del estado Táchira
 - Gobiérnatec
 - Fundación Fronteras Humanas Fundafronh
 - Instituto Prensa y Sociedad de Venezuela
-- Promoción Educación y Defensa en DDHH -- PROMEDEHUM
+- Promoción Educación y Defensa en DDHH - PROMEDEHUM
 - EXCUBITUS Derechos Humanos en Educacion
 - fundacion Aguaclara
 - Acción Solidaria
@@ -90,25 +88,26 @@ Venezuela del estado Táchira
 - Provea
 - Centro de Cultura Digital
 - Vicaria de DDHH de la Arquidiócesis de Barquisimeto
-- FundaREDES
-- estamosenlínea.com.ve
+- Estamosenlínea.com.ve
 - Labo Ciudadano
 - Fundatrabajo
-- Proyecto sobre Organización, Desarrollo, Educación e Investigación
-(PODER)
+- Observatorio de Derechos Humanos de la Universidad de Los Andes
+- Epikeia Observatorio Universitario de Derechos Humanos
+- Fundación CELTA
+- Centro Latinoamericano de Investigaciones Sobre Internet
+- Proyecto sobre Organización, Desarrollo, Educación e Investigación (PODER)
 - NetBlocks
 - IPANDETEC
 - Access Now
 - Majal.org
-- Derechos Digitales -- América Latina
-- Derechos Digitales, America Latina
-- \#SeguridadDigital
+- Derechos Digitales - América Latina
+- #SeguridadDigital
 - Usuarios Digitales
 - International Media Support
 - Internet Sans Frontieres
 - Open Observatory of Network Interference (OONI)
 - Roia Foundation
 - ProPolitik LLC
+- Rubberband Design Studio
 - World Association of News Publishers (WAN-IFRA)
-
-Se seguirán recibiendo adhesiones a esta carta hasta el 2019-10-10 12:00 GMT via [este formulario](https://docs.google.com/forms/d/e/1FAIpQLScOJC_hp9T1O-7HNi8es4flhkvfvzAP11TBhHHyNqE_JkO6UQ/viewform)
+- Rubberband Design Studio
