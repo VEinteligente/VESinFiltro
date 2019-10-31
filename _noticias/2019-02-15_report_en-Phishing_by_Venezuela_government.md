@@ -56,8 +56,8 @@ Venezuela has experienced a complex humanitarian crisis in recent years that has
 In addition, in January 2019 the world witnessed a Venezuelan presidential crisis - the legitimacy of Nicolás Maduro as President was questioned after Juan Guaidó was proclaimed the President of the National Assembly and Interim President of Venezuela  (http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019).
 
 The presidential crisis has triggered a wave of internet censorship that has been much more tactical, using tools such as SNI filtering. The first blocking occured with the
-[blocking of Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/) when various articles began referring to Juan Guaidó as President of Venezuela, and has focused on silencing public debates that are transmitted via streaming.  
-[The blocking of streaming platforms](http://vesinfiltro.com/noticias/report-jan-2019/#blocking-of-instagram-twitter-and-youtube) is particularly important in the Venezuelan context where there is a near  
+[blocking of Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/) when various articles began referring to Juan Guaidó as President of Venezuela, and has focused on silencing public debates that are transmitted via streaming.
+[The blocking of streaming platforms](http://vesinfiltro.com/noticias/report-jan-2019/#blocking-of-instagram-twitter-and-youtube) is particularly important in the Venezuelan context where there is a near
 [complete censorship of traditional media](https://rsf.org/en/venezuela). We have reported multiple cases of blocking including the [blocking of Tor in
 2018](http://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/), and entities like Freedom House classify [internet in Venezuela as not free.](http://freedomhouse.org/report/freedom-net/2018/venezuela).
 
@@ -71,7 +71,7 @@ Blocking and phishing of VoluntariosXVenezuela.com
 
 We have identified and analyzed a sophisticated phishing campaign against Venezuelans that volunteered to help with the distribution of humanitarian aid through an initiative organized and lead by the Venezuelan opposition lead Juan Guaidó.
 
-**This grave phishing campaign was at least in part driven by the state owned internet service provider (ISP) of Venezuela, CANTV, and its mobile subsidiary Movilnet ** Individuals using CANTV and Movilnet who tried to visit the website to register as volunteers at [voluntariosxvenezuela.com](https://voluntariosxvenezuela.com) where directed to a server hosting the malicious website voluntariovenezuela.com (without the s or x).
+**This grave phishing campaign was at least in part driven by the state owned internet service provider (ISP) of Venezuela, CANTV, and its mobile subsidiary Movilnet** Individuals using CANTV and Movilnet who tried to visit the website to register as volunteers at [voluntariosxvenezuela.com](https://voluntariosxvenezuela.com) where directed to a server hosting the malicious website voluntariovenezuela.com (without the s or x).
 
 This malicious website used by the phishing campaign was visually identical to the real website, and was used to collect personal information from volunteers, who only submitted their data because they thought they were registering on the real website. The malicious website **obtained a massive amount of traffic from the CANTV/Movilnet net using sophisticated techniques of interception and DNS spoofing**
 
@@ -105,7 +105,7 @@ On February 14, the phishing campaign was reactivated briefly between 5:00 to 5:
 Spoofing, poisoning and DNS injection
 ----------------------------------------
 
-Internet browsers use DNS servers (Domain Name System) to translate the name of a website, such as example.com, to an IP address that will be used to connect to the desired server. Essentially, this what allows you to use your web browser to find or “visit” web sites.  DNS spoofing is a family of techniques that allows for corrupt DNS data to be introduced, causing the server to return an incorrect result, such as the wrong IP address. As a result, the user cannot visit their desired website or is sent to another website that they did not request.  
+Internet browsers use DNS servers (Domain Name System) to translate the name of a website, such as example.com, to an IP address that will be used to connect to the desired server. Essentially, this what allows you to use your web browser to find or “visit” web sites.  DNS spoofing is a family of techniques that allows for corrupt DNS data to be introduced, causing the server to return an incorrect result, such as the wrong IP address. As a result, the user cannot visit their desired website or is sent to another website that they did not request.
 
 On February 12 all outgoing DNS traffic was inspected and any request for the IP address associated with voluntariosxvenezuela.com was returned with the IP address of the malicious site,159.65.65.194, and clearly does not match the [range of
 IPs of the real site] (https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
@@ -387,7 +387,7 @@ What Users Saw and Experienced
 When CANTV users used an insecure connection (HTTP) to navigated to the real domain Volunteersxvenezuela.com, the browser was redirected, taking users to the malicious site,  www.voluntariovenezuela.com Users had no indication that this had occurred, or that there was something wrong beyond the URL change.
 
 
-If users used a secure connection (HTTPS) to navigate to the real domain, they were shown an alert letting them know of the inconsistencies of of navigating to the domain  
+If users used a secure connection (HTTPS) to navigate to the real domain, they were shown an alert letting them know of the inconsistencies of of navigating to the domain
 voluntariosxvenezuela.com with an SSL certificate that corresponded to the fake site.
 
 ![](/res/post_img/2019-02-15_Phishing_impulsado_por_gobierno_de_Venezuela/6.png)
@@ -405,7 +405,7 @@ In Venezuela, [political discrimination is common](https://www.derechos.org.ve/o
 against employees in the [public sector](http://elestimulo.com/blog/cidh-asegura-que-despidos-por-la-lista-tascon-violan-los-derechos-humanos/) and against individuals [recieving social welfare](https://www.derechos.org.ve/investigacion/los-clap-7-indicios-de-discriminacion-politica).
 
 
-As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many who are still unsure if they were victims or not. This incident has been compared to what is known as the [\"Tascón list\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
+As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many of whom are still unsure if they were victims or not. This incident has been compared to what is known as the [\"Tascón list\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
 
 The phishing campaign ended early on February 13, and re-started briefly again during the afternoon of February 14. It is unclear why the phishing campaign was suspended, but one reason may be because the attack was publicized, with technical evidence backing up the allegations . The cessation in DNS spoofing does not necessarily have to match the inaccessibility of the site, but in this incident they came hand in hand.
 
@@ -581,8 +581,25 @@ In this specific digital attack involving voluntariosxvenezuela.com we observed 
 
 Sufficient evidence was gathered in this case to demonstrate that it was not just an episode of blocking, but in fact an attack on the opposition designed by the administration of Nicolás Maduro with the purpose of collecting the personal data of citizens that are critical of their government. How this data will be used is still unknown. We have also evidence that, for the first time, connects individuals working in public institutions with a digital attack of this nature.
 
-Recommendations
-===============
+# Update
+
+## 2019-02-21
+
+On February 21, we observed the reactivation of this phishing campaign, again using **DNS response injection** on the state-owned ISP CANTV, forging responses to any DNS request to any server on the internet and pointing to a new malicious server.
+
+This new phishing event operated using different providers, the malicious's server IP address was now 209.250.255.16, hosted by Vultr and the domain used was changed to voluntariosxxvenezuela.com (with two x), registered on name cheap.
+
+The server change was probably in response to the old domain already being blacklisted as phishing by many lists and security providers. The malicious URL was reported to browser and security vendors.
+
+
+## Hosting takedowns
+
+We could obtain confirmation that in the two original events that started on February 21 and 14, the hosting service provider suspended the service in response to abuse complaining introduced by the authors of this report and by other Venezuelans.
+
+We also obtained a direct response by the hosting providers used in the February 21 event confirming the take down in response to our report.
+
+
+# Recommendations
 
 ### For Users
 
@@ -603,7 +620,7 @@ For high risk users, it is advisable that they use USB security keys to login to
 
 ### For website administrators
 
-- Make sure your websites have SLL/TLS certificates, and that they are managed and protected.  
+- Make sure your websites have SLL/TLS certificates, and that they are managed and protected.
 
 -   Make sure all HTTP traffic is redirected to HTTPS using the configurations of your virtual servers, redirecting by .htaccess, and the inclusion of the HSTS header, etc.
 
@@ -624,7 +641,10 @@ VoluntariosXVenezuela.com:
 
         - If the malicious site's registrations weren't forwarded by it to the genuine site, as it seems to be the case: Offer a simple and clear email-based form on your website to help people identify if they were a victim of the phishing attack. For example, users could submit their email they registered with and receive a message sent to that email clarifying if they were registered during the phishing attack.
 
-Authors:  
+
+
+
+Authors:
 [Andrés Azpúrua](https://twitter.com/andresAzp),
 [Carlos Guerra](https://twitter.com/cguerrave),
 [Jose Luis Rivas](https://twitter.com/joseluisrivas)

@@ -860,8 +860,18 @@ ciudadanos críticos con fines desconocidos. Además se pudo recabar
 evidencia que conecta por primera vez un ataque de suplantación de
 identidad con personas asociadas a instituciones públicas.
 
-Recomendaciones
-===============
+
+# Actualización
+
+**El 21 de Febrero**, observamos el regreso de esta campaña de phishing, utilizando de nuevo **inyección de respuesta DNS** en el proveedor del estado CANTV, que consiste en interceptar cualquier solicitud DNS (incluso a servidores de confianza o IPs sin servidor DNS) y forjar respuestas apuntando al servidor malicioso.
+
+Este nuevo evento de phishing se operó con nuevos proveedores, usando el IP 209.250.255.166 (hosting por Vultr) y el dominio voluntariosxxvenezuela.com (con dos x, registrado en namecheap).
+
+Pudimos obtener confirmación que en los dos eventos principales (12 y 21 de Febrero) el servicio de hosting suspendió las cuentas de hosting por los reclamos de abuso introducidos por los autores de este reporte y otros defensores venezolanos.
+
+
+# Recomendaciones
+
 
 ### Para usuarios
 
@@ -930,13 +940,5 @@ ese correo fue registrado antes del 13 de febrero, si la
 persona creía haberse registrado probablemente fue víctima del phishing.
 Ofrecer más información y ayuda.
 
-
-# Actualización:
-
-**El 21 de Febrero**, observamos el regreso de esta campaña de phishing, utilizando de nuevo **inyección de respuesta DNS** en el proveedor del estado CANTV, que consiste en interceptar cualquier solicitud DNS (incluso a servidores de confianza o IPs sin servidor DNS) y forjar respuestas apuntando al servidor malicioso.
-
-Este nuevo evento de phishing se operó con nuevos proveedores, usando el IP 209.250.255.166 (hosting por Vultr) y el dominio voluntariosxxvenezuela.com (con dos x, registrado en namecheap).
-
-Pudimos obtener confirmación que en los dos eventos principales (12 y 21 de Febrero) el servicio de hosting suspendió las cuentas de hosting por los reclamos de abuso introducidos por los autores de este reporte y otros defensores venezolanos.
 
 Por: [Andrés Azpúrua](https://twitter.com/andresAzp), [Carlos Guerra](https://twitter.com/cguerrave), [Jose Luis Rivas](https://twitter.com/joseluisrivas)
