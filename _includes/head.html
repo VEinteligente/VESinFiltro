@@ -24,10 +24,10 @@
 
 
 	{% if page.image == "no" %}
-	<meta name="twitter:image" content="{{{ site.baseurl }}/res/TWcard.png">
+	<meta name="twitter:image" content="{{ site.baseurl }}/res/TWcard.png">
 	{% elseif page.image %}
 	<meta name="twitter:image" content="{{ page.image | absolute_url }}">
 	{% else %}
-	<meta name="twitter:image" content="{{{ site.baseurl }}/res/TWcard.png">
+	<meta name="twitter:image" content="{{ site.baseurl }}/res/TWcard.png">
 	{% endif %}
 </head>
