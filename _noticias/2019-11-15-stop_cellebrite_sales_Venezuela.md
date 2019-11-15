@@ -19,21 +19,21 @@ Furthermore, the government of Nicolas Maduro has shown increasing interest in u
 
 We urge Israel-based Cellebrite, their parent Sun Corporation, the government of Israel, and any other government in a suitable position to move quickly to prevent the sale of any data extraction or surveillance tools to the government of Venezuela. The safety of many journalists, their sources, activists, and human rights defenders might depend on it.
 
-Venezuela Inteligente
-The VE sin Filtro project
-Espacio Público
-Redes Ayuda
-Okthanks  
-Derechos Digitales
-TEDIC - Paraguay
-Internet Society, Capítulo Venezuela
-Centro para los Defensores y la Justicia (CDJ)
-Promoción Educación y Defensa en DDHH - PROMEDEHUM
-Centro de Derechos Humanos de la Universidad Católica Andrés Bello (CDH-UCAB)
-Asociación Civil Fuerza, Unión, Justicia, Solidaridad y Paz (FUNPAZ)
-Dirección de Telecomunicaciones y Servicios (ULA)
-Colegio Nacional de Periodistas
-Organización Trébol
-Asociación por los Derechos Civiles
-Justicia y Paz OP Venezuela
-Gobiérnatec
+Venezuela Inteligente <br />
+The VE sin Filtro project<br />
+Espacio Público<br />
+Redes Ayuda<br />
+Okthanks  <br />
+Derechos Digitales<br />
+TEDIC - Paraguay<br />
+Internet Society, Capítulo Venezuela<br />
+Centro para los Defensores y la Justicia (CDJ)<br />
+Promoción Educación y Defensa en DDHH - PROMEDEHUM<br />
+Centro de Derechos Humanos de la Universidad Católica Andrés Bello (CDH-UCAB)<br />
+Asociación Civil Fuerza, Unión, Justicia, Solidaridad y Paz (FUNPAZ)<br />
+Dirección de Telecomunicaciones y Servicios (ULA)<br />
+Colegio Nacional de Periodistas<br />
+Organización Trébol<br />
+Asociación por los Derechos Civiles<br />
+Justicia y Paz OP Venezuela<br />
+Gobiérnatec<br />
