@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Urgent: Stop Cellebrite sales to Venezuela"
+small: "Stop Cellebrite sales to Venezuela"
+excerpt: We urge for inmediate action to prevent the sale of any data extraction or surveillance tools to the government of Venezuela. The safety of many journalists, their sources, activists, and human rights defenders might depend on it.
+permalink: /noticias/stop_cellebrite_sales_Venezuela/
+date:   2019-10-09 07:22:00 -0400
+categories: vigilancia
+image: /res/post_img/generic.png
+---
+
+The government of Nicolas Maduro in Venezuela [approved the purchase of Cellebrite UFED Touch2 units](http://web.archive.org/web/20191115014106/https://www.vtv.gob.ve/millones-euros-petros-modernizacion-cicpc/)  for 51,300 Euros. These high-tech devices are used to hack and extract all data from mobile phones, including conversations, photos, documents, and emails -- ostensibly during legitimate criminal investigations, but has been [abused by repressive regimes](https://www.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests).
+
+The news sparks fear of widespread abuse to further persecute activists, political dissidents, journalists, and their sources. It's already common for Venezuelan security forces to confiscate mobile phones from activists and journalists, pointing at the dire consequences of the abuse of this tool.
+
+Cases of political prisoners and torture stain Venezuela's recent human rights record, coming under intense criticism by the [UN Commissioner for Human Rights](https://www.ohchr.org/en/NewsEvents/Pages/DisplayNews.aspx?NewsID=24788&LangID=E), international organizations such as [Amnesty International](https://www.amnesty.org/en/latest/news/2019/05/venezuela-crimes-against-humanity-require-response-from-international-justice-system/) and local human rights defenders.
+
+Furthermore, the government of Nicolas Maduro has shown increasing interest in using digital means to [control its citizens](https://www.freedomonthenet.org/country/venezuela/freedom-on-the-net/2019). In addition to increasingly [pervasive internet censorship](https://time.com/5571504/venezuela-internet-press-freedom/); It has endorsed well-documented [cases of phishing against dissidents](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/). Going as far as to manipulating internet traffic to help lure users into exposing their political activism.
+
+We urge Israel-based Cellebrite, their parent Sun Corporation, the government of Israel, and any other government in a suitable position to move quickly to prevent the sale of any data extraction or surveillance tools to the government of Venezuela. The safety of many journalists, their sources, activists, and human rights defenders might depend on it.
+
+Venezuela Inteligente.
+The VE sin Filtro project
+Espacio Público
+Redes Ayuda
+Okthanks
+Derechos Digitales
+TEDIC - Paraguay
+Internet Society, Capítulo Venezuela
+Centro para los Defensores y la Justicia (CDJ)
+Promoción Educación y Defensa en DDHH - PROMEDEHUM
+Centro de Derechos Humanos de la Universidad Católica Andrés Bello (CDH-UCAB)
+Asociación Civil Fuerza, Unión, Justicia, Solidaridad y Paz (FUNPAZ)
+Dirección de Telecomunicaciones y Servicios (ULA)
+Colegio Nacional de Periodistas
+Organización Trébol
+Asociación por los Derechos Civiles
+Justicia y Paz OP Venezuela
