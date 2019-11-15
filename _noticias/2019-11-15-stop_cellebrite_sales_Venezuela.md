@@ -36,3 +36,4 @@ Colegio Nacional de Periodistas
 Organización Trébol
 Asociación por los Derechos Civiles
 Justicia y Paz OP Venezuela
+Gobiérnatec
