@@ -6,7 +6,7 @@ excerpt: We urge for inmediate action to prevent the sale of any data extraction
 permalink: /noticias/stop_cellebrite_sales_Venezuela/
 date:   2019-11-15 14:22:00 -0400
 categories: vigilancia
-# image: /res/post_img/generic.png
+image: /res/post_img/2019-11-15-cellebrite_en.png
 ---
 
 The government of Nicolas Maduro in Venezuela [approved the purchase of Cellebrite UFED Touch2 units](http://web.archive.org/web/20191115014106/https://www.vtv.gob.ve/millones-euros-petros-modernizacion-cicpc/) for 51,300 Euros. These high-tech devices are used to hack and extract all data from mobile phones, including conversations, photos, documents, and emails -- ostensibly during legitimate criminal investigations, but has been [abused by repressive regimes](https://www.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests).
@@ -42,5 +42,5 @@ Acción Solidaria<br />
 Observatorio cubano de derechos humanos (OCDH)<br />
 IPANDETEC Centroamérica<br />
 Hiperderecho<br />
-Provea<br />
 Laboratorio de Paz<br />
+Provea<br />
