@@ -19,11 +19,11 @@ Furthermore, the government of Nicolas Maduro has shown increasing interest in u
 
 We urge Israel-based Cellebrite, their parent Sun Corporation, the government of Israel, and any other government in a suitable position to move quickly to prevent the sale of any data extraction or surveillance tools to the government of Venezuela. The safety of many journalists, their sources, activists, and human rights defenders might depend on it.
 
-Venezuela Inteligente.
+Venezuela Inteligente
 The VE sin Filtro project
 Espacio Público
 Redes Ayuda
-Okthanks
+Okthanks  
 Derechos Digitales
 TEDIC - Paraguay
 Internet Society, Capítulo Venezuela
