@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-	
+
 	{% if page.image == false or page.image == "no" %}
 	<meta name="twitter:card" content="summary">
 	{% else %}
@@ -21,5 +21,5 @@
     <meta name="twitter:creator" content="@VEinteligente">
     <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}">
-    <meta name="twitter:image" content="{% if page.image == false or page.image == "no" %}{{ "/res/TWcard.png" | absolute_url }}{% else %}{{ page.image | absolute_url }}{% endif %}">
+    <meta name="twitter:image" content="{% if page.image == false or page.image == "no" %}{{ site.baseurl }}/res/TWcard.png{% else %}{{ page.image | absolute_url }}{% endif %}">
 </head>
