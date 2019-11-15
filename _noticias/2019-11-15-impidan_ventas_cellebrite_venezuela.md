@@ -37,4 +37,7 @@ Colegio Nacional de Periodistas <br />
 Organización Trébol <br />
 Asociación por los Derechos Civiles <br />
 Justicia y Paz OP Venezuela <br />
-Gobiérnatec <br />
+Gobiérnatec<br />
+Clima21 - Ambiente y Derechos Humanos<br />
+Acción Solidaria<br />
+Observatorio cubano de derechos humanos (OCDH)<br />
