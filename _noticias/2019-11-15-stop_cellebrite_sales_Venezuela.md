@@ -9,7 +9,7 @@ categories: vigilancia
 # image: /res/post_img/generic.png
 ---
 
-The government of Nicolas Maduro in Venezuela [approved the purchase of Cellebrite UFED Touch2 units](http://web.archive.org/web/20191115014106/https://www.vtv.gob.ve/millones-euros-petros-modernizacion-cicpc/)  for 51,300 Euros. These high-tech devices are used to hack and extract all data from mobile phones, including conversations, photos, documents, and emails -- ostensibly during legitimate criminal investigations, but has been [abused by repressive regimes](https://www.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests).
+The government of Nicolas Maduro in Venezuela [approved the purchase of Cellebrite UFED Touch2 units](http://web.archive.org/web/20191115014106/https://www.vtv.gob.ve/millones-euros-petros-modernizacion-cicpc/) for 51,300 Euros. These high-tech devices are used to hack and extract all data from mobile phones, including conversations, photos, documents, and emails -- ostensibly during legitimate criminal investigations, but has been [abused by repressive regimes](https://www.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests).
 
 The news sparks fear of widespread abuse to further persecute activists, political dissidents, journalists, and their sources. It's already common for Venezuelan security forces to confiscate mobile phones from activists and journalists, pointing at the dire consequences of the abuse of this tool.
 
@@ -40,3 +40,7 @@ Gobiérnatec<br />
 Clima21 - Ambiente y Derechos Humanos<br />
 Acción Solidaria<br />
 Observatorio cubano de derechos humanos (OCDH)<br />
+IPANDETEC Centroamérica<br />
+Hiperderecho<br />
+Provea<br />
+Laboratorio de Paz<br />

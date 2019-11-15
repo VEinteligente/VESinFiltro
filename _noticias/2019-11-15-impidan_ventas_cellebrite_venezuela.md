@@ -41,3 +41,7 @@ Gobiérnatec<br />
 Clima21 - Ambiente y Derechos Humanos<br />
 Acción Solidaria<br />
 Observatorio cubano de derechos humanos (OCDH)<br />
+IPANDETEC Centroamérica<br />
+Hiperderecho<br />
+Laboratorio de Paz<br />
+Provea<br />
