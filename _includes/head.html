@@ -10,7 +10,13 @@
 	<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	
+	{% if page.image == false or page.image == "no" %}
+	<meta name="twitter:card" content="summary">
+	{% else %}
 	<meta name="twitter:card" content="summary_large_image">
+	{% endif %}
     <meta name="twitter:site" content="@VEsinFiltro">
     <meta name="twitter:creator" content="@VEinteligente">
     <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}{% endif %}">
