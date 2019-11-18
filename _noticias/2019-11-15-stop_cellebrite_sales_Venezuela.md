@@ -44,3 +44,11 @@ IPANDETEC Centroamérica<br />
 Hiperderecho<br />
 Laboratorio de Paz<br />
 Provea<br />
+Laboratorio de Paz<br />
+FundaREDES<br />
+Observatorio de Derechos Humanos de la Universidad de Los Andes<br />
+Epikeia Observatorio Universitario de Derechos Humanos<br />
+FUNDACIÓN HUAIRA - QUITO, ECUADOR<br />
+Control Ciudadano para la Seguridad, la Defensa y la Fuerza Armada Nacional.<br />
+Ipys Venezuela<br />
+Access Now<br />

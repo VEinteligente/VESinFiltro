@@ -22,21 +22,21 @@ Urgimos a la gerencia de la empresa Cellebrite basada en Israel, su empresa matr
 
 Venezuela Inteligente <br />
 El proyecto VE sin Filtro <br />
-Espacio Público <br />
-Redes Ayuda <br />
-Okthanks <br />
-Derechos Digitales <br />
-TEDIC - Paraguay <br />
-Internet Society, Capítulo Venezuela <br />
-Centro para los Defensores y la Justicia (CDJ) <br />
-Promoción Educación y Defensa en DDHH - PROMEDEHUM <br />
-Centro de Derechos Humanos de la Universidad Católica Andrés Bello (CDH-UCAB) <br />
-Asociación Civil Fuerza, Unión, Justicia, Solidaridad y Paz (FUNPAZ) <br />
-Dirección de Telecomunicaciones y Servicios (ULA) <br />
-Colegio Nacional de Periodistas <br />
-Organización Trébol <br />
-Asociación por los Derechos Civiles <br />
-Justicia y Paz OP Venezuela <br />
+Espacio Público<br />
+Redes Ayuda<br />
+Okthanks  <br />
+Derechos Digitales<br />
+TEDIC - Paraguay<br />
+Internet Society, Capítulo Venezuela<br />
+Centro para los Defensores y la Justicia (CDJ)<br />
+Promoción Educación y Defensa en DDHH - PROMEDEHUM<br />
+Centro de Derechos Humanos de la Universidad Católica Andrés Bello (CDH-UCAB)<br />
+Asociación Civil Fuerza, Unión, Justicia, Solidaridad y Paz (FUNPAZ)<br />
+Dirección de Telecomunicaciones y Servicios (ULA)<br />
+Colegio Nacional de Periodistas<br />
+Organización Trébol<br />
+Asociación por los Derechos Civiles<br />
+Justicia y Paz OP Venezuela<br />
 Gobiérnatec<br />
 Clima21 - Ambiente y Derechos Humanos<br />
 Acción Solidaria<br />
@@ -45,3 +45,11 @@ IPANDETEC Centroamérica<br />
 Hiperderecho<br />
 Laboratorio de Paz<br />
 Provea<br />
+Laboratorio de Paz<br />
+FundaREDES<br />
+Observatorio de Derechos Humanos de la Universidad de Los Andes<br />
+Epikeia Observatorio Universitario de Derechos Humanos<br />
+FUNDACIÓN HUAIRA - QUITO, ECUADOR<br />
+Control Ciudadano para la Seguridad, la Defensa y la Fuerza Armada Nacional.<br />
+Ipys Venezuela<br />
+Access Now<br />
