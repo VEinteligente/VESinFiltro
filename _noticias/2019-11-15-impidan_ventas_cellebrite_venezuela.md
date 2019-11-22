@@ -1,4 +1,4 @@
----
+q2---
 layout: post
 title: "Urgente:
 Impidan ventas de Cellebrite a Venezuela"
@@ -52,4 +52,3 @@ Epikeia Observatorio Universitario de Derechos Humanos<br />
 FUNDACIÓN HUAIRA - QUITO, ECUADOR<br />
 Control Ciudadano para la Seguridad, la Defensa y la Fuerza Armada Nacional.<br />
 Ipys Venezuela<br />
-Access Now<br />

@@ -51,4 +51,3 @@ Epikeia Observatorio Universitario de Derechos Humanos<br />
 FUNDACIÓN HUAIRA - QUITO, ECUADOR<br />
 Control Ciudadano para la Seguridad, la Defensa y la Fuerza Armada Nacional.<br />
 Ipys Venezuela<br />
-Access Now<br />
