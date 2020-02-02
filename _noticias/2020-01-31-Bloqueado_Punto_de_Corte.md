@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bloquean Punto de Corte luego de publicar reportaje CANTV en las ruinas"
+title:  "Bloquean Punto de Corte luego de publicar reportaje 'CANTV en las ruinas'"
 small:   "Bloquean Punto de Corte luego de publicar reportaje sobre CANTV"
-excerpt: "Bloqueado por los principales proveedores de internet luego de publicar un reportaje sobre CANTV"
+excerpt: "Bloqueado por los principales proveedores de internet luego de publicar un reportaje la crisis CANTV"
 permalink: /noticias/alerta-2020-01-31/
 date:   2020-01-31 22:20:00 -0400
 categories: bloqueos
