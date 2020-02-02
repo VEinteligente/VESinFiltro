@@ -1,4 +1,4 @@
-iluminación---
+---
 layout: post
 title:  "Bloquean Punto de Corte luego de publicar reportaje CANTV en las ruinas"
 small:   "Bloquean Punto de Corte luego de publicar reportaje sobre CANTV"
