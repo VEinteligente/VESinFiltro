@@ -9,8 +9,10 @@ categories: bloqueos
 image: /res/post_img/2020-01-31.png
 ---
 
-![Cover image](/res/post_img/2020-01-31.png)
+
 Ha sido bloqueado el portal de noticias [Punto de Corte](https://puntodecorte.com) luego de que publicaran un reportaje titulado [CANTV en las ruinas](https://puntodecorte.com/cantv-en-las-ruinas/) el 2020-01-30, en el que el terrible estado de una instalación del principal de internet de Venezuela, CANTV que es una empresa del estado.
+
+![Cover image](/res/post_img/2020-01-31.png)
 
 Este bloqueo opera mediante un Bloqueo por DNS, acatado por todos los principales proveedores de internet de Venezuela: CANTV, Movistar, Digitel,  Inter y Movilnet (Empresa estatal de telefonía móvil en proceso de separación de CANTV). Se espera que este bloqueo persista indefinidamente como en el caso de los más de 20 otro medios bloqueados en Venezuela.
 
