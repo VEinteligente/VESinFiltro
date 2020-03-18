@@ -6,7 +6,7 @@ excerpt: "Este bloqueo es el primer bloqueo específicamente relacionado a al cr
 permalink: /noticias/Bloqueado_portal_coronavirus_AN
 date:   2020-03-18 9:11:00 -0400
 categories: bloqueos
-image: /res/post_img/2020-02-18.png
+image: /res/post_img/2020-03-18.png
 ---
 
 
