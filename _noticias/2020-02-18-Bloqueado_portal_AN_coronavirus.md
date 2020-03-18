@@ -14,9 +14,17 @@ El Gobierno de Venezuela ha bloqueado [coronavirusvenezuela.info](http://coronav
 
 Desde su lanzamiento y hasta el momento de publicación, [coronavirusvenezuela.info](http://coronavirusvenezuela.info) redirije a una sección del portal de gestión de Juan Guaidó [presidenciave.com](http://presidenciave.com)
 
-CANTV, el principal proveedor de internet del país y empresa estatal, está bloqueado las conexiones a los dominios coronavirusvenezuela.info, presidenciave.com y pvenezuela.com (dominio alternativo a presidenciave.com); mediante un bloqueo HTTP y HTTPs (aplicando filtrado por SNI)
+CANTV, el principal proveedor de internet del país y empresa estatal, está bloqueado las conexiones a los dominios coronavirusvenezuela.info, presidenciave.com y pvenezuela.com (dominio alternativo a presidenciave.com); mediante un bloqueo HTTP y HTTPs (aplicando filtrado por SNI) con una efectividad que ha variado en el día.
 
 Los principales operadores privados, entre ellos: Movistar, Digitel, Supercable, están implementando un bloqueo DNS a [presidenciave.com](http://presidenciave.com), efectivamente bloqueando también este portal sobre COVID-19 en Venezuela.
+
+
+*Actualización 3:30 pm (VET)*
+
+La tasa de bloqueo de coronavirusvenezuela.info en CANTV se aproxima al 33%, ha estado variando durante todo el día, este comportamiento se ha visto con otros bloqueos de este tipo en el pasado.
+
+Por cambios en coronavirusvenezuela.info ahora redirije a un URL de dominio pvenezuela.com, pero todavía solicitando muchos recursos web cuyo URL tiene el dominio presidenciave.com, haciendo que el sitio se vea incompleto y no se pueda navegar facilmente en los proveedores privados por su bloqueo DNS a presidenciave.com.
+
 
 ## Recomendaciones a usuarios de internet en Venezuela
 
