@@ -3,7 +3,7 @@ layout: post
 title: "Prueba puntual temporal"
 permalink: /test-puntual/
 image: /res/TWcard.png
-destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Felpitazo.net%22%2C%22https%3A%2F%2Felpitazo.ml%22%2C%22https%3A%2F%2Felpitazo.info%22%2C%22https%3A%2F%2Felpitazo.com%22%5D%7D&mv=1.2.0"
+destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fcronica.uno%22%2C%22https%3A%2F%2Falbertonews.com%22%2C%22https%3A%2F%2Flapatilla.com%22%2C%22https%3A%2F%2Felpitazo.com%22%5D%7D&mv=1.2.0"
 ---
 
 # Prueba puntual temporal
