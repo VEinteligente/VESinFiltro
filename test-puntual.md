@@ -3,7 +3,7 @@ layout: post
 title: "Prueba puntual temporal"
 permalink: /test-puntual/
 image: /res/TWcard.png
-destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fcronica.uno%22%2C%22https%3A%2F%2Falbertonews.com%22%2C%22https%3A%2F%2Flapatilla.com%22%2C%22https%3A%2F%2Felpitazo.com%22%5D%7D&mv=1.2.0"
+destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%3A%2F%2Fapoyosaludve.com%2F%22%2C%22https%3A%2F%2Fheroesdesaludve.org%2F%22%2C%22https%3A%2F%2Fheroesdesaludve.info%2F%22%2C%22https%3A%2F%2Fheroesdelasaludve.com%2F%22%2C%22https%3A%2F%2Fapoyodesaludve.com%2F%22%2C%22https%3A%2F%2Fmedicos.presidenciave.org%22%2C%22https%3A%2F%2Fteleconsulta.presidenciave.org%22%2C%22https%3A%2F%2Fconsulta.teleconsultave.com%22%2C%22http%3A%2F%2Fplanemergencianacional.com%2F%22%2C%22http%3A%2F%2Fcoronavirusvenezuela.info%22%2C%22https%3A%2F%2Fteleconsulta.presidenciave.org%2F%22%2C%22http%3A%2F%2Fpresidenciave.org%2F%22%2C%22https%3A%2F%2Fpresidenciave.com%2F%22%2C%22http%3A%2F%2Fpresidenciave.org%22%2C%22http%3A%2F%2Fpvenezuela.com%2Fcoronavirus%2F%22%2C%22https%3A%2F%2Fpvenezuela.com%2F%22%2C%22http%3A%2F%2Fpvenezuela.org%2F%22%2C%22http%3A%2F%2Fvepresidencia.com%2F%22%5D%7D&mv=1.2.0"
 ---
 
 # Prueba puntual temporal
