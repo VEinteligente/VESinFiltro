@@ -23,7 +23,7 @@ Los principales operadores privados, entre ellos: Movistar, Digitel, Supercable,
 
 La tasa de bloqueo de coronavirusvenezuela.info en CANTV se aproxima al 33%, ha estado variando durante todo el día, este comportamiento se ha visto con otros bloqueos de este tipo en el pasado.
 
-Por cambios en coronavirusvenezuela.info ahora redirije a un URL de dominio pvenezuela.com, pero todavía solicitando muchos recursos web cuyo URL tiene el dominio presidenciave.com, haciendo que el sitio se vea incompleto y no se pueda navegar facilmente en los proveedores privados por su bloqueo DNS a presidenciave.com.
+Por cambios en coronavirusvenezuela.info ahora redirije a un URL de dominio pvenezuela.com, pero todavía solicitando muchos recursos web cuyo URL tiene el dominio presidenciave.com, haciendo que el sitio se vea incompleto y no se pueda navegar fácilmente en los proveedores privados por su bloqueo DNS a presidenciave.com.
 
 
 ## Recomendaciones a usuarios de internet en Venezuela
