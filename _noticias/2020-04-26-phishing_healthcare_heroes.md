@@ -4,7 +4,7 @@ title:  "Preliminar report: State sponsored phishing against healthcare workers 
 small:  "State sponsored phishing against healthcare in Venezuela"
 excerpt: "Healthcare workers who wanted to register to recieve finanal aid are targeted by state-sponsored phishing by Venezuela's Maduro Government"
 permalink: /noticias/2020-04-26-phishing_healthcare_heroes
-date:   2020-04-27 6:23:00 -0400
+date:   2020-04-27 16:12:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-04-26_es.png
 ---
@@ -18,7 +18,7 @@ On Sunday, March 26 2020, VE Sin Filtro identified a new phishing campaign again
 
 ![comparison](/res/post_img/2020-04-26/comp.png)
 
-CANTV, Venezuela's largest ISP and a state-owned company under the control of Nicolas Maduro, was **tricking their users with malicious DNS responses for heroesdesaludve.info,*[update]* and the alternative domain saludvzla.com**, sending most of the users who wanted to visit the site to a fake one to capture their data. It's possible that this malicious site also received visits from deceived users after clicking on malicious links.
+CANTV, Venezuela's largest ISP and a state-owned company under the control of Nicolas Maduro, was **tricking their users with malicious DNS responses for heroesdesaludve.info,*[update:* and the alternative domain saludvzla.com]**, sending most of the users who wanted to visit the site to a fake one to capture their data. It's possible that this malicious site also received visits from deceived users after clicking on malicious links.
 
 Phishing is an attack in which users are fooled into revealing personal or sensitive information, making them believe they are visiting the genuine site when they really are in a malicious site that looks like the original.
 
@@ -28,7 +28,7 @@ CANTV participates in this phishing campaign by facilitating the malicious resol
 
 By 19:26 2020-04-26 (VET), at the latest, [CANTV's DNS server began to reply with this false information](). The server redirects the web browser to the domain heroesdesaludve.co, controlled by attackers, with a page almost identical to the original.
 
-[update]* The alternative domain saludvzla.com** was ponting to the same server shortly after being introduced, in the morning of 2020-04-28
+[update:]* The alternative domain saludvzla.com** was ponting to the same server shortly after being introduced, in the morning of 2020-04-28
 
 This strategy implies that almost every user of CANTV and subsidiary companies attempting to visit heroesdesaludve.info will end up on a malicious site. If the user typed or clicked the URL starting with HTTPS (https://heroesdesaludve.info), they could have seen a warning; however, many Venezuelans users are used to ignore these warnings.
 
