@@ -7,7 +7,7 @@ permalink: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/
 date:   2019-02-15 12:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report.png
-author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
+author: "Andrés Azpúrua, Carlos Guerra"
 ---
 
 ![Cover image](/res/post_img/2019-02-15-report.png)
@@ -941,4 +941,4 @@ persona creía haberse registrado probablemente fue víctima del phishing.
 Ofrecer más información y ayuda.
 
 
-Por: [Andrés Azpúrua](https://twitter.com/andresAzp), [Carlos Guerra](https://twitter.com/cguerrave), [Jose Luis Rivas](https://twitter.com/joseluisrivas)
+Por: [Andrés Azpúrua](https://twitter.com/andresAzp), [Carlos Guerra](https://twitter.com/cguerrave)
