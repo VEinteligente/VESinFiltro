@@ -7,7 +7,7 @@ permalink: /noticias/Phishing_by_Venezuelan_government_targets_activists/
 date:   2019-02-15 18:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report_en.png
-author: "Andrés Azpúrua, Carlos Guerra, Jose Luis Rivas"
+author: "Andrés Azpúrua, Carlos Guerra"
 ---
 
 This report was originally [published in Spanish on 2019-02-15](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
@@ -647,6 +647,5 @@ VoluntariosXVenezuela.com:
 Authors:
 [Andrés Azpúrua](https://twitter.com/andresAzp),
 [Carlos Guerra](https://twitter.com/cguerrave),
-[Jose Luis Rivas](https://twitter.com/joseluisrivas)
 
 ![Cover image](/res/post_img/2019-02-15-report_en.png)
