@@ -1,0 +1,29 @@
+---
+
+layout: page
+permalink: /noticias/en/noticia
+title: News
+
+---
+
+{% assign category = "noticia" %}
+{% 
+    assign posts = site.noticias 
+        | where: "lang", "en" 
+        | where_exp: "item", "item.categories contains category"
+%}
+
+{% for post in posts reversed %}
+<article class="post">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p class="metadata">
+        <span class="date">{{post.date | date_to_long_string }}</span>
+        {% if post.author %}
+            <span class="byline">Autor:
+                <span class="author-name">{{ post.author }}</span>
+            </span>
+        {% endif %}
+    </p>
+  <p>{{ post.excerpt }}</p>
+</article>
+{% endfor %}
