@@ -8,6 +8,7 @@ date:   2018-08-16 11:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2018-08-16-report.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
+lang: en
 ---
 
 

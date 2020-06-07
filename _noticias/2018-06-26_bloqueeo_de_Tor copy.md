@@ -7,7 +7,7 @@ permalink: /noticias/CANTV_bloquea_Tor_2017-06-26/
 date:   2018-06-26 01:22:00 -0400
 categories: bloqueos
 image: /res/post_img/2018-06-20-tor_network.png
-
+lang: es
 ---
 
 Caracas, 26 de Junio de 2018

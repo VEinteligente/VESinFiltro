@@ -7,6 +7,7 @@ permalink: /noticias/bloqueo_youtube_un_dia/
 date:   2019-03-07 15:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-03-07-post.png
+lang: es
 ---
 
 

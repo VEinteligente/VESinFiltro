@@ -8,6 +8,7 @@ date:   2019-01-21 14:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua"
+lang: es
 ---
 
 El lunes 21 de enero fue documentado cómo Twitter, Youtube e Instagram fueron bloqueados por el ISP del estado Venezolano, CANTV. El bloqueo comenzó en la madrugada y duró hasta las 9:50am (GMT-4). Fue documentado con numerosas mediciones ad-hoc y mediciones  realizadas con [OONI Probe](http://ooni.torproject.org) sistemáticamente en sondas dedicadas para este propósito y corriendo en dispositivos móviles gracias a la colaboración de usuarios de internet que participaron en la recolección de datos.

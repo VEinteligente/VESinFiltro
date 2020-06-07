@@ -8,6 +8,7 @@ date:   2019-02-15 18:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report_en.png
 author: "Andrés Azpúrua, Carlos Guerra"
+lang: en
 ---
 
 This report was originally [published in Spanish on 2019-02-15](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)

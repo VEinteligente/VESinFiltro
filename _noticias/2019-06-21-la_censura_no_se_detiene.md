@@ -11,6 +11,7 @@ date:   2019-06-21 6:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-06-21-reporte-b.png
 author: "Andrés Azpúrua"
+lang: es
 ---
 
 **La visita de la Alta Comisionada para los Derechos Humanos, Michelle Bachelet, no impidió  que el mismo día se bloqueara Youtube**, el principal sitio de hospedaje y streaming y video. Más bien, **la censura contra medios en internet ha crecido en días previos, bloqueos que permanecen durante la visita de Bachelet.**

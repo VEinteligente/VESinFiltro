@@ -7,7 +7,7 @@ permalink: /noticias/comunicado_ley_ciberespacio/
 date:   2019-01-17 01:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-01-17-comunicado.png
-
+lang: es
 ---
 
 ### COMUNICADO

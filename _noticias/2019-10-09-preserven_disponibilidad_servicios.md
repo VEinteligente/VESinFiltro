@@ -7,6 +7,7 @@ permalink: /noticias/2019-10-09-preserven_disponibilidad_servicios/
 date:   2019-10-09 07:22:00 -0400
 categories: bloqueos
 image: /res/post_img/generic.png
+lang: es
 ---
 
 Venezuela Inteligente y el proyecto VE sin Filtro, Junto a Internet Society Capítulo Venezuela y Redes Ayuda más de 30 organizaciones instamos a las empresas de tecnología a mantener sus servicios y plataformas disponibles a los venezolanos. En respuesta a las acciones exageradas de algunas empresas por la Orden Ejecutiva 13884 de los Estados Unidos.

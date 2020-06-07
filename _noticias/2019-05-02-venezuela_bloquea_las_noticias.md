@@ -8,6 +8,7 @@ date:   2019-05-03 12:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-05-03-reporte.png
 author: "Andrés Azpúrua"
+lang: es
 ---
 
 ![](/res/post_img/2019-05-03-reporte.png)

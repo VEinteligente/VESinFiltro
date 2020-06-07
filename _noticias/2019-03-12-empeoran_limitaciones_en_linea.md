@@ -8,6 +8,7 @@ permalink: /noticias/empeoran_limitaciones_en_linea/
 date:   2019-03-12 9:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-03-12-reporte.png
+lang: es
 ---
 
 ![](/res/post_img/2019-03-12-reporte.png)

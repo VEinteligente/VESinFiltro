@@ -7,7 +7,7 @@ permalink: /noticias/resumen_preliminar_2017-06-28/
 date:   2017-06-28 01:22:00 -0400
 categories: bloqueos
 image: no
-
+lang: es
 ---
 
 29 de junio de 2017, 1:22 am

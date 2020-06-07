@@ -5,8 +5,9 @@ small:  "State sponsored phishing against healthcare in Venezuela"
 excerpt: "Healthcare workers who wanted to register to recieve finanal aid are targeted by state-sponsored phishing by Venezuela's Maduro Government"
 permalink: /noticias/2020-04-26-phishing_healthcare_heroes
 date:   2020-04-27 16:12:00 -0400
-categories: bloqueos
+categories: [bloqueos, reporte]
 image: /res/post_img/2020-04-26_es.png
+lang: en
 ---
 
 *This preliminary report was [originally published on 2020-04-27 in spanish](http://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud)*

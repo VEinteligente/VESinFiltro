@@ -7,7 +7,7 @@ permalink: /noticias/comunicado_regional_2017-05-26/
 date:   2017-05-26 01:22:00 -0400
 categories: bloqueos
 image: no
-
+lang: es
 ---
 
 El pasado 16 de mayo, el Gobierno de Venezuela emitió el Decreto Presidencial N° 2849, que prorroga el estado de excepción en Venezuela, vigente desde mayo de 2016. En esta nueva prórroga se [autoriza la vigilancia en internet y el filtrado de contenidos](http://ipysvenezuela.org/alerta/nuevo-estado-excepcion-contempla-regulaciones-contundentes-los-contenidos-internet/). Esta medida profundiza aún más las restricciones al libre flujo de contenidos en línea, que recientemente ha incluido el [bloqueo de medios de comunicación vía streaming](https://www.derechos.org.ve/actualidad/ipys-venezuela-censuraron-y-declararon-ilegal-acceder-a-tres-televisoras-digitales-que-cubrieron-protestas), como VivoPlay, VPITV y CapitolioTV. Otras graves tendencias que prevalecen en Venezuela son la agresión de los funcionarios militares y policiales a periodistas y reporteros ciudadanos, y el arresto de ciudadanos a raíz de contenidos publicados en redes sociales.

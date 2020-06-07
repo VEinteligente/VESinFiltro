@@ -8,6 +8,7 @@ date: 2019-01-29 10:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
+lang: en
 ---
 #### Joint report by [OONI](http://ooni.torproject.org), [VE sin Filtro](http://vesinfiltro.com), [IPYS Venezuela](http://ipysvenezuela.org) and DFRlab.
 

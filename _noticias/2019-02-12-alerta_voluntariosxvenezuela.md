@@ -8,6 +8,7 @@ date:   2019-02-12 17:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-12-alerta.png
 author: "Andrés Azpúrua"
+lang: es
 ---
 
 Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV. **Todo el tráfico a [https://voluntariosxvenezuela.com](http://web.archive.org/web/20190211200329/https://www.voluntariosxvenezuela.com/), un portal asociado a la oposición venezolana para el registro de voluntarios en la distribución de ayuda humanitaria, es redirigido a otro servidor completamente distinto.**
