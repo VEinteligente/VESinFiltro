@@ -18,6 +18,22 @@ navigation:
 - title: Evade los bloqueos
   url: /bloqueos/
 
+langs:
+- name: Español 
+  code: es
+  url: /es
+- name: Inglés
+  code: en
+  url: /en
+
+news_categories:
+  - name: reporte
+    url: /reportes
+  - name: alerta
+    url: /alerta
+  - name: noticia
+    url: /noticia
+
 # Build settings
 markdown: kramdown
 
@@ -33,7 +49,5 @@ collections:
 plugins:
 - jekyll-redirect-from
 - jekyll-paginate
-# - jekyll-sass-converter
 
 
-paginate: 5

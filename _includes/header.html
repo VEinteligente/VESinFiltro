@@ -24,15 +24,46 @@
 					Todas las guías <b class="caret"></b>
 				</a>
 				<ul class="dropdown-menu">
-				{% for link in site.bloqueos %}
-					<li class=""><a href="{{ link.url | prepend: site.baseurl }}">
-						{{ link.small }}</a></li>
-				{% endfor %}
-				<li class="divider"></li>
-				{% for link in site.documenta %}
-					<li class=""><a href="{{ link.url | prepend: site.baseurl }}">
-						{{ link.small }}</a></li>
-				{% endfor %}
+					{% for link in site.bloqueos %}
+					<li class="">
+						<a href="{{ link.url | prepend: site.baseurl }}">
+							{{ link.small }}
+						</a>
+					</li>
+					{% endfor %}
+					<li class="divider"></li>
+					{% for link in site.documenta %}
+					<li class="">
+						<a href="{{ link.url | prepend: site.baseurl }}">
+							{{ link.small }}
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+			<!--Categories-->
+			<div class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Categorias <b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					{% assign noticias = "/noticias"  %}
+					{% for lang in site.langs %}
+						<h4 class="dropdown-header"> <strong> {{lang.name}} </strong> </h4> 
+						{% for category in site.news_categories %}
+							<li>
+								<a 
+									href="{{ category.url 
+												| prepend: lang.url
+												| prepend: noticias 
+												| prepend: site.url }}">
+									{{category.name}}
+								</a>
+							</li>
+						{% endfor %}
+
+						<li class="divider"></li>
+					{% endfor %}
 				</ul>
 			</div>
 			{% for link in site.navigation reversed %}
