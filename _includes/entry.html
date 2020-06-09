@@ -8,15 +8,23 @@
     <h2><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
     <p class="metadata">
         <span class="date">{{include.post.date | date_to_long_string }}</span>
+        {% for category in include.post.categories %}
+            <a href="{{ site.url 
+                        | append: '/noticias/'
+                        | append: include.post.lang
+                        | append: '/'
+                        | append: category
+                    }}">
+                <span class="label label-info pull-right" style="margin: 0.25rem;"> {{category}} </span>
+            </a>
+        {% endfor %}
+        <span class="label label-info pull-right" style="margin: 0.25rem;"> {{include.post.lang}} </span>
         {% if include.post.author %}
+        <br>
             <span class="byline">Autor:
                 <span class="author-name">{{ include.post.author }}</span>
             </span>
         {% endif %}
-        {% for category in include.post.categories %}
-            <span class="label label-info pull-right" style="margin: 0.25rem;"> {{category}} </span>
-        {% endfor %}
-        <span class="label label-info pull-right" style="margin: 0.25rem;"> {{include.post.lang}} </span>
     </p>
     <p>{{ include.post.excerpt }}</p>
 </article>

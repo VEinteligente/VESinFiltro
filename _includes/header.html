@@ -96,7 +96,25 @@
     				{% for link in site.documenta %}
     					<li class=""><a href="{{ link.url | prepend: site.baseurl }}">
     						{{ link.small }}</a></li>
-    				{% endfor %}
+					{% endfor %}
+					<li class="divider"></li>
+					{% assign noticias = "/noticias"  %}
+					<li> <a href="#"><b> Categorías </b> </a></li>
+					{% for lang in site.langs %}
+					<h4 class="dropdown-header"> <strong> {{lang.name}} </strong> </h4> 
+					{% for category in site.news_categories %}
+					<li>
+						<a 
+							href="{{ category.url 
+										| prepend: lang.url
+										| prepend: noticias 
+										| prepend: site.url }}">
+							{{category.name}}
+						</a>
+					</li>
+					{% endfor %}
+					{% endfor %}
+					<li class="divider"></li>
                 </ul>
             </div>
 		</nav>

@@ -28,7 +28,7 @@ langs:
 
 news_categories:
   - name: reporte
-    url: /reportes
+    url: /reporte
   - name: alerta
     url: /alerta
   - name: noticia
