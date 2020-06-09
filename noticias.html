@@ -12,13 +12,13 @@ redirect_from:
   <div class="container">
     <strong>Mostrar solo:</strong>
     {% for category in site.news_categories %}
-      <a href="#"  class="text-primary" id="{{category.name}}" style="margin: 0.25rem;"> 
+      <a href="#"  class="text-primary category" id="{{category.name}}" style="margin: 0.25rem;"> 
         {{category.name}} 
       </a>
     {% endfor %}
     |
     {% for lang in site.langs %}
-      <a href="#" id="{{lang.code}}" class="text-primary" style="margin: 0.25rem;"> 
+      <a href="#" id="{{lang.code}}" class="text-primary lang" style="margin: 0.25rem;"> 
         {{lang.name}} 
       </a>
     {% endfor %}
@@ -31,9 +31,88 @@ redirect_from:
 
 <!--Custom js-->
 <script>
-
 $(document).ready(function(){
-  console.log("Everything ok");
-});
+  //Active class:
+  const active = "text-primary"
+  const unactive = "text-muted"
+  //Search buttons
+  let cat_btns = {};
+  let lang_btns = {};
+  //Available posts
+  const entrys = $('.entry').toArray();
+  
+  //Init buttons
+  $('.category').toArray().forEach(item => {
+    cat_btns[item.id]={btn: item, active: true};
+  });
 
+  $('.lang').toArray().forEach(item =>{
+    lang_btns[item.id] = {btn: item, active: true};
+  });
+  
+  //Set button handlers:
+  $('.category').click(function(e){
+    e.preventDefault();
+    toggleTag(e.target.id, cat_btns, 'categories');
+  });
+
+  $('.lang').click(function(e) {
+    e.preventDefault();
+    toggleTag(e.target.id, lang_btns, 'lang');
+  });
+
+  /////// Aux functions ////////
+  
+  /*
+    summary:  Perform the news filtering in the page, set the buttons visibility 
+              and filters the news
+
+    param tag:  a string with the tag to filter. It could be a language or a category 
+                for the moments
+
+    param btnArray: an object with the buttons related to this tag, with the following layout:
+                    {string (button id) : {active : bool, item : HTML object}}
+      
+    param data: A string with the data attribute type. If you want to toggle a category, for example,
+    the category data in an entry relies in a data-categories attribute within the entry template, so
+    the correct string is 'categories'. 
+    
+    These are the supported data so far:
+    - 'categories'
+    - 'lang'
+  */
+  function toggleTag(tag, btnArray, data)
+  {
+    toggleButton(btnArray,tag);
+    let func =  btnArray[tag].active ? 
+                (item => $(item).removeClass('hidden')) : 
+                (item => $(item).addClass('hidden'));
+
+    entrys.filter(item => {
+      return $(item).data(data).split(" ").includes(tag);
+    }).map(func);    
+  }
+
+  /*
+    summary: Set the skin of an active/unactive  button
+    param btnArray: an object with the buttons information:
+        {string (button id) : {active : bool, item : HTML object}}
+    param btn: (String) button id 
+  */
+  function toggleButton(btnArray, btn)
+  {
+    if(btnArray[btn].active)
+    {
+      btnArray[btn].active = false;
+      $(btnArray[btn].btn).removeClass(active);
+      $(btnArray[btn].btn).addClass(unactive);
+    }
+    else{
+      btnArray[btn].active = true;
+      $(btnArray[btn].btn).removeClass(unactive);
+      $(btnArray[btn].btn).addClass(active);
+    }  
+  }
+  
+});
 </script>

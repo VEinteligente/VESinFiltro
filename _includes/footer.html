@@ -18,3 +18,7 @@
 <script>
   $("table").addClass("table");
 </script>
+
+{% if page.custom_js %}
+  {{ page.custom_js }}
+{% endif %}
