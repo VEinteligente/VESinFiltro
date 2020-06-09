@@ -31,15 +31,31 @@ redirect_from:
 
 <!--Custom js-->
 <script>
+/*
+  This code performs the filtering in the main new page. 
+  We assume that every entry has only one category and only one language.
+*/
 $(document).ready(function(){
   //Active class:
   const active = "text-primary"
   const unactive = "text-muted"
+  const langData = 'lang'
+  const categoryData = 'categories'
+  //There's some categories not considered between the filtering categories, these are the neutral_categories
+  const neutral_categories = ['bloqueos', 'vigilancia','comunicado']
   //Search buttons
   let cat_btns = {};
   let lang_btns = {};
   //Available posts
-  const entrys = $('.entry').toArray();
+  const entries = $('.entry').toArray().map(e => 
+            {
+              return { 
+                      //Html objects
+                      entry: e,
+                      //Every tag in the entry
+                      tags: [...$(e).data(categoryData).split(" "), $(e).data(langData)].filter(str => str !== "")
+                    }
+            });
   
   //Init buttons
   $('.category').toArray().forEach(item => {
@@ -53,25 +69,25 @@ $(document).ready(function(){
   //Set button handlers:
   $('.category').click(function(e){
     e.preventDefault();
-    toggleTag(e.target.id, cat_btns, 'categories');
+
+    //toggle the state of the current category 
+    toggleButton(cat_btns,e.target.id);
+    //Filter the news based on the current state
+    filterTag();
   });
 
   $('.lang').click(function(e) {
     e.preventDefault();
-    toggleTag(e.target.id, lang_btns, 'lang');
+    //Toggle the state of the current language
+    toggleButton(lang_btns, e.target.id);
+    //Filter the news feed based on the current state
+    filterTag();
   });
 
   /////// Aux functions ////////
   
   /*
-    summary:  Perform the news filtering in the page, set the buttons visibility 
-              and filters the news
-
-    param tag:  a string with the tag to filter. It could be a language or a category 
-                for the moments
-
-    param btnArray: an object with the buttons related to this tag, with the following layout:
-                    {string (button id) : {active : bool, item : HTML object}}
+    summary:  Perform the news filtering in the page
       
     param data: A string with the data attribute type. If you want to toggle a category, for example,
     the category data in an entry relies in a data-categories attribute within the entry template, so
@@ -81,16 +97,25 @@ $(document).ready(function(){
     - 'categories'
     - 'lang'
   */
-  function toggleTag(tag, btnArray, data)
+  function filterTag()
   {
-    toggleButton(btnArray,tag);
-    let func =  btnArray[tag].active ? 
-                (item => $(item).removeClass('hidden')) : 
-                (item => $(item).addClass('hidden'));
-
-    entrys.filter(item => {
-      return $(item).data(data).split(" ").includes(tag);
-    }).map(func);    
+    let activeTags = [...Object.keys(cat_btns).filter( str => {return cat_btns[str].active;}),
+                      ...Object.keys(lang_btns).filter( str => {return lang_btns[str].active;}),
+                      ...neutral_categories
+                      ];
+    let hide = item => $(item.entry).addClass('hidden')
+    let show = item => $(item.entry).removeClass('hidden')
+    
+    entries.map(entry => {
+      if (entry.tags.every(item => activeTags.includes(item)))
+      {
+        show(entry);
+      }
+      else
+      {
+        hide(entry);
+      }
+    });    
   }
 
   /*
