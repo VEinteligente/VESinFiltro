@@ -53,7 +53,8 @@ $(document).ready(function(){
                       //Html objects
                       entry: e,
                       //Every tag in the entry
-                      tags: [...$(e).data(categoryData).split(" "), $(e).data(langData)].filter(str => str !== "")
+                      tags: [...$(e).data(categoryData).split(" "),
+                                $(e).data(langData)].filter(str => str !== "")
                     }
             });
   
@@ -103,11 +104,13 @@ $(document).ready(function(){
                       ...Object.keys(lang_btns).filter( str => {return lang_btns[str].active;}),
                       ...neutral_categories
                       ];
+    let lang_tags  = Object.keys(lang_btns);
     let hide = item => $(item.entry).addClass('hidden')
     let show = item => $(item.entry).removeClass('hidden')
     
     entries.map(entry => {
-      if (entry.tags.every(item => activeTags.includes(item)))
+      if (entry.tags.every(item => activeTags.includes(item)) &&
+          entry.tags.filter(item => !(lang_tags.includes(item))).length > 0 )
       {
         show(entry);
       }
@@ -138,6 +141,5 @@ $(document).ready(function(){
       $(btnArray[btn].btn).addClass(active);
     }  
   }
-  
 });
 </script>
