@@ -8,17 +8,32 @@ redirect_from:
   - /n
 ---
 
+
+  <div class="container">
+    <strong>Mostrar solo:</strong>
+    {% for category in site.news_categories %}
+      <a href="#"  class="text-primary" id="{{category.name}}" style="margin: 0.25rem;"> 
+        {{category.name}} 
+      </a>
+    {% endfor %}
+    |
+    {% for lang in site.langs %}
+      <a href="#" id="{{lang.code}}" class="text-primary" style="margin: 0.25rem;"> 
+        {{lang.name}} 
+      </a>
+    {% endfor %}
+  </div>
   {% for post in site.noticias reversed %}
-    <article class="post">
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <p class="metadata">
-            <span class="date">{{post.date | date_to_long_string }}</span>
-            {% if post.author %}
-                <span class="byline">Autor:
-                    <span class="author-name">{{ post.author }}</span>
-                </span>
-            {% endif %}
-        </p>
-      <p>{{ post.excerpt }}</p>
-    </article>
+    {% include  entry.html 
+        post=post
+    %}
   {% endfor %}
+
+<!--Custom js-->
+<script>
+
+$(document).ready(function(){
+  console.log("Everything ok");
+});
+
+</script>

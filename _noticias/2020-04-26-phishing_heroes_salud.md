@@ -2,7 +2,7 @@
 layout: post
 title:  "Informe Preliminar: Phishing del gobierno de Maduro contra plataforma Héroes de la Salud"
 small:  ""
-excerpt: "Personal medico que busca registrarse para recibir ayuda es engañado por gobierno de Maduro. Mientras la página clonada y censurada
+excerpt: "Personal medico que busca registrarse para recibir ayuda es engañado por gobierno de Maduro. Mientras la página clonada y censurada"
 permalink: /noticias/2020-04-26-phishing_heroes_salud"
 date:   2020-04-27 6:23:00 -0400
 categories: [bloqueos, reporte]
