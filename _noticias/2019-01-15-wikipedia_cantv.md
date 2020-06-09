@@ -4,7 +4,7 @@ title:  Wikipedia bloqueada en CANTV desde el 12 de Enero.
 excerpt: El sitio web de todas las ediciones de Wikipedia fue bloqueado por CANTV, el proveedor de internet del estado Venezolano, del 12 al 14 de Enero de 2019
 permalink: /noticias/wikipedia_2019-01/
 date:   2019-01-15 6:30:00 -0400
-categories: bloqueos
+categories: alerta
 image: /res/post_img/2019-01-18-wikipedia.png
 author: "Andrés Azpúrua"
 lang: es

@@ -5,7 +5,7 @@ small: "Tech companies: Preserve access to services and platforms for Venezuelan
 excerpt: We urge tech companies to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 permalink: /noticias/2019-10-09-preserve_access_to_services/
 date:   2019-10-09 07:22:00 -0400
-categories: bloqueos
+categories: reporte
 image: /res/post_img/generic.png
 lang: en
 ---

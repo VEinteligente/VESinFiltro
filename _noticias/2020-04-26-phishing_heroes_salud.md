@@ -5,7 +5,7 @@ small:  ""
 excerpt: "Personal medico que busca registrarse para recibir ayuda es engañado por gobierno de Maduro. Mientras la página clonada y censurada"
 permalink: /noticias/2020-04-26-phishing_heroes_salud"
 date:   2020-04-27 6:23:00 -0400
-categories: [bloqueos, reporte]
+categories: reporte
 image: /res/post_img/2020-04-26_es.png
 lang: es
 ---

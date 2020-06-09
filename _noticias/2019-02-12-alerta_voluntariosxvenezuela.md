@@ -5,7 +5,7 @@ small:  "VALERTA: CANTV impulsa phishing contra plataforma de voluntarios"
 excerpt: Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV
 permalink: /noticias/alerta-phishing_voluntariado/
 date:   2019-02-12 17:20:00 -0400
-categories: bloqueos
+categories: alerta
 image: /res/post_img/2019-02-12-alerta.png
 author: "Andrés Azpúrua"
 lang: es

@@ -5,7 +5,7 @@ small: Resumen preliminar de bloqueos del 28 de junio de 2017
 excerpt: En horas de la noche del 28 de junio de 2017, aproximadamente a las 23h, detectamos nuevos bloqueos a las principales sociales, el extraño incidente solo duró una hora y se desconocen los motivos, seguimos investigando
 permalink: /noticias/resumen_preliminar_2017-06-28/
 date:   2017-06-28 01:22:00 -0400
-categories: bloqueos
+categories: reporte
 image: no
 lang: es
 ---

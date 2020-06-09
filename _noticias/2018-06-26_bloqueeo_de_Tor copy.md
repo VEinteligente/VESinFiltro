@@ -5,7 +5,7 @@ small: VE sin Filtro detecta que CANTV bloquea la red Tor, usada para evadir blo
 excerpt: Venezuela Inteligente detectó que la estatal CANTV, el principal proveedor de internet en Venezuela, está bloqueando el uso de la red Tor, usada para evadir bloqueos y disimular el origen del tráfico, mejorando la privacidad de sus usuarios al navegar por la web.
 permalink: /noticias/CANTV_bloquea_Tor_2017-06-26/
 date:   2018-06-26 01:22:00 -0400
-categories: bloqueos
+categories: noticia
 image: /res/post_img/2018-06-20-tor_network.png
 lang: es
 ---

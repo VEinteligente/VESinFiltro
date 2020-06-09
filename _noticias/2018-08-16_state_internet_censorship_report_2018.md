@@ -5,7 +5,7 @@ small: A study by Venezuela Inteligente / VEsinFiltro, IPYS Venezuela, and OONI 
 excerpt: English version of a report that highlights media censorship and the goes in depth into how Tor is being blocked. // Versión en inglés del reporte del estado de la censura de internet en Venezuela, destacando la censura de los istios web de medios de comunicación, y un análisis profundo del bloqueo de Tor en Venezuela
 permalink: /noticias/state_of_internet_censorship_2018-08-16/
 date:   2018-08-16 11:00:00 -0400
-categories: bloqueos
+categories: reporte
 image: /res/post_img/2018-08-16-report.png
 author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
 lang: en

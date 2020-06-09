@@ -4,7 +4,7 @@ title:  Venezuela bloquea en internet a Antena 3 Internacional.
 excerpt: "El sitio de Antena 3 Internacional ha sido bloqueado, impidiendo que se vea su transmisión por internet. Ya había sido censurado en servicios de TV por suscripción."
 permalink: /noticias/antena3_2019-03/
 date:   2019-03-24 16:30:00 -0400
-categories: bloqueos
+categories: alerta
 image: /res/post_img/2019-03-24-post.png
 author: "Andrés Azpúrua"
 lang: es

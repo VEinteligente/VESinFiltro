@@ -5,7 +5,7 @@ small: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activist
 excerpt: El sitio web voluntariosxvenezuela.com, asociado a la oposición venezolana para el registro de voluntarios en la distribución de ayuda humanitaria ha sufrido una campaña de phishing impulsada por el gobierno con DNS injection.
 permalink: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/
 date:   2019-02-15 12:00:00 -0400
-categories: bloqueos
+categories: reporte
 image: /res/post_img/2019-02-15-report.png
 author: "Andrés Azpúrua, Carlos Guerra"
 lang: es

@@ -5,7 +5,7 @@ small: "Stop Cellebrite sales to Venezuela"
 excerpt: We urge for inmediate action to prevent the sale of any data extraction or surveillance tools to the government of Venezuela. The safety of many journalists, their sources, activists, and human rights defenders might depend on it.
 permalink: /noticias/stop_cellebrite_sales_Venezuela/
 date:   2019-11-15 14:22:00 -0400
-categories: vigilancia
+categories: alerta
 image: /res/post_img/2019-11-15-cellebrite_en.png
 lang: en
 ---

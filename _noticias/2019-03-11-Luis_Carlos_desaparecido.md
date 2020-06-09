@@ -5,7 +5,7 @@ small: "Luis Carlos Díaz desaparecido #DóndeEstáLuisCarlos"
 excerpt: "Periodista y activista venezolano Luis Carlos Díaz @LuisCarlos está desaparecido desde las 5:30pm del 11 de marzo"
 permalink: /noticias/Luis_Carlos_desaparecido/
 date:   2019-03-11 23:00:00 -0400
-categories: comunicado
+categories: alerta
 # image: /res/post_img/2019-03-11-post.png
 lang: es
 ---

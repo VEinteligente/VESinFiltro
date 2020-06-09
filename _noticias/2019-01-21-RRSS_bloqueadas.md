@@ -5,7 +5,7 @@ small:  CANTV bloquea Twitter, Youtube e Instagram el 21 de Enero
 excerpt: Documentamos cómo Twitter, Youtube e Instagram fueron bloqueados por el ISP del estado Venezolano, CANTV. El bloqueo comenzó en la madrugada del 21 de Enero y duró hasta las 9:50am (GMT-4)
 permalink: /noticias/twitter_youtube_instagram_2019-01/
 date:   2019-01-21 14:30:00 -0400
-categories: bloqueos
+categories: alerta
 image: /res/post_img/2019-01-21-RRSS.png
 author: "Andrés Azpúrua"
 lang: es

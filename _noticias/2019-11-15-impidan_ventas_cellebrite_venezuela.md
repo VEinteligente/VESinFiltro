@@ -6,7 +6,7 @@ small: "Impidan ventas de Cellebrite a Venezuela"
 excerpt:  Llamamos a actuar con rapidez para prevenir la venta de cualquier herramientas de extracción de datos al gobierno de Venezuela. La integridad de muchos periodistas, sus fuentes, activistas y defensores de derechos humanos podría depender de ello."
 permalink: /noticias/paren_ventas_cellebrite_venezuela/
 date:   2019-11-15 14:22:01 -0400
-categories: vigilancia
+categories: alerta
 image: /res/post_img/2019-11-15-cellebrite_es.png
 lang: es
 ---

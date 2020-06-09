@@ -5,7 +5,7 @@ small: "Por un día entero bloquearon YouTube"
 excerpt: "CANTV, el principal proveedor de internet de Venezuela, bloqueó por todo un día el acceso a youtube.com. Este bloqueo aplicó Filtrado SNI, por lo que no afectó a otros servicios de google. Bloqueos previos a YouTube habían sido más cortos."
 permalink: /noticias/bloqueo_youtube_un_dia/
 date:   2019-03-07 15:00:00 -0400
-categories: bloqueos
+categories: alerta
 image: /res/post_img/2019-03-07-post.png
 lang: es
 ---
