@@ -9,7 +9,7 @@ categories: bloqueoscd
 image: /res/post_img/2020-08-28.png
 ---
 
-Todos los principales proveedores de internet bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico
+Todos los principales proveedores de internet en Venezuela han bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico impulsado por el preisdente de la Asamblea Nacional
 
 Bloqueados los VPN Psiphon y Tunnelbear en todos los operadores de Venezuela y el proxy web Anonymouse.
 
@@ -24,3 +24,6 @@ En pocos días antes, el 2020-08-28 habíamos reportado el bloqueo a Airtm, que 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">🛑 Bloqueado <a href="https://twitter.com/theairtm?ref_src=twsrc%5Etfw">@theAirtm</a> en <a href="https://twitter.com/hashtag/internetVE?src=hash&amp;ref_src=twsrc%5Etfw">#internetVE</a> <a href="https://twitter.com/hashtag/20Ago?src=hash&amp;ref_src=twsrc%5Etfw">#20Ago</a>:<a href="https://twitter.com/airtm?ref_src=twsrc%5Etfw">@Airtm</a> es una plataforma financiera que permite en hacer transacciones y operaciones entre monedas con otros usuarios.<br><br>Es implementado mediante <a href="https://twitter.com/hashtag/bloqueoDNS?src=hash&amp;ref_src=twsrc%5Etfw">#bloqueoDNS</a> en operadoras como <a href="https://twitter.com/hashtag/CANTV?src=hash&amp;ref_src=twsrc%5Etfw">#CANTV</a>, <a href="https://twitter.com/hashtag/Movistar?src=hash&amp;ref_src=twsrc%5Etfw">#Movistar</a>, <a href="https://twitter.com/hashtag/digitel?src=hash&amp;ref_src=twsrc%5Etfw">#digitel</a>, <a href="https://twitter.com/hashtag/supercable?src=hash&amp;ref_src=twsrc%5Etfw">#supercable</a>. <a href="https://t.co/G9uSDfKdmK">pic.twitter.com/G9uSDfKdmK</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1296564174198276102?ref_src=twsrc%5Etfw">August 20, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Airtm ya había sido bloqueado previamente en 2018, como también había sido bloqueado Tunnelbear y junto otros VPNs en el pasado.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTc4NjI5MjA1Nl19
+-->
