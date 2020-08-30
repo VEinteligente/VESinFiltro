@@ -5,7 +5,7 @@ title:  "Bloquean VPNs y herramientas anti-censura para impedir acceso a benefic
 small:   "Bloquean VPNs en Venezuela para impedir acceso"
 excerpt: "Todos los principales proveedores de internet bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico"
 permalink: /noticias/2020-08-28-bloqueo-VPNs/
-date:   2020-08-28 3:40:00 -0400
+date:   2020-08-28 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-08-28.png
 ---
@@ -46,5 +46,5 @@ Ambas siguen estando disponibles para ser instaladas desde las tiendas de aplica
 - [iOS: Apple App Store](https://geo.itunes.apple.com/app/tunnelbear-vpn-unblock-websites/id564842283?mt=8&at=1010l9nk)
 - [tuneloso.com](http://tuneloso.com)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzcwODE4MjhdfQ==
+eyJoaXN0b3J5IjpbMTA5MTM1MjE2MV19
 -->
