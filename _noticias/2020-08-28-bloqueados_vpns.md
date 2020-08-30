@@ -9,7 +9,7 @@ categories: bloqueoscd
 image: /res/post_img/2020-08-28.png
 ---
 
-Todos los principales proveedores de internet en Venezuela han bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico impulsado por el preisdente de la Asamblea Nacional
+Todos los principales proveedores de internet en Venezuela han bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico impulsado por el presidente de la Asamblea Nacional, en medio de una grave crisis por la pandemia de COVID-19 en la que han muerto más de 
 
 Bloqueados los VPN Psiphon y Tunnelbear en todos los operadores de Venezuela y el proxy web Anonymouse.
 
@@ -25,5 +25,5 @@ En pocos días antes, el 2020-08-28 habíamos reportado el bloqueo a Airtm, que 
 
 Airtm ya había sido bloqueado previamente en 2018, como también había sido bloqueado Tunnelbear y junto otros VPNs en el pasado.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjI5MjA1Nl19
+eyJoaXN0b3J5IjpbLTQ5Nzg3MjMyNF19
 -->
