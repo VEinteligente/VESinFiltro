@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Bloquean VPNs y herramientas anti-censura para impedir acceso a beneficio para el personal médico"
@@ -48,5 +47,5 @@ Ambas siguen estando disponibles para ser instaladas desde las tiendas de aplica
 - [tuneloso.com](http://tuneloso.com)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUwNjk5NDg5LDEwOTEzNTIxNjFdfQ==
+eyJoaXN0b3J5IjpbLTg4NTg3MTY2NSwxMDkxMzUyMTYxXX0=
 -->
