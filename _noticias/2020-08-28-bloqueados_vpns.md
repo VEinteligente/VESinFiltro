@@ -26,10 +26,6 @@ Airtm ya había sido bloqueado previamente en 2018, como también había sido bl
 
 EL bloqueo estuvo implemntado en la mayoría de los casos como un bloqueo DNS, exceptuando el bloqueo a anonymouse que ya existía en Movistar que funciona mediante filtrado HTTP
 
-![](/res/post_img/2020-08-28/tabla.png)
-<br><br><br>
-**Actualización 2020-08-29:** El bloqueo DNS a anonymouse.org ha sido levantado en CANTV
-<br><br>
 ## Descarga desde direcciones alternativas
 Ambas siguen estando disponibles para ser instaladas desde las tiendas de aplicaciones de iOS y Andriod, y también desde los siguientes enlaces alternativos
 
@@ -46,6 +42,12 @@ Ambas siguen estando disponibles para ser instaladas desde las tiendas de aplica
 - [iOS: Apple App Store](https://geo.itunes.apple.com/app/tunnelbear-vpn-unblock-websites/id564842283?mt=8&at=1010l9nk)
 - [tuneloso.com](http://tuneloso.com)
 
+<br>
+**Actualización 2020-08-29:** El bloqueo DNS a anonymouse.org ha sido levantado en CANTV
+<br>
+![](/res/post_img/2020-08-28/tabla.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTg3MTY2NSwxMDkxMzUyMTYxXX0=
+eyJoaXN0b3J5IjpbMjUzNTU2NjM1LC04ODU4NzE2NjUsMTA5MT
+M1MjE2MV19
 -->
