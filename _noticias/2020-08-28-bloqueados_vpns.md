@@ -9,7 +9,7 @@ categories: bloqueos
 image: /res/post_img/2020-08-28.png
 ---
 
-Todos los principales proveedores de internet en Venezuela han bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico impulsado por el presidente de la Asamblea Nacional, en medio de una grave crisis por la pandemia de COVID-19 en la que han muerto [más de 100 médicos](https://eldiario.com/2020/08/27/medicos-muertos-coronavirus-venezuela/).
+Todos los principales proveedores de internet en Venezuela han bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico impulsado por el presidente de la Asamblea Nacional, en medio de una grave crisis por la pandemia de COVID-19 en la que han muerto [más de 100 médicos](https://www.dw.com/es/el-personal-de-salud-venezolano-el-más-expuesto-al-covid-19/a-54760467?__twitter_impression=true).
 
 **Los proveedores de internet bloquearon Psiphon y Tunnelbear, ambos servicios de VPN en y el proxy web Anonymouse. Afortunadamente el impacto a la fucnioanlidad de VPN en sí misma es menor**
 
@@ -48,6 +48,6 @@ Ambas siguen estando disponibles para ser instaladas desde las tiendas de aplica
 ![](/res/post_img/2020-08-28/tabla.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNTU2NjM1LC04ODU4NzE2NjUsMTA5MT
-M1MjE2MV19
+eyJoaXN0b3J5IjpbODUzOTQxODcyLDI1MzU1NjYzNSwtODg1OD
+cxNjY1LDEwOTEzNTIxNjFdfQ==
 -->
