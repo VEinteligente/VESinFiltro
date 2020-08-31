@@ -26,10 +26,12 @@ Airtm had previously been blocked in 2018, as had Tunnelbear along with other VP
 
 The blockage was in most cases implemented as a DNS lock, except for the blocking to Anonymouse that already existed in Movistar that works with HTTP filtering.
 
-![](/res/post_img/2020-08-28/table.png)
-<br><br><br>
 **Update 2020-08-29:**  DNS block to Anonymouse.org has been lifted on CANTV
 <br><br>
+![](/res/post_img/2020-08-28/table.png)
+<br><br><br>
+
+
 ## Download from alternate directions.
 
 Both applications are still available for download from the iOS and Android app stores, also from the following alternative links:
