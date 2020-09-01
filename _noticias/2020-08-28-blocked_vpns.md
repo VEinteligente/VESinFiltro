@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Block against circumvention tools in Venezuela to prevent access to financial aid for healthcare workers"
+title:  "Block against circumvention tools in Venezuela to prevent access to aid for healthcare workers"
 small:   "Venezuela tries to block some circumvention tools"
 excerpt: "All mainstream ISPs in Venezuela block access to Psiphon, Tunnelbear and Anonymouse, to stop access to financial platform were opposition affiliated aid program is being delivered"
 permalink: /noticias/2020-08-28-block-VPNs/
