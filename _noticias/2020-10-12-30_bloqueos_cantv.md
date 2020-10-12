@@ -3,7 +3,7 @@ layout: post
 title:  "30 nuevos eventos de bloqueo: CANTV reactiva bloqueos HTTP"
 small:   "CANTV reactiva bloqueos HTTP con 30 nuevos bloqueos"
 excerpt: "Identificados al menos 30 nuevos eventos de bloqueo, muchos son bloqueos que dejaron de funiconar en abril luego de incendio en instalación de CANTV"
-permalink: /noticias/2020-08-28-bloqueo-VPNs/
+permalink: /noticias/2020-10-12-30_nuevos_bloqueos_cantv/
 date:   2020-10-12 12:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-10-12/es.png
