@@ -12,7 +12,7 @@ image: /res/post_img/2020-10-12/es.png
 
 ## Actualización:
 
-Para la fecha del **16 de octubre del 2020** nuestros puntos de medición han encontrado que todos los bloqueos HTTP mencionados en este artículo han sido levantados, por lo que las páginas web afectadas ya pueden accederse desde CANTV sin restricciones.
+Para la fecha del **16 de octubre del 2020** nuestros puntos de medición han encontrado que todos los bloqueos HTTP mencionados en este artículo, **con excepción de [vamosbien.com](https://vamosbien.com/)**, han sido levantados. Las páginas web afectadas ya pueden accederse desde CANTV sin restricciones.
 
 ---
 VE sin Filtro ha podido identificar un creciente número de bloqueos en CANTV que se han activado durante los últimos días, muchos de los cuales son reactivaciones de bloqueos previamente existentes, que [dejaron de funcionar](https://vesinfiltro.com/noticias/2020-04-06-levantados_multiples_bloqueos_cantv) para la mayoría del país el 5 de Abril de 2020, luego de un incendio en [las instalaciones de CANTV en Chacao](https://efectococuyo.com/la-humanidad/incendio-en-edificio-de-la-cantv-chacao-fue-controlado-por-bomberos/).
