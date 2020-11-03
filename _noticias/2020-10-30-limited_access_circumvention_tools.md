@@ -45,6 +45,7 @@ By April 5, 2020, after a fire in a key facility in Caracas that [took down almo
 
 However by 2020-08-20 three new DNS blocks were implemented on circumvention tools, of which two remain on all major ISPs, affecting access to their websites, but not limiting in-app functionality .
 
+{:.table-responsive.thead-dark.table-striped}
 | Website | URL | CANTV | Movistar | Digitel | Inter | Supercable
 |--|--|--|--|--|--|--
 | Tunnelbear | https://tunnelbear.com | Blocked   | DNS Block | Blocked   | DNS Block |  DNS Block
@@ -58,7 +59,8 @@ No blocks preventing the functionality of VPN services and other circumvention t
 
 Limits to general use of DNS servers different to the ones provided by the ISPs were evidenced on two private ISPs. The state-owned ISP did not show any restrictions, although it's noteworthy how CANTV has repeatedly used DNS response injection even when the users were using a third-party DNS server during major state-sponsored [phishing campaigns](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/).
 
-d| Public DNS              | IP              | CANTV | movistar    | digitel   | inter | supercable |
+{:.table-responsive.thead-dark.table-striped.table-sm}
+| Public DNS              | IP              | CANTV | movistar    | digitel   | inter | supercable |
 |-------------------------|-----------------|-------|-------------|-----------|-------|------------|
 | a.resolvers.level3.net. | 4.2.2.1         |       |             | Blocked   |       |            |
 | b.resolvers.Level3.net. | 4.2.2.2         |       |             | Blocked   |       |            |
