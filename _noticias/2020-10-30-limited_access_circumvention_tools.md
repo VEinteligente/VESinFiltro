@@ -11,6 +11,9 @@ categories: bloqueos
 image: /res/post_img/2020-10-30-en.png
 ---
 ![](/res/post_img/2020-10-30-en.png)
+Este reporte también está publicado [en español](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).  \
+This report is also published [in spanish](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
+
 ## Introduction
 
 For many years, Venezuela has suffered website blockades, affecting everything from the media to initiatives in response to the COVID-19 pandemic. Additionally, the state-owned internet provider, CANTV, has implemented blocks to prevent the use of censorship circumvention tools. In 2018, we [denounced](https://twitter.com/vesinfiltro/status/1009596837911826432?s=20) and subsequently [documented](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/) the [blocking of Tor](https://vesinfiltro.com/noticias/CANTV_bloquea_Tor_2017-06-26/), an important network to navigate privately and evade censorship, in addition to registering other actions directed by the national executive power that violate the digital freedoms of Venezuelans.
