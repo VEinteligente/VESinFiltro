@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Limited access to circumvention tools in Venezuela"
+title: "Limited access to circumvention tools in Venezuela"
 #small:   ""
 excerpt: "From blocked access DNS servers, to some circumvention tool's websites
 being blocked. Venezuela's returning appetite to block censorship
@@ -52,6 +52,7 @@ This new wave of DNS blocks came after the announcement of a plan created by Jua
 
 Limits to general use of DNS servers different to the ones provided by the ISPs were evidenced on two private ISPs. The state-owned ISP did not show any restrictions, although it's noteworthy how CANTV has repeatedly used DNS response injection even when the users were using a third-party DNS server during major state-sponsored [phishing campaigns](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/).
 
+{:.table-responsive.thead-dark.table-striped.table-sm}
 | Public DNS              | IP              | CANTV | movistar    | digitel   | inter | supercable |
 |-------------------------|-----------------|-------|-------------|-----------|-------|------------|
 | a.resolvers.level3.net. | 4.2.2.1         |       |             | DNS block |       |            |
