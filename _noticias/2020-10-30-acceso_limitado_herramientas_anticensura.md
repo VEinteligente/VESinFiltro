@@ -38,10 +38,12 @@ Sin embargo, para el 2020-08-20 tres nuevos bloqueos DNS fueron implementados en
 
 | Página web | URL | CANTV | Movistar | Digitel | Inter | Supercable
 |--|--|--|--|--|--|--
-| Tunnelbear | https://tunnelbear.com | DNS Block | DNS Block | DNS Block | DNS Block |  DNS Block
-| Psiphon | https://psiphon.ca | DNS Block | DNS Block | DNS Block | DNS Block |  DNS Block
+| Tunnelbear | https://tunnelbear.com | Bloqueado | DNS Block | Bloqueado | DNS Block |  DNS Block
+| Psiphon | https://psiphon.ca | Bloqueado | DNS Block | Bloqueado | DNS Block |  DNS Block
 
 Esta nueva ola de bloqueos DNS vino después del anuncio de un plan creado por Juan Guaidó y la Asamblea Nacional para brindarle ayuda monetaria a los trabajadores de la salud en plena pandemia causada por el COVID-19. El dinero fue transferido a través de la plataforma AirTm, la cual rápidamente fue [bloqueada en los mayores proveedores de internet](https://twitter.com/vesinfiltro/status/1296564174198276102?s=20), por lo que muchas personas comenzaron a usar VPNs para evadir la censura. Tunnelbear y Psiphon fueron las herramientas [más recomendadas por nosotros](https://twitter.com/vesinfiltro/status/1296570595065331712), y [este video](https://youtu.be/iYQQTE1-Thk) sobre cómo usar un VPN se hizo viral después del bloqueo a AirTm.
+
+A la fecha de publicación no se encontraron bloqueos impidiendo el funcionamiento de ningún VPN u otra herramienta de evasión de censura una vez ya instalada en el dispositivo. Sólo identificamos el bloqueo de las dos páginas web de los servicios previamente mencionados.
 
 Bloqueos y limitaciones de servidores DNS
 ===
@@ -50,35 +52,35 @@ Límites en el uso normal de servidores DNS diferentes a los provistos por el IS
 {:.table-responsive.thead-dark.table-striped.table-sm}
 | DNS Públicos | IP | CANTV | Movistar | Digitel | Inter | Dupercable |  
 |-------------------------|-----------------|-------|-------------|-----------|-------|------------|  
-| [a.resolvers.level3.net](http://a.resolvers.level3.net). | 4.2.2.1 | | | DNS block | | |  
-| [b.resolvers.Level3.net](http://b.resolvers.Level3.net). | 4.2.2.2 | | | DNS block | | |  
-| [c.resolvers.level3.net](http://c.resolvers.level3.net). | 4.2.2.3 | | | DNS block | | |  
-| Cloudfare | 1.1.1.1 | | Inaccesible | DNS block | | |  
-| Cloudfare | 1.0.0.1 | | | DNS block | | |  
-| [cns1.cw.net](http://cns1.cw.net). | 141.1.1.1 | | | DNS block | | |  
-| Comodo Secure DNS | 8.26.56.26 | | | DNS block | | |  
-| Comodo Secure DNS | 8.20.247.20 | | | DNS block | | |  
-| DNS Advantage | 156.154.70.1 | | | DNS block | | |  
-| DNS Advantage | 156.154.71.1 | | | DNS block | | |  
-| [dns-fra.de.ignite.net](http://dns-fra.de.ignite.net). | 195.182.110.132 | | | DNS block | | |  
-| [dns-muc.de.ignite.net](http://dns-muc.de.ignite.net). | 62.134.11.4 | | | DNS block | | |  
-| [dns1.nyc.dns-roots.net](http://dns1.nyc.dns-roots.net). | 208.78.24.238 | | | DNS block | | |  
-| Dyn | 216.146.35.35 | | | DNS block | | |  
-| Dyn | 216.146.36.36 | | | DNS block | | |  
+| [a.resolvers.level3.net](http://a.resolvers.level3.net). | 4.2.2.1 | | | Bloqueado | | |  
+| [b.resolvers.Level3.net](http://b.resolvers.Level3.net). | 4.2.2.2 | | | Bloqueado | | |  
+| [c.resolvers.level3.net](http://c.resolvers.level3.net). | 4.2.2.3 | | | Bloqueado | | |  
+| Cloudfare | 1.1.1.1 | | Inaccesible | Bloqueado | | |  
+| Cloudfare | 1.0.0.1 | | | Bloqueado | | |  
+| [cns1.cw.net](http://cns1.cw.net). | 141.1.1.1 | | | Bloqueado | | |  
+| Comodo Secure DNS | 8.26.56.26 | | | Bloqueado | | |  
+| Comodo Secure DNS | 8.20.247.20 | | | Bloqueado | | |  
+| DNS Advantage | 156.154.70.1 | | | Bloqueado | | |  
+| DNS Advantage | 156.154.71.1 | | | Bloqueado | | |  
+| [dns-fra.de.ignite.net](http://dns-fra.de.ignite.net). | 195.182.110.132 | | | Bloqueado | | |  
+| [dns-muc.de.ignite.net](http://dns-muc.de.ignite.net). | 62.134.11.4 | | | Bloqueado | | |  
+| [dns1.nyc.dns-roots.net](http://dns1.nyc.dns-roots.net). | 208.78.24.238 | | | Bloqueado | | |  
+| Dyn | 216.146.35.35 | | | Bloqueado | | |  
+| Dyn | 216.146.36.36 | | | Bloqueado | | |  
 | Google DNS | 8.8.8.8 | | | | | |  
-| Google DNS | 8.8.4.4 | | | DNS block | | |  
-| Open DNS | 208.67.222.222 | | | DNS block | | |  
-| Open DNS | 208.67.222.220 | | | DNS block | | |  
-| Quad 9 | 9.9.9.9 | | | DNS block | | |  
-| Quad 9 | 149.112.112.112 | | | DNS block | | |  
-| Yandex | 77.88.8.8 | | | DNS block | | |  
-| Yandex | 77.88.8.1 | | | DNS block | | |  
-| Yandex Family | 77.88.8.7 | | | DNS block | | |  
-| Yandex Family | 77.88.8.3 | | | DNS block | | |  
-| Yandex safe | 77.88.8.88 | | | DNS block | | |  
-| Yandex safe | 77.88.8.2 | | | DNS block | | |  
-| [cns2.cw.net](http://cns2.cw.net) | 195.27.1.1 | | | DNS block | | |  
-| [uneeda.telstra.net](http://uneeda.telstra.net) | 139.130.4.4 | | | DNS block | | |
+| Google DNS | 8.8.4.4 | | | Bloqueado | | |  
+| Open DNS | 208.67.222.222 | | | Bloqueado | | |  
+| Open DNS | 208.67.222.220 | | | Bloqueado | | |  
+| Quad 9 | 9.9.9.9 | | | Bloqueado | | |  
+| Quad 9 | 149.112.112.112 | | | Bloqueado | | |  
+| Yandex | 77.88.8.8 | | | Bloqueado | | |  
+| Yandex | 77.88.8.1 | | | Bloqueado | | |  
+| Yandex Family | 77.88.8.7 | | | Bloqueado | | |  
+| Yandex Family | 77.88.8.3 | | | Bloqueado | | |  
+| Yandex safe | 77.88.8.88 | | | Bloqueado | | |  
+| Yandex safe | 77.88.8.2 | | | Bloqueado | | |  
+| [cns2.cw.net](http://cns2.cw.net) | 195.27.1.1 | | | Bloqueado | | |  
+| [uneeda.telstra.net](http://uneeda.telstra.net) | 139.130.4.4 | | | Bloqueado | | |
 
 Digitel
 ---
@@ -134,7 +136,7 @@ Métodos
 ===
 Todas las pruebas fueron realizadas en los meses de septiembre y octubre desde los siguientes ISPs: CANTV (AS8048), Movistar (AS6306), Digitel (AS264731), Inter (AS21826) y Supercable (AS22313). Es conocido que CANTV comparte su infraestructura clave y se comporta de la misma forma en cuanto a pruebas de anti-censura que su subsidiaria móvil, Movilnet (AS27889).
 
-Herramientas bloqueadas
+Revisión de herramientas bloqueadas
 ---
 Para todas las herramientas se realizó una nueva instalación de la aplicación en un teléfono móvil conectado para cada ISP y se probó su funcionalidad realizando el caso de uso más común: utilizando la configuración predeterminada de la app o la herramienta. Si la herramienta requería que un usuario iniciase sesión, se realizaba el proceso de inicio de sesión conectado al ISP que se estaba probando en ese momento sin ninguna técnica anti-censura.
 
@@ -170,7 +172,7 @@ Las siguientes herramientas se probaron en todos los ISP:
 
 -   1.1.1.1 app (1.1.1.1 + Warp)
 
-Páginas web bloqueadas
+Revisión de páginas web bloqueadas
 ---
 
 La lista de sitios web se probó utilizando la [prueba de conectividad web](https://ooni.torproject.org/nettest/web-connectivity/) de OONI, así como pruebas manuales para cualquier URL que produjera resultados anómalos de dicha prueba.
@@ -217,7 +219,7 @@ Se probaron las siguientes URL:
 
 -   Pure VPN purevpn.com
 
-Servidores DNS bloqueados
+Revisión de servidores DNS bloqueados
 -------------------
 Para probar el acceso a consultas de DNS estándar se intentaron consultar programáticamente varios dominios conocidos de la siguiente lista de servidores DNS, y evaluando los casos en que no se obtuvieron respuestas en los ISP probados. Estas pruebas se repitieron varias veces en diferentes fechas.
 
@@ -285,7 +287,7 @@ También se probó DNS sobre TLS y DNS sobre HTTPS utilizando herramientas de l�
 
 -   Two test servers, IPs not published.
 
-### Blocking by Digitel
+### Bloqueos de Digitel
 El bloqueo por parte de Digitel se identificó como un bloqueo de cualquier paquete UDP o TCP en el puerto 53, independientemente de su contenido o protocolo de capa de aplicación. Esto se probó utilizando herramientas para enviar diferentes tipos de solicitudes en diferentes puertos, incluidos paquetes ICPM a los servidores DNS e intentar las mismas solicitudes en nuestros servidores de prueba.
 
 Podríamos confirmar que las solicitudes de DNS en diferentes puertos funcionaron y que el ISP está bloqueando los paquetes UDP y TCP en el puerto 53.
