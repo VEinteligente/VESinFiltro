@@ -11,8 +11,9 @@ categories: bloqueos
 image: /res/post_img/2020-10-30-en.png
 ---
 ![](/res/post_img/2020-10-30-en.png)
-Este reporte también está publicado [en español](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).  \
-This report is also published [in spanish](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
+
+Este reporte también está publicado [en español](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).
+This report is also published [in spanish](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).
 
 ## Introduction
 
