@@ -52,8 +52,7 @@ This new wave of DNS blocks came after the announcement of a plan created by Jua
 
 Limits to general use of DNS servers different to the ones provided by the ISPs were evidenced on two private ISPs. The state-owned ISP did not show any restrictions, although it's noteworthy how CANTV has repeatedly used DNS response injection even when the users were using a third-party DNS server during major state-sponsored [phishing campaigns](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/).
 
-{:.table-responsive.thead-dark.table-striped.table-sm}
-| Public DNS              | IP              | CANTV | movistar    | digitel   | inter | supercable |
+d| Public DNS              | IP              | CANTV | movistar    | digitel   | inter | supercable |
 |-------------------------|-----------------|-------|-------------|-----------|-------|------------|
 | a.resolvers.level3.net. | 4.2.2.1         |       |             | DNS block |       |            |
 | b.resolvers.Level3.net. | 4.2.2.2         |       |             | DNS block |       |            |
@@ -105,7 +104,9 @@ All tested DNS servers work on CANTV, Inter and Supercable.
 
 ## Recomendations
 
-From VESinFiltro we recommend having at least one VPN installed and tested on personal devices such as cell phones and computers, even if it’s not planned to use them immediately.
+We recommend Venezuelan internet users to have at least one VPN installed and tested on personal devices such as cell phones and computers, even if it’s not planned to use them immediately.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iYQQTE1-Thk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The VPN we recommend the most is Psiphon, but Tunnelbear is also a good option that is very easy to use. To download them from Venezuela you can use the following alternative links that until the date of publication have not been blocked:
 

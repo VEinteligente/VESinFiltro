@@ -9,9 +9,8 @@ categories: bloqueos
 image: /res/post_img/2020-10-30-es.png
 ---
 ![](/res/post_img/2020-10-30-es.png)
-## Introduction
 
-Introducción
+## Introducción
 ===
 Por muchos años Venezuela ha sufrido bloqueos de páginas web, afectando desde medios de comunicación hasta iniciativas en respuesta a la pandemia de COVID-19. Adicionalmente, el proveedor de internet del estado, CANTV, ha implementado bloqueos para impedir el uso de herramientas de circunvención de censura. En 2018 [denunciamos](https://twitter.com/vesinfiltro/status/1009596837911826432?s=20) y posteriormente [documentamos](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/) el [bloqueo de Tor](https://vesinfiltro.com/noticias/CANTV_bloquea_Tor_2017-06-26/), una importante red para navegar de forma privada y evadir censura, además de registrar otras acciones dirigidas por el poder ejecutivo nacional que atentan en contra de las libertades digitales de los venezolanos.
 
@@ -102,7 +101,9 @@ Todos los servidores DNS probados funcionan en CANTV, Inter y Supercable.
 
 Recomendaciones
 ===
-Desde VESinFiltro recomendamos tener instalado y probado al menos un VPN en los dispositivos personales como celulares y computadoras, incluso si no se planea usarlos inmediatamente.
+Recomendamos tener instalado y probado al menos un VPN en los dispositivos personales como celulares y computadoras, incluso si no se planea usarlos inmediatamente.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iYQQTE1-Thk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 El VPN que más recomendamos es Psiphon, pero Tunnelbear también es una buena opción que es muy fácil de usar. Para descargarlos desde Venezuela se pueden usar los siguientes links alternativos que hasta le fecha de publicación no han sido bloqueados:
 
