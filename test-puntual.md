@@ -13,6 +13,7 @@ destination: "ooni://nettest?tn=web_connectivity&ta=%7B%22urls%22%3A%5B%22https%
 
 ### 2.- Corre [este link]({{page.destination}}) luego de tener la app instalada.
 
-Esta prueba Incluye varios sitios claves que estamso monitoreando en este momento, con frecuencia cambiamos su contenido. <a class="btn btn-info" href="{{page.destination}}">Corre prueba
+Esta prueba incluye varios sitios claves que estamos monitoreando en este momento, con frecuencia cambiamos su contenido.
+<a class="btn btn-info" href="{{page.destination}}">Correr prueba
 
-Si quieres colaborar, puedes cargar esta página regurlarmente y apretar el boton para [correr esta prueba]({{page.destination}})
+Si quieres colaborar, puedes cargar esta página regularmente y presionar el botón para [correr esta prueba]({{page.destination}})
