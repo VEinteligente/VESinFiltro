@@ -10,6 +10,9 @@ image: /res/post_img/2020-10-30-es.png
 ---
 ![](/res/post_img/2020-10-30-es.png)
 
+Este reporte también está publicado [en inglés](https://vesinfiltro.com/noticias/2020-10-30-limited_access_circumvention_tools/).  \
+This report is also published [in english](https://vesinfiltro.com/noticias/2020-10-30-limited_access_circumvention_tools/)
+
 ## Introducción
 Por muchos años Venezuela ha sufrido bloqueos de páginas web, afectando desde medios de comunicación hasta iniciativas en respuesta a la pandemia de COVID-19. Adicionalmente, el proveedor de internet del estado, CANTV, ha implementado bloqueos para impedir el uso de herramientas de circunvención de censura. En 2018 [denunciamos](https://twitter.com/vesinfiltro/status/1009596837911826432?s=20) y posteriormente [documentamos](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/) el [bloqueo de Tor](https://vesinfiltro.com/noticias/CANTV_bloquea_Tor_2017-06-26/), una importante red para navegar de forma privada y evadir censura, además de registrar otras acciones dirigidas por el poder ejecutivo nacional que atentan en contra de las libertades digitales de los venezolanos.
 
