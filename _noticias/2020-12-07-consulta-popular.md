@@ -19,7 +19,7 @@ Estos bloqueos por IP realizados por CANTV, el más importante proveedor de inte
 
 En el primer día de la iniciativa, Voatz ha presentado retrasos en la validación de las identidades de los votantes, se presume que por la gran cantidad de personas registrándose; **estos retrasos no parecen estar relacionados con el bloqueo identificado**. Los usuarios deben validar su identidad, y esperar a que se certifique que son un elector válido para que la app habilite la papeleta electrónica.
 
-El bloqueo que hemos documentado técnicamente parece afectar la visualización de ciertos contenidos web y multimedia dentro de la app, pero no así su funcionalidad. Usuarios de CANTV todavía pueden votar en la Consulta Popular usando la aplicación Voatz, ya que no está siendo comprometida la selección de las respuestas por parte de **usuarios ya verificados** ni el envío de la "manifestación de voluntad", es decir, boleta con las respuestas.
+**Actualización:** El bloqueo que hemos documentado técnicamente parece afectar la visualización de ciertos contenidos web y multimedia dentro de la app, pero no así su funcionalidad. Usuarios de CANTV todavía pueden votar en la Consulta Popular usando la aplicación Voatz, ya que no está siendo comprometida la selección de las respuestas por parte de **usuarios ya verificados** ni el envío de la "manifestación de voluntad", es decir, boleta con las respuestas.
 
 Sin embargo, los operadores de telefonía móvil del país parecen haber **bloqueado los mensajes SMS utilizados por Voatz para verificar el teléfono celular de los usuarios**, ya que los mensajes de texto dejaron de ser recibidos por clientes de todas las operadoras. Diversas pruebas sugieren que las operadoras bloquearon los mensajes provenientes únicamente del número telefónico perteneciente a Voatz, pero no todos los mensajes salientes desde el servicio de mensajería masiva usado por la aplicación, uno de los más comúnmente utilizados por empresas de tecnología.
 
@@ -33,7 +33,7 @@ A raíz de estos acontecimientos, Voatz implementó la opción de verificación 
 
 El ejercicio de los derechos humanos en internet ha sido fuertemente limitado por acciones del Gobierno de Nicolás Maduro, limitando el derechos a libertad de expresión e información, la libertad de asociación y el derecho a la privacidad, entre otros.
 
-Organizaciones como Espacio Público han documentado casos de persecución a usuarios de internet por comentarios emitidos en redes sociales y VE Sin Filtro ha documentado una pervasiva censura en internet, que incluye un gran número de portales de noticias bloqueados y el uso de bloqueos tácticos contra importantes plataformas durante eventos sensibles políticamente. Esto ha sido reflejado en reportes internacionales como [Freedom on the Net](https://freedomhouse.org/country/venezuela/freedom-net/2020), la [Oficina del Alto Comisionado para los Derechos Humanos de las Naciones Unidas](https://www.ohchr.org/SP/NewsEvents/Pages/DisplayNews.aspx?NewsID=24788&LangID=S),.
+Organizaciones como Espacio Público han documentado casos de persecución a usuarios de internet por comentarios emitidos en redes sociales y VE Sin Filtro ha documentado una pervasiva censura en internet, que incluye un gran número de portales de noticias bloqueados y el uso de bloqueos tácticos contra importantes plataformas durante eventos sensibles políticamente. Esto ha sido reflejado en reportes internacionales como [Freedom on the Net](https://freedomhouse.org/country/venezuela/freedom-net/2020) o el de la [Oficina del Alto Comisionado para los Derechos Humanos de las Naciones Unidas](https://www.ohchr.org/SP/NewsEvents/Pages/DisplayNews.aspx?NewsID=24788&LangID=S).
 
 Iniciativas de la Asamblea Nacional y Juan Guaidó ya han sufrido bloqueos previos, por ejemplo el [bloqueo de redes sociales durante la elección de la directiva de la Asamblea Nacional](https://vesinfiltro.com/noticias/alerta-2020-01-05/)  o el b[loqueo de un portal informativo sobre el COVID-19](https://vesinfiltro.com/noticias/bloqueado_portal_coronavirus_AN). Además, se han reportado constantes bloqueos hacia sitios web de noticias y en [contra de herramientas de circunvención de censura](https://vesinfiltro.com/noticias/2020-10-30-acceso_limitado_herramientas_anticensura/) como los VPN TunnelBear y Psiphon.
 
@@ -41,11 +41,9 @@ Particularmente graves han sido los ataques de phishing masivos coordinados desd
 
 ## Recomendaciones
 
-Como no se conoce el impacto total de este bloqueo en el funcionamiento de Voatz, sin embargo existe la posibilidad de que se bloqueen otras funciones o que incluso se aplique un ataque de phishing contra ciudadanos que decidan participar a través de la página web.
+Todavía se sigue monitoreando el impacto total de este bloqueo contra la aplicación Voatz, sin embargo existe la posibilidad de que se bloqueen otras funciones dentro de la app o que incluso se aplique un ataque de phishing contra ciudadanos que decidan participar a través de la página web de la Consulta Popular.
 
-Por ello recomendamos tener un VPN seguro y de confianza, instalado y configurado, en caso de que la app no funcione correctamente.
-
-Nuestras recomendaciones de VPN son Psiphon y Tunnelbear, sus páginas principles están bloqueadas pero ambas aplicaciones siguen estando disponibles para ser instaladas desde las tiendas de aplicaciones de iOS y Andriod, y también desde los siguientes enlaces alternativos
+Por ello recomendamos tener un VPN seguro y de confianza, ya instalado y configurado en tus dispositivos, en caso de que la app no funcione correctamente. Nuestras recomendaciones de VPN son Psiphon y Tunnelbear, sus páginas principles están bloqueadas pero ambas aplicaciones siguen estando disponibles para ser instaladas desde las tiendas de aplicaciones de iOS y Andriod, y también desde los siguientes enlaces alternativos:
 
 #### Psiphon
 - [psiphon3.com](http://psiphon3.com/es/download.html)
@@ -76,8 +74,8 @@ Nuestras recomendaciones de VPN son Psiphon y Tunnelbear, sus páginas principle
 
 <br><br>
 
-#### Puedes seguir las instrucciones para instalar y usar Psihon en [este video](https://youtu.be/iYQQTE1-Thk):
+#### Puedes seguir las instrucciones para instalar y usar Psiphon en [este video](https://youtu.be/iYQQTE1-Thk):
 <iframe width="806" height="453" src="https://www.youtube.com/embed/iYQQTE1-Thk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-#### Más informción de cómo identificar páginas falsas en [este video](https://www.youtube.com/watch?v=HUyMo6o5kBc&t=14s):
+#### Más información de cómo identificar páginas falsas en [este video](https://www.youtube.com/watch?v=HUyMo6o5kBc&t=14s):
 <iframe width="806" height="453" src="https://www.youtube.com/embed/HUyMo6o5kBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
