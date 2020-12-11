@@ -9,18 +9,25 @@ date:   2020-12-07 23:12:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-12-07/es.png
 ---
+**Actualizado el 2020-12-10**
 
+![](/res/post_img/2020-12-07/es.png)
 
 El lunes 7 de diciembre VE Sin Filtro identificó una serie de bloqueos contra servidores que usa la app Voatz, una herramienta de votación digital usada como uno de los mecanismos de participación para la Consulta Popular organizada e impulsada por la Asamblea Nacional y Juan Guaidó.
 
 Estos bloqueos por IP realizados por CANTV, el más importante proveedor de internet de Venezuela y una empresa estatal, afectan parcialmente algunas funciones de la aplicación Voatz, pero para el final del 2020-12-07 no sabemos si afecta el proceso de participar respondiendo la Consulta Popular.
 
-En el primer día de la iniciativa, Voatz ha presentado retrasos en la validación de las identidades de los votantes, se presume que por la gran cantidad de personas registrándose; **estos retrasos no parecen estar relacionados con el bloqueo identificado**. Los usuarios deben validar su identidad, y esperar a que se valide que son un elector válido, para que la app habilite la papeleta electrónica.
+En el primer día de la iniciativa, Voatz ha presentado retrasos en la validación de las identidades de los votantes, se presume que por la gran cantidad de personas registrándose; **estos retrasos no parecen estar relacionados con el bloqueo identificado**. Los usuarios deben validar su identidad, y esperar a que se certifique que son un elector válido para que la app habilite la papeleta electrónica.
+
+El bloqueo que hemos documentado técnicamente parece afectar la visualización de ciertos contenidos web y multimedia dentro de la app, pero no así su funcionalidad. Usuarios de CANTV todavía pueden votar en la Consulta Popular usando la aplicación Voatz, ya que no está siendo comprometida la selección de las respuestas por parte de **usuarios ya verificados** ni el envío de la "manifestación de voluntad", es decir, boleta con las respuestas.
+
+Sin embargo, los operadores de telefonía móvil del país parecen haber **bloqueado los mensajes SMS utilizados por Voatz para verificar el teléfono celular de los usuarios**, ya que los mensajes de texto dejaron de ser recibidos por clientes de todas las operadoras. Diversas pruebas sugieren que las operadoras bloquearon los mensajes provenientes únicamente del número telefónico perteneciente a Voatz, pero no todos los mensajes salientes desde el servicio de mensajería masiva usado por la aplicación, uno de los más comúnmente utilizados por empresas de tecnología.
+
+A raíz de estos acontecimientos, Voatz implementó la opción de verificación vía correo electrónico y comenzó a utilizar diversos números telefónicos para el registro de usuarios, para así mitigar el alcance de los bloqueos.
 
 **Este caso sigue siendo investigado y será actualizado de forma contínua.**
 
-![](/res/post_img/2020-12-07/es.png)
-
+<img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="375" height="667"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="375" height="667"/> 
 
 ## Contexto
 
