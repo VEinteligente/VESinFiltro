@@ -3,7 +3,7 @@ layout: post
 title: "Maduro-controlled ISP sabotages participation in Venezuelan opposition's Consulta Popular"
 small:   "CANTV seeks to sabotage the Consulta Popular"
 excerpt: "Blocks against servers used by the Voatz app seek to
-hinder participation in the Consulta Popular"
+hinder participation in the 'Consulta Popular'"
 permalink: /noticias/2020-12-07-consulta_popular_en/
 date:   2020-12-11 23:12:00 -0400
 categories: bloqueos
@@ -13,7 +13,9 @@ image: /res/post_img/2020-12-07/en.png
 
 ![](/res/post_img/2020-12-07/en.png)
 
-On Monday, December 7, VE Sin Filtro identified a series of blocks against servers used by the Voatz app, a digital voting tool implemented as one of the participation mechanisms for the Consulta Popular (roughly translated as "Popular Consultation") organized and promoted by the National Assembly and Juan Guaidó.
+On Monday, December 7, VE Sin Filtro identified a series of blocks against servers used by the Voatz app, a digital voting tool implemented as one of the participation mechanisms for the Consulta Popular ("People's Consultation") organized and promoted by the National Assembly and Juan Guaidó.
+
+The Consulta Popular is a vote-like referendum organized by the opposition to Nicolas Maduro framed as a foil to the December 6 parliamentary elections, boycotted by the opposition and not recognized by the current opposition-controlled National Assembly.
 
 These IP blocks carried out by CANTV, the most important internet provider in Venezuela and a state company, partially affect some functions of the Voatz app, but by the end of 2020-12-07 we do not know if it affects the process of participating in the Consulta Popular.
 
@@ -33,7 +35,11 @@ As a result of these events, Voatz implemented the verification option via email
 
 ## Context
 
-The exercise of human rights on the internet has been severely limited by actions of the Government of Nicolás Maduro, limiting the rights to freedom of expression and information, freedom of association and the right to privacy, among others.
+Nicolas Maduro and Juan Guaido have been disputing the presidency of Venezuela since early 2019, when the previous presidential term for Nicolas Maduro ended after an election that was not recognized by the opposition-controlled National Assembly, many Latin American countries, the EU, Canada and the USA. Without an elected elected President to take office, the legislative named it's speaker, Juan Guaido, President in-charge based on the constitucional provisions in case there is no president elect to swear in.
+
+With diverging interpretations of the legal status of multiple public powers and institutions, and conflicting authorities. The term of the current National Assembly is set to end in January.
+
+In this context, the exercise of human rights on the internet has been severely limited by actions of the Government of Nicolás Maduro, limiting the rights to freedom of expression and information, freedom of association and the right to privacy, among others.
 
 Organizations such as Espacio Público have documented cases of persecution of internet users for comments made on social media and VE Sin Filtro has documented persistent internet censorship, which includes a large number of blocked news portals and the use of tactical blocks against major platforms during politically sensitive events. This has been reflected in international reports such as the ones from [Freedom on the Net](https://freedomhouse.org/country/venezuela/freedom-net/2020) and the [Office of the United Nations High Commissioner for Human Rights](https://www.ohchr.org/SP/NewsEvents/Pages/DisplayNews.aspx?NewsID=24788&LangID=S).
 
