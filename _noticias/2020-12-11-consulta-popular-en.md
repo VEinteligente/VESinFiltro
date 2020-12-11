@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CANTV seeks to sabotage participation in the Consulta Popular"
+title: "Maduro-controlled ISP sabotages participation in Venezuelan opposition's Consulta Popular"
 small:   "CANTV seeks to sabotage the Consulta Popular"
 excerpt: "Blocks against servers used by the Voatz app seek to
 hinder the online realization of the Consulta Popular"
@@ -24,7 +24,9 @@ El bloqueo que hemos documentado técnicamente afecta la visualización de ciert
 
 The internet block that we have documented seems to affect the display of certain web and multimedia content within the app. This does not limit user registration on Android, it shows an error where the Terms of Service should appear, but still allowing the user to continue; on iOS this impeded user registration. We did not identify any problems filling the ballot or submitting it for users already registered and verified.
 
-However, mobile telephone services providers in the country appear to have **blocked the SMS messages used by Voatz to verify users' phone numbers**, as text messages were no longer received by customers from all operators. Various tests suggest that the operators blocked messages coming only from the telephone number belonging to Voatz, but not all outgoing messages from the mass messaging service used by the application, one of the most commonly used by technology companies.
+![](/res/post_img/2020-12-07/screenshots.png)
+
+Moreover, mobile telephone services providers in the country appear to have **blocked the SMS messages used by Voatz to verify users' phone numbers**, as text messages were no longer received by customers from all operators. Various tests suggest that the operators blocked messages coming only from the telephone number belonging to Voatz, but not all outgoing messages from the mass messaging service used by the application, one of the most commonly used by technology companies.
 
 As a result of these events, Voatz implemented the verification option via email and began to use different telephone numbers for user registration, in order to mitigate the scope of the blocks.
 
