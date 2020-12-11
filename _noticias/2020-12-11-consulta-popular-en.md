@@ -19,10 +19,7 @@ These IP blocks carried out by CANTV, the most important internet provider in Ve
 
 On the first day of the initiative, Voatz has presented delays in the validation of the identities of the voters, presumably because of the large number of people registering; **these delays do not appear to be related with the identified blocks**. Users must validate their identity, and wait for it to be certified as a valid voter for the app to enable the electronic ballot.
 
-El bloqueo que hemos documentado técnicamente afecta la visualización de ciertos contenidos web y multimedia dentro de la app. Esto no limita el flujo de registro o votación en Android, produciendo un error en el lugar de los términos y condiciones, pero pudiendo continuar; en iOS, esto impide el registro de los usuarios. En ningún momento pudimos evidenciar que el bloqueo impida el llenado y envío de la boleta con las respuestas a la consulta para usuarios ya registrados. **Recomendamos usar un VPN para poder utilizar la app de forma completa en CANTV.**
-
-
-The internet block that we have documented seems to affect the display of certain web and multimedia content within the app. This does not limit user registration on Android, it shows an error where the Terms of Service should appear, but still allowing the user to continue; on iOS this impeded user registration. We did not identify any problems filling the ballot or submitting it for users already registered and verified.
+The internet blocks that we have documented seems to affect the display of certain web and multimedia content within the app. This does not limit user registration on Android, it shows an error where the Terms of Service should appear, but still allowing the user to continue; on iOS this impeded user registration. We did not identify any problems filling the ballot or submitting it for users already registered and verified.
 
 ![](/res/post_img/2020-12-07/screenshots.png)
 
@@ -30,7 +27,7 @@ Moreover, mobile telephone services providers in the country appear to have **bl
 
 As a result of these events, Voatz implemented the verification option via email and began to use different telephone numbers for user registration, in order to mitigate the scope of the blocks.
 
-**This case is still being investigated and will be updated continuously.**
+**This case is still being investigated and will be updated continuously.** And more information will be published when the event ends.
 
 <img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/>
 
