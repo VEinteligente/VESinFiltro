@@ -27,7 +27,7 @@ A raíz de estos acontecimientos, Voatz implementó la opción de verificación 
 
 **Este caso sigue siendo investigado y será actualizado de forma contínua.**
 
-<img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="375" height="667"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="375" height="667"/> 
+<img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/> 
 
 ## Contexto
 
