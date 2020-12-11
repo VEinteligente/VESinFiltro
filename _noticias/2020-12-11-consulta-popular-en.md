@@ -2,7 +2,7 @@
 layout: post
 title: "CANTV seeks to sabotage participation in the Consulta Popular"
 small:   "CANTV seeks to sabotage the Consulta Popular"
-excerpt: "Blocks against servers used by the Voatz app seek to 
+excerpt: "Blocks against servers used by the Voatz app seek to
 hinder the online realization of the Consulta Popular"
 permalink: /noticias/2020-12-07-consulta_popular_en/
 date:   2020-12-11 23:12:00 -0400
@@ -19,7 +19,10 @@ These IP blocks carried out by CANTV, the most important internet provider in Ve
 
 On the first day of the initiative, Voatz has presented delays in the validation of the identities of the voters, presumably because of the large number of people registering; **these delays do not appear to be related with the identified blocks**. Users must validate their identity, and wait for it to be certified as a valid voter for the app to enable the electronic ballot.
 
-**Update:** The blockage that we have documented seems to affect the display of certain web and multimedia content within the app, but not its functionality. CANTV users can still vote in the Consulta Popular using the Voatz app, since neither the selection of the responses by **already verified users** nor the transmission of the "manifestation of will" (ballot with the answers) is being compromised.
+El bloqueo que hemos documentado técnicamente afecta la visualización de ciertos contenidos web y multimedia dentro de la app. Esto no limita el flujo de registro o votación en Android, produciendo un error en el lugar de los términos y condiciones, pero pudiendo continuar; en iOS, esto impide el registro de los usuarios. En ningún momento pudimos evidenciar que el bloqueo impida el llenado y envío de la boleta con las respuestas a la consulta para usuarios ya registrados. **Recomendamos usar un VPN para poder utilizar la app de forma completa en CANTV.**
+
+
+The internet block that we have documented seems to affect the display of certain web and multimedia content within the app. This does not limit user registration on Android, it shows an error where the Terms of Service should appear, but still allowing the user to continue; on iOS this impeded user registration. We did not identify any problems filling the ballot or submitting it for users already registered and verified.
 
 However, mobile telephone services providers in the country appear to have **blocked the SMS messages used by Voatz to verify users' phone numbers**, as text messages were no longer received by customers from all operators. Various tests suggest that the operators blocked messages coming only from the telephone number belonging to Voatz, but not all outgoing messages from the mass messaging service used by the application, one of the most commonly used by technology companies.
 
@@ -27,7 +30,7 @@ As a result of these events, Voatz implemented the verification option via email
 
 **This case is still being investigated and will be updated continuously.**
 
-<img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/> 
+<img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/>
 
 ## Context
 
