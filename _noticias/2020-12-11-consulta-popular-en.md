@@ -7,7 +7,7 @@ hinder the online realization of the Consulta Popular"
 permalink: /noticias/2020-12-07-consulta_popular_en/
 date:   2020-12-11 23:12:00 -0400
 categories: bloqueos
-image: /res/post_img/2020-12-07/es.png
+image: /res/post_img/2020-12-07/en.png
 ---
 **Updated on the 2020-12-10**
 
