@@ -10,6 +10,8 @@ categories: bloqueos
 image: /res/post_img/2020-12-07/en.png
 ---
 **Updated on the 2020-12-10**
+This report is also published [in spanish](https://vesinfiltro.com/noticias/2020-12-07-consulta_popular/).
+Este reporte también está publicado [en español](https://vesinfiltro.com/noticias/2020-12-07-consulta_popular/).
 
 ![](/res/post_img/2020-12-07/en.png)
 
@@ -29,7 +31,7 @@ Moreover, mobile telephone services providers in the country appear to have **bl
 
 As a result of these events, Voatz implemented the verification option via email and began to use different telephone numbers for user registration, in order to mitigate the scope of the blocks.
 
-**This case is still being investigated and will be updated continuously.** And more information will be published when the event ends.
+**We will be publishing a full report about this case soon.**.
 
 <img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/>
 
