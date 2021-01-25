@@ -29,8 +29,6 @@ Adicionalmente los operadores de telefonía móvil del país parecen haber **blo
 
 A raíz de estos acontecimientos, Voatz implementó la opción de verificación vía correo electrónico y comenzó a utilizar diversos números telefónicos para el registro de usuarios, para así mitigar el alcance de los bloqueos.
 
-**Próximamente publicaremos un informe completo sobre este caso.**
-
 <img src="/res/post_img/2020-12-07/2020-12-10-screenshot.png" width="250" height="445"/> <img src="/res/post_img/2020-12-07/2020-12-10-screenshot1.png" width="250" height="445"/>
 
 ## Contexto
