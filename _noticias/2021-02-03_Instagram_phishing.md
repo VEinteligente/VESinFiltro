@@ -86,24 +86,26 @@ Some domains, but not all, had been identified for their use in phishing, leadin
 | 34-76-11-139.plesk.page                                  | Inactive |
 | 39.11.76.34.bc.googleusercontent.com                     | Inactive |
 
-![](https://lh4.googleusercontent.com/7DRS4J9onR80AH_4y6AMNuaJD_JF_9ngLdv3PwEAft_tVFNaKBdOdN_z1cavvobqNAtlQWKkf26RTgAmAHiG3dbft2Vf-NAHi6dxOAd0H8vdwbdfb3OtT3q2OCLn4oll4Lal5s6H)  ![](https://lh3.googleusercontent.com/oPpaQ9TRptzEezXbroZDfeJqEyaer7ZVV0-exf-arwARlNd9h8hXf7dSYvo571nXhFA9LOiKxJaE87z97yKKLZsj6wC9Zu9bYqg-oDPf6mQu6Zd9Jm9Ael3SDnpMQHaQc73bH0d3)
+![](/res/post_img/2021-02-03/img_0.png)  ![](/res/post_img/2021-02-03/img_1.png)
 WaybackMachine snapshots:
 [/web/20210121175308/https://lnstagramhelpbusinessverified.com/](https://web.archive.org/web/20210121175308/https://lnstagramhelpbusinessverified.com/)
+
 [web/20210121180220/https://lnstagramhelpbusinessverified.com/form/](https://web.archive.org/web/20210121180220/https://lnstagramhelpbusinessverified.com/form/)
 
-**The URLs of the phishing pages are not the root of their domains, but located at /form**, such as `lnstagramverify-tick.com`**/form** and `lnstagramhelpbusinessverified.com`**/form**. The site shows a form in which the victim is asked to introduce their Instagram user and its password. If the person targeted by the phishing campaign fills this information and submits it, then it'll be received by the attackers who later on will try to steal the account.
+**The URLs of the phishing pages are not the root of their domains, but located at /form**, such as lnstagramverify-tick.com **/form** and lnstagramhelpbusinessverified.com **/form**. The site shows a form in which the victim is asked to introduce their Instagram user and its password. If the person targeted by the phishing campaign fills this information and submits it, then it'll be received by the attackers who later on will try to steal the account.
 
 The other type of phishing is executed by tricking the victim into believing he got a copyright strike on their Instagram account. The website related to this is servicehelpcopyright.com and like the previous case it also has a form in which the victim is supposed to fill their private information.
 
 
 
-![](https://lh3.googleusercontent.com/xjvLd7ydwTUNwVzd0R246j26Wc0ChFzIdtAJycTOaJvcjwhMG4S8v7ZbjWq3L8IS4ZIg7U3vK7bOXL-rDtgTd93BrRQUjvqOdLyvcgTfaqRWEksCNoastqUQHnxdh8xoDueTDuUf)![](https://lh6.googleusercontent.com/H5UOcpqMLNAgYCQnCIBLjCPIJaz_HL0vdXpOEr2fjVy79gp8ssZUtnFDh1Qau59NEc2_5dwcXvHRTH9PQ0WHteQ5iGElUAgbVu3vLh08WqzGsga01I2R4HYQoZhaH7vBO9K06tMt)
+![](/res/post_img/2021-02-03/img_2.png)
+![](/res/post_img/2021-02-03/img_3.png)
 
-  
+![](/res/post_img/2021-02-03/img_4.png)
 
-![](https://lh6.googleusercontent.com/01bCZWTorsOHyTp0pLv7nAjza-LUrkq2ubDZaafftQWHGL5wDnsP1gF9PYwWZg3U-IVkepWa6ENReT2BD0RkScX88xMDXFTvkenTDVUk0GmRi_QBtdnWhSJZIeX_ki6hL6dEAYGi)
 WaybackMachine snapshots:
 [http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/](http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/)
+
 [http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/](http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/)
 
 Not only is the Instagram username and password are solicited, but also an email and its password. It's also worth mentioning that the attackers ask to *"not put 2 factors in two days after confirming your account here"*, in an attempt to dissuade the victims of using 2FA.
