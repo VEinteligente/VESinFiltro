@@ -86,7 +86,8 @@ Some domains, but not all, had been identified for their use in phishing, leadin
 | 34-76-11-139.plesk.page                                  | Inactive |
 | 39.11.76.34.bc.googleusercontent.com                     | Inactive |
 
-![](/res/post_img/2021-02-03/img_0.png)  ![](/res/post_img/2021-02-03/img_1.png)
+<img src="/res/post_img/2021-02-03/img_0.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_1.png" width="250" height="460"/>
+
 WaybackMachine snapshots:
 [/web/20210121175308/https://lnstagramhelpbusinessverified.com/](https://web.archive.org/web/20210121175308/https://lnstagramhelpbusinessverified.com/)
 
@@ -96,9 +97,7 @@ WaybackMachine snapshots:
 
 The other type of phishing is executed by tricking the victim into believing he got a copyright strike on their Instagram account. The website related to this is servicehelpcopyright.com and like the previous case it also has a form in which the victim is supposed to fill their private information.
 
-<img src="/res/post_img/2021-02-03/img_2.png" width="250" height="445"/> <img src="/res/post_img/2021-02-03/img_3.png" width="250" height="445"/>
-
-<img src="/res/post_img/2021-02-03/img_4.png" width="250" height="445"/>
+<img src="/res/post_img/2021-02-03/img_2.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_3.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_4.png" width="250" height="460"/>
 
 WaybackMachine snapshots:
 [http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/](http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/)
