@@ -2,7 +2,7 @@
 layout: post
 title: "Phishing attack targeting Instagram users"
 small:   "Phishing attack targeting Instagram users"
-excerpt: "Maliciuos domain network is targeting Instagram users in a phishing campaign"
+excerpt: "A network of maliciuos domains is targeting Instagram users in a phishing campaign"
 permalink: /noticias/2021-02-03/
 date:   2021-02-03 17:10:00 -0400
 categories: phishing
@@ -96,12 +96,9 @@ WaybackMachine snapshots:
 
 The other type of phishing is executed by tricking the victim into believing he got a copyright strike on their Instagram account. The website related to this is servicehelpcopyright.com and like the previous case it also has a form in which the victim is supposed to fill their private information.
 
+<img src="/res/post_img/2021-02-03/img_2.png" width="250" height="445"/> <img src="/res/post_img/2021-02-03/img_3.png" width="250" height="445"/>
 
-
-![](/res/post_img/2021-02-03/img_2.png)
-![](/res/post_img/2021-02-03/img_3.png)
-
-![](/res/post_img/2021-02-03/img_4.png)
+<img src="/res/post_img/2021-02-03/img_4.png" width="250" height="445"/>
 
 WaybackMachine snapshots:
 [http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/](http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/)
