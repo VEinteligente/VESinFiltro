@@ -11,7 +11,7 @@ image:
 
 At VESinFiltro we have identified a network of domains used to phish Instagram credentials after we provided assistance to one of their victims.
 
-The person or group running this campaign seems to not be politically motivated and is just seeking profit from the compromised accounts.  
+The person or group running this campaign seems to not be politically motivated and is just seeking profit from the compromised accounts.
 
 # Observed MO
 
@@ -113,7 +113,7 @@ As it can be seen on the screenshots, web pages share the same structure and som
 While researching this case we found the probable origin of the source code in a Turkish hacker forum, the description of the PHP documents and user comments match the phishing sites found, the username also matches an attribution comment in the HTML code.
 
 # Recommendations
-For the users who want to visit this site or any other with sensitive information, we recommend taking these basic security measures:
+For the users who want to visit any website with sensitive information, we recommend taking these basic security measures:
 
 1.  Get the link or address using trusted sources. In this case: directly from the official Whatsapp or Facebook bots.
     
