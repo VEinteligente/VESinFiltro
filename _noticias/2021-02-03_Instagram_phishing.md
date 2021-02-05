@@ -113,9 +113,9 @@ While researching this case we found the probable origin of the source code in a
 # Recommendations
 For the users who want to visit any website with sensitive information, we recommend taking these basic security measures:
 
-1.  Get the link or address using trusted sources. In this case: directly from the official Whatsapp or Facebook bots.
+1.  Get the link or address using trusted sources. In this case: from the Instagram app or its official website.
     
-2.  Use a trusted VPN if there are any reasons to believe that the traffic could be monitored or manipulated, this applies to this case.
+2.  Use a trusted VPN if there are any reasons to believe that the traffic could be monitored or manipulated.
     
 3.  Make sure that the link begins with HTTPS.
     
