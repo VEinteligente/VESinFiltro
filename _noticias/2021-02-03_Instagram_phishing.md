@@ -2,7 +2,7 @@
 layout: post
 title: "Phishing attack targeting Instagram users"
 small:   "Phishing attack targeting Instagram users"
-excerpt: "A network of maliciuos domains is targeting Instagram users in a phishing campaign"
+excerpt: "A network of malicious domains is targeting Instagram users in a phishing campaign"
 permalink: /noticias/2021-02-03/
 date:   2021-02-03 17:10:00 -0400
 categories: phishing
@@ -104,7 +104,7 @@ WaybackMachine snapshots:
 
 [http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/](http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/)
 
-Not only is the Instagram username and password are solicited, but also an email and its password. It's also worth mentioning that the attackers ask to *"not put 2 factors in two days after confirming your account here"*, in an attempt to dissuade the victims of using 2FA.
+Not only is the Instagram username and password solicited, but also an email and its password. It's also worth mentioning that the attackers ask to *"not put 2 factors in two days after confirming your account here"*, in an attempt to dissuade the victims of using 2FA.
 
 As it can be seen on the screenshots, web pages share the same structure and some assets. The base URL looks like a destination used for testing purposes and it has some text written in Turkish. For example, alongside the word *“deneme”* in the center on the screen there is also a button that points to an email address called denemedene@gmail.com, which can be translated to “test” or “experiment”.
 
