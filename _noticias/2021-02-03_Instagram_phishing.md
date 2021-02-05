@@ -25,7 +25,7 @@ The person or group running this campaign seems to not be politically motivated 
     
 5.  The attackers contact the victim demanding payment to return the account on the provided details.
 
-Other options, it's possible that depending on the judgment of the attackers, that some accounts might be sold instead of demanding ransom. Our review found that they also trick other users with bogus copyright messages.
+Other possibility is that, depending on the judgment of the attackers, some accounts might be sold instead of demanding ransom. Our review found that they also trick other users with bogus copyright messages.
 
 # Domains and IPs used
 
