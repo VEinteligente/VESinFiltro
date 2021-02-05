@@ -11,7 +11,7 @@ image:
 
 Después de proveerle asistencia a una de las víctimas, en VESinFiltro hemos identificado una red de dominios usada para el robo de credenciales de Instagram.
 
-La persona o grupo llevando a cabo esta campaña no parecen tener intereses políticos y sólo buscan conseguir ganancias gracias a las cuentas vulneradas.  
+La persona o grupo llevando a cabo esta campaña no parecen tener intereses políticos y sólo buscan conseguir ganancias gracias a las cuentas vulneradas.
 
 # Modus Operandi
 
@@ -28,7 +28,7 @@ La persona o grupo llevando a cabo esta campaña no parecen tener intereses pol�
 Otra posibilidad implica que, dependiendo del criterio de los atacantes, algunas cuentas se vendan en lugar de exigir un rescate. Nuestra evaluación descubrió que también engañan a otros usuarios con mensajes falsos relacionados a demandas por derechos de autor.
 
 # Dominios e IPs usados
-La URL recibida fue alojada en la IP **35.225.60.105** junto con muchos otros domains de phishing, y luego se movió a la IP ** 34.76.11.139 **. Los dominios de phishing se pueden clasificar en dos categorías: reclamos falsos sobre derechos de autor y verificación de Instagram falsa (marca de verificación azul). Los otros dominios que se alojaron en el servidor están inactivos, no muestran ninguna información o aparentemente son irrelevantes para los sitios web de phishing.
+La URL recibida fue alojada en la IP **35.225.60.105** junto con muchos otros domains de phishing, y luego se movió a la IP **34.76.11.139**. Los dominios de phishing se pueden clasificar en dos categorías: reclamos falsos sobre derechos de autor y verificación de Instagram falsa (marca de verificación azul). Los otros dominios que se alojaron en el servidor están inactivos, no muestran ninguna información o aparentemente son irrelevantes para los sitios web de phishing.
 
 Lista de dominios alojados en IP 35.225.60.105:
 
@@ -66,11 +66,11 @@ Lista de dominios alojados en IP 35.225.60.105:
 | lnstagramcontactverified.com            | Inactivo                 |
 | ig-verifiedform.gq                      | Inactivo                 |
 
-Los dos dominios activos relacionados a un esquema engañoso de verificación de cuentas de Instagram son lnstagramverify-tick.com e lnstagramhelpbusinessverified.com. Estos dos sitios web son idénticos y su código HTML es el mismo. ** Tenga en cuenta el uso de una L en lugar de una i en los nombres de dominio, ya que se ve como una i mayúscula **.
+Los dos dominios activos relacionados a un esquema engañoso de verificación de cuentas de Instagram son lnstagramverify-tick.com e lnstagramhelpbusinessverified.com. Estos dos sitios web son idénticos y su código HTML es el mismo. **Tenga en cuenta el uso de una L en lugar de una i en los nombres de dominio, ya que se ve como una i mayúscula**.
 
-Aunque hay muchos otros dominios cuyos nombres indican intenciones maliciosas, todos ellos ya eran inaccesibles cuando se inició esta investigación. También hay dos dominios, pandesmidestek.com y pandemimdestek.com, a los que se puede acceder pero no se observa ningún contenido en sus sitios web. Es importante tener en cuenta que estos dominios también están relacionados con el idioma turco, ya que las palabras * "pandemi destek" * se pueden traducir como "apoyo pandémico".
+Aunque hay muchos otros dominios cuyos nombres indican intenciones maliciosas, todos ellos ya eran inaccesibles cuando se inició esta investigación. También hay dos dominios, pandesmidestek.com y pandemimdestek.com, a los que se puede acceder pero no se observa ningún contenido en sus sitios web. Es importante tener en cuenta que estos dominios también están relacionados con el idioma turco, ya que las palabras *"pandemi destek"* se pueden traducir como "apoyo pandémico".
 
-Algunos dominios, pero no todos, ya habían sido identificados como páginas de phishing, lo que llevó a los atacantes a migrar algunos dominios que aún están activos a la IP ** 34.76.11.139 **. Ambas direcciones IP mencionadas pertenecen a los servicios en la nube de Google.
+Algunos dominios, pero no todos, ya habían sido identificados como páginas de phishing, lo que llevó a los atacantes a migrar algunos dominios que aún están activos a la IP **34.76.11.139**. Ambas direcciones IP mencionadas pertenecen a los servicios en la nube de Google.
 
  Lista de dominios alojados en IP 34.76.11.139:
 
@@ -85,22 +85,22 @@ Algunos dominios, pero no todos, ya habían sido identificados como páginas de 
 | 34-76-11-139.plesk.page                                  | Inactivo |
 | 39.11.76.34.bc.googleusercontent.com                     | Inactivo |
 
-![](https://lh4.googleusercontent.com/7DRS4J9onR80AH_4y6AMNuaJD_JF_9ngLdv3PwEAft_tVFNaKBdOdN_z1cavvobqNAtlQWKkf26RTgAmAHiG3dbft2Vf-NAHi6dxOAd0H8vdwbdfb3OtT3q2OCLn4oll4Lal5s6H)  ![](https://lh3.googleusercontent.com/oPpaQ9TRptzEezXbroZDfeJqEyaer7ZVV0-exf-arwARlNd9h8hXf7dSYvo571nXhFA9LOiKxJaE87z97yKKLZsj6wC9Zu9bYqg-oDPf6mQu6Zd9Jm9Ael3SDnpMQHaQc73bH0d3)
+<img src="/res/post_img/2021-02-03/img_0.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_1.png" width="250" height="460"/>
+
 WaybackMachine snapshots:
 [/web/20210121175308/https://lnstagramhelpbusinessverified.com/](https://web.archive.org/web/20210121175308/https://lnstagramhelpbusinessverified.com/)
+
 [web/20210121180220/https://lnstagramhelpbusinessverified.com/form/](https://web.archive.org/web/20210121180220/https://lnstagramhelpbusinessverified.com/form/)
 
 **Las URL de las páginas de phishing no son la raíz de sus dominios, sino que se encuentran en el subdominio /form**, como lnstagramverify-tick.com **/form** y lnstagramhelpbusinessverified.com **/form** . El sitio muestra un formulario en el que se le pide a la víctima que introduzca su usuario de Instagram y su contraseña. Si la persona objeto de la campaña de phishing completa esta información y la envía, los atacantes la recibirán y luego intentarán robar la cuenta.
 
 El otro modelo de phishing se ejecuta engañando a la víctima haciéndole creer que recibió una advertencia por violación de derechos de autor en su cuenta de Instagram. El sitio web relacionado con esto es servicehelpcopyright.com y al igual que el caso anterior también tiene un formulario en el que se supone que la víctima debe completar su información privada.
 
-![](https://lh3.googleusercontent.com/xjvLd7ydwTUNwVzd0R246j26Wc0ChFzIdtAJycTOaJvcjwhMG4S8v7ZbjWq3L8IS4ZIg7U3vK7bOXL-rDtgTd93BrRQUjvqOdLyvcgTfaqRWEksCNoastqUQHnxdh8xoDueTDuUf)![](https://lh6.googleusercontent.com/H5UOcpqMLNAgYCQnCIBLjCPIJaz_HL0vdXpOEr2fjVy79gp8ssZUtnFDh1Qau59NEc2_5dwcXvHRTH9PQ0WHteQ5iGElUAgbVu3vLh08WqzGsga01I2R4HYQoZhaH7vBO9K06tMt)
+<img src="/res/post_img/2021-02-03/img_2.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_3.png" width="250" height="460"/> <img src="/res/post_img/2021-02-03/img_4.png" width="250" height="460"/>
 
-  
-
-![](https://lh6.googleusercontent.com/01bCZWTorsOHyTp0pLv7nAjza-LUrkq2ubDZaafftQWHGL5wDnsP1gF9PYwWZg3U-IVkepWa6ENReT2BD0RkScX88xMDXFTvkenTDVUk0GmRi_QBtdnWhSJZIeX_ki6hL6dEAYGi)
 WaybackMachine snapshots:
 [http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/](http://web.archive.org/web/20210202035043/https://servicehelpcopyright.com/)
+
 [http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/](http://web.archive.org/web/20210130233853/https://servicehelpcopyright.com/form/)
 
 No solamente se solicita el usuario y la contraseña de Instagram, sino también un correo electrónico y su contraseña. Vale la pena mencionar que los que realizan el ataque piden que *"no se active la autenticación de dos factores en los dos días después de la confirmación de la cuenta"* en un intento de disuadir a la víctima de usar 2FA.
