@@ -109,6 +109,8 @@ Como se puede ver en las capturas de pantalla, las páginas web comparten la mis
 
 Mientras investigamos sobre este caso encontramos la posible fuente de este código en un foro de hackers turcos. La descripción de los documentos PHP y los comentarios de los usuarios coinciden con las páginas de phishing encontradas, así como un usuario en dicho foro también coincide un comentario de atribución encontrado en el código HTML.
 
+Todos los dominios y servidores anteriormente mencionados ya fueron reportados con la finalidad de prevenir que más usuarios caigan víctimas de esta campaña de phishing.
+
 # Recomendaciones
 Para los usuarios que quieren visitar cualquier página con información sensible, recomendamos tomar estas medidas de seguridad básicas:
 
@@ -121,4 +123,7 @@ Para los usuarios que quieren visitar cualquier página con información sensibl
 4.  Si tu buscador te da una advertencia de seguridad, sospecha y desiste de acceder a la página.
     
 5.  Si una dirección no encaja exactamente con el dominio que tú conoces, considera que el sitio es falso y evita cualquier otra interacción: mipaginaweb.com, mippaginaweb.com y mipaginaweb.net pueden estar controladas por personal completamente distintas.
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HUyMo6o5kBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
