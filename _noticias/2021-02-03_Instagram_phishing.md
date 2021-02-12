@@ -110,6 +110,8 @@ As it can be seen on the screenshots, web pages share the same structure and som
 
 While researching this case we found the probable origin of the source code in a Turkish hacker forum, the description of the PHP documents and user comments match the phishing sites found, the username also matches an attribution comment in the HTML code.
 
+All the domains and servers above have already been reported in order to prevent more users from being victims of this phishing campaign.
+
 # Recommendations
 For the users who want to visit any website with sensitive information, we recommend taking these basic security measures:
 
@@ -122,3 +124,5 @@ For the users who want to visit any website with sensitive information, we recom
 4.  Be suspicious and desist from using a website if the browser gives you a security warning.
     
 5.  If the website address doesn’t match exactly with the domain that you know, consider the site as a false one and avoid any other type of interaction: mywebsite.co, mywwebsite.com and mywebsite.net can be controlled by completely different people.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HUyMo6o5kBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
