@@ -27,7 +27,7 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <th>Sitio</th>
         <th>CANTV</th>
         <th>Movistar</th>
-        <th>Digital</th>
+        <th>Digitel</th>
         <th>NetUno</th>
       </tr>
     </thead>
