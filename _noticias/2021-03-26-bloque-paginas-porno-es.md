@@ -29,6 +29,7 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <th>Movistar</th>
         <th>Digitel</th>
         <th>NetUno</th>
+        <th>Supercable</th>
       </tr>
     </thead>
     <tbody>
@@ -38,17 +39,20 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <td class="block">Bloqueo DNS</td>
         <td class="block">Bloqueo DNS</td>
         <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
       </tr>
       <tr>
         <td>XHamster</td>
         <td class="block">Bloqueo HTTP</td>
         <td class="block">Bloqueo DNS</td>
-        <td class="block">Bloqueo DNS</td>
         <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="block">Bloqueo DNS</td>
       </tr>
       <tr>
         <td>Bravotube</td>
         <td class="block">Bloqueo HTTP</td>
+        <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
@@ -59,10 +63,12 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
       </tr>
       <tr>
         <td>Youporn</td>
         <td class="block">Bloqueo HTTP</td>
+        <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
@@ -73,6 +79,7 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <td>
             <img src="/res/VeSinFiltro-long.svg" />
         </td>
+        <td></td>
         <td></td>
         <td></td>
         <td></td>
