@@ -78,6 +78,7 @@ Las páginas afectadas por los bloqueos son las siguientes:
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
       </tr>
     </tbody>
   <tfoot>
