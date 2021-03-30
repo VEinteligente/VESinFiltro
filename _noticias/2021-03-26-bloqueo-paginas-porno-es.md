@@ -108,9 +108,7 @@ Las páginas afectadas por los bloqueos son las siguientes:
 
 ## Recomendaciones a usuarios de internet en Venezuela
 
-Recomendamos el uso de herramientas confiables de circunvención de
-bloqueos en internet por los usuarios en Venezuela. Recomendamos tener instaladas varias de las
-siguientes herramientas ante la posibilidad de que alguna sea bloqueada.
+Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela. Recomendamos tener instaladas varias de las siguientes herramientas ante la posibilidad de que alguna sea bloqueada.
 
 -   Psiphon [https://psiphon.ca](https://psiphon.ca)
 
