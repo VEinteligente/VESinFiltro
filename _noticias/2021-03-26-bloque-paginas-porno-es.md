@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bloquean nuevamente sitios web pornográficos en CANTV, Movistar, Digitel y NetUno'"
+title:  "Bloquean nuevamente sitios web pornográficos en CANTV, Movistar, Digitel, NetUno, Supercable e Inter"
 small:   "Bloquean nuevamente sitios web pornográficos en Venezuela"
-excerpt: "Bloqueadas cinco páginas web pornográficas en CANTV, Movistar, Digitel y NetUno"
+excerpt: "Bloqueadas seis páginas web pornográficas en CANTV, Movistar, Digitel, NetUno, Supercable e Inter"
 permalink: /noticias/2021-03-26-bloqueo-sitios-adultos/
 date:   2021-03-26 12:20:00 -0400
 categories: bloqueos
