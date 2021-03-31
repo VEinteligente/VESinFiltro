@@ -1,17 +1,21 @@
 ---
 layout: post
-title:  "Pornographic sites blocked again in CANTV, Movistar, Digitel, NetUno, Supercable and Inter"
-small:   "Pornographic sites blocked again in Venezuela"
+title:  "Several pornographic sites blocked again in Venezuela"
+small:   "Porn sites blocked again in Venezuela"
 excerpt: "Blocked six pornographic websites in CANTV, Movistar, Digitel, NetUno, Supercable and Inter"
 permalink: /noticias/2021-03-26-block-adult-sites/
 date:   2021-03-30 19:20:00 -0400
 categories: bloqueos
-image: /res/post_img/2021-03-26/2021-03-26.png
+image: /res/post_img/2021-03-31-en.png
 ---
 
-Six pornographic websites feature new blocks from various ISPs. This is not the first time that adult content has been censored in Venezuela, only last year an [investigation by VeSinFiltro](https://vesinfiltro.com/noticias/2020-10-30-limited_access_circumvention_tools/) indicated that around 26% of all sites blocked from the state provider CANTV are pornographic pages. The domains affected by the current blockade had already been censored before, but on ** October 15 2020, ** it was allowed access to users from CANTV again.
+*Six major pornographic websites have been blocked by at least one mayor ISPs in recent days,* including some of the most well-known international sites of this content. The state-owned ISP, CANTV blocked all six, while all other providers checked started blocking at least one of them. This is not the first time that adult content has been censored in Venezuela, most notably in the state ISP several porn sites had been blocked in the past, to then be unblocked and briefly again in October 2020.
+
+The [previous time they were blocked](https://vesinfiltro.com/noticias/2020-10-12-30_nuevos_bloqueos_cantv/) occurred as CANTV reinstated many HTTP/HTTPS blocks that were lifted when a networking facility in Caracas was damaged by fire, presumably affecting censorship capacity. Of the sites blocked in October 2020, 26% were porn sites. *They were last blocked in October 15, 2020.*
 
 <blockquote class="twitter-tweet" data-conversation="none" data-theme="light"><p lang="es" dir="ltr">El objetivo de estos bloqueos son sitios web de:<br><br>Noticias: 13<br>Porno: 8<br>Salud pública: 3<br>Critica Política: 3<br>Otros: 3<br><br>Algunos de los sitios estaban bloqueados por bloqueos de otros tipos simultáneamente. <a href="https://t.co/vCWZRAK8IA">pic.twitter.com/vCWZRAK8IA</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1315765218077814784?ref_src=twsrc%5Etfw">October 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br/>
 
 The internet providers involved in these blocks are: CANTV, Movistar Digitel, NetUno, Supercable and Inter. In this case, the censorship in CANTV operates through an HTTP block that began on March 2, while a DNS block was applied by the rest of the providers since March 9.
 
