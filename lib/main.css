@@ -209,3 +209,51 @@ ul.link-list li a i.action{
 	margin-right: -6px;
 	opacity: .25;
 }
+
+## BLCOKED TABLE
+
+table.blocklist tr:nth-child(even){background-color: #f2f2f2;}
+
+table.blocklist tbody tr:hover {background-color: #ddd;}
+
+table.blocklist th {
+  padding: 3%;
+  text-align: center;
+  background-color: #4E5255;
+  /* border-right: 2px solid white; */
+  color: white;
+	font-weight: 500;
+}
+table.blocklist td {
+  text-align: center;
+  padding: 2%
+}
+
+table.blocklist .accesible , .block {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  font-weight: 500;
+	color: #1A1C1F;
+}
+
+table.blocklist .accesible {
+	  background-color: #64DC84;
+}
+
+table.blocklist .block {
+  background-color: #EC4040;
+}
+
+table.blocklist tfoot {
+  padding: 5%;
+  background-color: #1A1C1F;
+}
+
+table.blocklist tfoot img {
+    height: 35px;
+}
+table.blocklist tfoot .social {
+  color: silver;
+  font-size: 13px;
+	font-weight: 200;
+}
