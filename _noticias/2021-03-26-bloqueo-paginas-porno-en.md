@@ -17,10 +17,11 @@ The [previous time they were blocked](https://vesinfiltro.com/noticias/2020-10-1
 
 <br/>
 
-The internet providers involved in these blocks are: CANTV, Movistar Digitel, NetUno, Supercable and Inter. In this case, the censorship in CANTV operates through an HTTP block that began on March 2, while a DNS block was applied by the rest of the providers since March 9.
+The internet providers involved in these blocks are: CANTV, Movistar Digitel, NetUno, Supercable and Inter. In this case, the censorship in CANTV operates through an HTTP block that began on March 2, while a DNS block was applied by Movistar, Digitel, Inter and NetUno since March 9. Supercable started the block a few weeks later on March 29.
 
 The pages affected by the blocks are the following:
 
+<div class="table-responsive">
  <table class="blocklist">
     <thead>
       <tr>
@@ -106,6 +107,7 @@ The pages affected by the blocks are the following:
       </tr>
     </tfoot>
   </table>
+</div>
 
 ## Recommendations to internet users in Venezuela
 
