@@ -3,11 +3,15 @@ layout: post
 title:  "Bloquean la página web de ONG Acceso a la justicia en CANTV"
 small:   "CANTV bloquea a la ONG Acceso a la justicia"
 excerpt: "Bloquean la página web de Acceso a la justicia, una ONG que monitorea la administración de justicia y el estado de derechoen Venezuela."
-permalink: /noticias/2020-04-08_bloqueo_acceso_justicia/
+permalink: /noticias/2021-04-08_bloqueo_acceso_justicia/
 date:   2021-04-08 14:44:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-04-08-es.png
+redirect_from:
+  - /noticias/2020-04-08_bloqueo_acceso_justicia/
 ---
+
+![](/res/post_img/2021-04-08-es.png)
 
 ![](/res/post_img/2021-04-08-es.png)
 
@@ -27,7 +31,7 @@ Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación
 
 ### Recomendaciones
 
-Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela, como un VPN seguro y de confianza, ya instalado y configurado en tus dispositivos. 
+Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela, como un VPN seguro y de confianza, ya instalado y configurado en tus dispositivos.
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="es" dir="ltr">Estas son nuestras recomendaciones para evadir <a href="https://twitter.com/hashtag/bloqueos?src=hash&amp;ref_src=twsrc%5Etfw">#bloqueos</a> en <a href="https://twitter.com/hashtag/internetVE?src=hash&amp;ref_src=twsrc%5Etfw">#internetVE</a>:<br><br>Aunque la página de <a href="https://twitter.com/PsiphonEsp?ref_src=twsrc%5Etfw">@PsiphonEsp</a> y <a href="https://twitter.com/theTunnelBear?ref_src=twsrc%5Etfw">@theTunnelBear</a> estén bloqueadas en <a href="https://twitter.com/hashtag/CANTV?src=hash&amp;ref_src=twsrc%5Etfw">#CANTV</a>, estos siguen siendo nuestros VPN recomendados.<br><br>🧵Más info en este hilo: <a href="https://t.co/SFmRM00olQ">pic.twitter.com/SFmRM00olQ</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1377385735666421761?ref_src=twsrc%5Etfw">March 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
