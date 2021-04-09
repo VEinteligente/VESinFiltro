@@ -13,7 +13,6 @@ redirect_from:
 
 ![](/res/post_img/2021-04-08-es.png)
 
-![](/res/post_img/2021-04-08-es.png)
 
 Bloquean la página web de [Acceso a la justicia](https://www.accesoalajusticia.org/), una ONG de defensa de los Derechos Humanos que se especializa en monitorear la administración de la justicia y el estado de derecho en Venezuela.
 
