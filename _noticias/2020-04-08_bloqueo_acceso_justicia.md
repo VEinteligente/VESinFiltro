@@ -29,7 +29,7 @@ Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación
 
 ## Recomendaciones
 
-Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela, como un VPN seguro y de confianza, ya instalado y configurado en tus dispositivos.
+Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela, como un VPN seguro y de confianza, ya instalado y configurado en todos tus dispositivos.
 
 ### Descarga desde direcciones alternativas
 
