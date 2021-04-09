@@ -11,9 +11,6 @@ redirect_from:
   - /noticias/2020-04-08_bloqueo_acceso_justicia/
 ---
 
-![](/res/post_img/2021-04-08-es.png)
-
-
 Bloquean la página web de [Acceso a la justicia](https://www.accesoalajusticia.org/), una ONG de defensa de los Derechos Humanos que se especializa en monitorear la administración de la justicia y el estado de derecho en Venezuela.
 
 **Este bloqueo, que comenzó este jueves 8 de abril, impide que los usuarios de CANTV, el principal proveedor de internet de Venezuela y una empresa estatal. CANTV es el proveedor de servicios de internet (ISP) de Venezuela que bloquea más sitios web, habiendo colaborado también en ataques de phishing masivo.**
@@ -28,13 +25,13 @@ A pesar del creciente aumento de la censura y ataque informáticos desde 2019, a
 
 Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación, requiriendo inspección de paquetes (_deep packet inspection_) para de forma selectiva bloquear la comunicación con el servidor cuando se está solicitando esta página web. El bloqueo fue medido de forma automática por primera vez en horas de la noche del 2021-04-08, analizado y verificado por VE Sin Filtro. en monitorear la administración de justicia y el estado de derecho.
 
+![](/res/post_img/2021-04-08-es.png)
+
 ### Recomendaciones
 
 Recomendamos el uso de herramientas confiables de circunvención de bloqueos en internet por los usuarios en Venezuela, como un VPN seguro y de confianza, ya instalado y configurado en tus dispositivos.
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="es" dir="ltr">Estas son nuestras recomendaciones para evadir <a href="https://twitter.com/hashtag/bloqueos?src=hash&amp;ref_src=twsrc%5Etfw">#bloqueos</a> en <a href="https://twitter.com/hashtag/internetVE?src=hash&amp;ref_src=twsrc%5Etfw">#internetVE</a>:<br><br>Aunque la página de <a href="https://twitter.com/PsiphonEsp?ref_src=twsrc%5Etfw">@PsiphonEsp</a> y <a href="https://twitter.com/theTunnelBear?ref_src=twsrc%5Etfw">@theTunnelBear</a> estén bloqueadas en <a href="https://twitter.com/hashtag/CANTV?src=hash&amp;ref_src=twsrc%5Etfw">#CANTV</a>, estos siguen siendo nuestros VPN recomendados.<br><br>🧵Más info en este hilo: <a href="https://t.co/SFmRM00olQ">pic.twitter.com/SFmRM00olQ</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1377385735666421761?ref_src=twsrc%5Etfw">March 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-**Descarga desde direcciones alternativas**
+### Descarga desde direcciones alternativas**
 
 A pesar del bloqueo a sus páginas web principales, tanto Psiphon como TunnelBear siguen estando disponibles para ser instaladas desde las tiendas de aplicaciones de iOS y Android, y también desde los siguientes enlaces alternativos.
 
@@ -60,3 +57,6 @@ Tunnelbear
 Puedes seguir las instrucciones para instalar y usar Psiphon en [este video:](https://www.youtube.com/watch?v=iYQQTE1-Thk)
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iYQQTE1-Thk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="es" dir="ltr">Estas son nuestras recomendaciones para evadir <a href="https://twitter.com/hashtag/bloqueos?src=hash&amp;ref_src=twsrc%5Etfw">#bloqueos</a> en <a href="https://twitter.com/hashtag/internetVE?src=hash&amp;ref_src=twsrc%5Etfw">#internetVE</a>:<br><br>Aunque la página de <a href="https://twitter.com/PsiphonEsp?ref_src=twsrc%5Etfw">@PsiphonEsp</a> y <a href="https://twitter.com/theTunnelBear?ref_src=twsrc%5Etfw">@theTunnelBear</a> estén bloqueadas en <a href="https://twitter.com/hashtag/CANTV?src=hash&amp;ref_src=twsrc%5Etfw">#CANTV</a>, estos siguen siendo nuestros VPN recomendados.<br><br>🧵Más info en este hilo: <a href="https://t.co/SFmRM00olQ">pic.twitter.com/SFmRM00olQ</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1377385735666421761?ref_src=twsrc%5Etfw">March 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
