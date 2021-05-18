@@ -23,7 +23,7 @@ A pesar del creciente aumento de la censura y ataque informáticos desde 2019, a
 
 ## Sobre este bloqueo
 
-Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación, requiriendo inspección de paquetes (_deep packet inspection_) para de forma selectiva bloquear la comunicación con el servidor cuando se está solicitando esta página web. El bloqueo fue medido de forma automática por primera vez en horas de la noche del 2021-04-08, analizado y verificado por VE Sin Filtro. en monitorear la administración de justicia y el estado de derecho.
+Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación, requiriendo inspección de paquetes (_deep packet inspection_) para de forma selectiva bloquear la comunicación con el servidor cuando se está solicitando esta página web. El bloqueo fue medido de forma automática por primera vez en horas de la noche del 2021-04-08, analizado y verificado por VE Sin Filtro.
 
 ![](/res/post_img/2021-04-08-es.png)
 
