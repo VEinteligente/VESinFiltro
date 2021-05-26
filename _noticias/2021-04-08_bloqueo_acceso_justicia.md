@@ -2,7 +2,7 @@
 layout: post
 title:  "Bloquean la página web de ONG Acceso a la justicia en CANTV"
 small:   "CANTV bloquea a la ONG Acceso a la justicia"
-excerpt: "Bloquean la página web de Acceso a la justicia, una ONG que monitorea la administración de justicia y el estado de derechoen Venezuela."
+excerpt: "Bloquean la página web de Acceso a la justicia, una ONG que monitorea la administración de justicia y el estado de derecho en Venezuela."
 permalink: /noticias/2021-04-08_bloqueo_acceso_justicia/
 date:   2021-04-08 14:44:00 -0400
 categories: bloqueos
