@@ -10,6 +10,9 @@ image: /res/post_img/2021-05-26-es.png
 redirect_from:
   - /noticias/2021-05-26_bloqueo_telesur_libre-en/
 ---
+
+![](/res/post_img/2021-05-26-es.png)
+
 **[Noticia en desarrollo]**
 
 Bloquean la página web de [TeleSur Libre](https://telesurlibre.com/), un nuevo medio de comunicación apoyado por el gobierno de Juan Guaidó el cual se hizo público apenas el pasado 24 de mayo.
