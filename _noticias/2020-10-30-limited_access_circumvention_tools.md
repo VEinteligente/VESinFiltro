@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Limited access to circumvention tools in Venezuela"
+title: "Limited access to circumvention tools in Venezuela"
 #small:   ""
 excerpt: "From blocked access DNS servers, to some circumvention tool's websites
 being blocked. Venezuela's returning appetite to block censorship
