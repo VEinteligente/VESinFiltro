@@ -10,8 +10,7 @@ image: /res/post_img/2021-05-26-es.png
 redirect_from:
   - /noticias/2021-05-26_bloqueo_telesur_libre-en/
 ---
-
-![](/res/post_img/2021-05-26-es.png)
+<img src="/res/post_img/2021-05-26-es.png" style="margin:auto;"/>
 
 **[Noticia en desarrollo]**
 
