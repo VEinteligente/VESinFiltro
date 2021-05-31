@@ -12,8 +12,6 @@ redirect_from:
 ---
 <img src="/res/post_img/2021-05-26-es.png" style="width: 150%;"/>
 
-**[Noticia en desarrollo]**
-
 Bloquean la página web de [TeleSur Libre](https://telesurlibre.com/), un nuevo medio de comunicación apoyado por el gobierno de Juan Guaidó el cual se hizo público apenas el pasado 24 de mayo.
 
 **El bloqueo comenzó el martes 25 de mayo en horas de la tarde y afecta a los usuarios de los mayores ISP del país: CANTV, Inter, Movistar, Digitel, Supercable y NetUno.** La inmensa mayoría de los usuarios de internet en Venezuela no puede acceder a [telesurlibre.com](https://telesurlibre.com) sin antes usar herramientas de circumvención de censura.
@@ -30,6 +28,7 @@ Desde 2019 hay una crisis sobre política e institucional en Venezuela sobre la 
 
 CANTV implementó un bloqueo **HTTP/HTTPS** que requiere el uso de un VPN para poder evadir la censura. Por su parte Inter, Movistar, Digitel, Supercable y NetUno implementaron un bloqueo **DNS**, el cual podría evadirse simplemente cambiando los DNS de nuestros dispositivos.
 
+<img src="res/post_img/2021-05-26-telesur-sc.png"/>
 
 ## Recomendaciones
 
