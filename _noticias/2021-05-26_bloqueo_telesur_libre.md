@@ -28,7 +28,7 @@ Desde 2019 hay una crisis sobre política e institucional en Venezuela sobre la 
 
 CANTV implementó un bloqueo **HTTP/HTTPS** que requiere el uso de un VPN para poder evadir la censura. Por su parte Inter, Movistar, Digitel, Supercable y NetUno implementaron un bloqueo **DNS**, el cual podría evadirse simplemente cambiando los DNS de nuestros dispositivos.
 
-<img src="res/post_img/2021-05-26-telesur-sc.png"/>
+![](/res/post_img/2021-05-26-telesur-sc.png)
 
 ## Recomendaciones
 
