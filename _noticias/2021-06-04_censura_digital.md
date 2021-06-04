@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Arrecia la censura contra la prensa digital en Venezuela"
 small:   "Censura contra la prensa digital en Venezuela"
