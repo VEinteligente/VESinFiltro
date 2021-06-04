@@ -2,7 +2,7 @@
 layout: post
 title:  "Arrecia la censura contra la prensa digital en Venezuela"
 small:   "Censura contra la prensa digital en Venezuela"
-excerpt: "Arrecia la censura contra la prensa digital en Venezuela afectando a portales como La Patilla, Caraota Digital, Alberto News y Soundcloud"
+excerpt: "Nuevos bloqueos contra la prensa digital en Venezuela afectando a La Patilla y Caraota Digital, Alberto News que ya estaban bloqueados"
 permalink: /noticias/2021-06-04_censura_digital/
 date:  2021-06-04 19:00:00 -0400
 categories: bloqueos
@@ -10,24 +10,33 @@ image: /res/post_img/2021-06-04-es.png
 redirect_from:
   - /noticias/2021-06-04_censura_digital/
 ---
-![](/res/post_img/2021-06-04-es.png)
-En días recientes VE sin Filtro ha podido documentar un aumento importante en bloqueos de internet contra medios de comunicación, en otro ataque contra la libertad de información y el ejercicio de los derechos humanos en el entorno digital.
+En días recientes VE sin Filtro ha podido documentar un aumento importante en bloqueos de internet contra medios de comunicación, en otro ataque contra la libertad de información y el ejercicio de los derechos humanos en el entorno digital. Los nuevos bloqueos contra afectan a La Patilla y Caraota Digital, Alberto News que ya estaban bloqueados
 
-El 29 de Mayo los principales proveedores de internet comenzaron a bloquear el acceso a [lapatilla.com](https://lapatilla.com), el portal web de noticias [más visitado en Venezuela](https://www.alexa.com/topsites/countries/VE). Este bloqueo a lapatilla.com comenzó el 2021-05-29 en Digitel, Movistar, Inter y Supercable, mientras que NetUno comenzó a bloquearlo el 2021-06-01. El proveedor estatal CANTV mantiene bloqueado el dominio principal de La Patilla desde hace meses, como lo han hecho de manera intermitente durante los últimos años. A su vez, las conexiones hacia dominios alternativos de La Patilla – usados en lugar de lapatilla.com – también han sido bloqueadas en CANTV.
+**El 29 de Mayo los principales proveedores de internet comenzaron a bloquear el acceso a [lapatilla.com](https://lapatilla.com), el portal web de noticias [más visitado en Venezuela](https://www.alexa.com/topsites/countries/VE).** Este bloqueo a lapatilla.com comenzó el 2021-05-29 en Digitel, Movistar, Inter y Supercable, mientras que NetUno comenzó a bloquearlo el 2021-06-01. El proveedor estatal CANTV mantiene bloqueado el dominio principal de La Patilla desde hace meses, como lo han hecho de manera intermitente durante los últimos años. A su vez, las conexiones hacia dominios alternativos de La Patilla – usados en lugar de lapatilla.com – también han sido bloqueadas en CANTV.
 
-Hemos observado también el bloqueo de al menos dos dominios alternativos del portal de noticias [Caraota Digital](https://www.caraotadigital.net) usados para evadir la censura: caraotadigital.news y caraotadigital.xyz. El acceso a Caraota Digital desde su dominio original caraotadigital.com ya había sido bloqueado el 2020-10-10. Estos nuevos bloqueos han sido aplicados por todos los proveedores privados para inicios de Junio, pero no tenemos datos del momento exacto de su inicio.
+![Página de inicio de La Patilla, Caraota Digital y Alberto News](/res/post_img/2021-06-04_censura_digital/1.png)
 
-Adicionalmente, un dominio alternativo del portal [Alberto News](http://albertonews.com) también se encuentra bloqueado por CANTV. El uso de dominios alternativos es una práctica relativamente común para evadir bloqueos de internet, sin embargo, los portales siguen siendo vulnerables a nuevos bloqueos.
+Hemos observado también el **bloqueo de al menos dos dominios alternativos del portal de noticias [Caraota Digital](https://www.caraotadigital.net) usados para evadir la censura**: caraotadigital.news y caraotadigital.xyz. El acceso a Caraota Digital desde su dominio original caraotadigital.com ya había sido bloqueado el 2020-10-10. Estos nuevos bloqueos han sido aplicados por todos los proveedores privados para inicios de Junio, pero no tenemos datos del momento exacto de su inicio.
 
-**Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.**
+**Adicionalmente, un dominio alternativo del portal [Alberto News](http://albertonews.com) también se encuentra bloqueado por CANTV.** El uso de dominios alternativos es una práctica relativamente común para evadir bloqueos de internet, sin embargo, los portales siguen siendo vulnerables a nuevos bloqueos.
+
+![Navegador no puede acceder a una página bloqueada](/res/post_img/2021-06-04_censura_digital/2-2850288.png)
+
+Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.**
 
 No sólo han bloqueado los sitios web de medios no afiliados con el Gobierno de Nicolás Maduro. En los últimos años también han bloqueado plataformas de multimedia, de streaming y redes sociales en aras de limitar el acceso a las noticias.
 
+![](/res/post_img/2021-05-26-es.png)
+
 Soundcloud, la principal plataforma de hospedaje de audio en internet, también fue bloqueada recientemente por los ISP privados este 9 de Mayo. La plataforma ya estaba bloqueada en CANTV, teniendo restringido su acceso intermitentemente desde 2019. Soundcloud es usada por medios de noticias como alternativa ante los extensos bloqueos de páginas web. El bloqueo a Soundcloud en los proveedores privados afecta la distribución de noticias en cápsulas de audio vía internet como los reportes del [Servicio de Información Pública](https://serviciodeinformacionpublica.com/), Notiaudios de El Pitazo, la distribución de algunos podcasts, entre otros.
 
-**VE sin Filtro ha documentado también el uso de bloqueos tácticos - en momentos precisos y de poca duración - contra Youtube, Twitter, Instagram entre otras plataformas para silenciar noticias en desarrollo y su difusión en vivo.**
+![Página del Servicio de Información Pública](/res/post_img/2021-06-04_censura_digital/3.png)
 
-Limitar el acceso a las noticias es el principal objetivo de la censura digital en Venezuela, especialmente durante los momentos de mayor crisis política, y afecta tanto a medios nacionales como internacionales que cubren lo que ocurre en el país. Es una grave vulneración de los derechos humanos que se restrinja de tal manera el acceso a las fuentes de información y el trabajo de los periodistas.
+**VE sin Filtro ha documentado también numerosos bloqueos tácticos - en momentos precisos y de poca duración - contra Youtube, Twitter, Instagram entre otras plataformas para silenciar noticias en desarrollo y su difusión en vivo.**
+
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">🛑 Bloqueado <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a> en <a href="https://twitter.com/hashtag/CANTV?src=hash&amp;ref_src=twsrc%5Etfw">#CANTV</a> durante foro “Transición en <a href="https://twitter.com/hashtag/Venezuela?src=hash&amp;ref_src=twsrc%5Etfw">#Venezuela</a> es Posible” con la participación de Juan Guaidó<br><br>Este es otro bloqueo táctico, que busca silenciar una declaración, noticia o evento específico mientras se difunde en plataformas de alto tráfico. <a href="https://twitter.com/hashtag/internetVE?src=hash&amp;ref_src=twsrc%5Etfw">#internetVE</a> <a href="https://t.co/PeGYMUqdmc">pic.twitter.com/PeGYMUqdmc</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1271178517309542408?ref_src=twsrc%5Etfw">June 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+**Limitar el acceso a las noticias es el principal objetivo de la censura digital en Venezuela,** especialmente durante los momentos de mayor crisis política, y afecta tanto a medios nacionales como internacionales que cubren lo que ocurre en el país. Es una grave vulneración de los derechos humanos que se restrinja de tal manera el acceso a las fuentes de información y el trabajo de los periodistas.
 
 La censura en internet en Venezuela es extensa e impide el acceso a muchos tipos de sitios web, desde medios de comunicación y ONG, hasta páginas pornográficas. Si no se utilizan técnicas de evasión de censura como VPNs o servidores DNS alternativos, es imposible acceder a decenas de portales web. Incidentalmente el gobierno de Nicolás Maduro también intenta [limitar el uso de algunas herramientas para evadir censura](https://vesinfiltro.com/noticias/2020-10-30-acceso_limitado_herramientas_anticensura/) de la misma manera.
 
