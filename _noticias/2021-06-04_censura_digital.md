@@ -19,13 +19,13 @@ Hemos observado también el bloqueo de al menos dos dominios alternativos del po
 
 Adicionalmente, un dominio alternativo del portal [Alberto News](http://albertonews.com) también se encuentra bloqueado por CANTV. El uso de dominios alternativos es una práctica relativamente común para evadir bloqueos de internet, sin embargo, los portales siguen siendo vulnerables a nuevos bloqueos.
 
-Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.
+**Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.**
 
 No sólo han bloqueado los sitios web de medios no afiliados con el Gobierno de Nicolás Maduro. En los últimos años también han bloqueado plataformas de multimedia, de streaming y redes sociales en aras de limitar el acceso a las noticias.
 
 Soundcloud, la principal plataforma de hospedaje de audio en internet, también fue bloqueada recientemente por los ISP privados este 9 de Mayo. La plataforma ya estaba bloqueada en CANTV, teniendo restringido su acceso intermitentemente desde 2019. Soundcloud es usada por medios de noticias como alternativa ante los extensos bloqueos de páginas web. El bloqueo a Soundcloud en los proveedores privados afecta la distribución de noticias en cápsulas de audio vía internet como los reportes del [Servicio de Información Pública](https://serviciodeinformacionpublica.com/), Notiaudios de El Pitazo, la distribución de algunos podcasts, entre otros.
 
-VE sin Filtro ha documentado también el uso de bloqueos tácticos - en momentos precisos y de poca duración - contra Youtube, Twitter, Instagram entre otras plataformas para silenciar noticias en desarrollo y su difusión en vivo.
+**VE sin Filtro ha documentado también el uso de bloqueos tácticos - en momentos precisos y de poca duración - contra Youtube, Twitter, Instagram entre otras plataformas para silenciar noticias en desarrollo y su difusión en vivo.**
 
 Limitar el acceso a las noticias es el principal objetivo de la censura digital en Venezuela, especialmente durante los momentos de mayor crisis política, y afecta tanto a medios nacionales como internacionales que cubren lo que ocurre en el país. Es una grave vulneración de los derechos humanos que se restrinja de tal manera el acceso a las fuentes de información y el trabajo de los periodistas.
 
