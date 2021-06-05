@@ -233,7 +233,7 @@ table.blocklist td {
   padding: 2%
 }
 
-table.blocklist .accesible , .block {
+table.blocklist .accesible , .block , .partial{
   border-right: 2px solid white;
   border-bottom: 2px solid white;
   font-weight: 500;
@@ -246,6 +246,10 @@ table.blocklist .accesible {
 
 table.blocklist .block {
   background-color: #EC4040;
+}
+
+table.blocklist .partial {
+	background-color: #FCD56A;
 }
 
 table.blocklist tfoot {
