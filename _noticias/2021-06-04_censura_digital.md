@@ -12,9 +12,111 @@ redirect_from:
 ---
 En días recientes VE sin Filtro ha podido documentar un aumento importante en bloqueos de internet contra medios de comunicación, en otro ataque contra la libertad de información y el ejercicio de los derechos humanos en el entorno digital. Los nuevos bloqueos contra afectan a La Patilla y Caraota Digital, Alberto News que ya estaban bloqueados
 
+![Página de inicio de La Patilla, Caraota Digital y Alberto News](/res/post_img/2021-06-04_censura_digital/1.png)
+
 **El 29 de Mayo los principales proveedores de internet comenzaron a bloquear el acceso a [lapatilla.com](https://lapatilla.com), el portal web de noticias [más visitado en Venezuela](https://www.alexa.com/topsites/countries/VE).** Este bloqueo a lapatilla.com comenzó el 2021-05-29 en Digitel, Movistar, Inter y Supercable, mientras que NetUno comenzó a bloquearlo el 2021-06-01. El proveedor estatal CANTV mantiene bloqueado el dominio principal de La Patilla desde hace meses, como lo han hecho de manera intermitente durante los últimos años. A su vez, las conexiones hacia dominios alternativos de La Patilla – usados en lugar de lapatilla.com – también han sido bloqueadas en CANTV.
 
-![Página de inicio de La Patilla, Caraota Digital y Alberto News](/res/post_img/2021-06-04_censura_digital/1.png)
+<div class="table-responsive">
+  <table class="blocklist">
+    <thead>
+      <tr>
+        <th>URL</th>
+        <th>Sitio</th>
+        <th>CANTV</th>
+        <th>Inter</th>
+        <th>Supercable</th>
+        <th>NetUno</th>
+        <th>Movistar</th>
+        <th>Digitel</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>https://lapatilla.com/</td>
+        <td rowspan="2">La Patilla</td>
+        <td class="block">Bloqueo HTTP</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="partial">Bloqueo DNS</td>
+      </tr>
+      <tr>
+        <td>Dominio alternativo</td>
+        <td class="partial">Bloqueo HTTP</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+      </tr>
+      <tr>
+        <td>https://caraotadigital.net/</td>
+        <td rowspan="3">Caraota Digital</td>
+        <td class="block">Bloqueo HTTP</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+      </tr>
+      <tr>
+        <td>http://caraotadigital.xyz/</td>
+        <td class="partial">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="accesible">Accesible</td>
+      </tr>
+      <tr>
+        <td>https://caraotadigital.news</td>
+        <td class="partial">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+      </tr>
+      <tr>
+        <td>Dominio alternativo</td>
+        <td>Alberto News</td>
+        <td class="block">Bloqueo HTTP</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+      </tr>
+      <tr>
+        <td>https://soundcloud.com</td>
+        <td>SoundCloud</td>
+        <td class="block">Bloqueo HTTP</td>
+        <td class="accesible">Accesible</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+      </tr>
+    </tbody>
+  <tfoot>
+      <tr>
+        <td>
+            <img src="/res/VeSinFiltro-long.svg" />
+        </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="social">
+          @VEsinFiltro<br>
+          vesinfiltro.com
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
 
 Hemos observado también el **bloqueo de al menos dos dominios alternativos del portal de noticias [Caraota Digital](https://www.caraotadigital.net) usados para evadir la censura**: caraotadigital.news y caraotadigital.xyz. El acceso a Caraota Digital desde su dominio original caraotadigital.com ya había sido bloqueado el 2020-10-10. Estos nuevos bloqueos han sido aplicados por todos los proveedores privados para inicios de Junio, pero no tenemos datos del momento exacto de su inicio.
 
@@ -22,11 +124,9 @@ Hemos observado también el **bloqueo de al menos dos dominios alternativos del 
 
 ![Navegador no puede acceder a una página bloqueada](/res/post_img/2021-06-04_censura_digital/2-2850288.png)
 
-Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.**
+Estos eventos se suman a la larga lista de bloqueos contra la prensa en Venezuela, otro bloqueo reciente fué el bloqueo a [TeleSur Libre](https://telesurlibre.com/) el [25 de Mayo](https://vesinfiltro.com/noticias/2021-05-26_bloqueo_telesur_libre/), que nació como una iniciativa de la gestión de Juan Guaidó en contraste con TeleSur, el medio regional bajo el control del Gobierno de Nicolás Maduro.
 
 No sólo han bloqueado los sitios web de medios no afiliados con el Gobierno de Nicolás Maduro. En los últimos años también han bloqueado plataformas de multimedia, de streaming y redes sociales en aras de limitar el acceso a las noticias.
-
-![](/res/post_img/2021-05-26-es.png)
 
 Soundcloud, la principal plataforma de hospedaje de audio en internet, también fue bloqueada recientemente por los ISP privados este 9 de Mayo. La plataforma ya estaba bloqueada en CANTV, teniendo restringido su acceso intermitentemente desde 2019. Soundcloud es usada por medios de noticias como alternativa ante los extensos bloqueos de páginas web. El bloqueo a Soundcloud en los proveedores privados afecta la distribución de noticias en cápsulas de audio vía internet como los reportes del [Servicio de Información Pública](https://serviciodeinformacionpublica.com/), Notiaudios de El Pitazo, la distribución de algunos podcasts, entre otros.
 
