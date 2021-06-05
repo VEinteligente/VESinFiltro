@@ -33,7 +33,7 @@ En días recientes VE sin Filtro ha podido documentar un aumento importante en b
     <tbody>
       <tr>
         <td>https://lapatilla.com/</td>
-        <td rowspan="2">La Patilla</td>
+        <td style="vertical-align: middle;" rowspan="2">La Patilla</td>
         <td class="block">Bloqueo HTTP</td>
         <td class="block">Bloqueo DNS</td>
         <td class="block">Bloqueo DNS</td>
@@ -52,7 +52,7 @@ En días recientes VE sin Filtro ha podido documentar un aumento importante en b
       </tr>
       <tr>
         <td>https://caraotadigital.net/</td>
-        <td rowspan="3">Caraota Digital</td>
+        <td style="vertical-align: middle;" rowspan="3">Caraota Digital</td>
         <td class="block">Bloqueo HTTP</td>
         <td class="block">Bloqueo DNS</td>
         <td class="block">Bloqueo DNS</td>
