@@ -230,7 +230,6 @@ table.blocklist th {
 }
 table.blocklist td {
   text-align: center;
-  vertical-align: middle ! important;
   padding: 2%
 }
 
