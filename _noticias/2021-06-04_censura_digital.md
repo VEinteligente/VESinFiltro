@@ -109,6 +109,7 @@ En días recientes VE sin Filtro ha podido documentar un aumento importante en b
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
         <td class="social">
           @VEsinFiltro<br>
           vesinfiltro.com
