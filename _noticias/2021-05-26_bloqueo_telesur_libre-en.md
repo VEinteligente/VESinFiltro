@@ -3,7 +3,7 @@ layout: post
 title:  "TeleSur Libre Website blocked hours after its inauguration"
 small:   "TeleSur Libre website blocked"
 excerpt: "Venezuela's Internet providers blocked the website of the TeleSur Libre news outlet hours after its inauguration"
-permalink: /noticias/2021-05-26_bloqueo_telesur_libre/
+permalink: /noticias/2021-05-26_bloqueo_telesur_libre-en/
 date:  2021-05-26 10:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-05-26-es.png
@@ -12,7 +12,7 @@ redirect_from:
 ---
 <img src="/res/post_img/2021-05-26-es.png" style="width: 150%;"/>
 
-Venezuela's Internet providers block the website of [TeleSur Libre](https://telesurlibre.com/), a news outlet source supported by the government of Juan GuaidÛ which was made public only last May 24.
+Venezuela's Internet providers block the website of [TeleSur Libre](https://telesurlibre.com/), a news outlet source supported by the government of Juan Guaid√≥ which was made public only last May 24.
 
 *The blocking began on Tuesday afternoon, May 25th and affects users of the country's major ISPs: CANTV, Inter, Movistar, Digitel, Supercable and NetUno.* The vast majority of Internet users in Venezuela cannot access [telesurlibre.com](https://telesurlibre.com) without first using censorship circumvention tools.
 
@@ -20,11 +20,11 @@ News outlet is the most blocked category of websites in the country. Venezuela o
 
 This blockage is a new violation of Venezuelans' right to freedom of information. The censorship of news sources places Venezuelans in an even more vulnerable situation, as they struggle to stay informed in the face of the practically non-existent independent news on TV, the disappearance of paper newspapers and the limited connectivity to the Internet.
 
-TeleSur Libre is an initiative of Juan GuaidÛ, recognized as President-in-Charge of Venezuela by multiple countries, as an alternative to TeleSur, a regional media channel administered by the government of Nicol·s Maduro in Venezuela.
+TeleSur Libre is an initiative of Juan Guaid√≥, recognized as President-in-Charge of Venezuela by multiple countries, as an alternative to TeleSur, a regional media channel administered by the government of Nicol√°s Maduro in Venezuela.
 
-The Maduro government has already blocked other Juan GuaidÛ initiatives, including news ones, and has even launched [multiple phishing attacks](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/) against users of [platforms](https://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud) organized by Juan GuaidÛ.
+The Maduro government has already blocked other Juan Guaid√≥ initiatives, including news ones, and has even launched [multiple phishing attacks](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/) against users of [platforms](https://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud) organized by Juan Guaid√≥.
 
-Since 2019 there has been a political and institutional crisis in Venezuela over the legitimacy as president of Nicol·s Maduro and Juan GuaidÛ, as well as the National Assembly and Supreme Court of Justice.
+Since 2019 there has been a political and institutional crisis in Venezuela over the legitimacy as president of Nicol√°s Maduro and Juan Guaid√≥, as well as the National Assembly and Supreme Court of Justice.
 
 CANTV implemented a blocking *HTTP/HTTPS* that requires the use of a VPN in order to evade censorship. Inter, Movistar, Digitel, Supercable and NetUno implemented a *DNS* block, which could be circumvented by simply changing the DNS of our devices.
 
