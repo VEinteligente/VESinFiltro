@@ -13,7 +13,7 @@ image: /res/post_img/2021-05-26-es.png
 
 Venezuela's Internet providers block the website of [TeleSur Libre](https://telesurlibre.com/), a news outlet source supported by the government of Juan Guaidó which was made public only last May 24.
 
-*The blocking began on Tuesday afternoon, May 25th and affects users of the country's major ISPs: CANTV, Inter, Movistar, Digitel, Supercable and NetUno.* The vast majority of Internet users in Venezuela cannot access [telesurlibre.com](https://telesurlibre.com) without first using censorship circumvention tools.
+**The blocking began on Tuesday afternoon, May 25th and affects users of the country's major ISPs: CANTV, Inter, Movistar, Digitel, Supercable and NetUno.** The vast majority of Internet users in Venezuela cannot access [telesurlibre.com](https://telesurlibre.com) without first using censorship circumvention tools.
 
 News outlet is the most blocked category of websites in the country. Venezuela often blocks national media of all sizes and multiple international media outlets that cover Venezuelan news in Spanish. Blocking of major streaming and social media platforms has also been observed as a tactic to prevent live coverage of news events.
 
@@ -25,7 +25,7 @@ The Maduro government has already blocked other Juan Guaidó initiatives, includ
 
 Since 2019 there has been a political and institutional crisis in Venezuela over the legitimacy as president of Nicolás Maduro and Juan Guaidó, as well as the National Assembly and Supreme Court of Justice.
 
-CANTV implemented a blocking *HTTP/HTTPS* that requires the use of a VPN in order to evade censorship. Inter, Movistar, Digitel, Supercable and NetUno implemented a *DNS* block, which could be circumvented by simply changing the DNS of our devices.
+CANTV implemented a blocking **HTTP/HTTPS** that requires the use of a VPN in order to evade censorship. Inter, Movistar, Digitel, Supercable and NetUno implemented a *DNS* block, which could be circumvented by simply changing the DNS of our devices.
 
 ![](/res/post_img/2021-05-26-telesur-sc.png)
 
