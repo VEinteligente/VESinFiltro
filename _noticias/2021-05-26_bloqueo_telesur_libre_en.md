@@ -3,7 +3,7 @@ layout: post
 title:  "TeleSur Libre Website blocked hours after its inauguration"
 small:   "TeleSur Libre website blocked"
 excerpt: "Venezuela's Internet providers blocked the website of the TeleSur Libre news outlet hours after its inauguration"
-permalink: /noticias/2021-05-26_bloqueo_telesur_libre-en/
+permalink: /noticias/2021-05-26_bloqueo_telesur_libre_en/
 date:  2021-05-26 10:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-05-26-es.png
@@ -26,6 +26,8 @@ Since 2019 there has been a political and institutional crisis in Venezuela over
 
 CANTV implemented a blocking *HTTP/HTTPS* that requires the use of a VPN in order to evade censorship. Inter, Movistar, Digitel, Supercable and NetUno implemented a *DNS* block, which could be circumvented by simply changing the DNS of our devices.
 
+![](/res/post_img/2021-05-26-telesur-sc.png)
+
 ## Recommendations
 
 We recommend the use of reliable Internet blocking circumvention tools for users in Venezuela, such as a secure and trusted VPN, already installed and configured on all your devices.
@@ -38,6 +40,7 @@ Psiphon
 -   [iOS: Apple App Store](https://apps.apple.com/us/app/psiphon/id1276263909?ls=1)
 -   Proxy: [https://58685.info](https://58685.info/)
 -   E-mail: get@psiphon3.com
+
 Tunnelbear
 -   [Android: Play Store](https://play.google.com/store/apps/details?id=com.tunnelbear.android)
 -   [iOS: Apple App Store](https://geo.itunes.apple.com/app/tunnelbear-vpn-unblock-websites/id564842283?mt=8&at=1010l9nk)
