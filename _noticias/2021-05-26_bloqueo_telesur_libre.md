@@ -8,7 +8,7 @@ date:  2021-05-26 10:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-05-26-es.png
 redirect_from:
-  - /noticias/2021-05-26_bloqueo_telesur_libre-en/
+  - /noticias/2021-05-26_bloqueo_telesur_libre/
 ---
 <img src="/res/post_img/2021-05-26-es.png" style="width: 150%;"/>
 
