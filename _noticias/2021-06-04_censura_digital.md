@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Arrecia la censura contra la prensa digital en Venezuela"
-small:   "Censura contra la prensa digital en Venezuela"
+title:  "Arrecia la censura digital contra la prensa en Venezuela"
+small:   "Arrecia la censura contra la prensa"
 excerpt: "Nuevos bloqueos contra la prensa digital en Venezuela afectando a La Patilla y Caraota Digital, Alberto News que ya estaban bloqueados"
 permalink: /noticias/2021-06-04_censura_digital/
 date:  2021-06-04 19:00:00 -0400
@@ -9,6 +9,8 @@ categories: bloqueos
 image: /res/post_img/2021-06-04-es.png
 redirect_from:
   - /noticias/2021-06-04_censura_digital/
+typora-copy-images-to: ../res/post_img
+typora-root-url: ../../VESinFiltro
 ---
 En días recientes VE sin Filtro ha podido documentar un aumento importante en bloqueos de internet contra medios de comunicación, en otro ataque contra la libertad de información y el ejercicio de los derechos humanos en el entorno digital. Los nuevos bloqueos contra afectan a La Patilla y Caraota Digital, Alberto News que ya estaban bloqueados
 
