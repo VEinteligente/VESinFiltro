@@ -37,7 +37,7 @@ El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su p
     <tbody>
       <tr>
         <td>https://hugocarvajal.com/</td>
-        <td class="block">Bloqueo HTTP por filtrado SNI</td>
+        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
         <td class="accesible">Accesible</td>
