@@ -52,6 +52,7 @@ El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su p
         <td></td>
         <td></td>
         <td></td>
+        <td></td>
         <td class="social">
           @VEsinFiltro<br>
           vesinfiltro.com
