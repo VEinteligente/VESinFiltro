@@ -10,6 +10,8 @@ image: /res/post_img/2021-10-19-es.png
 ---
 
 ![](/res/post_img/2021-10-19-es.png)
+
+
 **[Noticia en desarrollo]**
 
 El 19 de octubre del 2021 pudimos comprobar un bloqueo a la página web https://hugocarvajal.com/, un portal perteneciente a Hugo «El Pollo» Carvajal, exdirector de los servicios de inteligencia de Venezuela quien se encuentra actualmente detenido por las autoridades españolas con posibilidad de extradición a EEUU.
