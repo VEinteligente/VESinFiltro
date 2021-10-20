@@ -23,30 +23,38 @@ El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su p
 Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal proveedor de internet en Venezuela y empresa estatal, CANTV. Por su parte, en Movistar y Digital aplicaron un bloqueo DNS.
 
 
-
 <div class="table-responsive">
   <table class="blocklist">
     <thead>
       <tr>
-        <th>URL</th>
+        <th>https//hugocarvajal.com</th>
         <th>CANTV</th>
+        <th>Movistar</th>
+        <th>Digitel</th>
         <th>Inter</th>
         <th>Supercable</th>
         <th>NetUno</th>
-        <th>Movistar</th>
-        <th>Digitel</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>https://hugocarvajal.com/</td>
-        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
-        <td class="accesible">Accesible</td>
-        <td class="accesible">Accesible</td>
-        <td class="accesible">Accesible</td>
         <td class="block">Bloqueo DNS</td>
-        <td class="block">Bloqueo DNS</td>
+        <td class="block">X</td>
+        <td class="block">X</td>
+        <td class="block">X</td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
       </tr>
+      <tr>
+        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
+        <td class="block">X</td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        </tr>
     </tbody>
   <tfoot>
       <tr>
@@ -66,7 +74,6 @@ Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal provee
     </tfoot>
   </table>
 </div>
-
 
 ## Recomendaciones
 
