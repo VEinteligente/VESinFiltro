@@ -16,9 +16,13 @@ image: /res/post_img/2021-10-19-b-es.png
 
 El 19 de octubre del 2021 pudimos comprobar un bloqueo a la página web https://hugocarvajal.com/, un portal perteneciente a Hugo «El Pollo» Carvajal, exdirector de los servicios de inteligencia de Venezuela quien se encuentra actualmente detenido por las autoridades españolas con posibilidad de extradición a EEUU.
 
+El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su portal web a través de su [cuenta de Twitter](https://twitter.com/hugocarvajal4f/status/1449497111897182213?s=20).
+
+[Tal Cual destaca](http://talcualdigital.com/el-pollo-carvajal-abre-su-pagina-en-internet-para-contar-sus-verdades/) que “tiene previsto publicar su versión de los hechos de lo que ocurre detrás de las puertas de la Audiencia Nacional, donde actualmente comparece” mientras evita  ser extraditado a EEUU.
+
 Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal proveedor de internet en Venezuela y empresa estatal, CANTV. Por su parte, en Movistar y Digital aplicaron un bloqueo DNS.
 
-El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su portal web a través de su [cuenta de Twitter](https://twitter.com/hugocarvajal4f/status/1449497111897182213?s=20).
+
 
 <div class="table-responsive">
   <table class="blocklist">
