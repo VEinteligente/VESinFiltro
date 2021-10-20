@@ -24,33 +24,25 @@ El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su p
   <table class="blocklist">
     <thead>
       <tr>
-        <th>https//hugocarvajal.com</th>
+        <th>URL</th>
         <th>CANTV</th>
-        <th>Movistar</th>
-        <th>Digitel</th>
-        <th>   Inter   </th>
+        <th>Inter</th>
         <th>Supercable</th>
         <th>NetUno</th>
+        <th>Movistar</th>
+        <th>Digitel</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="block">Bloqueo DNS</td>
-        <td style="vertical-align: middle;" class="block">X</td>
-        <td style="vertical-align: middle;" class="block">X</td>
-        <td style="vertical-align: middle;" class="block">X</td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
-      </tr>
-      <tr>
+        <td>https://hugocarvajal.com/</td>
         <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
-        <td style="vertical-align: middle;" class="block">X</td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="accesible">Accesible</td>
+        <td class="block">Bloqueo DNS</td>
+        <td class="block">Bloqueo DNS</td>
+      </tr>
     </tbody>
   <tfoot>
       <tr>
