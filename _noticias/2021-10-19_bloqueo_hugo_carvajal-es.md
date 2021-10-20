@@ -20,30 +20,37 @@ Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal provee
 
 El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su portal web a través de su [cuenta de Twitter](https://twitter.com/hugocarvajal4f/status/1449497111897182213?s=20).
 
-
 <div class="table-responsive">
   <table class="blocklist">
     <thead>
       <tr>
-        <th>URL</th>
+        <th>https//hugocarvajal.com</th>
         <th>CANTV</th>
-        <th>Inter</th>
-        <th>Supercable</th>
-        <th>NetUno</th>
         <th>Movistar</th>
         <th>Digitel</th>
+        <th>   Inter   </th>
+        <th>Supercable</th>
+        <th>NetUno</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>https://hugocarvajal.com/</td>
-        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
-        <td class="accesible">Accesible</td>
-        <td class="accesible">Accesible</td>
-        <td class="accesible">Accesible</td>
         <td class="block">Bloqueo DNS</td>
-        <td class="block">Bloqueo DNS</td>
+        <td style="vertical-align: middle;" class="block">X</td>
+        <td style="vertical-align: middle;" class="block">X</td>
+        <td style="vertical-align: middle;" class="block">X</td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
       </tr>
+      <tr>
+        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
+        <td style="vertical-align: middle;" class="block">X</td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
+        <td class="accesible"></td>
     </tbody>
   <tfoot>
       <tr>
@@ -63,6 +70,7 @@ El pasado 16 de octubre Hugo Carvajal había anunciado un re-lanzamiento de su p
     </tfoot>
   </table>
 </div>
+
 
 ## Recomendaciones
 
