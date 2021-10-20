@@ -6,10 +6,10 @@ excerpt: "Bloquean página web de Hugo 'El Pollo' Carvajal en varios proveedores
 permalink: /noticias/2021-10-19_bloqueo_hugo_carvajal/
 date:  2021-10-19 20:00:00 -0400
 categories: bloqueos
-image: /res/post_img/2021-10-19-es.png
+image: /res/post_img/2021-10-19-b-es.png
 ---
 
-![](/res/post_img/2021-10-19-es.png)
+![](/res/post_img/2021-10-19-b-es.png)
 
 
 **[Noticia en desarrollo]**
