@@ -12,7 +12,7 @@ image: /res/post_img/2021-10-19-b-es.png
 ![](/res/post_img/2021-10-19-b-es.png)
 
 
-**[Noticia en desarrollo]**
+**[Actualizado el 2021-11-14]**
 
 El 19 de octubre del 2021 pudimos comprobar un bloqueo a la página web https://hugocarvajal.com/, un portal perteneciente a Hugo «El Pollo» Carvajal, exdirector de los servicios de inteligencia de Venezuela quien se encuentra actualmente detenido por las autoridades españolas con posibilidad de extradición a EEUU.
 
@@ -32,22 +32,22 @@ Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal provee
         <th>Movistar</th>
         <th>Digitel</th>
         <th>Inter</th>
-        <th>Supercable</th>
         <th>NetUno</th>
+        <th>Supercable</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td class="block">Bloqueo DNS</td>
+        <td>Bloqueo DNS</td>
         <td class="block">X</td>
         <td class="block">X</td>
         <td class="block">X</td>
-        <td class="accesible"></td>
-        <td class="accesible"></td>
+        <td class="block"></td>
+        <td class="block"></td>
         <td class="accesible"></td>
       </tr>
       <tr>
-        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
+        <td>Bloqueo HTTP/HTTPS por filtrado SNI</td>
         <td class="block">X</td>
         <td class="accesible"></td>
         <td class="accesible"></td>
