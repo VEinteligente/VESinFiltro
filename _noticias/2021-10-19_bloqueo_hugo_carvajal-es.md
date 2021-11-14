@@ -42,8 +42,8 @@ Un bloqueo por HTTP/HTTPS por filtrado SNI se implementó en el principal provee
         <td class="block">X</td>
         <td class="block">X</td>
         <td class="block">X</td>
-        <td class="block"></td>
-        <td class="block"></td>
+        <td class="block">X</td>
+        <td class="block">X</td>
         <td class="accesible"></td>
       </tr>
       <tr>
