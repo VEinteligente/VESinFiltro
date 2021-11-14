@@ -34,7 +34,7 @@ La empresa estatal y principal proveedor en Venezuela, CANTV, aplicó un bloqueo
     </thead>
     <tbody>
       <tr>
-        <td class="block">Bloqueo DNS</td>
+        <td>Bloqueo DNS</td>
         <td class="block">X</td>
         <td class="block">X</td>
         <td class="block">X</td>
@@ -42,7 +42,7 @@ La empresa estatal y principal proveedor en Venezuela, CANTV, aplicó un bloqueo
         <td class="block">X</td>
       </tr>
       <tr>
-        <td class="block">Bloqueo HTTP/HTTPS por filtrado SNI</td>
+        <td>Bloqueo HTTP/HTTPS por filtrado SNI</td>
         <td class="block">X</td>
         <td class="accesible"></td>
         <td class="accesible"></td>
