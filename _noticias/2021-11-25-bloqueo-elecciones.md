@@ -1098,9 +1098,10 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
 
 ## Bloqueo a herramientas de evasión de censura
 
-  <div class="table-responsive">
-  <table class="blocklist">
-  <thead>
+<div class="table-responsive">
+<table class="blocklist">
+<thead>
+<table>
   <tr>
    <td><strong>Página web</strong>
    </td>
@@ -1119,6 +1120,8 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
    <td><strong>Supercable</strong>
    </td>
   </tr>
+</thead>
+<tbody>
   <tr>
    <td><strong>Tunnel Bear</strong>
    </td>
@@ -1155,7 +1158,26 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
    <td class="partial">DNS
    </td>
   </tr>
+</tbody>
+<tfoot>
+<tr>
+<td>
+<img src="/res/VeSinFiltro-long.svg" />
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="social">
+@VEsinFiltro<br>
+vesinfiltro.com
+</td>
+</tr>
+</tfoot>
 </table>
+</div>
 
 
 Los VPN son herramientas anticensura que permiten a usuarios de internet evadir bloqueos y acceder a contenido bloqueado al que no podrían ingresar. Sin embargo, en Venezuela los principales ISP han bloqueado varios servicios de VPN en diversas ocasiones, siendo actualmente Psiphon y TunnelBear los que se encuentran afectados. Estos dos VPN son los que Ve Sin Filtro constantemente recomienda usar para evadir la censura.
