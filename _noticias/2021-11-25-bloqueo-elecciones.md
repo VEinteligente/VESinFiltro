@@ -45,37 +45,25 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 <table class="blocklist">
 <thead>
 <tr>
-<td rowspan="2">
-<strong>Dominio</strong>
-</td>
-<td rowspan="2"><strong>Categoría</strong>
-</td>
-<td colspan="6"><strong>Mecanismos de bloqueo por ISP</strong>
-</td>
+<th rowspan="2"><strong>Dominio</strong></th>
+<th rowspan="2"><strong>Categoría</strong></th>
+<th colspan="6"><strong>Mecanismos de bloqueo por ISP</strong></th>
 </tr>
 <tr>
-<td><strong>CANTV</strong>
-</td>
-<td><strong>Movistar</strong>
-</td>
-<td><strong>Digitel</strong>
-</td>
-<td><strong>Inter</strong>
-</td>
-<td><strong>Netuno</strong>
-</td>
-<td><strong>Supercable</strong>
-</td>
+<th><strong>CANTV</strong></th>
+<th><strong>Movistar</strong></th>
+<th><strong>Digitel</strong></th>
+<th><strong>Inter</strong></th>
+<th><strong>Netuno</strong></th>
+<th><strong>Supercable</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>hugocarvajal.com *</strong>
-</td>
+<td><strong>hugocarvajal.com *</strong></td>
 <td>Política
 </td>
-<td class="https-dns">DNS + HTTP/HTTPS
-</td>
+<td class="https-dns">DNS + HTTP/HTTPS</td>
 <td class="partial">DNS
 </td>
 <td class="partial">DNS
