@@ -175,8 +175,8 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td>Noticias</td>
 <td class="partial">DNS</td>
-<td class="accessible">No</td>
-<td class="accessible">No</td>
+<td class="acessible">No</td>
+<td class="accesible">No</td>
 <td class="accessible">No</td>
 <td class="partial">DNS</td>
 <td class="accessible">No</td>
