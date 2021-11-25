@@ -1101,7 +1101,6 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
 <div class="table-responsive">
 <table class="blocklist">
 <thead>
-<table>
   <tr>
    <td><strong>Página web</strong>
    </td>
