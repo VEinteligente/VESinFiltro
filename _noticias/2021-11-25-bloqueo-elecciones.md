@@ -2,7 +2,7 @@
 layout: post
 title:  "Elecciones y censura: sin acceso a los medios independientes en #internetVE"
 small:   "Elecciones y censura: sin acceso a los medios independientes en #internetVE"
-excerpt: "Bloqueadas más de 40 páginas de nocticias durante la campaña electoral"
+excerpt: "Bloqueadas más de 40 dominios de páginas de nocticias durante la campaña electoral"
 permalink: /noticias/2021-11-25-bloqueo-elecciones/
 date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
