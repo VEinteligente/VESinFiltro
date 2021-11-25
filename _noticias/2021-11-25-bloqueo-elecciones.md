@@ -1098,7 +1098,9 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
 
 ## Bloqueo a herramientas de evasión de censura
 
-<table>
+<div class="table-responsive">
+<table class="blocklist">
+<thead>
   <tr>
    <td><strong>Página web</strong>
    </td>
