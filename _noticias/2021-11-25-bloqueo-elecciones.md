@@ -1099,27 +1099,19 @@ Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados
 ## Bloqueo a herramientas de evasión de censura
 
 <div class="table-responsive">
-<table class="blocklist">
-<thead>
-  <tr>
-   <td><strong>Página web</strong>
-   </td>
-   <td><strong>URL</strong>
-   </td>
-   <td><strong>CANTV</strong>
-   </td>
-   <td><strong>Movistar</strong>
-   </td>
-   <td><strong>Digitel</strong>
-   </td>
-   <td><strong>Inter</strong>
-   </td>
-   <td><strong>NetUno</strong>
-   </td>
-   <td><strong>Supercable</strong>
-   </td>
-  </tr>
-</thead>
+  <table class="blocklist">
+    <thead>
+     <tr>
+       <th><strong>Página web</strong></th>
+       <th><strong>URL</strong></th>
+       <th><strong>CANTV</strong></th>
+       <th><strong>Movistar</strong></th>
+       <th><strong>Digitel</strong></th>
+       <th><strong>Inter</strong></th>
+       <th><strong>NetUno</strong></th>
+       <th><strong>Supercable</strong></th>
+    </tr>
+  </thead>
 <tbody>
   <tr>
    <td><strong>Tunnel Bear</strong>
@@ -1214,7 +1206,6 @@ Esta investigación se basa en el análisis técnico de mediciones de red y prue
 La determinación de un bloqueo por VE sin Filtro requiere que las anomalías identificadas cumplan los siguientes criterios:
 
 
-
 1. La limitación en el acceso es identificable.
 2. Es medible y/o documentable.
 3. Es consiste en el tiempo y entre mediciones hechas desde distintos puntos de conexión.
@@ -1270,5 +1261,7 @@ Del inglés, Virtual Private Network (Red Privada Virtual) herramienta que permi
 ### Tor
 
 Tor (sigla de The Onion Router -en español- El Enrutador Cebolla) es un sistema que permite navegar aumentando la privacidad del usuario y ansiosamente evadiendo bloqueos en internet. Tor enruta la comunicación con páginas entre múltiples nodos para ofuscar su origen, utiliza cifrado por capas de forma que los nodos participantes no conozcan el contenido o identidad.
+
+***
 
 **VE sin Filtro es un programa de la organización Venezuela Inteligente que desde 2014 analiza y documenta con criterios técnicos la censura en internet y otras amenazas contra el ejercicio de los derechos humanos en internet.**
