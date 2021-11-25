@@ -11,7 +11,7 @@ image: /res/post_img/2021-11-25/img1-2021-11-25.png
 ![](/res/post_img/2021-11-25/img1-2021-11-25.png)
 
 ## Reporte elecciones regionales 2021
-_Más de 40 dominos de páginas de noticias estuvieron
+_Más de 40 dominios de páginas de noticias estuvieron
 bloqueadas durante la campaña electoral_
 
 El pasado 21 de noviembre se llevaron a cabo elecciones de alcaldes y gobernadores en Venezuela, luego de una campaña electoral con la mayoría de los medios independientes censurados, el evento se caracterizó por los altos porcentajes de abstención y desinformación.  Según boletines del Consejo Nacional Electoral se alcanzó una participación de 42,26%, evidenciando así que la mayoría de los votantes se abstuvieron de participar en este proceso electoral. 
