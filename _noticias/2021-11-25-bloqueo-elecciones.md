@@ -167,7 +167,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS</td>
 <td class="partial">DNS</td>
-<td class="accessible">No</td>
+<td class="accesible">No</td>
 <td class="partial">DNS</td>
 </tr>
 <tr>
@@ -175,11 +175,11 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td>Noticias</td>
 <td class="partial">DNS</td>
-<td class="acessible">No</td>
 <td class="accesible">No</td>
-<td class="accessible">No</td>
+<td class="accesible">No</td>
+<td class="accesible">No</td>
 <td class="partial">DNS</td>
-<td class="accessible">No</td>
+<td class="accesible">No</td>
 </tr>
 <tr>
 <td><a href="http://monitoreamos.com/">monitoreamos.com</a>
@@ -260,15 +260,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -318,7 +318,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -350,15 +350,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -404,15 +404,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -422,15 +422,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -458,15 +458,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -480,7 +480,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -494,15 +494,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -514,7 +514,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -548,7 +548,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -620,15 +620,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -638,15 +638,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -664,7 +664,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -672,7 +672,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td>Noticias
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -682,7 +682,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -746,15 +746,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP/HTTPS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -782,7 +782,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -804,7 +804,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -818,15 +818,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTPS/HTTP
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -872,15 +872,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTP
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
@@ -930,7 +930,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -942,7 +942,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td>Noticias
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -978,7 +978,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td>Política
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 <td class="partial">DNS
 </td>
@@ -1034,15 +1034,15 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="block">HTTPS/HTTP
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 </tbody>
