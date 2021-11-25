@@ -484,7 +484,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 <td class="partial">DNS
 </td>
-<td class="accessible">No
+<td class="accesible">No
 </td>
 </tr>
 <tr>
