@@ -250,6 +250,7 @@ table.blocklist .block {
 
 table.blocklist .partial {
 	background-color: #FCD56A;
+}
 
 table.blocklist .http-dns {
 	background-color: #E6703E;
