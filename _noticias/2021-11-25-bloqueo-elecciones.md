@@ -30,7 +30,7 @@ El ecosistema informativo en Venezuela se encuentra fuertemente restringido, esp
 
 El acceso a internet no es uniforme en Venezuela, con muy limitado y difícil acceso en muchas regiones y velocidades de conexión insuficientes para muchos usos importantes de internet como observar _streaming _de noticias en vivo o compartir contenidos audiovisuales. Sumando a los bloqueos en internet, que son aplicados por los principales proveedores, no sólo la estatal CANTV. Adicionalmente, la desinversión, falta de mantenimientos y crisis económica han devenido en servicios de internet inestable, con frecuentes fallas que dejan a usuarios sin servicio residencial por meses o años; sumado a las frecuentes fallas del servicio eléctrico, necesario para una conexión a internet.
 
-La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total de 49 sitios web** de categorías relevantes para estar informados y participar en el debate político de cara a las elecciones: 
+La siguiente tabla presenta **56 dominios bloqueados, pertenecientes a un total de 49 sitios web** de categorías relevantes para estar informados y participar en el debate político de cara a las elecciones: 
 
 
 
