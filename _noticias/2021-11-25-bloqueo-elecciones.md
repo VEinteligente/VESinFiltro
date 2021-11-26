@@ -208,7 +208,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>caraotadigital.xyz
+<td><a href="http://www.caraotadigital.xyz/">caraotadigital.xyz</a>
 </td>
 <td>Noticias
 </td>
@@ -226,7 +226,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>caraotadigital.news
+<td><a href="http://www.caraotadigital.news/">caraotadigital.news</a>
 </td>
 <td>Noticias
 </td>
@@ -784,7 +784,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td><a href="http://soundcloud.com/">soundcloud.com</a>
+<td><a href="https://soundcloud.com/">soundcloud.com</a>
 </td>
 <td>Multimedia***
 </td>
@@ -802,7 +802,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>www.ventevenezuela.org
+<td><a href="https://www.ventevenezuela.org/">www.ventevenezuela.org</a>
 </td>
 <td>Política
 </td>
@@ -892,7 +892,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>www.change.org
+<td><a href="http://www.change.org/">www.change.org</a>
 </td>
 <td>DDHH
 </td>
@@ -910,7 +910,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>alekboyd.blogspot.co.uk **
+<td><a href="https://alekboyd.blogspot.co.uk/">alekboyd.blogspot.co.uk **</a>
 </td>
 <td>Noticias
 </td>
@@ -928,7 +928,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>alekboyd.blogspot.com **
+<td><a href="https://alekboyd.blogspot.com/">alekboyd.blogspot.com **</a>
 </td>
 <td>Noticias
 </td>
@@ -946,7 +946,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>www.vcrisis.com **
+<td><a href="https://vcrisis.com/">www.vcrisis.com **</a>
 </td>
 <td>Noticias
 </td>
@@ -964,7 +964,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td><a href="http://venezuelaaidlive.com/">venezuelaaidlive.com</a> **
+<td><a href="https://venezuelaaidlive.com/">venezuelaaidlive.com</a> **
 </td>
 <td>Política
 </td>
@@ -982,7 +982,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 </td>
 </tr>
 <tr>
-<td>vdebate.blogspot.com **
+<td><a href="https://vdebate.blogspot.com/">vdebate.blogspot.com **</a>
 </td>
 <td>Política
 </td>
