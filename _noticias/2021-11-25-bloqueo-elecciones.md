@@ -24,7 +24,7 @@ Desde el inicio del análisis de la censura en internet en 2014 de VE sin Filtro
 
 Durante la elección y la toda campaña electoral, los bloqueos en internet estaban dirigidos su inmensa mayoría en contra de medios de comunicación y otros sitios web cuyo contenido es principalmente noticias. Los bloqueos afectan también a plataformas usadas para difundir contenidos multimedia, portales con contenido político abiertamente críticos al gobierno, plataformas que hayan estado afiliados a programas promovidos por la oposición, entre otras categorías.
 
-Notablemente también se usan bloqueos para limitar el acceso a herramientas de evasión de censura como algunos servicios de  VPN (red privada virtual) y disrupciones al funcionamiento de la red Tor, usados para evadir la censura y aumentar la privacidad de conexiones. Esto ha dificultado aún más el acceso a la información por parte de usuarios de internet que desean evadir los bloqueos para acceder a fuentes de información. 
+Notablemente también se usan bloqueos para limitar el acceso a herramientas   de evasión de censura como algunos servicios de  VPN (red privada virtual) y disrupciones al funcionamiento de la red Tor, usados para evadir la censura y aumentar la privacidad de conexiones. Esto ha dificultado aún más el acceso a la información por parte de usuarios de internet que desean evadir los bloqueos para acceder a fuentes de información. 
 
 El ecosistema informativo en Venezuela se encuentra fuertemente restringido, especialmente en medios tradicionales, dejando a internet como el espacio más libre para la publicación de noticias, especialmente de temas políticamente sensibles, y para participar en el debate público, a pesar de limitaciones y riesgos. Venezolanos han sufrido desde intimidaciones hasta detenciones y procesos judiciales por el ejercicio legítimo de la libertad de expresión en internet. 
 
@@ -40,6 +40,7 @@ La siguiente tabla presenta** 56 dominios bloqueados, pertenecientes a un total 
 * **2 herramientas de difusión multimedia** usadas por medios en Venezuela.
 * **2 herramientas anticensura** utilizadas por los usuarios para evadir bloqueos.
 * Los mecanismos de bloqueo implementados por los principales ISP.
+
 <div class="table-responsive">
 <table class="blocklist">
 <thead>
