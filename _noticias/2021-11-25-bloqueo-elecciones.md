@@ -1070,7 +1070,7 @@ Las páginas presentadas en este reporte experimentan por lo menos uno de los si
 
 ![](/res/post_img/2021-11-25/img2-2021-11-25.png)
 
-Se puede observar cómo la gran mayoría de los dominios listados están bloqueados en al menos cinco de los seis ISP (57.14%) y más de la mitad son bloqueados por todos. El otro escenario significativo es el bloqueo por un solo ISP (19.64%), la estatal CANTV siempre censurando en estos casos.
+Se puede observar cómo la gran mayoría de los dominios listados están bloqueados en al menos cinco de los seis ISP (75%) y más de la mitad son bloqueados por todos. El otro escenario significativo es el bloqueo por un solo ISP (19.64%), la estatal CANTV siempre censurando en estos casos.
 
 La lista de dominios bloqueados en Venezuela cambia con frecuencia, por lo que desde Ve Sin Filtro medimos todos los eventos relacionados a la censura en internet. Por ejemplo, el 2021-09-06 fueron levantados los bloqueos a los dominios web de la organización Insight Crime, [https://www.insightcrime.org/](https://www.insightcrime.org/) y [https://es.insightcrime.org/](https://es.insightcrime.org/), los cuales habían estado activos desde febrero de este año.
 
@@ -1223,7 +1223,8 @@ Más formalmente nombre de dominio, texto breve siguiendo un formato establecido
 
 ### Evento de Bloqueo
 
-Instancia de bloqueo consistente en el tiempo, en un mismo proveedor de internet, usando una técnica específica contra un objetivo individual
+Instancia de bloqueo consistente en el tiempo, en un mismo proveedor de internet, usando una técnica específica contra un objetivo individual. 
+Ejemplo: Si un dominio es bloqueado por DNS y TCP en un ISP y por otro por DNS, son tres eventos.
 
 
 ### Proveedor de servicios de Internet
@@ -1248,7 +1249,7 @@ Del inglés, Virtual Private Network (Red Privada Virtual) herramienta que permi
 
 ### Tor
 
-Tor (sigla de The Onion Router -en español- El Enrutador Cebolla) es un sistema que permite navegar aumentando la privacidad del usuario y ansiosamente evadiendo bloqueos en internet. Tor enruta la comunicación con páginas entre múltiples nodos para ofuscar su origen, utiliza cifrado por capas de forma que los nodos participantes no conozcan el contenido o identidad.
+Tor (The Onion Router -en español- El Enrutador Cebolla) es un sistema que permite navegar aumentando la privacidad del usuario y ansiosamente evadiendo bloqueos en internet. Tor enruta la comunicación con páginas entre múltiples nodos para ofuscar su origen, utiliza cifrado por capas de forma que los nodos participantes no conozcan el contenido o identidad.
 
 ***
 
