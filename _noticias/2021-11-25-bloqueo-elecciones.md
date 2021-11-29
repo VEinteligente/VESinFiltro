@@ -1,16 +1,16 @@
 ---
 layout: post
-title:  "Elecciones y censura: sin acceso a los medios independientes en #internetVE"
-small:   "Elecciones y censura: sin acceso a los medios independientes en #internetVE"
+title:  "Elecciones bajo censura: sin acceso a los medios independientes en #internetVE"
+small:   "Elecciones bajo censura: sin acceso a los medios independientes"
 excerpt: "Bloqueadas más de 40 dominios de páginas de nocticias durante la campaña electoral"
 permalink: /noticias/2021-bloqueos-elecciones/
 redirect_from:
   - /noticias/2021-11-25-bloqueo-elecciones/
 date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
-image: /res/post_img/2021-11-25/img1-2021-11-25.png
+image: /res/post_img/2021-11-25/2021-11-25.png
 ---
-![](/res/post_img/2021-11-25/img1-2021-11-25.png)
+![](/res/post_img/2021-11-25/2021-11-25.png)
 
 ## Reporte elecciones regionales 2021
 _Más de 40 dominios de páginas de noticias estuvieron
