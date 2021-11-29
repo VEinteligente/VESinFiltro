@@ -1223,7 +1223,7 @@ Más formalmente nombre de dominio, texto breve siguiendo un formato establecido
 
 ### Evento de Bloqueo
 
-Instancia de bloqueo consistente en el tiempo, en un mismo proveedor de internet, usando una técnica específica contra un objetivo individual. 
+Instancia de bloqueo consistente en el tiempo, en un mismo proveedor de internet, usando una técnica específica contra un objetivo individual. \
 Ejemplo: Si un dominio es bloqueado por DNS y TCP en un ISP y por otro por DNS, son tres eventos.
 
 
