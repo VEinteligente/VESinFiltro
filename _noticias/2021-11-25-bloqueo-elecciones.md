@@ -1174,7 +1174,7 @@ En detalle, la estatal de telecomunicaciones está bloqueando un porcentaje alto
 
 El tipo de bloqueo más común en Venezuela es el bloqueo DNS, del cual se identificaron 249 eventos de bloqueo, el cual es utilizado en su mayoría por los proveedores privados como Movistar, Digitel, Inter, NetUno y Supercable. Este tipo de bloqueo es el más sencillo de implementar y el más fácil de evadir para los usuarios, sólo es necesario cambiar el servidor DNS del dispositivo para así acceder al contenido bloqueado. 
 
-Por su parte, en los años recientes el proveedor estatal CANTV ha comenzado a implementar un bloqueo HTTP/HTTPS por filtrado SNI y/o Filtrado por _HTTP host_, hubo un total de 36 eventos de este tipo, el cual es mucho más sofisticado, en este total también se toman en cuenta los casos donde solo fue aplicado el bloqueo HTTP solo, o HTTPS. Los usuarios de CANTV deben usar un VPN para poder evadir la censura, lo cual puede llegar a ser complejo para muchas personas. Además, los bloqueos a herramientas de circunvención populares como TunnelBear y Psiphon agravan la situación.
+Por su parte, en años recientes el proveedor estatal CANTV ha implementado un bloqueo HTTP/HTTPS por filtrado SNI y/o Filtrado por _HTTP host_, el cual es mucho más sofisticado. Se reportaron un total de 36 eventos de este tipo, tomando también en cuenta los casos donde fue aplicado el bloqueo en solo un protocolo (HTTP o HTTPS). Los usuarios de CANTV deben usar un VPN para poder evadir la censura, lo cual puede llegar a ser complejo para muchas personas. Además, los bloqueos a herramientas de circunvención populares como TunnelBear y Psiphon agravan la situación.
 
 ![](/res/post_img/2021-11-25/img4-2021-11-25.png)
 
