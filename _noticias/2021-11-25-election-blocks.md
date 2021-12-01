@@ -8,9 +8,9 @@ redirect_from:
   - /noticias/2021-11-25-election-blocks/
 date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
-image: /res/post_img/2021-11-25/2021-11-25_en-card.png
+image: /res/post_img/2021-11-25/2021-11-25-en-card.png
 ---
-![](/res/post_img/2021-11-25/2021-11-25_en.png)
+![](/res/post_img/2021-11-25/2021-11-25-en.png)
 
 ## 2021 Regional elections report
 _More than 40 news page domains were
