@@ -10,7 +10,7 @@ date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-11-25/2021-11-25-en-card.png
 ---
-![](/res/post_img/2021-11-25/2021-11-25-en.png)
+<p class="cover"><img class="" src="/res/post_img/2021-11-25/2021-11-25-en.png"></p>
 
 ## 2021 Regional elections report
 _More than 40 news page domains were
@@ -18,7 +18,7 @@ blocked during the election campaign_
 
 On November 21, elections for mayors and governors were held in Venezuela, and after an electoral campaign with the majority of the independent media censored, the event was characterized by high percentages of abstention and misinformation. According to the bulletins of the National Electoral Council, a participation of 42.26% was reached, thus evidencing that the majority of voters abstained from participating in this electoral process.
 
-For more than a decade, electoral events in the country have been defined by uncertainty, a media ecosystem with unbalanced coverage, and the difficult access to information by voters, a situation that has worsened over time due to the increase of internet censorship in recent years. 
+For more than a decade, electoral events in the country have been defined by uncertainty, a media ecosystem with unbalanced coverage, and the difficult access to information by voters, a situation that has worsened over time due to the increase of internet censorship in recent years.
 
 Since the beginning of the analysis of internet censorship in 2014 by VE sin Filtro, the number of websites blocked by different internet providers (ISPs) has increased as well as the sophistication with which they are implemented, especially in CANTV, the main ISP in Venezuela and a state company since its nationalization in 2007.
 
@@ -37,7 +37,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 * **3 sites related to human rights** and civil society organizations.
 * **2 multimedia dissemination tools** used by the media in Venezuela.
 * **2 anti-censorship tools** used by users to evade blockades.
-* The blocking mechanisms implemented by the main ISPs. 
+* The blocking mechanisms implemented by the main ISPs.
 
 <div class="table-responsive">
 <table class="blocklist">
@@ -1060,7 +1060,7 @@ vesinfiltro.com
 
 **The website is down, has not been updated or has been abandoned after blocking.
 
-***Categorized as Culture by Citizen Lab 
+***Categorized as Culture by Citizen Lab
 
 ***
 
@@ -1078,7 +1078,7 @@ It should be noted that robertopatino.com, blocked in 2020, is the personal site
 
 A consequence of the censorship applied on the internet is the abandonment or the closure and disappearance of websites due to the loss of visits due to prolonged blocks. In some cases the block remains active even though the website has ceased to exist and content is no longer published on the internet, these cases are not reflected in this report.
 
-During the electoral campaign 285 blocking events were identified, applied to the domains listed in this report. The highest number of events per registered domain was 7 in 16 different URLs, cases that show that there were ISPs that applied more than one type of blocking per domain, such as CANTV with [https://hugocarvajal.com](https://hugocarvajal.com/) that features both DNS and HTTPS/HTTP blocking. Another 20 domains experienced 6 crash events, mostly representing an ISP crash event 
+During the electoral campaign 285 blocking events were identified, applied to the domains listed in this report. The highest number of events per registered domain was 7 in 16 different URLs, cases that show that there were ISPs that applied more than one type of blocking per domain, such as CANTV with [https://hugocarvajal.com](https://hugocarvajal.com/) that features both DNS and HTTPS/HTTP blocking. Another 20 domains experienced 6 crash events, mostly representing an ISP crash event
 
 ![](/res/post_img/2021-11-25/img3-2021-11-25.png)
 

@@ -10,13 +10,13 @@ date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-11-25/2021-11-25.png
 ---
-![](/res/post_img/2021-11-25/2021-11-25.png)
+<p class="cover"><img class="" src="/res/post_img/2021-11-25/2021-11-25.png"></p>
 
 ## Reporte elecciones regionales 2021
 _Más de 40 dominios de páginas de noticias estuvieron
 bloqueadas durante la campaña electoral_
 
-El pasado 21 de noviembre se llevaron a cabo elecciones de alcaldes y gobernadores en Venezuela, luego de una campaña electoral con la mayoría de los medios independientes censurados, el evento se caracterizó por los altos porcentajes de abstención y desinformación.  Según boletines del Consejo Nacional Electoral se alcanzó una participación de 42,26%, evidenciando así que la mayoría de los votantes se abstuvieron de participar en este proceso electoral. 
+El pasado 21 de noviembre se llevaron a cabo elecciones de alcaldes y gobernadores en Venezuela, luego de una campaña electoral con la mayoría de los medios independientes censurados, el evento se caracterizó por los altos porcentajes de abstención y desinformación.  Según boletines del Consejo Nacional Electoral se alcanzó una participación de 42,26%, evidenciando así que la mayoría de los votantes se abstuvieron de participar en este proceso electoral.
 
 Desde hace más de una década los eventos electorales en el país se han caracterizado por la incertidumbre, un ecosistema de medios con cobertura desbalanceada y el difícil acceso a la información por parte de los votantes, situación que se ha agravado con el paso del tiempo debido al aumento de la censura en internet en los últimos años.
 
@@ -24,15 +24,15 @@ Desde el inicio del análisis de la censura en internet en 2014 de VE sin Filtro
 
 Durante la elección y la toda campaña electoral, los bloqueos en internet estaban dirigidos su inmensa mayoría en contra de medios de comunicación y otros sitios web cuyo contenido es principalmente noticias. Los bloqueos afectan también a plataformas usadas para difundir contenidos multimedia, portales con contenido político abiertamente críticos al gobierno, plataformas que hayan estado afiliados a programas promovidos por la oposición, entre otras categorías.
 
-Notablemente también se usan bloqueos para limitar el acceso a herramientas de evasión de censura como algunos servicios de  VPN (red privada virtual) y para disrupciones al funcionamiento de la red Tor, ambos usados para evadir la censura y aumentar la privacidad de conexiones. Esto ha dificultado aún más el acceso a la información por parte de usuarios de internet que desean evadir los bloqueos para acceder a fuentes de noticias. 
+Notablemente también se usan bloqueos para limitar el acceso a herramientas de evasión de censura como algunos servicios de  VPN (red privada virtual) y para disrupciones al funcionamiento de la red Tor, ambos usados para evadir la censura y aumentar la privacidad de conexiones. Esto ha dificultado aún más el acceso a la información por parte de usuarios de internet que desean evadir los bloqueos para acceder a fuentes de noticias.
 
-El ecosistema informativo en Venezuela se encuentra fuertemente restringido, especialmente en medios tradicionales, dejando a internet como el espacio más libre para la publicación de noticias, especialmente de temas políticamente sensibles, y para participar en el debate público, a pesar de limitaciones y riesgos. Venezolanos han sufrido desde intimidaciones hasta detenciones y procesos judiciales por el ejercicio legítimo de la libertad de expresión en internet. 
+El ecosistema informativo en Venezuela se encuentra fuertemente restringido, especialmente en medios tradicionales, dejando a internet como el espacio más libre para la publicación de noticias, especialmente de temas políticamente sensibles, y para participar en el debate público, a pesar de limitaciones y riesgos. Venezolanos han sufrido desde intimidaciones hasta detenciones y procesos judiciales por el ejercicio legítimo de la libertad de expresión en internet.
 
 El acceso a internet no es uniforme en Venezuela, con muy limitado y difícil acceso en muchas regiones y velocidades de conexión insuficientes para muchos usos importantes de internet como observar _streaming_ de noticias en vivo o compartir contenidos audiovisuales. Todo esto se une a los bloqueos en internet, que son aplicados por los principales proveedores, no sólo por la estatal CANTV. Adicionalmente, la nula inversión, falta de mantenimientos y crisis económica han devenido en servicios de internet inestable, con frecuentes fallas que dejan a usuarios sin servicio residencial por meses o años; sumado a las frecuentes fallas del servicio eléctrico, necesario para una conexión a internet.
 
-La siguiente tabla presenta **56 dominios bloqueados, pertenecientes a un total de 49 sitios web** de diversas categorías relevantes para estar informados y participar en el debate político de cara a las elecciones: 
+La siguiente tabla presenta **56 dominios bloqueados, pertenecientes a un total de 49 sitios web** de diversas categorías relevantes para estar informados y participar en el debate político de cara a las elecciones:
 
-* **35 sitios de Noticias** (41 dominios)  incluyendo una amplia gama de portales, muchas de las más importantes fuentes de información nacionales e internacionales están bloqueadas. 
+* **35 sitios de Noticias** (41 dominios)  incluyendo una amplia gama de portales, muchas de las más importantes fuentes de información nacionales e internacionales están bloqueadas.
 * **7 sitios cuyo contenido es de crítica política** (8 dominios).
 * **3 sitios relacionados con los Derechos Humanos** y organizaciones de la sociedad civil.
 * **2 herramientas de difusión multimedia** usadas por medios en Venezuela.
@@ -1056,7 +1056,7 @@ vesinfiltro.com
 
 **Lista de Dominios bloqueados de categorías seleccionadas, durante la elección del 21 de Noviembre de 2021 y la campaña electoral.**
 
-*El bloqueo comenzó poco antes del inicio oficial de la campaña, ya anunciada la fecha de las elecciones. 
+*El bloqueo comenzó poco antes del inicio oficial de la campaña, ya anunciada la fecha de las elecciones.
 
 **El sitio web está inactivo, no ha sido actualizado o ha sido abandonado luego del bloqueo.
 
@@ -1161,7 +1161,7 @@ Los VPN son herramientas anticensura que permiten a usuarios de internet evadir 
 
 En el caso de Psiphon el bloqueo sólo afecta a su página web principal, pero el funcionamiento de la aplicación se mantiene intacto. El bloqueo actual a TunnelBear sí afecta ciertos aspectos del funcionamiento de la app, haciendo imposible que un usuario cambie la clave de su cuenta de TunnelBear; a pesar de esto, sí es posible usar el VPN para evadir bloqueos.
 
-La censura a herramientas de circunvención es preocupante, ya que un VPN es necesario para evadir los bloqueos en la mayoría de los casos presentados en CANTV. A su vez, Ve sin Filtro ha registrado un bloqueo parcial a la red Tor, la cual ya había sido bloqueada anteriormente en el año 2018. 
+La censura a herramientas de circunvención es preocupante, ya que un VPN es necesario para evadir los bloqueos en la mayoría de los casos presentados en CANTV. A su vez, Ve sin Filtro ha registrado un bloqueo parcial a la red Tor, la cual ya había sido bloqueada anteriormente en el año 2018.
 
 Tor brinda a sus usuarios anonimidad, privacidad y una herramienta de evasión de censura, razones por las cuales es utilizado alrededor del mundo por muchos periodistas y activistas.  Desde antes del período electoral y durante el mismo, CANTV ha estado implementando un bloqueo a Tor que no es completamente efectivo.
 
@@ -1170,7 +1170,7 @@ En detalle, la estatal de telecomunicaciones está bloqueando un porcentaje alto
 
 ## Técnicas de bloqueo
 
-El tipo de bloqueo más común en Venezuela es el bloqueo DNS, del cual se identificaron 249 eventos de bloqueo, el cual es utilizado en su mayoría por los proveedores privados como Movistar, Digitel, Inter, NetUno y Supercable. Este tipo de bloqueo es el más sencillo de implementar y el más fácil de evadir para los usuarios, sólo es necesario cambiar el servidor DNS del dispositivo para así acceder al contenido bloqueado. 
+El tipo de bloqueo más común en Venezuela es el bloqueo DNS, del cual se identificaron 249 eventos de bloqueo, el cual es utilizado en su mayoría por los proveedores privados como Movistar, Digitel, Inter, NetUno y Supercable. Este tipo de bloqueo es el más sencillo de implementar y el más fácil de evadir para los usuarios, sólo es necesario cambiar el servidor DNS del dispositivo para así acceder al contenido bloqueado.
 
 Por su parte, en años recientes el proveedor estatal CANTV ha implementado un bloqueo HTTP/HTTPS por filtrado SNI y/o Filtrado por _HTTP host_, el cual es mucho más sofisticado. Se reportaron un total de 36 eventos de este tipo, tomando también en cuenta los casos donde fue aplicado el bloqueo en solo un protocolo (HTTP o HTTPS). Los usuarios de CANTV deben usar un VPN para poder evadir la censura, lo cual puede llegar a ser complejo para muchas personas. Además, los bloqueos a herramientas de circunvención populares como TunnelBear y Psiphon agravan la situación.
 
@@ -1187,7 +1187,7 @@ Se puede deducir que el objetivo de estos bloqueos es controlar la información 
 
 ## Métodos
 
-Esta investigación se basa en el análisis técnico de mediciones de red y pruebas de despistaje generadas desde múltiples puntos en la red de los distintos proveedores de internet. 
+Esta investigación se basa en el análisis técnico de mediciones de red y pruebas de despistaje generadas desde múltiples puntos en la red de los distintos proveedores de internet.
 
 La determinación de un bloqueo por VE sin Filtro requiere que las anomalías identificadas cumplan los siguientes criterios:
 
@@ -1197,7 +1197,7 @@ La determinación de un bloqueo por VE sin Filtro requiere que las anomalías id
 3. Es consistente en el tiempo y entre mediciones hechas desde distintos puntos de conexión.
 4. El mecanismo técnico del bloqueo es identificable y no hay otra explicación para el comportamiento observado.
 
-Las mediciones de red han sido generadas de forma sistemática y bajo demanda antes, durante y después de la campaña electoral y de la elección, utilizando pruebas estandarizadas desarrolladas por OONI (_Open Observatory of Network Interference_), herramientas propias y pruebas _ad-hoc_ para identificar en mayor detalle el mecanismo del bloqueo y despistar o confirmar casos. 
+Las mediciones de red han sido generadas de forma sistemática y bajo demanda antes, durante y después de la campaña electoral y de la elección, utilizando pruebas estandarizadas desarrolladas por OONI (_Open Observatory of Network Interference_), herramientas propias y pruebas _ad-hoc_ para identificar en mayor detalle el mecanismo del bloqueo y despistar o confirmar casos.
 
 
 ## Glosario
