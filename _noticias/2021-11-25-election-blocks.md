@@ -59,7 +59,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tbody>
 <tr>
 <td><strong>hugocarvajal.com *</strong></td>
-<td>Política
+<td>Politics
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS</td>
 <td class="partial">DNS
@@ -76,7 +76,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><strong>venezuelazonagris.com *</strong>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -94,7 +94,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://elpitazo.net/">elpitazo.net</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -112,7 +112,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://lapatilla.com/">lapatilla.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -130,7 +130,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://puntodecorte.com/">puntodecorte.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -148,7 +148,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://armando.info/">armando.info</a>
 </td>
-<td>Noticias </td>
+<td>News </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
 <td class="partial">DNS
@@ -161,7 +161,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://runrun.es/">runrun.es</a>
 </td>
-<td>Noticias</td>
+<td>News</td>
 <td class="partial">DNS</td>
 <td class="accesible">No</td>
 <td class="accesible">No</td>
@@ -172,7 +172,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://monitoreamos.com/">monitoreamos.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -190,7 +190,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.caraotadigital.net/">www.caraotadigital.net</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -208,7 +208,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.caraotadigital.xyz/">caraotadigital.xyz</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -226,7 +226,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.caraotadigital.news/">caraotadigital.news</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -244,7 +244,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://efectococuyo.com/">efectococuyo.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -262,7 +262,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://albertonews.com/">albertonews.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -280,7 +280,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://noticialdia.com/">noticialdia.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -298,7 +298,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://noticiaaldia.com/">noticiaaldia.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -316,7 +316,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.infobae.com/">www.infobae.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -334,7 +334,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://lamananadigital.com/">lamananadigital.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -352,7 +352,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.ntn24.com/">www.ntn24.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -370,7 +370,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://telesurlibre.com/">telesurlibre.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -388,7 +388,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.aporrea.org/">www.aporrea.org</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -406,7 +406,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://evtvmiami.com/">evtvmiami.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -424,7 +424,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://vpitv.com/">vpitv.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -442,7 +442,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://sumarium.es/">sumarium.es</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -460,7 +460,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://maduradas.com/">maduradas.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -478,7 +478,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.antena3internacional.com/">www.antena3internacional.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -496,7 +496,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://diariolaregion.net/">diariolaregion.net</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -514,7 +514,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.eltiempo.com/">www.eltiempo.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -532,7 +532,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://dolartoday.com/">dolartoday.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -550,7 +550,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://dolartoday.info/">dolartoday.info</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -568,7 +568,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://dolartoday.org/">dolartoday.org</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -586,7 +586,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://minuto30.com/">minuto30.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -604,7 +604,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.el-nacional.com/">www.el-nacional.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -622,7 +622,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.noticierodigital.com/">www.noticierodigital.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -640,7 +640,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://vivoplay.net/">vivoplay.net</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTPS
 </td>
@@ -658,7 +658,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.venezuelaaldia.com/">www.venezuelaaldia.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="accesible">No
 </td>
@@ -676,7 +676,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://alnavio.com/">alnavio.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -694,7 +694,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://noticiasvenezuela.org/">noticiasvenezuela.org</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -712,7 +712,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://sunoticiero.com/">sunoticiero.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="http-dns">DNS + HTTP/HTTPS
 </td>
@@ -730,7 +730,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.2001.com.ve/">www.2001.com.ve</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="block">HTTP/HTTPS
 </td>
@@ -748,7 +748,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://infodio.com/">infodio.com</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -802,7 +802,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://www.ventevenezuela.org/">www.ventevenezuela.org</a>
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="block">HTTPS/HTTP
 </td>
@@ -820,7 +820,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://pvenezuela.com/">pvenezuela.com</a>
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="partial">DNS
 </td>
@@ -838,7 +838,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://presidenciave.com/">presidenciave.com</a>
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="block">HTTPS/HTTP
 </td>
@@ -856,7 +856,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.accesoalajusticia.org/">www.accesoalajusticia.org</a>
 </td>
-<td>DDHH
+<td>HHRR
 </td>
 <td class="block">HTTP
 </td>
@@ -874,7 +874,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://miconvive.com/">miconvive.com</a>
 </td>
-<td>DDHH
+<td>HHRR
 </td>
 <td class="partial">DNS
 </td>
@@ -892,7 +892,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.change.org/">www.change.org</a>
 </td>
-<td>DDHH
+<td>HHRR
 </td>
 <td class="block">HTTP
 </td>
@@ -910,7 +910,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://alekboyd.blogspot.co.uk/">alekboyd.blogspot.co.uk **</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -928,7 +928,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://alekboyd.blogspot.com/">alekboyd.blogspot.com **</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="accesible">No
 </td>
@@ -946,7 +946,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://vcrisis.com/">www.vcrisis.com **</a>
 </td>
-<td>Noticias
+<td>News
 </td>
 <td class="partial">DNS
 </td>
@@ -964,7 +964,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://venezuelaaidlive.com/">venezuelaaidlive.com</a> **
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="accesible">No
 </td>
@@ -982,7 +982,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="https://vdebate.blogspot.com/">vdebate.blogspot.com **</a>
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="partial">DNS
 </td>
@@ -1000,7 +1000,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://robertopatino.com">robertopatino.com</a> **
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="partial">DNS
 </td>
@@ -1018,7 +1018,7 @@ The following table presents **56 blocked domains, belonging to a total of 49 we
 <tr>
 <td><a href="http://www.vamosbien.com">www.vamosbien.com</a> **
 </td>
-<td>Política
+<td>Politics
 </td>
 <td class="block">HTTPS/HTTP
 </td>
