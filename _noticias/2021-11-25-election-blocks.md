@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Elections under cersorship: without access to independent media in Venezuela"
-small:   "Elections under cersorship: without access to independent media in Venezuela"
+title:  "Voting under cersorship: without access to independent media in Venezuela"
+small:   "Voting under cersorship: without access to independent"
 excerpt: "More than 40 news page domains blocked during the election campaign"
 permalink: /noticias/2021-election-blocks/
 redirect_from:
