@@ -1078,7 +1078,7 @@ Cabe destacar que robertopatino.com, bloqueado en 2020 es el sitio personal de R
 
 Una consecuencia de la censura aplicada en internet es el abandono o el cierre y desaparición de sitios web debido a la pérdida de visitas por bloqueos prolongados. En algunos casos el bloqueo permanece activo a pesar de que el sitio web ha dejado de existir y contenido ya no está publicado en internet, esos casos no están reflejados en este informe.
 
-Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados a los dominios de la lista de este reporte, el mayor número de eventos por dominio registrado fue 7 en 16 URLs diferentes, este caso evidencia que hubo ISPs que aplicaron más de un tipo de bloqueo por dominio, como en CANTV con [https://hugocarvajal.com](https://hugocarvajal.com/) que presenta tanto bloqueo por DNS como HTTPS/HTTP. Mientras que 20 dominios experimentaron 6 eventos de bloqueo, lo que en su mayoría fue un evento de bloque por ISP.
+Durante la campaña electoral se identificaron 285 eventos de bloqueo, aplicados a los dominios de la lista de este reporte. El mayor número de eventos por dominio registrado fue de 7 en 16 URLs diferentes, casos que evidencian que hubo ISPs que aplicaron más de un tipo de bloqueo por dominio, como CANTV con [https://hugocarvajal.com](https://hugocarvajal.com/) que presenta tanto bloqueo por DNS como HTTPS/HTTP. Otros 20 dominios experimentaron 6 eventos de bloqueo, lo que en su mayoría representa un evento de bloqueo por ISP.
 
 ![](/res/post_img/2021-11-25/img3-2021-11-25.png)
 
@@ -1176,13 +1176,13 @@ Por su parte, en años recientes el proveedor estatal CANTV ha implementado un b
 
 ![](/res/post_img/2021-11-25/img4-2021-11-25.png)
 
-CANTV, el proveedor de servicio a internet nacional, es quien tuvo activos la mayor cantidad de bloqueos, durante los comicios electorales 2021, con un total de 53 dominios censurados, de los cuales 22 de estos dominios experimentaron bloque DNS y HTTPS/HTTP simultáneamente, por lo que la suma total de eventos de bloqueo ejecutados por CANTV es de 75 (26,32% de los eventos totales).
+CANTV, el proveedor de servicio a internet nacional, es quien tuvo activos la mayor cantidad de bloqueos durante los comicios electorales 2021, con un total de 53 dominios censurados, de los cuales 22 de estos dominios experimentaron bloque DNS y HTTPS/HTTP simultáneamente. La suma total de eventos de bloqueo ejecutados por CANTV es de 75 (26,32% de los eventos totales).
 
 Mientras  que los demás proveedores privados, regulados por CONATEL, cada uno presentó entre 40 y 44 eventos de bloqueo, a diferencia de CANTV estos solo aplicaron un tipo de bloqueo por dominio, por lo que la cantidad de eventos y dominios bloqueados es exactamente igual.
 
-Es evidente que los mayores afectados víctimas de la censura aplicada, durante el proceso de elecciones regionales y municipales 2021, fueron los medios de comunicación independiente quienes tienen 41 dominios censurados de los 56 analizados en este reporte. Propiciando así la escasez de reportes y análisis de noticias sobre el proceso de campaña electoral y votación, siendo esta una de las causas de la abstención de los votantes.
+Es evidente que los mayores afectados víctimas de la censura aplicada durante el proceso de elecciones regionales y municipales 2021 fueron los medios de comunicación independiente, quienes tienen 41 dominios censurados de los 56 analizados en este reporte. Propiciando así la escasez de reportes y análisis de noticias sobre el proceso de campaña electoral y votación, siendo esta una de las causas de la abstención de los votantes.
 
-Se puede deducir que el objetivo de estos bloqueos es controlar la información que se difunde a nivel nacional, para evitar que se conozca puntos de vistas opuestos al gobierno y/o reportes de hechos ilegales llevados a cabo o financiadas por personas pertenecientes al gobierno. Por esto sitios web como [https://hugocarvajal.com](https://hugocarvajal.com) y [https://venezuelazonagris.com](https://venezuelazonagris.com/) fueron bloqueados recientemente, cuando ya había sido aprobado la ejecución del proceso electoral, siendo estas a su vez parte de los 16 dominios con mayor eventos de bloqueo aplicados, con un total de 7 eventos por dominio.
+Se puede deducir que el objetivo de estos bloqueos es controlar la información que se difunde a nivel nacional, para evitar que se conozca puntos de vistas opuestos al gobierno y/o reportes de hechos ilegales llevados a cabo o financiadas por personas pertenecientes al gobierno. Por esto sitios web como [https://hugocarvajal.com](https://hugocarvajal.com) y [https://venezuelazonagris.com](https://venezuelazonagris.com/) fueron bloqueados recientemente, cuando ya había sido aprobada la ejecución del proceso electoral, siendo estas a su vez parte de los 16 dominios con mayor eventos de bloqueo aplicados, con un total de 7 eventos por dominio.
 
 
 ## Métodos
@@ -1194,7 +1194,7 @@ La determinación de un bloqueo por VE sin Filtro requiere que las anomalías id
 
 1. La limitación en el acceso es identificable.
 2. Es medible y/o documentable.
-3. Es consiste en el tiempo y entre mediciones hechas desde distintos puntos de conexión.
+3. Es consistente en el tiempo y entre mediciones hechas desde distintos puntos de conexión.
 4. El mecanismo técnico del bloqueo es identificable y no hay otra explicación para el comportamiento observado.
 
 Las mediciones de red han sido generadas de forma sistemática y bajo demanda antes, durante y después de la campaña electoral y de la elección, utilizando pruebas estandarizadas desarrolladas por OONI (_Open Observatory of Network Interference_), herramientas propias y pruebas _ad-hoc_ para identificar en mayor detalle el mecanismo del bloqueo y despistar o confirmar casos. 
