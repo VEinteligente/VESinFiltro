@@ -60,6 +60,8 @@ La confiscación ilegal es una práctica derivada de lo que en principio constit
 
 El borrado de contenidos constituye censura previa, prohibida por los estándares internacionales, entre ellos el artículo 13 de la Convención Americana de Derechos Humanos y el artículo 19 del Pacto Internacional de Derechos Civiles y Políticos. En consecuencia _los funcionarios no tienen autoridad para eliminar, ni exigir que se borre el contenido dentro de los equipos_. De igual forma las autoridades no tienen fundamento para declarar que la negativa de borrar el contenido constituye el delito de obstaculización de la justicia o la de desobediencia a la autoridad, y tampoco es causa para detener a la persona.
 
+---
+
 ## Efecto colateral: violación a la privacidad
 
 El derecho a la privacidad y a la protección de datos personales está reconocido por la Convención Americana y el Pacto Internacional, en los artículos 11 y 17, respectivamente. Los estándares establecen que nadie será objeto de injerencias arbitrarias o ilegales en su vida privada, ni su domicilio o correspondencia. Esto se extiende a los bienes que contienen información. 
@@ -93,6 +95,8 @@ La Comisión Interamericana de Derechos Humanos (CIDH) y el Comité Jurídico In
 _En los casos documentados se ejerce una injerencia directa, algunas veces violenta, y nunca justificada legalmente para tomar posesión de los equipos y teléfonos celulares; se coacciona a las personas para que den sus claves o pines de seguridad y acceder a los equipos; revisan galerías de imágenes y videos, así como los mensajes enviados y recibidos._ 
 
 Los episodios registrados demuestran que las personas afectadas nunca otorgaron consentimiento expreso para mostrar el contenido de sus equipos; por el contrario, la práctica dominante es la intimidación y la coacción por parte de los/as funcionarios/as, incluso a través de amenazas directas a la integridad física. 
+
+---
 
 ## ¿Qué hacer?: la prevención es la clave
 
@@ -192,12 +196,15 @@ _Los funcionarios incumplen las decisiones de los tribunales o la fiscalía, exi
 * En medio de un proceso penal, siempre es necesario llevar un registro de todas las fases para dejar constancia de posibles irregularidades; ten copia de todas las diligencias. 
 * Si hay retraso procesal por parte del Ministerio Público, se puede hacer la solicitud de devolución de equipos ante el tribunal[^10], junto a la solicitud hecha a la Fiscalía competente. 
 
+---
+
 ## Metodología del registro de casos
 
 El registro se realizó sobre la base de una matriz de eventos o casos en los cuales se incluyeron las siguientes variables: área geográfica; género de las víctimas; tipo de víctima (periodistas, medios, audiencia); tipología según el área de trabajo (reporteros, escritores, camarógrafos, etc.); y tipo de violación según las categorías definidas anteriormente. Las informaciones de los distintos eventos o casos se contabilizaron a partir de las notas aparecidas en diarios de circulación nacional y regional, confirmadas con el testimonio de las víctimas y afectados, con el objeto de realizar un registro de fuentes directas. También se recogen datos de investigaciones realizadas por instituciones gremiales, académicas y de derechos humanos, de carácter nacional y/o internacional.
 
 A partir de los datos recogidos se creó una matriz que considera las variables que explicitamos anteriormente. Se realizó una depuración de los distintos eventos, así como el cruce de las distintas variables. Se ejecutaron los cálculos correspondientes, y ello derivó en las tablas y gráficos que ilustran este informe. El estudio comprende una descripción de los patrones de violación al derecho, seguidos de una ilustración con algunos casos relevantes. En los eventos o casos se puede registrar la participación de varios agentes violadores o responsables e igualmente varias víctimas. De la misma forma en un caso pueden aparecer diversos tipos de víctimas: medios, periodistas, fotógrafos, y varios tipos de violaciones.
 
+---
 
 ## Notes
 
