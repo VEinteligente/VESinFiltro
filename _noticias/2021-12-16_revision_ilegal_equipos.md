@@ -14,7 +14,7 @@ image: /res/post_img/2021-12-16.png
 ## Revisión ilegal de equipos: Lo que debes saber y hacer
 
 <p style="text-align: right">
-<em>Un trabajo junto a Ve sin Filtro</em> </p>
+<em>Un trabajo junto a Espacio Público</em> </p>
 
 
 Al intento sistemático de restringir el ejercicio de la libertad de expresión, información y opinión en Venezuela se suma un _modus operandi_ que se incrementa de forma lenta pero constante en los últimos años; la revisión y eventual confiscación ilegal de equipos tras requisas o detenciones arbitrarias. 
