@@ -13,8 +13,8 @@ image: /res/post_img/2021-12-16.png
 
 ## Revisión ilegal de equipos: Lo que debes saber y hacer
 
-<p style="text-align: right">
-<em>Un trabajo junto a Espacio Público</em> </p>
+
+_Un trabajo junto a [Espacio Público](https://espaciopublico.ong/revision-ilegal-de-equipos-lo-que-debes-saber-y-hacer/)_
 
 
 Al intento sistemático de restringir el ejercicio de la libertad de expresión, información y opinión en Venezuela se suma un _modus operandi_ que se incrementa de forma lenta pero constante en los últimos años; la revisión y eventual confiscación ilegal de equipos tras requisas o detenciones arbitrarias. 
@@ -47,6 +47,8 @@ _Cuadro 1. Casos por estado_
 
 
 Entre el año 2020 y 2021 (hasta agosto) registramos 31 casos[^1]; 18 confiscaciones ejecutadas y 13 episodios de amenazas o intentos violentos de revisión de equipos[^2]. La mayoría de las personas afectadas fueron periodistas o reporteros/as (24), seguidos de particulares[^3]. 
+
+---
 
 ### La censura es solo el principio
 
