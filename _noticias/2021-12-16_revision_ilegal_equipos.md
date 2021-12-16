@@ -11,8 +11,7 @@ categories: guias
 image: /res/post_img/2021-12-16.png
 ---
 
-## Revisión ilegal de equipos: Lo que debes saber y hacer
-
+<p class="cover"><img class="" src="/res/post_img/2021-12-16.png"></p>
 
 _Un trabajo junto a [Espacio Público](https://espaciopublico.ong/revision-ilegal-de-equipos-lo-que-debes-saber-y-hacer/)_
 
