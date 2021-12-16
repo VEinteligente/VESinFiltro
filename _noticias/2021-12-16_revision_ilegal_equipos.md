@@ -205,7 +205,7 @@ A partir de los datos recogidos se creó una matriz que considera las variables 
 
 ---
 
-## Notes
+## Referencias
 
 [^1]:
      Registro de Espacio Público. 
