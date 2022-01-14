@@ -3,7 +3,7 @@ layout: post
 title:  "Al descubierto: la sociedad civil repudia el uso de Pegasus para espiar a periodistas y activistas en El Salvador"
 small:   "Sociedad civil repudia el uso de Pegasus para espiar a periodistas y activistas en El Salvador"
 excerpt: "Sociedad civil repudia el uso de Pegasus para espiar a periodistas y activistas en El Salvador"
-permalink: /noticias/2022-01-14-bloqueo-elecciones/
+permalink: /noticias/2022-01-14-pegasus-el-salvador/
 date:   2022-01-14 16:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-01-14.png
