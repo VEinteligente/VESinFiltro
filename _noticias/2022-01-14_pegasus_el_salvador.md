@@ -8,7 +8,6 @@ date:   2022-01-14 16:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-01-14.png
 ---
-# Al descubierto: la sociedad civil repudia el uso de Pegasus para espiar a periodistas y activistas en El Salvador
 
 Las organizaciones abajo firmantes repudiamos el uso de la tecnología de NSO Group, Pegasus, en El Salvador para vigilar a periodistas y a la sociedad civil, tal como alertaron inicialmente **[El Faro](https://elfaro.net/es/202111/el_salvador/25861/Apple-env%C3%ADa-alerta-de-espionaje-patrocinado-por-el-Estado-a-12-miembros-de-El-Faro.htm)**, **[Gato Encerrado](https://www.sipiapa.org/notas/1214881-alerta-la-sip-posible-espionaje-el-salvador)**, y como confirmaron luego Access Now, Front Line Defenders, The Citizen Lab, Amnistía Internacional, Fundación Acceso y SocialTIC. Si bien, hasta la fecha, no se ha identificado quién fue responsable de esta vigilancia, NSO Group **[ha alegado en repetidas ocasiones](https://www.ndtv.com/india-news/firms-like-nso-cant-sell-pegasus-to-non-government-actors-israels-ambassador-to-india-2590792)** que solo vende la tecnología Pegasus a gobiernos.
 
