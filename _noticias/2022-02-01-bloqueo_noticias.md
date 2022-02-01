@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV en tres ISPs"
+title:  "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV en cinco ISPs"
 small:   "Bloquean portales de noticia en Venezuela"
 excerpt: "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV en Movistar, Digitel e Inter"
 permalink: /noticias/2022-02-01-bloqueo_noticias/
