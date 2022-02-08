@@ -101,7 +101,8 @@ Anonymouse is a web proxy that can be used to circumvent censorship, however we 
         <td class="block">DNS Block</td>
       </tr>
     </tbody>
-</table>
+  </table>
+</div>
 
 
 ## Tor blocking
