@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title:  "Report:  Restrictions to circumvention tools in Venezuela"
+title:  "Report: Restrictions to circumvention tools in Venezuela"
 small:   "Venezuela restricts censorship needed anti-censorship tools"
 excerpt: "From blocking public DNS sites, to Tor and VPNs, Venezuela restricts anti-censorship tools"
 permalink: /noticias/2022-02-07-restriction-circumvention-tools/
