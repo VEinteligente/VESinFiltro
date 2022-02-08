@@ -520,7 +520,7 @@ Considering the above, the use of DNS over TLS (DoT) and DNS over HTTPS (DoH) ar
   <table class="blocklist">
     <hr>
      <tr>
-     </th>
+     <th></th>
      <th>CANTV
      </th>
      <th>Movistar
