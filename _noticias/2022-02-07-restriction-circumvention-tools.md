@@ -18,7 +18,7 @@ Venezuelans have been suffering from increasing levels of internet censorship fo
 
 The censorship is implemented by all major Internet Service Providers (ISP), normally under orders from the telecoms regulator CONATEL. However, the most extensive and sophisticated blocking is performed by the state-owned ISP, CANTV, the government has successfully blocked access to information using different techniques, from DNS blocks to SNI Filtering and DNS response injection, which was used in state-sponsored phishing attacks.
 
-Just a few days ago [VE sin Filtro reported new blocks to four news organizations](https://vesinfiltro.com/noticias/2022-02-01-bloqueo-Noticias/) that affected users in six different ISPs on top of [35 News sites being already blocked](https://vesinfiltro.com/noticias/2021-election-blocks/) during a recent election. The limitations of human rights in the Venezuelan digital space are documented in the  [Freedom on the Net 2021](https://freedomhouse.org/country/venezuela/freedom-net/2021) report, from Freedom House. 
+Just a few days ago [VE sin Filtro reported new blocks to four news organizations](https://vesinfiltro.com/noticias/2022-02-01-bloqueo-Noticias/) that affected users in six different ISPs on top of [35 News sites being already blocked](https://vesinfiltro.com/noticias/2021-election-blocks/) during a recent election. The limitations of human rights in the Venezuelan digital space are documented in the  [Freedom on the Net 2021](https://freedomhouse.org/country/venezuela/freedom-net/2021) report, from Freedom House.
 
 
 ## Current censorship of VPNs and circumvention tools
@@ -30,7 +30,7 @@ Changing the DNS servers used by a device is also a common technique, but it doe
 
 ### TunnelBear
 
-The block against TunnelBear continues on all major ISPs in Venezuela. It's main website, tunnelbear.com, has experienced DNS blocks in addition to HTTP/HTTPS simultaneously by CANTV (AS8048) since 2019. The rest of ISPs in the country started a DNS block on August 20th, 2020. 
+The block against TunnelBear continues on all major ISPs in Venezuela. It's main website, tunnelbear.com, has experienced DNS blocks in addition to HTTP/HTTPS simultaneously by CANTV (AS8048) since 2019. The rest of ISPs in the country started a DNS block on August 20th, 2020.
 
 TunnelBear can be downloaded from the app stores on both iOS and Android, the block mostly affects users wanting to know more and those trying to download it to their PC. The software can be downloaded on alternative URLs.
 
@@ -107,7 +107,7 @@ Anonymouse is a web proxy that can be used to circumvent censorship, however we 
 
 ## Tor blocking
 
-Tor is a well-known tool that provides a high level of anonymity to internet traffic and circumvents internet censorship.  We noticed an increase in the number of inaccessible bridges and directory authority relays from CANTV, similar but less effective than what happened almost four years ago. 
+Tor is a well-known tool that provides a high level of anonymity to internet traffic and circumvents internet censorship.  We noticed an increase in the number of inaccessible bridges and directory authority relays from CANTV, similar but less effective than what happened almost four years ago.
 
 This means that there is currently an active effort to block Tor connections in Venezuela, but it's not very effective. According to the measurements gathered in the past few months, between 70% to 80% of Tor directory authorities are blocked at any given time in AS8048. In practice, Tor connections are successfully established most of the time, but it may take longer
 
@@ -121,549 +121,376 @@ This censorship against Tor operates using a TCP block to these known IPs or IP:
 We monitor the behavior of different DNS servers on all the major ISPs, since changing to a trusted DNS server can mitigate the majority of blocks that internet users in Venezuela are constantly experiencing. The results that we obtained remain the same as what we shared in [our last report](https://vesinfiltro.com/noticias/2020-10-30-limited_access_circumvention_tools/) regarding this topic.
 
 
-<table>
-  <tr>
-   <td>Public DNS
-   </td>
-   <td>IP
-   </td>
-   <td>CANTV
-   </td>
-   <td>movistar
-   </td>
-   <td>digitel
-   </td>
-   <td>inter
-   </td>
-   <td>supercable
-   </td>
-   <td>NetUno
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://a.resolvers.level3.net/">a.resolvers.level3.net</a><span style="text-decoration:underline;">.</span>
-   </td>
-   <td>4.2.2.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://b.resolvers.level3.net/">b.resolvers.Level3.net</a>
-   </td>
-   <td>4.2.2.2
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://c.resolvers.level3.net/">c.resolvers.level3.net</a>
-   </td>
-   <td>4.2.2.3
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Cloudfare</strong>
-   </td>
-   <td>1.1.1.1
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Cloudfare</strong>
-   </td>
-   <td>1.0.0.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://cns1.cw.net/">cns1.cw.net</a>
-   </td>
-   <td>141.1.1.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Comodo Secure DNS</strong>
-   </td>
-   <td>8.26.56.26
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Comodo Secure DNS</strong>
-   </td>
-   <td>8.20.247.20
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>DNS Advantage</strong>
-   </td>
-   <td>156.154.70.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>DNS Advantage</strong>
-   </td>
-   <td>156.154.71.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://dns-fra.de.ignite.net/">dns-fra.de.ignite.net</a>
-   </td>
-   <td>195.182.110.132
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://dns-muc.de.ignite.net/">dns-muc.de.ignite.net</a>
-   </td>
-   <td>62.134.11.4
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>dns1.nyc.dns-roots.net.</strong>
-   </td>
-   <td>208.78.24.238
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Dyn</strong>
-   </td>
-   <td>216.146.35.35
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Dyn</strong>
-   </td>
-   <td>216.146.36.36
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Google DNS</strong>
-   </td>
-   <td>8.8.8.8
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Google DNS</strong>
-   </td>
-   <td>8.8.4.4
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Open DNS</strong>
-   </td>
-   <td>208.67.222.222
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Open DNS</strong>
-   </td>
-   <td>208.67.222.220
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Quad 9</strong>
-   </td>
-   <td>9.9.9.9
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Quad 9</strong>
-   </td>
-   <td>149.112.112.112
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex</strong>
-   </td>
-   <td>77.88.8.8
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex</strong>
-   </td>
-   <td>77.88.8.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex Family</strong>
-   </td>
-   <td>77.88.8.7
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex Family</strong>
-   </td>
-   <td>77.88.8.3
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex safe</strong>
-   </td>
-   <td>77.88.8.88
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Yandex safe</strong>
-   </td>
-   <td>77.88.8.2
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://cns2.cw.net/">cns2.cw.net</a>
-   </td>
-   <td>195.27.1.1
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://uneeda.telstra.net/">uneeda.telstra.net</a>
-   </td>
-   <td>139.130.4.4
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>No
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-   <td>Si
-   </td>
-  </tr>
-</table>
-
+<div class="table-responsive">
+  <table class="blocklist">
+    <tr>
+     <th>Public DNS
+     </th>
+     <th>IP
+     </th>
+     <th>CANTV
+     </th>
+     <th>movistar
+     </th>
+     <th>digitel
+     </th>
+     <th>inter
+     </th>
+     <th>supercable
+     </th>
+     <th>NetUno
+     </th>
+    </tr>
+    <tr>
+     <td><a href="http://a.resolvers.level3.net/">a.resolvers.level3.net</a><span style="text-decoration:underline;">.</span>
+     </td>
+     <td>4.2.2.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://b.resolvers.level3.net/">b.resolvers.Level3.net</a>
+     </td>
+     <td>4.2.2.2
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://c.resolvers.level3.net/">c.resolvers.level3.net</a>
+     </td>
+     <td>4.2.2.3
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Cloudfare</strong>
+     </td>
+     <td>1.1.1.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Cloudfare</strong>
+     </td>
+     <td>1.0.0.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://cns1.cw.net/">cns1.cw.net</a>
+     </td>
+     <td>141.1.1.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Comodo Secure DNS</strong>
+     </td>
+     <td>8.26.56.26
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Comodo Secure DNS</strong>
+     </td>
+     <td>8.20.247.20
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>DNS Advantage</strong>
+     </td>
+     <td>156.154.70.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>DNS Advantage</strong>
+     </td>
+     <td>156.154.71.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://dns-fra.de.ignite.net/">dns-fra.de.ignite.net</a>
+     </td>
+     <td>195.182.110.132
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://dns-muc.de.ignite.net/">dns-muc.de.ignite.net</a>
+     </td>
+     <td>62.134.11.4
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>dns1.nyc.dns-roots.net.</strong>
+     </td>
+     <td>208.78.24.238
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Dyn</strong>
+     </td>
+     <td>216.146.35.35
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Dyn</strong>
+     </td>
+     <td>216.146.36.36
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Google DNS</strong>
+     </td>
+     <td>8.8.8.8
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Google DNS</strong>
+     </td>
+     <td>8.8.4.4
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Open DNS</strong>
+     </td>
+     <td>208.67.222.222
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Open DNS</strong>
+     </td>
+     <td>208.67.222.220
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Quad 9</strong>
+     </td>
+     <td>9.9.9.9
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Quad 9</strong>
+     </td>
+     <td>149.112.112.112
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex</strong>
+     </td>
+     <td>77.88.8.8
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex</strong>
+     </td>
+     <td>77.88.8.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex Family</strong>
+     </td>
+     <td>77.88.8.7
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex Family</strong>
+     </td>
+     <td>77.88.8.3
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex safe</strong>
+     </td>
+     <td>77.88.8.88
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><strong>Yandex safe</strong>
+     </td>
+     <td>77.88.8.2
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://cns2.cw.net/">cns2.cw.net</a>
+     </td>
+     <td>195.27.1.1
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+    <tr>
+     <td><a href="http://uneeda.telstra.net/">uneeda.telstra.net</a>
+     </td>
+     <td>139.130.4.4
+     </td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="block">Blocked</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+     <td class="accesible">OK</td>
+    </tr>
+  </table>
+</div>
 
 ### Digitel
 
@@ -690,58 +517,58 @@ While no blocking of public DNS servers was observed, VE sin Filtro has document
 
 Considering the above, the use of DNS over TLS (DoT) and DNS over HTTPS (DoH) are recomendable when possible for added privacy and security, in addition to selecting an external DNS of your choice. On all ISPs DoT and DoH worked, with the exception of address 1.1.1.1 on Movistar that was unreachable for any kind of traffic.
 
-
-<table>
-  <tr>
-   <td>
-   </td>
-   <td>CANTV
-   </td>
-   <td>Movistar
-   </td>
-   <td>Digitel
-   </td>
-   <td>Inter
-   </td>
-   <td>NetUno
-   </td>
-   <td>Supercable
-   </td>
-  </tr>
-  <tr>
-   <td>DoT
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked, except 1.1.1.1
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-  </tr>
-  <tr>
-   <td>DoH
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked, except 1.1.1.1
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-   <td>Not blocked
-   </td>
-  </tr>
-</table>
-
+<div class="table-responsive">
+  <table class="blocklist">
+    <hr>
+     <tr>
+     </th>
+     <th>CANTV
+     </th>
+     <th>Movistar
+     </th>
+     <th>Digitel
+     </th>
+     <th>Inter
+     </th>
+     <th>NetUno
+     </th>
+     <th>Supercable
+     </th>
+    </tr>
+    <tr>
+     <td>DoT
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked, except 1.1.1.1
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+    </tr>
+    <tr>
+     <td>DoH
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked, except 1.1.1.1
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+     <td>Not blocked
+     </td>
+    </tr>
+  </table>
+</div>
 
 
 ## Methods
@@ -762,13 +589,13 @@ The VPN we recommend the most is Psiphon, but Tunnelbear is also a good option t
 **Psiphon:**
 
  - psiphon3.com
-   
+
   - Android: Play Store
-   
+
    - iOS: Apple App Store
-   
+
    - Proxy: https://58685.info
-   
+
    - E-mail: get@psiphon3.com
 
 **Tunnelbear:**
