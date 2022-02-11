@@ -7,9 +7,9 @@ excerpt: "From blocking public DNS sites, to Tor and VPNs, Venezuela restricts a
 permalink: /noticias/2022-02-07-restriction-circumvention-tools/
 date:   2022-02-07 18:20:00 -0400
 categories: bloqueos
-image: /res/post_img/2022-02-07/2022-02-07.png
+image: /res/post_img/2022-02-07/2022-02-07-es.png
 ---
-<p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07-es.png"></p>
 
 ## Importance of circumvention tools in the Venezuelan context
 
