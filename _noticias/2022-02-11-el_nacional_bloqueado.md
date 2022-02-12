@@ -28,7 +28,7 @@ Los 7 nuevos eventos de bloqueo son los siguientes:
 
 El Nacional es uno de los medios más reconocibles y solía ser uno de los diarios de mayor circulación de Venezuela hasta que tuvo que suspender su edición impresa en 2018 por las dificultades en el suminitro de papel de imprenta. En 2021 su sede fue embargada y quedó en Febrero de 2022 en manos de Diosdado Cabello, que en su programa Con El Mazo Dando del 2022-02-09 afirmó *"Ahora me provoca ir por la página"* web de El Nacional
 
-https://twitter.com/vesinfiltro/status/1491768102174040073?s=20&t=eTz5yiSOtd1_3aMEKCoFwg
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Cabello: “Ahora me provoca ir por la página” web de <a href="https://twitter.com/ElNacionalWeb?ref_src=twsrc%5Etfw">@ElNacionalWeb</a>. <br><br>Dice en su programa Con el Mazo Dando, en aparente amenaza contra el medio que ya ha perdido su sede e imprenta a Diosdado Cabello. <a href="https://t.co/Y2dLUVncKx">https://t.co/Y2dLUVncKx</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1491768102174040073?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ## Parte de una nueva ola de censura
