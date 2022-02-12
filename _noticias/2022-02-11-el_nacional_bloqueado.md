@@ -15,18 +15,19 @@ image: /res/post_img/2022-02-11.png
 
 La mayoría de los principales los proveedores de internet han implementado bloqueos contra El Nacional, un importante medio de noticias, apenas dos días después de que Diosdado Cabello amenazara al medio diciendo *"Ahora me provoca ir por la página del Nacional"*. Cabello es uno de los principales líderes del Gobierno de Nicolás Maduro.
 
-Los proveedores de internet (ISP) tanto públicos como privados comenzaron bloqueos DNS contra una combinación de domnios de El Nacional el 2022-02-11, a partir de las 4:30 pm (UTC-4) apróximadamente. Antes de este evento, el único bloqueo activo era un bloqueo HTTP/HTTPS contra www.el-nacional.comn en CANTV, la empresa de telecomunicaciones del estado.
+Los proveedores de internet (ISP) tanto públicos como privados comenzaron bloqueos DNS contra una combinación de dominios de El Nacional el 2022-02-11, a partir de las 4:30 pm (UTC-4) aproximadamente. Antes de este evento, el único bloqueo activo era un bloqueo HTTP/HTTPS contra www.el-nacional.comn en CANTV, la empresa de telecomunicaciones del estado.
 
 Los 7 nuevos eventos de bloqueo son los siguientes:
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th></th><th>CANTV</th><th>Movistar</th><th>Digitel</th><th>Inter</th><th>Netuno</th><th>Supercable</th></tr></thead><tbody>
- <tr><td>www.el-nacional.com</td><td>Bloqueo DNS *</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>OK</td><td>Bloqueo DNS</td></tr>
- <tr><td>www.elnacional.com</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>OK</td><td>Bloqueo DNS *</td></tr>
+<table>
+<thead><tr><th></th><th>CANTV</th><th>Movistar</th><th>Digitel</th><th>Inter</th><th>Netuno</th><th>Supercable</th></tr></thead><tbody>
+ <tr><td>www.el-nacional.com</td><td>Bloqueo DNS * </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Bloqueo DNS</td></tr>
+ <tr><td>www.elnacional.com</td><td>DNSBloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>&nbsp;</td><td>Bloqueo DNS</td></tr>
 </tbody></table>
 
-*1: este nuevo bloqueo dns se suma a un bloqueo HTTP/HTTPS [preexistente](https://vesinfiltro.com/noticias/2021-election-blocks/) desde [2018](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/).
 
-El Nacional es uno de los medios más reconocibles y solía ser uno de los diarios de mayor circulación de Venezuela hasta que tuvo que suspender su edición impresa en 2018 por las dificultades en el suminitro de papel de imprenta. En 2021 su sede fue embargada y quedó en Febrero de 2022 en manos de Diosdado Cabello, que en su programa Con El Mazo Dando del 2022-02-09 afirmó *"Ahora me provoca ir por la página"* web de El Nacional
+* : este nuevo bloqueo dns se suma a un bloqueo HTTP/HTTPS [preexistente](https://vesinfiltro.com/noticias/2021-election-blocks/) desde [2018](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/).
+
+El Nacional es uno de los medios más reconocibles y solía ser uno de los diarios de mayor circulación de Venezuela hasta que tuvo que suspender su edición impresa en 2018 por las dificultades en el suministro de papel de imprenta. En 2021 su sede fue embargada y quedó en Febrero de 2022 en manos de Diosdado Cabello, que en su programa Con El Mazo Dando del 2022-02-09 afirmó *"Ahora me provoca ir por la página"* web de El Nacional
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Cabello: “Ahora me provoca ir por la página” web de <a href="https://twitter.com/ElNacionalWeb?ref_src=twsrc%5Etfw">@ElNacionalWeb</a>. <br><br>Dice en su programa Con el Mazo Dando, en aparente amenaza contra el medio que ya ha perdido su sede e imprenta a Diosdado Cabello. <a href="https://t.co/Y2dLUVncKx">https://t.co/Y2dLUVncKx</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1491768102174040073?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
