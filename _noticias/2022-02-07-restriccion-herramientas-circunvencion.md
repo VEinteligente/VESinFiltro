@@ -7,9 +7,9 @@ excerpt: "Desde el bloqueo a servidores DNS públicos hasta Tor y VPNs, Venezuel
 permalink: /noticias/2022-02-07-restriccion-herramientas-circunvencion/
 date:   2022-02-07 18:20:00 -0400
 categories: bloqueos
-image: /res/post_img/2022-02-07/2022-02-07.png
+image: /res/post_img/2022-02-07/2022-02-07-es.png
 ---
-<p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07-es.png"></p>
 
 ## Importancia de las herramientas de circunvención en Venezuela
 Los venezolanos llevan más de 15 años sufriendo grandes magnitudes de censura en Internet, y cada día hay más limitaciones aplicadas para evadirla. El acceso a la información y a las noticias, así como su derecho de asociación, se ven restringidos por los bloqueos de Internet contra sitios y plataformas. Periodistas, políticos, defensores de los derechos humanos, activistas y muchos otros actores de la sociedad civil son constantemente censurados debido a los intentos del gobierno de limitar la libertad de expresión en línea en un contexto en el que los medios de comunicación independientes en la radio son escasos y censurados, y prácticamente inexistentes en la prensa escrita y la televisión.
