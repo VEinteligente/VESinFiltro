@@ -18,14 +18,16 @@ La mayoría de los principales los proveedores de internet han implementado bloq
 Los proveedores de internet (ISP) tanto públicos como privados comenzaron bloqueos DNS contra una combinación de dominios de El Nacional el 2022-02-11, a partir de las 4:30 pm (UTC-4) aproximadamente. Antes de este evento, el único bloqueo activo era un bloqueo HTTP/HTTPS contra www.el-nacional.comn en CANTV, la empresa de telecomunicaciones del estado.
 
 Los 7 nuevos eventos de bloqueo son los siguientes:
-<table>
+<div class="table-responsive">
+  <table class="blocklist">
 <thead><tr><th></th><th>CANTV</th><th>Movistar</th><th>Digitel</th><th>Inter</th><th>Netuno</th><th>Supercable</th></tr></thead><tbody>
- <tr><td>www.el-nacional.com</td><td>Bloqueo DNS * </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>Bloqueo DNS</td></tr>
- <tr><td>www.elnacional.com</td><td>DNSBloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>&nbsp;</td><td>Bloqueo DNS</td></tr>
-</tbody></table>
+ <tr><td>www.el-nacional.com</td><td class="block">Bloqueo DNS * </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="block">Bloqueo DNS</td></tr>
+ <tr><td>www.elnacional.com</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td>&nbsp;</td><td class="block">Bloqueo DNS</td></tr>
+</tbody>
+</table>
+</div>
 
-
-* : este nuevo bloqueo dns se suma a un bloqueo HTTP/HTTPS [preexistente](https://vesinfiltro.com/noticias/2021-election-blocks/) desde [2018](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/).
+\* : este nuevo bloqueo dns se suma a un bloqueo HTTP/HTTPS [preexistente](https://vesinfiltro.com/noticias/2021-election-blocks/) desde [2018](https://vesinfiltro.com/noticias/state_of_internet_censorship_2018-08-16/).
 
 El Nacional es uno de los medios más reconocibles y solía ser uno de los diarios de mayor circulación de Venezuela pero tuvo que dejar de circular en su edición impresa en 2018 por las dificultades en el suministro de papel de imprenta. En 2021 su sede fue embargada y quedó en Febrero de 2022 en manos de Diosdado Cabello, que en su programa Con El Mazo Dando del 2022-02-09 afirmó *"Ahora me provoca ir por la página"* web de El Nacional
 
