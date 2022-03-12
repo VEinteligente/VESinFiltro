@@ -6,7 +6,6 @@ excerpt: "En el Día Mundial contra la Censura en Internet VE Sin Filtro alerta 
 permalink: /noticias/2022-03-12-dia_mundial_censura_internet/
 date:   2022-03-12 13:20:00 -0400
 categories: bloqueos
-image:
 ---
 
 - _El escalamiento de la censura en internet ha sido creciente y ha afectado principalmente a medios de comunicación y sitios en la web que comparten contenidos informativos._
