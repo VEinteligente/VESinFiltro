@@ -1,9 +1,9 @@
 ---
 
 layout: post
-title:  "VE Sin Filtro alerta sobre la extensa y sostenida política que restringe a los venezolanos el ejercicio de sus derechos en línea"
-small:   "VE Sin Filtro alerta sobre restricciones a los derechos en línea en Venezuela"
-excerpt: "En el Día Mundial contra la Censura en Internet"
+title:  "VE Sin Filtro alerta sobre restricciones a los derechos en línea en Venezuela"
+small:   "VSF alerta sobre restricciones a los derechos en línea en Venezuela"
+excerpt: "En el Día Mundial contra la Censura en Internet VE Sin Filtro alerta sobre la extensa y sostenida política que restringe a los venezolanos el ejercicio de sus derechos en línea"
 permalink: /noticias/2022-03-12-dia_mundial_censura_internet/
 date:   2022-03-12 13:20:00 -0400
 categories: bloqueos
