@@ -2,7 +2,7 @@
 layout: post
 title: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
 small: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
-excerpt: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
+excerpt: "El bloqueo de páginas web que ofrecen contenido informativo crece y cada vez son mayores las dificultades para acceder a Internet y participar de la sociedad digital"
 permalink: /noticias/2021_informe_anual.md/
 date:   2022-04-06 17:20:00 -0400
 redirect_from:
