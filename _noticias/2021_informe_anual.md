@@ -19,4 +19,4 @@ Este monitoreo permitió identificar incidentes en los que se presenta un decaim
 
 Los 47 incidentes de caída de conectividad a nivel nacional tuvieron efecto en uno o más estados de forma simultánea, los que denominamos eventos. En este sentido, los incidentes de 2021 evaluados por su impacto en todo el país, significaron 454 eventos regionales. 32 de estos eventos afectaron al estado Táchira, mientras que los estados Mérida, Aragua y Distrito Capital presentaron 26 eventos cada uno y el estado Guárico 25 eventos, el resto de los estados se vieron afectados por entre 2 y 24 eventos.
 
-**Descarga aquí informe completo sobre censura, bloqueos, conectividad y acceso a internet en Venezuela**
+[**Descarga aquí informe completo sobre censura, bloqueos, conectividad y acceso a internet en Venezuela**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021.pdf)
