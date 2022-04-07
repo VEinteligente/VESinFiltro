@@ -10,6 +10,7 @@ redirect_from:
 image: /res/post_img/2021_es.png
 categories: bloqueos
 ---
+<p class="cover"><img class="" src="/res/post_img/2022_es.png"></p>
 
 Entre enero y diciembre de 2021, Ve Sin Filtro registró el bloqueo de 59 sitios web, que corresponden a al menos 68 dominios bloqueados; 45 de ellos correspondientes a medios de comunicación, 8 pertenecen a portales con contenidos políticos, 4 para compartir contenido multimedia, 3 de organizaciones de derechos humanos, 6 con contenidos para adultos y 2 dominios de plataformas de VPN para evadir la censura.
 
