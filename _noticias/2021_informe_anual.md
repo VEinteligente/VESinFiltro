@@ -7,6 +7,7 @@ permalink: /noticias/2021_informe_anual.md/
 date:   2022-04-06 17:20:00 -0400
 redirect_from:
   - /2021/
+image: /res/post_img/2021_es.png
 categories: bloqueos
 ---
 
