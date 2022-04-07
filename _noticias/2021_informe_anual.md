@@ -3,14 +3,14 @@ layout: post
 title: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
 small: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
 excerpt: "El bloqueo de páginas web que ofrecen contenido informativo crece y cada vez son mayores las dificultades para acceder a Internet y participar de la sociedad digital"
-permalink: /noticias/2021_informe_anual.md/
+permalink: /noticias/2021_informe_anual/
 date:   2022-04-06 17:20:00 -0400
 redirect_from:
   - /2021/
-image: /res/post_img/2021_es.png
 categories: bloqueos
+image: /res/post_img/2021_es.png
 ---
-<p class="cover"><img class="" src="/res/post_img/2022_es.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 
 Entre enero y diciembre de 2021, Ve Sin Filtro registró el bloqueo de 59 sitios web, que corresponden a al menos 68 dominios bloqueados; 45 de ellos correspondientes a medios de comunicación, 8 pertenecen a portales con contenidos políticos, 4 para compartir contenido multimedia, 3 de organizaciones de derechos humanos, 6 con contenidos para adultos y 2 dominios de plataformas de VPN para evadir la censura.
 
