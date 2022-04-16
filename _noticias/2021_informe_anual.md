@@ -2096,7 +2096,7 @@ Otro incidente a causa de falla por ISP ocurrió el 10 de abril. Se detectó una
 
 Al sumar la duración de los incidentes por falla de ISP tenemos que la estatal nacional CANTV tiene un total de 1 día 7 horas y 20 minutos, le sigue net uno con 1 día y 7 horas, en tercer lugar están Inter y Supercable con 16 horas y por último tenemos a Movistar con 15 horas y Digitel con 9 horas.
 
-![Duración de eventos por fallas de ISP](res/post_img/2021-informe/Conectividad008.png)
+![Duración de eventos por fallas de ISP](/res/post_img/2021-informe/Conectividad008.png)
 
 
 
