@@ -1589,13 +1589,13 @@ Se puede observar el crecimiento gradual de las velocidades de Internet en Venez
 
 Las cifras de M-lab muestran claramente que la gran mayoría de las pruebas de velocidad se encuentran en la parte más baja de los resultados, evidenciando que la mayoría de los venezolanos tienen velocidades de internet bajas y una minoría disfruta de velocidades de conexiones muy superiores.
 
-![Densidad de resultados en pruebas de velocidad](res/post_img/2021-informe/Velocidad001.png)
+![Densidad de resultados en pruebas de velocidad](/res/post_img/2021-informe/Velocidad001.png)
 
 La brecha entre quienes tienen un Internet con velocidades que le permiten cómodamente su aprovechamiento y los que no, ha ido creciendo, lo que compromete los derechos de participar de forma plena en la sociedad.  La creciente divergencia entre la velocidad mediana y la media reflejan este distanciamiento.
 
 La velocidad media es un promedio que incluye la influencia de grupos pequeños con valores mucho mayores a la mayoría, moviendo el promedio de forma importante incluso si la gran mayoría no sufre cambio. La velocidad mediana es el valor en el que la mitad de la población está por encima y la otra por debajo y refleja mucho mejor la experiencia que un venezolano podría encontrar.
 
-![Velocidad de internet fijo](res/post_img/2021-informe/Velocidad002.png)
+![Velocidad de internet fijo](/res/post_img/2021-informe/Velocidad002.png)
 
 # CONECTIVIDAD Y DISPONIBILIDAD DEL SERVICIO DE INTERNET
 
@@ -1617,13 +1617,13 @@ Las caídas de conectividad fueron categorizadas según la magnitud del porcenta
 
 Durante el año 2021 Ve Sin Filtro reportó 47 incidentes de caída de conectividad a Internet, siendo febrero el mes con mayor número de casos con un total de 9 incidentes reportados.
 
-![Incidentes de conectividad mensual](res/post_img/2021-informe/Conectividad001.png)
+![Incidentes de conectividad mensual](/res/post_img/2021-informe/Conectividad001.png)
 
 ## INCIDENTES DE CONECTIVIDAD
 
 Los 47 incidentes de caída de conectividad a nivel nacional tuvieron efecto en uno o más estados de forma simultánea, los que metodológicamente denominamos eventos. En este sentido, los incidentes de 2021 evaluados por su impacto en todo el país, significaron 454 eventos regionales. 32 de estos eventos afectaron al estado Táchira, mientras que los estados Mérida, Aragua y Distrito Capital presentaron 26 eventos cada uno y el estado Guárico 25 eventos, el resto de los estados se vieron afectados por entre 2 y 24 eventos.
 
-![Eventos de conectividad](res/post_img/2021-informe/Conectividad002.png)
+![Eventos de conectividad](/res/post_img/2021-informe/Conectividad002.png)
 
 ### Eventos según la magnitud del incidente
 
@@ -2044,7 +2044,7 @@ La mayoría de los eventos fueron serios con un total de 166, luego siguen los l
   </tr>
 </table>
 
-![Eventos según su magnitud](res/post_img/2021-informe/Conectividad003.png)
+![Eventos según su magnitud](/res/post_img/2021-informe/Conectividad003.png)
 
 ### Según el tipo de falla
 
@@ -2054,28 +2054,28 @@ Del total de incidentes identificados en 2021, 60% fueron ocasionados por fallas
 
 Uno de los incidentes reportados por fallas eléctricas ocurrió el 14 de febrero. Un apagón ocasionó el descenso de los niveles de conectividad en 23 estados durante 19 horas y 20 minutos, el incidente inició a las 12:50 am.  A nivel nacional el porcentaje más bajo registrado fue de 37% con respecto a los niveles normales. Esta caída de conectividad califica como crítica y los 23 eventos también presentaron un nivel de conectividad entre 0% y 50% en comparación a los niveles normales.
 
-![Reporte de conectividad 2022-02-14](res/post_img/2021-informe/chart5.png)
+![Reporte de conectividad 2022-02-14](/res/post_img/2021-informe/chart5.png)
 
 A finales de 2021, el 17 de diciembre, ocurrió un corte del servicio eléctrico a nivel nacional del que oficialmente se dijo que había sido un “ataque al sistema eléctrico”. Quedaron sin luz al menos 20 estados del país. Los más afectados fueron Cojedes, Mérida, Barinas, Táchira y Portuguesa con niveles de conectividad de entre 5% y 11%, a partir de las 1:00 am y con una duración de 8 horas. Nacionalmente los niveles de conectividad llegaron a 26%.
 
-![Reporte de conectividad 2021-12-17](res/post_img/2021-informe/chart6.png)
+![Reporte de conectividad 2021-12-17](/res/post_img/2021-informe/chart6.png)
 
 Los incidentes identificados por fallas de las operadores o prestadores del servicio representan 17%, y regionalmente el estado Táchira presentó el mayor número de casos, tres en total. Por otro lado, los incidentes por otras causas alcanzaron 39%, siendo Distrito Capital la entidad con mayor casos, 10 eventos.
 
-![Eventos de conectividad por tipos](res/post_img/2021-informe/Conectividad004.png)
+![Eventos de conectividad por tipos](/res/post_img/2021-informe/Conectividad004.png)
 
 
 ### Según la duración del incidente y los eventos
 
 Con respecto a la duración de los incidentes totales presentados dentro del territorio nacional, fue de 13 días y 2 horas en total, mientras que regionalmente se pudo identificar que el estado Táchira, de nuevo, es el estado con mayor tiempo de fallas de conectividad con 9 días, 8 horas y 20  minutos, luego le sigue el estado Mérida con 6 días y 22 horas, de tercer lugar el estado Trujillo con 6 días, 19 horas y 50 minutos. Los estados con mayor tiempo de afectación de fallas de conectividad son de la región andina. Mientras que los demás estados se vieron afectados dentro de un rango de duración de entre 6 días y 13 horas.
 
-![Duración eventos de conectividad](res/post_img/2021-informe/Conectividad005.png)
+![Duración eventos de conectividad](/res/post_img/2021-informe/Conectividad005.png)
 
 ### Duración de los incidentes críticos y serios
 
 Haciendo un análisis de la duración de los incidentes críticos y serios tenemos que Táchira (7 días 10 horas y 10 minutos), Mérida y Trujillo (5 días y 16 horas) y Guárico (4 días 17 horas y 40 minutos) son los estados con mayor sumatoria total de tiempo. El resto de los estados se encuentran en un rango de duración de entre 4 días y 13 horas. 
 
-![Duración eventos críticos y serios](res/post_img/2021-informe/Conectividad006.png)
+![Duración eventos críticos y serios](/res/post_img/2021-informe/Conectividad006.png)
 
 ### Incidentes por falla de ISP y según la magnitud
 
@@ -2083,13 +2083,13 @@ Tenemos un total de 8 incidentes a causa de fallas de las operadores que prestan
 
 El 21 de septiembre la estatal CANTV reportó una afectación en el servicio de internet motivado por un corte triple de fibra óptica, que afectó a las regiones: Central, Los Llanos, Centro Occidente, Occidente y el estado Amazonas. En esta ocasión Ve Sin Filtro determinó que el incidente inició a las 2:30 am y duró 17 horas. Los niveles de conectividad de CANTV bajaron hasta 76% en todo el país, en comparación con sus niveles normales. El estado más afectado fue Táchira y su conectividad llegó a 49%, siendo este un evento crítico.
 
-![Reporte de conectividad 2021-09-21](res/post_img/2021-informe/chart10.png)
+![Reporte de conectividad 2021-09-21](/res/post_img/2021-informe/chart10.png)
 
 Otro incidente a causa de falla por ISP ocurrió el 10 de abril. Se detectó una caída de conectividad del proveedor SuperCable. Los niveles de conectividad llegaron a 0% con respecto a los niveles normales, este incidente inició a las 4:00 PM y duró 6 horas.
 
-![Reporte de conectividad 2022-04-10](res/post_img/2021-informe/chart11.png)
+![Reporte de conectividad 2022-04-10](/res/post_img/2021-informe/chart11.png)
  
-![Eventos por fallas del ISP según magnitud](res/post_img/2021-informe/Conectividad007.png)
+![Eventos por fallas del ISP según magnitud](/res/post_img/2021-informe/Conectividad007.png)
 
 
 ### Duración de falla por ISP
