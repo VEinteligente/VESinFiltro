@@ -45,7 +45,7 @@ En relación a la conectividad, son cerca 50 los incidentes reportados por Ve Si
 
 ## UNA EMBOSCADA A LOS MEDIOS
 
-El 6 de febrero inició el bloqueo contra el sitio web de Insight Crime. Ve Sin Filtro encontró que las restricciones fueron impuestas días después de que publicara un reportaje sobre la tasa de homicidios en Latinoamérica, donde Venezuela se ubicó como el segundo país más violento. CANTV hizo un bloqueo de tipo HTTP/HTTPS. Este bloqueo fue desactivado en junio de 2021, por lo que actualmente los dominios (www.insightcrime.org y es.insightcrime.org) de la página web no cuentan con bloqueos.
+El 6 de febrero inició el bloqueo contra el sitio web de Insight Crime. Ve Sin Filtro encontró que las restricciones fueron impuestas días después de que publicara un reportaje sobre la tasa de homicidios en Latinoamérica, donde Venezuela se ubicó como el segundo país más violento. CANTV hizo un bloqueo de tipo HTTP/HTTPS. Este bloqueo fue desactivado en septiembre de 2021, por lo que actualmente los dominios (www.insightcrime.org y es.insightcrime.org) de la página web no cuentan con bloqueos.
 
 La página web TeleSur Libre, impulsada por Juan Guaidó, fue bloqueada el 25 de mayo en todos los ISP (Internet Service Provider)  o prestadores de servicio, el día siguiente a su lanzamiento. CANTV aplicó un bloqueo DNS y HTTP/HTTPS mientras que Inter, Movistar, Digitel, NetUno y Supercable usaron un bloqueo DNS.
 
