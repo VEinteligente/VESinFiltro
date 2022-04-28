@@ -63,1035 +63,588 @@ El 14 de noviembre se comprobó un bloqueo a la página web venezuelazonagris.co
 
 En el siguiente cuadro se muestran los dominios de las páginas web con contenido informativo o contenido político, que fueron bloqueados durante de 2021 o que iniciaron y cerraron el año con las mismas restricciones. Se muestra también el tipo de bloqueo aplicado por cada operadora.
 
-
-<table>
-  <tr>
-   <td><strong>Dominio</strong>
-   </td>
-   <td><strong>Categoría</strong>
-   </td>
-   <td><strong>CANTV</strong>
-   </td>
-   <td><strong>Movistar</strong>
-   </td>
-   <td><strong>Digitel</strong>
-   </td>
-   <td><strong>Inter</strong>
-   </td>
-   <td><strong>Netuno</strong>
-   </td>
-   <td><strong>Supercable</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.insightcrime.org">www.insightcrime.org</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS*
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://es.insightcrime.org">es.insightcrime.org</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS*
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://soundcloud.com">soundcloud.com</a>
-   </td>
-   <td>MULTIMEDIA
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://telesurlibre.com">telesurlibre.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://albertonews.com">albertonews.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.caraotadigital.net">www.caraotadigital.net</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.caraotadigital.xyz">caraotadigital.xyz</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.caraotadigital.news">caraotadigital.news</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://lapatilla.com">lapatilla.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://hugocarvajal.com">hugocarvajal.com</a>
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://venezuelazonagris.com">venezuelazonagris.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.2001.com.ve">www.2001.com.ve</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://alnavio.com">alnavio.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.aporrea.org">www.aporrea.org</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://armando.info">armando.info</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://dolartoday.com">dolartoday.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://dolartoday.info">dolartoday.info</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://dolartoday.org">dolartoday.org</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://bit.ly/venezuela911">bit.ly/venezuela911</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>No
-   </td>
-   <td>HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://efectococuyo.com">efectococuyo.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://elpitazo.net">elpitazo.net</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.eltiempo.com">www.eltiempo.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://evtvmiami.com">evtvmiami.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://diariolaregion.net">diariolaregion.net</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.infobae.com">www.infobae.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://infodio.com">infodio.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://lamananadigital.com">lamananadigital.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://maduradas.com">maduradas.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://minuto30.com">minuto30.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://monitoreamos.com">monitoreamos.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://noticialdia.com">noticialdia.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://noticiaaldia.com">noticiaaldia.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://noticiasvenezuela.org">noticiasvenezuela.org</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.el-nacional.com">www.el-nacional.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.noticierodigital.com">www.noticierodigital.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.ntn24.com">www.ntn24.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://pvenezuela.com">pvenezuela.com</a>
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://presidenciave.com">presidenciave.com</a>
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>HTTPS/HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://puntodecorte.com">puntodecorte.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://reddit.com">reddit.com</a>
-   </td>
-   <td>MULTIMEDIA
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://runrun.es">runrun.es</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://livestream.com">livestream.com</a>
-   </td>
-   <td>MULTIMEDIA
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://sumarium.es">sumarium.es</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTP/HTTPS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://sunoticiero.com">sunoticiero.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://venezuelaaidlive.com">venezuelaaidlive.com</a>
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.venezuelaaldia.com">www.venezuelaaldia.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.ventevenezuela.org">www.ventevenezuela.org</a>
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>HTTPS/HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://vivoplay.net">vivoplay.net</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://vpitv.com">vpitv.com</a>
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://zello.com">zello.com</a>
-   </td>
-   <td>MULTIMEDIA
-   </td>
-   <td>DNS
-   </td>
-   <td>HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://alekboyd.blogspot.co.uk">Alekboyd.blogspot.co.uk</a> **
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://alekboyd.blogspot.com">Alekboyd.blogspot.com</a> **
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://robertopatino.com">Robertopatino.com</a> **
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.vamosbien.com">www.vamosbien.com</a> **
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>HTTPS/HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.vcrisis.com">www.vcrisis.com</a> **
-   </td>
-   <td>NOTICIAS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://vdebate.blogspot.com">vdebate.blogspot.com</a> **
-   </td>
-   <td>POLÍTICA
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNs
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
+<div class="table-responsive">
+<table class="blocklist">
+<tr>
+      <th><strong>Dominio</strong></th>
+      <th><strong>Categoría</strong></th>
+      <th><strong>CANTV</strong></th>
+      <th><strong>Movistar</strong></th>
+      <th><strong>Digitel</strong></th>
+      <th><strong>Inter</strong></th>
+      <th><strong>Netuno</strong></th>
+      <th><strong>Supercable</strong></th>
+    </tr>
+<tbody>
+    <tr>
+     <td><a href="http://www.insightcrime.org">www.insightcrime.org</a></td>
+     <td>NOTICIAS</td>
+     <td bgcolor="#1e78c2">HTTP/HTTPS*</td>
+     <td bgcolor="#d8d9da">No</td>
+     <td bgcolor="#d8d9da">No</td>
+     <td bgcolor="#d8d9da">No</td>
+     <td bgcolor="#d8d9da">No</td>
+     <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+      <td><a href="http://es.insightcrime.org">es.insightcrime.org</a></td>
+      <td>NOTICIAS</td>
+      <td bgcolor="#1e78c2">HTTP/HTTPS*</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+       <td><a href="http://soundcloud.com">soundcloud.com</a></td>
+       <td>MULTIMEDIA</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://telesurlibre.com">telesurlibre.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://albertonews.com">albertonews.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.caraotadigital.net">www.caraotadigital.net</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.caraotadigital.xyz">caraotadigital.xyz</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.caraotadigital.news">caraotadigital.news</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://lapatilla.com">lapatilla.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://hugocarvajal.com">hugocarvajal.com</a></td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://venezuelazonagris.com">venezuelazonagris.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.2001.com.ve">www.2001.com.ve</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://alnavio.com">alnavio.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.aporrea.org">www.aporrea.org</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://armando.info">armando.info</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://dolartoday.com">dolartoday.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://dolartoday.info">dolartoday.info</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://dolartoday.org">dolartoday.org</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://bit.ly/venezuela911">bit.ly/venezuela911</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#1e78c2">HTTP</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://efectococuyo.com">efectococuyo.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://elpitazo.net">elpitazo.net</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.eltiempo.com">www.eltiempo.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://evtvmiami.com">evtvmiami.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://diariolaregion.net">diariolaregion.net</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.infobae.com">www.infobae.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://infodio.com">infodio.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://lamananadigital.com">lamananadigital.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://maduradas.com">maduradas.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://minuto30.com">minuto30.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://monitoreamos.com">monitoreamos.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://noticialdia.com">noticialdia.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://noticiaaldia.com">noticiaaldia.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://noticiasvenezuela.org">noticiasvenezuela.org</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.el-nacional.com">www.el-nacional.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.noticierodigital.com">www.noticierodigital.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.ntn24.com">www.ntn24.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://pvenezuela.com">pvenezuela.com</a></td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://presidenciave.com">presidenciave.com</a></td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://puntodecorte.com">puntodecorte.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://reddit.com">reddit.com</a></td>
+       <td>MULTIMEDIA</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://runrun.es">runrun.es</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://livestream.com">livestream.com</a></td>
+       <td>MULTIMEDIA</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://sumarium.es">sumarium.es</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://sunoticiero.com">sunoticiero.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://venezuelaaidlive.com">venezuelaaidlive.com</a></td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.venezuelaaldia.com">www.venezuelaaldia.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.ventevenezuela.org">www.ventevenezuela.org</a></td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://vivoplay.net">vivoplay.net</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#1e78c2">HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://vpitv.com">vpitv.com</a></td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://zello.com">zello.com</a></td>
+       <td>MULTIMEDIA</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#1e78c2">HTTP</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://alekboyd.blogspot.co.uk">Alekboyd.blogspot.co.uk</a> **</td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://alekboyd.blogspot.com">Alekboyd.blogspot.com</a> **</td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://robertopatino.com">Robertopatino.com</a> **</td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.vamosbien.com">www.vamosbien.com</a> **</td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#1e78c2">HTTP/HTTPS</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+       <td bgcolor="#d8d9da">No</td>
+      </tr>
+      <tr>
+       <td><a href="http://www.vcrisis.com">www.vcrisis.com</a> **</td>
+       <td>NOTICIAS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+      <tr>
+       <td><a href="http://vdebate.blogspot.com">vdebate.blogspot.com</a> **</td>
+       <td>POLÍTICA</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+       <td bgcolor="#3ab5e6">DNS</td>
+      </tr>
+</tbody>
+    <tfoot>
+    <tr>
+      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
+      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
+    </tr>
+    </tfoot>
 </table>
+</div>
 
 *El bloqueo fue deshabilitado antes de culminar el año.
 **El dominio es obsoleto.
@@ -1107,80 +660,58 @@ Este bloqueo HTTP y HTTPS se clasifica como un bloqueo de la capa de aplicación
 
 La página web de la ONG Mi Convive permanece bloqueada desde el año 2020. Estas acciones constituyen otro ataque contra los Derechos Humanos en Venezuela, limitando el derecho a la libertad de expresión y de información, además de coartar el derecho la libertad de asociación pacífica; en un contexto de extensa censura a la prensa en línea y fuera de ella, así como amenazas y persecución de las organizaciones de la sociedad civil.
 
-<table>
-  <tr>
-   <td><strong>Dominio</strong>
-   </td>
-   <td><strong>Categoría</strong>
-   </td>
-   <td><strong>CANTV</strong>
-   </td>
-   <td><strong>Movistar</strong>
-   </td>
-   <td><strong>Digitel</strong>
-   </td>
-   <td><strong>Inter</strong>
-   </td>
-   <td><strong>Netuno</strong>
-   </td>
-   <td><strong>Supercable</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.accesoalajusticia.org">www.accesoalajusticia.org</a>
-   </td>
-   <td>DDHH
-   </td>
-   <td>HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://miconvive.com">miconvive.com</a>
-   </td>
-   <td>DDHH
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.change.org">www.change.org</a>
-   </td>
-   <td>DDHH
-   </td>
-   <td>HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
+<div class="table-responsive">
+<table class="blocklist">
+    <tr>
+      <th><strong>Dominio</strong></th>
+      <th><strong>Categoría</strong></th>
+      <th><strong>CANTV</strong></th>
+      <th><strong>Movistar</strong></th>
+      <th><strong>Digitel</strong></th>
+      <th><strong>Inter</strong></th>
+      <th><strong>Netuno</strong></th>
+      <th><strong>Supercable</strong></th>
+    </tr>
+<tbody>
+    <tr>
+      <td><a href="http://www.accesoalajusticia.org">www.accesoalajusticia.org</a></td>
+      <td>DDHH</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+      <td><a href="http://miconvive.com">miconvive.com</a></td>
+      <td>DDHH</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>
+    <tr>
+    <td><a href="http://www.change.org">www.change.org</a></td>
+    <td>DDHH</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>   
+</tbody>    
+<tfoot>
+    <tr>
+      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
+      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
+    </tr>
+    </tfoot>
 </table>
+</div>
 
 ## LIMITACIONES AL CONTENIDO PARA ADULTOS
 
@@ -1190,134 +721,88 @@ Seis sitios web de pornografía han sido bloqueados en Venezuela por los princip
 
 Estos sitios estuvieron bloqueados por última vez cuando CANTV reactivó unas restricciones HTTP/HTTPS que se habían levantado a propósito de un incendio en una de sus instalaciones que afectó sus capacidades de censura. 
 
-<table>
-  <tr>
-   <td><strong>Dominio</strong>
-   </td>
-   <td><strong>Categoría</strong>
-   </td>
-   <td><strong>CANTV</strong>
-   </td>
-   <td><strong>Movistar</strong>
-   </td>
-   <td><strong>Digitel</strong>
-   </td>
-   <td><strong>Inter</strong>
-   </td>
-   <td><strong>Netuno</strong>
-   </td>
-   <td><strong>Supercable</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.xvideos.com">www.xvideos.com</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://xhamster.com">xhamster.com</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.pornhub.com">www.pornhub.com</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>DNS
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://bravotube.tv">bravotube.tv</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.youporn.com">www.youporn.com</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://www.tube8.com">www.tube8.com</a>
-   </td>
-   <td>PORNO
-   </td>
-   <td>HTTP
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-   <td>No
-   </td>
-  </tr>
+<div class="table-responsive">
+<table class="blocklist">
+    <tr>
+      <th><strong>Dominio</strong></th>
+      <th><strong>Categoría</strong></th>
+      <th><strong>CANTV</strong></th>
+      <th><strong>Movistar</strong></th>
+      <th><strong>Digitel</strong></th>
+      <th><strong>Inter</strong></th>
+      <th><strong>Netuno</strong></th>
+      <th><strong>Supercable</strong></th>
+    </tr>
+<tbody>
+    <tr>
+      <td><a href="http://www.xvideos.com">www.xvideos.com</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>
+    <tr>
+      <td><a href="http://xhamster.com">xhamster.com</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.pornhub.com">www.pornhub.com</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+      <td><a href="http://bravotube.tv">bravotube.tv</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.youporn.com">www.youporn.com</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+    </tr>
+    <tr>
+      <td><a href="http://www.tube8.com">www.tube8.com</a></td>
+      <td>PORNO</td>
+      <td bgcolor="#1e78c2">HTTP</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td>
+      <td bgcolor="#d8d9da">No</td> 
+    </tr>
+</tbody>
+    <tfoot>
+    <tr>
+      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
+      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
+    </tr>
+    </tfoot>
 </table>
+</div>
 
 ## CENSURA EN INTERNET MÁS A ALLÁ DE LOS BLOQUEOS
 
@@ -1351,62 +836,48 @@ Esto significa que actualmente hay un esfuerzo activo para bloquear las conexion
 
 Esta censura contra Tor opera utilizando un bloqueo TCP a estas IPs o IP conocidos, de forma similar a como le ocurrió en 2018. Se han bloqueado muchos puentes conocidos públicamente que no estaban incorporados.
 
-<table>
-  <tr>
-   <td><strong>Dominio</strong>
-   </td>
-   <td><strong>Categoría</strong>
-   </td>
-   <td><strong>CANTV</strong>
-   </td>
-   <td><strong>Movistar</strong>
-   </td>
-   <td><strong>Digitel</strong>
-   </td>
-   <td><strong>Inter</strong>
-   </td>
-   <td><strong>Netuno</strong>
-   </td>
-   <td><strong>Supercable</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://psiphon.ca">psiphon.ca</a>
-   </td>
-   <td>VPN
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
-  <tr>
-   <td><a href="http://tunnelbear.com">tunnelbear.com</a>
-   </td>
-   <td>VPN
-   </td>
-   <td>DNS + HTTP/HTTPS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-   <td>DNS
-   </td>
-  </tr>
+<div class="table-responsive">
+<table class="blocklist">
+    <tr>
+      <th><strong>Dominio</strong></th>
+      <th><strong>Categoría</strong></th>
+      <th><strong>CANTV</strong></th>
+      <th><strong>Movistar</strong></th>
+      <th><strong>Digitel</strong></th>
+      <th><strong>Inter</strong></th>
+      <th><strong>Netuno</strong></th>
+      <th><strong>Supercable</strong></th>
+    </tr>
+<tbody>
+    <tr>
+      <td><a href="http://psiphon.ca">psiphon.ca</a></td>
+      <td>VPN</td>
+      <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>
+    <tr>
+      <td><a href="http://tunnelbear.com">tunnelbear.com</a></td>
+      <td>VPN</td>
+      <td bgcolor="#0f2e93" style="color:white;">DNS + HTTP/HTTPS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+      <td bgcolor="#3ab5e6">DNS</td>
+    </tr>
+</tbody>
+    <tfoot>
+    <tr>
+      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
+      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
+    </tr>
+    </tfoot>
 </table>
+</div>
 
 # ACCESO A INTERNET
 
@@ -1418,7 +889,8 @@ Considerando el acceso a datos de proveedores de internet y la dificultad de est
 
 Con respecto a la distribución de los usuarios, el reporte de CONATEL correspondiente  al último trimestre del año 2020, evidencia un precario y desigual acceso a Internet en el país, lo que significa también una vulneración a los derechos humanos (asociación, salud, identidad, información, educación, entre otros) de la población.  Los 10 estados con menor penetración son Amazonas, Apure, Sucre, Delta Amacuro, Guárico, Falcón, Trujillo, Yaracuy, Zulia y Portuguesa.
 
-<table>
+<div class="table-responsive">
+<table class="blocklist">
   <tr>
    <td><strong>Estado</strong>
    </td>
@@ -1564,6 +1036,7 @@ Con respecto a la distribución de los usuarios, el reporte de CONATEL correspon
    </td>
   </tr>
 </table>
+</div>
 
 Durante 2021 la mayoría de la inversión de operadores privados se ubicó en ciudades grandes donde no todos los usuarios tienen acceso a internet pero la penetración es notablemente mayor. Creemos que durante 2021 los estados con la menor penetración de internet sigan siendo los mismos que para finales de 2020.
 
@@ -1631,7 +1104,8 @@ El decaimiento de los niveles de conectividad en comparación a los niveles usua
 
 La mayoría de los eventos fueron serios con un total de 166, luego siguen los leves con 156 eventos y los críticos tiene un total de 132 eventos a nivel nacional.
 
-<table>
+<div class="table-responsive">
+<table class="blocklist">
   <tr>
    <td><strong>Estados</strong>
    </td>
@@ -2043,6 +1517,7 @@ La mayoría de los eventos fueron serios con un total de 166, luego siguen los l
    </td>
   </tr>
 </table>
+</div>
 
 ![Eventos según su magnitud](/res/post_img/2021-informe/Conectividad003.png)
 
