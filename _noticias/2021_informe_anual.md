@@ -637,12 +637,23 @@ En el siguiente cuadro se muestran los dominios de las páginas web con contenid
        <td bgcolor="#3ab5e6">DNS</td>
       </tr>
 </tbody>
-    <tfoot>
-    <tr>
-      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
-      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
-    </tr>
-    </tfoot>
+<tfoot>
+<tr>
+<td>
+<img src="/res/VeSinFiltro-long.svg" />
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="social">
+@VEsinFiltro<br>
+vesinfiltro.com
+</td>
+</tr>
+</tfoot>
 </table>
 </div>
 
@@ -705,11 +716,22 @@ La página web de la ONG Mi Convive permanece bloqueada desde el año 2020. Esta
     </tr>   
 </tbody>    
 <tfoot>
-    <tr>
-      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
-      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
-    </tr>
-    </tfoot>
+<tr>
+<td>
+<img src="/res/VeSinFiltro-long.svg" />
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="social">
+@VEsinFiltro<br>
+vesinfiltro.com
+</td>
+</tr>
+</tfoot>
 </table>
 </div>
 
@@ -795,12 +817,23 @@ Estos sitios estuvieron bloqueados por última vez cuando CANTV reactivó unas r
       <td bgcolor="#d8d9da">No</td> 
     </tr>
 </tbody>
-    <tfoot>
-    <tr>
-      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
-      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
-    </tr>
-    </tfoot>
+<tfoot>
+<tr>
+<td>
+<img src="/res/VeSinFiltro-long.svg" />
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="social">
+@VEsinFiltro<br>
+vesinfiltro.com
+</td>
+</tr>
+</tfoot>
 </table>
 </div>
 
@@ -870,12 +903,23 @@ Esta censura contra Tor opera utilizando un bloqueo TCP a estas IPs o IP conocid
       <td bgcolor="#3ab5e6">DNS</td>
     </tr>
 </tbody>
-    <tfoot>
-    <tr>
-      <td colspan="2"><img src="http://felucia.estarguars.org/uploads/Ve_Sin_Filtro_long_79673f8637.svg" style="width:40%;" /></td>
-      <td colspan="6" class="social">@VEsinFiltro<br>vesinfiltro.com</td>
-    </tr>
-    </tfoot>
+<tfoot>
+<tr>
+<td>
+<img src="/res/VeSinFiltro-long.svg" />
+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td class="social">
+@VEsinFiltro<br>
+vesinfiltro.com
+</td>
+</tr>
+</tfoot>
 </table>
 </div>
 
