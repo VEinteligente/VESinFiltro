@@ -658,7 +658,7 @@ vesinfiltro.com
 </table>
 </div>
 
-*El bloqueo fue deshabilitado antes de culminar el año.
+*El bloqueo fue deshabilitado antes de culminar el año.\
 **El dominio es obsoleto.
 
 
