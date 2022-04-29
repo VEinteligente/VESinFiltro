@@ -13,7 +13,7 @@ image: /res/post_img/2021_es.png
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 
 [**Descarga aquí informe completo sobre censura, bloqueos, conectividad y acceso a internet en Venezuela**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021ES.pdf)</br>
-[**Este reporte también está disponible en inglés.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf.pdf)
+[**Este informe también está disponible en inglés.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf.pdf)
 
 ---
 
