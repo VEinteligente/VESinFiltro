@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "#2021report: Digital rights, censorship and connectivity in Venezuela"
+title: "#2021Report: Digital rights, censorship and connectivity in Venezuela"
 small: "#2021report: Digital rights, censorship and connectivity in Venezuela"
 excerpt: "The blocking of web pages that offer informative content is growing and the difficulties to access the Internet and participate in the digital society are increasing."
 permalink: /noticias/2021_annual_report/
@@ -659,7 +659,7 @@ vesinfiltro.com
 </div>
 
 *A block that was disabled before the end of the year.\
-**Obsolete domain
+**Obsolete domain.
 
 
 ## ACTIVISTS UNDER ATTACK
@@ -690,7 +690,7 @@ The NGO Mi Convive’s webpage has been blocked since 2020. These actions consti
 <tbody>
     <tr>
       <td><a href="http://www.accesoalajusticia.org">www.accesoalajusticia.org</a></td>
-      <td>Human Rights</td>
+      <td>HUMAN RIGHTS</td>
       <td bgcolor="#1e78c2">HTTP</td>
       <td bgcolor="#d8d9da">No</td>
       <td bgcolor="#d8d9da">No</td>
@@ -700,7 +700,7 @@ The NGO Mi Convive’s webpage has been blocked since 2020. These actions consti
     </tr>
     <tr>
       <td><a href="http://miconvive.com">miconvive.com</a></td>
-      <td>Human Rights</td>
+      <td>HUMAN RIGHTS</td>
       <td bgcolor="#3ab5e6">DNS</td>
       <td bgcolor="#3ab5e6">DNS</td>
       <td bgcolor="#3ab5e6">DNS</td>
@@ -710,7 +710,7 @@ The NGO Mi Convive’s webpage has been blocked since 2020. These actions consti
     </tr>
     <tr>
     <td><a href="http://www.change.org">www.change.org</a></td>
-    <td>Human Rights</td>
+    <td>HUMAN RIGHTS</td>
       <td bgcolor="#1e78c2">HTTP</td>
       <td bgcolor="#3ab5e6">DNS</td>
       <td bgcolor="#3ab5e6">DNS</td>
