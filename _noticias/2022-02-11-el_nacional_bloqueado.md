@@ -21,8 +21,8 @@ Los 7 nuevos eventos de bloqueo son los siguientes:
 <div class="table-responsive">
   <table class="blocklist">
 <thead><tr><th></th><th>CANTV</th><th>Movistar</th><th>Digitel</th><th>Inter</th><th>Netuno</th><th>Supercable</th></tr></thead><tbody>
- <tr><td>www.el-nacional.com</td><td class="block">Bloqueo DNS * </td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
- <tr><td>www.elnacional.com</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td>Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
+ <tr><td>www.el-nacional.com</td><td class="block">Bloqueo DNS * </td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
+ <tr><td>www.elnacional.com</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
 </tbody>
 </table>
 </div>
