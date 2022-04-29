@@ -15,14 +15,14 @@ image: /res/post_img/2022-02-11.png
 
 La mayoría de los principales los proveedores de internet han implementado bloqueos contra El Nacional, un importante medio de noticias, apenas dos días después de que Diosdado Cabello amenazara al medio diciendo *"Ahora me provoca ir por la página del Nacional"*. Cabello es uno de los principales líderes del Gobierno de Nicolás Maduro.
 
-Los proveedores de internet (ISP) tanto públicos como privados comenzaron bloqueos DNS contra una combinación de dominios de El Nacional el 2022-02-11, a partir de las 4:30 pm (UTC-4) aproximadamente. Antes de este evento, el único bloqueo activo era un bloqueo HTTP/HTTPS contra www.el-nacional.comn en CANTV, la empresa de telecomunicaciones del estado.
+Los proveedores de internet (ISP) tanto públicos como privados comenzaron bloqueos DNS contra una combinación de dominios de El Nacional el 2022-02-11, a partir de las 4:30 pm (UTC-4) aproximadamente. Antes de este evento, el único bloqueo activo era un bloqueo HTTP/HTTPS contra www.el-nacional.com en CANTV, la empresa de telecomunicaciones del estado.
 
 Los 7 nuevos eventos de bloqueo son los siguientes:
 <div class="table-responsive">
   <table class="blocklist">
 <thead><tr><th></th><th>CANTV</th><th>Movistar</th><th>Digitel</th><th>Inter</th><th>Netuno</th><th>Supercable</th></tr></thead><tbody>
- <tr><td>www.el-nacional.com</td><td class="block">Bloqueo DNS * </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="block">Bloqueo DNS</td></tr>
- <tr><td>www.elnacional.com</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td>&nbsp;</td><td class="block">Bloqueo DNS</td></tr>
+ <tr><td>www.el-nacional.com</td><td class="block">Bloqueo DNS * </td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td>Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
+ <tr><td>www.elnacional.com</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td class="block">Bloqueo DNS</td><td>Bloqueo DNS</td><td class="block">Bloqueo DNS</td></tr>
 </tbody>
 </table>
 </div>
