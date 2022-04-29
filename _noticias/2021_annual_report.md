@@ -1118,7 +1118,7 @@ The M-Lab figures clearly show that the vast majority of speed tests are in the 
 
 ![Density of speed test results](/res/post_img/2021-informe/en-Velocidad001.png)
 
-The gap between those who have internet with speeds that allow them to comfortably use this resource and those who do not has grown.** **This compromises their right to fully participate in society.** The growing divergence between median and mean speed reflects this distancing.
+The gap between those who have internet with speeds that allow them to comfortably use this resource and those who do not has grown. **This compromises their right to fully participate in society.** The growing divergence between median and mean speed reflects this distancing.
 
 Mean speed is an average that includes the influence of small groups with much higher values than the majority, moving the average significantly, even if the vast majority does not undergo a change. The median speed is the point that half the population is above and half the population is below. This does a much better job of reflecting the experience that a Venezuelan might have.
 
