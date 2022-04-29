@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "#2021Report: Digital rights, censorship and connectivity in Venezuela"
-small: "#2021report: Digital rights, censorship and connectivity in Venezuela"
+small: "#2021Report: Digital rights, censorship and connectivity in Venezuela"
 excerpt: "The blocking of web pages that offer informative content is growing and the difficulties to access the Internet and participate in the digital society are increasing."
 permalink: /noticias/2021_annual_report/
 date:   2022-04-06 17:20:00 -0400
