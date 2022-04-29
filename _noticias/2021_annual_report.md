@@ -12,7 +12,7 @@ image: /res/post_img/2021_es.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 
-[**Download here the full report on censorship, blockages, connectivity and internet access in Venezuela.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf)</br>
+[**Download here the full report on censorship, blockages, connectivity and internet access in Venezuela.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf)\
 [**This report is also available in Spanish.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf)</br>
 
 ---
@@ -658,7 +658,7 @@ vesinfiltro.com
 </table>
 </div>
 
-* A block that was disabled before the end of the year.<br/>
+* A block that was disabled before the end of the year.\
 ** Obsolete domain
 
 
