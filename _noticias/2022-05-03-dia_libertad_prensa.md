@@ -26,6 +26,8 @@ A los bloqueos que tenían Efecto Cocuyo y EVTV Miami desde la operadora estatal
 
 Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 sitios web, que corresponden a 68 dominios bloqueados; 45 de ellos correspondientes a medios de comunicación, 8 a pertenecen a portales con contenidos políticos, 4 para compartir contenido multimedia, 3 de organizaciones de derechos humanos, 6 con contenidos para adultos y 2 dominios de plataformas de VPN (Virtual Private Network) para evadir la censura.
 
+![](/res/post_img/2022-05-03.png)
+
 En relación a la conectividad, que califica como un mecanismo de censura indirecta, son cerca 50 los incidentes reportados por VE Sin Filtro durante 2021, siendo la mayor causa de desconexión las fallas eléctricas en todo el país, en especial en los estados andinos y en Táchira de manera muy particular. 
 
 La censura en Internet en Venezuela es extensa e impide el acceso a muchos tipos de sitios web, entre ellos medios de comunicación. Si no se utilizan técnicas de evasión de censura como VPNs o servidores DNS alternativos, es imposible acceder a decenas de portales web. Incidentalmente el gobierno de Nicolás Maduro también intenta limitar el uso de algunas herramientas para evadir censura de la misma manera.
