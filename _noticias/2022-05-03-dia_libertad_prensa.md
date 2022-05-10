@@ -249,7 +249,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://dolartoday.info">dolartoday.info</td>
+     <td><a href="http://dolartoday.info">dolartoday.info</a></td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
