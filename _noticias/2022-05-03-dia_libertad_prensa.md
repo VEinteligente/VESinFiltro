@@ -279,7 +279,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="accesible">No</td>
     </tr>
     <tr>
-        <td><a href="http://bit.ly/venezuela911">bit.ly/venezuela911</td>
+        <td><a href="http://bit.ly/venezuela911">bit.ly/venezuela911</a></td>
         <td>NEWS</td>
         <td class="accesible">No</td>
         <td class="block">HTTP</td>
@@ -571,7 +571,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     <tr>
         <td><a href="http://www.ventevenezuela.org">www.ventevenezuela.org</a></td>
         <td>POLR</td>
-        <td>HTTPS/HTTP</td>
+        <td class="block">HTTP/HTTPS</td>
         <td class="accesible">No</td>
         <td class="accesible">No</td>
         <td class="accesible">No</td>
@@ -591,7 +591,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     <tr>
         <td><a href="http://presidenciave.com">presidenciave.com</a></td>
         <td>POLR</td>
-        <td>HTTPS/HTTP</td>
+        <td class="block">HTTP/HTTPS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -611,7 +611,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     <tr>
         <td><a href="http://www.vamosbien.com">www.vamosbien.com</a></td>
         <td>POLR</td>
-        <td>HTTPS/HTTP</td>
+        <td class="block">HTTP/HTTPS</td>
         <td class="accesible">No</td>
         <td class="accesible">No</td>
         <td class="accesible">No</td>
@@ -727,7 +727,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     </tfoot>
     </table>
     </div class="table-responsive">
-
+    
 En relación a la conectividad, que califica como un mecanismo de censura indirecta, son cerca 50 los incidentes reportados por VE Sin Filtro durante 2021, siendo la mayor causa de desconexión las fallas eléctricas en todo el país, en especial en los estados andinos y en Táchira de manera muy particular. 
 
 La censura en Internet en Venezuela es extensa e impide el acceso a muchos tipos de sitios web, entre ellos medios de comunicación. Si no se utilizan técnicas de evasión de censura como VPNs o servidores DNS alternativos, es imposible acceder a decenas de portales web. Incidentalmente el gobierno de Nicolás Maduro también intenta limitar el uso de algunas herramientas para evadir censura de la misma manera.
