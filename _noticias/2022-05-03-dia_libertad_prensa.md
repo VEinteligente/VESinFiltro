@@ -359,7 +359,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://runrun.es">runrun.es</td>
+     <td><a href="http://runrun.es">runrun.es</a></td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="accesible">No</td>
@@ -689,7 +689,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="accesible">No</td>
     </tr>
     <tr>
-        <td><a href="http://psiphon.ca">psiphon.ca</td>
+     <td><a href="http://psiphon.ca">psiphon.ca</a></td>
         <td>VPN</td>
         <td class="http-dns">DNS + HTTP/HTTPS</td>
         <td class="partial">DNS</td>
