@@ -12,8 +12,8 @@ image: /res/post_img/2021_es.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 
-[**Download here the full report on censorship, blockages, connectivity and internet access in Venezuela.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf)\
-[**This report is also available in Spanish.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/VSF-Informe2021EN.pdf)
+[**Download here the full report on censorship, blockages, connectivity and internet access in Venezuela.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/2021INFORME-VSFEN.pdf)\
+[**This report is also available in Spanish.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/2021INFORME-VSFES.pdf)
 
 ---
 
