@@ -520,7 +520,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://alekboyd.blogspot.com">alekboyd.blogspot.com</a></td>
+        <td><a href="http://alekboyd.blogspot.com">alekboyd.blogspot.com</a>**</td>
         <td>NEWS</td>
         <td class="accesible">No</td>
         <td class="partial">DNS</td>
@@ -530,7 +530,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://www.vcrisis.com">www.vcrisis.com</a></td>
+        <td><a href="http://www.vcrisis.com">www.vcrisis.com</a>**</td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -540,7 +540,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://alekboyd.blogspot.co.uk">alekboyd.blogspot.co.uk</a></td>
+        <td><a href="http://alekboyd.blogspot.co.uk">alekboyd.blogspot.co.uk</a>**</td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -600,7 +600,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://robertopatino.com">robertopatino.com</a></td>
+        <td><a href="http://robertopatino.com">robertopatino.com</a>**</td>
         <td>POLR</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -610,7 +610,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://www.vamosbien.com">www.vamosbien.com</a></td>
+        <td><a href="http://www.vamosbien.com">www.vamosbien.com</a>**</td>
         <td>POLR</td>
         <td class="block">HTTP/HTTPS</td>
         <td class="accesible">No</td>
@@ -620,7 +620,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="accesible">No</td>
     </tr>
     <tr>
-        <td><a href="http://vdebate.blogspot.com">vdebate.blogspot.com</a></td>
+        <td><a href="http://vdebate.blogspot.com">vdebate.blogspot.com</a>**</td>
         <td>POLR</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -723,6 +723,8 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     </tfoot>
 </table>
 </div>
+
+**:El dominio es obsoleto.
 
 En relación a la conectividad, que califica como un mecanismo de censura indirecta, son cerca 50 los incidentes reportados por VE Sin Filtro durante 2021, siendo la mayor causa de desconexión las fallas eléctricas en todo el país, en especial en los estados andinos y en Táchira de manera muy particular. 
 
