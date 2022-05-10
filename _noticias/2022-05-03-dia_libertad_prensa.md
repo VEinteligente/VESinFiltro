@@ -25,7 +25,7 @@ En febrero de este año, VE Sin Filtro reportó el bloqueo contra los medios de 
 A los bloqueos que tenían Efecto Cocuyo y EVTV Miami desde la operadora estatal Cantv, se sumaron las privadas: Digitel, Movistar, Inter, Supercable y NetUno.
 
 Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 sitios web, que corresponden a 68 dominios bloqueados; 45 de ellos correspondientes a medios de comunicación, 8 a pertenecen a portales con contenidos políticos, 4 para compartir contenido multimedia, 3 de organizaciones de derechos humanos, 6 con contenidos para adultos y 2 dominios de plataformas de VPN (Virtual Private Network) para evadir la censura.
-
+\
 <div class="table-responsive">
 <table class="blocklist">
     <tr>
