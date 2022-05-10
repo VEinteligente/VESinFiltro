@@ -26,6 +26,7 @@ A los bloqueos que tenían Efecto Cocuyo y EVTV Miami desde la operadora estatal
 
 Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 sitios web, que corresponden a 68 dominios bloqueados; 45 de ellos correspondientes a medios de comunicación, 8 a pertenecen a portales con contenidos políticos, 4 para compartir contenido multimedia, 3 de organizaciones de derechos humanos, 6 con contenidos para adultos y 2 dominios de plataformas de VPN (Virtual Private Network) para evadir la censura.
 
+
 <div class="table-responsive">
 <table class="blocklist">
     <tr>
@@ -249,7 +250,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-     <td><a href="http://dolartoday.info">dolartoday.info</a></td>
+        <td><a href="http://dolartoday.info">dolartoday.info</a></td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
@@ -309,7 +310,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-     <td><a href="http://armando.info">armando.info</a></td>
+        <td><a href="http://armando.info">armando.info</a></td>
         <td>NEWS</td>
         <td class="http-dns">DNS + HTTP/HTTPS</td>
         <td class="partial">DNS</td>
@@ -319,7 +320,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-     <td><a href="http://sumarium.es">sumarium.es</a></td>
+        <td><a href="http://sumarium.es">sumarium.es</a></td>
         <td>NEWS</td>
         <td class="block">HTTP/HTTPS</td>
         <td class="accesible">No</td>
@@ -359,7 +360,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-     <td><a href="http://runrun.es">runrun.es</a></td>
+        <td><a href="http://runrun.es">runrun.es</a></td>
         <td>NEWS</td>
         <td class="partial">DNS</td>
         <td class="accesible">No</td>
@@ -558,7 +559,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
         <td class="partial">DNS</td>
     </tr>
-        <tr>
+    <tr>
         <td><a href="http://venezuelaaidlive.com">venezuelaaidlive.com</a></td>
         <td>POLR</td>
         <td class="accesible">No</td>
@@ -689,7 +690,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="accesible">No</td>
     </tr>
     <tr>
-     <td><a href="http://psiphon.ca">psiphon.ca</a></td>
+        <td><a href="http://psiphon.ca">psiphon.ca</a></td>
         <td>VPN</td>
         <td class="http-dns">DNS + HTTP/HTTPS</td>
         <td class="partial">DNS</td>
@@ -710,23 +711,18 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
     </tr>
     <tfoot>
         <tr>
-            <td>
-            <img src="/res/VeSinFiltro-long.svg" />
-            </td>
+            <td><img src="/res/VeSinFiltro-long.svg"/></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
             <td></td>
-            <td class="social">
-            @VEsinFiltro<br>
-            vesinfiltro.com
-            </td>
+            <td class="social">@VEsinFiltro<br>vesinfiltro.com</td>
         </tr>
     </tfoot>
-    </table>
-    </div>
+</table>
+</div>
 
 En relación a la conectividad, que califica como un mecanismo de censura indirecta, son cerca 50 los incidentes reportados por VE Sin Filtro durante 2021, siendo la mayor causa de desconexión las fallas eléctricas en todo el país, en especial en los estados andinos y en Táchira de manera muy particular. 
 
