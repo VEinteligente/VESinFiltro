@@ -726,7 +726,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         </tr>
     </tfoot>
     </table>
-    </div class="table-responsive">
+    </div>
 
 En relación a la conectividad, que califica como un mecanismo de censura indirecta, son cerca 50 los incidentes reportados por VE Sin Filtro durante 2021, siendo la mayor causa de desconexión las fallas eléctricas en todo el país, en especial en los estados andinos y en Táchira de manera muy particular. 
 
