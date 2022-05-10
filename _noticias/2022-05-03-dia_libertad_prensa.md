@@ -309,7 +309,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://armando.info">armando.info</td>
+     <td><a href="http://armando.info">armando.info</a></td>
         <td>NEWS</td>
         <td class="http-dns">DNS + HTTP/HTTPS</td>
         <td class="partial">DNS</td>
@@ -319,7 +319,7 @@ Entre enero y diciembre de 2021, VE Sin Filtro pudo registrar el bloqueo de 59 s
         <td class="partial">DNS</td>
     </tr>
     <tr>
-        <td><a href="http://sumarium.es">sumarium.es</td>
+     <td><a href="http://sumarium.es">sumarium.es</a></td>
         <td>NEWS</td>
         <td class="block">HTTP/HTTPS</td>
         <td class="accesible">No</td>
