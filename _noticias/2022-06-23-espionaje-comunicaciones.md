@@ -37,11 +37,7 @@ También refuerza la importancia de que los usuarios en riesgo no tengan la veri
 <div class="table-responsive">
 <table class="blocklist">
   <tr>
-   <td colspan="2">
-<strong>VENEZUELA</strong>
-<p>
-<strong>2021</strong>
-   </td>
+   <th colspan="2"><strong>VENEZUELA</strong><p><strong>2021</strong></th>
   </tr>
   <tbody>
   <tr>
