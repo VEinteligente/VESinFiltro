@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Bloquean en Venezuela el sitio web de la ONG Justicia, Encuentro y Perdón"
-small:   "Bloqueo del sitio web de la ONG Justicia, Encuentro y Perdón"
-excerpt: "Ve Sin Filtro denuncia el bloqueo en CANTV y Movistar del sitio web de la ONG Justicia, Encuentro y Perdón"
+title:  'Bloquean en Venezuela el sitio web de la ONG Justicia, Encuentro y Perdón'
+small:   'Bloqueo del sitio web de la ONG Justicia, Encuentro y Perdón'
+excerpt: 'Ve Sin Filtro denuncia el bloqueo en CANTV y Movistar del sitio web de la ONG Justicia, Encuentro y Perdón'
 permalink: /noticias/2022-06-22-bloqueo-jep/
 date:   2022-06-22 12:20:00 -0400
 categories: bloqueos
 ---
 
-Este 21 de junio, Ve Sin Filtro comprobó el bloqueo de la página web  [www.jepvenezuela.com](http://www.jepvenezuela.com), perteneciente a la ONG Justicia, Encuentro y Perdón.
+Este 21 de junio, Ve Sin Filtro comprobó el bloqueo de la página web [www.jepvenezuela.com](http://www.jepvenezuela.com), perteneciente a la ONG Justicia, Encuentro y Perdón.
 
 Se trata de una organización que desde 2017 monitorea y atiende casos de violaciones a los derechos humanos a través de un proceso de documentación, análisis y sistematización de hechos, a los fines de accionar ante instancias nacionales e internacionales en procura de la justicia, protección y reparación de las víctimas. 
 
