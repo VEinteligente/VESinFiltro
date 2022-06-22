@@ -34,80 +34,7 @@ También refuerza la importancia de que los usuarios en riesgo no tengan la veri
 * No reciben solicitudes de órdenes judiciales, sino de órganos de investigación, policiales, militares, inteligencia y hasta la universidad de seguridad UNES
 * Reconocen que en 2021 iniciaron el bloqueo de 27 URL distintas por orden de CONATEL
 
-<div class="table-responsive">
-<table class="blocklist">
-  <tr>
-   <td colspan="2">
-<strong>VENEZUELA</strong>
-<p>
-<strong>2021</strong>
-   </td>
-  </tr>
-  <tbody>
-  <tr>
-   <td colspan="2"><strong><p style="text-align: right">1. Interceptaciones Legales</strong></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de solicitudes recibidas</strong>
-   </td>
-   <td><p style="text-align: right">
-861.004</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de solicitudes rechazadas</strong>
-   </td>
-   <td><p style="text-align: right">
-21.601</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de accesos afectados</strong>
-   </td>
-   <td><p style="text-align: right">
-1.584.547</p>
-   </td>
-  </tr>
-  <tr>
-   <td colspan="2" ><strong>2. Metadatos Asociados a las Comunicaciones</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de solicitudes recibidas</strong>
-   </td>
-   <td><p style="text-align: right">
-149.152</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de solicitudes rechazadas</strong>
-   </td>
-   <td><p style="text-align: right">
-1.613</p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Nº de accesos afectados</strong>
-   </td>
-   <td><p style="text-align: right">
-997.679</p>
-   </td>
-  </tr>
-  </tbody>
- <tfoot>
-<tr>
-<td>
-<img src="/res/VeSinFiltro-long.svg" />
-</td>
-<td class="social">
-@VEsinFiltro<br>
-vesinfiltro.com
-</td>
-</tr>
-</tfoot>
-</table>
-</div>
+
 
 
 ## En detalle la vulneración del derecho a la privacidad
@@ -128,7 +55,7 @@ Los estándares internacionales de DDHH establecen que cualquier interceptación
 
 * Objetivo legítimo: Debe buscar un interés legal necesario en una sociedad democrática y respetuosa de los DDHH como investigar un crimen
 * Necesaria: No se debería utilizar una práctica que podría vulnerar derechos si no es necesaria para seguir esos fines legítimos
-* Proporcional: Como eluso de vigilancia interfiere con los derechos humanos, se debe utilizar sólamente cuando esto es proporcional a la gravedad del crimen que se busca investigar, se debe tratar de minimizar la cantidad de datos obtenidos debe ser minimizada a sólo lo necesario, controlar el acceso a esta información sólo para los fines aprobados y desechar información que no es relevante
+* Proporcional: Como el uso de vigilancia interfiere con los derechos humanos, se debe utilizar sólamente cuando esto es proporcional a la gravedad del crimen que se busca investigar, se debe tratar de minimizar la cantidad de datos obtenidos debe ser minimizada a sólo lo necesario, controlar el acceso a esta información sólo para los fines aprobados y desechar información que no es relevante
 * Que esté adecuadamente sustentado por las leyes
 * Bajo una orden judicial de un tribunal competente e independiente de la autoridad  interesada en la vigilancia de las comunicaciones
 * Permitiendo el debido proceso, notificando a la persona cuando sea posible y manteniendo transparencia del proceso
