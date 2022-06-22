@@ -11,11 +11,11 @@ image: /res/post_img/2022-06-22.png
 
 <p class="cover"><img class="" src="/res/post_img/2022-06-22.png"></p>
 
-Este 21 de junio, Ve Sin Filtro comprobó el bloqueo de la página web [www.jepvenezuela.com](http://www.jepvenezuela.com), perteneciente a la ONG Justicia, Encuentro y Perdón.
+Ve Sin Filtro comprobó el bloqueo de la página web [www.jepvenezuela.com](http://www.jepvenezuela.com), perteneciente a la ONG Justicia, Encuentro y Perdón.
 
 Se trata de una organización que desde 2017 monitorea y atiende casos de violaciones a los derechos humanos a través de un proceso de documentación, análisis y sistematización de hechos, a los fines de accionar ante instancias nacionales e internacionales en procura de la justicia, protección y reparación de las víctimas. 
 
-De acuerdo con la información recabada, el sitio se encuentra bloqueado en las operadoras CANTV y Movistar. En el primer caso, es un bloqueo de tipo HTTP/HTTPS y, en el segundo, de tipo HTTP.
+De acuerdo mediciones técnicas realizadas por VE sin Filtro, el sitio se encuentra bloqueado en las operadoras CANTV y Movistar desde al menos el 6 de Junio. En el primer caso, es un bloqueo de tipo HTTP/HTTPS y, en el segundo, de tipo HTTP.
 
 Este tipo de bloqueos se implementa sobre la capa de aplicación, requiriendo inspección de paquetes (deep packet inspection) para, de forma selectiva, impedir la comunicación con el servidor cuando se está solicitando la página web. El bloqueo HTTP/HTTPS requiere el uso de un VPN para evadir la censura.
 
