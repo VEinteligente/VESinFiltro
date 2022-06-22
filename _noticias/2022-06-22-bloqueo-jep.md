@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Día Mundial de la Libertad de Prensa: VSF denuncia perversa política de censura contra medios de comunicación y exige garantías para el acceso universal a Internet"
-small:   "VSF denuncia la política de censura en internet en el Día Mundial de la Libertad de Prensa"
-excerpt: "En Venezuela las páginas web relevantes, las que son mencionadas como referencia por los mismos ciudadanos, tienen algún tipo de bloqueo que impide su consulta, sin que exista explicación alguna por parte de los responsables en relación a las causas"
-permalink: /noticias/2022-05-03-dia-libertad-prensa/
-date:   2022-05-03 9:20:00 -0400
+title:  "Bloquean en Venezuela el sitio web de la ONG Justicia, Encuentro y Perdón"
+small:   "Bloqueo del sitio web de la ONG Justicia, Encuentro y Perdón"
+excerpt: "Ve Sin Filtro: Bloquean en Venezuela el sitio web de la ONG Justicia, Encuentro y Perdón"
+permalink: /noticias/2022-06-22-bloqueo-jep/
+date:   2022-06-22 12:20:00 -0400
 categories: bloqueos
 ---
 
