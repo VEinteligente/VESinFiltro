@@ -6,7 +6,6 @@ excerpt: 'La empresa Telefónica en su informe de transparencia anual revela que
 permalink: /noticias/2022-06-23-vigilancia-comunicaciones/
 date:   2022-06-23 07:20:00 -0400
 categories: bloqueos
-image: /res/post_img/2022-06-23.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2022-06-23.png"></p>
 
