@@ -21,7 +21,7 @@ Cifras de otros operadores de telefonía y servicios de internet se desconocen p
 
 Lo expresado en el informe de Telefónica, que además refleja las cifras de solicitudes en los distintos países en los que opera, coincide completamente con multiples casos reportados, incluyendo un caso que documentamos en nuestro [informe 2021 "Sin Derechos en #InternetVE"](https://vesinfiltro.com/noticias/2021_informe_anual/), donde destacamos cómo una ONG venezolana de DDHH que fue víctima de acceso no autorizado a una cuenta de un servicio de comunicación. Esto, a toda evidencia, ocurrió por la facilitación e interceptación de los SMS de verificación por parte de su operadora. Hemos alertado en los últimos años otros casos de periodistas y actores cívicos, cuyas comunicaciones han sido aparentemente espiadas.
 
-Las revelaciones hechas en el informe resaltan la necesidad de que periodistas, voceros o fuentes, defensores de DDHH y activistas no utilicen llamadas de teléfono ni mensajes de SMS para comunicarse, sino que más bien usen medios de comunicación cifrados como Signal, incluso Whatsapp resulta mejor mejor que un SMS o una llamada.
+Las revelaciones hechas en el informe resaltan la necesidad de que periodistas, voceros o fuentes, defensores de DDHH y activistas no utilicen llamadas de teléfono ni mensajes de SMS para comunicarse, sino que más bien usen medios de comunicación cifrados como [Signal](https://www.youtube.com/watch?v=MO3Zh8EoAoE), incluso Whatsapp resulta mejor mejor que un SMS o una llamada.
 
 También refuerza la importancia de que los usuarios en riesgo no tengan la verificación de dos pasos de sus cuentas mediante SMS o llamadas de teléfono, sino por medio de aplicaciones de autenticación como Google Authenticator y elementos físicos como llaves de seguridad.
 
@@ -139,5 +139,12 @@ En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios 
 * Los venezolanos deben asumir que cualquier comunicación no cifrada puede ser intervenida sin respeto a los estándares internacionales de Derechos Humanos.
 * Los periodistas, defensores de DDHH y activistas en Venezuela deben evitar el uso de llamadas de teléfono, SMS y comunicaciones no encriptadas en internet.
 * Los periodistas, defensores de DDHH y activistas en Venezuela bajo riesgo deberían habilitar el uso de autenticación de dos pasos en sus cuentas de servicios en internet, pero en la medida de lo posible no usar SMS o llamadas como factor de verificación y en su lugar utilizar aplicaciones que generan códigos como Google Authenticator y elementos físicos como códigos de respaldo impresos guardados en un lugar seguro, o idealmente, usar llaves de seguridad digital FIDO (Yubico es de las marcas más conocidas) y de respaldo Google Authenticator.
-* Recomendamos el uso de Signal para llamadas y mensajes por internet y el uso de VPN o Tor para visitar páginas web que sean sensibles en el contexto Venezolano.
-* Recomendamos el uso de VPN para acceder a páginas web bloqueadas en Venezuela.
+* Recomendamos el uso de [Signal](https://www.youtube.com/watch?v=MO3Zh8EoAoE) para llamadas y mensajes por internet y [el uso de VPN](https://www.youtube.com/watch?v=iYQQTE1-Thk) o [Tor Browser](https://torproject.org) para visitar páginas web que sean sensibles en el contexto Venezolano.
+* Recomendamos el [uso de  VPN](https://www.youtube.com/watch?v=iYQQTE1-Thk) para acceder a páginas web bloqueadas en Venezuela.
+
+
+Cómo usar Signal
+<iframe  src="https://www.youtube.com/embed/MO3Zh8EoAoE" title="¿Cómo chatear de forma privada y segura? - Conexión segura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Cómo usar un VPN
+<p><iframe src="https://www.youtube.com/embed/iYQQTE1-Thk" title="¿Cómo usar un VPN para ver páginas bloqueadas? — Conexión Segura" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
