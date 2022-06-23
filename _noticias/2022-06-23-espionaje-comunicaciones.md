@@ -81,21 +81,21 @@ En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios 
         </td>
       </tr>
       <tr>
-        <td>Nº de solicitudes recibidas</td>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
         <td>
           <p style="text-align: right">
             861.004</p>
         </td>
       </tr>
       <tr>
-        <td>Nº de solicitudes rechazadas</td>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
         <td>
           <p style="text-align: right">
             21.601</p>
         </td>
       </tr>
       <tr>
-        <td>Nº de accesos afectados
+        <td style="text-align: left">Nº de accesos afectados
         </td>
         <td>
           <p style="text-align: right">
@@ -107,21 +107,21 @@ En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios 
         </td>
       </tr>
       <tr>
-        <td>Nº de solicitudes recibidas</td>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
         <td>
           <p style="text-align: right">
             149.152</p>
         </td>
       </tr>
       <tr>
-        <td>Nº de solicitudes rechazadas</td>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
         <td>
           <p style="text-align: right">
             1.613</p>
         </td>
       </tr>
       <tr>
-        <td>Nº de accesos afectados</td>
+        <td style="text-align: left">Nº de accesos afectados</td>
         <td>
           <p style="text-align: right">
             997.679</p>
