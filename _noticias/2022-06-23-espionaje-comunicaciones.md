@@ -136,7 +136,7 @@ En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios 
 ## Recomendaciones:
 
 * Movistar deberia listar el número de solicitudes recibidas por organismo emisor, aclarando también qué % de estas denuncias vienen avaladas por tribunales
-* Movistar debería definir con mayor claridad qué significa una solicitud ¨en tiempo real" y cuándo se deja de hacer disponible esta información
+* Movistar debería definir con mayor claridad qué significa una solicitud ¨en tiempo real" y cuándo se deja de hacer disponible esta información. Así mismo define de manera insuficiente el posible alcance de las solitudes que no son bloqueos y el concepto de accesos afectados por las solicitudes.
 * Los venezolanos deben asumir que cualquier comunicación no cifrada puede ser intervenida sin respeto a los estándares internacionales de Derechos Humanos.
 * Los periodistas, defensores de DDHH y activistas en Venezuela deben evitar el uso de llamadas de teléfono, SMS y comunicaciones no encriptadas en internet.
 * Los periodistas, defensores de DDHH y activistas en Venezuela bajo riesgo deberían habilitar el uso de autenticación de dos pasos en sus cuentas de servicios en internet, pero en la medida de lo posible no usar SMS o llamadas como factor de verificación y en su lugar utilizar aplicaciones que generan códigos como Google Authenticator y elementos físicos como códigos de respaldo impresos guardados en un lugar seguro, o idealmente, usar llaves de seguridad digital FIDO (Yubico es de las marcas más conocidas) y de respaldo Google Authenticator.
