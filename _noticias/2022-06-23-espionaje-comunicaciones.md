@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "El Gobierno de Venezuela espía de forma masiva las comunicaciones de los venezolanos"
-small:   "El Gobierno de Venezuela espía de forma masiva las comunicaciones de los venezolanos"
+title:  "El gobierno de Venezuela espía de forma masiva las comunicaciones privadas en el país"
+small:   "El gobierno de Venezuela espía de forma masiva las comunicaciones privadas en el país"
 excerpt: "La empresa Telefónica en su informe de transparencia anual revela que el estado Venezolano intercepta masivamente las comunicaciones de los usuarios de Movistar"
 permalink: /noticias/2022-06-23-espionaje-comunicaciones/
 date:   2022-06-22 18:20:00 -0400
@@ -71,6 +71,77 @@ En el mismo 2021 el informe anual de VE sin Filtro documentó que al menos 68 do
 
 En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios de noticias como de organizaciones de DDHH, el más reciente en Junio de 2022.
 
+<div class="table-responsive">
+  <table class="blocklist">
+    <tr>
+      <th colspan="2"><strong>VENEZUELA</strong><br><strong>2021</strong></th>
+    </tr>
+    <tbody>
+      <tr>
+        <td colspan="2" style="text-align: left"><strong>1. Interceptaciones Legales</strong>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
+        <td>
+          <p style="text-align: right">
+            861.004</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
+        <td>
+          <p style="text-align: right">
+            21.601</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de accesos afectados
+        </td>
+        <td>
+          <p style="text-align: right">
+            1.584.547</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: left"><strong>2. Metadatos Asociados a las Comunicaciones</strong>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
+        <td>
+          <p style="text-align: right">
+            149.152</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
+        <td>
+          <p style="text-align: right">
+            1.613</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de accesos afectados</td>
+        <td>
+          <p style="text-align: right">
+            997.679</p>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>
+          <img src="/res/VeSinFiltro-long.svg" />
+        </td>
+        <td class="social">
+          @VEsinFiltro<br>
+          vesinfiltro.com
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
 
 ## Recomendaciones:
 
