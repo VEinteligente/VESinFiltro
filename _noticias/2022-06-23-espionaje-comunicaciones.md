@@ -11,21 +11,21 @@ image: /res/post_img/2022-06-23.png
 
 <p class="cover"><img class="" src="/res/post_img/2022-06-23.png"></p>
 
-Un informe de transparencia recientemente publicado por la empresa Telefónica, casa matriz de Movistar Venezuela, revela el uso indiscriminado y masivo de la interceptación de las comunicaciones de los venezolanos suscriptores de esa operadora, por orden de los organismos de seguridad. El informa oficial está disponible a través de [este enlace](https://www.telefonica.com/es/wp-content/uploads/sites/4/2021/08/Informe-de-Transparencia-en-las-Comunicaciones-2021.pdf).
+Un [informe de transparencia](https://www.telefonica.com/es/wp-content/uploads/sites/4/2021/08/Informe-de-Transparencia-en-las-Comunicaciones-2021.pdf) recientemente publicado por la empresa Telefónica, casa matriz de Movistar Venezuela, revela el uso indiscriminado y masivo de la interceptación de las comunicaciones de los venezolanos suscriptores de esa operadora, por orden de los organismos de seguridad.
 
-Según el documento, en 2021 Telefónica interceptó las comunicaciones de 1 millón 584 mil 547 líneas de sus clientes en Venezuela, **más del 20% del total de sus usuarios**. Estas intervenciones se habrían hecho por órdenes del gobierno de Nicolás Maduro y significaron interceptar o "pinchar'' las llamadas, monitorear los SMS, dar la ubicación de personas por sus teléfonos celulares o el monitoreo de su tráfico de internet. En el informe, los otros países ni se acercan al 1%.
+Según el documento, **en 2021 Telefónica interceptó las comunicaciones de 1 millón 584 mil 547 líneas de sus clientes en Venezuela, más del 20% de las líneas de teléfono o internet**. Estas intervenciones se habrían hecho por órdenes del gobierno de Nicolás Maduro y significaron interceptar o "pinchar'' las llamadas, monitorear los SMS, dar la ubicación de personas por sus teléfonos celulares o el monitoreo de su tráfico de internet. En el informe, los otros países ni se acercan al 1%.
 
-En Venezuela se ha hablado por años de la prevalencia de llamadas pinchadas y el monitoreo excesivo e injustificado de otras formas de comunicación, pero por primera vez hay un rastro del alcance de esta amenaza a los derechos civiles. Aunque la interceptación de comunicaciones puede ser una herramienta para investigar crímenes graves, su uso debe ser acorde a los estándares de DDHH y el inmenso número de líneas interceptadas apunta a un abuso sistemático.
+En Venezuela se ha hablado por años de la prevalencia de llamadas pinchadas y el monitoreo excesivo e injustificado de otras formas de comunicación, pero **por primera vez hay un rastro del alcance de esta amenaza a los derechos civiles.** Aunque la interceptación de comunicaciones puede ser una herramienta para investigar crímenes graves, su uso debe ser acorde a los estándares de DDHH y el inmenso número de líneas interceptadas apunta a un abuso sistemático.
 
-Cifras de otros operadores de telefonía y servicios de internet se desconocen pues no presentan informes de transparencia, pero se debe asumir que son similares, o posiblemente peores en el caso de las empresas del Estado. La idea de que más del 20% de las líneas de telefonía o servicios de internet, en otras operadoras, también pudieran ser espiadas por el Gobierno es un prospecto altamente autoritario.
+Cifras de otros operadores de telefonía y servicios de internet se desconocen pues no presentan informes de transparencia, pero se debe asumir que son similares, o posiblemente peores en el caso de las empresas del Estado. La idea de que 20% o más de las líneas de telefonía o conexiones a internet, en otras operadoras, también pudieran ser espiadas por el Gobierno es un prospecto altamente autoritario.
 
-Lo expresado en el informe de Telefónica, que además refleja las cifras de solicitudes en los distintos países en los que opera, coincide completamente con un caso que reportamos en nuestro [informe 2021 "Sin Derechos en #InternetVE"](https://vesinfiltro.com/noticias/2021_informe_anual/), donde destacamos el caso de una ONG venezolana de DDHH que fue víctima de acceso no autorizado a una cuenta de un servicio de comunicación. Esto, a toda evidencia, ocurrió por la facilitación e interceptación de los SMS de verificación por parte de su operadora. Hemos alertado en los últimos años otros casos de periodistas y actores cívicos, cuyas comunicaciones han sido aparentemente espiadas.
+Lo expresado en el informe de Telefónica, que además refleja las cifras de solicitudes en los distintos países en los que opera, coincide completamente con multiples casos reportados, incluyendo un caso que documentamos en nuestro [informe 2021 "Sin Derechos en #InternetVE"](https://vesinfiltro.com/noticias/2021_informe_anual/), donde destacamos cómo una ONG venezolana de DDHH que fue víctima de acceso no autorizado a una cuenta de un servicio de comunicación. Esto, a toda evidencia, ocurrió por la facilitación e interceptación de los SMS de verificación por parte de su operadora. Hemos alertado en los últimos años otros casos de periodistas y actores cívicos, cuyas comunicaciones han sido aparentemente espiadas.
 
 Las revelaciones hechas en el informe resaltan la necesidad de que periodistas, voceros o fuentes, defensores de DDHH y activistas no utilicen llamadas de teléfono ni mensajes de SMS para comunicarse, sino que más bien usen medios de comunicación cifrados como Signal, incluso Whatsapp resulta mejor mejor que un SMS o una llamada.
 
 También refuerza la importancia de que los usuarios en riesgo no tengan la verificación de dos pasos de sus cuentas mediante SMS o llamadas de teléfono, sino por medio de aplicaciones de autenticación como Google Authenticator y elementos físicos como llaves de seguridad.
 
-**Los datos del informe**
+## Los datos claves del informe
 * Líneas (accesos) afectados por la intercepciones:  1.584.547 (21% de las líneas)
 * Líneas (accesos) afectados por solicitudes de metadatos: 997.679 (13% de las líneas)
 * Accesos de líneas de teléfono y de servicio de internet de Movistar Venezuela:  7.730.000
@@ -34,7 +34,67 @@ También refuerza la importancia de que los usuarios en riesgo no tengan la veri
 * No reciben solicitudes de órdenes judiciales, sino de órganos de investigación, policiales, militares, inteligencia y hasta la universidad de seguridad UNES
 * Reconocen que en 2021 iniciaron el bloqueo de 27 URL distintas por orden de CONATEL
 
+![](/res/post_img/2022-06-23-espionaje-comunicaciones/percent_por_pais.png)
+![](/res/post_img/2022-06-23-espionaje-comunicaciones/requests_2016-2021.png)
 
+
+<div class="table-responsive">
+  <table class="blocklist">
+    <tbody>
+      <tr>
+        <td colspan="2" style="text-align: left"><strong>1. Interceptaciones Legales</strong>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
+        <td>
+
+            861.004
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
+        <td>
+
+            21.601
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de accesos afectados
+        </td>
+        <td>
+
+            1.584.547
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: left"><strong>2. Metadatos Asociados a las Comunicaciones</strong>
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes recibidas</td>
+        <td>
+
+            149.152
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de solicitudes rechazadas</td>
+        <td>
+
+            1.613
+        </td>
+      </tr>
+      <tr>
+        <td style="text-align: left">Nº de accesos afectados</td>
+        <td>
+
+            997.679
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 ## En detalle la vulneración del derecho a la privacidad
@@ -67,81 +127,10 @@ La privacidad es un Derecho Humano fundamental e inalienable, que a su vez es cl
 
 El informe de transparencia de Telefónica también refleja que la Comisión Nacional de Telecomunicaciones (CONATEL) le solicitó el bloqueo de 30 URL durante 2021. Desde hace tiempo el bloqueo de sitios web se ha vuelto una forma sistemática de violación a los derechos humanos en Venezuela.
 
-En el mismo 2021 el informe anual de VE sin Filtro documentó que al menos 68 dominios de internet estuvieron bloqueados en ese período, correspondiéndole 59 sitios web. Siendo Movistar el segundo ISP con más eventos de bloqueo documentados, luego de la estatal CANTV. De esos 68 dominios bloqueados en Venezuela, 45 pertenecen a medios de noticias, 3 a organizaciones defensoras de Derechos Humanos y de herramientas para evadir la censura.
+En el mismo 2021 el [informe anual de VE sin Filtro](https://vesinfiltro.com/noticias/2021_informe_anual/) documentó que al menos 68 dominios de internet estuvieron bloqueados en ese período, correspondiéndole 59 sitios web. Siendo Movistar el segundo ISP con más eventos de bloqueo documentados, luego de la estatal CANTV. De esos 68 dominios bloqueados en Venezuela, 45 pertenecen a medios de noticias, 3 a organizaciones defensoras de Derechos Humanos y de herramientas para evadir la censura.
 
-En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios de noticias como de organizaciones de DDHH, el más reciente en Junio de 2022.
+En 2022 VE sin Filtro ha documentado nuevos eventos de bloqueo, tanto de medios de noticias como de organizaciones de DDHH, [el más reciente en Junio de 2022](https://vesinfiltro.com/noticias/2022-06-22-bloqueo-jep/), donde se bloqueó el sitio web de la ONG Justicia, Encuentro y Perdón en la estatal CANTV y en Movistar.
 
-<div class="table-responsive">
-  <table class="blocklist">
-    <tr>
-      <th colspan="2"><strong>VENEZUELA</strong><br><strong>2021</strong></th>
-    </tr>
-    <tbody>
-      <tr>
-        <td colspan="2" style="text-align: left"><strong>1. Interceptaciones Legales</strong>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de solicitudes recibidas</td>
-        <td>
-          <p style="text-align: right">
-            861.004</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de solicitudes rechazadas</td>
-        <td>
-          <p style="text-align: right">
-            21.601</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de accesos afectados
-        </td>
-        <td>
-          <p style="text-align: right">
-            1.584.547</p>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2" style="text-align: left"><strong>2. Metadatos Asociados a las Comunicaciones</strong>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de solicitudes recibidas</td>
-        <td>
-          <p style="text-align: right">
-            149.152</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de solicitudes rechazadas</td>
-        <td>
-          <p style="text-align: right">
-            1.613</p>
-        </td>
-      </tr>
-      <tr>
-        <td style="text-align: left">Nº de accesos afectados</td>
-        <td>
-          <p style="text-align: right">
-            997.679</p>
-        </td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>
-          <img src="/res/VeSinFiltro-long.svg" />
-        </td>
-        <td class="social">
-          @VEsinFiltro<br>
-          vesinfiltro.com
-        </td>
-      </tr>
-    </tfoot>
-  </table>
-</div>
 
 ## Recomendaciones:
 
