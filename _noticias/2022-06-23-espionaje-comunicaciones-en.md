@@ -11,6 +11,9 @@ image: /res/post_img/2022-06-23-espionaje-comunicaciones/2022-06-23-en.png
 
 <p class="cover"><img class="" src="/res/post_img/2022-06-23-espionaje-comunicaciones/2022-06-23-en.png"></p>
 
+
+<small><em>Transalation graciusly provided by <strong><a href="https://www.caracaschronicles.com/2022/06/24/the-maduro-administration-is-spying-on-everyone/">Caracas Chronicles</a></strong>, original published in <a href="/noticias/2022-06-23-espionaje-comunicaciones/">Spanish</a> on 2022-06-22</em></small>
+
 A transparency [report](https://www.telefonica.com/es/wp-content/uploads/sites/4/2021/08/Informe-de-Transparencia-en-las-Comunicaciones-2021.pdf)  recently published by Telefónica, the parent company of Movistar Venezuela, revealed indiscriminate and massive interceptions of the private communications of their Venezuelan subscribers, by order of security government agencies.
 
 According to the document, **in 2021 Telefónica intercepted the communications of over 1.5 million (1,584,547) subscribers in Venezuela, more than 20% of Movistar telephone/internet subscriber lines.** These interventions were carried out by order of the government of Nicolás Maduro and included intercepting or "tapping" calls, monitoring SMS, giving the location of people through their cell phones and/or monitoring their internet traffic. Interventions in other countries in the region included in the report don’t even get close to 1%.
