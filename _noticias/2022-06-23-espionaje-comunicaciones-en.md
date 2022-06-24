@@ -3,7 +3,7 @@ layout: post
 title:  "Maduro administration is spying on Venezuelans at a massive scale"
 small:   "Venezuela is spying on it's citizens at a massive scale"
 excerpt: "Spanish telecommunications giant Telefónica shows how its Venezuelan subsidiary allowed the government to intercept communications of over 20% of their subscriber lines."
-permalink: /noticias/2022-06-23-espionaje-comunicaciones/
+permalink: /noticias/venezuela-communications-spying/
 date:   2022-06-22 18:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-06-23-espionaje-comunicaciones/2022-06-23-en.png
