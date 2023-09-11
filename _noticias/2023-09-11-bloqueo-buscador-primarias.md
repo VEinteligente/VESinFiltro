@@ -6,7 +6,7 @@ excerpt: "Bloquean buscadorprimaria2023.com, la web habilitada para que los elec
 permalink: /noticias/2023-09-11-bloqueo-buscador-primarias/
 date:   2023-09-11 20:00:00 -0400
 categories: bloqueos
-#image: /res/post_img/2023-09-11.png
+image: /res/post_img/2023-09-11.png
 ---
 
 La página web www.buscadorprimaria2023.com, habilitada para que los electores revisen los centros de votación asignados en las primarias de la oposición, fue bloqueada por los principales proveedores de internet en Venezuela. 
