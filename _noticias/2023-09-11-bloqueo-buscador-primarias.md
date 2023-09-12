@@ -8,7 +8,7 @@ date: 2023-09-11 20:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2023-09-11.png
 ---
-
+![](/res/post_img/2023-09-11.png)
 La página web www.buscadorprimaria2023.com, habilitada para que los electores revisen los centros de votación asignados en las primarias de la oposición, fue bloqueada por los principales proveedores de internet en Venezuela. 
 
 El bloqueo tipo DNS se encuentra activo en Digitel, Inter, Supercable y en la estatal CANTV. Movistar también aplica un bloqueo pero de tipo HTTPS/HTTP.
