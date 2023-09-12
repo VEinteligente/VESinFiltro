@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Principales operadoras de internet en Venezuela bloquean el buscador de centros de votación para las primarias de la oposición"
-small:   "Operadoras bloquean el buscador de centros de votación para las primarias de la oposición"
-excerpt: "Bloquean buscadorprimaria2023.com, la web habilitada para que los electores revisen los centros de votación asignados en las primarias de la oposición"
+title: "Principales operadoras de internet en Venezuela bloquean el buscador de centros de votación para las primarias de la oposición"
+small: "Operadoras bloquean el buscador de centros de votación para las primarias de la oposición"
+excerpt: "Bloquean buscadorprimaria2023.com, la página web habilitada para que los electores revisen los centros de votación asignados en las primarias de la oposición"
 permalink: /noticias/2023-09-11-bloqueo-buscador-primarias/
-date:   2023-09-11 20:00:00 -0400
+date: 2023-09-11 20:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2023-09-11.png
 ---
