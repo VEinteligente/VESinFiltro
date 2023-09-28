@@ -7,7 +7,7 @@ permalink: /noticias/2021_informe_anual/
 date:   2022-04-06 17:20:00 -0400
 redirect_from:
   - /2021/
-categories: bloqueos
+categories: reporte
 image: /res/post_img/2021_es.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
