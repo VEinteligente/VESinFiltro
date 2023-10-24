@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Ve Sin Filtro denuncia el asedio contra la infraestructura para la celebración de la elección primaria en Venezuela"
+title: "Ve Sin Filtro denuncia la censura contra la infraestructura para la celebración de la elección primaria en Venezuela"
 small: "Los bloqueos a la infraestructura de internet afectan el proceso de las primarias 2023 en Venezuela"
 excerpt: "Los bloqueos a la infraestructura de internet en Venezuela, afecta a sitios de búsqueda de centros de votación y servidores de transmisión de resultados electorales."
-permalink: /noticias/2023-10-24-asedio-eleccion-primarias-venezuela/
+permalink: /noticias/2023-10-24-censura-eleccion-primarias-venezuela/
 date: 2023-10-24 08:59:00 -0400
 categories: bloqueos
 ---
