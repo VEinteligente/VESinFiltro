@@ -4,7 +4,7 @@ title: "Ve Sin Filtro denuncia el asedio contra la infraestructura para la celeb
 small: "Los bloqueos a la infraestructura de internet afectan el proceso de las primarias 2023 en Venezuela"
 excerpt: "Los bloqueos a la infraestructura de internet en Venezuela, afecta a sitios de búsqueda de centros de votación y servidores de transmisión de resultados electorales."
 permalink: /noticias/2023-10-24-asedio-elección-primarias-venezuela/
-date: 2023-10-24 09:00:00 -0400
+date: 2023-10-24 08:59:00 -0400
 categories: bloqueos
 ---
 Ve Sin Filtro observa con preocupación y alarma los bloqueos contra la infraestructura habilitada por la Comisión Nacional de Primaria, desde el bloqueo de los sitios de buscadores de centros de votación y la página de la Comisión, documentados por Ve sin Filtro; hasta el bloqueo a los servidores utilizados para la transmisión y totalización de resultados, según denunció Jesús María Casal.
