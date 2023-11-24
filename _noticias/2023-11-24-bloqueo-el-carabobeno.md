@@ -2,7 +2,7 @@ layout: post
 title: "Operadoras de Internet bloquean el sitio web de noticias El Carabobeño"
 small: "Operadoras de Internet bloquean el sitio web de noticias El Carabobeño"
 excerpt: "Bloquean el-carabobeno.com, el sitio web de noticias El Carabobeño"
-permalink: /noticias/2023-09-11-bloqueo-buscador-primarias/
+permalink: /noticias/2023-11-24-bloqueo-el-carabobeno/
 date: 2023-11-24 12:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2023-11-241.png
