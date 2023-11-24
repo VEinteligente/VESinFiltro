@@ -6,7 +6,7 @@ excerpt: "Bloquean el-carabobeno.com, el sitio web de noticias El Carabobeño"
 permalink: /noticias/2023-11-24-bloqueo-el-carabobeno/
 date: 2023-11-24 12:30:00 -0400
 categories: bloqueos
-image: /res/post_img/2023-11-241.png
+image: /res/post_img/2023-11-24.png
 ---
 ![](/res/post_img/2023-11-24.png)
 El sitio web de El Carabobeño ha sido bloqueado por múltiples operadoras de Internet en Venezuela. De acuerdo con la documentación de VeSinFiltro, desde el pasado 8 de noviembre, no se puede acceder al url www.el-carabobeno.com desde CANTV, Digitel, NetUno, Inter y Movistar.
