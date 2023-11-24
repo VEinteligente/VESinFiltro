@@ -9,7 +9,7 @@ categories: bloqueos
 image: /res/post_img/2023-11-241.png
 ---
 ![](/res/post_img/2023-11-24.png)
-El sitio web de El Carabobeño ha sido bloqueado por múltiples operadoras de Internet en Venezuela. De acuerdo con la documentación de VeSinFiltro, desde el pasado 8 de noviembre, no se puede acceder al url www.elcarabobeno.com desde CANTV, Digitel, NetUno, Inter y Movistar.
+El sitio web de El Carabobeño ha sido bloqueado por múltiples operadoras de Internet en Venezuela. De acuerdo con la documentación de VeSinFiltro, desde el pasado 8 de noviembre, no se puede acceder al url www.el-carabobeno.com desde CANTV, Digitel, NetUno, Inter y Movistar.
 
 En el caso de CANTV, el bloqueo es de tipo DNS y ha sido intermitente. Digitel, NetUno e Inter mantienen el bloqueo por DNS y Movistar un bloqueo de tipo https.
 
