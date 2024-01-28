@@ -8,7 +8,7 @@ permalink: /noticias/2024-01-28-Proteccion-de-Datos-Personales/
 date: 2024-01-27 23:30:00 -0400
 categories: reporte
 ---
-(Caracas, 28/01/2024). La protección de datos personales se hace cada vez más importante para garantizar la privacidad y la seguridad de los ciudadanos, especialmente ahora que el Estado y las empresas privadas tienen cada vez más información confidencial y sensible. Este 28 de enero, cuando se celebra el Día Internacional para la Protección de Datos Personales, desde VE sin Filtro reiteramos la necesidad de que en Venezuela existan leyes y procedimientos que ofrezcan garantías y resguarden la información de todos y todas.
+La protección de datos personales se hace cada vez más importante para garantizar la privacidad y la seguridad de los ciudadanos, especialmente ahora que el Estado y las empresas privadas tienen cada vez más información confidencial y sensible. Este 28 de enero, cuando se celebra el Día Internacional para la Protección de Datos Personales, desde VE sin Filtro reiteramos la necesidad de que en Venezuela existan leyes y procedimientos que ofrezcan garantías y resguarden la información de todos y todas.
 
 El derecho de las personas de tener y controlar sus datos está consagrado en la legislación internacional, incluida la Declaración Universal de Derechos Humanos y el Pacto Internacional de Derechos Civiles y Políticos. Y, aunque no existe en Venezuela una legislación en este sentido, la Constitución señala en su artículo 60 que “toda persona tiene derecho a la protección de su honor, vida privada, intimidad, propia imagen, confidencialidad, y reputación“.
 
