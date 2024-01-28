@@ -2,8 +2,7 @@
 layout: post
 title: "VE sin Filtro insiste en la necesidad de resguardar la información sensible de los venezolanos"
 small: "Resguardar la información sensible de los venezolanos es una necesidad"
-excerpt: "Se debe garantizar y priorizar la protección de los datos personales de las personas. Tienen que ser recopilados y procesados de forma transparente, consensuada y lícita para que se respeten los derechos a la privacidad y a la protección. Recibir información sobre qué datos se recogen, por qué se recogen y con quién se comparten, sin el acceso no autorizado de terceros, es un derecho de todos y todas.
-"
+excerpt: "Se debe garantizar y priorizar la protección de los datos personales de las personas. Tienen que ser recopilados y procesados de forma transparente, consensuada y lícita para que se respeten los derechos a la privacidad y a la protección."
 permalink: /noticias/2024-01-28-Proteccion-de-Datos-Personales/
 date: 2024-01-27 23:30:00 -0400
 categories: reporte
