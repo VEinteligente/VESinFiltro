@@ -6,7 +6,7 @@ excerpt: "Se debe garantizar y priorizar la protección de los datos personales.
 permalink: /noticias/2024-01-28-Proteccion-de-Datos-Personales/
 date: 2024-01-27 23:30:00 -0400
 categories: reporte
-image: /res/post_img/2024-01-28.pn
+image: /res/post_img/2024-01-28.png
 ---
 ![](/res/post_img/2024-01-28.png)
 * Se debe garantizar y priorizar la protección de los datos personales. Tienen que ser recopilados y procesados de forma transparente, consensuada y lícita para que se respeten los derechos a la privacidad y a la protección. Recibir información sobre qué datos se recogen, por qué se recogen y con quién se comparten, sin el acceso no autorizado de terceros, es un derecho de todos y todas.
