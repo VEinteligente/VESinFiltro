@@ -60,17 +60,17 @@ En el #DíaMundialContraLaCensuraEnInternet
   </tr>
   <tr>
     <td>Media Sharing</td>
-     <td class="block" >MMED</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >13</td>
+     <td>MMED</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
+     <td>13</td>
   </tr>
   <tr>
     <td>News Media</td>
-     <td class="block" >NEWS</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
+     <td>NEWS</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
   </tr>
   <tr>
     <td>Political Criticism</td>
@@ -90,22 +90,22 @@ En el #DíaMundialContraLaCensuraEnInternet
     <td>Public Health</td>
      <td class="block" >PUBH</td>
      <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
   </tr>
   <tr>
     <td>Anonymization and Circumvention Tools</td>
-     <td class="block" >VPN</td>
-     <td class="block" >3</td>
-     <td class="block" >5</td>
-     <td class="block" >26</td>
+     <td>VPN</td>
+     <td>3</td>
+     <td>5</td>
+     <td>26</td>
   </tr>
   <tr>
     <td></td>
-     <td class="block" >TOTAL</td>
-     <td class="block" >85</td>
-     <td class="block" >120</td>
-     <td class="block" >561</td>
+     <td>TOTAL</td>
+     <td></td>85</td>
+     <td>120</td>
+     <td>561</td>
   </tr>
 </tbody>
 </table>
