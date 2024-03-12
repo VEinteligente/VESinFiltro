@@ -80,6 +80,13 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >DNS*</td>
   </tr>
   <tr>
+    <td>Pornography</td>
+     <td class="block" >PORN</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
     <td>Public Health</td>
      <td class="block" >PUBH</td>
      <td class="block" >DNS*</td>
