@@ -2,7 +2,7 @@
 layout: post
 title: "VE sin Filtro: Más de 550 eventos de bloqueos en Internet evidencian la censura y las limitaciones a los derechos humanos en Venezuela"
 small: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
-excerpt: "El programa VE sin Filtro, de la organización Conexión Segura y Libre, tiene un registro de al menos 51 medios de comunicación bloqueados y 14 sitios con contenido de crítica política. Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
+excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 permalink: /noticias/2024-03-12-Censura-internet/
 date: 2024-03-12 12:00:00 -0400
 categories: reporte
