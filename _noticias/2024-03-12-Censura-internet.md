@@ -28,8 +28,6 @@ En el #DíaMundialContraLaCensuraEnInternet
     <th>inter</th>
     <th>movistar</th>
     <th>digitel</th>
-    <th>NetUno</th>
-    <th>Supercable</th>
   </tr>
 </thead>
 <tbody>
@@ -39,13 +37,9 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
   </tr>
   <tr>
     <td>cronica.uno</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
@@ -57,13 +51,9 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
   </tr>
   <tr>
     <td>tvvenezuela.tv</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
