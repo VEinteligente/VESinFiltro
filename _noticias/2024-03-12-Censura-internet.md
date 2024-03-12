@@ -45,7 +45,7 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >22</td>
   </tr>
   <tr>
-    <td>evtv.online</td>
+    <td>Hate Speech</td>
      <td class="block" >HATE</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
@@ -59,14 +59,14 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >26</td>
   </tr>
   <tr>
-    <td>News Media</td>
+    <td>Media sharing</td>
      <td class="block" >MMED</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >13</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
+    <td>News Media</td>
      <td class="block" >NEWS</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
