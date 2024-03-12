@@ -16,8 +16,7 @@ En el #DíaMundialContraLaCensuraEnInternet
 
 <p style="text-align: justify;">(Caracas, 12 de marzo 2024). La administración de Nicolás Maduro mantiene una política de persecución contra la libre circulación de las ideas en Internet, violentando los derechos a la información, la libertad de expresión, la participación, la protesta, la asociación y otros reconocidos por la Declaración Universal de los Derechos Humanos y que deben garantizarse también en línea.</p>
 
-<p style="text-align: justify;">El programa VE sin Filtro, de la organización Conexión Segura y Libre, tiene un registro de al menos 85 páginas bloqueadas y 120 urls, con mayor incidencia en sitios de medios de comunicación (51 medios y 76 urls) y los que contienen críticas políticas (14 sitios y 16 urls). En total, son 556 eventos de bloqueos documentados:</p>
-
+<p style="text-align: justify;">El programa VE sin Filtro, de la organización Conexión Segura y Libre, tiene un registro de al menos 85 páginas bloqueadas y 120 urls, con mayor incidencia en sitios de medios de comunicación (51 medios y 76 urls) y los que contienen críticas políticas (14 sitios y 16 urls). En total, son 561 eventos de bloqueos documentados:</p>
 
 <div class="table-responsive">
 <table class="blocklist">
@@ -32,11 +31,11 @@ En el #DíaMundialContraLaCensuraEnInternet
 </thead>
 <tbody>
   <tr>
-    <td>efectococuyo.com</td>
-    <td>HTTP/HTTPS (previo)</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
+    <td>E-Commerce</td> 
+    <td>COMM</td>
+     <td class="block" >1</td>
+     <td class="block" >4/td>
+     <td class="block" >23</td>
   </tr>
   <tr>
     <td>cronica.uno</td>
