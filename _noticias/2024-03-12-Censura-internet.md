@@ -52,14 +52,14 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >9</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
+    <td>Human Rights Issues</td>
      <td class="block" >HUMR</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >26</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
+    <td>News Media</td>
      <td class="block" >MMED</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
@@ -73,21 +73,21 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >DNS*</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
+    <td>Political Criticism</td>
      <td class="block" >POLR</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
+    <td>Public Health</td>
      <td class="block" >PUBH</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
   </tr>
   <tr>
-    <td>Anonymization and circumvention tools</td>
+    <td>Anonymization and Circumvention Tools</td>
      <td class="block" >VPN</td>
      <td class="block" >3</td>
      <td class="block" >5</td>
