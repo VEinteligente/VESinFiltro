@@ -38,7 +38,7 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >23</td>
   </tr>
   <tr>
-    <td>Economics/td>
+    <td>Economics</td>
      <td class="block" >ECON</td>
      <td class="block" >2</td>
      <td class="block" >4</td>
@@ -59,7 +59,7 @@ En el #DíaMundialContraLaCensuraEnInternet
      <td class="block" >26</td>
   </tr>
   <tr>
-    <td>Media sharing</td>
+    <td>Media Sharing</td>
      <td class="block" >MMED</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
