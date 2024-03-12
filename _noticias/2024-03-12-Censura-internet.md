@@ -23,11 +23,11 @@ En el #DíaMundialContraLaCensuraEnInternet
 <table class="blocklist">
 <thead>
   <tr>
-    <th></th>
-    <th>cantv</th>
-    <th>inter</th>
-    <th>movistar</th>
-    <th>digitel</th>
+    <th>Categoría</th>
+    <th>Abreviatura</th>
+    <th>Sitios Bloqueados</th>
+    <th>URLs Bloqueados</th>
+    <th>Eventos de Bloqueo</th>
   </tr>
 </thead>
 <tbody>
