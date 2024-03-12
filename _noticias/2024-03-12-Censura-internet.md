@@ -102,10 +102,10 @@ En el #DíaMundialContraLaCensuraEnInternet
   </tr>
   <tr>
     <td></td>
-     <td>TOTAL</td>
-     <td>85</td>
-     <td>120</td>
-     <td>561</td>
+     <td><b>TOTAL</b></td>
+     <td><b>85</b></td>
+     <td><b>120</b></td>
+     <td><b>561</b></td>
   </tr>
 </tbody>
 </table>
