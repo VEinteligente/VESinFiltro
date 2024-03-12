@@ -131,6 +131,6 @@ En el #DíaMundialContraLaCensuraEnInternet
 
 <p style="text-align: justify;">La censura en Internet de Venezuela no sólo afecta la libertad de expresión información sino también la libertad de asociación, limitando la participación política,“esto especialmente grave en un año electoral donde el debate político ocurre en gran medida a través de Internet y los venezolanos se informarán y tomarán decisiones sobre el futuro del país”, agregó Azpúrua.</p>
 
-<p style="text-align: justify;">“Si el gobierno quisiera, puede parar la censura en Internet hoy mismo. Mientras, queda de parte de los medios buscar alternativas para evadir esa censura y de los venezolanos resistir y no acostumbrarse a estas restricciones, utilizando las herramientas y técnicas para sobrepasar estos bloqueos”,señaló Azpúrua.</p>
+<p style="text-align: justify;">“Si el gobierno quisiera, puede parar la censura en Internet hoy mismo. Mientras, queda de parte de los medios buscar alternativas para evadir esa censura y de los venezolanos resistir y no acostumbrarse a estas restricciones, utilizando las herramientas y técnicas para sobrepasar estos bloqueos”, señaló Azpúrua.</p>
 
 <p style="text-align: justify;">En un contexto en el que cada vez son más las aplicaciones administradas por el Gobierno y en el que se ha hecho evidente el interés de utilizar y acceder a datos personales con fines de control social y político, los usuarios deben ser más cautelosos y el Estado garantizar que esas aplicaciones y sus datos no serán abusados.</p>
