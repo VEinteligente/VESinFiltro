@@ -74,22 +74,22 @@ En el #DíaMundialContraLaCensuraEnInternet
   </tr>
   <tr>
     <td>Political Criticism</td>
-     <td class="block" >POLR</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
+     <td>POLR</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
   </tr>
   <tr>
     <td>Pornography</td>
-     <td class="block" >PORN</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
+     <td>PORN</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
+     <td>DNS*</td>
   </tr>
   <tr>
     <td>Public Health</td>
-     <td class="block" >PUBH</td>
-     <td class="block" >DNS*</td>
+     <td>PUBH</td>
+     <td>DNS*</td>
      <td>DNS*</td>
      <td>DNS*</td>
   </tr>
