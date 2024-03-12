@@ -18,6 +18,62 @@ En el #DíaMundialContraLaCensuraEnInternet
 
 <p style="text-align: justify;">El programa VE sin Filtro, de la organización Conexión Segura y Libre, tiene un registro de al menos 85 páginas bloqueadas y 120 urls, con mayor incidencia en sitios de medios de comunicación (51 medios y 76 urls) y los que contienen críticas políticas (14 sitios y 16 urls). En total, son 556 eventos de bloqueos documentados:</p>
 
+
+<div class="table-responsive">
+<table class="blocklist">
+<thead>
+  <tr>
+    <th></th>
+    <th>cantv</th>
+    <th>inter</th>
+    <th>movistar</th>
+    <th>digitel</th>
+    <th>NetUno</th>
+    <th>Supercable</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>efectococuyo.com</td>
+    <td>HTTP/HTTPS (previo)</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+  </tr>
+  <tr>
+    <td>cronica.uno</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+  </tr>
+  <tr>
+    <td>evtv.online</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+     <td class="block" >DNS</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
 <p style="text-align: justify;">“Tenemos más de una década de censura en Internet en Venezuela, está ha cambiado y ha tenido distintos focos; pero año tras año tenemos más bloqueos de páginas web y una sociedad cada vez más censurada”, sostuvo Andrés Azpúrua, director de Conexión Segura y Libre. “Esta censura la vemos en los bloqueos de páginas web que son ordenados por CONATEL e implementados por las distintas empresas que proveen el servicio de Internet”, agregó.</p>
 
 <p style="text-align: justify;">En Venezuela, el acceso a la información es crucial debido a la compleja dinámica social, política y económica. La censura en los medios tradicionales y el crecimiento global de Internet hacen que el acceso a la red sea esencial para el ejercicio de los derechos civiles y políticos.</p>
