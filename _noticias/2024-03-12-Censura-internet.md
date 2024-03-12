@@ -81,24 +81,24 @@ En el #DíaMundialContraLaCensuraEnInternet
   </tr>
   <tr>
     <td>tvvenezuela.tv</td>
-     <td class="block" >PPUBH</td>
+     <td class="block" >PUBH</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
   </tr>
   <tr>
-    <td>tvvenezuela.tv</td>
-     <td class="block" >POLR</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-  </tr>
-  <tr>
-    <td>tvvenezuela.tv</td>
+    <td>Anonymization and circumvention tools</td>
      <td class="block" >VPN</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
+     <td class="block" >3</td>
+     <td class="block" >5</td>
+     <td class="block" >26</td>
+  </tr>
+  <tr>
+    <td></td>
+     <td class="block" >TOTAL</td>
+     <td class="block" >85</td>
+     <td class="block" >120</td>
+     <td class="block" >561</td>
   </tr>
 </tbody>
 </table>
