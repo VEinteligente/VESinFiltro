@@ -12,6 +12,7 @@ image: /res/post_img/2024-03-12.png
 En el #DíaMundialContraLaCensuraEnInternet
 
 * El programa VE sin Filtro, de la organización Conexión Segura y Libre, tiene un registro de al menos 51 medios de comunicación bloqueados y 14 sitios con contenido de crítica política.
+  
 * Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara.
 
 <p style="text-align: justify;">(Caracas, 12 de marzo 2024). La administración de Nicolás Maduro mantiene una política de persecución contra la libre circulación de las ideas en Internet, violentando los derechos a la información, la libertad de expresión, la participación, la protesta, la asociación y otros reconocidos por la Declaración Universal de los Derechos Humanos y que deben garantizarse también en línea.</p>
