@@ -61,37 +61,37 @@ En el #DíaMundialContraLaCensuraEnInternet
   <tr>
     <td>Media Sharing</td>
      <td>MMED</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
+     <td>3</td>
+     <td>3</td>
      <td>13</td>
   </tr>
   <tr>
     <td>News Media</td>
      <td>NEWS</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
+     <td>51</td>
+     <td>76</td>
+     <td>362</td>
   </tr>
   <tr>
     <td>Political Criticism</td>
      <td>POLR</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
+     <td>14</td>
+     <td>16</td>
+     <td>70</td>
   </tr>
   <tr>
     <td>Pornography</td>
      <td>PORN</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
+     <td>2</td>
+     <td>2</td>
+     <td>2</td>
   </tr>
   <tr>
     <td>Public Health</td>
      <td>PUBH</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
-     <td>DNS*</td>
+     <td>2</td>
+     <td>2</td>
+     <td>8</td>
   </tr>
   <tr>
     <td>Anonymization and Circumvention Tools</td>
