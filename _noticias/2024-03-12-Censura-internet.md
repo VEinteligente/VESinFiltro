@@ -103,7 +103,7 @@ En el #DíaMundialContraLaCensuraEnInternet
   <tr>
     <td></td>
      <td>TOTAL</td>
-     <td></td>85</td>
+     <td>85</td>
      <td>120</td>
      <td>561</td>
   </tr>
