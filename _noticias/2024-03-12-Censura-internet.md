@@ -67,13 +67,6 @@ En el #DíaMundialContraLaCensuraEnInternet
   </tr>
   <tr>
     <td>tvvenezuela.tv</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-     <td class="block" >DNS*</td>
-  </tr>
-  <tr>
-    <td>tvvenezuela.tv</td>
      <td class="block" >NEWS</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
@@ -82,6 +75,27 @@ En el #DíaMundialContraLaCensuraEnInternet
   <tr>
     <td>tvvenezuela.tv</td>
      <td class="block" >POLR</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >PPUBH</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >POLR</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >VPN</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
