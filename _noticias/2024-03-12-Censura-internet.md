@@ -32,28 +32,56 @@ En el #DíaMundialContraLaCensuraEnInternet
 <tbody>
   <tr>
     <td>E-Commerce</td> 
-    <td>COMM</td>
+     <td class="block" >COMM</td>
      <td class="block" >1</td>
-     <td class="block" >4/td>
+     <td class="block" >4</td>
      <td class="block" >23</td>
   </tr>
   <tr>
-    <td>cronica.uno</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
+    <td>Economics/td>
+     <td class="block" >ECON</td>
+     <td class="block" >2</td>
+     <td class="block" >4</td>
+     <td class="block" >22</td>
   </tr>
   <tr>
     <td>evtv.online</td>
+     <td class="block" >HATE</td>
      <td class="block" >DNS</td>
      <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
-     <td class="block" >DNS</td>
+     <td class="block" >9</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >HUMR</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >26</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >MMED</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >13</td>
   </tr>
   <tr>
     <td>tvvenezuela.tv</td>
      <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >NEWS</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+     <td class="block" >DNS*</td>
+  </tr>
+  <tr>
+    <td>tvvenezuela.tv</td>
+     <td class="block" >POLR</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
      <td class="block" >DNS*</td>
