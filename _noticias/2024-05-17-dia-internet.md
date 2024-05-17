@@ -16,7 +16,7 @@ Exigimos garantías para el ejercicio de los derechos en el entorno digital
 * Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
 * Según los índices de penetración publicados por Kepios, Venezuela tiene una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití.
 
-![Tasa de Penetración en Latam 2023](res/post_img/2024-05-17/Tasa de Penetración en Latam 2023.png)
+![Tasa de Penetración en Latam 2023](res/post_img/2024-05-17/TasaPenetracionLatam.png)
 
 (Caracas, 17 de mayo 2024). Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo. Las mejoras que apenas comienzan están ocurriendo de manera muy desigual, con las clases sociales más pudientes obteniendo un servicio de mayor calidad y las de menor poder adquisitivo o en zonas menos favorecidas, estancadas en un acceso básico. 
 
@@ -30,7 +30,7 @@ De acuerdo con el último reporte de la Conatel, correspondiente al cuarto trime
 
 Estas cifras oficiales de penetración de Internet cuentan usuarios que tienen acceso a telefonía móvil y en planes de datos realmente que no son suficientes. Igualmente, parecen asumir que todos los clientes de servicios de Internet tienen una conexión en funcionamiento, pero un número importante de clientes de CANTV no han tenido servicio durante meses o años. Según el Observatorio Venezolano de Servicios Públicos (OVSP), el 41,2% de los venezolanos sin acceso a Internet afirman que la razón es la falta de servicio de CANTV.
 
-![Penetración de Internet en Venezuela](res/post_img/2024-05-17/Penetración de Internet en Venezuela 2020-2022.png)
+![Penetración de Internet en Venezuela](res/post_img/2024-05-17/PenetracionInternet.png)
 
 La distribución de los usuarios evidencia la desigualdad en el acceso a Internet en el país, los 10 estados con menor penetración (de menor a mayor) son Amazonas, Delta Amacuro, Apure, Sucre, Yaracuy, Guárico, Monagas, Trujillo, Falcón y Cojedes. El Distrito Capital y el estado Miranda tienen 197.70% y 87.98% de penetración de Internet respectivamente. Estos datos son de Conatel.
 
