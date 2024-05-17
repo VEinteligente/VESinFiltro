@@ -16,6 +16,7 @@ Exigimos garantías para el ejercicio de los derechos en el entorno digital
 * Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
 * Según los índices de penetración publicados por Kepios, Venezuela tiene una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití.
 
+![Tasa de Penetración en Latam 2023](res/post_img/2024-05-17/Tasa de Penetración en Latam 2023.png)
 
 (Caracas, 17 de mayo 2024). Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo. Las mejoras que apenas comienzan están ocurriendo de manera muy desigual, con las clases sociales más pudientes obteniendo un servicio de mayor calidad y las de menor poder adquisitivo o en zonas menos favorecidas, estancadas en un acceso básico. 
 
@@ -27,9 +28,13 @@ Las fuentes de información que miden  el acceso a Internet en Venezuela tienden
 
 De acuerdo con el último reporte de la Conatel, correspondiente al cuarto trimestre de 2022, Venezuela tiene una penetración de 55.34%, lo que representó un aumento de 1.29 puntos porcentuales en comparación con el último trimestre de 2021.
 
-Estas cifras oficiales de penetración de Internet cuentan usuarios que tienen acceso a telefonía móvil y en planes de datos realmente que no son suficientes. Igualmente, parecen asumir que todos los clientes de servicios de Internet tienen una conexión en funcionamiento, pero un número importante de clientes de CANTV no han tenido servicio durante meses o años. Según el Observatorio Venezolano de Servicios Públicos (OVSP), el 41,2% de los venezolanos sin acceso a Internet afirman que la razón es la falta de servicio de CANTV. 
+Estas cifras oficiales de penetración de Internet cuentan usuarios que tienen acceso a telefonía móvil y en planes de datos realmente que no son suficientes. Igualmente, parecen asumir que todos los clientes de servicios de Internet tienen una conexión en funcionamiento, pero un número importante de clientes de CANTV no han tenido servicio durante meses o años. Según el Observatorio Venezolano de Servicios Públicos (OVSP), el 41,2% de los venezolanos sin acceso a Internet afirman que la razón es la falta de servicio de CANTV.
+
+![Penetración de Internet en Venezuela](res/post_img/2024-05-17/Penetración de Internet en Venezuela 2020-2022.png)
 
 La distribución de los usuarios evidencia la desigualdad en el acceso a Internet en el país, los 10 estados con menor penetración (de menor a mayor) son Amazonas, Delta Amacuro, Apure, Sucre, Yaracuy, Guárico, Monagas, Trujillo, Falcón y Cojedes. El Distrito Capital y el estado Miranda tienen 197.70% y 87.98% de penetración de Internet respectivamente. Estos datos son de Conatel.
+
+![Penetración Regional de Internet en Venezuela](res/post_img/2024-05-17/% Usuarios de Internet vs. Estado.png)
 
 Estos datos evidencian que hay una brecha entre los estados rurales y urbanos en el país. Los estados con mayores índices de penetración tienen una mayor densidad de población. 22 de los 24 estados de Venezuela tienen un acceso a Internet inestable y desigual, lo que se correlaciona positivamente con la densidad de población del país.
 
@@ -38,7 +43,11 @@ Estos datos evidencian que hay una brecha entre los estados rurales y urbanos en
 La velocidad de Internet puede suponer un obstáculo para su uso y puede verse afectada por múltiples factores. Hay varias formas de medir la velocidad de Internet, y no siempre son comparables. Algunas fuentes importantes, como la empresa de pruebas de redes Ookla, puede presentar sesgos, ya que no utilizan una muestra aleatoria de conexiones de todo el país, sino información voluntaria de personas que utilizan la herramienta para determinar la velocidad de su conexión.
 Según Ookla, en Venezuela para abril de 2024, la velocidad mediana de Internet fijo residencial fue de 45.84 Mbps para la  carga y de 48.77 Mbps para descarga.
 
+![Velocidad de Internet Fijo (2023-2024)](res/post_img/2024-05-17/Velocidad de Internet Fijo (2023-2024).png)
+
 En el caso de la velocidad mediana de Internet móvil fue de 6.29 para la  carga y de 11.66 Mbps para descarga.
+
+![Velocidad de Internet Móvil](res/post_img/2024-05-17/Velocidad de Internet Móvil (2023-2024).png)
 
 Venezuela tiene una velocidad casi seis veces más lenta que la velocidad de carga en el Internet fijo de Chile (270.19 Mbps).
 
@@ -150,7 +159,7 @@ Los bloqueos se extienden más allá de los medios informativos; en particular, 
 Los bloqueos de sitios web en Venezuela no se ajustan conforme a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de Conatel, con total opacidad y sin una base jurídica clara. No hay garantías del debido proceso y no son dictadas por un juez.
 
 
-## Garantías para el ejercicio de derechos
+## Garantías para el Ejercicio de Derechos
 
 El acceso a Internet es fundamental para el ejercicio de los derechos humanos. Permite acceder a información en tiempo real, facilita la difusión de noticias, denuncias y documentación. De igual forma, es una oportunidad para que las personas puedan expresar sus opiniones, organizarse y movilizarse. La educación en línea y el acceso a recursos digitales son, también, esenciales para el conocimiento y la capacitación.
 
