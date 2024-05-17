@@ -43,11 +43,11 @@ Estos datos evidencian que hay una brecha entre los estados rurales y urbanos en
 La velocidad de Internet puede suponer un obstáculo para su uso y puede verse afectada por múltiples factores. Hay varias formas de medir la velocidad de Internet, y no siempre son comparables. Algunas fuentes importantes, como la empresa de pruebas de redes Ookla, puede presentar sesgos, ya que no utilizan una muestra aleatoria de conexiones de todo el país, sino información voluntaria de personas que utilizan la herramienta para determinar la velocidad de su conexión.
 Según Ookla, en Venezuela para abril de 2024, la velocidad mediana de Internet fijo residencial fue de 45.84 Mbps para la  carga y de 48.77 Mbps para descarga.
 
-![Velocidad de Internet Fijo (2023-2024)](/res/post_img/2024-05-17/Velocidad de Internet Fijo (2023-2024).png)
+![Velocidad de Internet Fijo (2023-2024)](/res/post_img/2024-05-17/VelocidadInternetFijo(2023-2024).png)
 
 En el caso de la velocidad mediana de Internet móvil fue de 6.29 para la  carga y de 11.66 Mbps para descarga.
 
-![Velocidad de Internet Móvil](/res/post_img/2024-05-17/Velocidad de Internet Móvil (2023-2024).png)
+![Velocidad de Internet Móvil](/res/post_img/2024-05-17/VelocidadInternetMovil(2023-2024).png)
 
 Venezuela tiene una velocidad casi seis veces más lenta que la velocidad de carga en el Internet fijo de Chile (270.19 Mbps).
 
