@@ -10,6 +10,7 @@ image: /res/post_img/2024-03-12.png
 ---
 ![](/res/post_img/2024-03-12.png)
 Exigimos garantías para el ejercicio de los derechos en el entorno digital
+
 **VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo**
 
 * Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
