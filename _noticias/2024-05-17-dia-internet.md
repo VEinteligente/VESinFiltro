@@ -10,9 +10,10 @@ image: /res/post_img/2024-03-12.png
 ---
 ![](/res/post_img/2024-03-12.png)
 Exigimos garantías para el ejercicio de los derechos en el entorno digital
-VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo
-Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
-Según los índices de penetración publicados por Kepios, Venezuela tiene una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití.
+**VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo**
+
+* Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
+* Según los índices de penetración publicados por Kepios, Venezuela tiene una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití.
 
 
 (Caracas, 17 de mayo 2024). Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo. Las mejoras que apenas comienzan están ocurriendo de manera muy desigual, con las clases sociales más pudientes obteniendo un servicio de mayor calidad y las de menor poder adquisitivo o en zonas menos favorecidas, estancadas en un acceso básico. 
