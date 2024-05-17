@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo"
-small: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
-excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
+small: "Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo."
+excerpt: "Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo."
 permalink: /noticias/2024-05-17-Dia-internet/
 date: 2024-05-17 13:00:00 -0400
 categories: repote
