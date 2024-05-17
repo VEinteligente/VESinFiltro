@@ -4,7 +4,7 @@ title: "VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de 
 small: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 permalink: /noticias/2024-05-17-Dia-internet/
-date: 2024-05-17 2:00:00 -0400
+date: 2024-05-17 13:00:00 -0400
 categories: noticia
 image: res/post_img/2024-05-17/DMundialINTERNET.png
 ---
