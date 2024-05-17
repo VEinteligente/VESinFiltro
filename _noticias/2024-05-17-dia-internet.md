@@ -6,9 +6,9 @@ excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas int
 permalink: /noticias/2024-05-17-Dia-internet/
 date: 2024-05-17 12:00:00 -0400
 categories: reporte
-image: /res/post_img/2024-03-12.png
+image: res/post_img/2024-05-17/Día Mundial de INTERNET.png
 ---
-![](/res/post_img/2024-03-12.png)
+![](res/post_img/2024-05-17/Día Mundial de INTERNET.png)
 Exigimos garantías para el ejercicio de los derechos en el entorno digital
 
 **VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo**
