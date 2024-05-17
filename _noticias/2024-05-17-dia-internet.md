@@ -5,10 +5,10 @@ small: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas inter
 excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 permalink: /noticias/2024-05-17-Dia-internet/
 date: 2024-05-17 12:00:00 -0400
-categories: reporte
-image: res/post_img/2024-05-17/Día Mundial de INTERNET.png
+categories: noticia
+image: res/post_img/2024-05-17/DMundialINTERNET.png
 ---
-![](res/post_img/2024-05-17/Día Mundial de INTERNET.png)
+![](res/post_img/2024-05-17/DMundialINTERNET.png)
 Exigimos garantías para el ejercicio de los derechos en el entorno digital
 
 **VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo**
