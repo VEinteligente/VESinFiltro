@@ -34,7 +34,7 @@ Estas cifras oficiales de penetración de Internet cuentan usuarios que tienen a
 
 La distribución de los usuarios evidencia la desigualdad en el acceso a Internet en el país, los 10 estados con menor penetración (de menor a mayor) son Amazonas, Delta Amacuro, Apure, Sucre, Yaracuy, Guárico, Monagas, Trujillo, Falcón y Cojedes. El Distrito Capital y el estado Miranda tienen 197.70% y 87.98% de penetración de Internet respectivamente. Estos datos son de Conatel.
 
-![Penetración Regional de Internet en Venezuela](/res/post_img/2024-05-17/% Usuarios de Internet vs. Estado.png)
+![Penetración Regional de Internet en Venezuela](/res/post_img/2024-05-17/UsuariosInternet.png)
 
 Estos datos evidencian que hay una brecha entre los estados rurales y urbanos en el país. Los estados con mayores índices de penetración tienen una mayor densidad de población. 22 de los 24 estados de Venezuela tienen un acceso a Internet inestable y desigual, lo que se correlaciona positivamente con la densidad de población del país.
 
