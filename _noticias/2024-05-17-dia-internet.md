@@ -145,3 +145,13 @@ Al día de hoy, VE sin Filtro identificó unos 561 eventos de bloqueos activos e
 </table>
 </div>
 
+Los bloqueos se extienden más allá de los medios informativos; en particular, esta censura se aplica también contra sitios dedicados a comentarios políticos y a sitios con contenido de derechos humanos. Todos los principales ISP examinados  aplican bloqueos de Internet, incluyendo tanto empresas públicas como privadas: CANTV, Movistar, Inter, Digitel, Net Uno y Supercable, estos son los proveedores con mayor porcentaje de distribución del mercado según Conatel.
+
+Los bloqueos de sitios web en Venezuela no se ajustan conforme a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de Conatel, con total opacidad y sin una base jurídica clara. No hay garantías del debido proceso y no son dictadas por un juez.
+
+
+## Garantías para el ejercicio de derechos
+
+El acceso a Internet es fundamental para el ejercicio de los derechos humanos. Permite acceder a información en tiempo real, facilita la difusión de noticias, denuncias y documentación. De igual forma, es una oportunidad para que las personas puedan expresar sus opiniones, organizarse y movilizarse. La educación en línea y el acceso a recursos digitales son, también, esenciales para el conocimiento y la capacitación.
+
+En este sentido, el Estado debe implementar políticas para mejorar el acceso a Internet en Venezuela, invertir en la expansión y mejora de la infraestructura de telecomunicaciones, especialmente en áreas rurales y remotas; fomentar la competencia entre proveedores de servicios; ofrecer exenciones de impuestos o incentivos a las empresas que inviertan en infraestructura de Internet; promover programas de alfabetización digital para que más personas comprendan cómo usar Internet y aprovechar sus beneficios; e, implementar puntos de acceso gratuitos en bibliotecas, parques y otros lugares.
