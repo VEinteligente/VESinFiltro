@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VEsinFiltro: Venezuela pasó de tener un Internet competitivo, a uno de los peores servicios de Internet del mundo"
+title: "VEsinFiltro: Venezuela pasó de tener un Internet Competitivo, a uno de los peores Servicios de Internet del Mundo"
 small: "Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo."
 excerpt: "Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo."
 permalink: /noticias/2024-05-17-Dia-internet/
