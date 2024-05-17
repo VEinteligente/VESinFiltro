@@ -16,11 +16,11 @@ Exigimos garantías para el ejercicio de los derechos en el entorno digital
 * Las mejoras ocurren de manera muy desigual, beneficiando a las clases sociales más pudientes, mientras que en las zonas menos favorecidas, siguen estancadas en un acceso básico. 
 * Según los índices de penetración publicados por Kepios, Venezuela tiene una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití.
 
-![Tasa de Penetración en Latam 2023](/res/post_img/2024-05-17/TasaPenetracionLatam.png)
-
 (Caracas, 17 de mayo 2024). Venezuela pasó de tener un ecosistema de telecomunicaciones competitivo y vibrante, a uno de los peores servicios de Internet del mundo. Las mejoras que apenas comienzan están ocurriendo de manera muy desigual, con las clases sociales más pudientes obteniendo un servicio de mayor calidad y las de menor poder adquisitivo o en zonas menos favorecidas, estancadas en un acceso básico. 
 
 Según los índices de penetración publicados por Kepios, al cierre de 2023 Venezuela tenía una de las tasas de penetración de Internet más bajas de América Latina, ubicándose en el quinto lugar. Solo por encima de Honduras, Guatemala, Nicaragua y Haití. 
+
+![Tasa de Penetración en Latam 2023](/res/post_img/2024-05-17/TasaPenetracionLatam.png)
 
 El aumento de la penetración de Internet es crucial para el desarrollo económico y la inclusión social. Investigaciones han demostrado que el aumento del acceso a Internet de banda ancha tiene un impacto positivo en las tasas de crecimiento económico.
 
