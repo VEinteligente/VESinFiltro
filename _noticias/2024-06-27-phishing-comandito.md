@@ -33,7 +33,7 @@ El phishing es un ataque informático en el que se engaña a los usuarios para q
 
 Hemos notado que durante eventos políticos se ha vuelto reiterativo los incidentes de phishing dirigido a las iniciativas política proveniente de líderes opositores, como lo fueron los casos de: [Phishing contra la plataforma Héroes de la Salud](https://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud) y [Phishing contra Voluntarios por Venezuela](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).
 
-Hemos identificado la cuenta falsa de @Comanditos_Vzla en X/Twitter como la principal promotora del formulario no oficial, así como un pequeño grupo de cuentas que se dedicaron a amplificar la campaña de phishing. También hemos detectado que el link al formulario de phishing se ha divulgado en otras redes sociales a través de cuentas falsas que imitan al equipo de la candidata presidencial María Corina Machado y su iniciativa de Comanditos.
+Hemos identificado la cuenta falsa de @Comanditos_Vzla en X/Twitter como la principal promotora del formulario no oficial. Además, encontramos un pequeño grupo de cuentas que se dedicaron a amplificar la campaña de phishing e incluso a suplantar la identidad de María Corina Machado utilizando el usuario falso de @MariaCorinaMA. El link al formulario de phishing también se ha divulgado en otras redes sociales a través de cuentas que imitan al equipo de la líder opositora y su iniciativa de Comanditos:
 
 **Instagram:**
 
