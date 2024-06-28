@@ -17,7 +17,7 @@ La página auténtica para el registro de comanditos es accesible a través de l
 
 ![bitly comanditos](/res/post_img/2024-06-27/bitly-comanditos-2024-06-27.png)
 
-Sin embargo, a través de redes sociales hemos identificado un URL malicioso: bit.ly/Comandito, el cual redirige a un formulario falso alojado también en Google Forms [[Archive](https://archive.is/wip/VCQLc)]. Este formulario solicita exactamente la misma información que el formulario auténtico administrado por el equipo de María Corina Machado, pero con una diferencia clave: este formulario fraudulento obliga a los usuarios a compartir su dirección de correo electrónico desde el cual se está llenando el formulario. Además, este formulario falso incluye una pregunta adicional que no aparece en el auténtico: "Apoyarías actividades de calle", con "Sí" o "No" como posibles respuestas. Este es un claro intento de phishing para obtener información personal y confidencial de los usuarios.
+**Sin embargo, a través de redes sociales hemos identificado un URL malicioso: bit.ly/Comandito**, el cual redirige a un formulario falso alojado también en Google Forms [[Archive](https://archive.is/wip/VCQLc)]. Este formulario solicita exactamente la misma información que el formulario auténtico administrado por el equipo de María Corina Machado, pero con una diferencia clave: este formulario fraudulento obliga a los usuarios a compartir su dirección de correo electrónico desde el cual se está llenando el formulario. Además, este formulario falso incluye una pregunta adicional que no aparece en el auténtico: "Apoyarías actividades de calle", con "Sí" o "No" como posibles respuestas. Este es un claro intento de phishing para obtener información personal y confidencial de los usuarios.
 
 
 ![Form Comandito](/res/post_img/2024-06-27/comandito-2024-06-27.png)
@@ -35,33 +35,33 @@ Hemos notado que durante eventos políticos se ha vuelto reiterativo los inciden
 
 Identificamos las cuentas falsas @MariaCorinaMa y @Comanditos_Vzla en X  (antiguamente twitter. También identificamos cuentas de usuarios en X que parecen haber formado parte de esta campaña de phishing:
 
-@angeesrrda
++@angeesrrda
 
-@duartej70
++@duartej70
 
-@elcarrusel001
++@elcarrusel001
 
-Instagram:
-
-@comanditosxvzla
-
-Tiktok
+**Instagram:**
 
 @comanditosxvzla
 
-Numeros telefónicos falsos mostrados:
+**Tiktok:**
 
-0412 702 3261 
++@comanditosxvzla
 
-0412 702 3322 
+**Numeros telefónicos falsos mostrados:**
 
-0412 702 3621 
++0412 702 3261 
 
-0412581 0128
++0412 702 3322 
 
-Canal de telegram falso:
++0412 702 3621 
 
-https://t.me/comanditosconvzla
++0412581 0128
+
+**Canal de telegram falso:**
+
++https://t.me/comanditosconvzla
 
 Este caso de phishing representa un gran riesgo para los ciudadanos venezolanos que quieren participar en la campaña de la líder opositora Maria Corina Machado. Tiene como objetivo confundir a los usuarios y lograr que accedan al sitio malicioso, para así obtener sus datos personales y confidenciales. 
 
