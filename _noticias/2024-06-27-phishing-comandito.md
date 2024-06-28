@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Reporte preliminar: Hacen Phishing para engañar a seguidores de Maria Corina Machado"
-small: "Reporte preliminar: Hacen Phishing para engañar a seguidores de Maria Corina Machado"
-excerpt: "Reporte preliminar: Hacen Phishing para engañar a seguidores de Maria Corina Machado."
+small: "Identifican campaña de phishing dirigida a seguidores de María Corina Machado"
+excerpt: "Este jueves 27 de junio, en VEsinFiltro identificamos una campaña de phishing dirigido a usuarios interesados en registrarse su “Comandito”, una iniciativa de la candidata presidencial María Corina Machado. La operación busca identificar y posiblemente exponer a ciudadanos que buscaban participar en la campaña a favor de Edmundo González Urrutia. Se compartieron enlaces engañosos que no llevaban al formulario de registro real, usando cuentas que aparentaban ser oficiales de la campaña."
 permalink: /noticias/2024-06-27-phishing-comandito/
 date: 2024-06-27 19:00:00 -0400
 categories: repote
