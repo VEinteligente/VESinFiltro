@@ -33,13 +33,7 @@ El phishing es un ataque informático en el que se engaña a los usuarios para q
 
 Hemos notado que durante eventos políticos se ha vuelto reiterativo los incidentes de phishing dirigido a las iniciativas política proveniente de líderes opositores, como lo fueron los casos de: [Phishing contra la plataforma Héroes de la Salud](https://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud) y [Phishing contra Voluntarios por Venezuela](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).
 
-Identificamos las cuentas falsas @MariaCorinaMa y @Comanditos_Vzla en X  (antiguamente twitter. También identificamos cuentas de usuarios en X que parecen haber formado parte de esta campaña de phishing:
-
-+ @angeesrrda
-
-+ @duartej70
-
-+ @elcarrusel001
+Hemos identificado la cuenta falsa de @Comanditos_Vzla en X/Twitter como la principal promotora del formulario no oficial, así como un pequeño grupo de cuentas que se dedicaron a amplificar la campaña de phishing. También hemos detectado que el link al formulario de phishing se ha divulgado en otras redes sociales a través de cuentas falsas que imitan al equipo de la candidata presidencial María Corina Machado y su iniciativa de Comanditos.
 
 **Instagram:**
 
@@ -52,19 +46,16 @@ Identificamos las cuentas falsas @MariaCorinaMa y @Comanditos_Vzla en X  (antigu
 **Numeros telefónicos falsos mostrados:**
 
 + 0412 702 3261 
-
-+ 0412 702 3322 
-
++ 0412 702 3322
 + 0412 702 3621 
-
 + 0412581 0128
 
 **Canal de telegram falso:**
 
-+ https://t.me/comanditosconvzla
++ t.me/comanditosconvzla
 
 Este caso de phishing representa un gran riesgo para los ciudadanos venezolanos que quieren participar en la campaña de la líder opositora Maria Corina Machado. Tiene como objetivo confundir a los usuarios y lograr que accedan al sitio malicioso, para así obtener sus datos personales y confidenciales. 
 
-En paralelo, existen declaraciones y una campaña coordinada de figuras públicas y simpatizantes al gobierno que afirman que la “Plataforma de los 'Comanditos' de Vente Venezuela fue supuestamente hackeada y los datos han sido filtrados”, pero no hay ninguna evidencia de esto. Como ha señalado Cazado res de Fake News, esto parece ser una campaña de intimidación y desinformación, un patrón que tiene años.
+En paralelo, existen declaraciones y una campaña coordinada de figuras públicas y simpatizantes al gobierno que afirman que la _“Plataforma de los 'Comanditos' de Vente Venezuela fue supuestamente hackeada y los datos han sido filtrados”_, pero no hay ninguna evidencia de esto. Como ha señalado [Cazadores de Fake News](https://x.com/cazamosfakenews/status/1806308238461141379), esto parece ser una campaña cuyo fin es desarticular iniciativas de organización, un patrón que tiene años ocurriendo en el país.
 
-La campaña hablando del supuesto hackeo a esta plataforma, en cambio, podría estar publicando la identidad de personas que cayeron en el engaño de la página falsa de registro. Este patrón ha sido observado en instancias anteriores, durante campañas de phishing con páginas de registro falsas contra "[Voluntarios X Venezuela](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)" en 2019 y "[Héroes por la salud](https://x.com/cazamosfakenews/status/1806308238461141379)" 2020,  documentadas por VE sin Filtro y que fueron usadas como base para campañas de intimidación y desinformación; en esas campañas previas supuestas listas hackeadas o filtradas [eran realmente obtenidas del engaño](https://medium.com/dfrlab/venezuelan-pro-regime-accounts-publish-personal-data-of-phishing-victims-1b41ffc256bd) con una página falsa.
+Sin embargo, sí existe el riesgo de que la campaña que habla sobre el supuesto hackeo a esta plataforma pueda revelar la identidad de las personas que fueron **engañadas por la página falsa de registro de Comanditos**. Esta estrategia ha sido observada en instancias anteriores, durante ataques de phishing con páginas de falsas contra "[Voluntarios X Venezuela](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)" en 2019 y "[Héroes por la salud](https://x.com/cazamosfakenews/status/1806308238461141379)" 2020,  documentadas por VE sin Filtro y que fueron usadas como base para campañas de intimidación y desinformación; en esas campañas previas supuestas listas hackeadas o filtradas [eran realmente obtenidas del engaño](https://medium.com/dfrlab/venezuelan-pro-regime-accounts-publish-personal-data-of-phishing-victims-1b41ffc256bd) con una página falsa.
