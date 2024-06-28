@@ -28,19 +28,33 @@ El phishing es un ataque informático en el que se engaña a los usuarios para q
 Hemos notado que durante eventos políticos se ha vuelto reiterativo los incidentes de phishing dirigido a las iniciativas política proveniente de líderes opositores, como lo fueron los casos de: [Phishing contra la plataforma Héroes de la Salud](https://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud) y [Phishing contra Voluntarios por Venezuela](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/).
 
 Identificamos las cuentas falsas @MariaCorinaMa y @Comanditos_Vzla en X  (antiguamente twitter. También identificamos cuentas de usuarios en X que parecen haber formado parte de esta campaña de phishing:
+
 @angeesrrda
+
 @duartej70
+
 @elcarrusel001
+
 Instagram:
+
 @comanditosxvzla
+
 Tiktok
+
 @comanditosxvzla
+
 Numeros telefónicos falsos mostrados:
+
 0412 702 3261 
+
 0412 702 3322 
+
 0412 702 3621 
+
 0412581 0128
+
 Canal de telegram falso:
+
 https://t.me/comanditosconvzla
 
 Este caso de phishing representa un gran riesgo para los ciudadanos venezolanos que quieren participar en la campaña de la líder opositora Maria Corina Machado. Tiene como objetivo confundir a los usuarios y lograr que accedan al sitio malicioso, para así obtener sus datos personales y confidenciales. 
