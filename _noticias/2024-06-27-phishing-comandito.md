@@ -35,33 +35,33 @@ Hemos notado que durante eventos políticos se ha vuelto reiterativo los inciden
 
 Identificamos las cuentas falsas @MariaCorinaMa y @Comanditos_Vzla en X  (antiguamente twitter. También identificamos cuentas de usuarios en X que parecen haber formado parte de esta campaña de phishing:
 
-+@angeesrrda
++ @angeesrrda
 
-+@duartej70
++ @duartej70
 
-+@elcarrusel001
++ @elcarrusel001
 
 **Instagram:**
 
-@comanditosxvzla
++ @comanditosxvzla
 
 **Tiktok:**
 
-+@comanditosxvzla
++ @comanditosxvzla
 
 **Numeros telefónicos falsos mostrados:**
 
-+0412 702 3261 
++ 0412 702 3261 
 
-+0412 702 3322 
++ 0412 702 3322 
 
-+0412 702 3621 
++ 0412 702 3621 
 
-+0412581 0128
++ 0412581 0128
 
 **Canal de telegram falso:**
 
-+https://t.me/comanditosconvzla
++ https://t.me/comanditosconvzla
 
 Este caso de phishing representa un gran riesgo para los ciudadanos venezolanos que quieren participar en la campaña de la líder opositora Maria Corina Machado. Tiene como objetivo confundir a los usuarios y lograr que accedan al sitio malicioso, para así obtener sus datos personales y confidenciales. 
 
