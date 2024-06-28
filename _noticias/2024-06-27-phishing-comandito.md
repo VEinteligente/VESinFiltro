@@ -8,6 +8,7 @@ date: 2024-06-27 19:00:00 -0400
 categories: repote
 image: /res/post_img/2024-06-27/image.jpg
 ---
+![](/res/post_img/2024-06-27/image.jpg)
 Este jueves 27 de junio, en VEsinFiltro identificamos una campaña de phishing dirigido a usuarios que estén interesados en registrar su “Comandito”, una iniciativa de la líder opositora María Corina Machado para construir una red de apoyo ciudadano a lo largo del territorio nacional. 
 
 Esta operación busca identificar, y posiblemente exponer, a ciudadanos que buscaban participar en la campaña a favor de Edmundo González Urrutia, promovida por Maria Corina Machado, en las elecciones presidenciales de 2024. En ella, una red de cuentas de redes sociales y al menos un canal de telegram y un grupo de whatsapp compartieron enlaces engañosos que no llevaban al formulario de registro real, y compartían otra información falsa, usando cuentas que aparentaban ser oficiales de la campaña.
