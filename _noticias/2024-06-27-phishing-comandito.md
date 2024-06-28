@@ -6,6 +6,7 @@ excerpt: "Este jueves 27 de junio, en VEsinFiltro identificamos una campaña de 
 permalink: /noticias/2024-06-27-phishing-comandito/
 date: 2024-06-27 19:00:00 -0400
 categories: repote
+image: /res/post_img/2024-06-27/image.jpg
 ---
 Este jueves 27 de junio, en VEsinFiltro identificamos una campaña de phishing dirigido a usuarios que estén interesados en registrar su “Comandito”, una iniciativa de la líder opositora María Corina Machado para construir una red de apoyo ciudadano a lo largo del territorio nacional. 
 
