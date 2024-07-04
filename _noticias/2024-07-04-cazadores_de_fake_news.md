@@ -10,7 +10,7 @@ image: /res/post_img/2024-07-04.png
 ---
 ![](/res/post_img/2024-07-04.png)
 
-El sitio web de Cazadores de fake news fue bloqueado por las operadoras Cantv, Digitel e Inter. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de junio.
+El sitio web de Cazadores de fake news fue bloqueado por las operadoras Cantv, Digitel e Inter. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de julio.
 
 En el caso de Cantv, mantiene un bloqueo de tipo DNS + HTTPS, mientras que Digitel Movistar, Net Uno e Inter, de tipo DNS.
 
