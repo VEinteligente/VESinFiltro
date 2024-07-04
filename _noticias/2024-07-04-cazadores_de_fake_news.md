@@ -12,7 +12,7 @@ image: /res/post_img/2024-07-04.png
 
 El sitio web de Cazadores de fake news fue bloqueado por las operadoras Cantv, Digitel e Inter. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de junio.
 
-En el caso de Cantv, mantiene un bloqueo de tipo DNS + HTTPS, mientras que Digitel e Inter, de tipo DNS.
+En el caso de Cantv, mantiene un bloqueo de tipo DNS + HTTPS, mientras que Digitel Movistar, Net Uno e Inter, de tipo DNS.
 
 En los últimos días, varios medios de comunicación en Venezuela publicaron que el yerno del candidato presidencial opositor Edmundo González tenía una investigación por narcotráfico en Estados Unidos. La ONG Cazadores de Fake News había revelado este miércoles 3 que la información es falsa.
 
