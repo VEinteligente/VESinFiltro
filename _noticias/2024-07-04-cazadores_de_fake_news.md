@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dos sitios en Internet destinados a la verificación de información falsa fueron bloqueados en Venezuela"
+title: "Dos sitios en Internet destinados a la verificación de información fueron bloqueados en Venezuela"
 small: "Bloquean los sitios web de Cazadores de Fake News y Es Paja"
 excerpt: "Los sitios web de Cazadores de Fake News y Es Paja, dedicados a la verificación de información y al fact checking fueron bloqueados el día en que se inició la campaña electoral."
 permalink: /noticias/2024-07-04-cazadores_de_fake_news/
@@ -12,7 +12,7 @@ image: /res/post_img/2024-07-04.png
 Dos sitios web, dedicados a la verificación de información y al fact checking fueron bloqueados este jueves 4 de julio, día en que se inició la campaña electoral para los comicios presidenciales del 28 de julio.
 
 ## Bloquean el sitio web de Cazadores de Fake News
-![](/res/post_img/2024-07-04a.png)
+![](/res/post_img/2024-07-04-a.png)
 
 Dos sitios web, "Cazadores de Fake News" y "Es Paja", dedicados a la verificación de información y al fact checking fueron bloqueados este jueves 4 de julio, día en que se inició la campaña electoral para los comicios presidenciales del 28 de julio.
 
@@ -25,7 +25,7 @@ En los últimos días, varios medios de comunicación en Venezuela publicaron qu
 Cazadores de Fake News es una organización que analiza y verifica noticias relacionadas con Venezuela, difundidas a través de redes sociales y mensajería instantánea.
 
 ## Actualización: También bloquean EsPaja.com
-![](/res/post_img/2024-07-04b.png)
+![](/res/post_img/2024-07-04-b.png)
 
 También pudimos confirmar el bloqueado del sitio web de EsPaja (espaja.com), un portal en Internet para la verificación de información potencialmente falsa y fact checking de afirmaciones hechas en el ámbito público.
 
