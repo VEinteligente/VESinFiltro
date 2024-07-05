@@ -2,7 +2,7 @@
 layout: post
 title: "Dos sitios en Internet destinados a la verificación de información fueron bloqueados en Venezuela este #4Jul"
 small: "Bloquean los sitios web de Cazadores de Fake News y Es Paja"
-excerpt: "Los sitio web de Cazadores de fake news y Es Paja fue bloqueado por empresas proveedoras de internet. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de julio."
+excerpt: "Los sitio web de Cazadores de fake news y Es Paja fueron bloqueados por empresas proveedoras de internet Venezolanas. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de julio."
 permalink: /noticias/2024-07-04-cazadores_de_fake_news/
 date: 2024-07-04 12:00:00 -0400
 categories: repote
