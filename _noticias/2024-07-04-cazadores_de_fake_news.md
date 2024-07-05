@@ -12,7 +12,7 @@ image: /res/post_img/2024-07-04.png
 
 Dos sitios web, "Cazadores de Fake News" y "Es Paja", dedicados a la verificación de información y al fact checking fueron bloqueados este jueves 4 de julio, día en que se inició la campaña electoral para los comicios presidenciales del 28 de julio.
 
-El sitio web de Cazadores de fake news fue bloqueado por las operadoras Cantv, Movistar, Digitel, Net Uno e Inter. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de julio. Mientras que la pagina web de Es Paja fue bloqueado por las operadoras Cantv, Movistar y Digitel.
+El sitio web de Cazadores de fake news fue bloqueado por las operadoras Cantv, Movistar, Digitel, Net Uno e Inter. Mientras que la pagina web de Es Paja fue bloqueado por las operadoras Cantv, Movistar y Digitel. De acuerdo con el monitoreo y el análisis de las mediciones hecho por VEsinFiltro, las restricciones iniciaron este 4 de julio.
 
 En el caso de Cantv, mantiene un bloqueo de tipo DNS + HTTPS, mientras que Digitel Movistar, Net Uno e Inter, de tipo DNS, para ambos sitios web.
 
