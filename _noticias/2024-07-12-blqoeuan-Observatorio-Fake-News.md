@@ -8,7 +8,7 @@ date: 2024-07-12 17:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-07-12.png
 ---
-
+![](/res/post_img/2024-07-12.png)
 Bloquean la página del Observatorio Venezolano de Fake News (fakenewsvenezuela⸱org)
 
 El sitio web del Observatorio Venezolano de Fake News fue bloqueado muchos de los principales operadores de Internet. De acuerdo con la revisión de #VEsinFiltro, la página tiene un bloqueo de tipo DNS en Digitel y NetUno, en Movistar es de tipo HTTP/HTTPS y en Cantv es de tipo DNS + HTTPS.
