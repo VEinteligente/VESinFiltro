@@ -3,7 +3,7 @@ layout: post
 title: "Bloquean Observatorio Venezolano de Fake News, el tercer sitio de factchecking en días"
 small: "Bloquean Observatorio Venezolano de Fake News"
 excerpt: ""
-permalink: /noticias/2024-07-12-blqoeuan-Observatorio-Fake-News.md/
+permalink: /noticias/2024-07-12-blqoeuan-Observatorio-Fake-News/
 date: 2024-07-12 17:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-07-12.png
