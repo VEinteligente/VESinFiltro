@@ -87,17 +87,17 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
 
 Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno.
 
-![](/res/post_img/2024-08-01/2024-07-29-wiki.png)
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-07-29-wiki.png"/>
 
 Estas restricciones han continuado pasadas las elecciones. En medio de una gran incertidumbre, protestas ciudadanas y el desconocimiento nacional e internacional de los resultados anunciados por el Consejo Nacional Electoral, los principales proveedores de Internet han bloqueado, con múltiples técnicas, al menos tres páginas web en las que el comando opositor Con Vzla anunció que publicaría las actas de sus testigos con los resultados por mesa de votación: resultadospresidencialesvenezuela2024⸱com, ganovzla⸱com y resultadosconvzla⸱com.
 
-![](/res/post_img/2024-08-01/2024-07-31-193650_002.png)
-![](/res/post_img/2024-08-01/2024-07-31-193650_003.png)
-![](/res/post_img/2024-08-01/2024-07-31-181017_002.png)
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-07-31-193650_002.png"/>
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-07-31-193650_003.png"/>
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-07-31-181017_002.png"/>
 
 En simultáneo fue bloqueado elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales. El bloqueo de este sitio web coincidió con el rumor de que esta era la página donde se podrían consultar las actas de las mesas de votación
 
-![](/res/post_img/2024-08-01/2024-07-29.png)
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-07-29.png"/>
 
 ## Sin acceso a la página del CNE
 
@@ -109,9 +109,9 @@ Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digite
 
 Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
 
-![](/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg)
-![](/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg)
-![](/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg)
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg"/>
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg"/>
+<img style="max-width: 450px;" src="/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg"/>
 
 El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
 
