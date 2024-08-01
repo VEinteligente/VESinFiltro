@@ -119,7 +119,35 @@ Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los
 
 
 ## Lista de medios bloqueados
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Ancha y Letra Pequeña</title>
+    <style>
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+        table.blocklist {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px; /* Reduce el tamaño de la fuente */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 5px; /* Ajusta el relleno para hacer las celdas más compactas */
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .softmerge .softmerge-inner {
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
 <div class="table-responsive">
 <table class="blocklist">
     <thead>
@@ -412,5 +440,7 @@ Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los
 </tfoot>
 </table>
 </div>
+</body>
+</html>
 
 
