@@ -177,7 +177,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
             <tr>
                 <td>www.el-carabobeno.com</td>
                 <td>NEWS</td>
-                <td>2023-11-08</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -200,7 +199,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
             <tr>
                 <td>eldiario.com</td>
                 <td>NEWS</td>
-                <td>Activo</td>
                 <td>HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
