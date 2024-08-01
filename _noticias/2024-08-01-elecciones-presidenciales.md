@@ -32,7 +32,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
     </thead>
         <tbody>
             <tr>
-               <td class="s0">elecciones2024venezuela.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">8</td>
+               <td class="s0">elecciones2024venezuela.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">8</td>
             </tr>
             <tr>
                 <td class="s0">runrun.es</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
@@ -53,16 +53,16 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">cazadoresdefakenews.info</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.espaja.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">7</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.espaja.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">7</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.lagranaldea.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">7</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.lagranaldea.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">7</td>
             </tr>
             <tr>
                 <td class="s0">semana.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">Impactovenezuela.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">Impactovenezuela.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
             </tr>
             <tr>
                 <td class="s0">elpolitico.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTP</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
@@ -77,16 +77,16 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.el-carabobeno.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">focoinformativo.com</div></td><td class="s0">NEWS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">focoinformativo.com</div></td><td class="s0">NEWS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
-                <td class="s0">eldiario.com</td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0">eldiario.com</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">noticiaypunto.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">noticiaypunto.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.adncaraota.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.adncaraota.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
                 <td class="s0">sumarium.es</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
@@ -125,7 +125,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">antena3internacional.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">1</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.aporrea.org</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.aporrea.org</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
                 <td class="s0">alnavio.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">6</td>
@@ -167,7 +167,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0">armando.info</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="s1">5</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">monitoreamos.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">monitoreamos.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
             </tr>
             <tr>
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.maduradas.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
@@ -176,10 +176,10 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.noticierodigital.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">1</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">es.insightcrime.org</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">es.insightcrime.org</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.insightcrime.org</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.insightcrime.org</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">2</td>
             </tr>
             <tr>
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">albertonews.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
@@ -191,7 +191,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0">b1tly4n3s.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="s1">2</td>
             </tr>
             <tr>
-                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.b1tlydns02io.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="s1">3</td>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.b1tlydns02io.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="s1">3</td>
             </tr>
             <tr>
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.tvvenezuela.tv</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">6</td>
@@ -209,7 +209,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0">evtv.online</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">6</td>
             </tr>
             <tr>
-                <td class="s0">evtvmiami.com</td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
+                <td class="s0">evtvmiami.com</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
             </tr>
             <tr>
                 <td class="s0">noticialdia.com</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">6</td>
@@ -245,7 +245,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.minuto30.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
             </tr>
             <tr>
-                <td class="s0">noticias.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
+                <td class="s0">noticias.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">7</td>
             </tr>
             <tr>
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.infobae.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="s1">6</td>
