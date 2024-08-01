@@ -12,304 +12,222 @@ Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un con
 
 Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet,estos bloqueos afectan a 87 dominios, sumando un total de 432 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Datos de Noticias</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-    <h1>Datos de Noticias</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Sitio</th>
-                <th>URL</th>
-                <th>Categoría</th>
-                <th>Fecha</th>
-                <th>Estado</th>
-                <th>Bloqueo ISP</th>
-                <th>DNS</th>
-                <th>HTTPS</th>
-                <th>HTTP/HTTPS</th>
-                <th>Otro</th>
-                <th>Interceptado</th>
-                <th>Calificación</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Runrunes</td>
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+        <th rowspan="2"><strong>DOMINIO</strong></th>
+        <th rowspan="2"><strong>CATEGORÍA</strong></th>
+        <th colspan="6"><strong>Mecanismo de Bloqueo por ISP</strong></th>
+        <th rowspan="2"><strong>EVENTOS</strong></th>
+        </tr>
+        <tr>
+        <th><strong>CANTV</strong></th>
+        <th><strong>Movistar</strong></th>
+        <th><strong>Digitel</strong></th>
+        <th><strong>Inter</strong></th>
+        <th><strong>Netuno</strong></th>
+        <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+<tr>
+                <td>VPITV</td>
                 <td>runrun.es</td>
                 <td>NEWS</td>
                 <td>2020-05-15</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Analítica</td>
-                <td>www.analitica.com</td>
-                <td>NEWS</td>
-                <td>2024-07-22</td>
-                <td>Activo</td>
-                <td>DNS + HTTPS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTP/HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
-            </tr>
-            <tr>
-                <td>El Estímulo</td>
+                <td>El Liberal Venezolano</td>
                 <td>elestimulo.com</td>
                 <td>NEWS</td>
                 <td>2024-07-22</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Tal Cual</td>
+                <td>Vivo play</td>
+                <td>www.analitica.com</td>
+                <td>NEWS</td>
+                <td>2024-07-22</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
+                <td>DNS + HTTPS</td>
+                <td>DNS</td>
+                <td>DNS</td>
+                <td>HTTP/HTTPS</td>
+                <td>DNS</td>
+                <td class="no">No</td>
+            </tr>
+            <tr>
+                <td>Dolar Paralelo</td>
                 <td>www.talcualdigital.com</td>
                 <td>NEWS</td>
                 <td>2024-07-22</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Observatorio Venezolano de Fake News</td>
+                <td>El Pitazo</td>
                 <td>fakenewsvenezuela.org</td>
                 <td>NEWS</td>
                 <td>2024-07-12</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Cazadores de Fake News</td>
+                <td>El Pitazo</td>
                 <td>cazadoresdefakenews.info</td>
                 <td>NEWS</td>
                 <td>2024-07-04</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Es Paja</td>
+                <td>El Pitazo</td>
                 <td>www.espaja.com</td>
                 <td>NEWS</td>
                 <td>2024-07-04</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS + HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>7</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>La Gran Aldea</td>
+                <td>noticia al dia</td>
                 <td>www.lagranaldea.com</td>
                 <td>NEWS</td>
                 <td>2024-05-18</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS + HTTP/HTTPS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>7</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>semana.com</td>
+                <td>Alek boyd</td>
                 <td>semana.com</td>
                 <td>NEWS</td>
                 <td>2024-03-12</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Impacto Venezuela</td>
+                <td>Maduradas</td>
                 <td>Impactovenezuela.com</td>
                 <td>NEWS</td>
                 <td>2024-03-06</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTP/HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>EL Político</td>
+                <td>Infobae</td>
                 <td>elpolitico.com</td>
                 <td>NEWS</td>
                 <td>2024-03-04</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS + HTTP</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>6</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>6to poder</td>
+                <td>Minuto 30</td>
                 <td>ww1.6topoder.com</td>
                 <td>NEWS</td>
                 <td>2023-11-28</td>
-                <td>Activo</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>No</td>
-                <td>No</td>
-                <td>No</td>
-                <td>3</td>
+                <td class="no">No</td>
+                <td class="no">No</td>
+                <td class="no">No</td>
             </tr>
             <tr>
-                <td>Dolar Paralelo</td>
+                <td>Noticias.com</td>
                 <td>ww38.dollarparalelovenezuela.com</td>
                 <td>NEWS</td>
                 <td>2023-11-28</td>
-                <td>Activo</td>
-                <td>No</td>
+                <td class="active">Activo</td>
+                <td class="no">No</td>
+                <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
-                <td>DNS</td>
-                <td>5</td>
+                <td class="no">No</td>
             </tr>
-            <tr>
-                <td>El Carabobeño</td>
-                <td>www.el-carabobeno.com</td>
-                <td>NEWS</td>
-                <td>2023-11-08</td>
-                <td>Activo</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>El Nacional</td>
-                <td>www.el-nacional.com</td>
-                <td>NEWS</td>
-                <td>2023-10-20</td>
-                <td>Activo</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>El Diario</td>
-                <td>eldiario.com</td>
-                <td>NEWS</td>
-                <td>2023-09-14</td>
-                <td>Activo</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>La Patilla</td>
-                <td>www.lapatilla.com</td>
-                <td>NEWS</td>
-                <td>2023-08-18</td>
-                <td>Activo</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Armando Info</td>
-                <td>armando.info</td>
-                <td>NEWS</td>
-                <td>2023-07-13</td>
-                <td>Activo</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>DNS</td>
-                <td>HTTPS</td>
-                <td>DNS</td>
-                <td>No</td>
-                <td>5</td>
-            </tr>
-        </tbody>
-    </table>
-</body>
-</html>
-
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><img src="/res/VeSinFiltro-long.svg" /></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="social">@VEsinFiltro<br> vesinfiltro.com</td>
+        </tr>
+</tfoot>
+</table>
+</div>
 
 
 
