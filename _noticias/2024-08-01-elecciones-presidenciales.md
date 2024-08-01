@@ -65,7 +65,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">Impactovenezuela.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
             </tr>
             <tr>
-                <td class="s0">elpolitico.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTP</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+                <td class="s0">elpolitico.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
             </tr>
             <tr>
                 <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">ww1.6topoder.com</div></td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">3</td>
