@@ -6,8 +6,9 @@ excerpt: ""
 permalink: /noticias/2024-08-01-elecciones-presidenciales/
 date: 2024-08-01 00:00:00 -0400
 categories: reporte
-image: 
+image: /res/post_img/2024-08-01/image.jpg
 ---
+<p class="cover"><img class="" src="/res/post_img/2024-08-01/image.jpg"></p>
 Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital. Durante la campaña electoral, VEsinFiltro documentó 12 casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información. 
 
 Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet,estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
