@@ -134,7 +134,6 @@ Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los
             font-size: 12px; /* Reduce el tamaño de la fuente */
         }
         th, td {
-            border: 1px solid black;
             padding: 5px; /* Ajusta el relleno para hacer las celdas más compactas */
             text-align: left;
         }
