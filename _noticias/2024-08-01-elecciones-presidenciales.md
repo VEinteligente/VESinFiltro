@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "VEsinFiltro: Las elecciones presidenciales se dieron en un contexto de restricción a los derechos humanos en Internet"
-small: ""
+title: "Las elecciones presidenciales se dieron en un contexto de restricción a los derechos humanos en Internet"
+small: "Bloqueos en internet durante las elecciones en Venezuela"
 excerpt: ""
 permalink: /noticias/2024-08-01-elecciones-presidenciales/
 date: 2024-08-01 00:00:00 -0400
@@ -10,9 +10,80 @@ image: /res/post_img/2024-08-01/image.jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-01/image.jpg"></p>
 ![](/res/post_img/2024-08-01/image.jpg)
-Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital. Durante la campaña electoral, VEsinFiltro documentó 12 nuevos casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información, sin contar los bloqueos ocurridos luego de las elecciones. 
+**Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital.** Durante la campaña electoral, VEsinFiltro documentó 12 nuevos casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información, sin contar los bloqueos ocurridos luego de las elecciones. 
 
-Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen a la fecha 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet, estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
+Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. **Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet**, estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
+
+**Casos de bloequeos iniciados durante la campaña que siguen activos**
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+        <th rowspan="2"><strong>DOMINIO</strong></th>
+        <th rowspan="2"><strong>CATEGORÍA</strong></th>
+        <th colspan="6"><strong>Mecanismo de Bloqueo por ISP</strong></th>
+        <th rowspan="2"><strong>EVENTOS</strong></th>
+        </tr>
+        <tr>
+        <th><strong>CANTV</strong></th>
+        <th><strong>Movistar</strong></th>
+        <th><strong>Digitel</strong></th>
+        <th><strong>Inter</strong></th>
+        <th><strong>Netuno</strong></th>
+        <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td class="s0">vesinfiltro.com</td><td class="s0">HUMR</td><td class="partial">DNS</td><td class="block">HHT/HTTPSS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
+            </tr>
+            <tr>
+                <td class="s0">www.medianalisis.org</td><td class="s0">HUMR</td><td class="partial">DNS</td><td class="block">HHTP/HTTPS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>            
+            </tr>
+            <tr>
+                <td class="s0">espaciopublico.ong</td><td class="s0">HUMR</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="s1">1</td>            
+            </tr>
+            <tr>
+                <td class="s0">ipysvenezuela.org</td><td class="s0">HUMR</td><td class="http-dns">DNS + HTTPS</td><td class="partial">HTTP/HTTPS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>            
+            </tr>
+            <tr>
+                <td class="s0">runrun.es</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
+            </tr>
+            <tr>
+                <td class="s0">www.analitica.com</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0">elestimulo.com</td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.talcualdigital.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">fakenewsvenezuela.org</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">cazadoresdefakenews.info</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.espaja.com</div></td><td class="s0">NEWS</td><td class="http-dns">DNS + HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">7</td>
+            </tr>
+        </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"><img src="/res/VeSinFiltro-long.svg" /></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td class="social">@VEsinFiltro<br> vesinfiltro.com</td>
+        </tr>
+</tfoot>
+</table>
+</div>
+
+
 
 Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno.
 
