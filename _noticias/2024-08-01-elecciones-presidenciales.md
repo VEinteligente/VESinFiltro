@@ -31,12 +31,11 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
         </tr>
     </thead>
     <tbody>
-<tr>
+            <tr>
                 <td>VPITV</td>
                 <td>runrun.es</td>
                 <td>NEWS</td>
                 <td>2020-05-15</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -50,7 +49,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>elestimulo.com</td>
                 <td>NEWS</td>
                 <td>2024-07-22</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -64,7 +62,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>www.analitica.com</td>
                 <td>NEWS</td>
                 <td>2024-07-22</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -78,7 +75,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>www.talcualdigital.com</td>
                 <td>NEWS</td>
                 <td>2024-07-22</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -92,7 +88,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>fakenewsvenezuela.org</td>
                 <td>NEWS</td>
                 <td>2024-07-12</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -106,7 +101,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>cazadoresdefakenews.info</td>
                 <td>NEWS</td>
                 <td>2024-07-04</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -120,7 +114,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>www.espaja.com</td>
                 <td>NEWS</td>
                 <td>2024-07-04</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -134,7 +127,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>www.lagranaldea.com</td>
                 <td>NEWS</td>
                 <td>2024-05-18</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
@@ -148,7 +140,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>semana.com</td>
                 <td>NEWS</td>
                 <td>2024-03-12</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -162,7 +153,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>Impactovenezuela.com</td>
                 <td>NEWS</td>
                 <td>2024-03-06</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTP/HTTPS</td>
                 <td>DNS</td>
@@ -176,7 +166,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>elpolitico.com</td>
                 <td>NEWS</td>
                 <td>2024-03-04</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS + HTTP</td>
                 <td>DNS</td>
@@ -190,7 +179,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>ww1.6topoder.com</td>
                 <td>NEWS</td>
                 <td>2023-11-28</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -204,7 +192,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>ww38.dollarparalelovenezuela.com</td>
                 <td>NEWS</td>
                 <td>2023-11-28</td>
-                <td class="active">Activo</td>
                 <td class="no">No</td>
                 <td class="no">No</td>
                 <td>DNS</td>
