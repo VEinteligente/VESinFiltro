@@ -12,6 +12,170 @@ Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un con
 
 Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet,estos bloqueos afectan a 87 dominios, sumando un total de 432 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
 
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+            <th><strong>SITIO</strong></th>
+            <th><strong>DOMINIO</strong></th>
+            <th><strong>CATEGORÍA</strong></th>
+            <th><strong>FECHA</strong></th>
+            <th><strong>ESTADO</strong></th>
+            <th><strong>EVENTOS</strong></th>
+            <th><strong>CANTV</strong></th>
+            <th><strong>Movistar</strong></th>
+            <th><strong>Digitel</strong></th>
+            <th><strong>Inter</strong></th>
+            <th><strong>Netuno</strong></th>
+            <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>VPITV</td>
+            <td>runrun.es</td>
+            <td>NEWS</td>
+            <td>2020-05-15</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="block">HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>El Liberal Venezolano</td>
+            <td>elestimulo.com</td>
+            <td>NEWS</td>
+            <td>2024-07-22</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="block">HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>Vivo play</td>
+            <td>www.analitica.com</td>
+            <td>NEWS</td>
+            <td>2024-07-22</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="block">HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>Dolar Paralelo</td>
+            <td>www.talcualdigital.com</td>
+            <td>NEWS</td>
+            <td>2024-07-22</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="block">HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>El Pitazo</td>
+            <td>fakenewsvenezuela.org</td>
+            <td>NEWS</td>
+            <td>2024-07-12</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="block">HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>El Pitazo</td>
+            <td>cazadoresdefakenews.info</td>
+            <td>NEWS</td>
+            <td>2024-07-04</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>El Pitazo</td>
+            <td>www.espaja.com</td>
+            <td>NEWS</td>
+            <td>2024-07-04</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="http-dns">DNS + HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>noticia al dia</td>
+            <td>www.lagranaldea.com</td>
+            <td>NEWS</td>
+            <td>2024-05-18</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="http-dns">DNS + HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>Alek boyd</td>
+            <td>semana.com</td>
+            <td>NEWS</td>
+            <td>2024-03-12</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>Maduradas</td>
+            <td>Impactovenezuela.com</td>
+            <td>NEWS</td>
+            <td>2024-03-06</td>
+            <td>Activo</td>
+            <td class="accesible">No</td>
+            <td class="http-dns">DNS + HTTP/HTTPS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="partial">DNS</td>
+            <td class="accesible">No</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+
 Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipeia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadasen Digitel y NetUno
 
 ![](/res/post_img/2024-08-01/2024-07-29-wiki.png)
