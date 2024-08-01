@@ -337,4 +337,4 @@ Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras medic
 
 El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
 
-Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es crucial debido a la compleja dinámica política y social que experimenta y la censura en los medios tradicionales de comunicación.
+Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es crucial debido a la compleja dinámica política y social que experimenta, sumada a la censura en los medios tradicionales de comunicación.
