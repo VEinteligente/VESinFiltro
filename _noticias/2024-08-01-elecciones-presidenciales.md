@@ -14,9 +14,17 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
 
 Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipeia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadasen Digitel y NetUno
 
+![](/res/post_img/2024-08-01/2024-07-29-wiki.png)
+
 Estas restricciones han continuado pasadas las elecciones. En medio de una gran incertidumbre, protestas ciudadanas y el desconocimiento nacional e internacional de los resultados anunciados por el Consejo Nacional Electoral, los principales proveedores de Internet han bloqueado, con múltiples técnicas, al menos tres páginas web en las que el comando opositor Con Vzla anunció que publicaría las actas de sus testigos con los resultados por mesa de votación: resultadospresidencialesvenezuela2024⸱com, ganovzla⸱com y resultadosconvzla⸱com.
 
+![](/res/post_img/2024-08-01/2024-07-31-193650_002.png)
+![](/res/post_img/2024-08-01/2024-07-31-193650_003.png)
+![](/res/post_img/2024-08-01/2024-07-31-181017_002.png)
+
 En simultáneo fue bloqueado el dominio elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales.
+
+![](/res/post_img/2024-08-01/2024-07-29.png)
 
 VEsinFiltro confirmó además restricciones para el acceso a la página del Poder Electoral, que contiene datos oficiales sobre la elección presidencial, cne⸱gob⸱ve. No abre dentro ni fuera de Venezuela.
 
@@ -25,6 +33,10 @@ Los impedimentos han sido impuestas por el mismo CNE y no por los proveedores de
 Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digitel, NetUno, Airtek, Fibex ey IPnet, luego se empezaron a encontrar las mismas restricciones también en CANTV. El CNE ha hecho que las tres direcciones IP (190.9.10.130.15, 200.11.144.25, 200.44.45.5) de www.cne⸱gob⸱ve estén accesibles sólo para ciertas redes. 
 
 Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
+
+![](/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg)
+![](/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg)
+![](/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg)
 
 El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
 
