@@ -30,21 +30,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
         <th><strong>Supercable</strong></th>
         </tr>
     </thead>
-            <tr>
-                <th>Sitio</th>
-                <th>URL</th>
-                <th>Categoría</th>
-                <th>Fecha</th>
-                <th>Estado</th>
-                <th>Bloqueo ISP</th>
-                <th>DNS</th>
-                <th>HTTPS</th>
-                <th>HTTP/HTTPS</th>
-                <th>Otro</th>
-                <th>Interceptado</th>
-                <th>Calificación</th>
-            </tr>
-        </thead>
         <tbody>
             <tr>
                 <td>runrun.es</td>
