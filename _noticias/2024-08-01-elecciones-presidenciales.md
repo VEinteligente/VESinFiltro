@@ -123,7 +123,6 @@ Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla Ancha y Letra Pequeña</title>
     <style>
         .table-responsive {
             width: 100%;
@@ -144,6 +143,9 @@ Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los
         }
         .softmerge .softmerge-inner {
             white-space: nowrap;
+        }
+        .block, .partial, .accesible, .http-dns {
+            font-size: 10px; /* Reduce el tamaño de la fuente para tipos de bloqueo */
         }
     </style>
 </head>
