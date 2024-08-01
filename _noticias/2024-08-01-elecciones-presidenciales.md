@@ -109,9 +109,9 @@ Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digite
 
 Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
 
-<img width="450" src="/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg"/>
-<img width="450" src="/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg"/>
-<img width="450" src="/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg"/>
+<img src="/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg"/>
+<img src="/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg"/>
+<img src="/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg"/>
 
 El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
 
