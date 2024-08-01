@@ -95,7 +95,7 @@ Estas restricciones han continuado pasadas las elecciones. En medio de una gran 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-31-193650_003.png"/></p>
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-31-181017_002.png"/></p>
 
-En simultáneo fue bloqueado elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales. El bloqueo de este sitio web coincidió con el rumor de que esta era la página donde se podrían consultar las actas de las mesas de votación
+En simultáneo fue bloqueado elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales. El bloqueo de este sitio web coincidió con el rumor de que esta era la página donde se podrían consultar las actas de las mesas de votación.
 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-29.png"/></p>
 
