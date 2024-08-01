@@ -32,7 +32,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
     </thead>
         <tbody>
             <tr>
-               <td class="s0">elecciones2024venezuela.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">8</td>
+               <td class="s0">elecciones2024venezuela.com</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">6</td>
             </tr>
             <tr>
                 <td class="s0">runrun.es</td><td class="s0">NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="s1">5</td>
