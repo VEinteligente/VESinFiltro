@@ -33,18 +33,42 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
         <tbody>
             <tr>
                <td class="s0">elecciones2024venezuela.com</td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">8</td>
+            </tr>
+            <tr>
                 <td class="s0">runrun.es</td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">5</td>
+            </tr>
+            <tr>
                 <td class="s0">www.analitica.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0">elestimulo.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.talcualdigital.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">fakenewsvenezuela.org</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">cazadoresdefakenews.info</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.espaja.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">7</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.lagranaldea.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">7</td>
-            <td class="s0">semana.com</td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">5</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">Impactovenezuela.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0">elpolitico.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTP</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
-            <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">ww1.6topoder.com</div></td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s0">No</td><td class="s0">No</td><td class="s1">3</td>
+            </tr>
+            <tr>
+                <td class="s0">elestimulo.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.talcualdigital.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">fakenewsvenezuela.org</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTP/HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">cazadoresdefakenews.info</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.espaja.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">7</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.lagranaldea.com</div></td><td class="s0">NEWS</td><td class="s0">DNS + HTTPS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">7</td>
+            </tr>
+            <tr>
+                <td class="s0">semana.com</td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">5</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">Impactovenezuela.com</div></td><td class="s0">NEWS</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0">elpolitico.com</td><td class="s0">NEWS</td><td class="s0">DNS + HTTP</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">6</td>
+            </tr>
+            <tr>
+                <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">ww1.6topoder.com</div></td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s0">No</td><td class="s0">No</td><td class="s1">3</td>
             <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">ww38.dollarparalelovenezuela.com</div></td><td class="s0">NEWS</td><td class="s0">No</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s1">5</td>
             <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">www.el-carabobeno.com</div></td><td class="s0">NEWS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">DNS</td><td class="s0">HTTPS</td><td class="s0">DNS</td><td class="s0">No</td><td class="s1">5</td>
             <td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">focoinformativo.com</div></td><td class="s0">NEWS</td><td class="s0">No</td><td class="s0">No</td><td class="s0">No</td><td class="s0 softmerge"><div class="softmerge-inner" style="width:97px;left:-1px">DNS + HTTP/HTTPS</div></td><td class="s0">No</td><td class="s0">No</td><td class="s1">2</td>
