@@ -10,9 +10,44 @@ image: /res/post_img/2024-08-01/image.jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-01/image.jpg"></p>
 ![](/res/post_img/2024-08-01/image.jpg)
-Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital. Durante la campaña electoral, VEsinFiltro documentó 12 casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información. 
+Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital. Durante la campaña electoral, VEsinFiltro documentó 12 nuevos casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información, sin contar los bloqueos ocurridos luego de las elecciones. 
 
-Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet,estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
+Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen a la fecha 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet, estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
+
+Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno.
+
+![](/res/post_img/2024-08-01/2024-07-29-wiki.png)
+
+Estas restricciones han continuado pasadas las elecciones. En medio de una gran incertidumbre, protestas ciudadanas y el desconocimiento nacional e internacional de los resultados anunciados por el Consejo Nacional Electoral, los principales proveedores de Internet han bloqueado, con múltiples técnicas, al menos tres páginas web en las que el comando opositor Con Vzla anunció que publicaría las actas de sus testigos con los resultados por mesa de votación: resultadospresidencialesvenezuela2024⸱com, ganovzla⸱com y resultadosconvzla⸱com.
+
+![](/res/post_img/2024-08-01/2024-07-31-193650_002.png)
+![](/res/post_img/2024-08-01/2024-07-31-193650_003.png)
+![](/res/post_img/2024-08-01/2024-07-31-181017_002.png)
+
+En simultáneo fue bloqueado elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales. El bloqueo de este sitio web coincidió con el rumor de que esta era la página donde se podrían consultar las actas de las mesas de votación
+
+![](/res/post_img/2024-08-01/2024-07-29.png)
+
+## Sin acceso a la página del CNE
+
+VEsinFiltro confirmó además restricciones para el acceso a la página del Poder Electoral, que contiene datos oficiales sobre la elección presidencial, cne⸱gob⸱ve. No abre dentro ni fuera de Venezuela.
+
+Los impedimentos han sido impuestos por el mismo CNE y no por los proveedores de Internet, faltando a su responsabilidad de hacer disponibles los resultados electorales y otras informaciones de interés público. En Venezuela no es posible ingresar ni desde CANTV.
+
+Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digitel, NetUno, Airtek, Fibex e IPnet, luego se empezaron a encontrar las mismas restricciones también en CANTV. El CNE ha hecho que las tres direcciones IP (190.9.10.130.15, 200.11.144.25, 200.44.45.5) de www.cne⸱gob⸱ve estén accesibles sólo para ciertas redes. 
+
+Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
+
+![](/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg)
+![](/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg)
+![](/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg)
+
+El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
+
+Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es crucial debido a la compleja dinámica política y social que experimenta, sumada a la censura en los medios tradicionales de comunicación.
+
+
+## Lista de medios bloqueados
 
 <div class="table-responsive">
 <table class="blocklist">
@@ -308,35 +343,3 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
 </div>
 
 
-
-
-
-Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno.
-
-![](/res/post_img/2024-08-01/2024-07-29-wiki.png)
-
-Estas restricciones han continuado pasadas las elecciones. En medio de una gran incertidumbre, protestas ciudadanas y el desconocimiento nacional e internacional de los resultados anunciados por el Consejo Nacional Electoral, los principales proveedores de Internet han bloqueado, con múltiples técnicas, al menos tres páginas web en las que el comando opositor Con Vzla anunció que publicaría las actas de sus testigos con los resultados por mesa de votación: resultadospresidencialesvenezuela2024⸱com, ganovzla⸱com y resultadosconvzla⸱com.
-
-![](/res/post_img/2024-08-01/2024-07-31-193650_002.png)
-![](/res/post_img/2024-08-01/2024-07-31-193650_003.png)
-![](/res/post_img/2024-08-01/2024-07-31-181017_002.png)
-
-En simultáneo fue bloqueado el dominio elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales.
-
-![](/res/post_img/2024-08-01/2024-07-29.png)
-
-VEsinFiltro confirmó además restricciones para el acceso a la página del Poder Electoral, que contiene datos oficiales sobre la elección presidencial, cne⸱gob⸱ve. No abre dentro ni fuera de Venezuela.
-
-Los impedimentos han sido impuestos por el mismo CNE y no por los proveedores de Internet, faltando a su responsabilidad de hacer disponibles los resultados electorales y otras informaciones de interés público. En Venezuela no es posible ingresar ni desde CANTV.
-
-Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digitel, NetUno, Airtek, Fibex e IPnet, luego se empezaron a encontrar las mismas restricciones también en CANTV. El CNE ha hecho que las tres direcciones IP (190.9.10.130.15, 200.11.144.25, 200.44.45.5) de www.cne⸱gob⸱ve estén accesibles sólo para ciertas redes. 
-
-Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
-
-![](/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg)
-![](/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg)
-![](/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg)
-
-El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
-
-Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es crucial debido a la compleja dinámica política y social que experimenta, sumada a la censura en los medios tradicionales de comunicación.
