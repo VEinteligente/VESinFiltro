@@ -245,7 +245,12 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>DNS</td>
                 <td>DNS</td>
                 <td class="no">No</td>
-           
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
 
 
 Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipeia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadasen Digitel y NetUno
