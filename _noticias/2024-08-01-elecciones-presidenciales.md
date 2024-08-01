@@ -43,7 +43,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <th>Categoría</th>
                 <th>Fecha</th>
                 <th>Estado</th>
-                <th>Seguro</th>
                 <th>Bloqueo ISP</th>
                 <th>DNS</th>
                 <th>HTTPS</th>
@@ -60,7 +59,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2020-05-15</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -75,7 +73,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-22</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -90,7 +87,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-22</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -105,7 +101,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-22</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -120,7 +115,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-12</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -135,7 +129,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-04</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -150,7 +143,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-07-04</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -165,7 +157,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-05-18</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -180,7 +171,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-03-12</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -195,7 +185,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-03-06</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTP/HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -210,7 +199,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2024-03-04</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS + HTTP</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -225,7 +213,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-11-28</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -241,7 +228,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>2023-11-28</td>
                 <td>Activo</td>
                 <td>No</td>
-                <td>No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -255,7 +241,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-11-08</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>DNS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -270,7 +255,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-10-20</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -285,7 +269,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-09-14</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -300,7 +283,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-08-18</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -315,7 +297,6 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
                 <td>NEWS</td>
                 <td>2023-07-13</td>
                 <td>Activo</td>
-                <td>No</td>
                 <td>HTTPS</td>
                 <td>DNS</td>
                 <td>DNS</td>
@@ -328,6 +309,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
     </table>
 </body>
 </html>
+
 
 
 
