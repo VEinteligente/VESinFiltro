@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Venezuelan [residential elections took place in a context of restriction of human rights on the internet"
-small: "Internet censorship during the presidential elections in Venezuela"
+title: "Las elecciones presidenciales se dieron en un contexto de restricción a los derechos humanos en Internet"
+small: "Bloqueos en internet durante las eleccionesen Venezuela"
 excerpt: "Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales proveedores de Internet."
 permalink: /noticias/2024-08-01-elecciones-presidenciales/
 date: 2024-08-01 00:00:00 -0400
@@ -10,17 +10,17 @@ image: /res/post_img/2024-08-01/image.jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-01/image.jpg"></p>
 
-Original replimniary report [in spanish](/noticias/2024-08-01-elecciones-presidenciales/)
+**Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital.** Durante la campaña electoral, VEsinFiltro documentó 12 nuevos casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información, sin contar los bloqueos ocurridos luego de las elecciones. 
 
-**The presidential elections of past Sunday, July 28, took place in a context of severe restrictions to human rights in the digital context. During the electoral campaign, VEsinFiltro documented 12 new cases of blocking against media outlets, human rights organizations and a VPN,** particularly against those promoting the right to free speech and access to information, not including the blockings that took place after the elections.
-**The elections were held in a restricted media ecosystem, reducing guarantees for free and informed participation.** To date, 62 media outlets are blocked by the main and largest Internet providers, with these blocks affecting 86 domains, totalling 431 active blocking events. In addition, the websites of 9 human rights organisations and projects are also blocked, with a total of 41 active blocking events.
+Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. **Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet**, estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
 
-Two websites, “Cazadores de Fake News” and “Es Paja,” dedicated to information verification and fact-checking, were blocked on Thursday, July 4, the day the electoral campaign for the presidential elections of July 28 began. Less than a week later, the website of the Venezuelan Observatory of Fake News was blocked.
-During the campaign, the websites of two organizations that defend freedom of expression and freedom of the press were also blocked: the Press and Society Institute of Venezuela (IPYS) on July 12 and Espacio Público on July 17.
-Less than a week before the election, two more civil society portals and four media outlets were blocked. The website of the NGO Medianálisis and vesinfiltro.com, the original domain of this program measuring censorship and digital threats against human rights, were the sites related to human rights which were blocked. They also blocked Analítica, El Estímulo, Tal Cual and Runrunes, which was previously blocked on a single internet service provider (ISP).
+Dos sitios web, “Cazadores de Fake News” y “Es Paja”, dedicados a la verificación de información y al fact-checking, fueron bloqueados este jueves 4 de julio, día en que se inició la campaña electoral para los comicios presidenciales del 28 de julio. Menos de una semana después fue bloqueado el sitio web del Observatorio Venezolano de Fake News. 
 
-**Cases of internet blocks initiated during the campaign that are still active**
+Durante la campaña también bloquearon los sitios web de dos organizaciones que defienden la libertad de expresión y la libertad de prensa: El Instituto Prensa y Sociedad de Venezuela el 12 de julio y Espacio Público el 17 de julio. 
 
+A menos de una semana de la elección, bloquearon dos portales más de la sociedad civil y cuatro medios de comunicación. El sitio web de la ONG Medianálisis y vesinfiltro.com, el dominio original de este programa de medición de censura y amenazas digitales contra los derechos humanos, fueron los sitios bloqueados relacionados con derechos humanos. También bloquearon Analítica, El Estímulo, Tal Cual y Runrunes, que anteriormente estaba bloqueado en un solo proveedor de servicios de internet (ISP).
+
+**Casos de bloequeos iniciados durante la campaña que siguen activos**
 <div class="table-responsive">
 <table class="blocklist">
     <thead>
@@ -91,49 +91,40 @@ Less than a week before the election, two more civil society portals and four me
 
 
 
-The day before the election, the websites wikipedia⸱org and es.wikipedia⸱org were also blocked in an attempt to prevent the uploading of updates. The restrictions were applied to Digitel and NetUno, until July 29.
-
-
+Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno hasta el 29 de Julio.
 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-29-wiki.png"/></p>
 
-These restrictions have continued after the elections. Amid great uncertainty, citizen protests and national and international rejection of the results announced by the National Electoral Council (CNE), the main Internet providers have blocked, using multiple techniques, at least three internet domians in which the opposition campaign, Comando ConVzla, announced that it would publish the tally sheets provided by its witnesses with the results disaggregated by voting table: resultadospresidencialesvenezuela2024⸱com and later, ganovzla⸱com, where anyone could lookup the scanned tally sheet certificates; and the results calculated from those tallies on resultadosconvzla⸱com.
+Estas restricciones han continuado pasadas las elecciones. En medio de una gran incertidumbre, protestas ciudadanas y el desconocimiento nacional e internacional de los resultados anunciados por el Consejo Nacional Electoral, los principales proveedores de Internet han bloqueado, con múltiples técnicas, al menos tres páginas web en las que el comando opositor Con Vzla anunció que publicaría las actas de sus testigos con los resultados por mesa de votación: resultadospresidencialesvenezuela2024⸱com, ganovzla⸱com y resultadosconvzla⸱com.
 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-31-193650_002.png"/></p>
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-31-193650_003.png"/></p>
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-31-181017_002.png"/></p>
 
-At the same time, elecciones2024venezuela⸱com, a website that provides information about the presidential elections, was blocked. The blocking of this website coincided with the rumour that this was the page where the tally sheets of the voting tables could be consulted.
+En simultáneo fue bloqueado elecciones2024venezuela⸱com, una página que proporciona información sobre las elecciones presidenciales. El bloqueo de este sitio web coincidió con el rumor de que esta era la página donde se podrían consultar las actas de las mesas de votación.
 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-29.png"/></p>
 
-## No access to the CNE page
+## Sin acceso a la página del CNE
 
-_VE sin Filtro_ also confirmed restrictions on access to the Electoral Authority's website, which contains official data on the presidential election, www⸱cne⸱gob⸱ve. At the time of writing this report, the website cannot be opened from inside or outside Venezuela.
+VEsinFiltro confirmó además restricciones para el acceso a la página del Poder Electoral, que contiene datos oficiales sobre la elección presidencial, cne⸱gob⸱ve. No abre dentro ni fuera de Venezuela.
 
-These restrictions have been imposed by the CNE itself and not by the Internet providers, failing in their responsibility to make the election results and other information of public interest available. In Venezuela it is not possible to access the website even from CANTV, the main, State-owned internet provider.
+Los impedimentos han sido impuestos por el mismo CNE y no por los proveedores de Internet, faltando a su responsabilidad de hacer disponibles los resultados electorales y otras informaciones de interés público. En Venezuela no es posible ingresar ni desde CANTV.
 
-The situation started with the website not loading from abroad or from national providers such as: Digitel, NetUno, Airtek, Fibex and IPnet, then the same restrictions began to be found in CANTV as well; when the CNE had made the three IP addresses (190.9.10.130.15, 200.11.144.25, 200.44.45.5) of www.cne⸱gob⸱ve accessible only to certain networks.
+Empezó por no abrir desde el exterior ni en proveedores nacionales como: Digitel, NetUno, Airtek, Fibex e IPnet, luego se empezaron a encontrar las mismas restricciones también en CANTV. El CNE ha hecho que las tres direcciones IP (190.9.10.130.15, 200.11.144.25, 200.44.45.5) de www.cne⸱gob⸱ve estén accesibles sólo para ciertas redes. 
 
-At the time of writting, there was no DNS resolution of www.cne⸱gob⸱ve and the servers or their loadblancers do not respond with the website.
-
-These findings were verified using RIPE Atlas and other standardized measurements.
+Los hallazgos fueron verificados mediante mediciones de RIPE Atlas y otras mediciones estandarizadas.
 
 <p align="center"><img src="/res/post_img/2024-08-01/2024-08-01-CNE-1.jpeg"/></p>
 <p align="center"><img src="/res/post_img/2024-08-01/2024-08-01-CNE-2.jpeg"/></p>
 <p align="center"><img src="/res/post_img/2024-08-01/2024-08-01-CNE-3.jpeg"/></p>
 
-The exercise of digital rights contributes to maintaining the integrity of electoral processes and allows citizens to access essential public information in a transparent manner. It also protects freedom of expression online, which is crucial for debating ideas, questioning actions and actively participating in decision-making.
-At VEsinFiltro we reiterate that Internet blockages violate human rights and, in the case of Venezuela, access to information is crucial due to the complex political and social dynamics it experiences, coupled with censorship in traditional media. 
+El ejercicio de los derechos digitales contribuye a mantener la integridad de los procesos electorales y permite que los ciudadanos accedan a información pública esencial y de manera transparente. Protegen, además, la libertad de expresión en línea, lo que es crucial para debatir ideas, cuestionar gestiones y participar activamente en la toma de decisiones. 
 
-## UPDATE
+Desde VEsinFiltro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es crucial debido a la compleja dinámica política y social que experimenta, sumada a la censura en los medios tradicionales de comunicación.
 
-ON 2024-08-1, hours after opposition leader María Corina Machado published an op-ed titled "I Can Prove Maduro Got Trounced" on the WSJ, www⸱wsj⸱com got blocked by most major ISPs
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">🚨<a href="https://twitter.com/hashtag/Venezuela?src=hash&amp;ref_src=twsrc%5Etfw">#Venezuela</a> blocked access to <a href="https://twitter.com/WSJ?ref_src=twsrc%5Etfw">@WSJ</a> The Wall Street Journal<br><br>Last night, hours after opposition leader María Corina Machado published an op-ed titled &quot;I Can Prove Maduro Got Trounced&quot; on the WSJ, 🛑 www⸱wsj⸱com got blocked by most major ISPs<br><br>Multiple websites set up by the… <a href="https://t.co/DILViruAfA">pic.twitter.com/DILViruAfA</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://twitter.com/vesinfiltro/status/1819353798164332946?ref_src=twsrc%5Etfw">August 2, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-## List of blocked media sites
-
+## Lista de medios bloqueados
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -458,5 +449,4 @@ ON 2024-08-1, hours after opposition leader María Corina Machado published an o
 </div>
 </body>
 </html>
-
 
