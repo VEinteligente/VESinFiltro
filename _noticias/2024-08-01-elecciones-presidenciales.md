@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Las elecciones presidenciales se dieron en un contexto de restricción a los derechos humanos en Internet"
-small: "Bloqueos en internetdurante las eleccionesen Venezuela"
-excerpt: ""
+small: "Bloqueos en internet durante las eleccionesen Venezuela"
+excerpt: "Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales proveedores de Internet."
 permalink: /noticias/2024-08-01-elecciones-presidenciales/
 date: 2024-08-01 00:00:00 -0400
 categories: reporte
@@ -13,6 +13,12 @@ image: /res/post_img/2024-08-01/image.jpg
 **Las elecciones presidenciales del pasado domingo 28 de julio se dieron en un contexto de severas restricciones a los derechos humanos en el entorno digital.** Durante la campaña electoral, VEsinFiltro documentó 12 nuevos casos de bloqueos contra medios de comunicación,  organizaciones de DDHH y un VPN, particularmente promotoras del derecho a la libertad de expresión y el acceso a la información, sin contar los bloqueos ocurridos luego de las elecciones. 
 
 Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. **Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales y más grandes proveedores de Internet**, estos bloqueos afectan a 86 dominios, sumando un total de 431 eventos de bloqueos activos. Además, las páginas web de 9 organizaciones y proyectos de DDHH también están bloqueadas, con un total de 41 eventos de bloqueos activos.
+
+Dos sitios web, “Cazadores de Fake News” y “Es Paja”, dedicados a la verificación de información y al fact-checking, fueron bloqueados este jueves 4 de julio, día en que se inició la campaña electoral para los comicios presidenciales del 28 de julio. Menos de una semana después fue bloqueado el sitio web del Observatorio Venezolano de Fake News. 
+
+Durante la campaña también bloquearon los sitios web de dos organizaciones que defienden la libertad de expresión y la libertad de prensa: El Instituto Prensa y Sociedad de Venezuela el 12 de julio y Espacio Público el 17 de julio. 
+
+A menos de una semana de la elección, bloquearon dos portales más de la sociedad civil y cuatro medios de comunicación. El sitio web de la ONG Medianálisis y vesinfiltro.com, el dominio original de este programa de medición de censura y amenazas digitales contra los derechos humanos, fueron los sitios bloqueados relacionados con derechos humanos. También bloquearon Analítica, El Estímulo, Tal Cual y Runrunes, que anteriormente estaba bloqueado en un solo proveedor de servicios de internet (ISP).
 
 **Casos de bloequeos iniciados durante la campaña que siguen activos**
 <div class="table-responsive">
@@ -85,7 +91,7 @@ Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo
 
 
 
-Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno.
+Un día antes de la elección, también fueron bloqueadas las páginas wikipedia⸱org y   es.wikipedia⸱org en un intento por impedir la carga de actualizaciones. Las restricciones fueron aplicadas en Digitel y NetUno hasta el 29 de Julio.
 
 <p align="center"><img width="450" src="/res/post_img/2024-08-01/2024-07-29-wiki.png"/></p>
 
