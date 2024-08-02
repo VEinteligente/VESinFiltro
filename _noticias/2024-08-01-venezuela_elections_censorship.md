@@ -6,9 +6,9 @@ excerpt: "The elections were held in a restricted media ecosystem, reducing guar
 permalink: /noticias/2024-08-01-venezuela_elections_censorship/
 date: 2024-08-01 00:00:00 -0400
 categories: reporte
-image: /res/post_img/2024-08-01/en-image.jpg
+image: /res/post_img/2024-08-01/en-image.png
 ---
-<p class="cover"><img class="" src="/res/post_img/2024-08-01/en-image.jpg"></p>
+<p class="cover"><img class="" src="/res/post_img/2024-08-01/en-image.png"></p>
 
 Original replimniary report [in spanish](/noticias/2024-08-01-elecciones-presidenciales/)
 
