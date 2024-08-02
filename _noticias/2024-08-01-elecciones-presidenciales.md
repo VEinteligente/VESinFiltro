@@ -2,7 +2,7 @@
 layout: post
 title: "Las elecciones presidenciales se dieron en un contexto de restricción a los derechos humanos en Internet"
 small: "Bloqueos en internet durante las eleccionesen Venezuela"
-excerpt: "Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales proveedores de Internet"
+excerpt: "Las elecciones se celebraron con un ecosistema de medios restringido, reduciendo las garantías para una participación libre e informada. Existen, a la fecha, 61 medios de comunicación con bloqueos activos en los principales proveedores de Internet."
 permalink: /noticias/2024-08-01-elecciones-presidenciales/
 date: 2024-08-01 00:00:00 -0400
 categories: reporte
