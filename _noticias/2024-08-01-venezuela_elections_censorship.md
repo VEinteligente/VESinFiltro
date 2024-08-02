@@ -8,7 +8,7 @@ date: 2024-08-01 00:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-08-01/en-image.jpg
 ---
-<p class="cover"><img class="" src="/res/post_img/2024-08-01/image.jpg"></p>
+<p class="cover"><img class="" src="/res/post_img/2024-08-01/en-image.jpg"></p>
 
 Original replimniary report [in spanish](/noticias/2024-08-01-elecciones-presidenciales/)
 
