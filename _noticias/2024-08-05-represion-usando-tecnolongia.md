@@ -59,104 +59,204 @@ Adicionalmente, hacemos un llamado a la Organización de los Estados Americanos 
 
 ## Firmas:
 ### Organizacional
+Organizacional
+
 Conexión Segura y Libre / VE sin Filtro
+
 RedesAyuda
-Acceso Libre 
+
+Acceso Libre 
+
 Centro Latinoamericano de Investigaciones sobre Internet (CLISI)
+
 Access Now
+
 Acción Ciudadana
+
 Azerbaijan Internet Watch
+
 Center on Race & Digital Justice
+
 Centro de Justicia y Paz - Cepaz
+
 Colectivo +Voces (Cuba)
+
 Cooperativa Sulá Batsú
+
 comun.al, Laboratorio de resiliencia digital
+
 Conexo
+
 Derechos Digitales
+
 Digital Action
+
 Digital Grassroots
+
 Digital Rights Foundation
+
 Equality Labs
+
 Fight for the Future
+
 Fundación Internet Bolivia
+
 Fundación Karisma
+
 Gobierno y Análisis Político AC
+
 Instituto Panamericano de Derecho y Tecnología - IPANDETEC
+
 Jonction, Senegal
+
 Laboratorio de Datos y Sociedad (Datysoc, Uruguay)
+
 Majal.org
+
 Myanmar Internet Project
+
 Numun Fund
+
 ONG Amaranta
+
 Robert F. Kennedy Human Rights
+
 @segudigital
+
 Ser Valiente en Red
+
 SocialTIC
+
 The CESI Foundation
+
 The Distributed AI Research Institute (DAIR)
+
 Tifa Foundation, Indonesia
+
 Ubunteam
+
 Washington Office on Latin America (WOLA)
+
 Whistleblower Aid
+
 Witness
 
-###Individual
+### Individual
+
 Alejandra Stolk
+
 Alejandro Mayoral Baños, Indigenous Friends Association (IFA)
+
 Alejandro Pisanty, UNAM, Mexico
+
 Alex Argüelles, comun.al
+
 Alex Hanna, DAIR
+
 Andrés Cañizález, Medianálisis
+
 Anabella Botbol
+
 Ann Toklikishvili
+
 Armando Chaguaceda, politólogo, Investigador Principal GAPAC
+
 Arzu Geybulla
+
 Carlos Guerra
+
 Connie Moon Sehat
+
 Daniel Levine
+
 David Aragort
+
 Débora Calderón
+
 Diego Area
+
 Dr. Aymen Zaghdoudi, media law professor
+
 Eliana Quiroz, Fundación Internet Bolivia
+
 Erick Rozo
+
 Génesis Luigi-Bravo, Yale University
+
 Giovana Fleck
+
 Harun Bala
-Iria Puyosa, Atlantic Council’s Democracy + Tech Initiative
+
+Iria Puyosa, Atlantic Council's Democracy + Tech Initiative
+
 Jac sm Kee
+
 John Polga-Hecimovich
+
 José Arraiza, independent researcher
+
 José Gutiérrez, independent researcher
+
 José J. Nieves (Colectivo +Voces)
+
 José Luis Mendoza, CLISI
+
 Juan de Brigard, independent researcher
+
 Krystal Kauffman, DAIR
+
 Laura Vidal, independent researcher
+
 Libby Liu, Whistleblower Aid
+
 Lisa Schirch, University of Notre Dame
+
 Liz Orembo, Research ICT Africa
+
 Luis Carlos Díaz
+
 Luisa F. Isaza Ibarra
+
 Lucía Camacho G.
+
 Marianne Díaz Hernández, Access Now/Acceso Libre
+
 María Eugenia Grillet, investigadora, Universidad Central de Venezuela
+
 María Gabriela Trompetero, investigadora, Universidad de Bielefeld, Alemania
+
 María Isabel Puerta, politóloga investigadora, Valencia College/GAPAC
+
 Melanio Escobar, RedesAyuda
+
 Muhammed Bello Buhari, Digital Grassroots
+
 Nevin Thompson
+
 Patricia Díaz Charquero, DATA Uruguay | Datysoc
+
 Raisa Urribarri, Universidad de Los Andes
+
 Raphael Tsavkko Garcia, Journalist
+
 Raul Sanchez Urribarri, La Trobe University
+
 Ria Shibata, Toda Peace Institute
+
 Ricardo Rosales
+
 Richard Walakira
+
 Robert Valencia
+
 Robert Todoroski
+
 Romina Navarro
+
 Silvia María Calderón López
+
 Timnit Gebru, DAIR
+
 Valentina Aguana, Conexión Segura y Libre
+
 Wafa Ben-Hassine, human rights lawyer
