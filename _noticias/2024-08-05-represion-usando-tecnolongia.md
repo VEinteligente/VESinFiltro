@@ -59,8 +59,6 @@ Adicionalmente, hacemos un llamado a la Organización de los Estados Americanos 
 
 ## Firmas:
 ### Organizacional
-Organizacional
-
 Conexión Segura y Libre / VE sin Filtro
 
 RedesAyuda
@@ -81,11 +79,11 @@ Centro de Justicia y Paz - Cepaz
 
 Colectivo +Voces (Cuba)
 
-Cooperativa Sulá Batsú
-
 comun.al, Laboratorio de resiliencia digital
 
 Conexo
+
+Cooperativa Sulá Batsú
 
 Derechos Digitales
 
@@ -187,7 +185,7 @@ Giovana Fleck
 
 Harun Bala
 
-Iria Puyosa, Atlantic Council's Democracy + Tech Initiative
+Iria Puyosa
 
 Jac sm Kee
 
