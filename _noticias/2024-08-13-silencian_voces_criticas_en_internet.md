@@ -10,7 +10,7 @@ image: /res/post_img/2024-08-13.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-13.png"></p>
 
-# Venezuela silencia las voces críticas en internet: <br /> Desaparecen aceleradamente los de espacios de expresión
+# **Venezuela silencia las voces críticas en internet:** <br /> Desaparecen aceleradamente los de espacios de expresión
 
 Pasadas las elecciones presidenciales del 28 de julio y en medio de los reiterados señalamientos en contra de los resultados anunciados por el Poder Electoral de Venezuela, la administración de Nicolás Maduro está silenciando la libertad de expresión en internet, escalando en sus prácticas de bloqueo a medios de comunicación digitales, a sitios web de organizaciones de derechos humanos y, más recientemente, restringiendo el uso de X (antes Twitter), de la aplicación de mensajería encriptada Signal y de Microsoft Teams.
 
@@ -44,16 +44,11 @@ Las cifras previamente descritas no incluyen el reciente bloqueo de AWS CloudFro
 
 Como consecuencia del bloqueo a CloudFront, sabemos que en CANTV quedaron bloqueados o "no funcionales" muchos otros sitios y servicios, desde páginas de noticias hasta de entretenimiento, no contabilizados en las estadísticas anteriores
 
-www.icij⸱org 
-
-www.latimes⸱com 
-
-www.caracoltv⸱com
-
-www.csmonitor⸱com 
-
-www.drudgereport.com 
-
+www.icij⸱org \
+www.latimes⸱com \
+www.caracoltv⸱com\
+www.csmonitor⸱com \
+www.drudgereport.com\
 www.dailysabah.com\
 www.binance.com\
 www.mercadolibre.com.ve
@@ -64,7 +59,7 @@ Epic Games. Es prácticamente imposible listar todos los sitios que se vieron af
 
 Desde las elecciones del 28 de julio, se han bloqueado las páginas de dos VPN para un total de seis casos de bloqueos contra herramientas anti-censura, siendo los VPN herramientas claves para sortear las restricciones y la censura previa. También se han bloqueado sitios de datos como es.estatista.com y medios venezolanos de noticias regionales.
 
-Expresiones de oposición en internet calificadas como una amenaza facista
+### Expresiones de oposición en internet calificadas como una amenaza facista
 
 Reiteramos que documentamos un aumento significativo de las medidas restrictivas para el ejercicio de los derechos humanos en el entorno digital, incluyendo libertad de expresión, opinión información y asociación.
 
@@ -82,8 +77,8 @@ En este mismo contexto electoral, hemos visto con preocupación y alarma el uso 
 
 La libertad de expresión como derecho fundamental e inalienable, inherente a todas las personas, recogido en el artículo 19 de la Declaración Universal de los Derechos Humanos, encuentra en Internet uno de los mecanismos ideales para su desarrollo. El Estado Venezolano tiene la responsabilidad de garantizar la libertad de expresión, opinión e información así como la libertad de asociación dentro y fuera de internet.
 
-###\
-Tabla de casos de bloqueos activos al 13 de agosto de 2024
+### Tabla de casos de bloqueos activos al 13 de agosto de 2024
+### Tabla de casos de bloqueos activos al 13 de agosto de 2024
 
 |
 
