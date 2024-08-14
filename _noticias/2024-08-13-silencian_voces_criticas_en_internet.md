@@ -55,7 +55,7 @@ www.mercadolibre.com.ve
 
 
 Pero también plataformas de entretenimiento como Disney+, Max, Amazon Prime Video y   
-Epic Games. **Es prácticamente imposible listar todos los sitios que se vieron afectados como extensión del bloqueo a CloudFlare.**
+Epic Games. **Es prácticamente imposible listar todos los sitios que se vieron afectados como extensión del bloqueo a CloudFront.**
 
 Desde las elecciones del 28 de julio, se han bloqueado las páginas de dos VPN para un total de seis casos de bloqueos contra herramientas anti-censura, siendo los VPN herramientas claves para sortear las restricciones y la censura previa. También se han bloqueado sitios de datos como es.estatista.com y medios venezolanos de noticias regionales.
 
