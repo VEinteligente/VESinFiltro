@@ -44,13 +44,13 @@ Las cifras previamente descritas no incluyen el reciente bloqueo de AWS CloudFro
 
 Como consecuencia del bloqueo a CloudFront, sabemos que en CANTV quedaron bloqueados o "no funcionales" muchos otros sitios y servicios, desde páginas de noticias hasta de entretenimiento, no contabilizados en las estadísticas anteriores
 
-www.icij⸱org \
-www.latimes⸱com \
-www.caracoltv⸱com\
-www.csmonitor⸱com \
-www.drudgereport.com\
-www.dailysabah.com\
-www.binance.com\
+www.icij⸱org <br />
+www.latimes⸱com <br />
+www.caracoltv⸱com <br />
+www.csmonitor⸱com <br />
+www.drudgereport.com <br />
+www.dailysabah.com <br />
+www.binance.com <br />
 www.mercadolibre.com.ve
 
 Pero también plataformas de entretenimiento como Disney+, Max, Amazon Prime Video y 
@@ -77,244 +77,20 @@ En este mismo contexto electoral, hemos visto con preocupación y alarma el uso 
 
 La libertad de expresión como derecho fundamental e inalienable, inherente a todas las personas, recogido en el artículo 19 de la Declaración Universal de los Derechos Humanos, encuentra en Internet uno de los mecanismos ideales para su desarrollo. El Estado Venezolano tiene la responsabilidad de garantizar la libertad de expresión, opinión e información así como la libertad de asociación dentro y fuera de internet.
 
-### Tabla de casos de bloqueos activos al 13 de agosto de 2024
-### Tabla de casos de bloqueos activos al 13 de agosto de 2024
-
-|
-
-Categoría
-
- |
-
-Casos activos
-
-(sitios bloqueados)
-
- |
-
-Dominios bloqueados
-
- |
-
-Eventos de bloqueos activos
-
- |
-| --- | --- | --- | --- |
-|
-
-News Media
-
- |
-
-63
-
- |
-
-89
-
- |
-
-447
-
- |
-|
-
-Political Criticism
-
- |
-
-13
-
- |
-
-15
-
- |
-
-86
-
- |
-|
-
-Human Rights Issues
-
- |
-
-9
-
- |
-
-10
-
- |
-
-41
-
- |
-|
-
-Anonymization and circumvention tools
-
- |
-
-5
-
- |
-
-6
-
- |
-
-35
-
- |
-|
-
-Economics
-
- |
-
-3
-
- |
-
-5
-
- |
-
-27
-
- |
-|
-
-E-commerce
-
- |
-
-3
-
- |
-
-6
-
- |
-
-25
-
- |
-|
-
-Media sharing
-
- |
-
-3
-
- |
-
-3
-
- |
-
-13
-
- |
-|
-
-Communication Tools
-
- |
-
-2
-
- |
-
-2
-
- |
-
-8
-
- |
-|
-
-Public Health
-
- |
-
-2
-
- |
-
-2
-
- |
-
-8
-
- |
-|
-
-Social Networking
-
- |
-
-2
-
- |
-
-13
-
- |
-
-72
-
- |
-|
-
-Miscellaneous content
-
- |
-
-1
-
- |
-
-1
-
- |
-
-1
-
- |
-|
-
-Hate Speech and gore
-
- |
-
-1
-
- |
-
-2
-
- |
-
-9
-
- |
-|\
- |
-
-107
-
- |
-
-154
-
- |
-
-772
-
- |
+### **Tabla de casos de bloqueos activos al 13 de agosto de 2024**
+
+| Categoría | Casos activos (sitios bloqueados) | Dominios bloqueados | Eventos de bloqueos activos |
+| :---- | ----- | ----- | ----- |
+| News Media | 63 | 89 | 447 |
+| Political Criticism | 13 | 15 | 86 |
+| Human Rights Issues | 9 | 10 | 41 |
+| Anonymization and circumvention tools | 5 | 6 | 35 |
+| Economics | 3 | 5 | 27 |
+| E-commerce | 3 | 6 | 25 |
+| Media sharing | 3 | 3 | 13 |
+| Communication Tools | 2 | 2 | 8 |
+| Public Health | 2 | 2 | 8 |
+| Social Networking | 2 | 13 | 72 |
+| Miscellaneous content | 1 | 1 | 1 |
+| Hate Speech and gore | 1 | 2 | 9 |
+|  | **107** | **154** | **772** |
