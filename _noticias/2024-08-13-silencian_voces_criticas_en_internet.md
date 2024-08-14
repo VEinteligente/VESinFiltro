@@ -10,7 +10,7 @@ image: /res/post_img/2024-08-13.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-13.png"></p>
 
-# Venezuela silencia las voces críticas en internet:\
+# Venezuela silencia las voces críticas en internet:  
 Desaparecen aceleradamente los de espacios de expresión
 
 Pasadas las elecciones presidenciales del 28 de julio y en medio de los reiterados señalamientos en contra de los resultados anunciados por el Poder Electoral de Venezuela, la administración de Nicolás Maduro está silenciando la libertad de expresión en internet, escalando en sus prácticas de bloqueo a medios de comunicación digitales, a sitios web de organizaciones de derechos humanos y, más recientemente, restringiendo el uso de X (antes Twitter), de la aplicación de mensajería encriptada Signal y de Microsoft Teams.
