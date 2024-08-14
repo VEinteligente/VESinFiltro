@@ -14,7 +14,7 @@ image: /res/post_img/2024-08-13.png
 
 Pasadas las elecciones presidenciales del 28 de julio y en medio de los reiterados señalamientos en contra de los resultados anunciados por el Poder Electoral de Venezuela, la administración de Nicolás Maduro está silenciando la libertad de expresión en internet, escalando en sus prácticas de bloqueo a medios de comunicación digitales, a sitios web de organizaciones de derechos humanos y, más recientemente, restringiendo el uso de X (antes Twitter), de la aplicación de mensajería encriptada Signal y de Microsoft Teams.
 
-### El acceso a medios independientes y las garantías a la libertad de expresión, opinión e información son fundamentales, pero están ausentes
+## El acceso a medios independientes y las garantías a la libertad de expresión, opinión e información son fundamentales, pero están ausentes
 
 Las elecciones se dieron en un contexto de severas restricciones a las libertades en línea, **la campaña presidencial comenzó con 53 sitios web de noticias ya bloqueados**. Durante la campaña electoral, VE sin Filtro documentó 12 nuevos casos de bloqueos contra medios de comunicación; iniciativas de *fact-checking*; las organizaciones que defienden la libertad de expresión El Instituto Prensa y Sociedad de Venezuela y Espacio Público; la ONG Medianálisis y al nuestro, VEsinFiltro.com; el bloqueo a Wikipedia por varios días y el bloqueo a un VPN. Esto sin contar los bloqueos ocurridos luego de las elecciones.
 
@@ -26,7 +26,7 @@ El Centro Carter, dos días después de las votaciones, declaró que la elecció
 
 Con nuestro programa de monitoreo VE sin Filtro, hemos documentado la censura en internet de casi todo el ecosistema de medios independientes, registrando **más de 63 medios y sitios de noticias que están actualmente bloqueados** en los principales ISP de Venezuela. Estos bloqueos afectan a 89 dominios, que si se cuentan desagregados por ISP y técnica de bloqueo, son 447 eventos de bloqueo.
 
-### Desaparecen los de Espacios de Expresión con bloqueos cada vez más indiscriminados
+## Desaparecen los de Espacios de Expresión con bloqueos cada vez más indiscriminados
 
 Estas condiciones han empeorado durante los últimos días. Frente a un grupo de simpatizantes reunidos en Miraflores, **este jueves 8 de agosto Maduro ordenó el bloqueo de la red social X** (previamente Twitter). Un hecho especialmente crítico y de consecuencias gravísimas en un país como Venezuela, donde el ecosistema de medios se encuentra debilitado y las redes sociales han sido el espacio para difundir información y para expresar opiniones con cierta libertad. También hemos documentado casos de persecución y judicialización en función de las expresiones publicadas en ellas.
 
@@ -55,11 +55,11 @@ www.mercadolibre.com.ve
 
 
 Pero también plataformas de entretenimiento como Disney+, Max, Amazon Prime Video y   
-Epic Games. **Es prácticamente imposible listar todos los sitios que se vieron afectados como extensión del bloqueo a CloudFlare.**
+Epic Games. **Es prácticamente imposible listar todos los sitios que se vieron afectados como extensión del bloqueo a CloudFront.**
 
 Desde las elecciones del 28 de julio, se han bloqueado las páginas de dos VPN para un total de seis casos de bloqueos contra herramientas anti-censura, siendo los VPN herramientas claves para sortear las restricciones y la censura previa. También se han bloqueado sitios de datos como es.estatista.com y medios venezolanos de noticias regionales.
 
-### Expresiones de oposición en internet calificadas como una amenaza facista
+## Expresiones de oposición en internet calificadas como una amenaza facista
 
 Reiteramos que documentamos un aumento significativo de las medidas restrictivas para el ejercicio de los derechos humanos en el entorno digital, incluyendo libertad de expresión, opinión información y asociación. 
 
@@ -77,7 +77,7 @@ En este mismo contexto electoral, hemos visto con preocupación y alarma el uso 
 
 La libertad de expresión como derecho fundamental e inalienable, inherente a todas las personas, recogido en el artículo 19 de la Declaración Universal de los Derechos Humanos, encuentra en Internet uno de los mecanismos ideales para su desarrollo. El Estado Venezolano tiene la responsabilidad de garantizar la libertad de expresión, opinión e información así como la libertad de asociación dentro y fuera de internet.
 
-### Tabla de casos de bloqueos activos al 13 de agosto de 2024
+## Tabla de casos de bloqueos activos al 13 de agosto de 2024
 
 | Categoría | Casos activos (sitios bloqueados) | Dominios bloqueados | Eventos de bloqueos activos |
 | :---- | ----- | ----- | ----- |
