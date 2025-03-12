@@ -56,7 +56,8 @@ El ejercicio de los derechos digitales contribuye a mantener la integridad de la
 
 
 <p class="cover"><img alt="Nuevo Reporte" src="/res/post_img/2025-03-12/horizontal.png"></p>
-# Descarga el reporte: Censura y represión digital en las elecciones presidenciales en Venezuela
+
+# Nuevo reporte: Censura y represión digital en las elecciones presidenciales en Venezuela
 
 Durante el período electoral en Venezuela, que abarcó desde el inicio de la campaña el 4 de julio de 2024, pasando por las elecciones del 28 de julio, y extendiéndose hasta el día de la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura digital sin precedentes. **Durante ese período documentamos un total de 79 sitios web y servidores DNS bloqueados.** Antes de esa fecha, en 2024, habían sido bloqueados otros cinco sitios, principalmente de medios de comunicación. 
 
@@ -68,8 +69,8 @@ Algunas de las prácticas documentadas incluyen la publicación de datos persona
 
 ### Lea nuestro reporte especial:
 
-***[Redes de control: Censura y represión digital en las elecciones presidenciales en Venezuela](/res/files/informe-presidenciales_2024-VEsinFiltro.pdf)***
+***[Redes de control: Censura y represión digital en las elecciones presidenciales en Venezuela ![Descarga el informe](/res/post_img/2025-03-12/2025-03-12-reporte_portada.png)]](/res/files/informe-presidenciales_2024-VEsinFiltro.pdf)***
 
 <div style="text-align: center"><iframe src="https://docs.google.com/viewer?url=https://vesinfiltro.org/res/files/informe-presidenciales-2024-VEsinFiltro.pdf&embedded=true" frameborder="0" width="100%" height="900px"></iframe></div>
 
-![Desrga el informe](/2025-03-12/2025-03-12-reporte_portada.png)
+[![Descarga el informe](/res/post_img/2025-03-12/2025-03-12-reporte_portada.png)](/res/files/informe-presidenciales_2024-VEsinFiltro.pdf)
