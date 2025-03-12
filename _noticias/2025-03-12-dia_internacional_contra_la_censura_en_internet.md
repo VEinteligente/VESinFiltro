@@ -8,7 +8,9 @@ categories: comunicado
 image: /res/post_img/2025-03-12.png
 
 ---
-<p class="cover"><img class="" alt="Día internacional contra la censura en internet" src="/res/post_img/2025-03-12.png"></p>
+
+<p class="cover"><img alt="Día internacional contra la censura en internet" src="/res/post_img/2025-03-12-rrss.png"></p>
+
 
 # Ve sin Filtro: 949 eventos de bloqueos contra sitios web tejen la red de censura oficial en Venezuela
 
