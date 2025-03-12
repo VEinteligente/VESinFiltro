@@ -11,11 +11,11 @@ image: /res/post_img/2025-03-12.png
 <p class="cover"><img class="" src="/res/post_img/2025-03-12.png"></p>
 
 ## Día internacional contra la censura en internet 
-# Ve sin Filtro: 1.136 eventos de bloqueos contra sitios web tejen la red de censura oficial en Venezuela
+# Ve sin Filtro: 949 eventos de bloqueos contra sitios web tejen la red de censura oficial en Venezuela
 
 Las precarias conexiones, la baja penetración de internet, las fallas del servicio eléctrico, los elevados costos de servicios de navegación con velocidades aceptables y, de manera muy alarmante, los bloqueos deliberados y selectivos de sitios web, fomentan la censura en Venezuela. 
 
-Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.316 eventos de bloqueos ejecutados por los principales prestadores del servicio de internet en el país. Siguen activos 928 de estos eventos, impidiendo el acceso a 126 sitios web, 64 de ellos correspondientes a medios de comunicación.
+Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.316 eventos de bloqueos ejecutados por los principales prestadores del servicio de internet en el país. Siguen activos 949 de estos eventos, impidiendo el acceso a 126 sitios web, 64 de ellos correspondientes a medios de comunicación.
 
 De manera más detallada, y considerando que hay sitios web con más de una dirección URL, hemos identificado 222 dominios bloqueados, de los que 172 están activos y 94 pertenecen a medios de comunicación digitales. Los dominios alternativos que pertenecen al mismo sitio web son una estrategia para diversificar sus accesos e intentar burlar la censura. 
 
@@ -37,23 +37,20 @@ El ejercicio de los derechos digitales contribuye a mantener la integridad de la
 
 Desde VE sin Filtro reiteramos que los bloqueos en Internet son violatorios de los derechos humanos y en el caso de Venezuela, el acceso a la información es fundamental debido a la compleja dinámica política y social que experimenta, así como la censura y el debilitamiento de los medios tradicionales de comunicación.
 
-## Casos de bloqueos registrados entre enero 2016 y enero 2025
+## Casos de bloqueos activos hasta enero 2025
 
-| Categoría | Sitios bloqueados | Sitios bloqueados activos | Dominios bloqueados | Dominios bloqueados activos | Eventos de bloqueos totales | Eventos de bloqueos activos | Eventos de bloqueos desactivados |
-| :---- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| News Media | 64 | 60 | 94 | 89 | 481 | 439 | 42 |
-| Anonymization and circumvention tools | 30 | 30 | 32 | 32 | 221 | 209 | 12 |
-| Political Criticism | 16 | 15 | 19 | 18 | 97 | 90 | 7 |
-| Hosting and Blogging Platforms | 15 | 0 | 32 | 0 | 98 | 0 | 98 |
-| Human Rights Issues | 10 | 9 | 11 | 10 | 53 | 49 | 4 |
-| Social Networking | 4 | 2 | 12 | 10 | 267 | 69 | 198 |
-| Communication Tools | 3 | 1 | 4 | 1 | 27 | 8 | 19 |
-| Media sharing | 3 | 3 | 3 | 3 | 13 | 13 | 0 |
-| Miscellaneous content | 2 | 0 | 2 | 0 | 2 | 0 | 2 |
-| Economics | 2 | 2 | 2 | 2 | 11 | 11 | 0 |
-| Pornography | 2 | 0 | 2 | 0 | 2 | 0 | 2 |
-| Public Health | 2 | 2 | 2 | 2 | 8 | 8 | 0 |
-| Hate Speech and gore | 1 | 1 | 1 | 1 | 9 | 9 | 0 |
-| Culture | 1 | 0 | 2 | 0 | 4 | 0 | 4 |
-| E-commerce | 1 | 1 | 4 | 4 | 23 | 23 | 0 |
-|  | **156** | **126** | **222** | **172** | **1316** | **928** | **388** |
+| Categoría | Sitios bloqueados activos | Dominios bloqueados activos | Eventos de bloqueos activos |
+| :---- | ----- | ----- | ----- |
+| News Media | 60 | 89 | 439 |
+| Anonymization and circumvention tools | 30 | 32 | 209 |
+| Political Criticism | 15 | 18 | 90 |
+| Human Rights Issues | 9 | 10 | 49 |
+| Social Networking | 2 | 10 | 69 |
+| Communication Tools | 1 | 1 | 8 |
+| Media sharing | 3 | 3 | 13 |
+| Economics | 2 | 2 | 11 |
+| Pornography | 8 | 8 | 21 |
+| Public Health | 2 | 2 | 8 |
+| Hate Speech and gore | 1 | 1 | 9 |
+| E-commerce | 1 | 4 | 23 |
+|  | **134** | **180** | **949** |
