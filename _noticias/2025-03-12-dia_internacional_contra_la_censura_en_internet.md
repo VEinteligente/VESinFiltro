@@ -68,3 +68,7 @@ Algunas de las prácticas documentadas incluyen la publicación de datos persona
 ### Lea nuestro reporte especial:
 
 ***[Redes de control: Censura y represión digital en las elecciones presidenciales en Venezuela](/res/files/informe-presidenciales_2024-VEsinFiltro.pdf)***
+
+<object data="/res/files/informe-presidenciales_2024-VEsinFiltro.pdf" type="application/pdf" width="100%" height="600px">
+      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org/res/files/informe-presidenciales_2024-VEsinFiltro.pdf&embedded=true" width="100%" height="600px"/> 
+</object>
