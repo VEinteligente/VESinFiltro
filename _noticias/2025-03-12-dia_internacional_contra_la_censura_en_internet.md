@@ -65,4 +65,4 @@ Por otro lado, **VE sin Filtro documentó y archivó 270 casos en los que se evi
 
 Algunas de las prácticas documentadas incluyen la publicación de datos personales de opositores o manifestantes a través de canales oficiales o cuentas vinculadas al oficialismo, con el fin de acosarlos o conseguir información que pudiera facilitar su captura. También desde el gobierno se incentivó abiertamente a los ciudadanos a delatar a los vecinos que considerasen involucrados en actividades subversivas.
 
-Lea nuestro reporte especial ***[Redes de control: Censura y represión digital en las elecciones presidenciales en Venezuela](res/files/informe-presidenciales_2024-VEsinFiltro.pdf)***
+Lea nuestro reporte especial ***[Redes de control: Censura y represión digital en las elecciones presidenciales en Venezuela](/res/files/informe-presidenciales_2024-VEsinFiltro.pdf)***
