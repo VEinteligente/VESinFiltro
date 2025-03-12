@@ -5,10 +5,10 @@ excerpt: "Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.316
 permalink: /noticias/2025-03-12-dia_internacional_contra_la_censura_en_internet/
 date:   2025-03-12 11:00:00 -0400
 categories: comunicado
-image: /res/post_img/2024-08-13.png
+image: /res/post_img/2025-03-12.png
 
 ---
-<p class="cover"><img class="" src="/res/post_img/2024-08-13.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2025-03-12.png"></p>
 
 ## Día internacional contra la censura en internet 
 # Ve sin Filtro: 1.136 eventos de bloqueos contra sitios web tejen la red de censura oficial en Venezuela
