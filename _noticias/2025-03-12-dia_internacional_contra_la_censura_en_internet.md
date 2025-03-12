@@ -3,7 +3,7 @@ layout: post
 title: "Día internacional contra la censura en internet: 1.136 eventos de bloqueos tejen la red de censura en Venezuela"
 excerpt: "Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.316 eventos de bloqueos ejecutados por los principales prestadores del servicio de internet en el país. Siguen activos 928 de estos eventos, impidiendo el acceso a 126 sitios web, 64 de ellos medios de comunicación"
 permalink: /noticias/2025-03-12-dia_internacional_contra_la_censura_en_internet/
-date:   2025-03-12 11:00:00 -0400
+date:   2025-03-12 05:00:00 -0400
 categories: comunicado
 image: /res/post_img/2025-03-12.png
 
