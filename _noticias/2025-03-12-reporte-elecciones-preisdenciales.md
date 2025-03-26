@@ -9,7 +9,7 @@ image: /res/post_img/2025-03-12/reporte-rrss.png
 
 ---
 
-<p class="cover"><img alt="Nuevo reporte: Censura y represión digital en las elecciones presidenciales en Venezuela" src="/res/post_img/2025-03-12/reporte-post.png"></p>
+<p class="cover"><img alt="Censura y represión digital en las elecciones presidenciales en Venezuela" src="/res/post_img/2025-03-12/reporte-post.png"></p>
 
 Durante el período electoral en Venezuela, que abarcó desde el inicio de la campaña el 4 de julio de 2024, pasando por las elecciones del 28 de julio, y extendiéndose hasta el día de la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura digital sin precedentes. **Durante ese período documentamos un total de 79 sitios web y servidores DNS bloqueados.** Antes de esa fecha, en 2024, habían sido bloqueados otros cinco sitios, principalmente de medios de comunicación. 
 
