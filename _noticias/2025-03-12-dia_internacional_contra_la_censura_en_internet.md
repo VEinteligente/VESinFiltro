@@ -5,11 +5,11 @@ excerpt: "Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.335
 permalink: /noticias/2025-03-12-dia_internacional_contra_la_censura_en_internet/
 date:   2025-03-12 05:00:00 -0400
 categories: comunicado
-image: /res/post_img/2025-03-12.png
+image: /res/post_img/2025-03-12/rrss.png
 
 ---
 
-<p class="cover"><img alt="Día internacional contra la censura en internet" src="/res/post_img/2025-03-12-rrss.png"></p>
+<p class="cover"><img alt="Día internacional contra la censura en internet" src="/res/post_img/2025-03-12/post.png"></p>
 
 
 # Ve sin Filtro: 949 eventos de bloqueos contra sitios web tejen la red de censura oficial en Venezuela
@@ -59,7 +59,7 @@ El ejercicio de los derechos digitales contribuye a mantener la integridad de la
 
 <br> <br>
 
-<p class="cover"><img alt="Nuevo Reporte" src="/res/post_img/2025-03-12/horizontal.png"></p>
+<p class="cover"><img alt="Nuevo Reporte" src="/res/post_img/2025-03-12/reporte-post.png"></p>
 
 # Nuevo reporte: Censura y represión digital en las elecciones presidenciales en Venezuela
 
