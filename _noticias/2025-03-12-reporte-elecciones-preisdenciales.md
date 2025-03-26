@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Día internacional contra la censura en internet: 949 eventos de bloqueos tejen la red de censura en Venezuela"
-excerpt: "Entre enero de 2016 y enero de 2025, Ve sin Filtro ha registrado 1.335 eventos de bloqueos ejecutados por los principales prestadores del servicio de internet en el país. Siguen activos 949 de estos eventos, impidiendo el acceso a 126 sitios web, 64 de ellos medios de comunicación"
-permalink: /noticias/2025-03-12-dia_internacional_contra_la_censura_en_internet/
+title: "Nuevo reporte: Censura y represión digital en las elecciones presidenciales en Venezuela"
+excerpt: "Durante el período electoral en Venezuela, que abarcó desde el inicio de la campaña el 4 de julio de 2024, pasando por las elecciones del 28 de julio, y extendiéndose hasta el día de la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura y represión digital sin precedentes."
+permalink: /noticias/2025-03-12-reporte-elecciones-presidenciales/
 date:   2025-03-12 23:00:00 -0400
-categories: comunicado
+categories: reporte
 image: /res/post_img/2025-03-12/reporte-rrss.png
 
 ---
