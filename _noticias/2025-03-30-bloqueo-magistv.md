@@ -3,7 +3,7 @@ layout: post
 title: "Bloquean 52 dominios relacionados a MagisTV y FlujoTV por órden judicial"
 excerpt: "Juez del estado Zulia ordena a CONATEL el bloqueo de dominios relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming. VE sin Filtro registró un total de 52 de estos dominios con bloqueos activos."
 permalink: /noticias/2025-03-30-bloqueo-magistv/
-date: 2025-03-30 12:30:00 -0400
+date: 2025-03-30 10:30:00 -0400
 categories: comunicado
 
 ---
