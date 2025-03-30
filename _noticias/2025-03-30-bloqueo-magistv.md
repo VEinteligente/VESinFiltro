@@ -5,8 +5,12 @@ excerpt: "Juez del estado Zulia ordena a CONATEL el bloqueo de dominios relacion
 permalink: /noticias/2025-03-30-bloqueo-magistv/
 date: 2025-03-30 10:30:00 -0400
 categories: comunicado
+image: /res/post_img/2025-03-30.png
 
 ---
+<p class="cover"><img class="" src="/res/post_img/2025-03-30.png"></p>
+
+<br>
 
 El 26 de marzo del 2025 un juez del estado Zulia ordenó a CONATEL el bloqueo de dominios relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming, como parte de una investigación criminal en curso.
 
