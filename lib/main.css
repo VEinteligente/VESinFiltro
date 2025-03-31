@@ -241,7 +241,7 @@ table.blocklist td {
   padding: 2%
 }
 
-table.blocklist .accesible , .block , .partial, .http-dns{
+table.blocklist .accesible , .block , .partial, .http-dns, .orange{
   border-right: 2px solid white;
   border-bottom: 2px solid white;
   font-weight: 500;
@@ -261,7 +261,11 @@ table.blocklist .partial {
 }
 
 table.blocklist .http-dns {
-	background-color: #E6703E;
+	background-color: #F77E4A;
+}
+
+table.blocklist .orange {
+	background-color: #F77E4A;
 }
 
 table.blocklist tfoot {
