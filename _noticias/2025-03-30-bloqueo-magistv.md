@@ -5,16 +5,16 @@ excerpt: "Juez del estado Zulia ordena a CONATEL el bloqueo de dominios relacion
 permalink: /noticias/2025-03-30-bloqueo-magistv/
 date: 2025-03-31 10:30:00 -0400
 categories: comunicado
-image: /res/post_img/2025-03-30.png
+image: /res/post_img/2025-03-31.png
 
 ---
-<p class="cover"><img class="" src="/res/post_img/2025-03-30.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2025-03-31.png"></p>
 
 <br>
 
-Hace unos días un juez del estado Zulia ordenó a CONATEL el bloqueo de 198 dominios relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming.
+Hace unos días un juez del estado Zulia ordenó a CONATEL el bloqueo de 198 dominios y URL relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming.
 
-Hemos documentado el bloqueo de 52 dominios de los listados en la orden del juez desde que se conoció públicamente el 26 de marzo. **La inmensa mayoría de los bloqueos en internet en Venezuela se ejecutan sin orden judicial y en medio de una opacidad absoluta, a pesar de tratarse de acciones que vulneran las garantías para el ejercicio de derechos humanos. Es anecdótico que en este caso se conozca y se haga pública la decisión de un tribunal. 
+Hemos documentado el bloqueo de 52 dominios de los listados en la orden del juez desde que se conoció públicamente el 26 de marzo. **La inmensa mayoría de los bloqueos en internet en Venezuela se ejecutan sin orden judicial y en medio de una opacidad absoluta,** a pesar de tratarse de acciones que vulneran las garantías para el ejercicio de derechos humanos. Es anecdótico que en este caso se conozca y se haga pública la decisión de un tribunal. 
 
 MagisTV y FlujoTV son apps que ofrecen acceso a contenido audiovisual, como películas, series y televisión en vivo a través de internet (IPTV). Estas plataformas no cuentan con derechos sobre los contenidos que ofrecen, infringiendo los derechos de autor. Al operar de forma ilegal, estas apps no se encuentran en las tiendas de aplicaciones oficiales. En su lugar, el servicio es comercializado por distintos grupos y las apps se pueden descargar como APKs desde diversos sitios web, algunos de los cuales incluyen **software malicioso.**
 
