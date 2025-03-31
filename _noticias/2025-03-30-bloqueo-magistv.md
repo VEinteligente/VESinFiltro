@@ -5,16 +5,16 @@ excerpt: "Juez del estado Zulia ordena a CONATEL el bloqueo de dominios relacion
 permalink: /noticias/2025-03-30-bloqueo-magistv/
 date: 2025-03-31 10:30:00 -0400
 categories: comunicado
-image: /res/post_img/2025-03-30.png
+image: /res/post_img/2025-03-31.png
 
 ---
-<p class="cover"><img class="" src="/res/post_img/2025-03-30.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2025-03-31.png"></p>
 
 <br>
 
-Hace unos días un juez del estado #Zulia ordenó a CONATEL el bloqueo de 198 dominios relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming.
+Hace unos días un juez del estado Zulia ordenó a CONATEL el bloqueo de 198 dominios y URL relacionados a Magis TV y Flujo TV, apps de piratería por IPTV y streaming.
 
-Hemos documentado el bloqueo de 52 dominios de los listados en la orden del juez desde que se conoció públicamente el 26 de marzo. **La inmensa mayoría de los bloqueos en internet en Venezuela se ejecutan sin orden judicial y en medio de una opacidad absoluta, a pesar de tratarse de acciones que vulneran las garantías para el ejercicio de derechos humanos. Es anecdótico que en este caso se conozca y se haga pública la decisión de un tribunal. 
+Hemos documentado el bloqueo de 52 dominios de los listados en la orden del juez desde que se conoció públicamente el 26 de marzo. **La inmensa mayoría de los bloqueos en internet en Venezuela se ejecutan sin orden judicial y en medio de una opacidad absoluta,** a pesar de tratarse de acciones que vulneran las garantías para el ejercicio de derechos humanos. Es anecdótico que en este caso se conozca y se haga pública la decisión de un tribunal. 
 
 MagisTV y FlujoTV son apps que ofrecen acceso a contenido audiovisual, como películas, series y televisión en vivo a través de internet (IPTV). Estas plataformas no cuentan con derechos sobre los contenidos que ofrecen, infringiendo los derechos de autor. Al operar de forma ilegal, estas apps no se encuentran en las tiendas de aplicaciones oficiales. En su lugar, el servicio es comercializado por distintos grupos y las apps se pueden descargar como APKs desde diversos sitios web, algunos de los cuales incluyen **software malicioso.**
 
@@ -23,13 +23,13 @@ La orden del Tribunal Octavo de Control del Circuito Judicial Penal de Maracaibo
 Además del bloqueo de las páginas web, también ordena el *“bloqueo del proveedor DNS”*, una instrucción poco clara, que parece ser un error por una confusión sobre el funcionamiento de internet. Podría entenderse como bloquear los servidores DNS autoritativos para estos dominios, lo que podría tener consecuencias colaterales gravísimas, dependiendo de dónde estén hospedados. Otra interpretación puede ser bloquear servidores DNS (resolvers) públicos como 8.8.8.8 de Google, que usan los usuarios para evadir la censura DNS, entre otras razones. Esto sería gravísimo también, como vimos cuando CANTV bloqueó docenas de resolvers DNS públicos.
 
 
-Según el documento, el bloqueo se ordena *“en virtud de que estos* [dominios]  *guardan vinculación con el procedimiento llevado en contra del ciudadano ROMER GABRIEL CAPUZZI GONZALEZ”* quién fue capturado el 26 de marzo y tenía orden de arresto captura del mismo tribunal. 
+Según el documento, el bloqueo se ordena *“en virtud de que estos* [dominios] *guardan vinculación con el procedimiento llevado en contra del ciudadano ROMER GABRIEL CAPUZZI GONZALEZ”* quién fue capturado el 26 de marzo y tenía orden de arresto captura del mismo tribunal. 
 
 Aunque existen redes de comercialización de MagisTV y FlujoTV, resulta difícil imaginar que una sola persona pueda estar detrás de la coordinación de esta lista tan grande y variada de sitios web dedicados a la promoción y comercialización de servicios de piratería, como se ha sugerido. La orden tampoco aclara cuál es la base legal que sustenta la órden de bloqueo.
 
 Si bien esta orden de bloqueo viene de un tribunal, esto es inusual en Venezuela. El bloqueo de sitios web debe ser una medida de último recurso, proporcional, y transparente, sólo cuando sea necesario siguiendo los estándares de derechos humanos.
 
-En general, el bloqueo de sitios web en #internetVE ocurre sin orden judicial y responde principalmente a un interés de censurar a la prensa independiente, voces disidentes y herramientas para evadir esas mismas restricciones. Violando los derechos humanos de los venezolanos.
+En general, el bloqueo de sitios web en internet en Venezuela ocurre sin orden judicial y responde principalmente a un interés de censurar a la prensa independiente, voces disidentes y herramientas para evadir esas mismas restricciones. Violando los derechos humanos de los venezolanos.
 
 ### Lista preliminar de sitios web bloqueados en al menos un ISP
 
