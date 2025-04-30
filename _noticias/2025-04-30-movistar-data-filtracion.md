@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alerta sobre Filtración Masiva de datos personales de usuarios de Movistar en Venezuela"
-excerpt: "..."
+excerpt: "Informe en proceso de redación"
 permalink: /noticias/2025-04-30-movistar-data-filtracion/
 date: 2025-04-30 16:00:00 -0400
 categories: reporte
