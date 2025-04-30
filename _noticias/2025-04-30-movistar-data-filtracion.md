@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alerta sobre filtración Masiva de datos personales de usuarios de Movistar en Venezuela"
-excerpt: "Informe en proceso de redación"
+excerpt: "Se ha identificado una filtración masiva de datos personales de usuarios de Movistar en Venezuela, afectando al menos a 3.250.000 personas. La información incluye cédula, nombre, ciudad y teléfono, lo que representa un riesgo para la privacidad y seguridad."
 permalink: /noticias/2025-04-30-movistar-data-filtracion/
 date: 2025-04-30 16:00:00 -0400
 categories: reporte
