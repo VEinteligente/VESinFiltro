@@ -1,3 +1,16 @@
+---
+layout: post
+title: "Alerta sobre Filtración Masiva de datos personales de usuarios de Movistar en Venezuela"
+excerpt: "..."
+permalink: /noticias/2025-04-30-movistar-data-filtracion/
+date: 2025-04-30 16:00:00 -0400
+categories: reporte
+image: /res/post_img/2025-04-29/portada.png
+
+---
+
+<p class="cover"><img class="" src="/res/post_img/2025-04-29/portada.png"></p>
+
 Alerta sobre Filtración Masiva de datos personales de usuarios de Movistar en Venezuela
 
 VE sin Filtro ha identificado una filtración masiva de datos personales pertenecientes a usuarios de la compañía de telefonía Movistar. De acuerdo con información que ha circulado en foros públicos especializados, y que hemos verificado de manera independiente el contenido de esta filtración, que  afectaría al menos a 3.250.000 personas.
