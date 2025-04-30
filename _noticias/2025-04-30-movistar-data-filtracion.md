@@ -13,7 +13,9 @@ image: /res/post_img/2025-04-29/portada.png
 
 **INFORME EN DESARROLLO**
 
-VE sin Filtro ha identificado una filtración masiva de datos personales pertenecientes a usuarios de la compañía de telefonía Movistar. De acuerdo con información que ha circulado en foros públicos especializados, y que hemos verificado de manera independiente el contenido de esta filtración, que  **afectaría al menos a 3.250.000 personas**.
+VE sin Filtro ha identificado una filtración masiva de datos personales pertenecientes a usuarios de la compañía de telefonía Movistar. De acuerdo con información que ha circulado en foros públicos especializados, y que hemos verificado de manera independiente, el contenido de esta filtración afectaría al menos a **3.250.000 personas**.
+
+Entre la información expuesta se encuentra: cédula de identidad, nombre completo, ciudad de residencia y número de teléfono. Son datos sensibles y su publicación representa un riesgo significativo para la privacidad y seguridad de los afectados. 
 
 A pesar de haber confirmado que la información publicada es de usuarios de Movistar, no es posible corroborar que los datos hayan sido obtenidos directamente de esta empresa o de alguna otra fuente. 
 
@@ -26,3 +28,4 @@ Exhortamos a **Movistar** a que informe de manera transparente a sus usuarios so
 Es importante aclarar que los datos expuestos corresponden a información de los clientes, no al contenido de sus comunicaciones. Tampoco se han filtrado contraseñas ni sus hashes.
 
 Se recomienda a los usuarios de Movistar en Venezuela que estén atentos a posibles comunicaciones sospechosas y que tomen medidas preventivas ante engaños, estafas y phishing, ya que otros criminales podrían hacer uso de esta información.
+
