@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "VEsinFiltro condena restricciones a la libertad de prensa en Venezuela y exige a CONATEL y a los ISP levantar los bloqueos contra medios de comunicación"
-excerpt: "VEsinFiltro condena restricciones a la libertad de prensa en Venezuela y exige a CONATEL y a los ISP levantar los bloqueos contra medios de comunicación "
-short: "VEsinFiltro condena restricciones a la libertad de prensa y exige levantar los bloqueos contra los medios"
+excerpt: "Al menos 61 medios de comunicación independientes permanecen bloqueados en internet y sigue restringido el  acceso a la red social X y la app de mensajería Signal. Esta situación configura un panorama hostil para el ejercicio del derecho a la información y la libertad de prensa en Venezuela."
+small: "VEsinFiltro condena restricciones a la libertad de prensa y exige levantar los bloqueos contra los medios"
 permalink: /noticias/2025-05-03-dia-libertad-prensa/
 date: 2025-05-03 01:30:00
 categories: comunicado
@@ -34,8 +34,11 @@ La existencia de un Estado con limitaciones en el acceso a la información y med
 En este Día Mundial de la Libertad de Prensa, VEsinFiltro hace un llamado urgente a la responsabilidad ética y legal de los actores públicos y privados para garantizar un internet libre, abierto y plural en Venezuela.
 
 <br>
-<h2><p class="cover"><img class="" src="/res/post_img/2025-05-03/2025-05-03-carta.png" alt="Carta abierta a CONATEL y los proveedores de servicio de internet que operan en Venezuela"></p></h2>
+<p class="cover" ><h2><img class="" src="/res/post_img/2025-05-03/2025-05-03-carta.png" alt="Carta abierta a CONATEL y los proveedores de servicio de internet que operan en Venezuela"></h2></p>
 
-<object data="res/post_img/2025-05-03/CartaVSF-Dia_Libertad_Prensa.pdf" type="application/pdf" width="100%" height="600px">
-      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org/res/post_img/2025-05-03/CartaVSF-Dia_Libertad_Prensa.pdf&embedded=true" width="100%" height="600px"/> 
-</object>
+<p class="cover" style="margin-bottom: -47px;">
+    <object data="res/post_img/2025-05-03/CartaVSF-Dia_Libertad_Prensa.pdf" type="application/pdf" width="100%" height="1000">
+      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org/res/post_img/2025-05-03/CartaVSF-Dia_Libertad_Prensa.pdf&amp;embedded=true" width="100%" height="1000"> 
+    </object>
+</p>
+
