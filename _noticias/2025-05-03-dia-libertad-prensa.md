@@ -35,6 +35,7 @@ En este Día Mundial de la Libertad de Prensa, VEsinFiltro hace un llamado urgen
 
 <br>
 <p class="cover" ><h2><img class="" src="/res/post_img/2025-05-03/2025-05-03-carta.png" alt="Carta abierta a CONATEL y los proveedores de servicio de internet que operan en Venezuela"></h2></p>
+<br>
 
 <p class="cover" style="margin-bottom: -47px;">
     <object data="res/post_img/2025-05-03/CartaVSF-Dia_Libertad_Prensa.pdf" type="application/pdf" width="100%" height="1000">
