@@ -16,11 +16,11 @@
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
 	{% if page.image == "no" %}
-	<meta property="og:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta property="og:image" content="https://vesinfiltro.org/res/TWcard.png">
 	{% elsif page.image %}
 	<meta property="og:image" content="{{ page.image | absolute_url }}">
 	{% else %}
-	<meta property="og:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta property="og:image" content="https://vesinfiltro.org/res/TWcard.png">
 	{% endif %}
 
 	<meta property="og:type" content="website">
@@ -32,24 +32,24 @@
 	<!-- Tw meta tags -->
 	{% if page.image == "no" %}
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png" />
+	<meta name="twitter:image" content="https://vesinfiltro.org/res/TWcard.png" />
 	{% elsif page.image %}
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:image" content="{{ page.image | absolute_url }}" />
 	{% else %}
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png" />
+	<meta name="twitter:image" content="https://vesinfiltro.org/res/TWcard.png" />
 	{% endif %}
 
 	<meta name="twitter:site" content="@VEsinFiltro" />
     <meta name="twitter:creator" content="@VEinteligente">
-	<meta name="twitter:title" content="{% if page.small and page.small != ''%}{{ page.small }}{% elsif page.title and page.title != '' %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}" />
+	<meta name="twitter:title" content="{% if page.small and page.small != ''%}{{ page.small }}{% elsif page.title and page.title != '' %}{{ page.title }}{% else %}VEsinFiltro.org reporta y evade la censura{% endif %}" />
 	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}" />
 
 	<!--
 	{% if page.image == "no" %}
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta name="twitter:image" content="https://vesinfiltro.org/res/TWcard.png">
 
 	{% elsif page.image %}
 	<meta name="twitter:card" content="summary_large_image">
@@ -57,12 +57,12 @@
 
 	{% else %}
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta name="twitter:image" content="https://vesinfiltro.org/res/TWcard.png">
 	{% endif %}
 
     <meta name="twitter:site" content="@VEsinFiltro">
     <meta name="twitter:creator" content="@VEinteligente">
-    <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}{% endif %}">
+    <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.org reporta y evade la censura{% endif %}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}">
 	-->
 
