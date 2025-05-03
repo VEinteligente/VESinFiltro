@@ -4,7 +4,7 @@ title: "VEsinFiltro condena restricciones a la libertad de prensa en Venezuela y
 excerpt: "VEsinFiltro condena restricciones a la libertad de prensa en Venezuela y exige a CONATEL y a los ISP levantar los bloqueos contra medios de comunicación "
 short: "VEsinFiltro condena restricciones a la libertad de prensa y exige levantar los bloqueos contra los medios"
 permalink: /noticias/2025-05-03-dia-libertad-prensa/
-date: 2025-05-0 01:30:00
+date: 2025-05-03 01:30:00
 categories: comunicado
 image: /res/post_img/2025-05-03/2025-05-03-redes@2x.png
 
