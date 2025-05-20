@@ -17,6 +17,8 @@ image: /res/post_img/2025-05-20_reporte-elecciones.png
 
 Caracas. 19-05-2025.- Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia.
 
+<p align="center"><img src="/res/post_img/2025-05-20-104210_002.jpeg"/></p>
+
 Vaca explicó que, pese al complejo contexto en toda América, en Venezuela destaca “el despliegue de décadas de intento de control de los medios de comunicación”, “la concentración del poder y la ausencia del Estado de derecho" y el hecho grave de que "personas por pensar distinto han estado en prisión". 
 
 El relator citó como ejemplos de esta caracterización las detenciones de periodistas, la falta de autonomía de instituciones administrativas que restringen el trabajo de medios audiovisuales y el uso de funcionarios policiales para la revisión de equipos electrónicos personales, entre otros. 
@@ -30,8 +32,6 @@ Se refirió al "efecto postergado de las acciones de censura" y destacó que si 
 El prolongado efecto de la censura en Venezuela y la necesidad de concentrar esfuerzos para que los puentes de información y de denuncia sigan existiendo, fueron temas centrales discutidos este lunes en el foro Censura y Represión Digital en #InternetVE, llevado a cabo por la organización Conexión Segura y Libre y su programa VE sin Filtro. 
 
 Durante la conversación, de la que también participaron la abogada y activista por los derechos digitales Marianne Díaz y el director de la organización Conexión Segura y Libre, Andrés Azpúrua,  moderada por el periodista Luis Carlos Díaz, todos coincidieron en las sistemáticas y complejas restricciones en el acceso a la información en Venezuela y la censura. 
-
-<p align="center"><img src="/res/post_img/2025-05-20-104210_002.jpeg"/></p>
 
 ## El contexto electoral
 Azpúrua hizo referencia a los bloqueos digitales en el contexto de las elecciones presidenciales llevadas a cabo el pasado 28 de julio y destacó que "el período que transcurrió desde el inicio de la campaña hasta la toma de posesión en enero de 2025, cuenta la peor censura en internet que hemos vivido en Venezuela".
