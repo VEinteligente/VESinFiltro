@@ -1,5 +1,6 @@
 ---
 layout: post
+pretitle: "En el foro Censura y Represión Digital en #InternetVE"
 title: "Relator Especial para la Libertad de Expresión de la CIDH: frente a la represión, hay que trabajar para que los puentes de información y denuncia sigan existiendo"
 excerpt: "Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia."
 small: "En el foro sobre Censura y Represión Digital en #InternetVE, Pedro Vaca, relator de la CIDH, resaltó que Venezuela se distingue por décadas de control mediático, concentración de poder, y detenciones por disidencia. Subrayó la importancia de mantener abiertos los canales de información y denuncia para alertar a la comunidad internacional."
@@ -10,8 +11,6 @@ image: /res/post_img/2025-05-20-104210_002.jpeg
 
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-05-20-104210_002.jpeg"></p>
-
-**En el foro Censura y Represión Digital en #InternetVE**
 
 Caracas. 19-05-2025.- Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia.
 
@@ -57,7 +56,7 @@ Azpúrua explicó que, aunque no se puede prever el futuro de Venezuela en mater
 
 Por su parte, Vaca aseguró que el aporte de los actores internacionales debe encaminarse en considerar planteamientos de orden humanitario como la “observación in situ”, así como promover que la conversación desde la sociedad civil y el periodismo venezolano se haga presente en foros e instancias multilaterales.
 
-<div style="text-align: center;"><iframe width="720" height="405" src="https://www.youtube.com/embed/fku0FWmHVps?si=tdgcQCMSsUIDeLyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.youtube.com/embed/fku0FWmHVps?si=tdgcQCMSsUIDeLyJ" frameborder='0' allowfullscreen></iframe></div>
 
 
 
