@@ -31,6 +31,8 @@ El prolongado efecto de la censura en Venezuela y la necesidad de concentrar esf
 
 Durante la conversación, de la que también participaron la abogada y activista por los derechos digitales Marianne Díaz y el director de la organización Conexión Segura y Libre, Andrés Azpúrua,  moderada por el periodista Luis Carlos Díaz, todos coincidieron en las sistemáticas y complejas restricciones en el acceso a la información en Venezuela y la censura. 
 
+<p align="center"><img src="/res/post_img/2025-05-20-104210_002.jpeg"/></p>
+
 ## El contexto electoral
 Azpúrua hizo referencia a los bloqueos digitales en el contexto de las elecciones presidenciales llevadas a cabo el pasado 28 de julio y destacó que "el período que transcurrió desde el inicio de la campaña hasta la toma de posesión en enero de 2025, cuenta la peor censura en internet que hemos vivido en Venezuela".
 
@@ -44,12 +46,16 @@ En este sentido, puntualizó la necesidad de “acudir a llamamientos mínimos" 
 
 Por su parte, la jurista Marianne Díaz aseguró que es un “momento muy clave en la historia de la censura y de la vigilancia en Venezuela”, pues durante los comicios presidenciales se engranaron todos los elementos  que hasta entonces se habían configurado para la “creación de un estado de vigilancia masiva y control biosociopolítico en internet”. 
 
+<p align="center"><img src="/res/post_img/2025-05-20-104210_003.jpeg"/></p>
+
 ## Desde afuera
 Vaca, reconoció el trabajo de las organizaciones de la sociedad civil que documentan la censura en Venezuela y que propagan el contenido y de los medios de comunicación que con mística difunden la información pese a las restricciones. 
 
 "Si uno mira el histórico de VE sin Filtro, lo digo como usuario de la información que producen, tal vez lo más dantesco es la ausencia de una reacción institucional", dijo el relator al cuestionar la falta de respuesta del Estado ante bloqueos digitales. 
 
 Los especialistas coincidieron en la importancia de trabajar en conjunto por el mantenimiento del ecosistema de medios digitales y “articulación estratégica” para combatir las formas de censura que se diversifican y amplían con el pasar del tiempo. 
+
+<p align="center"><img src="/res/post_img/2025-05-20-104248_003.jpeg"/></p>
 
 Azpúrua explicó que, aunque no se puede prever el futuro de Venezuela en materia de derechos digitales, "las tendencias apuntan a un manejo cada vez más duro de la censura y de la vigilancia. Una estrategia de múltiples vectores para maximizar la intimidación: desde la detención arbitraria de personas hasta convertir en un arma de miedo la visibilización de estas mismas detenciones".
 
