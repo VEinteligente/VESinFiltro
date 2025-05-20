@@ -6,10 +6,10 @@ small: "."
 permalink: /noticias/2025-05-19-foro-censura-represion/
 date: 2025-05-20 10:30:00 -0400
 categories: bloqueos
-image: /res/post_img/2025-05-03/2025-05-03-redes@2x.png
+image: /res/post_img/2025-05-20_reporte-elecciones.png
 
 ---
-<p class="cover"><img class="" src="/res/post_img/2025-05-03/2025-05-03.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2025-05-20_reporte-elecciones.png"></p>
 
 # En el foro Censura y Represión Digital en #InternetVE
 
