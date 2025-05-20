@@ -8,7 +8,10 @@
     {% include header.html %}
 
     <div class="page-content">
-	  <header class="wrapper post-header">
+      <header class="wrapper post-header">
+	{% if page.antetitulo %}
+		<p class="pretitle-estilo"><strong>{{ page.pretitle }}</strong></p>
+	{% endif %}
         <h1 class="post-title">{{ page.title }}</h1>
         <p.date>{{ page.date |  date: '%B %d, %Y' }}</p>
         {% if page.author %}
