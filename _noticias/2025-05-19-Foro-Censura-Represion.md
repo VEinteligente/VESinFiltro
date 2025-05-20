@@ -61,7 +61,7 @@ Azpúrua explicó que, aunque no se puede prever el futuro de Venezuela en mater
 
 Por su parte, Vaca aseguró que el aporte de los actores internacionales debe encaminarse en considerar planteamientos de orden humanitario como la “observación in situ”, así como promover que la conversación desde la sociedad civil y el periodismo venezolano se haga presente en foros e instancias multilaterales.
 
-<p align="center"><iframe width="720" height="405" src="https://www.youtube.com/embed/fku0FWmHVps?si=tdgcQCMSsUIDeLyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+<div style="text-align: center;"><iframe width="720" height="405" src="https://www.youtube.com/embed/fku0FWmHVps?si=tdgcQCMSsUIDeLyJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 
 
