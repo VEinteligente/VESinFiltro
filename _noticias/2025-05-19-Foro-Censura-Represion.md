@@ -25,6 +25,8 @@ Frente a la “alta cuota de represión” y los ataques presenciales y digitale
 
 Se refirió al "efecto postergado de las acciones de censura" y destacó que si los esfuerzos periodísticos por informar que se han dado hasta ahora en Venezuela disminuye o desaparece, se comprometerá la forma en cómo la comunidad internacional conoce de los hechos locales. 
 
+<p align="center"><img src="/res/post_img/2025-05-20-104210_003.jpeg"/></p>
+
 "La censura en Venezuela no solo afecta al pueblo venezolano, sino que también afecta las posibilidades desde afuera para entender lo que está sucediendo", sentenció. En  este sentido, resaltó la importancia de "priorizar la agenda de Derechos Humanos", para mantener la situación de Venezuela en la discusión y la agenda internacional. 
 
 El prolongado efecto de la censura en Venezuela y la necesidad de concentrar esfuerzos para que los puentes de información y de denuncia sigan existiendo, fueron temas centrales discutidos este lunes en el foro Censura y Represión Digital en #InternetVE, llevado a cabo por la organización Conexión Segura y Libre y su programa VE sin Filtro. 
@@ -44,7 +46,7 @@ En este sentido, puntualizó la necesidad de “acudir a llamamientos mínimos" 
 
 Por su parte, la jurista Marianne Díaz aseguró que es un “momento muy clave en la historia de la censura y de la vigilancia en Venezuela”, pues durante los comicios presidenciales se engranaron todos los elementos  que hasta entonces se habían configurado para la “creación de un estado de vigilancia masiva y control biosociopolítico en internet”. 
 
-<p align="center"><img src="/res/post_img/2025-05-20-104210_003.jpeg"/></p>
+<p align="center"><img src="/res/post_img/2025-05-20-104248_003.jpeg"/></p>
 
 ## Desde afuera
 Vaca, reconoció el trabajo de las organizaciones de la sociedad civil que documentan la censura en Venezuela y que propagan el contenido y de los medios de comunicación que con mística difunden la información pese a las restricciones. 
@@ -52,8 +54,6 @@ Vaca, reconoció el trabajo de las organizaciones de la sociedad civil que docum
 "Si uno mira el histórico de VE sin Filtro, lo digo como usuario de la información que producen, tal vez lo más dantesco es la ausencia de una reacción institucional", dijo el relator al cuestionar la falta de respuesta del Estado ante bloqueos digitales. 
 
 Los especialistas coincidieron en la importancia de trabajar en conjunto por el mantenimiento del ecosistema de medios digitales y “articulación estratégica” para combatir las formas de censura que se diversifican y amplían con el pasar del tiempo. 
-
-<p align="center"><img src="/res/post_img/2025-05-20-104248_003.jpeg"/></p>
 
 Azpúrua explicó que, aunque no se puede prever el futuro de Venezuela en materia de derechos digitales, "las tendencias apuntan a un manejo cada vez más duro de la censura y de la vigilancia. Una estrategia de múltiples vectores para maximizar la intimidación: desde la detención arbitraria de personas hasta convertir en un arma de miedo la visibilización de estas mismas detenciones".
 
