@@ -6,18 +6,16 @@ small: "En el foro sobre Censura y Represión Digital en #InternetVE, Pedro Vaca
 permalink: /noticias/2025-05-19-foro-censura-represion/
 date: 2025-05-20 10:30:00 -0400
 categories: bloqueos
-image: /res/post_img/2025-05-20_reporte-elecciones.png
+image: /res/post_img/2025-05-20-104210_002.jpeg
 
 ---
-<p class="cover"><img class="" src="/res/post_img/2025-05-20_reporte-elecciones.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2025-05-20-104210_002.jpeg"></p>
 
 # En el foro Censura y Represión Digital en #InternetVE
 
 ## Relator Especial para la Libertad de Expresión de la CIDH: frente a la represión, hay que trabajar para que los puentes de información y denuncia sigan existiendo
 
 Caracas. 19-05-2025.- Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia.
-
-<p align="center"><img src="/res/post_img/2025-05-20-104210_002.jpeg"/></p>
 
 Vaca explicó que, pese al complejo contexto en toda América, en Venezuela destaca “el despliegue de décadas de intento de control de los medios de comunicación”, “la concentración del poder y la ausencia del Estado de derecho" y el hecho grave de que "personas por pensar distinto han estado en prisión". 
 
