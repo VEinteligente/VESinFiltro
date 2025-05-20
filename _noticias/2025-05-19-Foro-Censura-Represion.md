@@ -1,6 +1,6 @@
 ---
 layout: post
-pretitle: "**En el foro Censura y Represión Digital en #InternetVE**"
+pretitle: "En el foro Censura y Represión Digital en #InternetVE"
 title: "Relator Especial para la Libertad de Expresión de la CIDH: frente a la represión, hay que trabajar para que los puentes de información y denuncia sigan existiendo"
 excerpt: "Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia."
 small: "En el foro sobre Censura y Represión Digital en #InternetVE, Pedro Vaca, relator de la CIDH, resaltó que Venezuela se distingue por décadas de control mediático, concentración de poder, y detenciones por disidencia. Subrayó la importancia de mantener abiertos los canales de información y denuncia para alertar a la comunidad internacional."
