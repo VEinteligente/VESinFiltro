@@ -19,9 +19,6 @@ Esto comenzó luego de las presidenciales de 2024, cuando las direcciones IP del
 Técnicamente,  las computadoras se conectan con sitios web haciendo uso del Sistema de Nombres de Dominio (DNS), que actúa como un directorio o páginas amarillas, traduciendo nombres de dominio como www.cne.gob.ve, a direcciones IP específicas como por ejemplo 200.11.144.25. Esta dirección IP es necesaria para realizar la conexión real entre el dispositivo del usuario y el servidor del sitio web.
 
 Desde antes del 28 de julio de 2024, www.cne.gob.ve empleaba un sistema de balanceo de carga, aparentemente basado en una arquitectura GSLB (Global Server Load Balancing), que distribuye el tráfico entre múltiples servidores, cada uno con una dirección IP, según la disponibilidad y ubicación del usuario. 
-
-La resolución del dominio, es decir, la traducción del nombre de dominio a la dirección IP, para www.cne.gob.ve depende de la resolución de www.gslb.cne.gob.ve, configurado mediante un registro CNAME. El resultado final debería ser una respuesta con la dirección IP de uno de los servidores para distribuir la carga de las visitas. En esta arquitectura típicamente sería una dirección IP óptima considerando la carga en los servidores y desde cuál red viene la solicitud del usuario.
-
 <figure>
   <br>
   <div style="display: flex; justify-content: center; gap: 20px;">
@@ -33,6 +30,8 @@ La resolución del dominio, es decir, la traducción del nombre de dominio a la 
   </figcaption>
 </figure>
 <br>
+La resolución del dominio, es decir, la traducción del nombre de dominio a la dirección IP, para www.cne.gob.ve depende de la resolución de www.gslb.cne.gob.ve, configurado mediante un registro CNAME. El resultado final debería ser una respuesta con la dirección IP de uno de los servidores para distribuir la carga de las visitas. En esta arquitectura típicamente sería una dirección IP óptima considerando la carga en los servidores y desde cuál red viene la solicitud del usuario.
+
 Sin embargo, actualmente no es posible resolver el dominio www.cne.gob.ve porque www.gslb.cne.gob.ve no existe en los servidores DNS autoritativo correspondiente, como se ha verificado repetidamente desde diversos puntos internacionales y desde todos los principales proveedores de internet venezolanos. 
 
 Además, las direcciones IP conocidas previamente para este sitio web tampoco responden. Dependiendo de la dirección IP y la red desde que se le consulta o están completamente inaccesibles o no dan respuesta ya no aloja el sitio web.
