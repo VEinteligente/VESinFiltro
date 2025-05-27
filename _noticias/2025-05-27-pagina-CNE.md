@@ -9,6 +9,7 @@ date: 2025-05-27 11:20:00 -0400
 categories: reporte
 image: /res/post_img/2025-05-27/image.png
 ---
+<p class="cover"><img class="" src="/res/post_img/2025-05-27/image.png"></p>
 A casi un año desde su desactivación, el sitio web oficial del Consejo Nacional Electoral (CNE), www.cne.gob.ve, continúa inaccesible tanto desde Venezuela como desde el exterior. Esta situación reviste especial gravedad hoy, 48 horas después de celebrarse las elecciones regionales y legislativas, cuyos resultados e información oficial no pueden ser consultados por la ciudadanía.
 
 La página web del CNE no estuvo disponible en ningún momento antes ni durante el proceso electoral del 25 de mayo. Desde julio de 2024, luego de las elecciones presidenciales, el sitio web ha permanecido inaccesible. A diferencia de los bloqueos tradicionales realizados por proveedores de servicios de internet (ISP), en este caso es el propio CNE quien ha decidido mantener fuera de línea su página, hecho que hemos confirmado técnicamente.
