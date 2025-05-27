@@ -38,11 +38,11 @@ Sin embargo, actualmente no es posible resolver el dominio www.cne.gob.ve porque
 <figure>
   <br>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="/res/post_img/2025-05-27/2025-05-27-traceroute.png" alt="Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas" style="width: 48%;">
-    <img src="/res/post_img/2025-05-27/2025-05-27-image2.png" alt="Resultados de mediciones DNS al dominio www.gslb.cne.gob.ve. Fuente: RIPE Atlas" style="width: 48%;">
+    <img src="/res/post_img/2025-05-27/2025-05-27-traceroute.png" alt="Resultados de mediciones de traceroute a la dirección IP 190.9.130.15. Fuente: RIPE Atlas" style="width: 48%;">
+    <img src="/res/post_img/2025-05-27/2025-05-27-image2.png" alt="Resultados de mediciones de traceroute a la dirección IP 190.9.130.15. Fuente: RIPE Atlas" style="width: 48%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
-    <strong>Imagen 2:</strong> Resultados de mediciones DNS para www.cne.gob.ve (izquierda) y www.gslb.cne.gob.ve (derecha). Fuente: RIPE Atlas.
+    <strong>Imagen 2:</strong>  Resultados de mediciones de traceroute a la dirección IP 190.9.130.15. Fuente: RIPE Atlas.
   </figcaption>
 </figure>
 <br>
