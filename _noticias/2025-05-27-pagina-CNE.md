@@ -31,6 +31,16 @@ Sin embargo, actualmente no es posible resolver el dominio www.cne.gob.ve porque
 
 Además, las direcciones IP conocidas previamente para este sitio web tampoco responden. Dependiendo de la dirección IP y la red desde que se le consulta o están completamente inaccesibles o no dan respuesta ya no aloja el sitio web.
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-cne-20044.png" alt="Resultados de pruebas de ping a la dirección IP 200.44.45.5. Fuente: RIPE Atlas." style="width: 48%;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-pin-200.png" alt="Resultados de pruebas de ping a la dirección IP 200.11.144.25. Fuente: RIPE Atlas." style="width: 48%;">
+</div>
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-ping-190.png" alt="Resultados de pruebas de ping a la dirección IP 190.9.130.14. Fuente: RIPE Atlas" style="width: 48%;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-ping.png" alt="Resultados de mediciones DNS al dominio www.gslb.cne.gob.ve. Fuente: RIPE Atlas" style="width: 48%;">
+</div>
+
+
 Cabe destacar que no todos los servicios del CNE están afectados. Siguen operativos el sistema de correos electrónicos institucional, el campus virtual del Instituto de Altos Estudios del Poder Electoral "Tibisay Lucena" (virtualiaepe.cne.gob.ve) y varios portales privados del CNE que requieren credenciales para acceso.
 
 Durante las recientes elecciones del 25 de mayo, el CNE utilizó el portal doe.postulaciones.org.ve para difundir información sobre los candidatos. Este portal dejó de estar operativo tras la votación y actualmente responde con un error 503: Servicio no disponible.
