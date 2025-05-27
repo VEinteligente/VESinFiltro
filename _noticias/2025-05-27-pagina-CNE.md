@@ -28,7 +28,7 @@ La resolución del dominio, es decir, la traducción del nombre de dominio a la 
     <img src="/res/post_img/2025-05-27/2025-05-27-gslb.png" alt="Resultados de mediciones DNS al dominio www.gslb.cne.gob.ve. Fuente: RIPE Atlas" style="width: 48%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
-    **Imagen 1:** Resultados de mediciones DNS para www.cne.gob.ve (izquierda) y www.gslb.cne.gob.ve (derecha). Fuente: RIPE Atlas.
+    <strong>Imagen 1:</strong>strong> Resultados de mediciones DNS para www.cne.gob.ve (izquierda) y www.gslb.cne.gob.ve (derecha). Fuente: RIPE Atlas.
   </figcaption>
 </figure>
 
