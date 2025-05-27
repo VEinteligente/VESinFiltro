@@ -7,7 +7,7 @@ excerpt: "A casi un año desde su desactivación, el sitio web oficial del Conse
 permalink: /noticias/2025-05-27-pagina-CNE/
 date: 2025-05-27 11:20:00 -0400
 categories: reporte
-image: /res/post_img/2025-05-27/2025-05-27-cne.png
+image: /res/post_img/2025-05-27/image.png
 ---
 A casi un año desde su desactivación, el sitio web oficial del Consejo Nacional Electoral (CNE), www.cne.gob.ve, continúa inaccesible tanto desde Venezuela como desde el exterior. Esta situación reviste especial gravedad hoy, 48 horas después de celebrarse las elecciones regionales y legislativas, cuyos resultados e información oficial no pueden ser consultados por la ciudadanía.
 
