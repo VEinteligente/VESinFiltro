@@ -28,11 +28,10 @@ La resolución del dominio, es decir, la traducción del nombre de dominio a la 
     <img src="/res/post_img/2025-05-27/2025-05-27-gslb.png" alt="Resultados de mediciones DNS al dominio www.gslb.cne.gob.ve. Fuente: RIPE Atlas" style="width: 48%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
-    <strong>Imagen 1:</strong>strong> Resultados de mediciones DNS para www.cne.gob.ve (izquierda) y www.gslb.cne.gob.ve (derecha). Fuente: RIPE Atlas.
+    <strong>Imagen 1:</strong> Resultados de mediciones DNS para www.cne.gob.ve (izquierda) y www.gslb.cne.gob.ve (derecha). Fuente: RIPE Atlas.
   </figcaption>
 </figure>
-
-
+<br>
 Sin embargo, actualmente no es posible resolver el dominio www.cne.gob.ve porque www.gslb.cne.gob.ve no existe en los servidores DNS autoritativo correspondiente, como se ha verificado repetidamente desde diversos puntos internacionales y desde todos los principales proveedores de internet venezolanos. 
 
 Además, las direcciones IP conocidas previamente para este sitio web tampoco responden. Dependiendo de la dirección IP y la red desde que se le consulta o están completamente inaccesibles o no dan respuesta ya no aloja el sitio web.
