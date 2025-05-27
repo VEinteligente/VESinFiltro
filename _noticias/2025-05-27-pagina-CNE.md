@@ -21,7 +21,14 @@ Técnicamente,  las computadoras se conectan con sitios web haciendo uso del Sis
 Desde antes del 28 de julio de 2024, www.cne.gob.ve empleaba un sistema de balanceo de carga, aparentemente basado en una arquitectura GSLB (Global Server Load Balancing), que distribuye el tráfico entre múltiples servidores, cada uno con una dirección IP, según la disponibilidad y ubicación del usuario. 
 
 La resolución del dominio, es decir, la traducción del nombre de dominio a la dirección IP, para www.cne.gob.ve depende de la resolución de www.gslb.cne.gob.ve, configurado mediante un registro CNAME. El resultado final debería ser una respuesta con la dirección IP de uno de los servidores para distribuir la carga de las visitas. En esta arquitectura típicamente sería una dirección IP óptima considerando la carga en los servidores y desde cuál red viene la solicitud del usuario.
+
 ![Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas](/res/post_img/2025-05-27/2025-05-27-cne.png) ![Resultados de mediciones DNS al dominio www.gslb.cne.gob.ve. Fuente: RIPE Atlas](/res/post_img/2025-05-27/2025-05-27-gslb.png)
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-cne.png" alt="Descripción 1" style="width: 48%;">
+  <img src="/res/post_img/2025-05-27/2025-05-27-gslb.png" alt="Descripción 2" style="width: 48%;">
+</div>
+
 Sin embargo, actualmente no es posible resolver el dominio www.cne.gob.ve porque www.gslb.cne.gob.ve no existe en los servidores DNS autoritativo correspondiente, como se ha verificado repetidamente desde diversos puntos internacionales y desde todos los principales proveedores de internet venezolanos. 
 
 Además, las direcciones IP conocidas previamente para este sitio web tampoco responden. Dependiendo de la dirección IP y la red desde que se le consulta o están completamente inaccesibles o no dan respuesta ya no aloja el sitio web.
