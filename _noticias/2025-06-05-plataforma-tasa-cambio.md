@@ -19,7 +19,7 @@ Encontramos que durante este periodo **dos páginas web fueron bloqueadas** por 
     <img src="/res/post_img/2025-06-05/img1.png" alt="Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas" style="width: 70%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
-    <strong>Imagen 1:</strong> Status páginas bloqueadas. Fuente: VSF.
+    <strong>Imagen 1:</strong> Status páginas bloqueadas, monitordolarvenezuela.com y yadio.io fueron bloqueadas múltiples ISP. Fuente: VSF.
   </figcaption>
 </figure>
 <br>
