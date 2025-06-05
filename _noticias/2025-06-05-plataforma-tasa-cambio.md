@@ -2,8 +2,8 @@
 layout: post
 pretitle: "<br><span style='font-size: 2em;'>¿Dónde está la página web del CNE?</span>"
 title: "El CNE mantiene inhabilitado su sitio oficial e impide el acceso a resultados electorales"
-small: "El sitio web oficial del CNE, www.cne.gob.ve, lleva casi un año inaccesible, incluso 48 horas después de las elecciones, impidiendo el acceso a resultados e información oficial. A diferencia de los bloqueos externos, el propio CNE lo desactivó al eliminar sus registros DNS. Aunque servicios como el correo siguen operativos, esta omisión deliberada compromete la transparencia electoral y el derecho ciudadano a la información."
-excerpt: "A casi un año desde su desactivación, el sitio web oficial del Consejo Nacional Electoral (CNE), www.cne.gob.ve, continúa inaccesible tanto desde Venezuela como desde el exterior. Esta situación reviste especial gravedad hoy, 48 horas después de celebrarse las elecciones regionales y legislativas, cuyos resultados e información oficial no pueden ser consultados por la ciudadanía."
+small: "Desde mayo, diversas plataformas han dejado de publicar tasas de cambio alternativas, con bloqueos y restricciones aplicadas por autoridades venezolanas."
+excerpt: "Desde el 20 de mayo, múltiples plataformas digitales han modificado su comportamiento y han dejado de publicar tasas de cambio distintas a las establecidas por el Banco Central de Venezuela (BCV). Durante este periodo, se han bloqueado páginas web, eliminado cuentas en redes sociales y restringido aplicaciones financieras."
 permalink: /noticias/2025-05-27-pagina-CNE/
 date: 2025-05-27 11:20:00 -0400
 categories: reporte
