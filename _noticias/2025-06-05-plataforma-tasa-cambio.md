@@ -25,4 +25,4 @@ De manera similar, **una app que facilita la compra-venta de criptoactivos con b
 La administración de Nicolás Maduro ha intensificado sus acciones contra quienes señala de responsables por influir negativamente en la economía. Han informado sobre [la detención de al menos 25 personas](https://efectococuyo.com/economia/suman-25-las-personas-detenidas-por-la-promocion-del-dolar-paralelo/) supuestamente vinculadas a plataformas relacionadas con el precio del dólar, de acuerdo con el Ministerio de Interior y Justicia.
 
 ![Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF.](/res/post_img/2025-06-05/img2.png)
-***Imagen2:**Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF.*
+**Imagen2:** *Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF.*
