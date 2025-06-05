@@ -16,10 +16,10 @@ Encontramos que durante este periodo **dos páginas web fueron bloqueadas** por 
 <figure>
   <br>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="/res/post_img/2025-06-05/img1.png" alt="Status páginas bloqueadas, monitordolarvenezuela.com y yadio.io fueron bloqueadas múltiples ISP. Fuente: VSF." style="width: 70%;">
+    <img src="/res/post_img/2025-06-05/img1.png" alt="Estatus de las páginas monitordolarvenezuela.com y yadio.io bloqueadas múltiples ISP. Fuente: VSF." style="width: 70%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
-    <strong>Imagen 1:</strong> Status páginas bloqueadas, monitordolarvenezuela.com y yadio.io fueron bloqueadas múltiples ISP. Fuente: VSF.
+    <strong>Imagen 1:</strong> Estatus de las páginas monitordolarvenezuela.com y yadio.io bloqueadas múltiples ISP. Fuente: VSF.
   </figcaption>
 </figure>
 <br>
