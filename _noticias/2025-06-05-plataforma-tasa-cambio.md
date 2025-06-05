@@ -30,4 +30,15 @@ Observamos que **cinco apps usadas principalmente para consultar, calcular cambi
 
 De manera similar, **una app que facilita la compra-venta de criptoactivos con bolívares** aplicó restricciones geográficas para no funcionar en Venezuela y **otra dejó de ofrecer una tasa distinta a la oficial**.
 
-La administración de Nicolás Maduro ha intensificado sus acciones contra quienes señala de responsables por influir negativamente en la economía. Han informado sobre la detención de al menos 20 personas supuestamente vinculadas a plataformas relacionadas con el precio del dólar, de acuerdo con el Ministerio de Interior y Justicia.
+La administración de Nicolás Maduro ha intensificado sus acciones contra quienes señala de responsables por influir negativamente en la economía. Han informado sobre [la detención de al menos 25 personas](https://efectococuyo.com/economia/suman-25-las-personas-detenidas-por-la-promocion-del-dolar-paralelo/) supuestamente vinculadas a plataformas relacionadas con el precio del dólar, de acuerdo con el Ministerio de Interior y Justicia.
+
+<figure>
+  <br>
+  <div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="/res/post_img/2025-06-05/img2.png" alt="Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas" style="width: 70%;">
+  </div>
+  <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
+    <strong>Imagen 2:</strong> Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF.
+  </figcaption>
+</figure>
+<br>
