@@ -16,7 +16,7 @@ Encontramos que durante este periodo **dos páginas web fueron bloqueadas** por 
 <figure>
   <br>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="/res/post_img/2025-06-05/img1.png" alt="Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas" style="width: 70%;">
+    <img src="/res/post_img/2025-06-05/img1.png" alt="Status páginas bloqueadas, monitordolarvenezuela.com y yadio.io fueron bloqueadas múltiples ISP. Fuente: VSF." style="width: 70%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
     <strong>Imagen 1:</strong> Status páginas bloqueadas, monitordolarvenezuela.com y yadio.io fueron bloqueadas múltiples ISP. Fuente: VSF.
@@ -35,7 +35,7 @@ La administración de Nicolás Maduro ha intensificado sus acciones contra quien
 <figure>
   <br>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="/res/post_img/2025-06-05/img2.png" alt="Resultados de mediciones DNS al dominio www.cne.gob.ve. Fuente: RIPE Atlas" style="width: 70%;">
+    <img src="/res/post_img/2025-06-05/img2.png" alt="Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF." style="width: 70%;">
   </div>
   <figcaption style="text-align: center; margin-top: 10px; font-style: italic; color: #555;">
     <strong>Imagen 2:</strong> Cantidad de cuentas o plataformas afectadas segun su estatus. Fuente: VSF.
