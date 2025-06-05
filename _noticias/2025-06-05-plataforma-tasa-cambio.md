@@ -4,8 +4,8 @@ pretitle: "<br><span style='font-size: 2em;'>¿Dónde está la página web del C
 title: "El CNE mantiene inhabilitado su sitio oficial e impide el acceso a resultados electorales"
 small: "Desde mayo, diversas plataformas han dejado de publicar tasas de cambio alternativas, con bloqueos y restricciones aplicadas por autoridades venezolanas."
 excerpt: "Desde el 20 de mayo, múltiples plataformas digitales han modificado su comportamiento y han dejado de publicar tasas de cambio distintas a las establecidas por el Banco Central de Venezuela (BCV). Durante este periodo, se han bloqueado páginas web, eliminado cuentas en redes sociales y restringido aplicaciones financieras."
-permalink: /noticias/2025-05-27-pagina-CNE/
-date: 2025-05-27 11:20:00 -0400
+permalink: /noticias/2025-06-05-plataforma-tasa-cambio/
+date: 2025-06-05 13:20:00 -0400
 categories: reporte
 image: /res/post_img/2025-05-27/image.png
 ---
