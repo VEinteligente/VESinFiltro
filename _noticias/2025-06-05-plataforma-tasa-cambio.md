@@ -11,7 +11,7 @@ image: /res/post_img/2025-06-05/social.png
 <p class="cover"><img class="" src="/res/post_img/2025-06-05/cover.png"></p>
 Desde el pasado 20 de mayo, al menos 50 plataformas digitales, incluyendo aplicaciones móviles, sitios web, cuentas de redes sociales y grupos de mensajería, han modificado su comportamiento y no han vuelto a publicar tasas de cambio diferentes a la fijada por el Banco Central de Venezuela (BCV).
 
-Encontramos que durante este periodo **dos páginas web fueron bloqueadas** por varios ISP tres retiradas de internet por sus administradores y no están disponibles, incluso fuera de Venezuela. Adicionalmente, se identificaron oncepáginas web que, aunque permanecen activas, no han sido actualizadas o decidieron publicar sólo el precio referencial del dólar establecido por el BCV. **Un sitio web aplicó restricciones geográficas para no estar disponible en Venezuela.**
+Encontramos que durante este periodo **dos páginas web fueron bloqueadas** por varios ISP, tres retiradas de internet por sus administradores y no están disponibles, incluso fuera de Venezuela. Adicionalmente, se identificaron oncepáginas web que, aunque permanecen activas, no han sido actualizadas o decidieron publicar sólo el precio referencial del dólar establecido por el BCV. **Un sitio web aplicó restricciones geográficas para no estar disponible en Venezuela.**
 
 ![Estatus de las páginas monitordolarvenezuela.com y yadio.io bloqueadas múltiples ISP. Fuente: VSF.](/res/post_img/2025-06-05/img1.png)
 *Estatus de las páginas monitordolarvenezuela.com y yadio.io bloqueadas múltiples ISP. Fuente: VSF.*
