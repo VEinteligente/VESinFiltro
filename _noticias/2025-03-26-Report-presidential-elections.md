@@ -6,7 +6,8 @@ permalink: /noticias/2025-03-26-venezuela-digital-repression-elections/
 date:   2025-03-26 05:00:00 -0400
 categories: report
 image: /res/post_img/2025-03-26/rrss.png
-
+redirect_from:
+  - /2024-2025/
 ---
 
 <p class="cover"><img alt="New Report: Digital Censorship and Repression During Venezuela’s Presidential Elections" src="/res/post_img/2025-03-26/post.png"></p>
