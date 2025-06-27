@@ -6,8 +6,9 @@ excerpt: "Uno de los patrones más alarmantes identificados es la judicializaci�
 permalink: /noticias/2025-06-27-dia-periodista/
 date: 2025-06-27 08:30:00 -0400
 categories: reporte
+image: /res/post_img/2025-06-27-social.jpeg
 ---
-[image: /res/post_img/2025-06-27/social.png <p class="cover"><img class="" src="/res/post_img/2025-06-05/cover.png"></p>]: # 
+<p class="cover"><img class="" src="/res/post_img/2025-06-27-social.jpeg"></p>
 
 **Caracas, 27 de junio de 2025** – En el marco del Día del Periodista, VE sin Filtro alerta sobre el aumento de los ataques digitales dirigidos contra periodistas en Venezuela, una tendencia que ha puesto en riesgo su integridad personal y el derecho a informar y ser informado en libertad.
 
