@@ -9,7 +9,7 @@ categories: reporte
 ---
 [image: /res/post_img/2025-06-27/social.png <p class="cover"><img class="" src="/res/post_img/2025-06-05/cover.png"></p>]: # 
 
-Caracas, 27 de junio de 2025 – En el marco del Día del Periodista, VE sin Filtro alerta sobre el aumento de los ataques digitales dirigidos contra periodistas en Venezuela, una tendencia que ha puesto en riesgo su integridad personal y el derecho a informar y ser informado en libertad.
+**Caracas, 27 de junio de 2025** – En el marco del Día del Periodista, VE sin Filtro alerta sobre el aumento de los ataques digitales dirigidos contra periodistas en Venezuela, una tendencia que ha puesto en riesgo su integridad personal y el derecho a informar y ser informado en libertad.
 
 Durante el último año, desde el programa VE sin Filtro hemos documentado un incremento sostenido en las agresiones digitales personalizadas: hackeos de cuentas, campañas de suplantación de identidad, vigilancia en línea, y un patrón sistemático de acoso, amenazas y hostigamiento a través de redes sociales y plataformas digitales.
 
