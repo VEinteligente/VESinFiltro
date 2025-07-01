@@ -6,7 +6,9 @@ permalink: /noticias/2025-03-12-reporte-elecciones-presidenciales/
 date:   2025-03-12 23:00:00 -0400
 categories: reporte
 image: /res/post_img/2025-03-12/reporte-rrss.png
-
+redirect_from:
+  - /elecciones-2024/
+  - /elecciones-2024
 ---
 
 <p class="cover"><img alt="Censura y represión digital en las elecciones presidenciales en Venezuela" src="/res/post_img/2025-03-12/reporte-post.png"></p>
