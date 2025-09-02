@@ -8,34 +8,31 @@ date: 2025-09-02 07:30:00 -0400
 categories: reporte
 image: /res/post_img/2025-08-08-x-signal/block-X.png
 ---
-14 meses con un mismo patrón de control y censura digital en contextos electorales 
-
 La censura en internet y el cierre del espacio cívico digital han marcado de manera muy significativa los últimos 14 meses en Venezuela. En este período, se han celebrado tres procesos electorales -presidenciales (28 de julio de 2024), regionales y legislativos (25 de mayo de 2025), y municipales (27 de julio de 2025)- y el acceso a la información libre y plural ha sido cada vez más escaso.
 
 Estas jornadas electorales estuvieron acompañadas de bloqueos a medios de comunicación, restricciones a plataformas de información y ataques contra voces críticas, a partir de sus opiniones expuestas en internet. La falta de garantías niega la posibilidad de acceder a información de calidad para ejercer un voto consciente, mientras que las autoridades han intensificado los mecanismos de control digital.
 
 Los procesos electorales están sistemáticamente acompañados por restricciones en internet, con el propósito de controlar la narrativa. Estas prácticas incluyen: Bloqueos selectivos a medios y portales informativos; restricciones a plataformas y servicios digitales clave (redes sociales, transmisiones en vivo y limitaciones en servicios de mensajería); ataques de denegación de servicio (DDoS); hostigamiento en redes sociales y acoso digital contra periodistas, activistas y testigos electorales.
 
-(Insertar aquí gráficos de bloqueos contra Efecto Cocuyo, Tal Cual, El Estímulo, VE sin Filtro y otros)
+***
 
 El 4 de julio de 2024 inició la campaña electoral de las presidenciales que se celebraron el 28 del mismo mes. Desde entonces y hasta la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura digital sin precedentes. Un total de 79 sitios web y servidores DNS fueron bloqueados en ese período.
 
 Los nuevos bloqueos se aplicaron fundamentalmente contra herramientas de evasión de censura; servidores DNS públicos; medios de comunicación; sitios web de organizaciones de la sociedad civil relacionados con los derechos humanos; redes sociales; y, sitios con contenido político crítico, particularmente aquellos dedicados a difundir los resultados electorales con base en las actas recogidas por la oposición venezolana.
 
-(gráficos con vpn bloqueados y el bloqueo de X)
+***
 
 Previo al 28 de julio, existían al menos 60 medios de comunicación bloqueados en internet, configurando un ecosistema de medios debilitado y restringido, algo especialmente grave
 en un contexto electoral. 
 
-(gráfico con lista de medios bloqueados)
+****
 
 La censura hizo que las plataformas digitales jugaran un papel crucial en las estrategias de participación y difusión de información por parte de los diversos actores de los procesos electorales, frente a lo que las autoridades venezolanas utilizaron las redes sociales y los medios de comunicación públicos para ejecutar campañas de acoso e intimidación. El período post electoral estuvo marcado por el uso de la tecnología para vigilar, perseguir y exhibir a los
 opositores al gobierno.
 
 VE sin Filtro documentó y archivó 270 casos en los que se evidencian prácticas represivas y el uso de la tecnología para perseguir a disidentes, repartidas en dos etapas de la crisis política. La primera, posterior a las elecciones, abarcó principalmente el período del 28 de julio hasta principios de noviembre. La segunda, con la reanudación de la represión previa a la juramentación de Nicolás Maduro, tuvo lugar entre diciembre de 2024 y el 10 de enero de 2025.
 
-(gráficos con ejemplos de casos documentados y patrones encontrados en relación a la persecución digital, operación tuntun)
-
+***
 CENSURA DIGITAL Y PERSECUCIÓN EN 2025
 
 Durante los primeros nueve meses de 2025 han continuado los bloqueos digitales: al menos 61 medios independientes bloqueados, más 90 dominios afectados y restricciones a aplicaciones como X (Twitter), Signal, YouTube, TikTok y Telegram.
