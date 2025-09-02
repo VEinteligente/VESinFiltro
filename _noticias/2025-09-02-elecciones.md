@@ -8,6 +8,7 @@ date: 2025-09-02 07:30:00 -0400
 categories: reporte
 image: /res/post_img/2025-09-02-elecciones/2025-09-02-elecciones.png
 ---
+<p class="cover"><img class="" src="/res/post_img/2025-09-02-elecciones/2025-09-02-elecciones.png"></p>
 La censura en internet y el cierre del espacio cívico digital han marcado de manera muy significativa los últimos 14 meses en Venezuela. En este período, se han celebrado tres procesos electorales -presidenciales (28 de julio de 2024), regionales y legislativos (25 de mayo de 2025), y municipales (27 de julio de 2025)- y el acceso a la información libre y plural ha sido cada vez más escaso.
 
 Estas jornadas electorales estuvieron acompañadas de bloqueos a medios de comunicación, restricciones a plataformas de información y ataques contra voces críticas, a partir de sus opiniones expuestas en internet. La falta de garantías niega la posibilidad de acceder a información de calidad para ejercer un voto consciente, mientras que las autoridades han intensificado los mecanismos de control digital.
