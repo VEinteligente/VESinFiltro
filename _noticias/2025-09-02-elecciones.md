@@ -33,7 +33,7 @@ opositores al gobierno.
 VE sin Filtro documentó y archivó 270 casos en los que se evidencian prácticas represivas y el uso de la tecnología para perseguir a disidentes, repartidas en dos etapas de la crisis política. La primera, posterior a las elecciones, abarcó principalmente el período del 28 de julio hasta principios de noviembre. La segunda, con la reanudación de la represión previa a la juramentación de Nicolás Maduro, tuvo lugar entre diciembre de 2024 y el 10 de enero de 2025.
 
 ***
-CENSURA DIGITAL Y PERSECUCIÓN EN 2025
+## CENSURA DIGITAL Y PERSECUCIÓN EN 2025
 
 Durante los primeros nueve meses de 2025 han continuado los bloqueos digitales: al menos 61 medios independientes bloqueados, más 90 dominios afectados y restricciones a aplicaciones como X (Twitter), Signal, YouTube, TikTok y Telegram.
 
