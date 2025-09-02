@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "14 meses con un mismo patrón de control y censura digital en contextos electorales "
-small: "Hace un año, el 8 de agosto de 2024, el gobierno de Nicolás Maduro ordenó el bloqueo de las redes sociales X (antes Twitter) y Signal en Venezuela. Esta medida, que se tomó en un contexto de cuestionamientos a los resultados electorales, limitó la libre expresión y el acceso a la información, ya que estas plataformas son herramientas clave para periodistas, activistas y la sociedad civil ante un ecosistema de medios debilitado."
-excerpt: "En un contexto donde el ecosistema de medios independientes está severamente debilitado, las redes sociales como X han servido como espacios para el ejercicio de la libre expresión y la difusión de noticias. Ese mismo día, la aplicación de mensajería Signal -reconocida por su enfoque en la privacidad y utilizada especialmente por periodistas, activistas y defensores de derechos humanos- también fue bloqueada."
+small: "Venezuela ha intensificado la censura digital en los últimos 14 meses, bloqueando medios y persiguiendo voces críticas, especialmente durante tres procesos electorales."
+excerpt: "La censura en internet y el cierre del espacio cívico digital han marcado de manera muy significativa los últimos 14 meses en Venezuela. En este período, se han celebrado tres procesos electorales -presidenciales (28 de julio de 2024), regionales y legislativos (25 de mayo de 2025), y municipales (27 de julio de 2025)- y el acceso a la información libre y plural ha sido cada vez más escaso"
 permalink: /noticias/2025-09-02-elecciones/
 date: 2025-09-02 07:30:00 -0400
 categories: reporte
