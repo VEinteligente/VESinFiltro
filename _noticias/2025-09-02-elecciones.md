@@ -21,7 +21,8 @@ El 4 de julio de 2024 inició la campaña electoral de las presidenciales que se
 
 Los nuevos bloqueos se aplicaron fundamentalmente contra herramientas de evasión de censura; servidores DNS públicos; medios de comunicación; sitios web de organizaciones de la sociedad civil relacionados con los derechos humanos; redes sociales; y, sitios con contenido político crítico, particularmente aquellos dedicados a difundir los resultados electorales con base en las actas recogidas por la oposición venezolana.
 
-***
+
+<p align="center"><img width="450" src="/res/post_img/2025-09-02-elecciones/2024-08-08-x.png"/></p>
 
 Previo al 28 de julio, existían al menos 60 medios de comunicación bloqueados en internet, configurando un ecosistema de medios debilitado y restringido, algo especialmente grave
 en un contexto electoral. 
