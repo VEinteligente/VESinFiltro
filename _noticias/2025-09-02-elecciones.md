@@ -15,7 +15,7 @@ Estas jornadas electorales estuvieron acompañadas de bloqueos a medios de comun
 
 Los procesos electorales están sistemáticamente acompañados por restricciones en internet, con el propósito de controlar la narrativa. Estas prácticas incluyen: Bloqueos selectivos a medios y portales informativos; restricciones a plataformas y servicios digitales clave (redes sociales, transmisiones en vivo y limitaciones en servicios de mensajería); ataques de denegación de servicio (DDoS); hostigamiento en redes sociales y acoso digital contra periodistas, activistas y testigos electorales.
 
-***
+<p align="center"><img width="450" src="/res/post_img/2025-09-02-elecciones/all-2024-07-22.png"/></p>
 
 El 4 de julio de 2024 inició la campaña electoral de las presidenciales que se celebraron el 28 del mismo mes. Desde entonces y hasta la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura digital sin precedentes. Un total de 79 sitios web y servidores DNS fueron bloqueados en ese período.
 
