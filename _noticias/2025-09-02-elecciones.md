@@ -64,7 +64,6 @@ en un contexto electoral.
         <th rowspan="2"><strong>DOMINIO</strong></th>
         <th rowspan="2"><strong>CATEGORÍA</strong></th>
         <th colspan="6"><strong>Mecanismo de Bloqueo por ISP</strong></th>
-        <th rowspan="2"><strong>EVENTOS</strong></th>
         </tr>
         <tr>
         <th><strong>CANTV</strong></th>
@@ -349,7 +348,6 @@ en un contexto electoral.
     <tfoot>
       <tr>
         <td colspan="2"><img src="/res/VeSinFiltro-long.svg" /></td>
-        <td></td>
         <td></td>
         <td></td>
         <td></td>
