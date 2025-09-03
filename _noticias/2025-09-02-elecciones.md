@@ -68,9 +68,9 @@ en un contexto electoral.
         </tr>
         <tr>
         <th><strong>CANTV</strong></th>
-        <th><strong>Movistar</strong></th>
-        <th><strong>Digitel</strong></th>
         <th><strong>Inter</strong></th>
+        <th><strong>Digitel</strong></th>
+        <th><strong>Movistar</strong></th>
         <th><strong>Netuno</strong></th>
         <th><strong>Supercable</strong></th>
         </tr>
