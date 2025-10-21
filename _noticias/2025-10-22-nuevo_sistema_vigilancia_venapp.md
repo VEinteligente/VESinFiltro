@@ -4,7 +4,7 @@ title: "VEsinFiltro rechaza el  anuncio de un nuevo  sistema de vigilancia �
 small: "Alertamos con preocupación sobre las intenciones de Nicolás Maduro de promover la vigilancia y delación como fórmula de persecución, censura y control social."
 excerpt: "Alertamos con preocupación sobre las sostenidas intenciones de la administración de Nicolás Maduro, de promover la delación como fórmula de persecución, censura y control social."
 permalink: /noticias/2025-10-22/
-date: 2025-10-22 06:33:00 -0400
+date: 2025-10-21 14:33:00 -0400
 categories: reporte
 image: /res/post_img/2025-10-22-share.png
 ---
