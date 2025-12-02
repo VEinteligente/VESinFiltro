@@ -48,8 +48,7 @@ A partir de 2021, los bloqueos se volvieron más comunes, llegando a uno de los 
 
 Los bloqueos de sitios web afectan desde los medios más importantes y ONG de derechos humanos (incluyendo vesinfiltro.com), hasta páginas pornográficas y contenido genuinamente ilegal. Estos bloqueos son ordenados desde el gobierno de Venezuela a los proveedores de internet, que dependen de la Comisión Nacional de Telecomunicaciones (CONATEL) para seguir operando. Como norma general, las restricciones no se ajustan a los estándares internacionales de DDHH, sin transparencia ni control judicial y sin ningún recurso de apelación posible.
 
-| Categoría | Abreviatura | Sitios que han estado bloqueados 
-en 2025 | Sitios bloqueados a la fecha | Dominios bloqueados Activos |
+| Categoría | Abreviatura | Sitios que han estado bloqueados en 2025 | Sitios bloqueados a la fecha | Dominios bloqueados Activos |
 | :---- | :---- | ----- | ----- | ----- |
 |  |  | **166** | **135** | **237** |
 | Anonymization and circumvention tools | ANON | 30 | 30 | 32 |
