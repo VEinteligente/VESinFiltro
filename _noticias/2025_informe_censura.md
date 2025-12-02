@@ -7,7 +7,6 @@ Esta censura contra los sitios de noticias es implementada mediante el bloqueo a
 permalink: /noticias/2025_informe_censura/
 date:   2025-11-30 09:20:00 -0400
 categories: reporte
-image: /res/post_img/
 ---
 
 # Contexto político y comunicacional
@@ -50,7 +49,7 @@ Los bloqueos de sitios web afectan desde los medios más importantes y ONG de de
 
 | Categoría | Abreviatura | Sitios que han estado bloqueados en 2025 | Sitios bloqueados a la fecha | Dominios bloqueados Activos |
 | :---- | :---- | ----- | ----- | ----- |
-| - | - | **166** | **135** | **237** |
+|  |  | **166** | **135** | **237** |
 | Anonymization and circumvention tools | ANON | 30 | 30 | 32 |
 | E-commerce | COMM | 3 | 1 | 54 |
 | Communication Tools | COMT | 3 | 1 | 1 |
@@ -445,41 +444,150 @@ La censura en internet también ha llegado a afectar servidores DNS públicos, n
 
 Desde el 4 de julio de 2024 hasta el 31 de enero de 2025, VE sin Filtro documentó 58 nuevos casos de bloqueos de Internet dirigidos a herramientas de elusión de la censura: 26 sitios web de servicios VPN, el Proyecto Tor y 30 servidores DNS públicos.
 
-| Dominio | Categoría | Fecha de inicio | Fecha de fin | CANTV | Airtek | Digitel | Inter | Movistar | Netuno | Supercable |
-| ----- | :---: | :---: | :---: | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| 1.0.0.1 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 1.1.1.1 | ANON | 2025-01-04 | Activo | TCP IP | No | No | No | TCP IP | No | TCP IP\* |
-| 8.8.4.4 | HOST | 2025-01-08 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 8.8.8.8 | HOST | 2025-01-08 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 149.112.112.112 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 156.154.70.1 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 156.154.71.1 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.126.10 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.126.20 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.126.30 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.127.10 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.127.20 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 199.85.127.30 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 205.171.2.65 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 205.171.3.65 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 208.67.222.220 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 208.67.222.222 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 216.146.35.35 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 216.146.36.36 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 4.2.2.1 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 4.2.2.2 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 4.2.2.3 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 45.90.28.230 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 64.6.64.6 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 64.6.65.6 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 77.88.8.8 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 8.20.247.20 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 8.26.56.26 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 84.200.69.80 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 84.200.70.40 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 9.9.9.9 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 94.140.14.14 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
-| 94.140.15.15 | HOST | 2025-01-09 | 2025-01-11 | TCP IP\* | No | No | No | No | No | No |
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Bloqueos de IPs</title>
+</head>
+<body>
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+            <th rowspan="2"><strong>DOMINIO</strong></th>
+            <th rowspan="2"><strong>CATEGORÍA</strong></th>
+            <th rowspan="2"><strong>Fecha de inicio</strong></th>
+            <th rowspan="2"><strong>Fecha de fin</strong></th>
+            <th colspan="7"><strong>Mecanismo de Bloqueo por ISP</strong></th>
+        </tr>
+        <tr>
+            <th><strong>CANTV</strong></th>
+            <th><strong>Airtek</strong></th>
+            <th><strong>Digitel</strong></th>
+            <th><strong>Inter</strong></th>
+            <th><strong>Movistar</strong></th>
+            <th><strong>Netuno</strong></th>
+            <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.0.0.1</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>1.1.1.1</td><td>ANON</td><td>2025-01-04</td><td>Activo</td><td class="block">TCP IP</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="block">TCP IP</td><td class="accesible">No</td><td class="block">TCP IP*</td>
+        </tr>
+        <tr>
+            <td>8.8.4.4</td><td>HOST</td><td>2025-01-08</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>8.8.8.8</td><td>HOST</td><td>2025-01-08</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>149.112.112.112</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>156.154.70.1</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>156.154.71.1</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.126.10</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.126.20</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.126.30</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.127.10</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.127.20</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>199.85.127.30</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>205.171.2.65</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>205.171.3.65</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>208.67.222.220</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>208.67.222.222</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>216.146.35.35</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>216.146.36.36</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>4.2.2.1</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>4.2.2.2</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>4.2.2.3</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>45.90.28.230</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>64.6.64.6</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>64.6.65.6</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>77.88.8.8</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>8.20.247.20</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>8.26.56.26</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>84.200.69.80</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>84.200.70.40</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>9.9.9.9</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>94.140.14.14</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td>94.140.15.15</td><td>HOST</td><td>2025-01-09</td><td>2025-01-11</td><td class="block">TCP IP*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+    </tbody>
+      <tfoot>
+        <tr>
+            <td colspan="4"><img src="/res/VeSinFiltro-long.svg"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="social">@VEsinFiltro<br> vesinfiltro.com</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+</body>
+</html>
 
 \* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
 
