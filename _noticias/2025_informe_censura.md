@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conexión censurada: Bloqueos en #InternetVE"
-small: "Conexión censurada: Bloqueos en #InternetVE"
+small: "La censura digital y el control estatal sobre la información y la comunicación en Venezuela se intensificaron durante 2025, como continuación de los patrones observados en 2024, especialmente en torno a los procesos electorales. "
 excerpt: "Actualmente se encuentran bloqueados 61 sitios web de noticias, censurando prácticamente todo el ecosistema de medios independientes del país, incluyendo a los más importantes junto a algunos medios internacionales, lo que ha sido devastador para la libertad de expresión e información y ha comprometido la sostenibilidad de los medios al reducirse el tráfico a sus sitios web.
 Esta censura contra los sitios de noticias es implementada mediante el bloqueo a 90 dominios individuales, ya que en muchos casos los sitios web han utilizado dominios alternativos para evadir los bloqueos. Aunque la mayoría de estos bloqueos iniciaron en años anteriores, hemos documentado bloqueos nuevos en lo que va de 2025."
 permalink: /noticias/2025_informe_censura/
@@ -48,8 +48,8 @@ A partir de 2021, los bloqueos se volvieron más comunes, llegando a uno de los 
 Los bloqueos de sitios web afectan desde los medios más importantes y ONG de derechos humanos (incluyendo vesinfiltro.com), hasta páginas pornográficas y contenido genuinamente ilegal. Estos bloqueos son ordenados desde el gobierno de Venezuela a los proveedores de internet, que dependen de la Comisión Nacional de Telecomunicaciones (CONATEL) para seguir operando. Como norma general, las restricciones no se ajustan a los estándares internacionales de DDHH, sin transparencia ni control judicial y sin ningún recurso de apelación posible.
 
 | Categoría | Abreviatura | Sitios que han estado bloqueados en 2025 | Sitios bloqueados a la fecha | Dominios bloqueados Activos |
-| :---- | :---- | ----- | ----- | ----- |
 |  |  | **166** | **135** | **237** |
+| :---- | :---- | :-----: | :-----: | :-----: |
 | Anonymization and circumvention tools | ANON | 30 | 30 | 32 |
 | E-commerce | COMM | 3 | 1 | 54 |
 | Communication Tools | COMT | 3 | 1 | 1 |
