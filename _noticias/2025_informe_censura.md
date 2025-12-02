@@ -244,7 +244,7 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
     </tbody>
     <tfoot>
         <tr>
-            <td colspan="4"><img src="/res/VeSinFiltro-long.svg" alt="Logo VeSinFiltro" style="height: 20px;"/></td>
+            <td colspan="4"><img src="/res/VeSinFiltro-long.svg"/></td>
             <td></td>
             <td></td>
             <td></td>
