@@ -7,7 +7,7 @@ Esta censura contra los sitios de noticias es implementada mediante el bloqueo a
 permalink: /noticias/2025_informe_censura/
 date:   2025-11-30 09:20:00 -0400
 categories: reporte
-image: /res/post_img/2021_es.png
+image: /res/post_img/
 ---
 
 # Contexto político y comunicacional
@@ -111,6 +111,149 @@ En enero de 2025, el servicio de mensajería Telegram sufrió un bloqueo en Vene
 El bloqueo se implementó mediante una combinación de filtrado DNS, bloqueo por IP y restricciones de tráfico TCP/IP, técnicas que impidieron el acceso a la plataforma sin el uso de redes privadas virtuales (VPN).
 
 En 2024 Telegram había sido bloqueado en el período post electoral. En esa oportunidad no se afectó el funcionamiento de la app móvil, pero hicieron imposible conectarse con las direcciones IP de telegram∙org y web.telegram∙org.
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Bloqueos Combinada</title>
+    <style>
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+        table.blocklist {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px; /* Reduce el tamaño de la fuente */
+        }
+        th, td {
+            padding: 5px; /* Ajusta el relleno para hacer las celdas más compactas */
+            text-align: left;
+            border: 1px solid #ddd; /* Agregado para una mejor visualización de las celdas */
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center; /* Centrar texto en los encabezados */
+        }
+        .softmerge .softmerge-inner {
+            white-space: nowrap;
+        }
+
+        /* Estilos para los colores de las celdas de bloqueo */
+        .block, .partial, .accesible, .http-dns {
+            font-size: 10px; /* Reduce el tamaño de la fuente para tipos de bloqueo */
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        /* Bloqueo total o HTTP/HTTPS */
+        .block {
+            background-color: #ffcccc; /* Rojo claro */
+            color: #cc0000; /* Rojo oscuro */
+        }
+
+        /* Bloqueo parcial o DNS */
+        .partial {
+            background-color: #ffffcc; /* Amarillo claro */
+            color: #999900; /* Amarillo/Oliva oscuro */
+        }
+
+        /* Accesible / No bloqueado */
+        .accesible {
+            background-color: #ccffcc; /* Verde claro */
+            color: #006600; /* Verde oscuro */
+        }
+
+        /* DNS + HTTP/HTTPS o DNS + HTTPS */
+        .http-dns {
+            background-color: #cce0ff; /* Azul claro */
+            color: #003366; /* Azul oscuro */
+        }
+
+        /* Estilo para el pie de página */
+        tfoot td {
+            border: none;
+            background-color: transparent;
+        }
+        .social {
+            text-align: right;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+            <th rowspan="2"><strong>DOMINIO</strong></th>
+            <th rowspan="2"><strong>CATEGORÍA</strong></th>
+            <th rowspan="2"><strong>Fecha de inicio</strong></th>
+            <th rowspan="2"><strong>Fecha de fin</strong></th>
+            <th colspan="7"><strong>Mecanismo de Bloqueo por ISP</strong></th>
+        </tr>
+        <tr>
+            <th><strong>CANTV</strong></th>
+            <th><strong>Airtek</strong></th>
+            <th><strong>Digitel</strong></th>
+            <th><strong>Inter</strong></th>
+            <th><strong>Movistar</strong></th>
+            <th><strong>Netuno</strong></th>
+            <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://signal.org">signal.org</a></td><td>COMT</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://abs-0.twimg.com">abs-0.twimg.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://abs.twimg.com">abs.twimg.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://upload.twitter.com">upload.twitter.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://video-0.twimg.com">video-0.twimg.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://video.twimg.com">video.twimg.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://api.twitter.com">api.twitter.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://pbs.twimg.com">pbs.twimg.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://twitter.com">twitter.com</a></td><td>GRP</td><td>2024-08-08</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.reddit.com">www.reddit.com</a></td><td>GRP</td><td>2019-02-25</td><td>Activo</td><td class="block">HTTPS*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://x.com">x.com</a></td><td>GRP</td><td>2024-08-07</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4"><img src="/res/VeSinFiltro-long.svg" alt="Logo VeSinFiltro" style="height: 20px;"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="social">@VEsinFiltro<br> vesinfiltro.com</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+</body>
+</html>
 
 | Dominio | Categoría | Fecha de inicio | Fecha de fin | CANTV | Airtek | Digitel | Inter | Movistar | Netuno | Supercable |
 | ----- | :---: | :---: | :---: | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
