@@ -10,11 +10,6 @@ categories: reporte
 image: /res/post_img/2021_es.png
 ---
 
-
-#  Conexión censurada:     Bloqueos en \#InternetVE
-
-# 
-
 # Contexto político y comunicacional
 
 El año 2025 ha estado marcado por una profundización de los mecanismos de control estatal sobre la información y la comunicación en Venezuela, así como un mayor cierre del espacio cívico, lo que es particularmente crítico por los mecanismos de censura impuestos en el año 2024 y que se mantienen activos.  
