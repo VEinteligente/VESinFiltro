@@ -491,6 +491,18 @@ Aunque la mayoría de estas herramientas continúan funcionando a pesar de los b
             <td><a href="http://api.tunnelbear.com">api.tunnelbear.com</a></td><td>ANON</td><td>2021-11-03</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
         </tr>
     </tbody>
+   <tfoot>
+        <tr>
+            <td colspan="4"><img src="/res/VeSinFiltro-long.svg"/></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="social">@VEsinFiltro<br> vesinfiltro.com</td>
+        </tr>
+    </tfoot>
 </table>
 </div>
 </body>
