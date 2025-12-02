@@ -142,7 +142,6 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
             white-space: nowrap;
         }
 
-        /* Estilos para los colores de las celdas de bloqueo (¡Color de TEXTO eliminado!) */
         .block, .partial, .accesible, .http-dns {
             font-size: 10px;
             font-weight: bold;
