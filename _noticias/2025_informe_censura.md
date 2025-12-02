@@ -116,7 +116,7 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Bloqueos Combinada</title>
+    <title>Tabla de Bloqueos Combinada (Texto en Negro)</title>
     <style>
         .table-responsive {
             width: 100%;
@@ -125,50 +125,49 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
         table.blocklist {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px; /* Reduce el tamaño de la fuente */
+            font-size: 12px;
+            color: #000000; /* Texto de la tabla principal en negro */
         }
         th, td {
-            padding: 5px; /* Ajusta el relleno para hacer las celdas más compactas */
+            padding: 5px;
             text-align: left;
-            border: 1px solid #ddd; /* Agregado para una mejor visualización de las celdas */
+            border: 1px solid #ddd;
+            color: #000000; /* Asegura que el texto de las celdas de datos sea negro */
         }
         th {
             background-color: #f2f2f2;
-            text-align: center; /* Centrar texto en los encabezados */
+            text-align: center;
         }
         .softmerge .softmerge-inner {
             white-space: nowrap;
         }
 
-        /* Estilos para los colores de las celdas de bloqueo */
+        /* Estilos para los colores de las celdas de bloqueo (¡Color de TEXTO eliminado!) */
         .block, .partial, .accesible, .http-dns {
-            font-size: 10px; /* Reduce el tamaño de la fuente para tipos de bloqueo */
+            font-size: 10px;
             font-weight: bold;
             text-align: center;
+            color: #000000 !important; /* Forzar el texto a NEGRO en todas estas clases */
         }
         
-        /* Bloqueo total o HTTP/HTTPS */
+        /* Bloqueo total o HTTP/HTTPS - Solo mantiene el fondo */
         .block {
             background-color: #ffcccc; /* Rojo claro */
-            color: #cc0000; /* Rojo oscuro */
         }
 
-        /* Bloqueo parcial o DNS */
+        /* Bloqueo parcial o DNS - Solo mantiene el fondo */
         .partial {
             background-color: #ffffcc; /* Amarillo claro */
-            color: #999900; /* Amarillo/Oliva oscuro */
         }
 
-        /* Accesible / No bloqueado */
+        /* Accesible / No bloqueado - Solo mantiene el fondo */
         .accesible {
             background-color: #ccffcc; /* Verde claro */
-            color: #006600; /* Verde oscuro */
         }
 
-        /* DNS + HTTP/HTTPS o DNS + HTTPS */
+        /* DNS + HTTP/HTTPS o DNS + HTTPS - Solo mantiene el fondo */
         .http-dns {
             background-color: #cce0ff; /* Azul claro */
-            color: #003366; /* Azul oscuro */
         }
 
         /* Estilo para el pie de página */
@@ -179,6 +178,12 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
         .social {
             text-align: right;
             font-size: 10px;
+            color: #000000;
+        }
+        /* Asegurar que los enlaces también sean negros */
+        a {
+            color: #000000;
+            text-decoration: underline;
         }
     </style>
 </head>
