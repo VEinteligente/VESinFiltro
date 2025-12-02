@@ -50,7 +50,7 @@ Los bloqueos de sitios web afectan desde los medios más importantes y ONG de de
 
 | Categoría | Abreviatura | Sitios que han estado bloqueados en 2025 | Sitios bloqueados a la fecha | Dominios bloqueados Activos |
 | :---- | :---- | ----- | ----- | ----- |
-|  |  | **166** | **135** | **237** |
+|^  |^  | **166** | **135** | **237** |
 | Anonymization and circumvention tools | ANON | 30 | 30 | 32 |
 | E-commerce | COMM | 3 | 1 | 54 |
 | Communication Tools | COMT | 3 | 1 | 1 |
