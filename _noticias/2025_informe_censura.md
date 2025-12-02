@@ -300,39 +300,201 @@ Durante la madrugada del 9 de enero de 2025, los principales proveedores de serv
 
 Aunque la mayoría de estas herramientas continúan funcionando a pesar de los bloqueos, en algunos de los casos reportados, el funcionamiento del VPN o algunas de sus funcionalidades se vieron afectadas en distinto grado. Como en ocasiones anteriores, las restricciones fueron ordenadas por CONATEL.
 
-| Dominio | Categoría | Fecha de inicio | Fecha de fin | CANTV | Airtek | Digitel | Inter | Movistar | Netuno | Supercable |
-| ----- | :---: | :---: | :---: | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| [nordvpn.com](http://nordvpn.com) | ANON | 2025-01-07 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS | No | DNS |
-| [pandavpnpro.com](http://pandavpnpro.com) | ANON | 2025-01-09 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | No | DNS |
-| [www.betternet.co](http://www.betternet.co) | ANON | 2025-01-09 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS | DNS\* | No |
-| [www.urban-vpn.com](http://www.urban-vpn.com) | ANON | 2025-01-08 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [psiphon.ca](http://psiphon.ca) | ANON | 2020-11-13 | Activo | DNS \+ TCP IP \+ HTTPS\* | No | No | DNS | DNS | DNS | DNS |
-| [hide.me](http://hide.me) | ANON | 2025-01-09 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [mullvad.net](http://mullvad.net) | ANON | 2025-01-10 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [speedify.com](http://speedify.com) | ANON | 2025-01-09 | Activo | DNS | HTTPS | DNS | DNS | DNS | DNS | No |
-| [strongvpn.com](http://strongvpn.com) | ANON | 2025-01-10 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [torguard.net](http://torguard.net) | ANON | 2025-01-09 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [ultravpn.com](http://ultravpn.com) | ANON | 2025-01-09 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [www.cyberghostvpn.com](http://www.cyberghostvpn.com) | ANON | 2025-01-09 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [www.hola.org](http://www.hola.org) | ANON | 2025-01-09 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS | No | No |
-| [www.ipvanish.com](http://www.ipvanish.com) | ANON | 2025-01-07 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS\* | DNS |
-| [www.purevpn.com](http://www.purevpn.com) | ANON | 2025-01-07 | Activo | DNS \+ TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS\* | DNS |
-| [www.zoogvpn.com](http://www.zoogvpn.com) | ANON | 2025-01-09 | Activo | DNS | HTTPS | DNS | DNS | No | DNS | No |
-| [brave.com](http://brave.com) | ANON | 2025-01-07 | Activo | No | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [bridges.torproject.org](http://bridges.torproject.org) | ANON | 2025-01-07 | Activo | No | No | DNS | DNS | DNS | DNS | DNS |
-| [www.browsec.com](http://www.browsec.com) | ANON | 2025-01-09 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | No |
-| [www.expressvpn.com](http://www.expressvpn.com) | ANON | 2025-01-06 | Activo | No | HTTP/HTTPS | DNS | DNS | DNS | DNS | No |
-| [www.hotspotshield.com](http://www.hotspotshield.com) | ANON | 2025-01-06 | Activo | TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS\* | No |
-| [www.itopvpn.com](http://www.itopvpn.com) | ANON | 2025-01-08 | Activo | No | HTTP/HTTPS | DNS | DNS | No | DNS | No |
-| [www.torproject.org](http://www.torproject.org) | ANON | 2025-01-06 | Activo | TCP IP | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [surfshark.com](http://www.surfshark.com/) | ANON | 2025-01-06 | Activo | No | No | DNS | DNS | No | DNS | No |
-| [vpn-api.proton.me](http://vpn-api.proton.me) | ANON | 2024-08-22 | Activo | No | No | DNS | DNS | No | No | No |
-| [www.vpnsuper.com](http://www.vpnsuper.com) | ANON | 2025-01-08 | Activo | No | No | No | No | No | No | No |
-| [tunnelbear.com](http://tunnelbear.com) | ANON | 2019-02-18 | Activo | DNS \+ HTTP/HTTPS\* | No | DNS | DNS | DNS | DNS | DNS |
-| [protonvpn.com](http://protonvpn.com) | ANON | 2024-07-20 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [windscribe.com](http://windscribe.com) | ANON | 2024-07-31 | Activo | DNS \+ HTTP/HTTPS | HTTP/HTTPS | DNS | DNS | DNS | DNS | DNS |
-| [www.hidemyass.com](http://www.hidemyass.com) | ANON | 2022-09-16 | Activo | No | No | No | No | No | DNS | No |
-| [api.tunnelbear.com](http://api.tunnelbear.com) | ANON | 2021-11-03 | Activo | DNS \+ HTTP/HTTPS\* | No | No | No | DNS | DNS | DNS |
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Herramientas de Anonimato (Texto en Negro)</title>
+    <style>
+        .table-responsive {
+            width: 100%;
+            overflow-x: auto;
+        }
+        table.blocklist {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+            color: #000000;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+            border: 1px solid #ddd;
+            color: #000000;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .softmerge .softmerge-inner {
+            white-space: nowrap;
+        }
+
+        /* Estilos para los colores de las celdas de bloqueo (Texto negro) */
+        .block, .partial, .accesible, .http-dns {
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            color: #000000 !important; /* Forzar el texto a NEGRO */
+        }
+        
+        /* Bloqueo total o HTTP/HTTPS (Rojo claro) */
+        .block {
+            background-color: #ffcccc; 
+        }
+
+        /* Bloqueo parcial o DNS (Amarillo claro) */
+        .partial {
+            background-color: #ffffcc; 
+        }
+
+        /* Accesible / No bloqueado (Verde claro) */
+        .accesible {
+            background-color: #ccffcc; 
+        }
+
+        /* DNS + HTTP/HTTPS, DNS + HTTPS, o Bloqueo Robusto (Azul claro) */
+        .http-dns {
+            background-color: #cce0ff; 
+        }
+
+        /* Estilo para el pie de página (Si se agrega) */
+        tfoot td {
+            border: none;
+            background-color: transparent;
+        }
+        .social {
+            text-align: right;
+            font-size: 10px;
+            color: #000000;
+        }
+        /* Asegurar que los enlaces también sean negros */
+        a {
+            color: #000000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<div class="table-responsive">
+<table class="blocklist">
+    <thead>
+        <tr>
+            <th rowspan="2"><strong>DOMINIO</strong></th>
+            <th rowspan="2"><strong>CATEGORÍA</strong></th>
+            <th rowspan="2"><strong>Fecha de inicio</strong></th>
+            <th rowspan="2"><strong>Fecha de fin</strong></th>
+            <th colspan="7"><strong>Mecanismo de Bloqueo por ISP</strong></th>
+        </tr>
+        <tr>
+            <th><strong>CANTV</strong></th>
+            <th><strong>Airtek</strong></th>
+            <th><strong>Digitel</strong></th>
+            <th><strong>Inter</strong></th>
+            <th><strong>Movistar</strong></th>
+            <th><strong>Netuno</strong></th>
+            <th><strong>Supercable</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="http://nordvpn.com">nordvpn.com</a></td><td>ANON</td><td>2025-01-07</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://pandavpnpro.com">pandavpnpro.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="accesible">No</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.betternet.co">www.betternet.co</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS*</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.urban-vpn.com">www.urban-vpn.com</a></td><td>ANON</td><td>2025-01-08</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://psiphon.ca">psiphon.ca</a></td><td>ANON</td><td>2020-11-13</td><td>Activo</td><td class="block">DNS + TCP IP + HTTPS*</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://hide.me">hide.me</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://mullvad.net">mullvad.net</a></td><td>ANON</td><td>2025-01-10</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://speedify.com">speedify.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="partial">HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://strongvpn.com">strongvpn.com</a></td><td>ANON</td><td>2025-01-10</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://torguard.net">torguard.net</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://ultravpn.com">ultravpn.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.cyberghostvpn.com">www.cyberghostvpn.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.hola.org">www.hola.org</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.ipvanish.com">www.ipvanish.com</a></td><td>ANON</td><td>2025-01-07</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS*</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.purevpn.com">www.purevpn.com</a></td><td>ANON</td><td>2025-01-07</td><td>Activo</td><td class="http-dns">DNS + TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS*</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.zoogvpn.com">www.zoogvpn.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="partial">HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://brave.com">brave.com</a></td><td>ANON</td><td>2025-01-07</td><td>Activo</td><td class="accesible">No</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://bridges.torproject.org">bridges.torproject.org</a></td><td>ANON</td><td>2025-01-07</td><td>Activo</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.browsec.com">www.browsec.com</a></td><td>ANON</td><td>2025-01-09</td><td>Activo</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.expressvpn.com">www.expressvpn.com</a></td><td>ANON</td><td>2025-01-06</td><td>Activo</td><td class="accesible">No</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.hotspotshield.com">www.hotspotshield.com</a></td><td>ANON</td><td>2025-01-06</td><td>Activo</td><td class="block">TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS*</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.itopvpn.com">www.itopvpn.com</a></td><td>ANON</td><td>2025-01-08</td><td>Activo</td><td class="accesible">No</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.torproject.org">www.torproject.org</a></td><td>ANON</td><td>2025-01-06</td><td>Activo</td><td class="block">TCP IP</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.surfshark.com/">surfshark.com</a></td><td>ANON</td><td>2025-01-06</td><td>Activo</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://vpn-api.proton.me">vpn-api.proton.me</a></td><td>ANON</td><td>2024-08-22</td><td>Activo</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.vpnsuper.com">www.vpnsuper.com</a></td><td>ANON</td><td>2025-01-08</td><td>Activo</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://tunnelbear.com">tunnelbear.com</a></td><td>ANON</td><td>2019-02-18</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS*</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://protonvpn.com">protonvpn.com</a></td><td>ANON</td><td>2024-07-20</td><td>Activo</td><td class="partial">DNS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://windscribe.com">windscribe.com</a></td><td>ANON</td><td>2024-07-31</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="block">HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+        <tr>
+            <td><a href="http://www.hidemyass.com">www.hidemyass.com</a></td><td>ANON</td><td>2022-09-16</td><td>Activo</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="accesible">No</td>
+        </tr>
+        <tr>
+            <td><a href="http://api.tunnelbear.com">api.tunnelbear.com</a></td><td>ANON</td><td>2021-11-03</td><td>Activo</td><td class="http-dns">DNS + HTTP/HTTPS*</td><td class="accesible">No</td><td class="accesible">No</td><td class="accesible">No</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</body>
+</html>
 
 \* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
 
