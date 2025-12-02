@@ -214,20 +214,6 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
 </body>
 </html>
 
-| Dominio | Categoría | Fecha de inicio | Fecha de fin | CANTV | Airtek | Digitel | Inter | Movistar | Netuno | Supercable |
-| ----- | :---: | :---: | :---: | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| [signal.org](http://signal.org) | COMT | 2024-08-08 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [abs-0.twimg.com](http://abs-0.twimg.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [abs.twimg.com](http://abs.twimg.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [upload.twitter.com](http://upload.twitter.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [video-0.twimg.com](http://video-0.twimg.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [video.twimg.com](http://video.twimg.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [api.twitter.com](http://api.twitter.com) | GRP | 2024-08-08 | Activo | DNS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [pbs.twimg.com](http://pbs.twimg.com) | GRP | 2024-08-08 | Activo | DNS | No | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [twitter.com](http://twitter.com) | GRP | 2024-08-08 | Activo | DNS \+ HTTP/HTTPS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-| [www.reddit.com](http://www.reddit.com) | GRP | 2019-02-25 | Activo | HTTPS\* | No | No | No | DNS | No | No |
-| [x.com](http://x.com) | GRP | 2024-08-07 | Activo | DNS \+ HTTP/HTTPS | HTTP/HTTPS | DNS | DNS | DNS \+ HTTP/HTTPS | DNS | DNS |
-
  \* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
 
 ## **Medios de comunicación y páginas con contenido informativo**
