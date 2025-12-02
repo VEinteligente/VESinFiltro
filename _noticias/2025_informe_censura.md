@@ -112,11 +112,10 @@ El bloqueo se implementó mediante una combinación de filtrado DNS, bloqueo por
 
 En 2024 Telegram había sido bloqueado en el período post electoral. En esa oportunidad no se afectó el funcionamiento de la app móvil, pero hicieron imposible conectarse con las direcciones IP de telegram∙org y web.telegram∙org.
 
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Bloqueos Combinada (Texto en Negro)</title>
     <style>
         .table-responsive {
             width: 100%;
@@ -125,64 +124,20 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
         table.blocklist {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px;
-            color: #000000; /* Texto de la tabla principal en negro */
+            font-size: 12px; /* Reduce el tamaño de la fuente */
         }
         th, td {
-            padding: 5px;
+            padding: 5px; /* Ajusta el relleno para hacer las celdas más compactas */
             text-align: left;
-            border: 1px solid #ddd;
-            color: #000000; /* Asegura que el texto de las celdas de datos sea negro */
         }
         th {
             background-color: #f2f2f2;
-            text-align: center;
         }
         .softmerge .softmerge-inner {
             white-space: nowrap;
         }
-
         .block, .partial, .accesible, .http-dns {
-            font-size: 10px;
-            font-weight: bold;
-            text-align: center;
-            color: #000000 !important; /* Forzar el texto a NEGRO en todas estas clases */
-        }
-        
-        /* Bloqueo total o HTTP/HTTPS - Solo mantiene el fondo */
-        .block {
-            background-color: #ffcccc; /* Rojo claro */
-        }
-
-        /* Bloqueo parcial o DNS - Solo mantiene el fondo */
-        .partial {
-            background-color: #ffffcc; /* Amarillo claro */
-        }
-
-        /* Accesible / No bloqueado - Solo mantiene el fondo */
-        .accesible {
-            background-color: #ccffcc; /* Verde claro */
-        }
-
-        /* DNS + HTTP/HTTPS o DNS + HTTPS - Solo mantiene el fondo */
-        .http-dns {
-            background-color: #cce0ff; /* Azul claro */
-        }
-
-        /* Estilo para el pie de página */
-        tfoot td {
-            border: none;
-            background-color: transparent;
-        }
-        .social {
-            text-align: right;
-            font-size: 10px;
-            color: #000000;
-        }
-        /* Asegurar que los enlaces también sean negros */
-        a {
-            color: #000000;
-            text-decoration: underline;
+            font-size: 10px; /* Reduce el tamaño de la fuente para tipos de bloqueo */
         }
     </style>
 </head>
