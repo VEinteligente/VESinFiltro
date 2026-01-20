@@ -13,7 +13,7 @@ categories: reporte
 
 El año 2025 ha estado marcado por una profundización de los mecanismos de control estatal sobre la información y la comunicación en Venezuela, así como un mayor cierre del espacio cívico, lo que es particularmente crítico por los mecanismos de censura impuestos en el año 2024 y que se mantienen activos.  
 
-Las elecciones celebradas en julio de 2024 marcaron un punto de inflexión con nuevos patrones de censura digital durante la gestión del proceso electoral y después de la jornada; con acciones represivas posteriores contra voces críticas; patrones que siguen presentes en 2025\. 
+Las elecciones celebradas en julio de 2024 marcaron un punto de inflexión con nuevos patrones de censura digital durante la gestión del proceso electoral y después de la jornada; con acciones represivas posteriores contra voces críticas; patrones que siguen presentes en 2025. 
 
 Luego de esos comicios, se intensificaron las limitaciones al ejercicio periodístico y al trabajo de organizaciones sociales, caracterizadas por campañas de desinformación y por un uso sistemático de los medios públicos y las plataformas digitales del Estado para deslegitimar a actores independientes. 
 
@@ -23,7 +23,7 @@ La toma de posesión presidencial en enero de 2025 representó un nuevo hito en 
 
 Durante los primeros meses de 2025 se intensificaron las campañas de desinformación y hostigamiento digital contra periodistas y medios críticos, mientras voceros oficialistas monopolizaban la narrativa en los canales de comunicación estatales. Esta combinación de censura técnica y manipulación mediática consolidó un entorno de control informativo total.
 
-Luego, con motivo de las elecciones regionales (25 de mayo de 2025\) y municipales (27 de junio de 2025), se repitieron patrones similares. VE sin Filtro registró nuevos bloqueos a sitios web de cobertura electoral, plataformas de observación ciudadana y cuentas de medios independientes. Junto con la opacidad institucional y la ausencia de garantías para el trabajo de los medios de comunicación, los bloqueos  confirmaron que la censura digital sigue siendo una herramienta del poder para controlar el relato público.
+Luego, con motivo de las elecciones regionales (25 de mayo de 2025) y municipales (27 de junio de 2025), se repitieron patrones similares. VE sin Filtro registró nuevos bloqueos a sitios web de cobertura electoral, plataformas de observación ciudadana y cuentas de medios independientes. Junto con la opacidad institucional y la ausencia de garantías para el trabajo de los medios de comunicación, los bloqueos  confirmaron que la censura digital sigue siendo una herramienta del poder para controlar el relato público.
 
 La censura digital se combina con otras formas de hostigamiento, como la persecución judicial, la exposición pública de periodistas y activistas, y la vigilancia en entornos virtuales y físicos. Este ecosistema de control tiene efectos acumulativos: la amenaza de represalias, sumada a la incertidumbre tecnológica y legal, ha consolidado la autocensura como estrategia de supervivencia informativa. Cada vez más periodistas, medios y ciudadanos optan por silenciar o moderar sus publicaciones y expresiones ante el riesgo de sanciones, bloqueos o ataques coordinados.
 
@@ -69,7 +69,7 @@ Los bloqueos de sitios web afectan desde los medios más importantes y ONG de de
 
 ## **Redes sociales y aplicaciones de mensajería**
 
-El 8 de agosto de 2025 se cumplió un año del bloqueo de la red social X (antes Twitter) y de la aplicación de mensajería Signal en Venezuela, medidas que permanecen activas desde su imposición el 8 de agosto de 2024\.
+El 8 de agosto de 2025 se cumplió un año del bloqueo de la red social X (antes Twitter) y de la aplicación de mensajería Signal en Venezuela, medidas que permanecen activas desde su imposición el 8 de agosto de 2024.
 
 Ese día, minutos después de que Nicolás Maduro pidiera en medio de una arenga pública el bloqueo de X, los proveedores actuaron de inmediato. CANTV, Movistar, Digitel, Inter, NetUno, Supercable, G-Network y Airtek restringieron el acceso a la plataforma en todo el país.
 
@@ -79,13 +79,9 @@ A estos bloqueos se le sumaron bloqueos a plataformas de comunicación, especial
 
 ### Tik Tok
 
-Durante un mes (entre el 7 de enero y 5 de febrero de 2025), al menos nueve ISP o  
-prestadores del servicio de internet estuvieron bloqueando la red social TikTok en  
-Venezuela.
+Durante un mes (entre el 7 de enero y 5 de febrero de 2025), al menos nueve ISP o prestadores del servicio de internet estuvieron bloqueando la red social TikTok en Venezuela.
 
-Las primeras restricciones aparecieron el 7 de enero en Supercable. Desde entonces y  
-hasta el 10 de enero se fueron sumando Cantv, Net Uno, Digitel, Movistar, G-network, Inter,  
-V-net y Airtek.
+Las primeras restricciones aparecieron el 7 de enero en Supercable. Desde entonces y hasta el 10 de enero se fueron sumando Cantv, Net Uno, Digitel, Movistar, G-network, Inter, V-net y Airtek.
 
 El tipo de bloqueo aplicado por los proveedores Inter, Supercable y Digitel fue DNS, Movistar y V-Net fue de tipo HTTPS/HTTP. En este caso se implementó la estrategia de bloqueo mediante TCP IP por los proveedores CANTV, Net Uno, G-Network y Airtek. CANTV y Net Uno también aplicaron bloqueo DNS.
 
@@ -213,7 +209,7 @@ En 2024 Telegram había sido bloqueado en el período post electoral. En esa opo
 </body>
 </html>
 
- \* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
+* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
 
 ## **Medios de comunicación y páginas con contenido informativo**
 
@@ -223,13 +219,13 @@ Esta censura contra los sitios de noticias es implementada mediante el bloqueo a
 
 ### noticias.com
 
-En mayo de 2025, detectamos un bloqueo a todos los dominios que terminan en “http://noticias.com”, aplicado por Digitel y Movistar. Se trata de un tipo de bloqueo con consecuencias no deseadas, pues afecta, incluso a sitios legítimos que utilicen esa extensión.
+En mayo de 2025, detectamos un bloqueo a todos los dominios que terminan en “noticias.com”, aplicado por Digitel y Movistar. Se trata de un tipo de bloqueo con consecuencias no deseadas, pues afecta, incluso a sitios legítimos que utilicen esa extensión.
 
 El bloqueo a estos dominios pone en evidencia una intención de restringir el acceso a portales informativos y utiliza el filtrado DNS, que consiste en impedir la resolución de nombres de dominio para evitar que los usuarios accedan a determinadas páginas web. Este tipo de medidas plantea serias interrogantes sobre el papel y la responsabilidad de los proveedores de servicios de internet en la ejecución de prácticas que limitan la libertad de información y el acceso a contenidos noticiosos.
 
 ### EFE
 
-El 22 de marzo de 2025, VE sin Filtro reportó el bloqueo de la página web de la agencia española de noticias EFE. Días antes, había sido criticada en el canal del Estado por la publicación de una entrevista a Magalli Meda, activista política venezolana que se desempeñó como jefa del comando nacional de campaña, Con Venezuela, de María Corina Machado. 
+El 22 de marzo de 2025, VE sin Filtro reportó el bloqueo de la página web de la agencia española de noticias EFE. Días antes, había sido criticada en el canal del Estado por la publicación de una entrevista a Magalli Meda, activista política venezolana que se desempeñó como jefa del comando nacional de campaña, "Con Venezuela", de María Corina Machado. 
 
 La restricción se implementó de forma coordinada y con distintos métodos técnicos por parte de los principales ISPs del país: CANTV, Movistar, Digitel, NetUno, Supercable, G-Network, Airtek y Thundernet. 
 
@@ -237,7 +233,7 @@ EFE es una agencia de alcance internacional muy influyente en las comunidades de
 
 ### Punto de corte
 
- El 1 de octubre de 2025, el medio digita**l Punto de Corte** (puntodecorte.net) fue objeto de un bloqueo que afectó su acceso a través de los principales proveedores de internet en Venezuela.
+El 1 de octubre de 2025, el medio digital **Punto de Corte** (puntodecorte.net) fue objeto de un bloqueo que afectó su acceso a través de los principales proveedores de internet en Venezuela.
 
 El bloqueo fue implementado de manera progresiva y coordinada entre los proveedores CANTV, Movistar, Inter, NetUno, Airtek, ThunderNet y G-Network, utilizando diferentes métodos técnicos, entre ellos bloqueo por DNS, IP y HTTP/HTTPS. En el caso de CANTV, se trató de un bloqueo por dirección IP, mientras que Movistar e Inter aplicaron bloqueo DNS.
 
@@ -249,7 +245,7 @@ Estos bloqueos se inscriben dentro de un patrón sistemático de censura digital
 
 ## **Censura contra la información electoral**
 
-Las elecciones de 2024 y 2025 fueron, de nuevo, un tema sensible para el gobierno, llegando a bloquear los sitios web de iniciativas de transparencia sobre los resultados electorales de las presidenciales del 28 de julio de 2024 y de las regionales de 2025\. 
+Las elecciones de 2024 y 2025 fueron, de nuevo, un tema sensible para el gobierno, llegando a bloquear los sitios web de iniciativas de transparencia sobre los resultados electorales de las presidenciales del 28 de julio de 2024 y de las regionales de 2025. 
 
 La gran mayoría de los bloqueos en 2024, independientemente de su contenido, ocurrieron durante la campaña electoral y luego de que el CNE publicara resultados electorales que fueron cuestionados en Venezuela e internacionalmente, incluso por aliados ideológicos de Nicolas Maduro en Latinoamérica
 
@@ -277,7 +273,7 @@ El bloqueo fue implementado por al menos 8 de los principales proveedores de int
 
 ### Elecciones sin información oficial
 
-El sitio web oficial del Consejo Nacional Electoral (CNE) ha estado inaccesible durante el año 2025, luego de que el propio CNE lo inhabilitó en el contexto de los comicios presidenciales de 2024\. En consecuencia, no hubo un canal oficial de información para la renovación de las autoridades regionales y municipales, ambas celebradas en 2025\.
+El sitio web oficial del Consejo Nacional Electoral (CNE) ha estado inaccesible durante el año 2025, luego de que el propio CNE lo inhabilitó en el contexto de los comicios presidenciales de 2024. En consecuencia, no hubo un canal oficial de información para la renovación de las autoridades regionales y municipales, ambas celebradas en 2025.
 
 A diferencia de los bloqueos tradicionales realizados por proveedores de servicios de internet (ISP), en este caso es el mismo CNE quien ha decidido mantener fuera de línea su página, hecho confirmado técnicamente por VE sin Filtro.
 
@@ -438,7 +434,7 @@ Aunque la mayoría de estas herramientas continúan funcionando a pesar de los b
 </body>
 </html>
 
-\* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
+* El evento de bloqueo que implementó esta técnica de bloqueo finalizó y actualmente está inactivo.
 
 La censura en internet también ha llegado a afectar servidores DNS públicos, necesarios para eludir los bloqueos.  CANTV bloqueó al menos 33 servidores DNS públicos mediante un bloqueo TCP/IP, incluyendo los más conocidos como Google Public DNS (8.8.8.8) y 1.1.1.1 de Cloudflare. Estos servidores DNS públicos son una alternativa a los DNS de los propios proveedores de internet, los cuales suelen ser más lentos y facilitan la censura. Estos bloqueos finalizaron el 11 de enero.
 
@@ -627,7 +623,7 @@ Al bloquear sistemáticamente medios de comunicación independientes, dominios d
 
 Al impedir o dificultar el acceso a herramientas de comunicación cifrada y servicios de evasión de censura (VPN, Tor), se incrementan los riesgos de vigilancia, intimidación y autocensura. En este contexto, los periodistas, defensores de derechos humanos, activistas y ciudadanos críticos adoptan la autocensura como mecanismo de autoprotección ante posibles represalias, lo cual restringe el ejercicio real de la libertad de expresión.
 
-Existe un impacto diferencial: los grupos más vulnerables \-periodistas independientes, medios pequeños, organizaciones de derechos humanos, comunidades rurales o de bajos ingresos- se enfrentan a una doble barrera: primero, excluirse o ser excluidos de medios tradicionales; segundo, sufrir el impedimento técnico o económico para acceder al espacio digital. Esto amplía la brecha de derechos digitales y profundiza la desigualdad en el acceso a la comunicación y a la información.
+Existe un impacto diferencial: los grupos más vulnerables —periodistas independientes, medios pequeños, organizaciones de derechos humanos, comunidades rurales o de bajos ingresos— se enfrentan a una doble barrera: primero, excluirse o ser excluidos de medios tradicionales; segundo, sufrir el impedimento técnico o económico para acceder al espacio digital. Esto amplía la brecha de derechos digitales y profundiza la desigualdad en el acceso a la comunicación y a la información.
 
 Desde la perspectiva electoral y de participación ciudadana, la censura digital obstaculiza el derecho a la información pública sobre procesos clave, como elecciones. Cuando el portal del órgano electoral permanece inaccesible y los medios críticos o independientes son bloqueados, el control narrativo queda en manos del Estado o de entidades afines, lo que afecta el derecho al voto informado, la transparencia y la rendición de cuentas.
 
