@@ -87,10 +87,10 @@ El tipo de bloqueo aplicado por los proveedores Inter, Supercable y Digitel fue 
 
 El patrón de bloqueo mostró una ocurrencia diaria entre la medianoche y las 7 a. m. (UTC-4), con algunas excepciones. Un evento de bloqueo por parte de Net Uno duró casi 16 días (383,15 horas), otro por parte de Supercable se prolongó por más de 8 días (199 horas) y uno de CANTV duró tres días y medio (85,88 horas), según las mediciones realizadas por VE sin Filtro. 
 ![](/res/post_img/2025-11-30/2025-02-05TiktokV1.png)
-**Gráfico**: Línea de tiempo de eventos de bloqueo del caso Tik Tok entre el 7 y el 22 de enero de 2025\. Fuente: VE Sin Filtro.*
+**Gráfico**: Línea de tiempo de eventos de bloqueo del caso Tik Tok entre el 7 y el 22 de enero de 2025\. Fuente: VE Sin Filtro.
 
 ![](/res/post_img/2025-11-30/2025-02-05TiktokV2.png)
-**Gráfico:** Línea de tiempo de eventos de bloqueo del caso Tik Tok entre el 22 de enero y el 5  de febrero de 2025\. Fuente: VE Sin Filtro.*
+**Gráfico:** Línea de tiempo de eventos de bloqueo del caso Tik Tok entre el 22 de enero y el 5  de febrero de 2025\. Fuente: VE Sin Filtro.
 
 ### Canva
 
