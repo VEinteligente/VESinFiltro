@@ -92,11 +92,11 @@ Blocking methods varied: DNS (Inter, Supercable, Digitel), HTTPS/HTTP (Movistar,
 The pattern showed daily occurrences between midnight and 7 a.m. (UTC-4), with some exceptions. One Net Uno block lasted nearly 16 days (383.15 hours), one Supercable block went on over more than 8 days (199 hours), and one CANTV block lasted three and a half days (85.88 hours), according to VE sin Filtro measurements.
 
 
-***![][image1]***  
-***Chart**: Timeline of events in the TikTok case between January 7 and January 22, 2025. Source: VE Sin Filtro.*
+![](/res/post_img/2025-11-30/2025-02-05TiktokV1.png)
+**Chart**: Timeline of events in the TikTok case between January 7 and January 22, 2025. Source: VE Sin Filtro.
 
-***![][image2]***  
-***Chart:**  Timeline of events in the TikTok case between January 22 and February 5 2025. Source: VE Sin Filtro.*
+![](/res/post_img/2025-11-30/2025-02-05TiktokV2.png)
+**Chart:**  Timeline of events in the TikTok case between January 22 and February 5 2025. Source: VE Sin Filtro.
 
 
 ### Canva
