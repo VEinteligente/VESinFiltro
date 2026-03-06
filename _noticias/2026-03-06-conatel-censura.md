@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Enrique José Quintana Sifontes, nuevo director de Conatel"
+title: "Carta al nuevo director de CONATEL"
 excerpt: "Presentamos una hoja de ruta urgente para la nueva gestión de Conatel, encabezada por Enrique Quintana. El petitorio destaca la necesidad de recuperar el carácter técnico del ente, restablecer el acceso libre a internet, garantizar la privacidad de los usuarios y detener el cierre arbitrario de medios de comunicación para asegurar los derechos humanos en el entorno digital venezolano."
 permalink: /noticias/2026-03-06-conatel-censura/
 date:   2026-03-06 14:30:00 -0400
