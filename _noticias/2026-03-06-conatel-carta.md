@@ -7,7 +7,7 @@ date:   2026-03-06 14:30:00 -0400
 categories: report
 image: /res/post_img/2026-03-06-conatel-carta/vigilancia-comunicaciones copy 4-3n copy@2x.png
 ---
-# Enrique José Quintana Sifontes, nuevo director de Conatel: 
+# Enrique José Quintana Sifontes, nuevo director de CONATEL:
 
 > "Es un momento estelar y una oportunidad para demostrar el verdadero compromiso con la democracia, la convivencia, la paz y la libertad."
 
