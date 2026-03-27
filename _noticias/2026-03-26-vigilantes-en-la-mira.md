@@ -11,9 +11,9 @@ redirect_from:
   - /vigilantes
 ---
 
-<p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_img.png"></p>
+<p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_heading.png"></p>
 
-[Download the report in english](/res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf)
+**[Download the report in english](/res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf)**
 
 En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026.
 
@@ -24,6 +24,10 @@ Entre los hallazgos clave del estudio se encuentra el hecho de que el sistema de
 Este ecosistema de vigilancia ha costado más de mil millones de dólares y, según el análisis, permite la expansión de sistemas integrales de control autoritario que facilitan la represión sistemática de unas 27 millones de personas. 
 
 La vigilancia estatal de Venezuela configura severas restricciones del espacio cívico y límites al ejercicio de los derechos humanos.
+
+<object data="/res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf" type="application/pdf" width="100%" height="600px">
+      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org//res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf&embedded=true" width="100%" height="600px"/> 
+</object>
 
 ## Panel discusión de los hallazgos
 Para el lanzamiento, los autores del informe discutieron los hallazgos del reporte y el impacto  de la vigilancia estatal en los derechos humanos. Estuvieron junto a Gina Romero, relatora especial de las Naciones Unidas para el Derecho a la Libertad de Asociación y Reunión Pacífica, y Bill Marczak, investigador senior del Citizen Lab.
