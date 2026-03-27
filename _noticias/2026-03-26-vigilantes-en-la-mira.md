@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reporte: Los vigilantes en la mira: tecnologías para el control político en Venezuela"
-excerpt: "En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026. Reporte de VEsinFiltro y Atrlantic Council"
+excerpt: "En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026. Reporte de VEsinFiltro y Atlantic Council"
 permalink: /noticias/2026-03-26-vigilantes-en-la-mira/
 date:   2026-03-26 19:00:00 -0400
 categories: reporte
