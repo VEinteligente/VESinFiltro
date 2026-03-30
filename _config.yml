@@ -17,6 +17,8 @@ navigation:
   url: /test/
 - title: Evade los bloqueos
   url: /bloqueos/
+- title: Lista de bloqueos        # ← nombre que elijas
+  url: https://bloqueos.vesinfiltro.org/
 
 # Build settings
 markdown: kramdown
