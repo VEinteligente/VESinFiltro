@@ -5,10 +5,10 @@ excerpt: "En Venezuela, la infraestructura de vigilancia opera como un sistema d
 permalink: /noticias/vigilantes-en-la-mira/
 date:   2026-03-26 19:00:00 -0400
 categories: reporte
-image: /res/post_img/2026-03-26/post_img.png
+image: /res/post_img/2026-03-26/post_img2.png
 image_alt: "Portada del reporte Los vigilantes en la mira: tecnologias para el control politico en Venezuela"
-image_width: 2374
-image_height: 1044
+image_width: 2400
+image_height: 1200
 author: "Andrés Azpúrua, Iria Puyosa"
 redirect_from:
   - /vigilantes/
