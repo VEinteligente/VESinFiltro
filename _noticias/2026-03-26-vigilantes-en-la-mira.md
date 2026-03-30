@@ -15,6 +15,7 @@ redirect_from:
 <p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_heading.png"></p>
 
 **[Descarga este reporte](/res/files/VSF-DFRLab-Los_Vigilantes_en_la_Mira.pdf)**
+
 **[Download the report in english](/res/files/VSF-DFRLab-Watch_the_Watchers.pdf)**
 
 En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026.
