@@ -2,68 +2,68 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	{% assign page_title = page.title | default: site.title %}
+		{% assign page_description = page.excerpt | default: site.description | strip_html | normalize_whitespace | truncatewords: 75 %}
+	{% assign page_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+	{% assign default_share_image = "/res/TWcard.png" | absolute_url %}
+	{% if page.image == "no" %}
+		{% assign share_image = default_share_image %}
+	{% elsif page.image %}
+		{% assign share_image = page.image | absolute_url %}
+	{% else %}
+		{% assign share_image = default_share_image %}
+	{% endif %}
+	{% assign share_title = page.small | default: page_title %}
+	{% assign page_type = "website" %}
+	{% if page.layout == "post" or page.collection == "noticias" %}
+		{% assign page_type = "article" %}
+	{% endif %}
+	<title>{{ page_title }}</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,300italic,400italic,500italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="{{ site.baseurl }}/lib/main.css">
-	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	<link rel="canonical" href="{{ page_url }}">
 	<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="{{ site.baseurl }}/bootstrap/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<meta name="description" content="{{ page_description }}">
 
 
 	<!-- OG meta tags -->
-	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-
-	{% if page.image == "no" %}
-	<meta property="og:image" content="https://vesinfiltro.com/res/TWcard.png">
-	{% elsif page.image %}
-	<meta property="og:image" content="{{ page.image | absolute_url }}">
-	{% else %}
-	<meta property="og:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta property="og:title" content="{{ page_title }}">
+	<meta property="og:image" content="{{ share_image }}">
+	<meta property="og:type" content="{{ page_type }}">
+	<meta property="og:description" content="{{ page_description }}">
+	<meta property="og:url" content="{{ page_url }}">
+	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:locale" content="es_VE">
+	{% if page.image_alt %}
+	<meta property="og:image:alt" content="{{ page.image_alt }}">
 	{% endif %}
-
-	<meta property="og:type" content="website">
-
-	<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}">
-
-	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+	{% if page.image_width %}
+	<meta property="og:image:width" content="{{ page.image_width }}">
+	{% endif %}
+	{% if page.image_height %}
+	<meta property="og:image:height" content="{{ page.image_height }}">
+	{% endif %}
+	{% if page_type == "article" %}
+	<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+	{% endif %}
 
 	<!-- Tw meta tags -->
-	{% if page.image == "no" %}
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png" />
-	{% elsif page.image %}
+	{% if page.image and page.image != "no" %}
 	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:image" content="{{ page.image | absolute_url }}" />
 	{% else %}
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png" />
 	{% endif %}
-
+	<meta name="twitter:image" content="{{ share_image }}" />
 	<meta name="twitter:site" content="@VEsinFiltro" />
     <meta name="twitter:creator" content="@VEinteligente">
-	<meta name="twitter:title" content="{% if page.small and page.small != ''%}{{ page.small }}{% elsif page.title and page.title != '' %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}" />
-	<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}" />
-
-	<!--
-	{% if page.image == "no" %}
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png">
-
-	{% elsif page.image %}
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image" content="{{ page.image | absolute_url }}">
-
-	{% else %}
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:image" content="https://vesinfiltro.com/res/TWcard.png">
+	<meta name="twitter:title" content="{{ share_title }}" />
+	<meta name="twitter:description" content="{{ page_description }}" />
+	<meta name="twitter:url" content="{{ page_url }}" />
+	{% if page.image_alt %}
+	<meta name="twitter:image:alt" content="{{ page.image_alt }}" />
 	{% endif %}
-
-    <meta name="twitter:site" content="@VEsinFiltro">
-    <meta name="twitter:creator" content="@VEinteligente">
-    <meta name="twitter:title" content="{% if page.small %}{{ page.small }}{% else %}{% if page.title %}{{ page.title }}{% else %}VEsinFiltro.com reporta y evade la censura{% endif %}{% endif %}">
-    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncatewords:75  }}{% else %}¡Que no te censuren el internet! Reporta fallas, bloqueo y censura en internet; y navega librevente siguiendo nuestros tutoriales{% endif %}">
-	-->
 
 </head>
