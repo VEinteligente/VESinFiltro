@@ -14,7 +14,8 @@ redirect_from:
 
 <p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_heading.png"></p>
 
-**[Download the report in english](/res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf)**
+**[Descarga este reporte](/res/files/VSF-DFRLab-Los_Vigilantes_en_la_Mira.pdf)**
+**[Download the report in english](/res/files/VSF-DFRLab-Watch_the_Watchers.pdf)**
 
 En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026.
 
@@ -30,6 +31,6 @@ Para el lanzamiento, los autores del informe discutieron los hallazgos del repor
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZuW8Yur-alI?si=LtPm0JRqdQbvBgIR&amp;start=1299" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<object data="/res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf" type="application/pdf" width="100%" height="600px">
-      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org//res/files/VSF-DFRLab-Watch-the-Watchers-v1.pdf&embedded=true" width="100%" height="600px"/> 
+<object data="/res/files/VSF-DFRLab-Los_Vigilantes_en_la_Mira.pdf" type="application/pdf" width="100%" height="600px">
+      <embed src="https://docs.google.com/gview?url=https://vesinfiltro.org/res/files/VSF-DFRLab-Los_Vigilantes_en_la_Mira.pdf&embedded=true" width="100%" height="600px"/> 
 </object>
