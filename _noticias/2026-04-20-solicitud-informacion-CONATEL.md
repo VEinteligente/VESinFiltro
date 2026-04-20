@@ -10,7 +10,7 @@ image: /res/post_img/2026-03-06-conatel-carta/vigilancia-comunicaciones copy 4-3
 
 Caracas. Este 20 de abril, VE sin Filtro acudió a la sede de la Comisión Nacional de Telecomunicaciones (CONATEL) para exigir respuesta a la solicitud de información pública introducida el pasado 13 de marzo, suscrita por más de 30 organizaciones de la sociedad civil y medios de comunicación, y reiterar la demanda de que se ordene el levantamiento de los bloqueos de sitios web y servicios en línea en Venezuela.
 
-Se encuentra vencido el plazo de 20 días hábiles establecido en la Ley de Transparencia y Acceso a la Información sin que Conatel haya emitido respuesta formal. En la comunicación consignada este 20 de abril, VE sin Filtro advierte que este silencio contraviene las obligaciones legales del Estado en materia de acceso a la información pública y mantiene la opacidad sobre decisiones que afectan directamente derechos fundamentales .
+Se encuentra vencido el plazo de 20 días hábiles establecido en la Ley de Transparencia y Acceso a la Información sin que Conatel haya emitido respuesta formal. En la comunicación consignada este 20 de abril, VE sin Filtro advierte que este silencio contraviene las obligaciones legales del Estado en materia de acceso a la información pública y mantiene la opacidad sobre decisiones que afectan directamente derechos fundamentales.
 
 La solicitud original, presentada el 13 de marzo, buscaba obtener información sobre las medidas de bloqueo de sitios web y servicios en línea aplicadas en el país, así como sus fundamentos legales, alcance y criterios de implementación. Paralelamente, una segunda comunicación suscrita por más de 30 organizaciones exhortó a CONATEL a ordenar el cese de estas prácticas.
 
