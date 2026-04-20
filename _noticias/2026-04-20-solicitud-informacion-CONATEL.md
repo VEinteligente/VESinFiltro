@@ -7,7 +7,7 @@ date:   2026-04-20 12:30:00 -0400
 categories: report
 image: /res/post_img/2026-04-20-CONATEL-carta.jpg
 ---
-<p class="cover"><img class="" src="/res/post_img/2026-04-20-CONATEL.jpg"></p>
+<p class="cover"><img class="" src="/res/post_img/2026-04-20-CONATEL-min.jpg"></p>
 
 Caracas. Este 20 de abril, VE sin Filtro acudió a la sede de la Comisión Nacional de Telecomunicaciones (CONATEL) para exigir respuesta a la solicitud de información pública introducida el pasado 13 de marzo, suscrita por más de 30 organizaciones de la sociedad civil y medios de comunicación, y reiterar la demanda de que se ordene el levantamiento de los bloqueos de sitios web y servicios en línea en Venezuela.
 
