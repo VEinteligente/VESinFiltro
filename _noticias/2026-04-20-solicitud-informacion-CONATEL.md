@@ -5,7 +5,7 @@ excerpt: "VE sin Filtro acudió a la Comisión Nacional de Telecomunicaciones (C
 permalink: /noticias/2026-04-20-solicitud-informacion-CONATEL/
 date:   2026-04-20 12:30:00 -0400
 categories: report
-image: /res/post_img/2026-04-20-CONATEL.jpg
+image: /res/post_img/2026-04-20-CONATEL-carta.jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-04-20-CONATEL.jpg"></p>
 
