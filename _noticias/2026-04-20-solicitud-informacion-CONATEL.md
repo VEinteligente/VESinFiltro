@@ -28,5 +28,5 @@ La mayoría de estas restricciones fueron impuestas por vía administrativa, sin
 La organización también advierte que estos bloqueos afectan de forma directa el acceso a la información, la libertad de expresión y la posibilidad de participación en la vida pública. En ese sentido, insiste en que el acceso a internet sin restricciones indebidas es una condición necesaria para la transparencia institucional, la deliberación democrática y la gobernabilidad.
 
 VE sin Filtro exige una respuesta formal por parte de CONATEL y avanzar en el levantamiento de medidas que restringen el acceso a internet en Venezuela sin base transparente ni control público.
-
+<p align="center"><img src="/res/post_img/2026-04-20-CONATEL-carta.jpg"/></p>
 
