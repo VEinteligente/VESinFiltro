@@ -13,6 +13,8 @@ author: "Andrés Azpúrua, Iria Puyosa"
 redirect_from:
   - /vigilantes/
   - /vigilantes
+  - /watch2026
+  - /watch2026/
 ---
 
 <p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_heading.png"></p>
