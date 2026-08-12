@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cortes y bloqueos de internet se consolidan como herramientas de control a nivel global"
-excerpt: "VE sin Filtro acudió a la Comisión Nacional de Telecomunicaciones (CONATEL) para exigir respuesta a una solicitud de información pública del pasado 13 de marzo y demandar el levantamiento de los bloqueos de sitios web y servicios en línea en Venezuela. "
+excerpt: "Entre 2019 y 2025, Venezuela utilizó exclusivamente bloqueos a plataformas de redes sociales y servicios de comunicación, sin recurrir a apagones nacionales de internet, según un nuevo análisis de Internet Society sobre tendencias globales de cortes de red."
 permalink: /noticias/2026-08-12-thutdown-trends-ISOC/
 date:   2026-08-12 12:30:00 -0400
 categories: report
