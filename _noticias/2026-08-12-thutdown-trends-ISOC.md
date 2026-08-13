@@ -5,9 +5,9 @@ excerpt: "Entre 2019 y 2025, Venezuela utilizó exclusivamente bloqueos a plataf
 permalink: /noticias/2026-08-12-thutdown-trends-ISOC/
 date:   2026-08-12 12:30:00 -0400
 categories: report
-image: /res/post_img/2026-04-20-CONATEL-min.jpg
+image: /res/post_img/2026-08-12-isoc.jpg
 ---
-<p class="cover"><img class="" src="/res/post_img/2026-04-20-CONATEL.jpg"></p>
+<p class="cover"><img class="" src="/res/post_img/2026-08-12-isoc.jpg"></p>
 
 Mientras que en otras regiones predominan los apagones totales, los registros en Venezuela y Cuba se caracterizan fundamentalmente por el bloqueo selectivo de servicios y redes sociales.
 
