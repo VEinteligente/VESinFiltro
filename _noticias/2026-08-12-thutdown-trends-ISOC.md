@@ -20,6 +20,7 @@ En el estudio se detalla que el problema de las interrupciones afecta a decenas 
 Entre los hallazgos principales destacan:
 
 - **Duración asimétrica:** El 70.8% de los incidentes registrados a nivel mundial duraron un día o menos, y el 95.4% terminaron en un plazo de 30 días. Sin embargo, los bloqueos de contenido y servicios persisten durante años, alcanzando lapsos superiores a los 900 días en sus casos más prolongados, como los observados en China, Rusia o Myanmar.
+
 - **Nuevas motivaciones:** Aunque las acciones gubernamentales generales lideran el histórico, el estudio revela un preocupante incremento de restricciones en países de Oriente Medio, Norte de África y Asia.
 
 - Las motivaciones están cambiando. La categoría genérica de "acción gubernamental" sigue siendo la mayor en el acumulado, con 389 casos, pero cayó de 119 incidentes en 2019 a 22 en 2025. En contraste, los cortes relacionados con exámenes públicos aumentaron de 17 casos en 2019 a 85 en 2024 y se mantuvieron en 59 en 2025. El informe considera especialmente preocupante que restricciones tan severas se estén normalizando para fines administrativos rutinarios.
