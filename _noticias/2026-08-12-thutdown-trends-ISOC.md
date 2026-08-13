@@ -9,14 +9,14 @@ image: /res/post_img/2026-08-12-isoc.jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-08-12-isoc.jpg"></p>
 
-Mientras que en otras regiones predominan los apagones totales, los registros en Venezuela y Cuba se caracterizan fundamentalmente por el bloqueo selectivo de servicios y redes sociales.
+VE sin Filtro actualizó y auditó la base de datos global de Internet Society Pulse, utilizada para analizar las interrupciones de Internet. El informe "Shutdown Trends from 2019 to 2025: Where Do We Go from Here", revela que en Venezuela el patrón predominante ha sido el bloqueo selectivo de servicios, plataformas y redes sociales.
 
-**Caracas.-** Un riguroso análisis publicado por la organización global Internet Society, titulado *"Shutdown Trends from 2019 to 2025: Where Do We Go from Here"*, expone cómo los gobiernos instrumentalizan las restricciones de internet como herramienta de control y limitación del flujo informativo. VE sin Filtro trabajó en la actualización de la base de datos de Internet Society Pulse con el objetivo de auditar las interrupciones de la red a nivel mundial.
+**Caracas.-** Los gobiernos han convertido las interrupciones y bloqueos de internet en una herramienta para controlar el acceso a información y servicios digitales, según “Shutdown Trends from 2019 to 2025: Where Do We Go from Here”, un informe de Internet Society y VE sin Filtro, que analiza las restricciones registradas en el mundo entre 2019 y 2025.
 
-Para el análisis, se mejoró la coherencia de los datos y se evaluaron los cortes de Internet utilizando una nueva escala de niveles de verificación, para lograr auditar y actualizar el conjunto de datos de cortes de Internet de Internet Society Pulse.
+VE sin Filtro revisó, actualizó y auditó la base de datos de Internet Society Pulse, utilizada para documentar y analizar las interrupciones de internet a escala global. Ese trabajo permitió depurar los registros, mejorar la consistencia de la información y fortalecer la evaluación técnica de los incidentes mediante nuevos niveles de verificación.
 
-En el estudio se detalla que el problema de las interrupciones afecta a decenas de países en múltiples continentes, con incidencias altamente concentradas. 
-
+El estudio revisó incidentes en 61 países de cinco continentes, lo que refleja la magnitud global del problema. Se detalla que el problema de las interrupciones afecta a decenas de naciones, con incidencias altamente concentradas.
+ 
 Entre los hallazgos principales destacan:
 
 - **Duración asimétrica:** El 70.8% de los incidentes registrados a nivel mundial duraron un día o menos, y el 95.4% terminaron en un plazo de 30 días. Sin embargo, los bloqueos de contenido y servicios persisten durante años, alcanzando lapsos superiores a los 900 días en sus casos más prolongados, como los observados en China, Rusia o Myanmar.
