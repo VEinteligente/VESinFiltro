@@ -5,9 +5,9 @@ excerpt: "La sociedad civil venezolana exige desmontar el aparato de censura: un
 permalink: /noticias/2026-09-01-ManifiestoLibertadExpresión/
 date:   2026-09-01 05:30:00 -0400
 categories: report
-image: /res/post_img/2026-08-12-isoc.jpg
+image: /res/post_img/2026-09-01/libertadExpresion .jpg
 ---
-<p class="cover"><img class="" src="/res/post_img/2026-08-12-isoc.jpg"></p>
+<p class="cover"><img class="" src="/res/post_img/2026-09-01/libertadExpresion .jpg"></p>
 # NOTA DE PRENSA
 
 ## Manifiesto por la Libertad de Expresión: Medios, periodistas y ONG exigen desmontar el aparato de censura en Venezuela
@@ -33,3 +33,10 @@ El manifiesto también reclama que los medios de comunicación públicos, especi
 > "Recuperar la libertad de expresión es un paso fundamental para reconstruir nuestra democracia", sostiene el manifiesto, que llama a la ciudadanía, periodistas, organizaciones y actores democráticos dentro y fuera de Venezuela a sumar su respaldo.
 
 El **Manifiesto por la Libertad de Expresión en Venezuela** busca así establecer un marco para una discusión que no se puede seguir postergando y "qué debe cambiar para que ningún venezolano vuelva a tener que elegir entre callar o enfrentar las consecuencias de ejercer su derecho a expresarse libremente".
+
+<iframe
+  src="/res/post_img/2026-09-01/Manifiestorestituciónlibertadexpresion.pdf"
+  width="100%"
+  height="800px"
+  style="border: none;">
+</iframe>
