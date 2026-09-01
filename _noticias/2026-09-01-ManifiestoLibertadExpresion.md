@@ -9,8 +9,6 @@ image: /res/post_img/2026-09-01/libertadExpresion .jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-01/libertadExpresion .jpg"></p>
 
-## Manifiesto por la Libertad de Expresión: Medios, periodistas y ONG exigen desmontar el aparato de censura en Venezuela
-
 **El Manifiesto, respaldado por medios, periodistas, ONG's, comunicadores y artistas, exige derogar el marco legal utilizado para criminalizar la disidencia, transformar CONATEL, liberar a las personas detenidas por expresar sus opiniones y levantar los bloqueos digitales.**
 
 ---
