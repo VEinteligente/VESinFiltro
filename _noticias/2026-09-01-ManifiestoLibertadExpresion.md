@@ -31,7 +31,7 @@ El manifiesto también reclama que los medios de comunicación públicos, especi
 
 El **Manifiesto por la Libertad de Expresión en Venezuela** busca así establecer un marco para una discusión que no se puede seguir postergando y **"qué debe cambiar para que ningún venezolano vuelva a tener que elegir entre callar o enfrentar las consecuencias de ejercer su derecho a expresarse libremente"**.
 
-Lee el manifiesto completo, con el listado de medios, organizaciones y firmantes, aquí:
+Lee el manifiesto completo, con el listado de medios, organizaciones y firmantes, [aquí](/res/post_img/2026-09-01/Manifiestorestituciónlibertadexpresion.pdf):
 
 <iframe
   src="/res/post_img/2026-09-01/Manifiestorestituciónlibertadexpresion.pdf"
