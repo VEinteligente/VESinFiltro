@@ -8,7 +8,6 @@ categories: report
 image: /res/post_img/2026-09-01/libertadExpresion .jpg
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-01/libertadExpresion .jpg"></p>
-# NOTA DE PRENSA
 
 ## Manifiesto por la Libertad de Expresión: Medios, periodistas y ONG exigen desmontar el aparato de censura en Venezuela
 
