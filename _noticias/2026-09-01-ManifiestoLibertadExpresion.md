@@ -2,7 +2,7 @@
 layout: post
 title: "Manifiesto por la Libertad de Expresión: Medios, periodistas y ONG exigen desmontar el aparato de censura en Venezuela"
 excerpt: "La sociedad civil venezolana exige desmontar el aparato de censura: un nuevo manifiesto pide derogar leyes represivas, transformar CONATEL y liberar de inmediato la libertad de expresión en el país."
-permalink: /noticias/2026-09-01-ManifiestoLibertadExpresión/
+permalink: /noticias/2026-09-01-ManifiestoLibertadExpresion/
 date:   2026-09-01 05:30:00 -0400
 categories: report
 image: /res/post_img/2026-09-01/libertadExpresion .jpg
