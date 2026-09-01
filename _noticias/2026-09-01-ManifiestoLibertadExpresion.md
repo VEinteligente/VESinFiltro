@@ -29,7 +29,9 @@ El manifiesto también reclama que los medios de comunicación públicos, especi
 
 > "Recuperar la libertad de expresión es un paso fundamental para reconstruir nuestra democracia", sostiene el manifiesto, que llama a la ciudadanía, periodistas, organizaciones y actores democráticos dentro y fuera de Venezuela a sumar su respaldo.
 
-El **Manifiesto por la Libertad de Expresión en Venezuela** busca así establecer un marco para una discusión que no se puede seguir postergando y "qué debe cambiar para que ningún venezolano vuelva a tener que elegir entre callar o enfrentar las consecuencias de ejercer su derecho a expresarse libremente".
+El **Manifiesto por la Libertad de Expresión en Venezuela** busca así establecer un marco para una discusión que no se puede seguir postergando y **"qué debe cambiar para que ningún venezolano vuelva a tener que elegir entre callar o enfrentar las consecuencias de ejercer su derecho a expresarse libremente"**.
+
+Lee el manifiesto completo, con el listado de medios, organizaciones y firmantes, aquí:
 
 <iframe
   src="/res/post_img/2026-09-01/Manifiestorestituciónlibertadexpresion.pdf"
