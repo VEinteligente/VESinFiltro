@@ -9,7 +9,7 @@ image: /res/post_img/2026-09-21/cover.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-21/cover.png"></p>
 
-*** VEsinFiltro exige el levantamiento inmediato de las restricciones, la publicación de todas las órdenes de bloqueo y una reforma que impida a Conatel decidir administrativamente qué contenidos pueden verse en internet.***
+**VEsinFiltro exige el levantamiento inmediato de las restricciones, la publicación de todas las órdenes de bloqueo y una reforma que impida a Conatel decidir administrativamente qué contenidos pueden verse en internet.**
 
 ---
 
