@@ -7,7 +7,7 @@ date:   2026-09-25 08:30:00 -0400
 categories: report
 image: /res/post_img/2026-09-25/2026-09-25a.png
 ---
-<p class="cover"><img class="" src="/res/post_img/2026-09-25/2026-09-25a.png"></p>
+<p class="cover"><img class="" src="/res/post_img/2026-09-25/cover.png"></p>
 
 **Caracas (25-09-2026).-** VE sin Filtro valora positivamente que el acuerdo alcanzado en el segundo ciclo de la mesa de diálogo incorpore el levantamiento de bloqueos en internet como parte de los compromisos asumidos. La inclusión de este tema reconoce una restricción que durante años ha afectado el acceso a información, plataformas de comunicación, organizaciones de la sociedad civil y herramientas de privacidad en Venezuela.
 
