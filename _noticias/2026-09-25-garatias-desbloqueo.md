@@ -5,7 +5,7 @@ excerpt: "Tras el compromiso oficial de desbloquear plataformas web, VE sin Filt
 permalink: /noticias/2026-09-25-garatias-desbloqueo/
 date:   2026-09-25 08:30:00 -0400
 categories: report
-image: /res/post_img/2026-09-25/2026-09-25a.png
+image: /res/post_img/2026-09-26/2026-09-25a.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-21/cover.png"></p>
 
