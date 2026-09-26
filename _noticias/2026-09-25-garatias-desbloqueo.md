@@ -11,6 +11,10 @@ image: /res/post_img/2026-09-25/2026-09-25a.png
 
 **Caracas (25-09-2026).-** VE sin Filtro valora positivamente que el acuerdo alcanzado en el segundo ciclo de la mesa de diálogo incorpore el levantamiento de bloqueos en internet como parte de los compromisos asumidos. La inclusión de este tema reconoce una restricción que durante años ha afectado el acceso a información, plataformas de comunicación, organizaciones de la sociedad civil y herramientas de privacidad en Venezuela.
 
+<div style="text-align: center;">
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">🟢 Reporte preliminar: 25 de septiembre 7:30 pm<br><br>Desbloquearon hoy 47 dominios web en al menos un proveedor de internet.<br><br>13 en CANTV<br>15 en Movistar<br>26 en Digitel<br>28 en Inter<br>26 en NetUno<a href="https://t.co/EtXhUSVpgz">https://t.co/EtXhUSVpgz</a><br>Exigimos que <a href="https://x.com/hashtag/DesbloqueenATodos?src=hash&amp;ref_src=twsrc%5Etfw">#DesbloqueenATodos</a> <a href="https://t.co/BR4HMFd7hW">pic.twitter.com/BR4HMFd7hW</a></p>&mdash; VE sin Filtro (@vesinfiltro) <a href="https://x.com/vesinfiltro/status/2103654909539213640?ref_src=twsrc%5Etfw">September 26, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> 
+</div>
+
 Más temprano el Ministerio de Comunicación e Información emitió un comunicado a través del cual el Ejecutivo ordenó, inicialmente, el "desbloqueo inmediato de un conjunto de plataformas y portales web" y cuya instrucción reemplazó luego por el levantamiento de "medidas administrativas de un grupo de plataformas y portales web". Todo en concordancia con los aportes planteados por la mesa de diálogo.
 
 Ambos anuncios representan una oportunidad para corregir una política de restricciones que VE sin Filtro ha documentado técnicamente durante más de una década. Su cumplimiento, sin embargo, debe evaluarse a partir de resultados verificables y de las condiciones que se establezcan para evitar la imposición de nuevas restricciones arbitrarias.
