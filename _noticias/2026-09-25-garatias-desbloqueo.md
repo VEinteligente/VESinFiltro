@@ -19,9 +19,9 @@ Más temprano el Ministerio de Comunicación e Información emitió un comunicad
 
 Ambos anuncios representan una oportunidad para corregir una política de restricciones que VE sin Filtro ha documentado técnicamente durante más de una década. Su cumplimiento, sin embargo, debe evaluarse a partir de resultados verificables y de las condiciones que se establezcan para evitar la imposición de nuevas restricciones arbitrarias.
 
-Desde estos anuncios, hemos [registrado el desbloqueo](https://bloqueos.vesinfiltro.org/) de **66 dominios**, en al menos un proveedor de internet; 50 de ellos correspondientes a medios de comunicación (actualizado 2026-09-26 11am VET). Estos cambios son comprobables y constituyen avances concretos. También hemos constatado que **177 dominios permanecen bloqueados** y que las restricciones pueden variar según el proveedor de internet y la técnica utilizada.
+Desde estos anuncios, hemos [registrado el desbloqueo](https://bloqueos.vesinfiltro.org/) de **66 dominios**, en al menos un proveedor de internet; 50 de ellos correspondientes a medios de comunicación (actualizado 2026-09-26 11am VET). Estos cambios son comprobables y constituyen avances concretos. También hemos constatado que **144 dominios permanecen bloqueados** y que las restricciones pueden variar según el proveedor de internet y la técnica utilizada.
 
-**Estos datos pueden ser consultados en [bloqueos.vesinfiltro.org/](https://bloqueos.vesinfiltro.org/), donde se irán actualizando los datos mientras sean confirmados técnicamente.**
+**Estos datos pueden ser consultados en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/), donde se irán actualizando en la medida en que puedan confirmarse técnicamente.**
 
 Por ello, la ejecución del acuerdo debe conducir al levantamiento general de los bloqueos administrativos actualmente vigentes. Esto debe incluir medios de comunicación y sitios informativos, organizaciones de derechos humanos y de la sociedad civil, redes sociales, servicios de mensajería, herramientas de privacidad y evasión de censura, servidores DNS públicos y cualquier otro servicio cuyo acceso haya sido restringido arbitrariamente.
 
