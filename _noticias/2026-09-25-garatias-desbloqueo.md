@@ -15,7 +15,7 @@ Más temprano el Ministerio de Comunicación e Información emitió un comunicad
 
 Ambos anuncios representan una oportunidad para corregir una política de restricciones que VE sin Filtro ha documentado técnicamente durante más de una década. Su cumplimiento, sin embargo, debe evaluarse a partir de resultados verificables y de las condiciones que se establezcan para evitar la imposición de nuevas restricciones arbitrarias.
 
-En las últimas semanas hemos registrado el desbloqueo de **18 dominios**, 15 de ellos correspondientes a medios de comunicación. Estos cambios son comprobables y constituyen avances concretos. También hemos constatado que **177 dominios permanecen bloqueados** y que las restricciones pueden variar según el proveedor de internet y la técnica utilizada.
+En las últimas semanas hemos [registrado el desbloqueo](https://bloqueos.vesinfiltro.org/) de **18 dominios**, 15 de ellos correspondientes a medios de comunicación. Estos cambios son comprobables y constituyen avances concretos. También hemos constatado que **177 dominios permanecen bloqueados** y que las restricciones pueden variar según el proveedor de internet y la técnica utilizada.
 
 Por ello, la ejecución del acuerdo debe conducir al levantamiento general de los bloqueos administrativos actualmente vigentes. Esto debe incluir medios de comunicación y sitios informativos, organizaciones de derechos humanos y de la sociedad civil, redes sociales, servicios de mensajería, herramientas de privacidad y evasión de censura, servidores DNS públicos y cualquier otro servicio cuyo acceso haya sido restringido arbitrariamente.
 
