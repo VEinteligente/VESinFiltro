@@ -281,3 +281,86 @@ table.blocklist tfoot .social {
   font-size: 13px;
 	font-weight: 200;
 }
+
+
+/* BLOCKING TABLES IN POSTS
+   Same tag colours and table look as bloqueos.vesinfiltro.org (light theme).
+   Use: wrap a markdown table in <div class="table-responsive" markdown="1">,
+   add {: .vsf-table} under it, and write the cells as <span class="tag tag-dns">DNS</span>. */
+article.post-content .tag {
+	font-family: 'DM Mono', 'Courier New', monospace;
+	font-size: 0.74em;
+	font-weight: 500;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+	letter-spacing: 0.02em;
+	display: inline-block;
+	white-space: nowrap;
+	line-height: 1.2;
+}
+article.post-content .tag-http { background: oklch(95% 0.060 22);  color: oklch(44% 0.22 22); }
+article.post-content .tag-ip   { background: oklch(95% 0.055 52);  color: oklch(48% 0.18 52); }
+article.post-content .tag-dns  { background: oklch(95% 0.055 82);  color: oklch(46% 0.14 82); }
+article.post-content .tag-ok   { background: oklch(94% 0.045 250); color: oklch(44% 0.14 250); }
+article.post-content .tag-unblocked { background: oklch(94% 0.055 148); color: oklch(38% 0.15 148); }
+article.post-content .tag-unblocked-25 { outline: 1px dashed oklch(38% 0.15 148 / 0.55); outline-offset: -1px; }
+article.post-content .tag-nd   { background: transparent; color: oklch(58% 0.005 20); padding-left: 0; padding-right: 0; }
+
+/* Always scroll sideways rather than overflow the page (Bootstrap only does it below 768px). */
+article.post-content .table-responsive { overflow-x: auto; margin-bottom: 8px; border: 0; }
+article.post-content table.vsf-table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 0.85em;
+	margin-bottom: 8px;
+}
+article.post-content table.vsf-table thead th {
+	background: #1A1C1F;
+	color: #fff;
+	font-weight: 600;
+	font-size: 0.66em;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+	padding: 0.7em 0.35em;
+	text-align: center;
+	white-space: nowrap;
+}
+article.post-content table.vsf-table thead th:nth-child(-n+2) { text-align: left; padding-left: 0.9em; }
+article.post-content table.vsf-table td {
+	padding: 0.4em 0.25em;
+	text-align: center;
+	border-bottom: 1px solid oklch(92% 0.004 250);
+	border-right: 1px solid oklch(92% 0.004 250);
+	vertical-align: middle;
+}
+article.post-content table.vsf-table td:nth-child(-n+2) { text-align: left; padding-left: 0.9em; }
+article.post-content table.vsf-table td:nth-child(1) { font-weight: 600; min-width: 110px; }
+article.post-content table.vsf-table td:nth-child(2) { font-family: 'DM Mono', 'Courier New', monospace; font-size: 0.88em; white-space: nowrap; }
+article.post-content table.vsf-table tbody tr:hover { background: #f4f5f7; }
+/* The summary table has numbers, not domains. */
+article.post-content table.vsf-table.vsf-numbers td:nth-child(2) { font-family: inherit; font-size: inherit; text-align: center; }
+article.post-content table.vsf-table.vsf-numbers td:nth-child(1) { white-space: normal; }
+
+/* Legend under a table: set apart from the main text. */
+article.post-content blockquote.vsf-legend {
+	font-size: 0.9em;
+	font-style: italic;
+	color: #55595e;
+	border-left: 3px solid #d9dbde;
+	padding: 4px 0 4px 16px;
+	margin: 12px 0 30px;
+}
+article.post-content blockquote.vsf-legend p { font-size: 1em; margin-bottom: 8px; }
+article.post-content blockquote.vsf-legend .tag { font-style: normal; }
+
+/* Category sub-heading row in the full list. */
+article.post-content table.vsf-table tr.vsf-cat th {
+	background: #e6e8eb;
+	color: #1A1C1F;
+	text-align: left;
+	font-size: 0.78em;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	padding: 0.65em 0.9em;
+	border-top: 2px solid #1A1C1F;
+}
