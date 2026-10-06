@@ -1,29 +1,32 @@
 ---
 layout: post
-title: "Tres semanas después de los primeros desbloqueos, 143 dominios siguen bloqueados en Venezuela y algunos ya se revirtieron"
+title: "Reporte: desbloqueos de septiembre: 143 dominios y 24 sitios de noticias siguen bloqueados en Venezuela"
 excerpt: "Entre las dos olas de desbloqueos, el 16 de septiembre y desde el 25, 71 dominios dejaron de estar bloqueados en al menos un proveedor, pero solo 36 son accesibles en todos. Noticias, política y herramientas anticensura concentran los bloqueos que permanecen."
 permalink: /noticias/2026-10-06-reporte-desbloqueos/
-date:   2026-10-06 08:00:00 -0400
+date:   2026-10-06 12:00:00 -0400
 categories: report
-image: /res/post_img/2026-10-06/2026-10-06a.png
+image: /res/post_img/2026-10-06/2026-10-06.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-10-06/cover.png"></p>
 
-**Caracas (06-10-2026).-** Tres semanas después de los primeros desbloqueos y once días después de los anuncios oficiales sobre el levantamiento de bloqueos, queda claro que solo se quiso desbloquear algunos sitios. De 200 dominios bloqueados en Venezuela a principios de septiembre, **solo 36 de ellos fueron desbloqueados en todos los proveedores que medimos**, y 71 han dejado de estar bloqueados en al menos uno de ellos. **143 dominios siguen bloqueados.**
+**Caracas (06-10-2026).-** Tres semanas después de los primeros desbloqueos y luego de once días de los anuncios oficiales sobre el levantamiento de bloqueos a portales web, queda claro que solo se quiso desbloquear algunos sitios. De 200 dominios bloqueados en Venezuela a principios de septiembre, **solo 36 de ellos fueron desbloqueados en todos los proveedores que medimos**, y 71 han dejado de estar bloqueados en al menos uno de ellos. **143 dominios siguen bloqueados.**
 
-En Venezuela, la censura en internet sigue siendo política de Estado, y el que se mantengan bloqueados sitios de noticias, de crítica política y de herramientas para evadir la censura es evidencia de ello.
+En Venezuela, la censura en internet sigue siendo política de Estado, y el que se mantengan bloqueados sitios de noticias, de crítica política y de herramientas para evadir la censura es evidencia de ello. Los recientes desbloqueos han sido un paso significativo, pero insuficiente, en el camino hacia el restablecimiento de las libertad de expresión, información y asociación e internet.
+
+Es necesario seguir exigiendo el fin de todos los bloqueos arbitrarios, transparencia de las órdenes emitidas en los últimos años y garantías de que las autoridades no volverán a  aplicar bloqueos arbitrarios de nuevo.
+Mientras persista la política de censura y no haya garantías, no habrá libertad de expresión, información, ni de asociación; incluso si llegan a desbloquear todos los sitios web. La falta de garantías, y la evidente decisión de mantener gran cantidad de bloqueos tiene resultado que los venezolanos no pueden hacer uso libre del internet, i que en cualquier momento los medios que leen, sus proyectos o iniciativas pueden ser bloqueados según la conveniencia de las autoridades.
 
 ## Cómo comenzaron los desbloqueos
 
-La noche del 16 de septiembre, CANTV comenzó a levantar bloqueos contra sitios de noticias alrededor de las 10:00 pm, de forma aparentemente simultánea a un comunicado del Programa para la Paz y la Convivencia Democrática, en el que afirma haber "recomendado a la Presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, medidas que favorezcan la libre expresión en el marco del respeto y la responsabilidad, tales como eliminar restricciones contra dominios de medios de comunicación y promover la libre expresión en un clima de encuentro entre venezolanos". En las horas siguientes, los demás proveedores de internet aplicaron desbloqueos que coincidieron, en general, con los de CANTV.
+La noche del 16 de septiembre, CANTV levantó los primeros bloqueos contra sitios de noticias alrededor de las 10:00 pm, de forma aparentemente simultánea a un comunicado del Programa para la Paz y la Convivencia Democrática, en el que afirma haber "recomendado a la Presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, medidas que favorezcan la libre expresión en el marco del respeto y la responsabilidad, tales como eliminar restricciones contra dominios de medios de comunicación y promover la libre expresión en un clima de encuentro entre venezolanos". En las horas siguientes, los demás proveedores de internet aplicaron desbloqueos que coincidieron, en general, con los de CANTV.
 
-En una nota publicada ese mismo día en el sitio web de CONATEL, difundida en redes sociales pero difícil de encontrar navegando por el sitio, el regulador reconoció implícitamente que los bloqueos existían y que la responsabilidad era suya: "En cumplimiento de las instrucciones emanadas por la Presidenta de la República Bolivariana de Venezuela, la Comisión Nacional de Telecomunicaciones (CONATEL) informa a la colectividad nacional sobre el restablecimiento formal del acceso a diversas plataformas y medios de comunicación digitales nacionales e internacionales". Esta nota, sin precedentes, dejó en evidencia que la presidencia puede decidir qué se bloquea y qué no, pese a que CONATEL es, al menos en papel, un órgano formalmente autónomo.
+En una nota publicada ese mismo día en el sitio web de CONATEL, difundida en sus redes sociales, el regulador reconoció implícitamente que los bloqueos existían y que la responsabilidad era suya: "En cumplimiento de las instrucciones emanadas por la Presidenta de la República Bolivariana de Venezuela, la Comisión Nacional de Telecomunicaciones (CONATEL) informa a la colectividad nacional sobre el restablecimiento formal del acceso a diversas plataformas y medios de comunicación digitales nacionales e internacionales". Esta nota, sin precedentes, dejó en evidencia que la presidencia puede decidir qué se bloquea y qué no, pese a que CONATEL es, al menos en papel, un órgano formalmente autónomo.
 
-En nuestro registro actual, 17 dominios de 14 sitios fueron desbloqueados a partir del 16 de septiembre, antes de la siguiente ola de desbloqueos.
+En nuestro registro, 17 dominios de 14 sitios fueron desbloqueados a partir del 16 de septiembre y antes de la siguiente ola de desbloqueos.
 
 El 25 de septiembre, al cierre de un ciclo de negociaciones políticas entre el gobierno de Delcy Rodríguez y la oposición, se desbloquearon sitios adicionales.
 
-Los desbloqueos comenzaron poco antes de los anuncios oficiales, incluso antes de la primera versión del comunicado que mencionaba abiertamente los bloqueos, antes de que lo borraran para publicarlo de nuevo llamándolos "medidas administrativas". Esto sugiere que las órdenes se emitieron antes de los comunicados. La mayoría de los desbloqueos tardaron más de un día en completarse, pero vimos cambios varios días después.
+Los desbloqueos comenzaron poco antes de los anuncios oficiales. Antes de que se publicara la primera versión del comunicado que hablaba explícitamente de los bloqueos y que luego fue eliminada y sustituida por otra en la que se les denominó “medidas administrativas”. Esto sugiere que las órdenes para levantar las restricciones se habían emitido previamente. Aunque la mayoría de los desbloqueos tardó poco más de un día en completarse, seguimos observando cambios durante posteriormente.
 
 Identificamos 54 dominios (de 49 sitios) que fueron desbloqueados en al menos un ISP desde el 25 de septiembre, pero de los cuales 26 siguen bloqueados en algún otro proveedor.
 
@@ -83,7 +86,7 @@ Por otro lado, 21 de los 54 dominios desbloqueados desde el 25 de septiembre no 
 | Desbloqueados desde el 25-09 (segunda ola) | 54 | 49 | 19 | 26 | 9 |
 | **Total** | **71** | **63** | **36** | **26** | **9** |
 
-Los bloqueos también tienen edades muy distintas, según nuestra fecha de primera detección. De los 17 dominios de la primera ola, 13 llevaban más de cinco años bloqueados, desde 2018 hasta 2021, y El Pitazo, bloqueado desde enero de 2018, casi nueve. La segunda ola incluye bloqueos más recientes, como los de IPYS Venezuela, Espacio Público, Medianálisis, VEsinFiltro·com y Tal Cual, de julio de 2024, pero también muy antiguos: Reddit llevaba más de siete años bloqueado, desde febrero de 2019, y VPITV, bloqueado desde abril de 2017, solo se ha desbloqueado en Airtek. Entre los bloqueos que siguen activos, el más antiguo es el de DolarToday, desde enero de 2016, hace casi once años. De los 83 dominios bloqueados que tienen fecha de inicio registrada, 41 llevan más de cinco años bloqueados, y 23 de los 30 dominios de VPN bloqueados lo están desde enero de 2025.
+Los bloqueos también tienen antigüedades muy distintas, según nuestra fecha de primera detección. De los 17 dominios de la primera ola, 13 llevaban más de cinco años bloqueados, desde 2018 hasta 2021, y El Pitazo, bloqueado desde enero de 2018, casi nueve. La segunda ola incluye bloqueos más recientes, como los de IPYS Venezuela, Espacio Público, Medianálisis, VEsinFiltro·com y Tal Cual, todos de julio de 2024, pero también muy antiguos como Reddit, que permaneció bloqueado en Movistar años después de ser liberado por los demás ISP, y VPITV, bloqueado desde abril de 2017, que solo se ha desbloqueado en Airtek. 
 
 ## Lo que sigue bloqueado
 
@@ -93,6 +96,8 @@ Hay 143 dominios bloqueados en al menos un ISP, pertenecientes a 101 sitios web 
 
 La censura contra sitios políticos críticos al gobierno y contra herramientas anticensura sigue casi sin cambios: 30 dominios de anticensura y VPN, 23 de comercio, 17 políticos, 9 de pornografía, 7 de derechos humanos y 7 de economía, además de 3 de otras categorías.
 
+Entre los bloqueos que siguen activos, el más antiguo es el de DolarToday, desde enero de 2016, hace casi once años, a pesar de que el sitio web cerró. De los 83 dominios bloqueados que tienen fecha de inicio registrada, 41 llevan más de cinco años bloqueados, y 23 de los 30 dominios de VPN bloqueados lo están desde enero de 2025.
+
 ### Noticias
 
 Luego de más de tres semanas, es evidente que no hay intención de desbloquear a **ArmandoInfo** (bloqueado desde octubre de 2020); **El Nacional** (2018); **La Patilla** (2021); **NTN24** (2019); **Infobae** (2018), ni **PBS** (2026).
@@ -101,80 +106,88 @@ Tampoco a VPITV, bloqueado desde abril de 2017 (más de nueve años) y que solo 
 
 ### Sitios de noticias: estado en cada proveedor
 
-Esta tabla reúne los 68 dominios de sitios de noticias (54 sitios) que siguen activos o que fueron desbloqueados, con las mismas marcas de nuestra lista.
+Esta tabla reúne los 68 dominios de sitios de noticias (54 sitios) que siguen activos o que fueron desbloqueados, con las mismas marcas de nuestra lista. [V13]
 
-| Sitio | Dominio | Desde | CANTV | Movistar | Digitel | Inter | NetUno | Airtek | Thundernet |
-|---|---|---|---|---|---|---|---|---|---|
-| Al Navío | alnavio.com | 2021-01 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
-| Alberto News | albertonews.com | 2020-04 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| Alek Boyd | alekboyd.blogspot.co.uk | 2018-04 | DNS | DNS + HTTP/HTTPS | DNS | ok | DNS | ok | ND |
-|  | alekboyd.blogspot.com | 2021-01 | ok | DNS | DNS | ok | DNS | ok | ok |
-| Analítica | www.analitica.com | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-| Aporrea | www.aporrea.org | — | ok | \*desbloq. | ok | ok | ok | \*desbloq. | \*desbloq. |
-| ArmandoInfo | armando.info | 2020-10 | DNS | DNS | DNS | DNS | DNS | HTTP/HTTPS | ok |
-| Caraota Digital | caraotadigital.xyz | 2021-06 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
-|  | www.caraotadigital.net | 2021-02 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| Cazadores de Fake News | cazadoresdefakenews.info | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
-| CronicaUno | cronica.uno | 2020-02 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
-| Diario 2001 | www.2001.com.ve | 2019-03 | ok | ok | ok | ok | ok | DNS | ok |
-| Diario La Región | diariolaregion.net | 2020-12 | \*desbloq. | \*desbloq. | ok | \*desbloq. | \*desbloq. | ok | ok |
-| EFE | efe.com | 2025-05 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| Efecto Cocuyo | efectococuyo.com | 2020-02 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| El Carabobeño | www.el-carabobeno.com | 2023-11 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| El Estímulo | elestimulo.com | 2024-07 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| El Nacional | elnacional.com | — | DNS | ND | ND | ND | ND | ND | ND |
-|  | www.el-nacional.com | 2022-02 | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
-|  | www.elnacional.com | 2022-02 | DNS | DNS | DNS | DNS | DNS | ok | ND |
-| El Pitazo | elpitazo.com | 2018-01 | desbloq. | desbloq. | desbloq. | ok | desbloq. | ok | desbloq. |
-|  | elpitazo.info | 2018-01 | desbloq. | desbloq. | desbloq. | ok | desbloq. | ok | ok |
-|  | elpitazo.net | 2018-01 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| El Político | elpolitico.com | 2024-03 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
-| El Tiempo | www.eltiempo.com | 2019-02 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
-| Es Paja | www.espaja.com | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
-| EVTV | evtv.online | 2020-02 | DNS | DNS | DNS | DNS | DNS | ok | DNS |
-| Foco Informativo | focoinformativo.com | 2023-04 | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
-| Impacto Venezuela | impactovenezuela.com | 2024-03 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-| Infobae | infob.ae | 2020-10 | ok | ok | ok | ok | ok | ok | DNS |
-|  | www.infobae.com | 2018-07 | DNS | DNS | DNS | DNS | DNS | DNS | DNS |
-|  | www.infobae.media | 2019-02 | ok | ok | ok | ok | ok | ok | ND |
-| La Gran Aldea | www.lagranaldea.com | 2024-05 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
-| La Manada Digital | lamananadigital.com | 2021-10 | \*desbloq. | ok | ok | ok | ok | ok | ok |
-| La Patilla | lapatilla.com | 2021-03 | DNS | DNS | DNS | DNS | DNS | HTTP/HTTPS | DNS |
-| La Prensa Lara | www.laprensalara.com.ve | 2024-07 | ok | ok | ok | ok | ok | HTTP/HTTPS | ok |
-| La República | larepublica.pe | 2024-08 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | \*desbloq. |
-| Maduradas | maduradas.com | 2018-06 | DNS | DNS | DNS | ok | DNS | HTTP/HTTPS | ND |
-|  | www.maduradas.com | 2020-07 | DNS | DNS | DNS | DNS | DNS | DNS + HTTP/HTTPS | ok |
-| Minuto 30 | minuto30.com | 2018-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-|  | www.minuto30.com | 2018-08 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-| Monitoreamos | monitoreamos.com | 2020-09 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
-| Noticia Al Día | noticiaaldia.com | 2018-03 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
-|  | noticialdia.com | 2020-01 | \*desbloq. | \*desbloq. | DNS | \*desbloq. | \*desbloq. | ok | ok |
-| Noticia y Punto | noticiaypunto.com | 2022-12 | \*desbloq. | HTTP/HTTPS | DNS | DNS | DNS | ok | DNS |
-| Noticias·com | noticias.com | 2018-07 | \*desbloq. | HTTP/HTTPS | DNS | DNS | DNS | ok | ok |
-| Noticiero Digital | www.noticierodigital.com | 2020-07 | desbloq. | ok | ok | ok | ok | ok | ok |
-| Noticiero Venevisión | noticiasvenevision.com | — | ok | ok | ok | ok | ok | ok | ok |
-|  | www.noticierovenevision.net | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
-| NTN24 | www.ntn24.com | 2019-12 | DNS | DNS | DNS | DNS | DNS | DNS | ND |
-| Observatorio Venezolano de Fake News | fakenewsvenezuela.org | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ND |
-| Opinión y Noticias | www.opinionynoticias.com | 2021-11 | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
-| Primer Informe | primerinforme.com | 2022-02 | DNS | \*desbloq. | DNS | DNS | DNS | ok | ok |
-| Public Broadcasting Service (PBS) | www.pbs.org | — | ok | HTTP/HTTPS | DNS | DNS | DNS | HTTP/HTTPS | ok |
-| Punto de Corte | puntodecorte.com | 2020-02 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-|  | puntodecorte.net | — | \*desbloq. | DNS | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
-| Radio Fe y Alegría | www.radiofeyalegrianoticias.com | 2023-05 | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
-| Runrunes | runrun.es | 2020-05 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| Semana | www.semana.com | 2024-03 | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
-| Servicio de Información Pública | serviciodeinformacionpublica.com | 2024-11 | \*desbloq. | ok | ok | ok | ok | ok | ND |
-| Su Noticiero | sunoticiero.com | 2020-05 | DNS | DNS + HTTP/HTTPS | \*desbloq. | DNS | ok | ok | ok |
-| Tal Cual | www.talcualdigital.com | 2024-07 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
-| The Wall Street Journal | www.wsj.com | 2024-08 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | DNS | \*desbloq. | ND |
-| TV Venezuela | www.tvvenezuela.tv | 2020-02 | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | HTTP/HTTPS | ok |
-| Vivo Play | vivoplay.net | 2017-09 | ok | \*desbloq. | \*desbloq. | ok | \*desbloq. | ok | ok |
-| Voz de América | www.voanoticias.com | 2023-05 | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
-| VPITV | vpitv.com | 2017-04 | DNS | HTTP/HTTPS | DNS | DNS | DNS | \*desbloq. | DNS |
-|  | www.vpitv.com | 2017-04 | DNS | HTTP/HTTPS | DNS | DNS | DNS | \*desbloq. | DNS |
+| Sitio | Dominio | CANTV | Movistar | Digitel | Inter | NetUno | Airtek | Thundernet |
+|---|---|---|---|---|---|---|---|---|
+| Al Navío | alnavio.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
+| Alberto News | albertonews.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| Alek Boyd | alekboyd.blogspot.co.uk | DNS | DNS + HTTP/HTTPS | DNS | ok | DNS | ok | ND |
+|  | alekboyd.blogspot.com | ok | DNS | DNS | ok | DNS | ok | ok |
+| Analítica | www.analitica.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+| Aporrea | www.aporrea.org | ok | \*desbloq. | ok | ok | ok | \*desbloq. | \*desbloq. |
+| ArmandoInfo | armando.info | DNS | DNS | DNS | DNS | DNS | HTTP/HTTPS | ok |
+| Caraota Digital | caraotadigital.news | ok | DNS | ok | \*desbloq. | \*desbloq. | ok | ok |
+|  | caraotadigital.xyz | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
+|  | www.caraotadigital.net | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| Cazadores de Fake News | cazadoresdefakenews.info | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
+| CronicaUno | cronica.uno | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
+| Diario 2001 | www.2001.com.ve | ok | ok | ok | ok | ok | DNS | ok |
+| Diario La Región | diariolaregion.net | \*desbloq. | \*desbloq. | ok | \*desbloq. | \*desbloq. | ok | ok |
+| Dolar Today | bit.ly/venezuela911 | ok | HTTP | ok | ok | ok | ok | ND |
+|  | dolartoday.com | DNS | DNS | DNS | DNS | DNS | ok | TCP IP |
+|  | dolartoday.info | DNS | DNS | DNS | DNS | DNS | ok | HTTPS |
+|  | dolartoday.org | DNS | DNS | DNS | DNS | DNS | ok | ok |
+| dollar.nu | dollar.nu | DNS | DNS | DNS | DNS | DNS | ok | ok |
+| EFE | efe.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| Efecto Cocuyo | efectococuyo.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| El Carabobeño | www.el-carabobeno.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| El Estímulo | elestimulo.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| El Liberal Venezolano | liberal-venezolano.blogspot.com | DNS | DNS | DNS | DNS | DNS | ok | ok |
+| El Nacional | elnacional.com | DNS | ND | ND | ND | ND | ND | ND |
+|  | www.el-nacional.com | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
+|  | www.elnacional.com | DNS | DNS | DNS | DNS | DNS | ok | ND |
+| El Pitazo | elpitazo.com | desbloq. | desbloq. | desbloq. | ok | desbloq. | ok | desbloq. |
+|  | elpitazo.info | desbloq. | desbloq. | desbloq. | ok | desbloq. | ok | ok |
+|  | elpitazo.net | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| El Político | elpolitico.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
+| El Tiempo | www.eltiempo.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
+| Es Paja | www.espaja.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
+| EVTV | evtv.online | DNS | DNS | DNS | DNS | DNS | ok | DNS |
+| Foco Informativo | focoinformativo.com | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
+| Impacto Venezuela | impactovenezuela.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+| Infobae | infob.ae | ok | ok | ok | ok | ok | ok | DNS |
+|  | www.infobae.com | DNS | DNS | DNS | DNS | DNS | DNS | DNS |
+|  | www.infobae.media | ok | ok | ok | ok | ok | ok | ND |
+| La Gran Aldea | www.lagranaldea.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
+| La Manada Digital | lamananadigital.com | \*desbloq. | ok | ok | ok | ok | ok | ok |
+| La Patilla | lapatilla.com | DNS | DNS | DNS | DNS | DNS | HTTP/HTTPS | DNS |
+| La Prensa Lara | www.laprensalara.com.ve | ok | ok | ok | ok | ok | HTTP/HTTPS | ok |
+| La República | larepublica.pe | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | \*desbloq. |
+| Maduradas | maduradas.com | DNS | DNS | DNS | ok | DNS | HTTP/HTTPS | ND |
+|  | www.maduradas.com | DNS | DNS | DNS | DNS | DNS | DNS + HTTP/HTTPS | ok |
+| Minuto 30 | minuto30.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+|  | www.minuto30.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+| Monitoreamos | monitoreamos.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | ok |
+| Noticia Al Día | noticiaaldia.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
+|  | noticialdia.com | \*desbloq. | \*desbloq. | DNS | \*desbloq. | \*desbloq. | ok | ok |
+| Noticia y Punto | noticiaypunto.com | \*desbloq. | HTTP/HTTPS | DNS | DNS | DNS | ok | DNS |
+| Noticias·com | noticias.com | \*desbloq. | HTTP/HTTPS | DNS | DNS | DNS | ok | ok |
+| Noticiero Digital | www.noticierodigital.com | desbloq. | ok | ok | ok | ok | ok | ok |
+| Noticiero Venevisión | noticiasvenevision.com | ok | ok | ok | ok | ok | ok | ok |
+|  | www.noticierovenevision.net | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok |
+| NTN24 | www.ntn24.com | DNS | DNS | DNS | DNS | DNS | DNS | ND |
+| Observatorio Venezolano de Fake News | fakenewsvenezuela.org | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ND |
+| Opinión y Noticias | www.opinionynoticias.com | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
+| Primer Informe | primerinforme.com | DNS | \*desbloq. | DNS | DNS | DNS | ok | ok |
+| Public Broadcasting Service (PBS) | www.pbs.org | ok | HTTP/HTTPS | DNS | DNS | DNS | HTTP/HTTPS | ok |
+| Punto de Corte | puntodecorte.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+|  | puntodecorte.net | \*desbloq. | DNS | \*desbloq. | \*desbloq. | \*desbloq. | ok | ok |
+| Radio Fe y Alegría | www.radiofeyalegrianoticias.com | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
+| Runrunes | runrun.es | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| Semana | www.semana.com | desbloq. | desbloq. | desbloq. | desbloq. | desbloq. | ok | desbloq. |
+| Servicio de Información Pública | serviciodeinformacionpublica.com | \*desbloq. | ok | ok | ok | ok | ok | ND |
+| Su Noticiero | sunoticiero.com | DNS | DNS + HTTP/HTTPS | \*desbloq. | DNS | ok | ok | ok |
+| Tal Cual | www.talcualdigital.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | ok | ND |
+| The Wall Street Journal | www.wsj.com | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | DNS | \*desbloq. | ND |
+| TV Venezuela | www.tvvenezuela.tv | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | \*desbloq. | HTTP/HTTPS | ok |
+| Vivo Play | vivoplay.net | ok | \*desbloq. | \*desbloq. | ok | \*desbloq. | ok | ok |
+| Voz de América | www.voanoticias.com | ok | HTTP/HTTPS | ok | ok | ok | ok | ok |
+| VPITV | vpitv.com | DNS | HTTP/HTTPS | DNS | DNS | DNS | \*desbloq. | DNS |
+|  | www.vpitv.com | DNS | HTTP/HTTPS | DNS | DNS | DNS | \*desbloq. | DNS |
 
-**Leyenda:** **DNS**, **HTTP**, **HTTPS** y **TCP IP** indican la técnica de bloqueo; **ok**, que no hay bloqueo; **ND**, que no tenemos datos; **desbloq.**, que el dominio se desbloqueó desde el 16 de septiembre; y **\*desbloq.**, desde el 25 de septiembre. **Desde** es la fecha (año y mes) en que detectamos por primera vez el bloqueo. La lista completa, con todas las categorías y filtros por proveedor, está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/), y la explicación de cada marca en [las preguntas frecuentes](https://bloqueos.vesinfiltro.org/faq).
+
+**Leyenda:** **DNS**, **HTTP**, **HTTPS** y **TCP IP** indican la técnica de bloqueo; **ok**, que no hay bloqueo; **ND**, que no tenemos datos; **desbloq.**, que el dominio se desbloqueó desde el 16 de septiembre; y **\*desbloq.**, desde el 25 de septiembre. **Desde** es la fecha (año y mes) en que detectamos por primera vez el bloqueo. La lista completa, con todas las categorías y filtros por proveedor, está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/), y la explicación de cada valor en [las preguntas frecuentes](https://bloqueos.vesinfiltro.org/faq).
 
 Entre los desbloqueos están importantes medios como Efecto Cocuyo, El Pitazo, Tal Cual, La Gran Aldea, Analítica, Runrunes, El Estímulo, Cazadores de Fake News, Impacto Venezuela, EFE, Semana y El Tiempo, entre otros.
 
@@ -184,7 +197,7 @@ Que solo algunos medios hayan sido desbloqueados representa una amenaza constant
 
 ### Derechos humanos
 
-Cuatro organizaciones ya no tienen bloqueo en ningún proveedor: IPYS Venezuela, Medianálisis, Espacio Público y nuestro propio VEsinFiltro·com. En el reporte #5 habíamos dicho cinco, pero el Observatorio Venezolano de Finanzas sigue bloqueado en Digitel y corregimos el dato. Change·org quedó desbloqueado en cinco proveedores, aunque nuestro registro lo mantiene bloqueado en Airtek.
+Cuatro organizaciones ya no tienen bloqueo en ningún proveedor: IPYS Venezuela, Medianálisis, Espacio Público y nuestro propio sitio VEsinFiltro·com. En el reporte #5 habíamos dicho cinco, pero el Observatorio Venezolano de Finanzas sigue bloqueado en Digitel y corregimos el dato. Change·org quedó desbloqueado en cinco proveedores, aunque nuestro registro lo mantiene bloqueado en Airtek.
 
 Siguen bloqueados Vendata y miconvive·com, y Acceso a la Justicia, solo en Airtek. También el dominio del proyecto salariodignovzla·com, a pesar de que la página ya no está en línea.
 
@@ -192,7 +205,7 @@ Siguen bloqueados Vendata y miconvive·com, y Acceso a la Justicia, solo en Airt
 
 Por fin podemos decir que Movistar ha desbloqueado Reddit, después de años de un bloqueo sin sentido que el Estado ni siquiera seguía pidiendo. CANTV desbloqueó t·co, parte importante de X. También quedó accesible Signal, la aplicación de mensajería, en todos los proveedores donde estaba bloqueada.
 
-Muchos se sorprenden al saber que SoundCloud y livestream·com estuvieron bloqueados hasta el 25 de septiembre. En cambio, Zello, la aplicación de comunicación por voz, sigue bloqueada en tres proveedores.
+Muchos se sorprenden al saber que SoundCloud y livestream·com estuvieron bloqueados hasta el 25 de septiembre. En cambio Zello, la aplicación de comunicación por voz, sigue bloqueada en tres proveedores.
 
 ### Política
 
@@ -208,9 +221,9 @@ Entre los 23 dominios de comercio hay varias direcciones de Airtm, FlujoTV y Mag
 
 ## Algunos detalles y cambios
 
-Los desbloqueos tampoco han sido definitivos. Movistar reactivó el bloqueo a Radio Fe y Alegría Noticias, que estaba en la lista y estuvo accesible alrededor de día y medio, y a PBS, que no estaba y estuvo accesible unos dos días. Después del reporte #5, otros dos sitios de noticias regresaron a la lista: Noticia y Punto, en Movistar, y Noticia al Día, en Digitel. Movistar además cambió muchos de sus bloqueos de DNS a HTTP/HTTPS el 25 de septiembre, y algunos dominios estuvieron disponibles muy brevemente antes de que el cambio se completara.
+No todos los desbloqueos ocurrieron al mismo tiempo, algunos cambios fueron observados días después del 25 de Septiembre.  Movistar reactivó el bloqueo a Radio Fe y Alegría Noticias, que estuvo accesible alrededor de día y medio, y a PBS, que estuvo accesible unos dos días. Movistar además cambió muchos de sus bloqueos de DNS a HTTP/HTTPS el 25 de septiembre, y algunos dominios adicionales estuvieron disponibles muy brevemente antes de que el cambio se completara.
 
-Y el desbloqueo es desigual entre proveedores. Airtek levantó 15 dominios que ningún otro proveedor ha desbloqueado, 11 de ellos herramientas de VPN y anticensura, y siguen censurados en el resto.
+Y el desbloqueo es desigual entre proveedores, de la lista filtrada hay dominios todavía bloqueados en algunos ISP, y otros dominios que no estaban en esa lista han sido desbloqueados por algunos ISP. Airtek levantó 15 dominios que ningún otro proveedor ha desbloqueado, 11 de ellos herramientas de VPN y anticensura, y siguen censurados en el resto.
 
 ## Qué sigue
 
@@ -222,6 +235,33 @@ En cada espacio que hemos podido, hemos estado allí protestando, presionando y 
 
 Seguiremos monitoreando los bloqueos y exigiendo el cese de las restricciones a la libertad de expresión en internet. Nuestra lista completa y actualizada está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/).
 
-Tú también puedes ayudarnos contribuyendo mediciones de OONI Probe: descarga la app e instala nuestra [lista de mediciones](https://run.ooni.org/v2/10375). VE sin Filtro ha producido y analizado, a través de sus sistemas, cientos de miles de mediciones de red, además de revisiones profundas e individuales de mediciones de OONI y revisiones ad hoc en los principales proveedores de internet. Más del 90 % de todas las mediciones de OONI en Venezuela durante este período, y el 98 % de las pertenecientes a estos dominios son atribuibles directamente a VE sin Filtro.
+Tú también puedes ayudarnos contribuyendo mediciones de OONI Probe: descarga la app e instala nuestra [lista de mediciones](https://run.ooni.org/v2/10375). VE sin Filtro ha producido y analizado, a través de sus sistemas, cientos de miles de mediciones de red, además de revisiones profundas e individuales de mediciones de OONI y revisiones ad hoc en los principales proveedores de internet. Más del 90 % de todas las mediciones de OONI en Venezuela durante este período, y el 98% de las pertenecientes a estos dominios son atribuibles directamente a VEsinFiltro.
 
-**#DesbloqueenATodos**
+## Qué recomendamos
+
+### A la comunidad internacional
+
+**No dar por cumplido el levantamiento de bloqueos.** Hay 143 dominios todavía bloqueados, solo 36 dominios fueron desbloqueados en todos los proveedores que medimos, y algunos desbloqueos ya se revirtieron. Aunque haya nuevos anuncios, recomendamos esperar la verificación independiente de la sociedad civil.
+
+**Exigir transparencia.** CONATEL debe publicar las órdenes dadas a los proveedores: fecha, autoridad, fundamento jurídico, proveedores notificados y duración. Los estándares interamericanos consideran el bloqueo de sitios web una medida extrema, que solo cabe con control judicial independiente y respetando los principios de legalidad, necesidad y proporcionalidad. Pedimos a las relatorías de libertad de expresión de la ONU y de la CIDH que den seguimiento al caso.
+
+**Exigir garantías y seguir monitoreando.** Antes de dar crédito a aparentes avances democráticos, que pueden revertirse, hay que exigir garantías de que no habrá bloqueos arbitrarios, incluso si la censura en internet disminuye. El libre acceso a noticias, a sitios políticos y de ONG, y a herramientas para evadir bloqueos es una condición fundamental para comenzar cualquier proceso electoral.
+
+**Incluir el acceso a internet en cualquier observación electoral.** Siguen bloqueados 17 dominios de sitios políticos, entre ellos el del partido Vente Venezuela y portales de resultados de las primarias de 2023 y de las elecciones de 2024, además de sitios de medios y de ONG. Las elecciones y los momentos de protesta son los períodos en que se ha concentrado la mayor cantidad de bloqueos.
+
+**Apoyar la medición independiente de la censura.** Sin mediciones continuas no habría sido posible detectar los desbloqueos parciales ni las reversiones.
+
+### A las personas, medios y organizaciones en Venezuela
+
+**Consulta la lista actualizada de VE sin Filtro.** La lista de bloqueos documentados por VE sin Filtro, con las actualizaciones más recientes, está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/). Evita anunciar cambios en la censura sin documentación técnica: que una página no abra una vez, o que un sitio bloqueado abra, no significa necesariamente que haya sido bloqueado o desbloqueado. En muchos casos, al probar desde distintas redes, la combinación de métodos de bloqueo hace posible abrir páginas bloqueadas. Si tienes dudas o crees que algo cambió, escríbenos en X a [@vesinfiltro](https://x.com/vesinfiltro) o al correo vesinfiltro@conexionsegura.org. 
+
+**Mide y repórtalo.** Corre la [prueba rápida de OONI](https://vesinfiltro.org/test/) desde tu conexión para contribuir a este esfuerzo. Recuerda que un resultado en un solo dispositivo no es evidencia suficiente de un bloqueo, pero contribuye al análisis de VE sin Filtro. 
+
+**No des por hecho que un sitio desbloqueado seguirá accesible.** Hubo reversiones y bloqueos que cambiaron de técnica. Mantén canales alternativos: boletines, RSS, redes y mensajería.
+
+**Descarga [Noticias sin Filtro](/noticias/2024-06-25-noticias_sin_filtro/)**, la manera más fácil de leer las noticias de medios independientes venezolanos, estén bloqueados o no.
+
+**Instala y configura un VPN.** Los bloqueos pueden volver en cualquier momento, y es importante que siempre tengas una forma de acceder a sitios web restringidos. Usa solo herramientas conocidas y confiables como TunnelBear, Psiphon, Mullvard, Proton VPN o el navegador Tor Browser.
+
+
+
