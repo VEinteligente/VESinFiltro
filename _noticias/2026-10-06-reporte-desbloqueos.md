@@ -9,7 +9,7 @@ image: /res/post_img/2026-10-06/2026-10-06.png
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-10-06/cover.png"></p>
 
-**Caracas (06-10-2026).-** Tres semanas después de los primeros desbloqueos y luego de once días de los anuncios oficiales sobre el levantamiento de bloqueos a portales web, queda claro que solo se quiso desbloquear algunos sitios. De 200 dominios bloqueados en Venezuela a principios de septiembre, **solo 36 de ellos fueron desbloqueados en todos los proveedores que medimos**, y 71 han dejado de estar bloqueados en al menos uno de ellos. **143 dominios siguen bloqueados.**
+Tres semanas después de los primeros desbloqueos y luego de once días de los anuncios oficiales sobre el levantamiento de bloqueos a portales web, queda claro que solo se quiso desbloquear algunos sitios. De 200 dominios bloqueados en Venezuela a principios de septiembre, **solo 36 de ellos fueron desbloqueados en todos los proveedores que medimos**, y 71 han dejado de estar bloqueados en al menos uno de ellos. **143 dominios siguen bloqueados.**
 
 En Venezuela, la censura en internet sigue siendo política de Estado, y el que se mantengan bloqueados sitios de noticias, de crítica política y de herramientas para evadir la censura es evidencia de ello. Los recientes desbloqueos han sido un paso significativo, pero insuficiente, en el camino hacia el restablecimiento de las libertad de expresión, información y asociación en internet.
 
