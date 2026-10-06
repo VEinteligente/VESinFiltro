@@ -20,11 +20,15 @@ Mientras persista la política de censura y no haya garantías, no habrá libert
 
 ## Cómo comenzaron los desbloqueos
 
-La noche del 16 de septiembre, CANTV levantó los primeros bloqueos contra sitios de noticias alrededor de las 10:00 pm, de forma aparentemente simultánea a un comunicado del Programa para la Paz y la Convivencia Democrática, en el que afirma haber "recomendado a la Presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, medidas que favorezcan la libre expresión en el marco del respeto y la responsabilidad, tales como eliminar restricciones contra dominios de medios de comunicación y promover la libre expresión en un clima de encuentro entre venezolanos". En las horas siguientes, los demás proveedores de internet aplicaron desbloqueos que coincidieron, en general, con los de CANTV.
+#### 16 de septiembre
+
+La noche del 16 de septiembre de 2026, CANTV levantó los primeros bloqueos contra sitios de noticias alrededor de las 10:00 pm, de forma aparentemente simultánea a un comunicado del Programa para la Paz y la Convivencia Democrática, en el que afirma haber "recomendado a la Presidenta de la República Bolivariana de Venezuela, Delcy Rodríguez, medidas que favorezcan la libre expresión en el marco del respeto y la responsabilidad, tales como eliminar restricciones contra dominios de medios de comunicación y promover la libre expresión en un clima de encuentro entre venezolanos". En las horas siguientes, los demás proveedores de internet aplicaron desbloqueos que coincidieron, en general, con los de CANTV.
 
 En una nota publicada ese mismo día en el sitio web de CONATEL, difundida en sus redes sociales, el regulador reconoció implícitamente que los bloqueos existían y que la responsabilidad era suya: "En cumplimiento de las instrucciones emanadas por la Presidenta de la República Bolivariana de Venezuela, la Comisión Nacional de Telecomunicaciones (CONATEL) informa a la colectividad nacional sobre el restablecimiento formal del acceso a diversas plataformas y medios de comunicación digitales nacionales e internacionales". Esta nota, sin precedentes, dejó en evidencia que la presidencia puede decidir qué se bloquea y qué no, pese a que CONATEL es, al menos en papel, un órgano formalmente autónomo.
 
 En nuestro registro, 17 dominios de 14 sitios fueron desbloqueados a partir del 16 de septiembre y antes de la siguiente ola de desbloqueos.
+
+#### 25 de septiembre
 
 El 25 de septiembre, al cierre de un ciclo de negociaciones políticas entre el gobierno de Delcy Rodríguez y la oposición, se desbloquearon sitios adicionales.
 
@@ -93,7 +97,7 @@ Por otro lado, 21 de los 54 dominios desbloqueados desde el 25 de septiembre no 
 
 </div>
 
-Los bloqueos también tienen antigüedades muy distintas, según nuestra fecha de primera detección. De los 17 dominios de la primera ola, 13 llevaban más de cinco años bloqueados, desde 2018 hasta 2021, y El Pitazo, bloqueado desde enero de 2018, casi nueve. La segunda ola incluye bloqueos más recientes, como los de IPYS Venezuela, Espacio Público, Medianálisis, VEsinFiltro·com y Tal Cual, todos de julio de 2024, pero también muy antiguos como Reddit, que permaneció bloqueado en Movistar años después de ser liberado por los demás ISP, y VPITV, bloqueado desde abril de 2017, que solo se ha desbloqueado en Airtek. 
+Los bloqueos también tienen antigüedades muy distintas, según nuestra fecha de primera detección. De los 17 dominios de la primera ola, 13 llevaban más de cinco años bloqueados, desde 2018 hasta 2021, y El Pitazo, bloqueado desde enero de 2018, casi nueve. La segunda ola incluye bloqueos más recientes, como los de **IPYS Venezuela**, **Espacio Público**, **Medianálisis**, **VEsinFiltro·com** y **Tal Cual**, todos de julio de 2024, pero también muy antiguos como **Reddit**, que permaneció bloqueado en Movistar años después de ser liberado por los demás ISP, y **VPITV**, bloqueado desde abril de 2017, que solo se ha desbloqueado en Airtek. 
 
 ## Lo que sigue bloqueado
 
@@ -109,7 +113,7 @@ Entre los bloqueos que siguen activos, el más antiguo es el de DolarToday, desd
 
 Luego de más de tres semanas, es evidente que no hay intención de desbloquear a **ArmandoInfo** (bloqueado desde octubre de 2020), **El Nacional**, **La Patilla**, **NTN24**, **Infobae** (2018), ni **PBS**.
 
-Tampoco a VPITV, bloqueado desde abril de 2017 (más de nueve años) y que solo desbloqueó Airtek, ni a EVTV (desde febrero de 2020) y Maduradas (2018), bloqueados en la mayoría de los proveedores. Primer Informe (desde febrero de 2022), Su Noticiero (mayo de 2020), Noticias·com (julio de 2018) y el blog de Alek Boyd (abril de 2018) siguen bloqueados en varios ISP, y Movistar mantiene bloqueos HTTP/HTTPS a **www.opinionynoticias.com** y **Radio Fe y Alegría Noticias**, posiblemente como parte de su bloqueo a noticias·com, además de a Voz de América y Foco Informativo. The Wall Street Journal, bloqueado desde agosto de 2024, solo sigue bloqueado en NetUno, y Punto de Corte, bloqueado desde febrero de 2020, solo en Movistar.
+Tampoco a **VPITV**, bloqueado desde abril de 2017 (más de nueve años) y que solo desbloqueó Airtek, ni a **EVTV** (desde febrero de 2020) y **Maduradas** (2018), bloqueados en la mayoría de los proveedores. **Primer Informe** (desde febrero de 2022), **Su Noticiero** (mayo de 2020), **Noticias·com** (julio de 2018) y el blog de **Alek Boyd** (abril de 2018) siguen bloqueados en varios ISP, y Movistar mantiene bloqueos HTTP/HTTPS a **www.opinionynoticias.com** y **Radio Fe y Alegría Noticias**, posiblemente como parte de su bloqueo a noticias·com, además de a **Voz de América** y **Foco Informativo**. **The Wall Street Journal**, bloqueado desde agosto de 2024, solo sigue bloqueado en NetUno, y **Punto de Corte**, bloqueado desde febrero de 2020, quedó bloqueado en Movistar.
 
 ### Sitios de noticias: estado en cada proveedor
 
@@ -159,15 +163,15 @@ Leyenda: <span class="tag tag-dns">DNS</span>, <span class="tag tag-http">HTTP</
 
 </blockquote>
 
-Entre los desbloqueos están importantes medios como Efecto Cocuyo, El Pitazo, Tal Cual, La Gran Aldea, Analítica, Runrunes, El Estímulo, Cazadores de Fake News, Impacto Venezuela, EFE, Semana y El Tiempo, entre otros.
+Entre los desbloqueos están importantes medios como **Efecto Cocuyo**, **El Pitazo**, **Tal Cual**, **La Gran Aldea**, **Analítica**, **Runrunes**, **El Estímulo**, **Cazadores de Fake News**, **Impacto Venezuela**, **EFE**, **Semana** y **El Tiempo**, entre otros.
 
-También quedó desbloqueado Aporrea, medio de noticias y opinión cercano al chavismo, que fue bloqueado originalmente en 2019 por CANTV, pero estaba bloqueado recientemente solo por Movistar, Airtek y Thundernet. Algunos sitios cerrados, como 6to Poder, que ya no está en línea, siguen bloqueados; así como múltiples dominios abandonados.
+También quedó desbloqueado **Aporrea**, medio de noticias y opinión cercano al chavismo, que fue bloqueado originalmente en 2019 por CANTV, pero estaba bloqueado recientemente solo por Movistar, Airtek y Thundernet. Algunos sitios cerrados, como **6to Poder**, que ya no está en línea, siguen bloqueados; así como múltiples dominios abandonados.
 
 Que solo algunos medios hayan sido desbloqueados representa una amenaza constante para la libertad de expresión y para todos los medios, que saben que podrían volver a ser bloqueados en cualquier momento, con el impacto que eso tendría en sus operaciones, audiencia y recaudación. La libertad de expresión e información seguirá seriamente restringida hasta que se desbloquee a todos y existan garantías de que no habrá más bloqueos arbitrarios.
 
 ### Derechos humanos
 
-Cuatro organizaciones ya no tienen bloqueo en ningún proveedor: IPYS Venezuela, Medianálisis, Espacio Público y nuestro propio sitio VEsinFiltro·com. En el reporte #5 habíamos dicho cinco, pero el Observatorio Venezolano de Finanzas sigue bloqueado en Digitel y corregimos el dato. Change·org quedó desbloqueado en cinco proveedores, aunque nuestro registro lo mantiene bloqueado en Airtek.
+Cuatro organizaciones ya no tienen bloqueo en ningún proveedor: **IPYS Venezuela**, **Medianálisis**, **Espacio Público** y nuestro propio sitio **VEsinFiltro·com**. En el reporte #5 habíamos dicho cinco, pero el Observatorio Venezolano de Finanzas sigue bloqueado en Digitel y corregimos el dato. Change·org quedó desbloqueado en cinco proveedores, aunque nuestro registro lo mantiene bloqueado en Airtek.
 
 Siguen bloqueados Vendata y miconvive·com, y Acceso a la Justicia, solo en Airtek. También el dominio del proyecto salariodignovzla·com, a pesar de que la página ya no está en línea.
 
@@ -193,9 +197,9 @@ Siguen bloqueados Vendata y miconvive·com, y Acceso a la Justicia, solo en Airt
 
 ### Plataformas
 
-Por fin podemos decir que Movistar ha desbloqueado Reddit, bloqueado por primera vez en 2018 por CANTV, seguía restringido en sólo Movistar en un bloqueo sin sentido que el Estado ni siquiera seguía pidiendo. CANTV desbloqueó t·co, parte importante de X. También quedó accesible Signal, la aplicación de mensajería, en todos los proveedores donde estaba bloqueada.
+Por fin podemos decir que Movistar ha desbloqueado **Reddit**, bloqueado por primera vez en 2018 por CANTV, seguía restringido en sólo Movistar en un bloqueo sin sentido que el Estado ni siquiera seguía pidiendo. CANTV desbloqueó t·co, parte importante de X. También quedó accesible **Signal**, la aplicación de mensajería, en todos los proveedores donde estaba bloqueada.
 
-Muchos se sorprenden al saber que SoundCloud y livestream·com estuvieron bloqueados hasta el 25 de septiembre. En cambio Zello, la aplicación de comunicación por voz, sigue bloqueada en tres proveedores.
+Muchos se sorprenden al saber que **SoundCloud** y **livestream·com** estuvieron bloqueados hasta el 25 de septiembre. En cambio **Zello**, la aplicación de comunicación por voz, sigue bloqueada en tres proveedores.
 
 *Dominios activos bloqueados y dominios desbloqueados en esta categoría (6 dominios, 6 sitios):*
 
