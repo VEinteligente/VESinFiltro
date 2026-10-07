@@ -125,6 +125,8 @@ Hay 143 dominios bloqueados en al menos un ISP, pertenecientes a 102 sitios web 
 
 La censura contra sitios políticos críticos al gobierno y contra herramientas anticensura sigue casi sin cambios: 31 dominios de anticensura y VPN, 23 de comercio, 17 políticos, 9 de pornografía, 7 de derechos humanos y 7 de economía, además de 3 de otras categorías.
 
+![Gráfico de barras de los 143 dominios bloqueados por categoría: Noticias 46, Anticensura y VPN 31, Comercio 23, Política 17, Pornografía 9, Economía 7, Derechos humanos 7 y Otros 3](/res/post_img/2026-10-06/bloqueos-por-categoria.png)
+
 Entre los bloqueos que siguen activos, el más antiguo es el de DolarToday, desde enero de 2016, hace casi once años, a pesar de que el sitio web cerró. 
 
 ### Noticias
