@@ -54,54 +54,6 @@ Los desbloqueos comenzaron poco antes de los anuncios oficiales. Antes de que se
 
 Identificamos 54 dominios (de 49 sitios) que fueron desbloqueados en al menos un ISP desde el 25 de septiembre, pero de los cuales 26 siguen bloqueados en algún otro proveedor.
 
-El periodista Gabriel Bastidas [publicó una copia de una comunicación de CONATEL](https://x.com/Gbastidas/status/2103637234138128513?ref_src=twsrc%5Etfw), recibida por medios informales, que ordenaba "con urgencia" reactivar de inmediato el acceso a 34 sitios y plataformas. 
-
-<!-- <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Una fuente me informa que Conatel envió hace minutos a las empresas proveedoras de internet esta notificación ordenando el desbloqueo de los dominios de una serie de medios y ONG. Sin embargo, en la lista aún faltarían importantes medios como @ArmandoInfo, @la_patilla y @ElNacionalWeb. 
-
-Notificación: 
-
-Buenas Tardes, por favor se requiere con urgencia que se reactiven de forma inmediata los accesos a las páginas web de los siguientes dominios:
-
-* Analítica
-* Aporrea
-* Cazadores de Fake News
-* Diario 2001
-* Diario La Región
-* El Político
-* TV Venezuela 
-* Impacto Venezuela
-* La Gran Aldea 
-* La Manada Digital
-* Radio Fe y alegría 
-* Noticiero Venevisión
-* Observatorio Venezolano de Fake News
-* The Wall Street Journal
-* Signal 
-* Soundcloud
-* La República
-* Minuto 30
-* Noticia Al Día
-* Opinión y Noticias
-* Punto de Corte
-* Foco informativo
-* Servicio de Información Pública
-* Tal Cual
-* Es paja 
-* Vivo Play
-* Red Social X (incluyendo todo sus dominios asociados)
-* Livesstream
-- Changeorg 
-- Espacio Público
-- IPYS Venezuela
-- Media Análisis
-- Observatorio de Finanzas
-- VE Sin Filtro
-
-Muchas gracias de antemano.</p>&mdash; Gabriel Bastidas (@Gbastidas) <a href="https://x.com/Gbastidas/status/2103637234138128513?ref_src=twsrc%5Etfw">September 26, 2026</a></blockquote>
-<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> -->
-
-Por otro lado, 21 de los 54 dominios desbloqueados desde el 25 de septiembre no figuraban en la lista, y casi todos fueron desbloqueados en un solo ISP. Es el caso de los 11 dominios de VPN que levantó Airtek; y de Primer Informe, que solo desbloqueó Movistar.
-
 ## En cifras
 
 <div class="table-responsive" markdown="1">
