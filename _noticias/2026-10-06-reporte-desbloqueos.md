@@ -7,10 +7,28 @@ date:   2026-10-06 12:00:00 -0400
 categories: report
 image: /res/post_img/2026-10-06/2026-10-06.png
 ---
+<style>
+/* Key figures strip (look of the stat tiles on bloqueos.vesinfiltro.org). Colours: red = blocked, amber = unblocked on some ISPs, green = unblocked on all. */
+article.post-content .vsf-stats { display: flex; flex-wrap: wrap; margin: 6px 0 30px; border-top: 2px solid #1A1C1F; border-bottom: 1px solid #d9dbde; }
+article.post-content .vsf-stats > div { flex: 1 1 140px; padding: 14px 16px; border-right: 1px solid #d9dbde; }
+article.post-content .vsf-stats > div:last-child { border-right: 0; }
+article.post-content .vsf-stats b { display: block; font-family: 'DM Sans', 'Fira Sans', sans-serif; font-size: 3em; font-weight: 700; line-height: 1; letter-spacing: -0.04em; color: #1A1C1F; }
+article.post-content .vsf-stats .red b { color: #d72638; }
+article.post-content .vsf-stats .amb b { color: #b7791f; }
+article.post-content .vsf-stats .grn b { color: #1f8f4e; }
+article.post-content .vsf-stats span { display: block; margin-top: 6px; font-size: 0.78em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #55595e; }
+</style>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <p class="cover"><img class="" src="/res/post_img/2026-10-06/cover.png"></p>
 
 Tres semanas después de los primeros desbloqueos y luego de once días de los anuncios oficiales sobre el levantamiento de bloqueos a portales web, queda claro que solo se quiso desbloquear algunos sitios. De 200 dominios bloqueados en Venezuela a principios de septiembre, **solo 36 de ellos fueron desbloqueados en todos los proveedores que medimos**, y 71 han dejado de estar bloqueados en al menos uno de ellos. **143 dominios siguen bloqueados.**
+
+<div class="vsf-stats">
+<div class="red"><b>143</b><span>dominios bloqueados</span></div>
+<div class="red"><b>24</b><span>sitios de noticias activos bloqueados</span></div>
+<div class="amb"><b>71</b><span>desbloqueados en al menos un ISP</span></div>
+<div class="grn"><b>36</b><span>desbloqueados en todos los ISP</span></div>
+</div>
 
 En Venezuela, la censura en internet sigue siendo política de Estado, y el que se mantengan bloqueados sitios de noticias, de crítica política y de herramientas para evadir la censura es evidencia de ello. Los recientes desbloqueos han sido un paso significativo, pero insuficiente, en el camino hacia el restablecimiento de la libertad de expresión, información y asociación en internet.
 
@@ -36,9 +54,9 @@ Los desbloqueos comenzaron poco antes de los anuncios oficiales. Antes de que se
 
 Identificamos 54 dominios (de 49 sitios) que fueron desbloqueados en al menos un ISP desde el 25 de septiembre, pero de los cuales 26 siguen bloqueados en algún otro proveedor.
 
-El periodista Gabriel Bastidas publicó una copia de una comunicación de CONATEL, recibida por medios informales, que pedía "con urgencia" reactivar de inmediato el acceso a 34 sitios y plataformas. 
+El periodista Gabriel Bastidas [publicó una copia de una comunicación de CONATEL](https://x.com/Gbastidas/status/2103637234138128513?ref_src=twsrc%5Etfw), recibida por medios informales, que ordenaba "con urgencia" reactivar de inmediato el acceso a 34 sitios y plataformas. 
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Una fuente me informa que Conatel envió hace minutos a las empresas proveedoras de internet esta notificación ordenando el desbloqueo de los dominios de una serie de medios y ONG. Sin embargo, en la lista aún faltarían importantes medios como @ArmandoInfo, @la_patilla y @ElNacionalWeb. 
+<!-- <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Una fuente me informa que Conatel envió hace minutos a las empresas proveedoras de internet esta notificación ordenando el desbloqueo de los dominios de una serie de medios y ONG. Sin embargo, en la lista aún faltarían importantes medios como @ArmandoInfo, @la_patilla y @ElNacionalWeb. 
 
 Notificación: 
 
@@ -80,7 +98,7 @@ Buenas Tardes, por favor se requiere con urgencia que se reactiven de forma inme
 - VE Sin Filtro
 
 Muchas gracias de antemano.</p>&mdash; Gabriel Bastidas (@Gbastidas) <a href="https://x.com/Gbastidas/status/2103637234138128513?ref_src=twsrc%5Etfw">September 26, 2026</a></blockquote>
-<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<script async src="https://platform.x.com/widgets.js" charset="utf-8"></script> -->
 
 Por otro lado, 21 de los 54 dominios desbloqueados desde el 25 de septiembre no figuraban en la lista, y casi todos fueron desbloqueados en un solo ISP. Es el caso de los 11 dominios de VPN que levantó Airtek; y de Primer Informe, que solo desbloqueó Movistar.
 
@@ -113,9 +131,9 @@ Entre los bloqueos que siguen activos, el más antiguo es el de DolarToday, desd
 
 Luego de más de tres semanas, es evidente que no hay intención de desbloquear a **ArmandoInfo** (bloqueado desde octubre de 2020), **El Nacional**, **La Patilla**, **NTN24**, **Infobae** (2018), ni **PBS**.
 
-Tampoco a **VPITV**, bloqueado desde abril de 2017 (más de nueve años) y que solo desbloqueó Airtek, ni a **EVTV** (desde febrero de 2020) y **Maduradas** (2018), bloqueados en la mayoría de los proveedores. **Primer Informe** (desde febrero de 2022), **Su Noticiero** (mayo de 2020), **Noticias·com** (julio de 2018) y el blog de **Alek Boyd** (abril de 2018) siguen bloqueados en varios ISP, y Movistar mantiene bloqueos HTTP/HTTPS a **www.opinionynoticias.com** y **Radio Fe y Alegría Noticias**, posiblemente como parte de su bloqueo a noticias·com, además de a **Voz de América** y **Foco Informativo**. **The Wall Street Journal**, bloqueado desde agosto de 2024, solo sigue bloqueado en NetUno, y **Punto de Corte**, bloqueado desde febrero de 2020, quedó bloqueado en Movistar.
+Tampoco a **VPITV**, bloqueado desde abril de 2017 (más de nueve años), ni a **EVTV** y **Maduradas**, bloqueados en la mayoría de los proveedores. **Primer Informe**, **Su Noticiero**, **Noticias·com** y el blog de **Alek Boyd** siguen bloqueados en varios ISP.
 
-### Sitios de noticias: estado en cada proveedor
+Movistar mantiene bloqueos HTTP/HTTPS a **www.opinionynoticias.com** y **Radio Fe y Alegría Noticias**, posiblemente como parte de su bloqueo a noticias·com, además de a **Voz de América** y **Foco Informativo**. **The Wall Street Journal** solo sigue bloqueado en NetUno, y **Punto de Corte** quedó bloqueado en Movistar.
 
 Esta tabla reúne los 29 dominios de sitios de noticias activos que siguen bloqueados en al menos un proveedor (24 sitios), con las mismas marcas de nuestra lista. Los sitios desbloqueados por completo aparecen en la lista completa del final.
 
@@ -294,9 +312,11 @@ Tú también puedes ayudarnos contribuyendo mediciones de OONI Probe: descarga l
 
 ## Lista completa por categoría
 
+Extracto de dominios bloqueados y desbloqueados al 2026-10-06. **La lista siempre actualizada, con filtros por categoría y proveedor, está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/).** 
+
 <blockquote class="vsf-legend" markdown="1">
 
-**Esta tabla es una captura al 6 de octubre de 2026 y no se actualiza.** La lista siempre actualizada, con filtros por categoría y proveedor, está en [bloqueos.vesinfiltro.org](https://bloqueos.vesinfiltro.org/). † indica un dominio abandonado, es decir, de un sitio que ya no está en línea. Las marcas son las mismas de la leyenda de arriba: <span class="tag tag-dns">DNS</span>, <span class="tag tag-http">HTTP</span> y <span class="tag tag-ip">TCP IP</span> son técnicas de bloqueo; <span class="tag tag-ok">ok</span>, sin bloqueo; <span class="tag tag-nd">ND</span>, sin datos; <span class="tag tag-unblocked">desbloq.</span>, desbloqueado desde el 16 de septiembre; <span class="tag tag-unblocked tag-unblocked-25">&#42;desbloq.</span>, desde el 25 de septiembre.
+Leyenda: † indica un dominio abandonado, es decir, de un sitio que ya no está en línea. Las marcas son las mismas de la leyenda de arriba: <span class="tag tag-dns">DNS</span>, <span class="tag tag-http">HTTP</span> y <span class="tag tag-ip">TCP IP</span> son técnicas de bloqueo; <span class="tag tag-ok">ok</span>, sin bloqueo; <span class="tag tag-nd">ND</span>, sin datos; <span class="tag tag-unblocked">desbloq.</span>, desbloqueado desde el 16 de septiembre; <span class="tag tag-unblocked tag-unblocked-25">&#42;desbloq.</span>, desde el 25 de septiembre.
 
 </blockquote>
 
