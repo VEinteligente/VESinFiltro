@@ -364,3 +364,8 @@ article.post-content table.vsf-table tr.vsf-cat th {
 	padding: 0.65em 0.9em;
 	border-top: 2px solid #1A1C1F;
 }
+
+/* Unblocked cells: the green fills the whole cell, not just the tag. */
+article.post-content table.vsf-table td:has(> .tag-unblocked) { background: oklch(94% 0.055 148); }
+article.post-content table.vsf-table td > .tag-unblocked { background: transparent; }
+article.post-content table.vsf-table tbody tr:hover td:has(> .tag-unblocked) { background: oklch(90% 0.07 148); }
