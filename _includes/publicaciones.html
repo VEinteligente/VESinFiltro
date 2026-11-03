@@ -1,0 +1,64 @@
+{% assign L = include.lang | default: "es" %}{% assign t = site.data.ui[L] %}
+{% assign todas = site.noticias | reverse %}
+{% assign tipos = "Comunicado,Análisis,Alerta,Noticia,Reporte,Guía" | split: "," %}
+{% assign temas = "Censura y bloqueos,Vigilancia,Ataques digitales,Datos personales,Conectividad,Libertad de expresión,Elecciones" | split: "," %}
+<section class="sec" style="padding-bottom:32px">
+	<div class="wrap">
+		<div class="sec-head" style="margin:0"><div><h1>{{ t.nav_publicaciones }}</h1><p>{{ t.pub_intro }}</p></div></div>
+	</div>
+</section>
+<form class="filters" id="filtros" role="search" aria-label="{{ t.pub_filtrar }}">
+	<div class="wrap">
+		<div style="display:flex;flex-wrap:wrap;gap:16px 24px">
+			<label for="f-tipo">{{ t.pub_tipo }}<select id="f-tipo" name="tipo"><option value="">{{ t.todos }}</option>{% for k in tipos %}<option value="{{ k }}">{{ t.tipos_plural[k] }}</option>{% endfor %}</select></label>
+			<label for="f-tema">{{ t.pub_tema }}<select id="f-tema" name="tema"><option value="">{{ t.todos }}</option>{% for k in temas %}<option value="{{ k }}">{{ t.temas[k] | default: k }}</option>{% endfor %}</select></label>
+			<label for="f-idioma">{{ t.pub_idioma }}<select id="f-idioma" name="idioma"><option value="">{{ t.todos }}</option><option value="es">Español</option><option value="en">English</option></select></label>
+		</div>
+		<span class="count" id="f-count" aria-live="polite">{{ todas.size }} {{ t.pub_plural }}</span>
+	</div>
+</form>
+<section class="sec" style="padding-top:12px">
+	<div class="wrap" id="lista" data-idioma-fijo>
+	{% assign anio = "" %}
+	{% for p in todas %}
+		{% assign y = p.date | date: "%Y" %}
+		{% if y != anio %}<h2 class="year" data-year="{{ y }}">{{ y }}</h2>{% assign anio = y %}{% endif %}
+		{% assign pl = p.lang | default: "es" %}{% assign pt = site.data.ui[pl] %}
+		{% assign mini = site.data.miniaturas[p.url] %}
+		<article class="row" data-year="{{ y }}" data-type="{{ p.type }}" data-topics="{{ p.topics | join: '|' }}" data-idioma="{{ pl }}"{% if p.translation %} data-par="1"{% endif %} lang="{{ pl }}">
+			<a class="row-img{% if p.layout == 'reporte' and p.list_image == nil %} row-img--portada{% endif %}" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if mini %}<img src="{{ mini | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}</a>
+			<div class="row-b">
+				<div class="row-m"><span class="row-d">{{ p.date | date: "%Y-%m-%d" }}</span><span class="kind{% if p.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ pt.tipos[p.type] | default: p.type }}</span>{% include chips-idioma.html p=p solo_pares=true %}</div>
+				<a class="row-t" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+				{% if p.topics.size > 0 %}<span class="temas">{% for tm in p.topics %}<span class="tema">{{ pt.temas[tm] | default: tm }}</span>{% endfor %}</span>{% endif %}
+			</div>
+		</article>
+	{% endfor %}
+	<p class="empty" id="f-vacio" hidden>{{ t.pub_vacio }}</p>
+	</div>
+</section>
+<script>
+(function () {
+  var f = document.getElementById('filtros'), sel = { tipo: f.tipo, tema: f.tema, idioma: f.idioma };
+  var rows = [].slice.call(document.querySelectorAll('#lista .row')), years = [].slice.call(document.querySelectorAll('#lista .year'));
+  var q = new URLSearchParams(location.search);
+  Object.keys(sel).forEach(function (k) { if (q.get(k)) sel[k].value = q.get(k); });
+  function apply() {
+    var tipo = sel.tipo.value, tema = sel.tema.value, idioma = sel.idioma.value, n = 0, shown = {};
+    var pref = window.VSF_IDIOMA ? window.VSF_IDIOMA() : 'es';
+    rows.forEach(function (r) {
+      var ok = (!tipo || r.dataset.type === tipo) && (!tema || r.dataset.topics.split('|').indexOf(tema) > -1) && (!idioma || r.dataset.idioma === idioma);
+      // Without a language filter, show each translated publication once, in the reader's language.
+      if (!idioma && r.dataset.par && r.dataset.idioma !== pref) ok = false;
+      r.hidden = !ok; if (ok) { n++; shown[r.dataset.year] = 1; }
+    });
+    years.forEach(function (y) { y.hidden = !shown[y.dataset.year]; });
+    document.getElementById('f-count').textContent = n + (n === 1 ? ' {{ t.pub_singular }}' : ' {{ t.pub_plural }}');
+    document.getElementById('f-vacio').hidden = n > 0;
+    var p = new URLSearchParams(); Object.keys(sel).forEach(function (k) { if (sel[k].value) p.set(k, sel[k].value); });
+    history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
+  }
+  f.addEventListener('change', apply); f.addEventListener('submit', function (e) { e.preventDefault(); });
+  apply();
+})();
+</script>

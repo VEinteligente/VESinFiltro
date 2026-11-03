@@ -1,0 +1,57 @@
+{% comment %}Reader's language. The language comes from the browser, or from the ?lang= marker that language links (data-cambia-idioma) add. Nothing is stored.
+Internal links to a post that has a translation point to the version in that language; lists hide the other version of each pair; a post or report opened in the other language shows #aviso-idioma.
+VSF_PARES: url -> l (its language), a (url of the translation), t (its title). Built from the translation field of posts and pages.{% endcomment %}
+{% assign todo = site.noticias | concat: site.pages %}{% assign pares = todo | where_exp: "p", "p.translation" %}{% assign n = 0 %}
+<script>
+window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.translation | first %}{% if o %}{% if n > 0 %},{% endif %}{{ p.url | relative_url | jsonify }}: { "l": {{ p.lang | default: "es" | jsonify }}, "a": {{ o.url | relative_url | jsonify }}, "t": {{ p.title | strip_html | strip | jsonify }} }{% assign n = n | plus: 1 %}{% endif %}{% endfor %} };
+(function () {
+  // Nothing is stored (no localStorage, no cookies). The language is the ?lang=es|en marker when the reader chose one,
+  // else the browser's first language. After a choice, internal links carry the marker so it lasts while browsing.
+  var P = window.VSF_PARES;
+  function detectado() {
+    var ls = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'es'];
+    return /^en\b/i.test(ls[0] || '') ? 'en' : 'es';
+  }
+  var marca = (/[?&]lang=(es|en)\b/.exec(location.search) || [])[1];
+  window.VSF_IDIOMA = function () { return marca || detectado(); };
+  function buscar(path) {
+    var c = [path]; try { c.push(decodeURIComponent(path)); } catch (e) {}
+    for (var i = 0; i < c.length; i++) {
+      var x = c[i], y = x.slice(-1) === '/' ? x.slice(0, -1) : x + '/';
+      if (P[x]) return x; if (P[y]) return y;
+    }
+    return null;
+  }
+  // Adds lang=<l> to a same-site page link (not files such as PDFs or images).
+  function marcar(a, l) {
+    if (a.origin !== location.origin || /\.[a-z0-9]{2,5}$/i.test(a.pathname.replace(/\.html$/, ''))) return;
+    var q = new URLSearchParams(a.search); q.set('lang', l);
+    a.setAttribute('href', a.pathname + '?' + q + a.hash);
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.VSF_REDIRIGE) return;  // the home is switching to the reader's language
+    var pref = window.VSF_IDIOMA(), aqui = document.documentElement.lang || 'es';
+    // Language links (header switch, chips, notice) state the choice in the URL they open.
+    [].forEach.call(document.querySelectorAll('a[data-cambia-idioma]'), function (a) { marcar(a, a.getAttribute('data-cambia-idioma')); });
+    [].forEach.call(document.querySelectorAll('a[href]'), function (a) {
+      if (a.closest('[data-cambia-idioma]') || a.origin !== location.origin) return;
+      // [data-idioma-fijo]: a list that already shows each post in the reader's language (and may show both, when filtered).
+      if (!a.closest('[data-idioma-fijo]')) {
+        var k = buscar(a.pathname);
+        if (k && P[k].l !== pref) {
+          var e = P[k], otro = P[buscar(e.a) || e.a];
+          if (otro && a.children.length === 0 && a.textContent.trim() === e.t) a.textContent = otro.t;
+          a.setAttribute('href', e.a + a.search + a.hash);
+          a.setAttribute('lang', pref);
+        }
+      }
+      if (marca) marcar(a, marca);
+    });
+    var av = document.getElementById('aviso-idioma');
+    if (av && pref !== aqui) {
+      av.hidden = false;
+      av.querySelector('button').addEventListener('click', function () { av.hidden = true; });
+    }
+  });
+})();
+</script>

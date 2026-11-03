@@ -1,24 +1,21 @@
 # Site settings
-title: VeSinFiltro
-email: info@vesinfiltro.com
+title: VE sin Filtro
+email: vesinfiltro@conexionsegura.org
 description: > # this means to ignore newlines until "baseurl:"
-  VEsinFiltro es un repositorio de información sobre la censura y filtrado de contenidos en Venezuela. Herramientas para denucniar y evaduar bloqueos y más
+  VEsinFiltro es un repositorio de información sobre la censura y filtrado de contenidos en Venezuela. Herramientas para denunciar y evadir bloqueos y más
 tagline: "Infórmate sobre el estado de internet en Venezuela"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://vesinfiltro.org" # the base hostname & protocol for your site
 twitter_username: vesinfiltro
+timezone: America/Caracas
 
-navigation:
-- title: Noticias
-  url: /
-- title: Reporta
-  url: /reporta/
-- title: Test
-  url: /test/
-- title: Evade los bloqueos
-  url: /bloqueos/
-- title: Lista de bloqueos        # ← nombre que elijas
-  url: https://bloqueos.vesinfiltro.org/
+# Navigation lives in _includes/header.html.
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: es
 
 # Build settings
 markdown: kramdown
