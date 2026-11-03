@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Prueba puntual"
 permalink: /test-puntual/
 image: /res/TWcard.png

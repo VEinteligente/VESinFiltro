@@ -1,12 +1,20 @@
 ---
-layout: post
+layout: reporte
 title: "Censored Network: Restrictions on #InternetVE"
-small: "Digital censorship and state control over information and communication in Venezuela intensified during 2025, continuing the patterns observed in 2024, especially around electoral processes."
+excerpt_short: "Digital censorship and state control over information and communication in Venezuela intensified during 2025, continuing the patterns observed in 2024, especially around electoral processes."
 excerpt: "Currently, 61 news websites are blocked, censoring virtually the entire ecosystem of independent media in the country, including the most important outlets, along with some international media. This has been devastating for freedom of expression and information and has compromised the sustainability of media outlets by reducing traffic to their websites.
 This censorship against news sites is implemented through the blocking of 90 individual domains, since, in many cases, websites have used alternative domains to evade blocks. Although most of these blocks began in previous years, we have documented new blocks so far in 2025."
 permalink: /noticias/2025-censorship-report/
 date:   2026-01-17 09:20:00 -0400
 categories: report
+type: Reporte
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: en
+translation: /noticias/2025_informe_censura/
+report:
+  series: "Informe anual"
+  cover: "/res/reportes/2025-censored-network-en.jpg"
+image: /res/post_img/generadas/2025-censorship-report.jpg # generada
 ---
 
 

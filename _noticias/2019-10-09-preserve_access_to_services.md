@@ -1,12 +1,16 @@
 ---
 layout: post
 title: "Tech companies: Preserve access to services and platforms for Venezuelans"
-small: "Tech companies: Preserve access to services and platforms for Venezuelans."
 excerpt: We urge tech companies to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.
 permalink: /noticias/2019-10-09-preserve_access_to_services/
 date:   2019-10-09 07:22:00 -0400
 categories: bloqueos
 image: /res/post_img/generic.png
+type: Comunicado
+subtype: Carta abierta
+topics: ["Conectividad"]
+lang: en
+translation: /noticias/2019-10-09-preserven_disponibilidad_servicios/
 ---
 
 Venezuela Inteligente and the VE sin Filtro project, together with ISOC Venezuela, Redes Ayuda and over 40 Venezuelan and international organizations, urge tech companies in a joint letter to preserve access to their online platforms and services for Venezuelans. In response to some tech companies' overblown reaction to US Executive Order 13884.

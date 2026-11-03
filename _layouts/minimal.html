@@ -1,25 +1,13 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body class="{{page.bodyclass}}">
-
-    <div class="page-content">
-	  <header class="wrapper post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-      </header>
-      <div class="wrapper"><div>
-        <div class="post">
-          <article class="post-content">
-            {{ content }}
-          </article>
-         </div>
-      </div></div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
+<html lang="{{ page.lang | default: 'es' }}">
+{% include head.html %}
+<body class="{{ page.bodyclass }}">
+<header class="sh"><div class="wrap sh-in"><a class="sh-logo" href="{{ '/' | relative_url }}"><img src="{{ '/res/VeSinFiltro-long.svg' | relative_url }}" alt="VE sin Filtro" width="178" height="36"></a></div></header>
+<main class="wrap">
+	<header class="page-top"><h1>{{ page.title }}</h1></header>
+	<article class="page-body prose legacy post-content">
+		{{ content }}
+	</article>
+</main>
+</body>
 </html>

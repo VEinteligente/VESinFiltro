@@ -1,34 +1,59 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body class="{{page.bodyclass}}">
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <header class="wrapper post-header">
-	{% if page.pretitle %}
-		<p class="pretitle-estilo"><strong>{{ page.pretitle }}</strong></p>
-	{% endif %}
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p.date>{{ page.date |  date: '%B %d, %Y' }}</p>
-        {% if page.author %}
-	        <p.byline>Autor: <span class="author-name">{{ page.author }}</span></p>
-        {% endif %}
-      </header>
-      <div class="wrapper"><div>
-        <div class="post">
-          <article class="post-content">
-            {{ content }}
-          </article>
-         </div>
-      </div></div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+---
+layout: default
+---
+{% assign L = page.lang | default: "es" %}{% assign t = site.data.ui[L] %}
+{% assign tipo_l = t.tipos[page.type] | default: page.type %}
+{% assign plain = content | strip_html | normalize_whitespace %}
+{% assign ex = page.excerpt | strip_html | normalize_whitespace | strip %}
+{% assign ex_head = ex | truncate: 60, "" %}
+{% assign words = plain | number_of_words %}
+{% assign img = page.image %}
+{% assign img_name = img | split: "/" | last %}
+{% comment %}design: image-first puts the cover full width under the header and sets the title smaller (for covers that carry the headline).{% endcomment %}
+{% assign imagen_primero = false %}{% if page.design == "image-first" %}{% assign imagen_primero = true %}{% assign portada = page.cover | default: img %}{% endif %}
+{% if imagen_primero %}<figure class="post-hero"><img src="{{ portada | uri_escape | relative_url }}" alt="{{ page.image_alt | default: '' }}"></figure>{% endif %}
+<div class="wrap post-top{% if imagen_primero %} imagen-primero{% endif %}">
+	<nav class="crumbs" aria-label="Ruta"><a href="{{ '/publicaciones/' | relative_url }}">{{ t.nav_publicaciones }}</a>{% if page.type %}<span aria-hidden="true">/</span><a href="{{ '/publicaciones/?tipo=' | append: page.type | relative_url }}">{{ t.tipos_plural[page.type] | default: page.type }}</a>{% endif %}</nav>
+	<header class="post-head">
+		<div class="meta">{% if page.type %}<b class="kind{% if page.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ tipo_l }}</b>{% endif %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time></div>
+		{% if page.pretitle %}<p class="label" style="margin:0;color:var(--sec)">{{ page.pretitle }}</p>{% endif %}
+		<h1>{{ page.title }}</h1>
+		{% if ex != "" %}{% unless plain contains ex_head %}<p class="lede">{{ ex }}</p>{% endunless %}{% endif %}
+		<p class="byline">{{ t.por }} <b>{% if page.authors %}{% include names.html v=page.authors t=t %}{% else %}VE sin Filtro{% endif %}</b></p>
+		{% if page.topics.size > 0 %}<div class="temas">{% for tm in page.topics %}<a class="tema" href="{{ '/publicaciones/?tema=' | append: tm | relative_url }}">{{ t.temas[tm] | default: tm }}</a>{% endfor %}</div>{% endif %}
+	</header>
+	{% if img and img != "no" and imagen_primero == false %}{% unless content contains 'class="cover"' or content contains img_name %}
+	<figure class="post-cover"><img src="{{ img | uri_escape | relative_url }}" alt="{{ page.image_alt | default: '' }}"></figure>
+	{% endunless %}{% endif %}
+</div>
+<div class="wrap post-grid">
+	<aside class="post-aside">
+		<div><span class="k">{{ t.compartir }}</span>
+			<div class="share">
+				<a href="https://x.com/intent/post?url={{ page.url | absolute_url | uri_escape }}&amp;text={{ page.title_short | default: page.title | uri_escape }}" aria-label="X"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+				{% assign url_abs = page.url | absolute_url %}{% assign bsky_txt = page.title_short | default: page.title | append: " " | append: url_abs %}<a href="https://bsky.app/intent/compose?text={{ bsky_txt | uri_escape }}" aria-label="Bluesky"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.335 5.144c-1.654-1.199-4.335-2.127-4.335.826c0 .59.35 4.953.556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045.665-4.889 3.208-2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134-2.769 3.5-3.5c.333-.667.5-1.167.5-1.5c0 .333.167.833.5 1.5c.366.731 1.5 3.5 3.5 3.5c.754 0 1.637-.571 2.667-1.59c2.222-2.203 1.378-4.746-2.667-5.41c2.314.38 4.73.094 5.444-2.369c.206-.708.556-5.072.556-5.661c0-2.953-2.68-2.025-4.335-.826c-2.293 1.662-4.76 5.048-5.665 6.856c-.905-1.808-3.372-5.194-5.665-6.856z"/></svg></a>
+				<button type="button" class="copy" data-copy="{{ page.url | absolute_url }}" data-done="{{ t.copiado }}">{{ t.copiar_enlace }}</button>
+			</div>
+		</div>
+		{% if page.translation %}<div><span class="k">{{ t.disponible_en }}</span><a href="{{ page.translation | relative_url }}" lang="{{ t.traduccion_lang }}" data-cambia-idioma="{{ t.traduccion_lang }}" style="color:var(--text)">{% if L == "en" %}Español{% else %}English{% endif %}</a></div>{% endif %}
+	</aside>
+	<article class="prose post-content{% if imagen_primero %} sin-portada{% endif %}{% if page.subtype %} subtipo-{{ page.subtype | slugify }}{% endif %}">
+		{{ content }}
+		{% include creditos.html t=t %}
+	</article>
+	<aside class="post-rel">
+		<nav class="post-toc" aria-label="{{ t.en_esta }}" hidden><span class="k">{{ t.en_esta }}</span><div></div></nav>
+		{% assign tema1 = page.topics | first %}
+		{% if tema1 %}
+		{% assign rel = site.noticias | where: "lang", L | where_exp: "p", "p.topics contains tema1" | reverse %}
+		{% assign n = 0 %}
+		<div><span class="k">{{ t.relacionado }}</span><ul>
+		{% for p in rel %}{% if p.url == page.url %}{% continue %}{% endif %}{% if n >= 3 %}{% break %}{% endif %}
+			<li><span class="meta"><b>{{ t.tipos[p.type] | default: p.type }}</b><span>{{ p.date | date: "%Y-%m-%d" }}</span></span><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+			{% assign n = n | plus: 1 %}
+		{% endfor %}
+		</ul></div>
+		{% endif %}
+	</aside>
+</div>
+{% include page-scripts.html %}

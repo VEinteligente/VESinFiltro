@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  'Bloquean en Venezuela el sitio web de la ONG Justicia, Encuentro y Perdón'
-small:   'Bloqueo del sitio web de la ONG Justicia, Encuentro y Perdón'
+title_short: 'Bloqueo del sitio web de la ONG Justicia, Encuentro y Perdón'
 excerpt: 'Ve Sin Filtro denuncia el bloqueo en CANTV y Movistar del sitio web de la ONG Justicia, Encuentro y Perdón'
 permalink: /noticias/2022-06-22-bloqueo-jep/
 date:   2022-06-22 12:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-06-22.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 <p class="cover"><img class="" src="/res/post_img/2022-06-22.png"></p>

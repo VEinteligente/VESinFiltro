@@ -1,12 +1,17 @@
 ---
 layout: post
 title: "Bloquean Observatorio Venezolano de Fake News, el tercer sitio de factchecking en días"
-small: "Bloquean Observatorio Venezolano de Fake News"
+title_short: "Bloquean Observatorio Venezolano de Fake News"
 excerpt: ""
 permalink: /noticias/2024-07-12-bloquean-observatorio-fake-news/
 date: 2024-07-12 17:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-07-12.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
+redirect_from:
+  - "/noticias/2024-07-12-blqoeuan-Observatorio-Fake-News/" # url-historica: solo existió 2024-07-22..2024-07-22 en master, nunca en el sitio actual; candidata a eliminar
 ---
 ![](/res/post_img/2024-07-12.png)
 Bloquean la página del Observatorio Venezolano de Fake News (fakenewsvenezuela⸱org)

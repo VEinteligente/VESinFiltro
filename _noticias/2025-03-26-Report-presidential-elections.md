@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reporte
 title: "Special report: Censorship and digital repression in the presidential elections in Venezuela"
 excerpt: "During Venezuela’s electoral period—from the start of the campaign on July 4, 2024, through election day on July 28, and extending to the inauguration on January 10, 2025, the country experienced an unprecedented wave of digital censorship and digital repression."
 permalink: /noticias/2025-03-26-venezuela-digital-repression-elections/
@@ -9,6 +9,20 @@ image: /res/post_img/2025-03-26/rrss.png
 redirect_from:
   - /2024-2025/
   - /2024-2025
+type: Reporte
+topics: ["Censura y bloqueos", "Elecciones", "Vigilancia"]
+lang: en
+translation: /noticias/2025-03-12-reporte-elecciones-presidenciales/
+report:
+  cover: "/res/reportes/2025-networks-of-control-en.jpg"
+  pdf: "/res/files/digital_repression-venezuela_elections-VEsinFiltro.pdf"
+  pages: 89
+  contents:
+    - ["Introduction", 3]
+    - ["Internet blocks and censorship", 6]
+    - ["Traffic and connectivity drops", 29]
+    - ["Surveillance and digital security threats", 35]
+    - ["Conclusions", 75]
 ---
 
 <p class="cover"><img alt="New Report: Digital Censorship and Repression During Venezuela’s Presidential Elections" src="/res/post_img/2025-03-26/post.png"></p>

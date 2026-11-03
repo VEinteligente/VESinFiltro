@@ -1,0 +1,4 @@
+{% comment %}Placeholder for a post or report whose image file is missing: the type and year on the dark dot ground,
+plus the title for a report cover (include.portada). Decorative; the title link next to it names the post.{% endcomment %}
+{% assign pp = include.p %}{% assign tt = include.t %}
+{% if include.portada %}<span class="ph ph--portada" aria-hidden="true"><span class="ph-k"><i class="sq"></i>{% if pp.report.series %}{{ tt.series[pp.report.series] | default: pp.report.series }}{% else %}{{ tt.reporte }}{% endif %}</span><span class="ph-t">{{ pp.title | truncatewords: 12 }}</span><span class="ph-d">{{ pp.date | date: "%Y" }}</span></span>{% else %}<span class="ph" aria-hidden="true"><span class="ph-k"><i class="sq"></i>{{ tt.tipos[pp.type] | default: pp.type | default: "VE sin Filtro" }}</span><span class="ph-d">{{ pp.date | date: "%Y-%m-%d" }}</span></span>{% endif %}

@@ -1,0 +1,103 @@
+{% comment %}Home page, in Spanish (/) or English (/en/). Each list shows a translated post once, in the home's language;
+posts in only one language appear as they are. Images that are missing on disk become a typographic placeholder.{% endcomment %}
+{% assign L = include.lang | default: "es" %}{% assign t = site.data.ui[L] %}
+{% if L == "en" %}{% assign pub_url = "/en/publications/" %}{% assign home_otro = "/" %}{% else %}{% assign pub_url = "/publicaciones/" %}{% assign home_otro = "/en/" %}{% endif %}
+<script>
+// The home follows the reader's language: / and /en/ swap to match it. Crawlers stay on the page they asked for.
+(function () {
+  if (!window.VSF_IDIOMA || /bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent)) return;
+  window.VSF_REDIRIGE = VSF_IDIOMA() !== {{ L | jsonify }};
+  if (window.VSF_REDIRIGE) location.replace({{ home_otro | relative_url | jsonify }} + location.search + location.hash);
+})();
+</script>
+{% assign archivos = site.static_files | map: "path" %}
+{% assign todas = site.noticias | reverse %}
+{% comment %}English home: English posts plus Spanish posts with no translation. Two single-condition passes, because GitHub Pages' Jekyll 3.10 has no and/or in where_exp.{% endcomment %}
+{% if L == "en" %}{% assign l_en = todas | where: "lang", "en" %}{% assign l_solo = todas | where_exp: "p", "p.translation == nil" | where_exp: "p", "p.lang != 'en'" %}{% assign lista = l_en | concat: l_solo | sort: "date" | reverse %}{% else %}{% assign lista = todas | where_exp: "p", "p.lang != 'en'" %}{% endif %}
+{% assign pubs = lista | where_exp: "p", "p.layout != 'reporte'" %}
+{% assign reps = lista | where: "layout", "reporte" | where_exp: "p", "p.report.full_report == nil" %}
+{% assign feat = pubs.first %}
+{% assign feat_img = nil %}{% assign c1 = feat.share_image | url_decode %}{% assign c2 = feat.image | url_decode %}
+{% if archivos contains c1 %}{% assign feat_img = feat.share_image %}{% elsif archivos contains c2 %}{% assign feat_img = feat.image %}{% endif %}
+<section class="sec">
+	<div class="wrap lead">
+		<article class="lead-feat">
+			<span class="label" style="color:var(--sec)">{{ t.lo_mas_reciente }}</span>
+			<a href="{{ feat.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if feat_img %}<img src="{{ feat_img | uri_escape | relative_url }}" alt="" width="1200" height="630">{% else %}{% include ph.html p=feat t=t %}{% endif %}</a>
+			<div class="meta"><b class="kind{% if feat.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ t.tipos[feat.type] | default: feat.type }}</b><time datetime="{{ feat.date | date_to_xmlschema }}">{{ feat.date | date: "%Y-%m-%d" }}</time>{% if L == "en" %}{% include chips-idioma.html p=feat %}{% endif %}</div>
+			<h2><a href="{{ feat.url | relative_url }}" lang="{{ feat.lang }}">{{ feat.title }}</a></h2>
+			{% if feat.excerpt %}<p lang="{{ feat.lang }}">{{ feat.excerpt | strip_html | truncatewords: 60 }}</p>{% endif %}
+			{% if feat.topics.size > 0 %}<div class="temas">{% for tm in feat.topics %}<a class="tema" href="{{ pub_url | append: '?tema=' | append: tm | relative_url }}">{{ t.temas[tm] | default: tm }}</a>{% endfor %}</div>{% endif %}
+		</article>
+		<aside aria-labelledby="recientes-h">
+			<div class="side-h"><h2 id="recientes-h">{{ t.mas_recientes }}</h2><a class="lnk" href="{{ pub_url | relative_url }}">{{ t.todas }}</a></div>
+			<ul class="rlist">
+			{% for p in pubs offset: 1 limit: 5 %}
+				<li><span class="meta" style="justify-content:space-between"><b class="kind{% if p.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ t.tipos[p.type] | default: p.type }}</b><span class="meta-r">{% if L == "en" %}{% include chips-idioma.html p=p %}{% endif %}<span>{{ p.date | date: "%Y-%m-%d" }}</span></span></span><a class="t" href="{{ p.url | relative_url }}" lang="{{ p.lang }}">{{ p.title }}</a></li>
+			{% endfor %}
+			</ul>
+		</aside>
+	</div>
+</section>
+
+<section class="sec sec--surface sec--line" aria-labelledby="reportes-h">
+	<div class="wrap">
+		<div class="sec-head"><div><h2 id="reportes-h">{{ t.nav_reportes }}</h2><p>{{ t.inicio_reportes }}</p></div><a class="lnk" href="{{ '/reportes/' | relative_url }}">{{ t.todos_reportes }}</a></div>
+		<div class="reps">
+		{% for r in reps limit: 5 %}
+			{% assign rl = r.lang | default: "es" %}{% assign rc = r.report.cover | url_decode %}
+			{% assign en_pdf = false %}{% if rl == "en" %}{% assign u_en = r.url %}{% assign u_es = r.translation %}{% else %}{% assign u_es = r.url %}{% assign u_en = r.translation | default: r.report.pdf_other %}{% if r.translation == nil and r.report.pdf_other %}{% assign en_pdf = true %}{% endif %}{% endif %}
+			<article class="rep">
+				{% if archivos contains rc %}<img src="{{ r.report.cover | relative_url }}" alt="" loading="lazy" width="620" height="877">{% else %}{% include ph.html p=r t=t portada=true %}{% endif %}
+				<span class="meta">{{ r.date | date: "%Y" }} · {% if r.report.series %}{{ t.series[r.report.series] | default: r.report.series }}{% else %}{{ t.reporte }}{% endif %}</span>
+				<h3><a class="rep-a" href="{{ r.url | relative_url }}" lang="{{ rl }}">{{ r.title }}</a></h3>
+				<span class="langs"><a class="chip-lang" href="{{ r.url | relative_url }}" lang="{{ rl }}">{% if r.report.pages %}PDF{% else %}WEB{% endif %}</a>{% if u_es %}<a class="chip-lang{% if rl == 'es' %} is-cur{% endif %}"{% if rl == 'es' %} aria-current="true"{% endif %} href="{{ u_es | relative_url }}" lang="es" hreflang="es" data-cambia-idioma="es">ES</a>{% endif %}{% if u_en %}<a class="chip-lang{% if rl == 'en' %} is-cur{% endif %}"{% if rl == 'en' %} aria-current="true"{% endif %} href="{{ u_en | relative_url }}" lang="en" hreflang="en"{% if en_pdf %} data-idioma-fijo{% else %} data-cambia-idioma="en"{% endif %}>EN</a>{% endif %}</span>
+			</article>
+		{% endfor %}
+		</div>
+	</div>
+</section>
+
+<section class="sec sec--line" aria-labelledby="publicaciones-h">
+	<div class="wrap">
+		<div class="sec-head"><div><h2 id="publicaciones-h">{{ t.nav_publicaciones }}</h2><p>{{ t.inicio_publicaciones }}</p></div>
+			<nav class="tabs" aria-label="{{ t.inicio_tipos }}"><a href="{{ pub_url | relative_url }}">{{ t.todas }}</a>{% assign tipos_tabs = "Comunicado,Análisis,Alerta,Noticia" | split: "," %}{% for k in tipos_tabs %}<a href="{{ pub_url | append: '?tipo=' | append: k | relative_url }}">{{ t.tipos_plural[k] }}</a>{% endfor %}{% if L == "en" %}<a href="{{ pub_url | append: '?idioma=en' | relative_url }}" lang="en" title="Publications available in English">EN</a>{% endif %}</nav>
+		</div>
+		<div class="cards">
+		{% for p in pubs offset: 6 limit: 6 %}
+			{% assign pimg = nil %}{% assign c1 = p.share_image | url_decode %}{% assign c2 = p.image | url_decode %}
+			{% if archivos contains c1 %}{% assign pimg = p.share_image %}{% elsif archivos contains c2 %}{% assign pimg = p.image %}{% endif %}
+			<article class="card">
+				<a href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if pimg %}<img src="{{ pimg | uri_escape | relative_url }}" alt="" loading="lazy" width="1200" height="630">{% else %}{% include ph.html p=p t=t %}{% endif %}</a>
+				<div class="meta"><b class="kind{% if p.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ t.tipos[p.type] | default: p.type }}</b><span>{{ p.date | date: "%Y-%m-%d" }}</span>{% if L == "en" %}{% include chips-idioma.html p=p %}{% endif %}</div>
+				<h3><a href="{{ p.url | relative_url }}" lang="{{ p.lang }}">{{ p.title }}</a></h3>
+			</article>
+		{% endfor %}
+		</div>
+		<p style="margin:36px 0 0"><a class="lnk" href="{{ pub_url | relative_url }}">{{ t.ver_todas }}</a></p>
+	</div>
+</section>
+
+{% capture flecha %}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>{% endcapture %}
+<section class="sec sec--surface sec--line" aria-labelledby="guias-h">
+	<div class="wrap">
+		<div class="sec-head"><div><h2 id="guias-h">{{ t.nav_guias }}</h2><p>{{ t.inicio_guias }}</p></div></div>
+		<div class="tools">
+			<div class="tool">
+				<h3>{{ t.evade_t }}</h3>
+				<p>{{ t.evade_p }}</p>
+				<ul>{% for g in site.bloqueos limit: 4 %}<li><a href="{{ g.url | relative_url }}" lang="es">{{ g.title_short | default: g.title }}{{ flecha }}</a></li>{% endfor %}<li><a href="{{ '/bloqueos/' | relative_url }}">{{ t.guias_todas }}{{ flecha }}</a></li></ul>
+			</div>
+			<div class="tool">
+				<h3>{{ t.mide_t }}</h3>
+				<p>{{ t.mide_p }}</p>
+				<ul><li><a href="{{ '/test/' | relative_url }}">{{ t.prueba_rapida }}{{ flecha }}</a></li><li><a href="{{ '/test-medios/' | relative_url }}">{{ t.prueba_medios }}{{ flecha }}</a></li></ul>
+			</div>
+			<div class="tool">
+				<h3>{{ t.nav_lista }}</h3>
+				<p>{{ t.lista_p }}</p>
+				<ul><li><a href="https://bloqueos.vesinfiltro.org/">bloqueos.vesinfiltro.org<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a></li></ul>
+			</div>
+		</div>
+	</div>
+</section>

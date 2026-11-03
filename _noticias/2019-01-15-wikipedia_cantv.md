@@ -6,7 +6,11 @@ permalink: /noticias/wikipedia_2019-01/
 date:   2019-01-15 6:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-01-18-wikipedia.png
-author: "Andrés Azpúrua"
+authors: "Andrés Azpúrua"
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
+share_image: /res/post_img/generadas/2019-01-15-wikipedia_cantv.jpg # generada
 ---
 
 

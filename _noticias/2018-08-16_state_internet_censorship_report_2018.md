@@ -1,13 +1,26 @@
 ---
-layout: post
+layout: reporte
 title:  The State of Internet Censorship in Venezuela.
-small: A study by Venezuela Inteligente / VEsinFiltro, IPYS Venezuela, and OONI on internet blocks in Venezuela.
+title_short: The State of Internet Censorship in Venezuela
+excerpt_short: A study by Venezuela Inteligente / VEsinFiltro, IPYS Venezuela, and OONI on internet blocks in Venezuela.
 excerpt: English version of a report that highlights media censorship and the goes in depth into how Tor is being blocked. // Versión en inglés del reporte del estado de la censura de internet en Venezuela, destacando la censura de los istios web de medios de comunicación, y un análisis profundo del bloqueo de Tor en Venezuela
 permalink: /noticias/state_of_internet_censorship_2018-08-16/
 date:   2018-08-16 11:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2018-08-16-report.png
-author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
+authors: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Leonid Evdokimov (OONI), Maria Xynou (OONI)"
+type: Reporte
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: en
+report:
+  cover: "/res/reportes/2018-state-of-internet-censorship.jpg"
+  pdf: "/res/The%20State%20of%20Internet%20Censorship%20in%20Venezuela%202018-08-16%20-%20Venezuela%20Inteligente-VEsinFiltro%20OONI%20ipysve.pdf"
+  pages: 24
+  partners: ["IPYS Venezuela", "OONI"]
+credits:
+  - "Photo «No a la censura» (lower left): NoonIcarus, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Censorship_banner_Venezuela_2014.jpg), CC0 1.0."
+  - "Other photos: Andrés Azpúrua."
+share_image: /res/post_img/generadas/2018-08-16_state_internet_censorship_report_2018.jpg # generada
 ---
 
 

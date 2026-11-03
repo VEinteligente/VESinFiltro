@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Voting under cersorship: without access to independent media in Venezuela"
-small:   "Voting under cersorship: without access to independent"
+title_short: "Voting under cersorship: without access to independent"
 excerpt: "More than 40 news page domains blocked during the election campaign"
 permalink: /noticias/2021-election-blocks/
 redirect_from:
@@ -9,6 +9,10 @@ redirect_from:
 date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-11-25/2021-11-25-en-card.png
+type: Análisis
+topics: ["Censura y bloqueos", "Elecciones", "Libertad de expresión"]
+lang: en
+translation: /noticias/2021-bloqueos-elecciones/
 ---
 <p class="cover"><img class="" src="/res/post_img/2021-11-25/2021-11-25-en.png"></p>
 

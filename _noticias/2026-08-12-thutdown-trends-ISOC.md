@@ -6,6 +6,10 @@ permalink: /noticias/2026-08-12-thutdown-trends-ISOC/
 date:   2026-08-12 12:30:00 -0400
 categories: report
 image: /res/post_img/2026-08-12-isoc.jpg
+type: Análisis
+topics: ["Conectividad", "Censura y bloqueos"]
+lang: es
+share_image: /res/post_img/generadas/2026-08-12-thutdown-trends-ISOC.jpg # generada
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-08-12-isoc.jpg"></p>
 

@@ -4,7 +4,7 @@ layout: post
 
 title:  "Digital censorship against the press in Venezuela worsens"
 
-small:  "Censorship against the press worsens"
+title_short: "Censorship against the press worsens"
 
 excerpt: "New blocks against the digital press in Venezuela affecting La Patilla, Caraota Digital, Alberto News among other targeted sites."
 
@@ -17,6 +17,10 @@ categories: bloqueos
 image: /res/post_img/2021-06-04-es.png
 
 # redirect_from:
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: en
+translation: /noticias/2021-06-04_censura_digital/
 ---
 
 In recent days VE sin Filtro has been able to document a significant increase in internet blockages against media outlets, in another attack to freedom of information and the exercise of human rights in the digital environment. The new blocks affect La Patilla and Caraota Digital, Alberto News, which were already blocked.

@@ -1,19 +1,27 @@
 ---
-layout: post
+layout: report
 title: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activistas y usuarios de internet.
-small: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activistas
+title_short: Phishing impulsado por el gobierno de Venezuela pone en riesgo a activistas
 excerpt: El sitio web voluntariosxvenezuela.com, asociado a la oposición venezolana para el registro de voluntarios en la distribución de ayuda humanitaria ha sufrido una campaña de phishing impulsada por el gobierno con DNS injection.
 permalink: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/
 date:   2019-02-15 12:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report.png
-author: "Andrés Azpúrua, Carlos Guerra"
+authors: "Andrés Azpúrua, Carlos Guerra"
+type: Reporte
+report:
+  series: Especial
+  period: ["2019-02"]
+  cover_in_header: false
+topics: ["Ataques digitales"]
+lang: es
+translation: /noticias/Phishing_by_Venezuelan_government_targets_activists/
 ---
 
 ![Cover image](/res/post_img/2019-02-15-report.png)
 
-Este reporte también está publicado [en inglés](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/).  \
-This report is also published [in english](https://vesinfiltro.com/noticias/Phishing_by_Venezuelan_government_targets_activists/)
+Este reporte también está publicado [en inglés](/noticias/Phishing_by_Venezuelan_government_targets_activists/).  \
+This report is also published [in english](/noticias/Phishing_by_Venezuelan_government_targets_activists/)
 
 ### Resumen Ejecutivo
 

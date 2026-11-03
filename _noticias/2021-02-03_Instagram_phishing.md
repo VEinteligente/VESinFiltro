@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Phishing attack targeting Instagram users"
-small:   "Phishing attack targeting Instagram users"
 excerpt: "A network of malicious domains is targeting Instagram users in a phishing campaign"
 permalink: /noticias/2021-02-03/
 date:   2021-02-03 17:10:00 -0400
 categories: phishing
-image:
+image: /res/post_img/generadas/2021-02-03_Instagram_phishing.jpg # generada
+type: Alerta
+topics: ["Ataques digitales"]
+lang: en
+translation: /noticias/2021-02-04/
 ---
 
 At VESinFiltro we have identified a network of domains used to phish Instagram credentials after we provided assistance to one of their victims.

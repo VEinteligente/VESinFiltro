@@ -2,12 +2,16 @@
 
 layout: post
 title:  "Reporte: Restricciones a las herramientas de circunvención en Venezuela"
-small:   "Venezuela restringe herramientas necesarias para evadir la censura"
+title_short: "Venezuela restringe herramientas necesarias para evadir la censura"
 excerpt: "Desde el bloqueo a servidores DNS públicos hasta Tor y VPNs, Venezuela restringe herramientas anti-censura"
 permalink: /noticias/2022-02-07-restriccion-herramientas-circunvencion/
 date:   2022-02-07 18:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-02-07/2022-02-07-es.png
+type: Reporte
+topics: ["Censura y bloqueos"]
+lang: es
+translation: /noticias/2022-02-07-restriction-circumvention-tools/
 ---
 <p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07-es.png"></p>
 
