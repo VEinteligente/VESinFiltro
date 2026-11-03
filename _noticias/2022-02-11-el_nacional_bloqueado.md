@@ -2,12 +2,15 @@
 
 layout: post
 title:  '"Ahora me provoca ir por la página" y bloquearon elnacional.com'
-small:   "Las amanezas contra el portal de El Nacional se materializaron en medio de ola de censura"
-excerpt: "Las amanezas contra el portal de El Nacional se materializaron en medio de ola de censura, luego de perder su sede. "
+excerpt_short: "Las amenazas contra el portal de El Nacional se materializaron en medio de ola de censura"
+excerpt: "Las amenazas contra el portal de El Nacional se materializaron en medio de ola de censura, luego de perder su sede. "
 permalink: /noticias/2022-02-11-el_nacional_bloqueado/
 date:   2022-02-11 11:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-02-11.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2022-02-11.png"></p>
 

@@ -1,0 +1,5 @@
+# One post file name per line (e.g. 2019-03-11-Luis_Carlos_desaparecido.md) to reject its generated image.
+# 2016-04-30 report: its cover (res/reportes/2016-restricciones-elecciones-es.jpg) and share image are 2015-style legacy images made outside this script (see _imagenes/legado/); skip it so --forzar does not overwrite them
+2016-04-30-restricciones-elecciones-2015.md
+# 2014-02-14 recreation of the 2014 home page: its share image is a 2015-style legacy file (see _imagenes/legado/); no generated cover above the recreated page
+2014-02-14-medios-en-venezuela.md

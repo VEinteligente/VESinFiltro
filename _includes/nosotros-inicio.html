@@ -1,0 +1,14 @@
+{% comment %}Not used. The About band that closed the home page until 2026-11-03, kept for later.
+To restore it, add {% include nosotros-inicio.html %} at the end of _includes/inicio.html (needs t = site.data.ui[L]).{% endcomment %}
+<section class="sec on-dark ht" aria-labelledby="nosotros-h">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap nos-home">
+		<div>
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{{ t.nav_nosotros }}</span>
+			<h2 id="nosotros-h">{{ site.data.nosotros.es.titulo }}</h2>
+			<p>{{ site.data.nosotros.es.parrafos[0] }}</p>
+			<a class="lnk" href="{{ '/nosotros/' | relative_url }}">{{ t.mas_nosotros }}</a>
+		</div>
+		<a class="sf-csl" href="https://conexionsegura.org/"><span>{{ t.un_programa_de }}</span><img src="{{ '/res/conexion-segura-y-libre-blanco.png' | relative_url }}" alt="Conexión Segura y Libre" width="185" height="52"></a>
+	</div>
+</section>

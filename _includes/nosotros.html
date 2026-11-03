@@ -1,0 +1,30 @@
+{% comment %}About page body. Text from _data/nosotros.yml (official, verbatim); only labels come from _data/ui.yml.{% endcomment %}
+{% assign L = include.lang | default: "es" %}{% assign t = site.data.ui[L] %}{% assign n = site.data.nosotros[L] %}
+<section class="rep-hero rep-sin-portada on-dark ht nos-hero">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap">
+		<div class="body">
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{{ t.nav_nosotros }}</span>
+			<h1>{{ n.titulo }}</h1>
+			<p class="lede">{{ n.parrafos[0] }}</p>
+			<a class="sf-csl" href="https://conexionsegura.org/"><span>{{ t.un_programa_de }}</span><img src="{{ '/res/conexion-segura-y-libre-blanco.png' | relative_url }}" alt="Conexión Segura y Libre" width="185" height="52"></a>
+		</div>
+	</div>
+</section>
+<section class="sec">
+	<div class="wrap nos-grid">
+		<div class="prose">
+			{% for p in n.parrafos offset: 1 %}<p>{{ p }}</p>
+			{% endfor %}
+		</div>
+		<aside class="nos-aside" aria-label="{{ t.contacto }}">
+			<div><span class="k">{{ t.contacto }}</span><span class="mono">{{ site.email }}</span></div>
+			<div><span class="k">{{ t.redes }}</span>
+				<a href="https://x.com/vesinfiltro">X · @vesinfiltro</a>
+				<a href="https://bsky.app/profile/vesinfiltro.bsky.social">Bluesky · vesinfiltro.bsky.social</a>
+				<a href="https://www.instagram.com/conexion_segura">Instagram · @conexion_segura</a>
+			</div>
+			<div><span class="k">Conexión Segura y Libre</span><a href="https://conexionsegura.org/">conexionsegura.org</a></div>
+		</aside>
+	</div>
+</section>

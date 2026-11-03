@@ -6,6 +6,12 @@ permalink: /noticias/2026-03-06-conatel-carta/
 date:   2026-03-06 14:30:00 -0400
 categories: report
 image: /res/post_img/2026-03-06-conatel-carta/vigilancia-comunicaciones copy 4-3n copy@2x.png
+type: Comunicado
+subtype: Carta abierta
+topics: ["Censura y bloqueos"]
+lang: es
+redirect_from:
+  - "/noticias/2026-03-06-conatel-censura/" # url-historica: solo existió 2026-03-06..2026-03-06 en master, nunca en el sitio actual; candidata a eliminar
 ---
 # Enrique José Quintana Sifontes, nuevo director de CONATEL:
 

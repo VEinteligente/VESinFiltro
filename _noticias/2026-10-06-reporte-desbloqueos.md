@@ -6,6 +6,9 @@ permalink: /noticias/2026-10-06-reporte-desbloqueos/
 date:   2026-10-06 12:00:00 -0400
 categories: report
 image: /res/post_img/2026-10-06/2026-10-06.png
+type: Reporte
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
 ---
 <style>
 /* Key figures strip (look of the stat tiles on bloqueos.vesinfiltro.org). Colours: red = blocked, amber = unblocked on some ISPs, green = unblocked on all. */

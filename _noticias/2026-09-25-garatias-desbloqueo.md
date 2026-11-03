@@ -6,6 +6,9 @@ permalink: /noticias/2026-09-25-garatias-desbloqueo/
 date:   2026-09-25 08:30:00 -0400
 categories: report
 image: /res/post_img/2026-09-25/2026-09-25a.png
+type: Comunicado
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-25/cover.png"></p>
 

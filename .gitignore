@@ -79,3 +79,6 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 *.lnk
+
+### Generated images (rediseño)
+_imagenes/build/

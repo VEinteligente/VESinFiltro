@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Plataformas del dólar paralelo quedan en silencio"
-small: "Desde mayo, diversas plataformas han dejado de publicar tasas de cambio alternativas, con bloqueos y restricciones aplicadas por autoridades venezolanas."
+excerpt_short: "Desde mayo, diversas plataformas han dejado de publicar tasas de cambio alternativas, con bloqueos y restricciones aplicadas por autoridades venezolanas."
 excerpt: "Desde el 20 de mayo, múltiples plataformas digitales han modificado su comportamiento y han dejado de publicar tasas de cambio distintas a las establecidas por el Banco Central de Venezuela (BCV). Durante este periodo, se han bloqueado páginas web, eliminado cuentas en redes sociales y restringido aplicaciones financieras."
 permalink: /noticias/2025-06-05-plataforma-tasa-cambio/
 date: 2025-06-05 13:20:00 -0400
 categories: reporte
 image: /res/post_img/2025-06-05/social.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-06-05/cover.png"></p>
 Desde el pasado 20 de mayo, al menos 50 plataformas digitales, incluyendo aplicaciones móviles, sitios web, cuentas de redes sociales y grupos de mensajería, han modificado su comportamiento y no han vuelto a publicar tasas de cambio diferentes a la fijada por el Banco Central de Venezuela (BCV).

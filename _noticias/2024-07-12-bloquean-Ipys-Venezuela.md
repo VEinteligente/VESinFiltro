@@ -1,12 +1,14 @@
 ---
 layout: post
 title: "Bloquean el sitio web de Ipys Venezuela"
-small: "Bloquean el sitio web de Ipys Venezuela"
 excerpt: ""
 permalink: /noticias/2024-07-12-bloquean-Ipys-Venezuela/
 date: 2024-07-12 17:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-07-12-ipys.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
 ---
 ![](/res/post_img/2024-07-12-ipys.png)
 Bloquean el sitio web de Ipys Venezuela

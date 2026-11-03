@@ -1,0 +1,2 @@
+{% comment %}Image credits for a post or report: set `creditos:` in front matter, as one line or a list.{% endcomment %}
+{% if page.credits %}<footer class="creditos"><span class="k">{{ include.t.creditos }}</span>{% if page.credits.first %}<ul>{% for c in page.credits %}<li>{{ c | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}</ul>{% else %}<p>{{ page.credits | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}</footer>{% endif %}

@@ -1,0 +1,22 @@
+{
+  "_ayuda": "Per-post design choices for generar.py. Keys are post file names. plantilla: texto (default) | bloqueo | reporte | original. fondo: glifos | datos | abstracto | puntos | foto. foto/ficha/inserto/portada are site paths; recorte is [x, y, w, h] in source pixels. variantes renders alternatives as <stem>--b.jpg, <stem>--c.jpg; the first one is the one the post uses.",
+  "2017-05-26_comunicado_publico.md": {"variantes": [{"fondo": "foto", "foto": "/_imagenes/recursos/censorship-banner-venezuela-2014.jpg", "foto_pos": "center"}, {"fondo": "abstracto"}]},
+  "2017_bloqueos_abril.md": {"extracto": true},
+  "2018-06-26_bloqueeo_de_Tor copy.md": {"plantilla": "bloqueo", "sitio": "Red Tor", "desde": "2018-06-20", "isps": ["CANTV"], "logo": "/_imagenes/recursos/tor-logo-2011.svg", "logo_pie": "Logo de torproject.org, captura del 19 jun 2018 · web.archive.org", "dominio": "torproject.org", "metodo": "Bloqueo mixto", "solo_logo": true},
+  "2018-08-16_state_internet_censorship_report_2018.md": {"plantilla": "original", "original": "/res/post_img/2018-08-16-report.png"},
+  "2019-01-15-wikipedia_cantv.md": {"plantilla": "bloqueo", "sitio": "Wikipedia", "desde": "2019-01-12", "hasta": "2019-01-18", "isps": ["CANTV"], "captura": "https://es.wikipedia.org/wiki/Wikipedia:Portada", "dominio": "es.wikipedia.org", "metodo": "Bloqueo HTTP · filtrado de SNI"},
+  "2019-01-29-report-2019-january.md": {"fondo": "datos"},
+  "2019-03-24-antena3_cantv.md": {"plantilla": "bloqueo", "sitio": "Antena 3 Internacional", "desde": "2019-03-24", "isps": ["CANTV"], "captura": "https://www.antena3internacional.com/", "dominio": "antena3internacional.com", "metodo": "Bloqueo HTTP · filtrado de SNI"},
+  "2023-09-15-2022-2023-report.md": {"plantilla": "reporte", "portada": "/res/reportes/2022-2023-sin-derechos-es.jpg", "colores": ["#ffffff", "#1a1a1a", "#e6007e"], "antetitulo": "Adelanto", "titulo": "Sin derechos en #internetVE: 2022-2023"},
+  "2023-12-14-report-en-2022-2023.md": {"plantilla": "reporte", "portada": "/res/reportes/2022-2023-no-rights-en.jpg", "colores": ["#ffffff", "#1a1a1a", "#e6007e"], "arte": ["/_imagenes/recursos/2022-2023-en-titulo.png", "/_imagenes/recursos/2022-2023-en-anio.png"]},
+  "2025-censorship-report.md": {"plantilla": "reporte", "portada": "/res/reportes/2025-censored-network-en.jpg", "colores": ["#050505", "#e9e6e3", "#e5383b"]},
+  "2024-07-22-tal-cual.md": {"plantilla": "bloqueo", "sitio": "Medianálisis, Analítica, Tal Cual, El Estímulo, Runrunes y VE sin Filtro", "desde": "2024-07-22", "isps": ["CANTV", "Movistar", "Digitel", "Inter", "NetUno"], "sitios": ["Medianálisis", "Analítica", "Tal Cual", "El Estímulo", "Runrunes", "VE sin Filtro"]},
+  "2025-06-27-dia-periodista.md": {"usar_original": true},
+  "2025-10-22-nuevo_sistema_vigilancia_venapp.md": {"fondo": "foto", "foto": "/res/post_img/2025-10-22.png", "recorte": [1950, 300, 1344, 1600], "foto_pos": "right", "enfasis": ["sistema de vigilancia"]},
+  "2026-08-12-thutdown-trends-ISOC.md": {"fondo": "foto", "foto": "/res/post_img/2026-08-12-isoc.jpg", "recorte": [0, 0, 1080, 470], "foto_pos": "toma"},
+  "2026-09-01-ManifiestoLibertadExpresion.md": {"fondo": "foto", "foto": "/res/post_img/2026-09-01/libertadExpresion .jpg", "recorte": [300, 0, 1000, 1057], "foto_pos": "right", "foto_dx": 80, "foto_w": 840},
+  "2021-02-03_Instagram_phishing.md": {"fondo": "puntos"},
+  "2021-02-03_Instagram_phishing-es.md": {"fondo": "puntos"},
+  "2021-12-16_revision_ilegal_equipos.md": {"plantilla": "recorte", "original": "/res/post_img/2021-12-16.png", "recorte": [0, 150, 1600, 842]},
+  "2017-08-03-lacigf10.md": {}
+}

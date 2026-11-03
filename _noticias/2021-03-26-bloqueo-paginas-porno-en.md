@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Several pornographic sites blocked again in Venezuela"
-small:   "Porn sites blocked again in Venezuela"
+title_short: "Porn sites blocked again in Venezuela"
 excerpt: "Blocked six pornographic websites in CANTV, Movistar, Digitel, NetUno, Supercable and Inter"
 permalink: /noticias/2021-03-26-block-adult-sites/
 date:   2021-03-30 19:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-03-31-en.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: en
+translation: /noticias/2021-03-26-bloqueo-sitios-adultos/
 ---
 
 *Six major pornographic websites have been blocked by at least one mayor ISPs in recent days,* including some of the most well-known international sites of this content. The state-owned ISP, CANTV blocked all six, while all other providers checked started blocking at least one of them. This is not the first time that adult content has been censored in Venezuela, most notably in the state ISP several porn sites had been blocked in the past, to then be unblocked and briefly again in October 2020.

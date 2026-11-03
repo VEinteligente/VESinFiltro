@@ -1,13 +1,18 @@
 ---
 layout: post
 title: "Venezuela bloquea las noticias y a los medios en internet"
-small: "Venezuela bloquea las noticias en internet"
+title_short: "Venezuela bloquea las noticias en internet"
 excerpt: "Durante el Día de la Libertad de Prensa observamos cómo el Gobierno de Nicolás Maduro ha enfocado la extensiva censura en internet para bloquear noticias y entorpecer el acceso a la información"
 permalink: /noticias/venezuela_bloquea_las_noticias-2019-05/
 date:   2019-05-03 12:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-05-03-reporte.png
-author: "Andrés Azpúrua"
+authors: "Andrés Azpúrua"
+type: Análisis
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
+redirect_from:
+  - "/noticias/venezuela_bloquea_las_noticias/" # url-historica: solo existió 2019-05-03..2019-05-03 en master, nunca en el sitio actual; candidata a eliminar
 ---
 
 ![](/res/post_img/2019-05-03-reporte.png)

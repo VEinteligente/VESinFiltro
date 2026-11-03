@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
-small:  "From the blocking of Wikipedia to Social Media: Venezuela's Political Crisis"
 excerpt: As political tension escalated in Venezuela over the last few weeks, so did internet censorship. Including the bloking of Wikipedia, Twitter, Facebook, Instagram and youtube.
 permalink: /noticias/report-jan-2019/
 date: 2019-01-29 10:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-01-21-RRSS.png
-author: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
+authors: "Andrés Azpúrua (Venezuela Inteligente / VEsinFiltro), Mariengracia Chirinos (IPYS Venezuela), Arturo Filastò (OONI), Maria Xynou (OONI), Simone Basso (OONI), Kanishk Karan (Digital Forensic Research Lab)"
+type: Reporte
+topics: ["Censura y bloqueos"]
+lang: en
+share_image: /res/post_img/generadas/2019-01-29-report-2019-january.jpg # generada
 ---
 #### Joint report by [OONI](http://ooni.torproject.org), [VE sin Filtro](http://vesinfiltro.com), [IPYS Venezuela](http://ipysvenezuela.org) and DFRlab.
 

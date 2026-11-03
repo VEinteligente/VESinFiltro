@@ -7,6 +7,9 @@ date:   2025-03-12 05:00:00 -0400
 categories: comunicado
 image: /res/post_img/2025-03-12/rrss.png
 
+type: Comunicado
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 <p class="cover"><img alt="Día internacional contra la censura en internet" src="/res/post_img/2025-03-12/post.png"></p>

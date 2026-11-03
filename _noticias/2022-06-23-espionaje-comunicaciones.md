@@ -1,12 +1,17 @@
 ---
 layout: post
 title:  "El gobierno de Venezuela espía de forma masiva las comunicaciones privadas en el país"
-small:   "El gobierno de Venezuela espía de forma masiva las comunicaciones privadas en el país"
 excerpt: "La empresa Telefónica en su informe de transparencia anual revela que el estado Venezolano intercepta masivamente las comunicaciones de los usuarios de Movistar"
 permalink: /noticias/2022-06-23-espionaje-comunicaciones/
 date:   2022-06-22 18:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-06-23.png
+type: Análisis
+topics: ["Vigilancia"]
+lang: es
+translation: /noticias/venezuela-communications-spying/
+redirect_from:
+  - "/noticias/2022-06-23-vigilancia-comunicaciones/" # url-historica: solo existió 2022-06-22..2022-06-22 en master, nunca en el sitio actual; candidata a eliminar
 ---
 
 <p class="cover"><img class="" src="/res/post_img/2022-06-23.png"></p>

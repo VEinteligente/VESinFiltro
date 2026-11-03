@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Prueba rápida de internet
 permalink: /test/
 image: /res/TWcard.png

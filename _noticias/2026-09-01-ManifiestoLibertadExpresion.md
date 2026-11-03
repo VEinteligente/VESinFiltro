@@ -6,6 +6,10 @@ permalink: /noticias/2026-09-01-ManifiestoLibertadExpresion/
 date:   2026-09-01 05:30:00 -0400
 categories: report
 image: /res/post_img/2026-09-01/libertadExpresion .jpg
+type: Comunicado
+topics: ["Libertad de expresión", "Censura y bloqueos"]
+lang: es
+share_image: /res/post_img/generadas/2026-09-01-ManifiestoLibertadExpresion.jpg # generada
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-01/libertadExpresion .jpg"></p>
 

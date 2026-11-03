@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "14 meses con un mismo patrón de control y censura digital en contextos electorales "
-small: "Venezuela ha intensificado la censura digital en los últimos 14 meses, bloqueando medios y persiguiendo voces críticas, especialmente durante tres procesos electorales."
+excerpt_short: "Venezuela ha intensificado la censura digital en los últimos 14 meses, bloqueando medios y persiguiendo voces críticas, especialmente durante tres procesos electorales."
 excerpt: "La censura en internet y el cierre del espacio cívico digital han marcado de manera muy significativa los últimos 14 meses en Venezuela. En este período, se han celebrado tres procesos electorales -presidenciales (28 de julio de 2024), regionales y legislativos (25 de mayo de 2025), y municipales (27 de julio de 2025)- y el acceso a la información libre y plural ha sido cada vez más escaso"
 permalink: /noticias/2025-09-02-elecciones/
 date: 2025-09-02 07:30:00 -0400
 categories: reporte
 image: /res/post_img/2025-09-02-elecciones/2025-09-02-elecciones.png
+type: Análisis
+topics: ["Elecciones", "Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-09-02-elecciones/2025-09-02-elecciones.png"></p>
 La censura en internet y el cierre del espacio cívico digital han marcado de manera muy significativa los últimos 14 meses en Venezuela. En este período, se han celebrado tres procesos electorales -presidenciales (28 de julio de 2024), regionales y legislativos (25 de mayo de 2025), y municipales (27 de julio de 2025)- y el acceso a la información libre y plural ha sido cada vez más escaso.

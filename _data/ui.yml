@@ -1,0 +1,220 @@
+# Interface strings by language (page.lang). Types and themes keep their Spanish
+# value in front matter; these maps only change how they read on English pages.
+es:
+  nav_publicaciones: Publicaciones
+  pub_intro: Comunicados, análisis, alertas, noticias y reportes desde 2017. En español y, cuando hay traducción, en inglés.
+  pub_filtrar: Filtrar publicaciones
+  pub_tipo: Tipo
+  pub_tema: Tema
+  pub_idioma: Idioma
+  pub_singular: publicación
+  pub_plural: publicaciones
+  pub_vacio: Ninguna publicación coincide con estos filtros.
+  nav_reportes: Reportes
+  nav_guias: Guías
+  nav_lista: Lista de bloqueos
+  nav_nosotros: Nosotros
+  un_programa_de: Un programa de
+  contacto: Contacto
+  redes: Redes
+  mas_nosotros: Más sobre VE sin Filtro
+  inicio: Inicio
+  inicio_reportes: Investigaciones con evidencia técnica sobre censura, vigilancia, conectividad y derechos digitales. En español e inglés.
+  inicio_publicaciones: Comunicados, análisis, alertas, cartas abiertas y noticias.
+  inicio_guias: Para navegar sin censura y para ayudarnos a medirla.
+  inicio_tipos: Tipos
+  evade_t: Evade los bloqueos
+  evade_p: Guías paso a paso para cambiar tu DNS y usar Tor, OpenVPN y otras herramientas.
+  guias_todas: Todas las guías
+  mide_t: Mide con OONI
+  mide_p: "Corre una prueba desde tu conexión: tus mediciones confirman bloqueos y desbloqueos."
+  prueba_rapida: Prueba rápida de internet
+  prueba_medios: Prueba de medios de comunicación
+  lista_p: Qué sitios están bloqueados hoy en cada proveedor de internet, y con qué técnica.
+  portada_de: "Portada:"
+  menu: Menú
+  otro_idioma: English
+  lo_mas_reciente: Lo más reciente
+  mas_recientes: Más recientes
+  todas: Todas
+  todos: Todos
+  ver_todas: Todas las publicaciones
+  publicado_por: Publicado por
+  por: Por
+  y_sep: " y "
+  creditos: Créditos de las imágenes
+  lectura: Lectura
+  minutos: min
+  compartir: Compartir
+  copiar_enlace: Copiar enlace
+  copiado: Enlace copiado
+  traduccion: Read in English
+  traduccion_lang: en
+  disponible_en: "Disponible en:"
+  aviso_idioma: Esta publicación también está disponible en español.
+  aviso_leer: Leer en español
+  aviso_pagina: Esta página también está disponible en español.
+  cerrar: Cerrar
+  en_esta: En esta publicación
+  relacionado: Relacionado
+  reporte: Reporte
+  autores: Autores
+  con: Con
+  periodo: Período
+  meses: [enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre]
+  formato: Formato
+  publicado: Publicado
+  paginas: págs.
+  web: Web
+  descargar_pdf: Descargar PDF
+  imprimir: Imprimir o guardar PDF
+  pdf_otro: Download PDF (English)
+  leer_en: Read in English
+  ver_completo: Ver el reporte completo
+  adelanto: Adelanto
+  contenido: Contenido
+  en_este_reporte: En este reporte
+  como_citar: Cómo citar
+  copiar_cita: Copiar cita
+  cita_copiada: Cita copiada
+  descargas: Descargas
+  otros_reportes: Otros reportes
+  todos_reportes: Todos los reportes
+  idiomas: Idiomas
+  leer: Leer
+  y: y
+  tipos:
+    Alerta: Alerta
+    Comunicado: Comunicado
+    Análisis: Análisis
+    Carta abierta: Carta abierta
+    Noticia: Noticia
+    Reporte: Reporte
+    Guía: Guía
+  tipos_plural:
+    Alerta: Alertas
+    Comunicado: Comunicados
+    Análisis: Análisis
+    Carta abierta: Cartas abiertas
+    Noticia: Noticias
+    Reporte: Reportes
+    Guía: Guías
+  temas:
+    Censura y bloqueos: Censura y bloqueos
+    Vigilancia: Vigilancia
+    Ataques digitales: Ataques digitales
+    Datos personales: Datos personales
+    Conectividad: Conectividad
+    Libertad de expresión: Libertad de expresión
+    Elecciones: Elecciones
+  series:
+    Informe anual: Informe anual
+en:
+  nav_publicaciones: Publications
+  pub_intro: Statements, analysis, alerts, news and reports since 2017, in Spanish and, when there is a translation, in English. Filters start on all languages.
+  pub_filtrar: Filter publications
+  pub_tipo: Type
+  pub_tema: Theme
+  pub_idioma: Language
+  pub_singular: publication
+  pub_plural: publications
+  pub_vacio: No publication matches these filters.
+  nav_reportes: Reports
+  nav_guias: Guides
+  nav_lista: Block list
+  nav_nosotros: About
+  un_programa_de: A programme of
+  contacto: Contact
+  redes: Social media
+  mas_nosotros: More about VE sin Filtro
+  inicio: Home
+  inicio_reportes: Research with technical evidence on censorship, surveillance, connectivity and digital rights. In Spanish and English.
+  inicio_publicaciones: Statements, analysis, alerts, open letters and news.
+  inicio_guias: To browse without censorship and to help us measure it.
+  inicio_tipos: Types
+  evade_t: Get around blocks
+  evade_p: Step-by-step guides (in Spanish) to change your DNS and use Tor, OpenVPN and other tools.
+  guias_todas: All guides
+  mide_t: Measure with OONI
+  mide_p: "Run a test from your connection: your measurements confirm blocks and unblocks."
+  prueba_rapida: Quick internet test
+  prueba_medios: News media test
+  lista_p: Which sites are blocked today on each internet provider, and with which technique.
+  portada_de: "Cover:"
+  menu: Menu
+  otro_idioma: Español
+  lo_mas_reciente: Latest
+  mas_recientes: Recent
+  todas: All
+  todos: All
+  ver_todas: All publications
+  publicado_por: Published by
+  por: By
+  y_sep: " and "
+  creditos: Image credits
+  lectura: Reading time
+  minutos: min
+  compartir: Share
+  copiar_enlace: Copy link
+  copiado: Link copied
+  traduccion: Leer en español
+  traduccion_lang: es
+  disponible_en: "Available in:"
+  aviso_idioma: This publication is also available in English.
+  aviso_leer: Read in English
+  aviso_pagina: This page is also available in English.
+  cerrar: Close
+  en_esta: In this post
+  relacionado: Related
+  reporte: Report
+  autores: Authors
+  con: With
+  periodo: Period
+  meses: [January, February, March, April, May, June, July, August, September, October, November, December]
+  formato: Format
+  publicado: Published
+  paginas: pp.
+  web: Web
+  descargar_pdf: Download PDF
+  imprimir: Print or save as PDF
+  pdf_otro: Descargar PDF (español)
+  leer_en: Leer en español
+  ver_completo: Read the full report
+  adelanto: Preview
+  contenido: Contents
+  en_este_reporte: In this report
+  como_citar: How to cite
+  copiar_cita: Copy citation
+  cita_copiada: Citation copied
+  descargas: Downloads
+  otros_reportes: Other reports
+  todos_reportes: All reports
+  idiomas: Languages
+  leer: Read
+  y: and
+  tipos:
+    Alerta: Alert
+    Comunicado: Statement
+    Análisis: Analysis
+    Carta abierta: Open letter
+    Noticia: News
+    Reporte: Report
+    Guía: Guide
+  tipos_plural:
+    Alerta: Alerts
+    Comunicado: Statements
+    Análisis: Analysis
+    Carta abierta: Open letters
+    Noticia: News
+    Reporte: Reports
+    Guía: Guides
+  temas:
+    Censura y bloqueos: Censorship and blocking
+    Vigilancia: Surveillance
+    Ataques digitales: Digital attacks
+    Datos personales: Personal data
+    Conectividad: Connectivity
+    Libertad de expresión: Freedom of expression
+    Elecciones: Elections
+  series:
+    Informe anual: Annual report

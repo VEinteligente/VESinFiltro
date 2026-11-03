@@ -2,12 +2,15 @@
 
 layout: post
 title:  "Report: Restrictions to circumvention tools in Venezuela"
-small:   "Venezuela restricts censorship needed anti-censorship tools"
 excerpt: "From blocking public DNS sites, to Tor and VPNs, Venezuela restricts anti-censorship tools"
 permalink: /noticias/2022-02-07-restriction-circumvention-tools/
 date:   2022-02-07 18:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-02-07/2022-02-07.png
+type: Reporte
+topics: ["Censura y bloqueos"]
+lang: en
+translation: /noticias/2022-02-07-restriccion-herramientas-circunvencion/
 ---
 <p class="cover"><img class="" src="/res/post_img/2022-02-07/2022-02-07.png"></p>
 

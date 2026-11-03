@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{% assign L = page.lang | default: "es" %}{% assign t = site.data.ui[L] %}
+{% assign r = page.report %}
+{% comment %}cover_in_header: false keeps report.cover for lists and thumbnails but lays out the header as if there were no cover{% endcomment %}
+{% assign portada_cabecera = r.cover %}{% if r.cover_in_header == false %}{% assign portada_cabecera = nil %}{% endif %}
+{% assign serie_l = t.series[r.series] | default: r.series | default: t.reporte %}
+{% comment %}Hero summary: excerpt_short when there is one, else the excerpt, trimmed{% endcomment %}
+{% assign ex = page.excerpt_short | default: page.excerpt | strip_html | normalize_whitespace | strip | truncatewords: 60 %}
+{% assign h1 = page.title | remove_first: "Reporte: " | remove_first: "Report: " %}
+{% assign year = page.date | date: "%Y" %}
+<section class="rep-hero on-dark ht{% unless portada_cabecera %} rep-sin-portada{% endunless %}">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap">
+		{% if portada_cabecera %}<img class="cover" src="{{ r.cover | relative_url }}" alt="{% if L == 'en' %}Cover{% else %}Portada{% endif %}: {{ page.title }}" width="620" height="877">{% endif %}
+		<div class="body">
+			<nav class="crumbs" aria-label="Ruta" style="color:var(--dsec)"><a href="{{ '/reportes/' | relative_url }}" style="color:var(--dsec)">{{ t.nav_reportes }}</a><span aria-hidden="true">/</span><span>{{ serie_l }}</span></nav>
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{% if r.full_report %}{{ t.adelanto }}{% else %}{{ t.reporte }}{% endif %} · {{ serie_l }} · {{ page.date | date: "%Y-%m-%d" }}</span>
+			<h1>{{ h1 }}</h1>
+			{% if ex != "" %}<p class="lede">{{ ex }}</p>{% endif %}
+			<dl class="rep-meta">
+				{% if page.authors %}<dt>{{ t.autores }}</dt><dd>{% include names.html v=page.authors t=t %}</dd>{% endif %}
+				{% if r.partners %}<dt>{{ t.con }}</dt><dd>{% include names.html v=r.partners t=t %}</dd>{% endif %}
+				{% if r.period %}<dt>{{ t.periodo }}</dt><dd>{% include periodo.html v=r.period t=t %}</dd>{% endif %}
+				<dt>{{ t.formato }}</dt><dd style="font-family:var(--mono)">{% if r.pdf %}PDF{% else %}{{ t.web }}{% endif %}</dd>
+				<dt>{{ t.idiomas }}</dt><dd style="font-family:var(--mono)">{% if page.translation or r.pdf_other %}ES · EN{% elsif L == "en" %}EN{% else %}ES{% endif %}</dd>
+			</dl>
+			<div class="rep-btns">
+				{% if r.full_report %}<a class="btn btn--solid" href="{{ r.full_report | relative_url }}">{{ t.ver_completo }}</a>{% endif %}
+				{% if r.pdf %}<a class="btn {% unless r.full_report %}btn--solid{% endunless %}" href="{{ r.pdf | relative_url }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M7 11l5 5l5-5"/><path d="M12 4l0 12"/></svg>{{ t.descargar_pdf }}</a>{% endif %}
+				{% if r.pdf_other %}<a class="btn" href="{{ r.pdf_other | relative_url }}" lang="{{ t.traduccion_lang }}">{{ t.pdf_otro }}</a>{% endif %}
+				{% if page.translation %}<a class="btn" href="{{ page.translation | relative_url }}" lang="{{ t.traduccion_lang }}" data-cambia-idioma="{{ t.traduccion_lang }}">{{ t.leer_en }}</a>{% endif %}
+				{% unless r.pdf %}<button type="button" class="btn" data-print>{{ t.imprimir }}</button>{% endunless %}
+			</div>
+		</div>
+	</div>
+</section>
+<div class="wrap rp-grid">
+	<article class="prose post-content rp-body">
+		{{ content }}
+		{% include creditos.html t=t %}
+	</article>
+	<aside class="rp-side">
+		{% if r.contents %}
+		<div class="box"><h2>{{ t.contenido }}{% if r.pages %} · PDF{% endif %}</h2><ol class="toc">{% for c in r.contents %}<li><span>{{ c[0] }}</span><span>{{ c[1] }}</span></li>{% endfor %}</ol></div>
+		{% else %}
+		<nav class="box rp-toc post-toc" aria-label="{{ t.en_este_reporte }}" hidden><h2>{{ t.en_este_reporte }}</h2><div></div></nav>
+		{% endif %}
+		{% comment %}Authors without their affiliations in brackets, title without a final period, partners joined in the page's language.{% endcomment %}
+		{% capture lista_autores %}{% if page.authors %}{% include names.html v=page.authors t=t short=true %}{% else %}VE sin Filtro{% endif %}{% endcapture %}
+		{% assign titulo_cita = h1 | strip %}{% assign ultimo = titulo_cita | slice: -1, 1 %}{% if ultimo == "." %}{% assign largo = titulo_cita | size | minus: 1 %}{% assign titulo_cita = titulo_cita | slice: 0, largo %}{% endif %}
+		{% capture cita %}{{ lista_autores | strip }} ({{ year }}). {{ titulo_cita }}.{% capture socios %}{% if r.partners %}{% include names.html v=r.partners t=t %}{% endif %}{% endcapture %}{% if page.authors %} VE sin Filtro{% if r.partners %}, {{ socios | strip }}{% endif %}.{% elsif r.partners %} {{ socios | strip }}.{% endif %} {{ page.url | absolute_url }}{% endcapture %}
+		<div class="box"><h2>{{ t.como_citar }}</h2><p class="cite">{{ cita }}</p><button type="button" class="copy" data-copy="{{ cita | strip | escape }}" data-done="{{ t.cita_copiada }}">{{ t.copiar_cita }}</button></div>
+		{% if r.pdf or r.pdf_other %}
+		<div class="box"><h2>{{ t.descargas }}</h2><ul class="dl">
+			{% if r.pdf %}<li><a href="{{ r.pdf | relative_url }}"><span>{% if L == "en" %}English{% else %}Español{% endif %}</span><small>PDF</small></a></li>{% endif %}
+			{% if r.pdf_other %}<li><a href="{{ r.pdf_other | relative_url }}" lang="{{ t.traduccion_lang }}"><span>{% if L == "en" %}Español{% else %}English{% endif %}</span><small>PDF</small></a></li>{% endif %}
+		</ul></div>
+		{% endif %}
+		{% if page.topics.size > 0 %}<div class="temas">{% for tm in page.topics %}<a class="tema" href="{{ '/publicaciones/?tema=' | append: tm | relative_url }}">{{ t.temas[tm] | default: tm }}</a>{% endfor %}</div>{% endif %}
+	</aside>
+</div>
+{% assign otros = site.noticias | where: "layout", "reporte" | where: "lang", L | where_exp: "p", "p.report.full_report == nil" | reverse %}
+<section class="sec sec--surface sec--line rp-otros">
+	<div class="wrap">
+		<div class="sec-head"><h2>{{ t.otros_reportes }}</h2><a class="lnk" href="{{ '/reportes/' | relative_url }}">{{ t.todos_reportes }}</a></div>
+		<div class="reps">
+		{% assign n = 0 %}
+		{% for o in otros %}{% if o.url == page.url or o.url == r.full_report %}{% continue %}{% endif %}{% if n >= 5 %}{% break %}{% endif %}
+			<article class="rep"><a href="{{ o.url | relative_url }}"><img src="{{ o.report.cover | relative_url }}" alt="{% if L == 'en' %}Cover{% else %}Portada{% endif %}: {{ o.title }}" loading="lazy" width="620" height="877"></a><span class="meta">{{ o.date | date: "%Y" }} · {{ t.series[o.report.series] | default: o.report.series | default: t.reporte }}</span><h3><a href="{{ o.url | relative_url }}">{{ o.title }}</a></h3></article>
+			{% assign n = n | plus: 1 %}
+		{% endfor %}
+		</div>
+	</div>
+</section>
+{% include page-scripts.html %}

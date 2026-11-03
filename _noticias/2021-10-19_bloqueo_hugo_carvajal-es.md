@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Bloquean página web de Hugo 'El Pollo' Carvajal pocos días después de su re-lanzamiento"
-small:   "Bloquean página web de Hugo Carvajal"
+title_short: "Bloquean página web de Hugo Carvajal"
 excerpt: "Bloquean página web de Hugo 'El Pollo' Carvajal en varios proveedores de internet apenas dos días después de su re-lanzamiento"
 permalink: /noticias/2021-10-19_bloqueo_hugo_carvajal/
 date:  2021-10-19 20:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-10-19-b-es.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 ![](/res/post_img/2021-10-19-b-es.png)

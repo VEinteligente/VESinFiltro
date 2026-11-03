@@ -1,0 +1,40 @@
+# Front matter fields for posts (_noticias) and what each one is for.
+# Field names are in English; values (types, topics, series) stay in Spanish and are translated through _data/ui.yml.
+
+text:
+  title: Title as published. Never edited; it is part of the article.
+  title_short: Optional short title, about 70 characters at most. Share title and tight spaces; falls back to title.
+  excerpt: The summary, one or two sentences in the page's language. Lists, report header, share description.
+  excerpt_short: Optional shorter summary, about 200 characters. Wins over excerpt where space is short.
+  pretitle: Legacy line above the title; kept for the two posts that have it.
+
+people:
+  authors: A string ("Ana, Luis") or a list. "Name (Organisation)" is fine; citations drop the brackets. Default is VE sin Filtro.
+
+classification:
+  type: Comunicado | Análisis | Alerta | Noticia | Reporte | Guía
+  subtype: Optional and not shown to readers (Carta abierta). Adds a subtype-… class for styling.
+  topics: Up to three, from the list in publicaciones.html.
+  lang: es | en
+  translation: URL of the same post in the other language. Also drives the reader-language switch (_includes/idioma.html, option C) and the notice (_includes/aviso-idioma.html).
+  categories: Legacy; kept, not used by the design.
+
+images:
+  image: The post's own image, as published.
+  image_alt: Text describing the shared image.
+  share_image: Social card when image crops badly. Lines made by _imagenes/generar.py end in "# generada".
+  credits: A string or a list of image credits, shown at the end of the post.
+  list_image: Optional image for the /publicaciones/ list, instead of the report cover or share image (for example a report's horizontal share card). /reportes/ still shows report.cover.
+  precedence: Report header uses report.cover; social uses share_image, then image; list thumbnails use list_image, then report.cover, then share_image, then image.
+
+report:  # only with layout: reporte
+  series: Informe anual | Especial | Política tecnológica | Estudio
+  cover: Cover image (the PDF's first page, or a generated one for web reports).
+  cover_in_header: Optional, false to leave the cover out of the report page header (full-width header) while lists and thumbnails still use it.
+  pdf: The report's PDF. Without it the page offers printing instead.
+  pdf_other: The PDF in the other language.
+  pages: Page count of the PDF.
+  partners: A string or a list of organisations, joined in the page's language.
+  period: Optional study period, ["YYYY-MM", "YYYY-MM"] (a year alone also works). Shown in the report header with month names in the page's language; leave it out and the header has no period.
+  contents: List of [chapter, page] taken from the PDF.
+  full_report: On a preview post, URL of the full report.

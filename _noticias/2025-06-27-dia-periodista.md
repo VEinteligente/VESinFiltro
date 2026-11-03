@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "VEsinFiltro denuncia escalada de violencia digital contra periodistas venezolanos"
-small: "VE sin Filtro destaca el aumento de ataques digitales contra periodistas en Venezuela, incluyendo hackeos, acoso y judicialización por contenido en redes sociales. Las autoridades están responsabilizando a los periodistas por comentarios de terceros, poniendo en riesgo la libertad de expresión. VE sin Filtro pide protección y medidas de autoprotección para los periodistas."
+excerpt_short: "VE sin Filtro destaca el aumento de ataques digitales contra periodistas en Venezuela, incluyendo hackeos, acoso y judicialización por contenido en redes sociales. Las autoridades están responsabilizando a los periodistas por comentarios de terceros, poniendo en riesgo la libertad de expresión. VE sin Filtro pide protección y medidas de autoprotección para los periodistas."
 excerpt: "Uno de los patrones más alarmantes identificados es la judicialización de periodistas por el contenido que publican en sus redes sociales, incluso cuando estos materiales son parte de su cobertura informativa. Pero la situación se agrava: en los últimos meses hemos documentado casos donde periodistas han sido citados a declarar o judicializados por los comentarios que terceras personas realizan en sus publicaciones."
 permalink: /noticias/2025-06-27-dia-periodista/
 date: 2025-06-27 08:30:00 -0400
 categories: reporte
 image: /res/post_img/2025-06-27-periodistal.jpeg
+type: Comunicado
+topics: ["Libertad de expresión", "Ataques digitales"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-06-27-periodistal.jpeg"></p>
 

@@ -5,11 +5,16 @@ excerpt: "La Ley contra el Odio de 2017 ha permitido imponer hasta 20 años de c
 permalink: /noticias/2026-10-28-ley-contra-el-odio/
 date:   2026-10-28 08:00:00 -0400
 categories: libertad-de-expresion
-author: "Luis Carlos Díaz, VE sin Filtro y Conexión Segura y Libre"
+authors: "Luis Carlos Díaz, VE sin Filtro y Conexión Segura y Libre"
 image: /res/post_img/2026-10-28/share.png
 image_alt: "Criticar al Gobierno no es un delito de odio. Lo que necesitamos saber sobre libertad de expresión y la Ley contra el Odio. Alrededor, mensajes de chat: «Este gobierno debe salir del poder», «Ese ministro es un corrupto», «Vecinos, otra semana sin gas. Protestemos el lunes», «Nunca votaría por ese partido», un meme del presidente y «Que investiguen y juzguen a los responsables». VE sin Filtro y Conexión Segura y Libre"
 image_width: 3200
 image_height: 1800
+type: Análisis
+topics: ["Libertad de expresión"]
+lang: es
+design: image-first
+cover: /res/post_img/2026-10-28/cover.png
 ---
 <p class="cover"><img alt="Criticar al Gobierno no es un delito de odio. Lo que necesitamos saber sobre libertad de expresión y la Ley contra el Odio. Alrededor, mensajes de chat: «Este gobierno debe salir del poder», «Ese ministro es un corrupto», «Vecinos, otra semana sin gas. Protestemos el lunes», «Nunca votaría por ese partido», un meme del presidente y «Que investiguen y juzguen a los responsables». VE sin Filtro y Conexión Segura y Libre" src="/res/post_img/2026-10-28/cover.png"></p>
 
