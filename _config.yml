@@ -36,3 +36,9 @@ plugins:
 
 
 paginate: 5
+
+# Files kept in the repo but not published
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
