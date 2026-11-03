@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reporte
 title: "Reporte: Los vigilantes en la mira: tecnologías para el control político en Venezuela"
 excerpt: "En Venezuela, la infraestructura de vigilancia opera como un sistema de control autoritario de amplio alcance que trasciende tecnologías individuales y actores institucionales, incluso luego del 3 de enero de 2026. Reporte de VEsinFiltro y Atlantic Council"
 permalink: /noticias/vigilantes-en-la-mira/
@@ -9,12 +9,36 @@ image: /res/post_img/2026-03-26/post_img2.png
 image_alt: "Portada del reporte Los vigilantes en la mira: tecnologias para el control politico en Venezuela"
 image_width: 2400
 image_height: 1200
-author: "Andrés Azpúrua, Iria Puyosa"
+authors: "Andrés Azpúrua, Iria Puyosa"
 redirect_from:
+  - "/noticias/2026-03-26-vigilantes-en-la-mira/" # url-historica: solo existió 2026-03-27..2026-03-27 en master, nunca en el sitio actual; candidata a eliminar
   - /vigilantes/
   - /vigilantes
   - /watch2026
   - /watch2026/
+type: Reporte
+topics: ["Vigilancia", "Ataques digitales", "Datos personales"]
+lang: es
+report:
+  cover: "/res/reportes/2026-vigilantes-en-la-mira-es.jpg"
+  pdf: "/res/files/VSF-DFRLab-Los_Vigilantes_en_la_Mira.pdf"
+  pages: 74
+  pdf_other: "/res/files/VSF-DFRLab-Watch_the_Watchers.pdf"
+  partners: "DFRLab (Atlantic Council)"
+  contents:
+    - ["Resumen ejecutivo", 4]
+    - ["Introducción", 7]
+    - ["Contexto: Venezuela ante una nueva promesa de democracia", 10]
+    - ["Sistemas de videovigilancia", 12]
+    - ["Vigilancia mediante drones y otros métodos para monitorear el movimiento en espacios públicos", 28]
+    - ["Aplicaciones digitales patrocinadas y administradas por el Estado", 36]
+    - ["Ciberpatrullaje y vigilancia de las redes sociales", 41]
+    - ["Intercepción de telecomunicaciones privadas", 45]
+    - ["Ciberataques, infiltración y software malicioso", 50]
+    - ["Registro e incautación de dispositivos electrónicos", 57]
+    - ["Conclusiones", 61]
+    - ["Recomendaciones", 64]
+    - ["Referencias", 67]
 ---
 
 <p class="cover"><img alt="Los vigilantes en la mira: tecnologías para el control político en Venezuela" src="/res/post_img/2026-03-26/post_heading.png"></p>

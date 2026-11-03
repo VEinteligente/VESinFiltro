@@ -7,6 +7,9 @@ date: 2025-04-30 16:00:00 -0400
 categories: reporte
 image: /res/post_img/2025-04-29/portada.png
 
+type: Alerta
+topics: ["Datos personales"]
+lang: es
 ---
 
 <p class="cover"><img class="" src="/res/post_img/2025-04-29/portada.png"></p>

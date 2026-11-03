@@ -6,6 +6,9 @@ permalink: /noticias/2026-04-20-solicitud-informacion-CONATEL/
 date:   2026-04-20 12:30:00 -0400
 categories: report
 image: /res/post_img/2026-04-20-CONATEL-min.jpg
+type: Noticia
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-04-20-CONATEL.jpg"></p>
 

@@ -3,9 +3,12 @@ layout: post
 title: "177 dominios siguen bloqueados en Venezuela, a pesar que Conatel podría ordenar su desbloqueo de inmediato"
 excerpt: "VEsinFiltro exige el levantamiento inmediato de las restricciones, la publicación de todas las órdenes de bloqueo y una reforma que impida a Conatel decidir administrativamente qué contenidos pueden verse en internet."
 permalink: /noticias/2026-09-21-VEsinFiltro_exige/
-date:   2026-09-01 05:30:00 -0400
+date:   2026-09-21 05:30:00 -0400
 categories: report
 image: /res/post_img/2026-09-21/cover.png
+type: Comunicado
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2026-09-21/cover.png"></p>
 

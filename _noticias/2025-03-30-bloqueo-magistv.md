@@ -7,6 +7,9 @@ date: 2025-03-31 10:30:00 -0400
 categories: comunicado
 image: /res/post_img/2025-03-31.png
 
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-03-31.png"></p>
 

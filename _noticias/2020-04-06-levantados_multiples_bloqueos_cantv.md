@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Levantados bloqueos sofisticados de CANTV luego de incendio en una de sus instalaciones"
-small:  "Se levantan algunos bloqueos de CANTV luego de incendio"
+title_short: "Se levantan algunos bloqueos de CANTV luego de incendio"
 excerpt: "Aunque permanecen activos los bloqueos DNS, bloqueos http, https y tcp fueron levantados"
 permalink: /noticias/2020-04-06-levantados_multiples_bloqueos_cantv
 date:   2020-04-06 23:45:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-04-06.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 ![](/res/post_img/2020-04-06.png)

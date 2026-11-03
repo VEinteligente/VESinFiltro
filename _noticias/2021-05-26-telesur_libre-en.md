@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "TeleSur Libre Website blocked hours after its inauguration"
-small:   "TeleSur Libre website blocked"
+title_short: "TeleSur Libre website blocked"
 excerpt: "Venezuelas Internet providers blocked the website of the TeleSur Libre news outlet hours after its inauguration"
 permalink: /noticias/2021-05-26_bloqueo_telesur_libre_en/
 date:  2021-05-26 10:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-05-26-es.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: en
+translation: /noticias/2021-05-26_bloqueo_telesur_libre/
 ---
 
 <img src="/res/post_img/2021-05-26-es.png" style="width: 150%;"/>

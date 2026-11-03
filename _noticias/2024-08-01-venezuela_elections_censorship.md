@@ -1,12 +1,16 @@
 ---
 layout: post
 title: "Venezuelan presidential elections took place in a context of restriction of human rights on the internet"
-small: "Internet censorship during the presidential elections in Venezuela"
+title_short: "Internet censorship during the presidential elections in Venezuela"
 excerpt: "The elections were held in a restricted media ecosystem, reducing guarantees for free and informed participation. To date, 62 media outlets are blocked by the main Internet service providers"
 permalink: /noticias/2024-08-01-venezuela_elections_censorship/
 date: 2024-08-01 00:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-08-01/en-image.png
+type: Análisis
+topics: ["Elecciones", "Censura y bloqueos"]
+lang: en
+translation: /noticias/2024-08-01-elecciones-presidenciales/
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-01/en-image.png"></p>
 

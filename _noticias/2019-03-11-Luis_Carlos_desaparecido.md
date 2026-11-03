@@ -1,12 +1,16 @@
 ---
 layout: post
 title: "Desaparecido Luis Carlos Díaz, periodista y activista.  #DóndeEstáLuisCarlos"
-small: "Luis Carlos Díaz desaparecido #DóndeEstáLuisCarlos"
+title_short: "Luis Carlos Díaz desaparecido #DóndeEstáLuisCarlos"
 excerpt: "Periodista y activista venezolano Luis Carlos Díaz @LuisCarlos está desaparecido desde las 5:30pm del 11 de marzo"
 permalink: /noticias/Luis_Carlos_desaparecido/
 date:   2019-03-11 23:00:00 -0400
 categories: comunicado
 # image: /res/post_img/2019-03-11-post.png
+type: Comunicado
+topics: ["Libertad de expresión"]
+lang: es
+image: /res/post_img/generadas/2019-03-11-Luis_Carlos_desaparecido.jpg # generada
 ---
 
 **Periodista y activista venezolano Luis Carlos Díaz @LuisCarlos está [desaparecido desde las 5:30pm](https://twitter.com/Naky/status/1105292137866899462)** (UTC-4, 11 de marzo)  más de 6 horas para este momento. Su esposa y colegas no saben de él luego que salió a esa hora de las instalaciones de Unión Radio en Caracas, con destino a su casa.

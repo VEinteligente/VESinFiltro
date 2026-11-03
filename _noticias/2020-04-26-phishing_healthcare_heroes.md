@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Preliminar report: State sponsored phishing against healthcare workers amid COVID-19 pandemic in Venezuela"
-small:  "State sponsored phishing against healthcare in Venezuela"
+title_short: "State sponsored phishing against healthcare in Venezuela"
 excerpt: "Healthcare workers who wanted to register to recieve finanal aid are targeted by state-sponsored phishing by Venezuela's Maduro Government"
 permalink: /noticias/2020-04-26-phishing_healthcare_heroes
 date:   2020-04-27 16:12:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-04-26_es.png
+type: Reporte
+topics: ["Ataques digitales"]
+lang: en
+translation: /noticias/2020-04-26-phishing_heroes_salud
 ---
 
 *This preliminary report was [originally published on 2020-04-27 in spanish](http://vesinfiltro.com/noticias/2020-04-26-phishing_heroes_salud)*

@@ -1,13 +1,18 @@
 ---
 layout: post
 title:  "Venezuela's CANTV blocks the website of NGO Acceso a la Justicia"
-small:   "CANTV blocks the website of NGO Acceso a la Justicia"
+title_short: "CANTV blocks the website of NGO Acceso a la Justicia"
 excerpt: "The website of Acceso a la Justicia, an NGO that monitors the administration of justice and the rule of law in Venezuela has been blocked."
 permalink: /noticias/2021-04-08_blocked_acceso_justicia/
 date:   2021-04-08 14:44:00 -0400
 categories: bloqueos
-image: /res/post_img/2021-04-08-en.png
+# image: /res/post_img/2021-04-08-en.png # faltante, generada
 redirect_from:
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: en
+translation: /noticias/2021-04-08_bloqueo_acceso_justicia/
+image: /res/post_img/generadas/2021-04-08_bloqued_acceso_justicia.jpg # generada
 ---
 
 The state-owned ISP in venezuela has blocked the website of [Acceso a la justicia](https://www.accesoalajusticia.org/), a human rights NGO specialized in monitoring the administration of justice and the rule of law in Venezuela.

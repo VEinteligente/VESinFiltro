@@ -1,12 +1,18 @@
 ---
 layout: post
 title:  "Bloquean VPNs y herramientas anti-censura para impedir acceso a beneficio para el personal médico"
-small:   "Bloquean VPNs en Venezuela para impedir acceso"
+title_short: "Bloquean VPNs en Venezuela para impedir acceso"
 excerpt: "Todos los principales proveedores de internet bloquearon herramientas anti censura para detener programa de asistencia económica al personal médico"
 permalink: /noticias/2020-08-28-bloqueo-VPNs/
 date:   2020-08-28 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-08-28/2020-08-28.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
+translation: /noticias/2020-08-28-block-VPNs/
+redirect_from:
+  - "/noticias/alerta-2020-08-28/" # url-historica: solo existió 2020-08-28..2020-08-28 en master, nunca en el sitio actual; candidata a eliminar
 ---
 
 

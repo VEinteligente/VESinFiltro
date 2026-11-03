@@ -1,12 +1,19 @@
 ---
 layout: post
 title: "VEsinFiltro rechaza el  anuncio de un nuevo  sistema de vigilancia  mediante VenApp"
-small: "Alertamos con preocupación sobre las intenciones de Nicolás Maduro de promover la vigilancia y delación como fórmula de persecución, censura y control social."
+excerpt_short: "Alertamos con preocupación sobre las intenciones de Nicolás Maduro de promover la vigilancia y delación como fórmula de persecución, censura y control social."
 excerpt: "Alertamos con preocupación sobre las sostenidas intenciones de la administración de Nicolás Maduro, de promover la delación como fórmula de persecución, censura y control social."
 permalink: /noticias/2025-10-22/
 date: 2025-10-21 14:33:00 -0400
 categories: reporte
 image: /res/post_img/2025-10-22-share.png
+type: Comunicado
+topics: ["Vigilancia"]
+lang: es
+redirect_from:
+  - "/noticias/2025-10-22-nuevo_sistema_vigilancia_venapp/" # url-historica: solo existió 2025-10-22..2025-10-22 en master, nunca en el sitio actual; candidata a eliminar
+  - "/noticias/2025-10-22-Nuevo_sistema_vigilancia_venapp/" # url-historica: solo existió 2025-10-22..2025-10-22 en master, nunca en el sitio actual; candidata a eliminar
+share_image: /res/post_img/generadas/2025-10-22-nuevo_sistema_vigilancia_venapp.jpg # generada
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-10-22.png"></p>
 VE sin Filtro alerta con preocupación sobre las sostenidas intenciones de la administración de Nicolás Maduro, de promover la delación como fórmula de persecución, censura y control social.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reporte
 title: "Reporte Redes de Control: Censura y represión digital en las elecciones presidenciales en Venezuela"
 excerpt: "Durante el período electoral en Venezuela, que abarcó desde el inicio de la campaña el 4 de julio de 2024, pasando por las elecciones del 28 de julio, y extendiéndose hasta el día de la toma de posesión el 10 de enero de 2025, el país experimentó una ola de censura y represión digital sin precedentes."
 permalink: /noticias/2025-03-12-reporte-elecciones-presidenciales/
@@ -9,6 +9,20 @@ image: /res/post_img/2025-03-12/reporte-rrss.png
 redirect_from:
   - /elecciones-2024/
   - /elecciones-2024
+type: Reporte
+topics: ["Censura y bloqueos", "Elecciones", "Vigilancia"]
+lang: es
+translation: /noticias/2025-03-26-venezuela-digital-repression-elections/
+report:
+  cover: "/res/reportes/2025-redes-de-control-es.jpg"
+  pdf: "/res/files/informe-presidenciales_2024-VEsinFiltro.pdf"
+  pages: 87
+  contents:
+    - ["Introducción", 3]
+    - ["Censura y bloqueos en internet", 6]
+    - ["Tráfico y caídas de conectividad", 29]
+    - ["Vigilancia y amenazas a la seguridad digital", 35]
+    - ["Conclusiones y Recomendaciones", 75]
 ---
 
 <p class="cover"><img alt="Censura y represión digital en las elecciones presidenciales en Venezuela" src="/res/post_img/2025-03-12/reporte-post.png"></p>

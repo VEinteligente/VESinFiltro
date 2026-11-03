@@ -7,6 +7,10 @@ date:   2024-08-05 18:22:00 -0400
 categories: comunicado
 image: /res/post_img/2024-08-05.png
 
+type: Comunicado
+subtype: Carta abierta
+topics: ["Vigilancia", "Elecciones"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-05.png"></p>
 

@@ -7,6 +7,9 @@ date:   2024-08-13 10:10:00 -0400
 categories: comunicado
 image: /res/post_img/2024-08-13.png
 
+type: Comunicado
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2024-08-13.png"></p>
 

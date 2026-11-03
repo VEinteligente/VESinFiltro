@@ -2,12 +2,19 @@
 layout: post
 title: "Urgente:
 Impidan ventas de Cellebrite a Venezuela"
-small: "Impidan ventas de Cellebrite a Venezuela"
+title_short: "Impidan ventas de Cellebrite a Venezuela"
 excerpt:  Llamamos a actuar con rapidez para prevenir la venta de cualquier herramientas de extracción de datos al gobierno de Venezuela. La integridad de muchos periodistas, sus fuentes, activistas y defensores de derechos humanos podría depender de ello."
 permalink: /noticias/paren_ventas_cellebrite_venezuela/
 date:   2019-11-15 14:22:01 -0400
 categories: vigilancia
 image: /res/post_img/2019-11-15-cellebrite_es.png
+type: Comunicado
+subtype: Carta abierta
+topics: ["Vigilancia"]
+lang: es
+translation: /noticias/stop_cellebrite_sales_Venezuela/
+redirect_from:
+  - "/noticias/2019-11-15-stop_cellebrite_sales_Venezuela/" # url-historica: solo existió 2019-11-15..2019-11-15 en master, nunca en el sitio actual; candidata a eliminar
 ---
 
 El gobierno de Nicolás Maduro en Venezuela aprobó [la compra de unidades Cellebrite UDEF Touch2](http://web.archive.org/web/20191115014106/https://www.vtv.gob.ve/millones-euros-petros-modernizacion-cicpc/)  por 51.300 Euros. Estos dispositivos son usados para hackear y extraer todos los datos en un teléfono celular, incluyendo conversaciones, fotos, documentos y correos electrónicos. Su uso dice ser para investigaciones criminales legítimas, pero [regímenes represivos abusan de ellos](https://www.vice.com/en_us/article/aekqjj/cellebrite-sold-phone-hacking-tech-to-repressive-regimes-data-suggests).

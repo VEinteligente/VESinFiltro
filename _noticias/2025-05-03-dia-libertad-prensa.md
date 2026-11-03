@@ -2,12 +2,15 @@
 layout: post
 title: "VEsinFiltro condena restricciones a la libertad de prensa en Venezuela y exige a CONATEL y a los ISP levantar los bloqueos contra medios de comunicación"
 excerpt: "Al menos 61 medios de comunicación independientes permanecen bloqueados en internet y sigue restringido el  acceso a la red social X y la app de mensajería Signal. Esta situación configura un panorama hostil para el ejercicio del derecho a la información y la libertad de prensa en Venezuela."
-small: "VEsinFiltro condena restricciones a la libertad de prensa y exige levantar los bloqueos contra los medios"
+title_short: "VEsinFiltro condena restricciones a la libertad de prensa y exige levantar los bloqueos contra los medios"
 permalink: /noticias/2025-05-03-dia-libertad-prensa/
 date: 2025-05-03 01:30:00
 categories: comunicado
 image: /res/post_img/2025-05-03/2025-05-03-redes@2x.png
 
+type: Comunicado
+topics: ["Libertad de expresión", "Censura y bloqueos"]
+lang: es
 ---
 <p class="cover"><img class="" src="/res/post_img/2025-05-03/2025-05-03.png"></p>
 
