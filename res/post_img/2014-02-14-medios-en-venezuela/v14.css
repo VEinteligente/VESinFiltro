@@ -1,0 +1,173 @@
+/* Recreación de vesinfiltro.com (febrero de 2014). Reglas tomadas de lib/style.css y transmisiones/index.php
+   del repo de 2014, todas bajo .v14; lo agregado está marcado «nuevo». */
+.v14 { --v14-am:#FFBD00; font-family:Helvetica,sans-serif; font-size:15px; font-weight:300; color:#232323; line-height:normal; }
+.v14 * { box-sizing:border-box; }
+.v14 a { color:#232323; }
+
+/* nuevo: aviso de página archivada */
+.v14-aviso { margin:0 0 24px; padding:16px 20px; background:#FFF8DD; border-left:4px solid var(--v14-am); font-size:14px; line-height:1.5; }
+.v14-aviso p { margin:0 0 6px; }
+.v14-aviso p:last-child { margin:0; }
+.v14-aviso b { font-weight:700; }
+
+/* barra de navegación de 2014, solo con las dos páginas recreadas */
+.v14-nav { display:flex; align-items:stretch; min-height:70px; background:#333; border-bottom:1px solid #000; overflow-x:auto; }
+.v14-nav .v14-logo { flex:none; width:180px; background:url(res/logo.png) no-repeat center / 150px auto; }
+.v14-nav button { flex:none; border:0; margin:0; padding:0 16px; background:none; color:#999; font:inherit; font-size:15px; cursor:pointer; }
+.v14-nav button:hover { color:#FFF; }
+.v14-nav button[aria-selected="true"] { color:#FFF; background:#2A2A2A; }
+.v14-corto { display:none; }
+@media (max-width:600px) { .v14-largo { display:none; } .v14-corto { display:inline; } } /* como hidden-sm/visible-sm en 2014 */
+
+.v14-titulo { margin:30px 0 24px; font-size:30px; font-variant:small-caps; font-style:italic; }
+.v14-caja { background:#FFF; box-shadow:0 0 20px rgba(0,0,0,.05), 0 0 3px rgba(0,0,0,.05); }
+
+/* tabla de canales */
+.v14-tabla > div { height:90px; border-top:solid 1px #EEE; }
+.v14-tabla > div:nth-child(2n) { background:#FAFAFA; }
+.v14-tabla > div > div, .v14-tabla > div > a, .v14-tabla > div > button {
+	width:18%; height:100%; display:block; float:left; margin:0; text-align:center; background-repeat:no-repeat; background-position:center; }
+.v14-tabla > div > :first-child { width:28%; }
+.v14-tabla > div:not(.v14-cab):hover { position:relative; z-index:5; background:#FFF;
+	box-shadow:0 0 40px rgba(0,0,0,.03), 0 0 20px rgba(0,0,0,.03), 0 0 3px rgba(0,0,0,.03); }
+.v14-tabla .v14-cab { background:#444; border:0; }
+.v14-tabla .v14-cab > div:first-child { color:#FFF; line-height:90px; font-size:27px; font-weight:700; font-style:italic; }
+.v14-tabla button { border:0; padding:0; cursor:pointer; background:url(res/play.png) no-repeat center; opacity:.7; }
+.v14-tabla button:hover, .v14-tabla button:focus-visible { background-color:var(--v14-am); opacity:1; box-shadow:0 0 20px rgba(0,0,0,.1), 0 0 3px rgba(0,0,0,.1); }
+.v14-tabla button.caido { opacity:.3; } /* nuevo: transmisión que ya no funciona */
+
+.v14 .directv { background-image:url(res/logo-directv.png); }
+.v14 .intercable { background-image:url(res/logo-intercable.png); }
+.v14 .supercable { background-image:url(res/logo-supercable.png); }
+.v14 .web { background-image:url(res/logo-web.png); }
+.v14 .cnn-espanol { background-image:url(res/logo-cnn-espanol.png); }
+.v14 .ntn24 { background-image:url(res/logo-ntn24.png); }
+.v14 .eutv { background-image:url(res/logo-eutv.png); }
+.v14 .foxnews { background-image:url(res/logo-foxnews.png); }
+.v14 .cnn { background-image:url(res/logo-cnn.png); }
+.v14 .euronews { background-image:url(res/logo-euronews.png); }
+.v14 .globovision { background-image:url(res/logo-globovision.png); }
+.v14 .venevision { background-image:url(res/logo-venevision.png); }
+.v14 .televen { background-image:url(res/logo-televen.png); }
+.v14 .vtv { background-image:url(res/logo-vtv.png); }
+.v14 .telesur { background-image:url(res/logo-telesur.png); }
+.v14 .antv { background-image:url(res/logo-antv.png); }
+.v14 .caprilestv { background-image:url(res/logo-caprilestv.png); }
+.v14 .aljazeera { background-image:url(res/logo-aljazeera.png); }
+
+.v14 div.state { position:relative; }
+.v14 div.state:before { content:""; width:16px; height:16px; border-radius:50%; position:absolute; top:50%; left:50%; margin:-8px 0 0 -8px; }
+.v14 div.state:after { padding:0 5px; font-size:13px; line-height:25px; color:#FFF; background:rgba(0,0,0,.7); border-radius:3px; position:absolute; top:50%; left:50%; display:none; white-space:nowrap; }
+.v14 div.online:before { background:#83B100; }
+.v14 div.offline:before { background:#CC0000; }
+.v14 div.none:before { background:#CCC; }
+.v14 div.online:hover:before { margin-left:-35px; }
+.v14 div.online:hover:after { display:block; margin:-12px 0 0 -12px; content:"Al aire"; }
+.v14 div.offline:hover:before { margin-left:-43px; }
+.v14 div.offline:hover:after { display:block; margin:-12px 0 0 -20px; content:"Eliminado"; }
+
+/* transmisiones: el panel de la derecha de 2014; nuevo: la lista por ciudad en lugar del mapa de Google */
+.v14-trans { display:grid; grid-template-columns:7fr 3fr; height:400px; }
+.v14-mapa { position:relative; min-height:0; }
+.v14-lienzo { position:absolute; inset:0; background:#E5E3DF; }
+.v14-mapa:not(.listo) .v14-menu { display:none; }
+/* botón «Ciudades» de 2014 (#button-map y .dropdown de transmisiones/index.php) */
+.v14-menu { position:absolute; top:16px; left:56px; z-index:1000; }
+.v14-menu-boton { height:32px; padding:0 12px; border:1px solid transparent; background:#FFF; color:#999; font:inherit; font-size:14px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,.3); }
+.v14-menu-boton:hover, .v14-menu-boton[aria-expanded="true"] { color:#333; }
+.v14-menu .caret { display:inline-block; width:0; height:0; margin-left:4px; vertical-align:middle; border-top:4px solid; border-left:4px solid transparent; border-right:4px solid transparent; }
+.v14-menu ul { list-style:none; margin:2px 0 0; padding:0; background:#FFF; box-shadow:0 2px 6px rgba(0,0,0,.3); }
+.v14-menu li { border-top:1px solid #EEE; }
+.v14-menu li:first-child { border-top:0; }
+.v14-menu li button { display:block; width:100%; padding:0 20px; border:0; background:#FFF; font:inherit; line-height:25px; text-align:left; color:#333; cursor:pointer; white-space:nowrap; }
+.v14-menu li button:hover { background:#F5F5F5; }
+.v14 .leaflet-container { font-family:Helvetica,sans-serif; }
+.v14 .leaflet-container a { color:#0078A8; }
+.v14-panel { position:relative; min-height:0; background:#333; color:#FFF; display:flex; flex-direction:column; }
+.v14-vista-lista, .v14-vista-detalle { flex:1; min-height:0; display:flex; flex-direction:column; }
+.v14-ayuda { flex:none; padding:20px 14px; text-align:center; font-style:italic; font-size:20px; line-height:20px; }
+/* nuevo: lista de las transmisiones debajo del mensaje, filtrada por el menú «Ciudades» */
+.v14-filtro { flex:none; padding:0 14px 8px; font-size:13px; color:#CCC; }
+.v14-filtro button { border:0; padding:0; background:none; color:var(--v14-am); font:inherit; text-decoration:underline; cursor:pointer; }
+.v14-ciudades { flex:1; min-height:0; overflow-y:auto; border-top:1px solid #444; }
+.v14-ciudad { margin:0; padding:10px 14px 4px; font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:#999; }
+.v14-ciudades ul { list-style:none; margin:0; padding:0; }
+.v14-ciudades button { display:flex; align-items:flex-start; gap:8px; width:100%; margin:0; padding:8px 14px; border:0; border-top:1px solid #444;
+	background:none; font:inherit; font-size:13px; line-height:16px; text-align:left; cursor:pointer; color:#FFF; }
+.v14-ciudades button:before { content:""; flex:none; width:12px; height:20px; background:url(res/mark.png) no-repeat center / contain; }
+.v14-ciudades button:hover, .v14-ciudades button:focus-visible { background:#444; }
+.v14-ciudades small { display:block; margin-top:2px; color:#AAA; font-size:11px; }
+.v14-panel .v14-cabecera { flex:none; padding:15px 20px; border-bottom:1px solid #EEE; font-weight:700; font-size:20px; line-height:20px; }
+.v14-panel .v14-cabecera span { display:block; color:#CCC; font-style:italic; font-weight:300; font-size:12px; }
+.v14-volver { display:block; margin:0 0 10px; border:0; padding:0; background:none; color:var(--v14-am); font:inherit; font-size:13px; font-weight:300; cursor:pointer; } /* nuevo */
+.v14-panel .v14-desc { flex:1; min-height:0; overflow-y:auto; padding:15px 20px; line-height:16px; background:#FFF; color:#232323; }
+.v14-panel .v14-desc p { margin:0 0 10px; }
+.v14-panel .v14-fecha { font-size:13px; color:#777; } /* nuevo: cuándo estuvo en la página */
+.v14-panel .v14-play { flex:none; height:70px; border:0; border-top:1px solid #EEE; background:#333; color:var(--v14-am); font-size:30px; cursor:pointer; }
+.v14-panel .v14-play:hover { background:var(--v14-am); color:#000; }
+.v14-panel [hidden] { display:none; }
+
+/* nuevo: en pantallas chicas los logos se achican y el panel de transmisiones va abajo */
+@media (max-width:600px) {
+	.v14-tabla .v14-cab > div:first-child { font-size:15px; line-height:1.2; display:flex; align-items:center; justify-content:center; }
+	.v14-tabla > div > div, .v14-tabla > div > a { background-size:contain; background-origin:content-box; padding:18px 6px; }
+	.v14 div.state { padding:0 !important; }
+	.v14-trans { grid-template-columns:1fr; grid-template-rows:340px 360px; height:auto; }
+	.v14-nav .v14-logo { display:none; } /* nuevo: en el teléfono no caben el logo y las tres pestañas */
+	.v14-nav button { padding:0 10px; font-size:14px; }
+}
+
+/* ventana del reproductor (modalBack/modalWrapper de 2014, simplificada) */
+.v14-modal { position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; padding:16px; }
+.v14-modal.on { display:flex; }
+.v14-modal .caja { position:relative; width:640px; max-width:100%; background:#FFF; box-shadow:0 0 40px rgba(0,0,0,.4); }
+.v14-modal .cab { min-height:70px; padding:0 60px 0 20px; display:flex; align-items:center; font-weight:700; font-size:18px; background-repeat:no-repeat; background-position:20px center; border-bottom:1px solid #EEE; }
+.v14-modal .cerrar { position:absolute; top:10px; right:14px; border:0; background:none; font-size:32px; line-height:1; cursor:pointer; color:#444; }
+.v14-modal iframe { display:block; width:100%; aspect-ratio:16/9; border:0; }
+.v14-modal iframe[hidden] { display:none; }
+.v14-modal .nota { margin:0; padding:16px 20px; font-size:14px; line-height:1.5; }
+
+/* Información verificada (info.vesinfiltro.com, 2014): su tema de Bolt no quedó archivado, así que la lista y las
+   insignias son nuevas. */
+.v14-lista { margin:0 0 32px; background:#FFF; box-shadow:0 0 20px rgba(0,0,0,.05), 0 0 3px rgba(0,0,0,.05); }
+.v14-lista h2, .v14-imodal h3 { font-family:inherit; letter-spacing:normal; text-transform:none; } /* sobre los estilos del sitio */
+.v14-lista h2 { margin:0; padding:14px 20px; background:#444; color:#FFF; font-size:20px; font-weight:700; font-style:italic; line-height:1.2; }
+.v14-lista ol { list-style:none; margin:0; padding:0; }
+.v14-lista li { border-top:1px solid #EEE; }
+.v14-lista li:nth-child(2n) { background:#FAFAFA; }
+.v14-entrada { display:block; width:100%; margin:0; padding:12px 20px; border:0; background:none; font:inherit; color:inherit; text-align:left; text-decoration:none; }
+button.v14-entrada, a.v14-entrada { cursor:pointer; }
+button.v14-entrada:hover, a.v14-entrada:hover, .v14-entrada:focus-visible { background:rgba(243,240,198,.5); }
+.v14-entrada .t { display:block; font-weight:400; font-size:16px; line-height:1.3; }
+button.v14-entrada .t, a.v14-entrada .t { text-decoration:underline; text-decoration-color:#CCC; text-underline-offset:3px; }
+span.v14-entrada .t { color:#555; }
+.v14-entrada .m { display:flex; flex-wrap:wrap; align-items:center; gap:4px 10px; margin-top:6px; font-size:13px; color:#777; }
+.v14-estado { padding:1px 7px; border-radius:3px; font-size:12px; font-weight:700; color:#FFF; }
+.v14-estado.verificado { background:#5E8A00; }
+.v14-estado.desmentido { background:#B30000; }
+.v14-extra { font-size:12px; color:#999; }
+.v14-sin { font-size:12px; font-style:italic; color:#999; }
+
+.v14-imodal { position:fixed; inset:0; z-index:1000; background:rgba(0,0,0,.6); display:none; align-items:center; justify-content:center; padding:16px; }
+.v14-imodal.on { display:flex; }
+.v14-imodal .caja { position:relative; width:680px; max-width:100%; max-height:calc(100vh - 32px); overflow:auto; background:#FFF; padding:24px 24px 20px; box-shadow:0 0 40px rgba(0,0,0,.4); }
+.v14-imodal .cerrar { position:absolute; top:8px; right:12px; border:0; background:none; font-size:32px; line-height:1; cursor:pointer; color:#444; }
+.v14-imodal h3 { margin:0 32px 16px 0; font-size:22px; line-height:1.25; font-weight:700; }
+.v14-fotos { display:flex; flex-wrap:wrap; gap:10px; margin:0 0 16px; }
+.v14-fotos figure { margin:0; width:150px; }
+.v14-fotos a { display:block; }
+.v14-fotos img { display:block; width:150px; height:150px; object-fit:cover; border:4px solid #FFF; box-shadow:0 1px 4px rgba(0,0,0,.25); }
+.v14-fotos .falta { display:flex; align-items:center; justify-content:center; width:150px; height:150px; padding:10px; background:#EEE; color:#888; font-size:12px; text-align:center; }
+.v14-fotos figcaption { margin-top:4px; font-size:11px; line-height:1.3; color:#777; }
+.v14-video { margin:0 0 16px; }
+.v14-video iframe { display:block; width:100%; aspect-ratio:16/9; border:0; }
+.v14-video p { margin:0; padding:12px; background:#EEE; font-size:13px; color:#777; }
+.v14-imodal .texto { margin:0 0 14px; font-size:15px; line-height:1.5; }
+.v14-imodal blockquote { margin:0 0 14px; padding:10px 14px; border-left:3px solid #CCC; background:#FAFAFA; font-size:14px; line-height:1.5; }
+.v14-reporte { margin:0 0 10px; text-align:center; font-size:15px; font-weight:400; }
+.v14-reporte .v14-estado { margin-left:8px; font-size:14px; }
+.v14-imodal .pie { margin:0; padding-top:12px; border-top:1px solid #EEE; font-size:13px; line-height:1.5; color:#666; }
+@media (max-width:600px) {
+	.v14-fotos figure, .v14-fotos img, .v14-fotos .falta { width:calc(50vw - 50px); height:auto; }
+	.v14-fotos img, .v14-fotos .falta { aspect-ratio:1; }
+}
