@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "Prueba de medios de comunicación"
 permalink: /test-medios/
 image: /res/TWcard.png
