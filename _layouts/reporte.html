@@ -16,7 +16,7 @@ layout: default
 		{% if portada_cabecera %}<img class="cover" src="{{ r.cover | relative_url }}" alt="{% if L == 'en' %}Cover{% else %}Portada{% endif %}: {{ page.title }}" width="620" height="877">{% endif %}
 		<div class="body">
 			<nav class="crumbs" aria-label="Ruta" style="color:var(--dsec)"><a href="{{ '/reportes/' | relative_url }}" style="color:var(--dsec)">{{ t.nav_reportes }}</a><span aria-hidden="true">/</span><span>{{ serie_l }}</span></nav>
-			<span class="kicker"><i class="sq" aria-hidden="true"></i>{% if r.full_report %}{{ t.adelanto }}{% else %}{{ t.reporte }}{% endif %} · {{ serie_l }} · {{ page.date | date: "%Y-%m-%d" }}</span>
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{% if r.full_report %}{{ t.adelanto }}{% else %}{{ t.reporte }}{% endif %} · {{ page.date | date: "%Y-%m-%d" }}</span>
 			<h1>{{ h1 }}</h1>
 			{% if ex != "" %}<p class="lede">{{ ex }}</p>{% endif %}
 			<dl class="rep-meta">
