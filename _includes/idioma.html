@@ -1,9 +1,10 @@
 {% comment %}Reader's language. The language comes from the browser, or from the ?lang= marker that language links (data-cambia-idioma) add. Nothing is stored.
 Internal links to a post that has a translation point to the version in that language; lists hide the other version of each pair; a post or report opened in the other language shows #aviso-idioma.
-VSF_PARES: url -> l (its language), a (url of the translation), t (its title). Built from the translation field of posts and pages.{% endcomment %}
-{% assign todo = site.noticias | concat: site.pages %}{% assign pares = todo | where_exp: "p", "p.translation" %}{% assign n = 0 %}
+VSF_PARES: url -> l (its language), a (url of the translation), t (its title), s (a section page: homes, publications, reports, about). Built from the translation field of posts and pages.{% endcomment %}
+{% assign todo = site.noticias | concat: site.pages %}{% assign en_docs = site.documents | concat: site.pages | where: "lang", "en" %}{% assign pares = todo | where_exp: "p", "p.translation" %}{% assign n = 0 %}
 <script>
-window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.translation | first %}{% if o %}{% if n > 0 %},{% endif %}{{ p.url | relative_url | jsonify }}: { "l": {{ p.lang | default: "es" | jsonify }}, "a": {{ o.url | relative_url | jsonify }}, "t": {{ p.title | strip_html | strip | jsonify }} }{% assign n = n | plus: 1 %}{% endif %}{% endfor %} };
+window.VSF_EN = [{% for d in en_docs %}{% unless forloop.first %},{% endunless %}{{ d.url | relative_url | jsonify }}{% endfor %}];
+window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.translation | first %}{% if o %}{% if n > 0 %},{% endif %}{{ p.url | relative_url | jsonify }}: { "l": {{ p.lang | default: "es" | jsonify }}, "a": {{ o.url | relative_url | jsonify }}, "t": {{ p.title | strip_html | strip | jsonify }}{% if p.collection == nil %}, "s": 1{% endif %} }{% assign n = n | plus: 1 %}{% endif %}{% endfor %} };
 (function () {
   // Nothing is stored (no localStorage, no cookies). The language is the ?lang=es|en marker when the reader chose one,
   // else the browser's first language. After a choice, internal links carry the marker so it lasts while browsing.
@@ -12,8 +13,10 @@ window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.tr
     var ls = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'es'];
     return /^en\b/i.test(ls[0] || '') ? 'en' : 'es';
   }
-  var marca = (/[?&]lang=(es|en)\b/.exec(location.search) || [])[1];
-  window.VSF_IDIOMA = function () { return marca || detectado(); };
+  // A link to a page already in the chosen language never carries the marker.
+  var explicita = (/[?&]lang=(es|en)\b/.exec(location.search) || [])[1];
+  window.VSF_MARCA = explicita;
+  window.VSF_DETECTADO = detectado;
   function buscar(path) {
     var c = [path]; try { c.push(decodeURIComponent(path)); } catch (e) {}
     for (var i = 0; i < c.length; i++) {
@@ -22,15 +25,46 @@ window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.tr
     }
     return null;
   }
+  function idiomaDe(path) {
+    var c = [path]; try { c.push(decodeURIComponent(path)); } catch (e) {}
+    for (var i = 0; i < c.length; i++) {
+      var x = c[i], y = x.slice(-1) === '/' ? x.slice(0, -1) : x + '/';
+      if (window.VSF_EN.indexOf(x) > -1 || window.VSF_EN.indexOf(y) > -1) return 'en';
+    }
+    return 'es';
+  }
+  // Without the marker, a page takes its own language when it is a section page or was reached from inside the site;
+  // a visit from outside follows the browser.
+  var interna = false; try { interna = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (e) {}
+  var esta = buscar(location.pathname), aquiL = document.documentElement.lang || 'es';
+  var marca = explicita || ((esta && P[esta].s) || interna ? aquiL : undefined);
+  window.VSF_IDIOMA = function () { return marca || detectado(); };
   // Adds lang=<l> to a same-site page link (not files such as PDFs or images).
   function marcar(a, l) {
     if (a.origin !== location.origin || /\.[a-z0-9]{2,5}$/i.test(a.pathname.replace(/\.html$/, ''))) return;
-    var q = new URLSearchParams(a.search); q.set('lang', l);
-    a.setAttribute('href', a.pathname + '?' + q + a.hash);
+    var q = new URLSearchParams(a.search);
+    if (idiomaDe(a.pathname) === l) q.delete('lang'); else q.set('lang', l);
+    var s = q.toString();
+    a.setAttribute('href', a.pathname + (s ? '?' + s : '') + a.hash);
   }
   document.addEventListener('DOMContentLoaded', function () {
     if (window.VSF_REDIRIGE) return;  // the home is switching to the reader's language
     var pref = window.VSF_IDIOMA(), aqui = document.documentElement.lang || 'es';
+    // A page with no version in the chosen language: the frame follows the reader, the switch offers the page's language
+    // and the sidebar says the content exists only in this language.
+    if (marca && marca !== aqui && !buscar(location.pathname)) {
+      var tk = marca === 'en' ? 'tEn' : 'tEs';
+      [].forEach.call(document.querySelectorAll('.sh-nav a[data-t-en], .sh-menu a[data-t-en]'), function (a) {
+        if (a.firstChild && a.firstChild.nodeType === 3) a.firstChild.nodeValue = a.dataset[tk] + (a.children.length ? ' ' : '');
+        a.setAttribute('lang', marca);
+      });
+      var sw = document.querySelector('.sh-lang');
+      if (sw) {
+        sw.textContent = sw.dataset[tk]; sw.setAttribute('href', location.pathname + location.hash);
+        sw.setAttribute('lang', aqui); sw.setAttribute('data-cambia-idioma', aqui);
+      }
+      [].forEach.call(document.querySelectorAll('.solo-idioma'), function (n) { n.hidden = false; });
+    }
     // Language links (header switch, chips, notice) state the choice in the URL they open.
     [].forEach.call(document.querySelectorAll('a[data-cambia-idioma]'), function (a) { marcar(a, a.getAttribute('data-cambia-idioma')); });
     [].forEach.call(document.querySelectorAll('a[href]'), function (a) {

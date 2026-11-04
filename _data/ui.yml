@@ -11,6 +11,7 @@ es:
   pub_plural: publicaciones
   pub_vacio: Ninguna publicación coincide con estos filtros.
   nav_reportes: Reportes
+  url_reportes: /reportes/
   nav_guias: Guías
   nav_lista: Lista de bloqueos
   nav_nosotros: Nosotros
@@ -34,6 +35,11 @@ es:
   portada_de: "Portada:"
   menu: Menú
   otro_idioma: English
+  lang_code: es
+  idioma: Idioma
+  solo_disponible: Este artículo solo está disponible en inglés.
+  solo_disponible_reporte: Este reporte solo está disponible en inglés en la web.
+  pdf_en_tu_idioma: Descargar el PDF en español
   lo_mas_reciente: Lo más reciente
   mas_recientes: Más recientes
   todas: Todas
@@ -80,6 +86,9 @@ es:
   descargas: Descargas
   otros_reportes: Otros reportes
   todos_reportes: Todos los reportes
+  portada: Portada
+  reporte_reciente: Reporte más reciente
+  descargar_pdf_otro: Download PDF · English
   idiomas: Idiomas
   leer: Leer
   y: y
@@ -120,6 +129,7 @@ en:
   pub_plural: publications
   pub_vacio: No publication matches these filters.
   nav_reportes: Reports
+  url_reportes: /en/reports/
   nav_guias: Guides
   nav_lista: Block list
   nav_nosotros: About
@@ -143,6 +153,11 @@ en:
   portada_de: "Cover:"
   menu: Menu
   otro_idioma: Español
+  lang_code: en
+  idioma: Language
+  solo_disponible: This article is only available in Spanish.
+  solo_disponible_reporte: This report is only available in Spanish on the web.
+  pdf_en_tu_idioma: Download the PDF in English
   lo_mas_reciente: Latest
   mas_recientes: Recent
   todas: All
@@ -189,6 +204,9 @@ en:
   descargas: Downloads
   otros_reportes: Other reports
   todos_reportes: All reports
+  portada: Cover
+  reporte_reciente: Latest report
+  descargar_pdf_otro: Descargar PDF · Español
   idiomas: Languages
   leer: Read
   y: and

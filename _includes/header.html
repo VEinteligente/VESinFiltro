@@ -1,7 +1,7 @@
 {% assign L = page.lang | default: "es" %}{% assign t = site.data.ui[L] %}
 {% assign seccion = page.seccion %}
 {% if seccion == nil %}
-  {% if page.layout == "reporte" or page.url == "/reportes/" %}{% assign seccion = "reportes" %}
+  {% if page.layout == "reporte" or page.url == "/reportes/" or page.url == "/en/reports/" %}{% assign seccion = "reportes" %}
   {% elsif page.collection == "noticias" or page.url == "/publicaciones/" or page.url == "/en/publications/" %}{% assign seccion = "publicaciones" %}
   {% elsif page.collection == "bloqueos" or page.collection == "documenta" or page.url == "/bloqueos/" %}{% assign seccion = "guias" %}{% endif %}
 {% endif %}
@@ -9,17 +9,17 @@
 {% elsif L == "en" %}{% assign alt_url = "/" %}{% assign alt_label = t.otro_idioma %}
 {% else %}{% assign alt_url = "/en/publications/" %}{% assign alt_label = "English" %}{% endif %}
 {% capture nav_items %}
-<a href="{% if t == site.data.ui.en %}{{ '/en/publications/' | relative_url }}{% else %}{{ '/publicaciones/' | relative_url }}{% endif %}"{% if seccion == "publicaciones" %} aria-current="page"{% endif %}>{{ t.nav_publicaciones }}</a>
-<a href="{{ '/reportes/' | relative_url }}"{% if seccion == "reportes" %} aria-current="page"{% endif %}>{{ t.nav_reportes }}</a>
-<a href="{{ '/bloqueos/' | relative_url }}"{% if seccion == "guias" %} aria-current="page"{% endif %}>{{ t.nav_guias }}</a>
-<a href="{% if L == 'en' %}{{ '/en/about/' | relative_url }}{% else %}{{ '/nosotros/' | relative_url }}{% endif %}"{% if seccion == "nosotros" %} aria-current="page"{% endif %}>{{ t.nav_nosotros }}</a>
-<a href="https://bloqueos.vesinfiltro.org/">{{ t.nav_lista }} <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a>
+<a href="{% if t == site.data.ui.en %}{{ '/en/publications/' | relative_url }}{% else %}{{ '/publicaciones/' | relative_url }}{% endif %}"{% if seccion == "publicaciones" %} aria-current="page"{% endif %} data-t-es="{{ site.data.ui.es.nav_publicaciones }}" data-t-en="{{ site.data.ui.en.nav_publicaciones }}">{{ t.nav_publicaciones }}</a>
+<a href="{{ t.url_reportes | default: '/reportes/' | relative_url }}"{% if seccion == "reportes" %} aria-current="page"{% endif %} data-t-es="{{ site.data.ui.es.nav_reportes }}" data-t-en="{{ site.data.ui.en.nav_reportes }}">{{ t.nav_reportes }}</a>
+<a href="{{ '/bloqueos/' | relative_url }}"{% if seccion == "guias" %} aria-current="page"{% endif %} data-t-es="{{ site.data.ui.es.nav_guias }}" data-t-en="{{ site.data.ui.en.nav_guias }}">{{ t.nav_guias }}</a>
+<a href="{% if L == 'en' %}{{ '/en/about/' | relative_url }}{% else %}{{ '/nosotros/' | relative_url }}{% endif %}"{% if seccion == "nosotros" %} aria-current="page"{% endif %} data-t-es="{{ site.data.ui.es.nav_nosotros }}" data-t-en="{{ site.data.ui.en.nav_nosotros }}">{{ t.nav_nosotros }}</a>
+<a href="https://bloqueos.vesinfiltro.org/" data-t-es="{{ site.data.ui.es.nav_lista }}" data-t-en="{{ site.data.ui.en.nav_lista }}">{{ t.nav_lista }} <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a>
 {% endcapture %}
 <header class="sh">
 	<div class="wrap sh-in">
 		<a class="sh-logo" href="{{ '/' | relative_url }}" aria-label="VE sin Filtro, {{ t.inicio | downcase }}"><img src="{{ '/res/VeSinFiltro-long.svg' | relative_url }}" alt="VE sin Filtro" width="178" height="36"></a>
 		<nav class="sh-nav" aria-label="Principal">{{ nav_items }}</nav>
-		<a class="sh-lang" href="{{ alt_url | relative_url }}?lang={% if alt_label == 'Español' %}es{% else %}en{% endif %}" lang="{% if alt_label == 'Español' %}es{% else %}en{% endif %}" data-cambia-idioma="{% if alt_label == 'Español' %}es{% else %}en{% endif %}">{{ alt_label }}</a>
+		<a class="sh-lang" href="{{ alt_url | relative_url }}?lang={% if alt_label == 'Español' %}es{% else %}en{% endif %}" lang="{% if alt_label == 'Español' %}es{% else %}en{% endif %}" data-cambia-idioma="{% if alt_label == 'Español' %}es{% else %}en{% endif %}" data-t-es="{{ site.data.ui.es.otro_idioma }}" data-t-en="{{ site.data.ui.en.otro_idioma }}">{{ alt_label }}</a>
 		<details class="sh-menu">
 			<summary aria-label="{{ t.menu }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg></summary>
 			<nav aria-label="{{ t.menu }}">{{ nav_items }}</nav>

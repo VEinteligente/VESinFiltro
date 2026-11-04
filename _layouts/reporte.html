@@ -42,6 +42,7 @@ layout: default
 		{% include creditos.html t=t %}
 	</article>
 	<aside class="rp-side">
+		{% unless page.translation %}{% if L == "en" %}{% assign ot = site.data.ui.es %}{% else %}{% assign ot = site.data.ui.en %}{% endif %}<div class="box solo-idioma" hidden lang="{{ ot.lang_code }}"><h2>{{ ot.idioma }}</h2><p>{{ ot.solo_disponible_reporte }}</p>{% if page.report.pdf_other %}<a href="{{ page.report.pdf_other | relative_url }}">{{ ot.pdf_en_tu_idioma }}</a>{% endif %}</div>{% endunless %}
 		{% if r.contents %}
 		<div class="box"><h2>{{ t.contenido }}{% if r.pages %} · PDF{% endif %}</h2><ol class="toc">{% for c in r.contents %}<li><span>{{ c[0] }}</span><span>{{ c[1] }}</span></li>{% endfor %}</ol></div>
 		{% else %}

@@ -6,8 +6,11 @@ posts in only one language appear as they are. Images that are missing on disk b
 // The home follows the reader's language: / and /en/ swap to match it. Crawlers stay on the page they asked for.
 (function () {
   if (!window.VSF_IDIOMA || /bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent)) return;
-  window.VSF_REDIRIGE = VSF_IDIOMA() !== {{ L | jsonify }};
-  if (window.VSF_REDIRIGE) location.replace({{ home_otro | relative_url | jsonify }} + location.search + location.hash);
+  // Only a visit from outside the site follows the browser language; inside it, the home reached is the one chosen.
+  var interna = false; try { interna = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (e) {}
+  var quiere = VSF_MARCA || (interna ? {{ L | jsonify }} : VSF_DETECTADO());
+  window.VSF_REDIRIGE = quiere !== {{ L | jsonify }};
+  if (window.VSF_REDIRIGE) location.replace({{ home_otro | relative_url | jsonify }} + location.search.replace(/([?&])lang=(es|en)&?/, '$1').replace(/[?&]$/, '') + location.hash);
 })();
 </script>
 {% assign archivos = site.static_files | map: "path" %}
@@ -42,7 +45,7 @@ posts in only one language appear as they are. Images that are missing on disk b
 
 <section class="sec sec--surface sec--line" aria-labelledby="reportes-h">
 	<div class="wrap">
-		<div class="sec-head"><div><h2 id="reportes-h">{{ t.nav_reportes }}</h2><p>{{ t.inicio_reportes }}</p></div><a class="lnk" href="{{ '/reportes/' | relative_url }}">{{ t.todos_reportes }}</a></div>
+		<div class="sec-head"><div><h2 id="reportes-h">{{ t.nav_reportes }}</h2><p>{{ t.inicio_reportes }}</p></div><a class="lnk" href="{{ t.url_reportes | relative_url }}">{{ t.todos_reportes }}</a></div>
 		<div class="reps">
 		{% for r in reps limit: 5 %}
 			{% assign rl = r.lang | default: "es" %}{% assign rc = r.report.cover | url_decode %}
