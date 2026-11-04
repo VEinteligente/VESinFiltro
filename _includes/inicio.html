@@ -78,26 +78,3 @@ posts in only one language appear as they are. Images that are missing on disk b
 	</div>
 </section>
 
-{% capture flecha %}<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg>{% endcapture %}
-<section class="sec sec--surface sec--line" aria-labelledby="guias-h">
-	<div class="wrap">
-		<div class="sec-head"><div><h2 id="guias-h">{{ t.nav_guias }}</h2><p>{{ t.inicio_guias }}</p></div></div>
-		<div class="tools">
-			<div class="tool">
-				<h3>{{ t.evade_t }}</h3>
-				<p>{{ t.evade_p }}</p>
-				<ul>{% for g in site.bloqueos limit: 4 %}<li><a href="{{ g.url | relative_url }}" lang="es">{{ g.title_short | default: g.title }}{{ flecha }}</a></li>{% endfor %}<li><a href="{{ '/bloqueos/' | relative_url }}">{{ t.guias_todas }}{{ flecha }}</a></li></ul>
-			</div>
-			<div class="tool">
-				<h3>{{ t.mide_t }}</h3>
-				<p>{{ t.mide_p }}</p>
-				<ul><li><a href="{{ '/test/' | relative_url }}">{{ t.prueba_rapida }}{{ flecha }}</a></li><li><a href="{{ '/test-medios/' | relative_url }}">{{ t.prueba_medios }}{{ flecha }}</a></li></ul>
-			</div>
-			<div class="tool">
-				<h3>{{ t.nav_lista }}</h3>
-				<p>{{ t.lista_p }}</p>
-				<ul><li><a href="https://bloqueos.vesinfiltro.org/">bloqueos.vesinfiltro.org<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a></li></ul>
-			</div>
-		</div>
-	</div>
-</section>
