@@ -36,6 +36,7 @@ layout: default
 			</div>
 		</div>
 		{% if page.translation %}<div><span class="k">{{ t.disponible_en }}</span><a href="{{ page.translation | relative_url }}" lang="{{ t.traduccion_lang }}" data-cambia-idioma="{{ t.traduccion_lang }}" style="color:var(--text)">{% if L == "en" %}Español{% else %}English{% endif %}</a></div>{% endif %}
+		{% unless page.translation %}{% if L == "en" %}{% assign ot = site.data.ui.es %}{% else %}{% assign ot = site.data.ui.en %}{% endif %}<div class="solo-idioma" hidden lang="{{ ot.lang_code }}"><span class="k">{{ ot.idioma }}</span><span class="v">{{ ot.solo_disponible }}</span></div>{% endunless %}
 	</aside>
 	<article class="prose post-content{% if imagen_primero %} sin-portada{% endif %}{% if page.subtype %} subtipo-{{ page.subtype | slugify }}{% endif %}">
 		{{ content }}
