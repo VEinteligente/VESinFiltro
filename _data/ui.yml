@@ -2,7 +2,7 @@
 # value in front matter; these maps only change how they read on English pages.
 es:
   nav_publicaciones: Publicaciones
-  pub_intro: Comunicados, análisis, alertas, noticias y reportes desde 2017. En español y, cuando hay traducción, en inglés.
+  pub_intro: Comunicados, análisis, alertas, noticias y reportes desde 2014.
   pub_filtrar: Filtrar publicaciones
   pub_tipo: Tipo
   pub_tema: Tema
@@ -111,7 +111,7 @@ es:
     Informe anual: Informe anual
 en:
   nav_publicaciones: Publications
-  pub_intro: Statements, analysis, alerts, news and reports since 2017, in Spanish and, when there is a translation, in English. Filters start on all languages.
+  pub_intro: Statements, analysis, alerts, news and reports since 2014.
   pub_filtrar: Filter publications
   pub_tipo: Type
   pub_tema: Theme
