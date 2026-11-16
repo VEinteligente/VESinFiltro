@@ -1,13 +1,17 @@
 ---
 layout: post
 title: "Maduro-controlled ISP sabotages participation in Venezuelan opposition's Consulta Popular"
-small:   "CANTV seeks to sabotage the Consulta Popular"
+title_short: "CANTV seeks to sabotage the Consulta Popular"
 excerpt: "Blocks against servers used by the Voatz app seek to
 hinder participation in the 'Consulta Popular'"
 permalink: /noticias/2020-12-07-consulta_popular_en/
 date:   2020-12-11 23:12:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-12-07/en.png
+type: Alerta
+topics: ["Censura y bloqueos", "Elecciones"]
+lang: en
+translation: /noticias/2020-12-07-consulta_popular/
 ---
 **Updated on the 2020-12-10**
 This report is also published [in spanish](https://vesinfiltro.com/noticias/2020-12-07-consulta_popular/).

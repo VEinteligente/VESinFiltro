@@ -1,0 +1,6 @@
+{% comment %}Language chips for one post (include.p). A post in both languages gets [ES] [EN], each a link to that version
+(data-cambia-idioma also makes it the reader's language); the chip of the version on show is marked.
+With include.solo_pares, a post in one language only shows nothing, except an English-only post, which keeps a plain EN chip.
+Without it, a one-language post shows a plain chip with its language.{% endcomment %}
+{% assign cp = include.p %}{% assign cl = cp.lang | default: "es" %}
+{% if cp.translation %}{% if cl == "en" %}{% assign u_es = cp.translation %}{% assign u_en = cp.url %}{% else %}{% assign u_es = cp.url %}{% assign u_en = cp.translation %}{% endif %}<span class="langs"><a class="chip-lang{% if cl == 'es' %} is-cur{% endif %}"{% if cl == 'es' %} aria-current="true"{% endif %} href="{{ u_es | relative_url }}" lang="es" hreflang="es" data-cambia-idioma="es">ES</a><a class="chip-lang{% if cl == 'en' %} is-cur{% endif %}"{% if cl == 'en' %} aria-current="true"{% endif %} href="{{ u_en | relative_url }}" lang="en" hreflang="en" data-cambia-idioma="en">EN</a></span>{% elsif include.solo_pares %}{% if cl == "en" %}<span class="chip-lang">EN</span>{% endif %}{% else %}<span class="langs"><span class="chip-lang">{{ cl | upcase }}</span></span>{% endif %}

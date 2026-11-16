@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Venezuela Inteligente nominada a los Freedom of Expression Awards de Index on Censorship por su lucha contra la censura en Intenet"
-small:   "Venezuela Inteligente nominada a los Freedom of Expression Awards por su lucha contra la censura en Intenet"
+title_short: "Venezuela Inteligente nominada a los Freedom of Expression Awards por su lucha contra la censura en Intenet"
 excerpt: "Venezuela Inteligente y sus programas VE Sin Filtro y Conexión Segura celebran la nominación a los Freedom of Expression Awards en la categoría de campañas."
 permalink: /noticias/2022-07-31-VEsinFiltro-nominado-index-on-censorship/
 date:   2022-07-01 09:00:00 -0400
 categories: bloqueos
 #image: /res/post_img/2022-06-23.png
+type: Noticia
+topics: []
+lang: es
+image: /res/post_img/generadas/2022-07-31-VEsinFiltro-nominado-index-on-censorship.jpg # generada
 ---
 
 Venezuela Inteligente y sus programas VE Sin Filtro y Conexión Segura celebran la nominación a los Freedom of Expression Awards de Index on Censorship, un premio que reconoce la lucha contra la censura en cualquier parte del mundo.

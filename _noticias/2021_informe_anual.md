@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: reporte
 title: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
-small: "#Informe2021: Derechos digitales, censura y conectividad en Venezuela"
 excerpt: "El bloqueo de páginas web que ofrecen contenido informativo crece y cada vez son mayores las dificultades para acceder a Internet y participar de la sociedad digital"
 permalink: /noticias/2021_informe_anual/
 date:   2022-04-06 17:20:00 -0400
@@ -9,11 +8,20 @@ redirect_from:
   - /2021/
 categories: reporte
 image: /res/post_img/2021_es.png
+type: Reporte
+topics: ["Censura y bloqueos", "Conectividad", "Ataques digitales"]
+lang: es
+translation: /noticias/2021_annual_report/
+report:
+  series: "Informe anual"
+  cover: "/res/reportes/2021-informe-anual-es.jpg"
+  pdf: "/res/files/2021INFORME-VSFES.pdf"
+  pages: 40
 ---
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 
 [**Descarga aquí informe completo sobre censura, bloqueos, conectividad y acceso a internet en Venezuela.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/2021INFORME-VSFES.pdf)\
-[**Este informe también está disponible en inglés.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/2021INFORME-VSFEN.pdf.pdf)
+[**Este informe también está disponible en inglés.**](https://github.com/VEinteligente/VESinFiltro/raw/master/res/files/2021INFORME-VSFEN.pdf)
 
 ---
 

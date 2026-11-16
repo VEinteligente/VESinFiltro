@@ -1,11 +1,17 @@
 ---
 layout: post
 title:  "Día Mundial de la Libertad de Prensa: VSF denuncia perversa política de censura contra medios de comunicación y exige garantías para el acceso universal a Internet"
-small:   "VSF denuncia la política de censura en internet en el Día Mundial de la Libertad de Prensa"
+title_short: "VSF denuncia la política de censura en internet en el Día Mundial de la Libertad de Prensa"
 excerpt: "En Venezuela las páginas web relevantes, las que son mencionadas como referencia por los mismos ciudadanos, tienen algún tipo de bloqueo que impide su consulta, sin que exista explicación alguna por parte de los responsables en relación a las causas"
 permalink: /noticias/2022-05-03-dia-libertad-prensa/
 date:   2022-05-03 9:20:00 -0400
 categories: bloqueos
+type: Comunicado
+topics: ["Libertad de expresión", "Censura y bloqueos"]
+lang: es
+redirect_from:
+  - "/noticias/2022-05-03-dia_libertad_prensa/" # url-historica: solo existió 2022-05-03..2022-05-03 en master, nunca en el sitio actual; candidata a eliminar
+image: /res/post_img/generadas/2022-05-03-dia_libertad_prensa.jpg # generada
 ---
 
 - *En Venezuela las páginas web relevantes, las que son mencionadas como referencia por los mismos ciudadanos, tienen algún tipo de bloqueo que impide su consulta, sin que exista explicación alguna por parte de los responsables en relación a las causas.*

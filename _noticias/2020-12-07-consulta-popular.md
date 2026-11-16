@@ -1,13 +1,17 @@
 ---
 layout: post
 title: "CANTV busca sabotear participación en Consulta Popular"
-small:   "CANTV intenta sabotear Consulta Popular"
+title_short: "CANTV intenta sabotear Consulta Popular"
 excerpt: "Bloqueos contra servidores que usa la app Voatz buscan
 entorpecer la realización de la Consulta Popular por internet"
 permalink: /noticias/2020-12-07-consulta_popular/
 date:   2020-12-07 23:12:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-12-07/es.png
+type: Alerta
+topics: ["Censura y bloqueos", "Elecciones"]
+lang: es
+translation: /noticias/2020-12-07-consulta_popular_en/
 ---
 **Actualizado el 2020-12-10**
 Este reporte también está publicado [en inglés](https://vesinfiltro.com/noticias/2020-12-07-consulta_popular_en/).

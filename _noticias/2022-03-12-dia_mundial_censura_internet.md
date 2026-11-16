@@ -1,11 +1,17 @@
 ---
 layout: post
 title:  "VE Sin Filtro alerta sobre restricciones a los derechos en línea en Venezuela"
-small:   "VSF alerta sobre restricciones a los derechos en línea en Venezuela"
+title_short: "VSF alerta sobre restricciones a los derechos en línea en Venezuela"
 excerpt: "En el Día Mundial contra la Censura en Internet VE Sin Filtro alerta sobre la extensa y sostenida política que restringe a los venezolanos el ejercicio de sus derechos en línea"
 permalink: /noticias/2022-03-12-dia_mundial_censura_internet/
 date:   2022-03-12 13:20:00 -0400
 categories: bloqueos
+type: Comunicado
+topics: ["Censura y bloqueos"]
+lang: es
+redirect_from:
+  - "/noticias/2022-03-12-dia_censura_internet/" # url-historica: solo existió 2022-03-12..2022-03-12 en master, nunca en el sitio actual; candidata a eliminar
+image: /res/post_img/generadas/2022-03-12-dia_mundial_censura_internet.jpg # generada
 ---
 
 - _El escalamiento de la censura en internet ha sido creciente y ha afectado principalmente a medios de comunicación y sitios en la web que comparten contenidos informativos._

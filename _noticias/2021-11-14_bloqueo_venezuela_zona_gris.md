@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Bloquean web de 'Venezuela Zona Gris', el nuevo trabajo de investigación de la periodista Ibéyise Pacheco"
-small:   "Bloquean web de 'Venezuela Zona Gris', trabajo de investigación de Ibéyise Pacheco"
+title_short: "Bloquean web de 'Venezuela Zona Gris', trabajo de investigación de Ibéyise Pacheco"
 excerpt: "Bloquean en varios ISPs la página web de 'Venezuela Zona Gris', trabajo de investigación de la periodista Ibéyise Pacheco, apenas días después de su publicación"
 permalink: /noticias/2021-11-14_bloqueo_venezuela_zona_gris/
 date:  2021-11-14 11:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-11-14-es.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
 ---
 
 ![](/res/post_img/2021-11-14-es.png)

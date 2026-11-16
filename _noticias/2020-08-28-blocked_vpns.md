@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Block against circumvention tools in Venezuela to prevent access to aid for healthcare workers"
-small:   "Venezuela tries to block some circumvention tools"
+title_short: "Venezuela tries to block some circumvention tools"
 excerpt: "All mainstream ISPs in Venezuela block access to Psiphon, Tunnelbear and Anonymouse, to stop access to financial platform were opposition affiliated aid program is being delivered"
 permalink: /noticias/2020-08-28-block-VPNs/
 date:   2020-08-28 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-08-28/2020-08-28en.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: en
+translation: /noticias/2020-08-28-bloqueo-VPNs/
 ---
 
 All major internet providers in Venezuela have blocked anti-censorship tools to stop health care program for medical personnel promoted by the president of the National Assembly, in the middle of a severe crisis over the COVID-19 pandemic in which [over a hundred doctors](https://www.dw.com/es/el-personal-de-salud-venezolano-el-m%C3%A1s-expuesto-al-covid-19/a-54760467?__twitter_impression=true) have died.

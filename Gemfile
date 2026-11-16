@@ -31,5 +31,10 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 
 gem "webrick", "~> 1.7"
+# No longer bundled with Ruby 3.4+, needed by Jekyll 4.2 for local builds
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "logger"
 # gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll-redirect-from'

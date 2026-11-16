@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "VE sin Filtro: Más de 550 eventos de bloqueos en Internet evidencian la censura y las limitaciones a los derechos humanos en Venezuela"
-small: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
+excerpt_short: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 excerpt: "Los bloqueos de sitios web en Venezuela no se ajustan a las normas internacionales de derechos humanos. Se ordenan de oficio, a discreción de CONATEL, con total opacidad y sin una base jurídica clara."
 permalink: /noticias/2024-03-12-Censura-internet/
 date: 2024-03-12 12:00:00 -0400
 categories: reporte
 image: /res/post_img/2024-03-12.png
+type: Comunicado
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 ![](/res/post_img/2024-03-12.png)
 En el #DíaMundialContraLaCensuraEnInternet

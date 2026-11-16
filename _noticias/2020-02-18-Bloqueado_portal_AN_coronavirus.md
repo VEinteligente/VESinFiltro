@@ -1,12 +1,15 @@
 ---
 layout: post
 title:  "Bloquean sitio sobre coronavirus COVID-19 organizado por la AN y Juan Guaidó"
-small:  "Bloquean sitio coronavirusvenezuela.info de Juan Guaidó"
+title_short: "Bloquean sitio coronavirusvenezuela.info de Juan Guaidó"
 excerpt: "Este bloqueo es el primer bloqueo específicamente relacionado a al crisis por COVID-19"
 permalink: /noticias/bloqueado_portal_coronavirus_AN
 date:   2020-03-18 9:11:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-03-18.png
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 

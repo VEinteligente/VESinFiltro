@@ -1,13 +1,16 @@
 ---
 layout: post
 title:  "ALERTA: CANTV impulsa phishing contra plataforma de voluntariado, poniendo en riesgo a disidentes y opositores."
-small:  "ALERTA: CANTV impulsa phishing contra plataforma de voluntarios"
+title_short: "ALERTA: CANTV impulsa phishing contra plataforma de voluntarios"
 excerpt: Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV
 permalink: /noticias/alerta-phishing_voluntariado/
 date:   2019-02-12 17:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-12-alerta.png
-author: "Andrés Azpúrua"
+authors: "Andrés Azpúrua"
+type: Alerta
+topics: ["Ataques digitales"]
+lang: es
 ---
 
 Hemos identificado y seguimos analizando un grave caso de phishing impulsado, al menos en parte, por el ISP estatal de Venezuela CANTV. **Todo el tráfico a [https://voluntariosxvenezuela.com](http://web.archive.org/web/20190211200329/https://www.voluntariosxvenezuela.com/), un portal asociado a la oposición venezolana para el registro de voluntarios en la distribución de ayuda humanitaria, es redirigido a otro servidor completamente distinto.**

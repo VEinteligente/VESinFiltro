@@ -2,12 +2,17 @@
 
 layout: post
 title:  "Más bloqueos contra medios de noticias en Venezuela"
-small:  "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV"
+title_short: "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV"
 excerpt: "Bloquean los portales de noticias de CrónicaUno, Efecto Cocuyo y EVTV en CANTV, Movistar, Digitel, Inter, Supercable y Net Uno"
 permalink: /noticias/2022-02-01-bloqueo-Noticias/
 date:   2022-02-01 12:20:00 -0400
 categories: bloqueos
 image: /res/post_img/2022-02-01.png
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
+redirect_from:
+  - "/noticias/2022-02-01-bloqueo_noticias/" # url-historica: solo existió 2022-02-01..2022-02-01 en master, nunca en el sitio actual; candidata a eliminar
 ---
 ![](/res/post_img/2022-02-01.png)
 

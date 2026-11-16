@@ -7,6 +7,10 @@ permalink: /noticias/2020-10-30-acceso_limitado_herramientas_anticensura/
 date:   2020-10-30 12:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2020-10-30-es.png
+type: Análisis
+topics: ["Censura y bloqueos"]
+lang: es
+translation: /noticias/2020-10-30-limited_access_circumvention_tools/
 ---
 ![](/res/post_img/2020-10-30-es.png)
 

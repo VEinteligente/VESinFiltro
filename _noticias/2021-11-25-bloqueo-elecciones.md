@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Elecciones bajo censura: sin acceso a los medios independientes en #internetVE"
-small:   "Elecciones bajo censura: sin acceso a los medios independientes"
+title_short: "Elecciones bajo censura: sin acceso a los medios independientes"
 excerpt: "Bloqueadas más de 40 dominios de páginas de noticias durante la campaña electoral"
 permalink: /noticias/2021-bloqueos-elecciones/
 redirect_from:
@@ -9,6 +9,10 @@ redirect_from:
 date:   2021-11-25 15:40:00 -0400
 categories: bloqueos
 image: /res/post_img/2021-11-25/2021-11-25.png
+type: Análisis
+topics: ["Censura y bloqueos", "Elecciones", "Libertad de expresión"]
+lang: es
+translation: /noticias/2021-election-blocks/
 ---
 <p class="cover"><img class="" src="/res/post_img/2021-11-25/2021-11-25.png"></p>
 

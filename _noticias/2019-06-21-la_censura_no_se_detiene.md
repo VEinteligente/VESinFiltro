@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Censura en #InternetVE no se de tiene por visita de Michelle Bachelet"
-small: "Censura en #InternetVE no se de tiene por visita de Bachelet"
+title_short: "Censura en #InternetVE no se detiene por visita de Bachelet"
 excerpt: "La visita de la Alta Comisionada para los Derechos Humanos, Michelle Bachelet, no ha frenado el avance de la censura en internet en Venezuela"
 permalink: /noticias/la_censura_no_se_detiene_por_visita_de_bachelet/
 redirect_from:
@@ -10,7 +10,10 @@ redirect_from:
 date:   2019-06-21 6:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-06-21-reporte-b.png
-author: "Andrés Azpúrua"
+authors: "Andrés Azpúrua"
+type: Análisis
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 **La visita de la Alta Comisionada para los Derechos Humanos, Michelle Bachelet, no impidió  que el mismo día se bloqueara Youtube**, el principal sitio de hospedaje y streaming y video. Más bien, **la censura contra medios en internet ha crecido en días previos, bloqueos que permanecen durante la visita de Bachelet.**

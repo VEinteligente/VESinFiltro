@@ -1,12 +1,15 @@
 ---
 layout: post
 title: "Ataque de phishing dirigido a usuarios de Instagram "
-small:   "Ataque de phishing dirigido a usuarios de Instagram "
 excerpt: "Una red de dominios maliciosos se dirige a los usuarios de Instagram en una campaña de phishing"
 permalink: /noticias/2021-02-04/
 date:   2021-02-03 23:10:00 -0400
 categories: phishing
-image:
+image: /res/post_img/generadas/2021-02-03_Instagram_phishing-es.jpg # generada
+type: Alerta
+topics: ["Ataques digitales"]
+lang: es
+translation: /noticias/2021-02-03/
 ---
 
 Después de proveerle asistencia a una de las víctimas, en VESinFiltro hemos identificado una red de dominios usada para el robo de credenciales de Instagram.

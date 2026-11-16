@@ -1,16 +1,24 @@
 ---
-layout: post
+layout: reporte
 title: Phishing by Venezuelan government puts activists and internet users at risk.
-small: Phishing by Venezuelan government puts activists at risk.
+title_short: Phishing by Venezuelan government puts activists at risk.
 excerpt: "Report: voluntariosxvenezuela.com, a site to register humanitarian aid volunteers, has suffered a state-sponsored phishing campaign empowered by DNS injection."
 permalink: /noticias/Phishing_by_Venezuelan_government_targets_activists/
 date:   2019-02-15 18:00:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-02-15-report_en.png
-author: "Andrés Azpúrua, Carlos Guerra"
+authors: "Andrés Azpúrua, Carlos Guerra"
+type: Reporte
+report:
+  series: Especial
+  period: ["2019-02"]
+  cover_in_header: false
+topics: ["Ataques digitales"]
+lang: en
+translation: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/
 ---
 
-This report was originally [published in Spanish on 2019-02-15](https://vesinfiltro.com/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
+This report was originally [published in Spanish on 2019-02-15](/noticias/Phishing_impulsado_por_gobierno_de_Venezuela/)
 
 ### Executive Summary
 
@@ -51,9 +59,9 @@ These developments are worrying because they point to an increased sophisticatio
 Context
 =======
 
-Venezuela has experienced a complex humanitarian crisis in recent years that has led millions of Venezuelans seeking refugee in other countries, even fleeing Venezuela by foot. [The UN estimates that more than 3 million Venezuelan refugees have fled the country] (https://www.unhcr.org/news/press/2018/11/5be4192b4/number-refugees-migrants-venezuela-reaches-3-million.html).
+Venezuela has experienced a complex humanitarian crisis in recent years that has led millions of Venezuelans seeking refugee in other countries, even fleeing Venezuela by foot. [The UN estimates that more than 3 million Venezuelan refugees have fled the country](https://www.unhcr.org/news/press/2018/11/5be4192b4/number-refugees-migrants-venezuela-reaches-3-million.html).
 
-In addition, in January 2019 the world witnessed a Venezuelan presidential crisis - the legitimacy of Nicolás Maduro as President was questioned after Juan Guaidó was proclaimed the President of the National Assembly and Interim President of Venezuela  (http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019).
+In addition, in January 2019 the world witnessed a [Venezuelan presidential crisis](http://es.wikipedia.org/wiki/Crisis_presidencial_de_Venezuela_de_2019) - the legitimacy of Nicolás Maduro as President was questioned after Juan Guaidó was proclaimed the President of the National Assembly and Interim President of Venezuela.
 
 The presidential crisis has triggered a wave of internet censorship that has been much more tactical, using tools such as SNI filtering. The first blocking occured with the
 [blocking of Wikipedia](http://vesinfiltro.com/noticias/wikipedia_2019-01/) when various articles began referring to Juan Guaidó as President of Venezuela, and has focused on silencing public debates that are transmitted via streaming.
@@ -63,7 +71,7 @@ The presidential crisis has triggered a wave of internet censorship that has bee
 
 In response to the humanitarian crisis, and in support of the interim government,
 collection centers have been created in various countries to collect aid to ship to Venezuela, including in places like Colombia, Brazil, Chile, Argentina, Costa Rica, The United States, and the Netherlands among others. However, the Maduro government has impeded this humanitarian aid from entering the country.  As a result, the Venezuelan opposition led by Juan Guaidó organized a movement of volunteers to help with the logistics and distribution of this humanitarian aid using the website
-[voluntariosxvenezuela.com] (https://voluntariosxvenezuela.com/) for coordination.
+[voluntariosxvenezuela.com](https://voluntariosxvenezuela.com/) for coordination.
 
 
 Blocking and phishing of VoluntariosXVenezuela.com
@@ -77,7 +85,7 @@ This malicious website used by the phishing campaign was visually identical to t
 
 It is difficult to know exactly when the phishing campaign began, since it is
 possible that the malicious website was put to use before DNS spoofing was used. We began [alerting people of the
-phishing campaign] (https://twitter.com/andresAzp/status/1095420751979708417) in the early afternoon of February 12, letting them know that they should not submit personal data to the malicious website, as well as supporting victims who had already done so.
+phishing campaign](https://twitter.com/andresAzp/status/1095420751979708417) in the early afternoon of February 12, letting them know that they should not submit personal data to the malicious website, as well as supporting victims who had already done so.
 
 The malicious site was posted on Twitter [starting in the afternoon of February 11](https://twitter.com/search?f=tweets&vertical=default&q=voluntariovenezuela.com%20since%3A2019-02-11%20until%3A2019-02-12&src=typd&lang=en)
 (Venezuela timezone, GMT-4), by various users promoting it. This [particular tweet stands out](https://twitter.com/Wil_Ardilax1/status/1095071269538721793)
@@ -108,7 +116,7 @@ Spoofing, poisoning and DNS injection
 Internet browsers use DNS servers (Domain Name System) to translate the name of a website, such as example.com, to an IP address that will be used to connect to the desired server. Essentially, this what allows you to use your web browser to find or “visit” web sites.  DNS spoofing is a family of techniques that allows for corrupt DNS data to be introduced, causing the server to return an incorrect result, such as the wrong IP address. As a result, the user cannot visit their desired website or is sent to another website that they did not request.
 
 On February 12 all outgoing DNS traffic was inspected and any request for the IP address associated with voluntariosxvenezuela.com was returned with the IP address of the malicious site,159.65.65.194, and clearly does not match the [range of
-IPs of the real site] (https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
+IPs of the real site](https://securitytrails.com/domain/voluntariosxvenezuela.com/history/a)
  voluntariosxvenezuela.com, which is hosted at AWS.  Additionally, the IP address of the malicious site is also returned by the DNS servers of
 CANTV. It is unknown if this IP was configured in the CANTV servers or if its caches (temporary memory) were \ "poisoned \" and were also affected by the  malicious DNS injection.
 
@@ -376,7 +384,7 @@ The server hosting the malicious site
 had the IP address 159.65.65.194. During the brief appearance during of the phishing campaign on January 14, the same server or a different one hosting the malicious site with the same purpose, had the IP address 134.209.13.64.
 
 After the lifting of the phishing campaign momentarily in the afternoon of February 13, the server responded to that domain [only
-with] (http://web.archive.org/web/20190213223700/http://voluntariovenezuela.com/)
+with](http://web.archive.org/web/20190213223700/http://voluntariovenezuela.com/)
 `{" status ":" ok "}`.
 
 
@@ -405,7 +413,7 @@ In Venezuela, [political discrimination is common](https://www.derechos.org.ve/o
 against employees in the [public sector](http://elestimulo.com/blog/cidh-asegura-que-despidos-por-la-lista-tascon-violan-los-derechos-humanos/) and against individuals [recieving social welfare](https://www.derechos.org.ve/investigacion/los-clap-7-indicios-de-discriminacion-politica).
 
 
-As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many of whom are still unsure if they were victims or not. This incident has been compared to what is known as the [\"Tascón list\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-ista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights] (https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
+As a result, the phishing campaign has generated a reasonable amount of fear for individuals, many of whom are still unsure if they were victims or not. This incident has been compared to what is known as the [\"Tascón list\"](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos), a list of individuals critical of the government that was created after these individuals took part in a political process, and were then subject to political discrimination. The government’s use of of this list for this purpose was [condemned by the Inter-American Court of Human Rights](https://www.observatoriodeconflictos.org.ve/derechos-humanos/corte-idh-condena-uso-de-lista-tascon-para-violar-derechos-politicos).
 
 The phishing campaign ended early on February 13, and re-started briefly again during the afternoon of February 14. It is unclear why the phishing campaign was suspended, but one reason may be because the attack was publicized, with technical evidence backing up the allegations . The cessation in DNS spoofing does not necessarily have to match the inaccessibility of the site, but in this incident they came hand in hand.
 

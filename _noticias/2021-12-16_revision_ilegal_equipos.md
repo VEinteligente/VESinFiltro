@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Revisión ilegal de equipos: Lo que debes saber y hacer"
-small:   "Revisión ilegal de equipos: Lo que debes saber y hacer"
 excerpt: "La confiscación ilegal de dispositivos electrónicos es una violación a los derechos civiles. Aprende cómo prepararte y defenderte"
 permalink: /noticias/revision_ilegal_equipos/
 redirect_from:
@@ -9,6 +8,10 @@ redirect_from:
 date:   2021-12-16 12:15:00 -0400
 categories: guias
 image: /res/post_img/2021-12-16.png
+type: Análisis
+topics: ["Vigilancia", "Datos personales"]
+lang: es
+share_image: /res/post_img/generadas/2021-12-16_revision_ilegal_equipos.jpg # generada
 ---
 
 <p class="cover"><img class="" src="/res/post_img/2021-12-16.png"></p>

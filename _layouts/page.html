@@ -1,27 +1,12 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body class="{{page.bodyclass}}">
-
-    {% include header.html %}
-
-    <div class="page-content">
-	  <header class="wrapper post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-      </header>
-      <div class="wrapper"><div>
-        <div class="post">
-          <article class="post-content">
-            {{ content }}
-          </article>
-         </div>
-      </div></div>
-    </div>
-
-    {% include footer.html %}
-
-  </body>
-
-</html>
+---
+layout: default
+---
+<div class="wrap">
+	<header class="page-top">
+		{% if page.collection == "bloqueos" or page.collection == "documenta" %}<nav class="crumbs" aria-label="Ruta"><a href="{{ '/bloqueos/' | relative_url }}">Guías</a></nav>{% endif %}
+		<h1>{{ page.title }}</h1>
+	</header>
+	<article class="page-body prose legacy post-content">
+		{{ content }}
+	</article>
+</div>

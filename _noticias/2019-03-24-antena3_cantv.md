@@ -6,7 +6,11 @@ permalink: /noticias/antena3_2019-03/
 date:   2019-03-24 16:30:00 -0400
 categories: bloqueos
 image: /res/post_img/2019-03-24-post.png
-author: "Andrés Azpúrua"
+authors: "Andrés Azpúrua"
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
+share_image: /res/post_img/generadas/2019-03-24-antena3_cantv.jpg # generada
 ---
 
 El sitio de **[Antena 3 Internacional](antena3internacional.com) ha sido bloqueado en Venezuela por CANTV**, proveedor de internet mas importante del país y una empresa estatal. Este bloqueo existe al menos desde 2019-03-24, fecha en la que empezamos a registrar el estado de antena3internacional.com.

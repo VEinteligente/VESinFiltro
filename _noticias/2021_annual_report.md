@@ -1,7 +1,6 @@
 ---
-layout: post
+layout: reporte
 title: "#2021Report: Digital rights, censorship and connectivity in Venezuela"
-small: "#2021Report: Digital rights, censorship and connectivity in Venezuela"
 excerpt: "The blocking of web pages that offer informative content is growing and the difficulties to access the Internet and participate in the digital society are increasing."
 permalink: /noticias/2021_annual_report/
 date:   2022-04-06 17:20:00 -0400
@@ -9,6 +8,15 @@ redirect_from:
   - /2021EN/
 categories: bloqueos
 image: /res/post_img/2021_es.png
+type: Reporte
+topics: ["Censura y bloqueos", "Conectividad", "Ataques digitales"]
+lang: en
+translation: /noticias/2021_informe_anual/
+report:
+  series: "Informe anual"
+  cover: "/res/reportes/2021-annual-report-en.jpg"
+  pdf: "/res/files/2021INFORME-VSFEN.pdf"
+  pages: 40
 ---
 <p class="cover"><img class="" src="/res/post_img/2021_es.png"></p>
 

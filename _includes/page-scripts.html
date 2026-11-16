@@ -1,0 +1,25 @@
+<script>
+(function () {
+  // "En esta publicación": the article's own h2 headings, when there are two or more.
+  var nav = document.querySelector('.post-toc, .rp-toc');
+  var hs = document.querySelectorAll('.prose h2[id]');
+  if (nav && hs.length >= 2) {
+    var box = nav.querySelector('div') || nav.querySelector('ul');
+    hs.forEach(function (h) {
+      var a = document.createElement('a');
+      a.href = '#' + h.id; a.textContent = h.textContent;
+      if (box.tagName === 'UL') { var li = document.createElement('li'); li.appendChild(a); box.appendChild(li); } else { box.appendChild(a); }
+    });
+    nav.hidden = false;
+  }
+  // Copy buttons (link, citation).
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var text = b.getAttribute('data-copy'), label = b.textContent;
+      var done = function () { b.textContent = b.getAttribute('data-done') || label; setTimeout(function () { b.textContent = label; }, 2000); };
+      if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done, function () {}); }
+    });
+  });
+})();
+  document.querySelectorAll('[data-print]').forEach(function (b) { b.addEventListener('click', function () { window.print(); }); });
+</script>

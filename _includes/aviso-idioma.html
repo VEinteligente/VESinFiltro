@@ -1,0 +1,6 @@
+{% comment %}Shown by idioma.html when the reader's language is not the page's and the page has a translation. Written in the reader's language.{% endcomment %}
+{% if page.translation and page.url != "/" and page.url != "/en/" %}{% assign AL = "en" %}{% if page.lang == "en" %}{% assign AL = "es" %}{% endif %}{% assign ta = site.data.ui[AL] %}
+<div class="aviso-idioma" id="aviso-idioma" lang="{{ AL }}" hidden>
+	<div class="wrap"><p>{% if page.collection == "noticias" %}{{ ta.aviso_idioma }}{% else %}{{ ta.aviso_pagina }}{% endif %} <a href="{{ page.translation | relative_url }}" data-cambia-idioma="{{ AL }}">{{ ta.aviso_leer }}</a></p><button type="button" aria-label="{{ ta.cerrar }}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button></div>
+</div>
+{% endif %}

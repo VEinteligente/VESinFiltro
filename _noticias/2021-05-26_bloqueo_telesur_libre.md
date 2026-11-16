@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bloqueada la página web del medio de comunicación TeleSur Libre horas después de su inauguración"
-small:   "Bloqueada página web de TeleSur Libre"
+title_short: "Bloqueada página web de TeleSur Libre"
 excerpt: "Los proveedores de internet de Venezuela bloquearon la página web del medio de comunicación TeleSur Libre horas después de su inauguración"
 permalink: /noticias/2021-05-26_bloqueo_telesur_libre/
 date:  2021-05-26 10:30:00 -0400
@@ -9,6 +9,10 @@ categories: bloqueos
 image: /res/post_img/2021-05-26-es.png
 redirect_from:
   - /noticias/2021-05-26_bloqueo_telesur_libre/
+type: Alerta
+topics: ["Censura y bloqueos", "Libertad de expresión"]
+lang: es
+translation: /noticias/2021-05-26_bloqueo_telesur_libre_en/
 ---
 <img src="/res/post_img/2021-05-26-es.png" style="width: 150%;"/>
 

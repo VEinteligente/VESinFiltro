@@ -1,13 +1,16 @@
 ---
 layout: post
 title: "Empeoran limitaciones digitales a los derechos humanos en línea"
-small: "Empeoran limitaciones a los derechos en línea"
+title_short: "Empeoran limitaciones a los derechos en línea"
 excerpt: "El deterioro progresivo de la capacidad de los venezolanos para ejercer los Derechos Humanos en internet se ha acelerado dramáticamente con el
 agravamiento de la crisis económica y política"
 permalink: /noticias/empeoran_limitaciones_en_linea/
 date:   2019-03-12 9:00:00 -0400
 categories: reporte
 image: /res/post_img/2019-03-12-reporte.png
+type: Análisis
+topics: ["Censura y bloqueos"]
+lang: es
 ---
 
 ![](/res/post_img/2019-03-12-reporte.png)

@@ -1,13 +1,17 @@
 ---
 layout: post
 title: Resumen preliminar del incidente de bloqueo del 28 de junio de 2017
-small: Resumen preliminar de bloqueos del 28 de junio de 2017
+title_short: Resumen preliminar de bloqueos del 28 de junio de 2017
 excerpt: En horas de la noche del 28 de junio de 2017, aproximadamente a las 23h, detectamos nuevos bloqueos a las principales sociales, el extraño incidente solo duró una hora y se desconocen los motivos, seguimos investigando
 permalink: /noticias/resumen_preliminar_2017-06-28/
 date:   2017-06-28 01:22:00 -0400
 categories: bloqueos
-image: no
+# image: no # faltante, generada
 
+type: Alerta
+topics: ["Censura y bloqueos"]
+lang: es
+image: /res/post_img/generadas/2017-06-28_resumen_preliminar.jpg # generada
 ---
 
 29 de junio de 2017, 1:22 am
