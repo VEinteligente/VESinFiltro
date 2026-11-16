@@ -13,6 +13,7 @@ report:
   series: Especial
   period: ["2019-02"]
   cover_in_header: false
+  cover: /res/reportes/2019-phishing-volunteers-en.jpg
 topics: ["Ataques digitales"]
 lang: en
 translation: /noticias/Phishing_impulsado_por_gobierno_de_Venezuela/

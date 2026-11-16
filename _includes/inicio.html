@@ -17,15 +17,21 @@ posts in only one language appear as they are. Images that are missing on disk b
 {% assign todas = site.noticias | reverse %}
 {% comment %}English home: English posts plus Spanish posts with no translation. Two single-condition passes, because GitHub Pages' Jekyll 3.10 has no and/or in where_exp.{% endcomment %}
 {% if L == "en" %}{% assign l_en = todas | where: "lang", "en" %}{% assign l_solo = todas | where_exp: "p", "p.translation == nil" | where_exp: "p", "p.lang != 'en'" %}{% assign lista = l_en | concat: l_solo | sort: "date" | reverse %}{% else %}{% assign lista = todas | where_exp: "p", "p.lang != 'en'" %}{% endif %}
-{% assign pubs = lista | where_exp: "p", "p.layout != 'reporte'" %}
+{% comment %}Featured: the newest post of any kind, unless a post's `featured` date (front matter) is later than that post's date.
+The latest such date wins, and any post published after it takes the place back. A pinned post shows in the home's language when it has a translation.{% endcomment %}
+{% assign feat = lista.first %}{% assign fijada = nil %}{% assign marca = feat.date | date: "%s" | plus: 0 %}
+{% assign candidatas = todas | where_exp: "p", "p.featured" %}
+{% for p in candidatas %}{% assign m = p.featured | date: "%s" | plus: 0 %}{% if m > marca %}{% assign marca = m %}{% assign fijada = p %}{% endif %}{% endfor %}
+{% if fijada %}{% assign fl = fijada.lang | default: "es" %}{% if fl != L and fijada.translation %}{% assign par = todas | where: "url", fijada.translation | first %}{% if par %}{% assign fijada = par %}{% endif %}{% endif %}{% assign feat = fijada %}{% endif %}
+{% assign feat_label = t.lo_mas_reciente %}{% if feat.url != lista.first.url %}{% assign feat_label = t.destacado %}{% endif %}
+{% assign pubs = lista | where_exp: "p", "p.layout != 'reporte'" | where_exp: "p", "p.url != feat.url" %}
 {% assign reps = lista | where: "layout", "reporte" | where_exp: "p", "p.report.full_report == nil" %}
-{% assign feat = pubs.first %}
 {% assign feat_img = nil %}{% assign c1 = feat.share_image | url_decode %}{% assign c2 = feat.image | url_decode %}
 {% if archivos contains c1 %}{% assign feat_img = feat.share_image %}{% elsif archivos contains c2 %}{% assign feat_img = feat.image %}{% endif %}
 <section class="sec">
 	<div class="wrap lead">
 		<article class="lead-feat">
-			<span class="label" style="color:var(--sec)">{{ t.lo_mas_reciente }}</span>
+			<span class="label" style="color:var(--sec)">{{ feat_label }}</span>
 			<a href="{{ feat.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if feat_img %}<img src="{{ feat_img | uri_escape | relative_url }}" alt="" width="1200" height="630">{% else %}{% include ph.html p=feat t=t %}{% endif %}</a>
 			<div class="meta"><b class="kind{% if feat.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ t.tipos[feat.type] | default: feat.type }}</b><time datetime="{{ feat.date | date_to_xmlschema }}">{{ feat.date | date: "%Y-%m-%d" }}</time>{% if L == "en" %}{% include chips-idioma.html p=feat %}{% endif %}</div>
 			<h2><a href="{{ feat.url | relative_url }}" lang="{{ feat.lang }}">{{ feat.title }}</a></h2>
@@ -35,7 +41,7 @@ posts in only one language appear as they are. Images that are missing on disk b
 		<aside aria-labelledby="recientes-h">
 			<div class="side-h"><h2 id="recientes-h">{{ t.mas_recientes }}</h2><a class="lnk" href="{{ pub_url | relative_url }}">{{ t.todas }}</a></div>
 			<ul class="rlist">
-			{% for p in pubs offset: 1 limit: 5 %}
+			{% for p in pubs limit: 5 %}
 				<li><span class="meta" style="justify-content:space-between"><b class="kind{% if p.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ t.tipos[p.type] | default: p.type }}</b><span class="meta-r">{% if L == "en" %}{% include chips-idioma.html p=p %}{% endif %}<span>{{ p.date | date: "%Y-%m-%d" }}</span></span></span><a class="t" href="{{ p.url | relative_url }}" lang="{{ p.lang }}">{{ p.title }}</a></li>
 			{% endfor %}
 			</ul>
@@ -67,7 +73,7 @@ posts in only one language appear as they are. Images that are missing on disk b
 			<nav class="tabs" aria-label="{{ t.inicio_tipos }}"><a href="{{ pub_url | relative_url }}">{{ t.todas }}</a>{% assign tipos_tabs = "Comunicado,Análisis,Alerta,Noticia" | split: "," %}{% for k in tipos_tabs %}<a href="{{ pub_url | append: '?tipo=' | append: k | relative_url }}">{{ t.tipos_plural[k] }}</a>{% endfor %}{% if L == "en" %}<a href="{{ pub_url | append: '?idioma=en' | relative_url }}" lang="en" title="Publications available in English">EN</a>{% endif %}</nav>
 		</div>
 		<div class="cards">
-		{% for p in pubs offset: 6 limit: 6 %}
+		{% for p in pubs offset: 5 limit: 6 %}
 			{% assign pimg = nil %}{% assign c1 = p.share_image | url_decode %}{% assign c2 = p.image | url_decode %}
 			{% if archivos contains c1 %}{% assign pimg = p.share_image %}{% elsif archivos contains c2 %}{% assign pimg = p.image %}{% endif %}
 			<article class="card">

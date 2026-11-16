@@ -41,6 +41,7 @@ es:
   solo_disponible_reporte: Este reporte solo está disponible en inglés en la web.
   pdf_en_tu_idioma: Descargar el PDF en español
   lo_mas_reciente: Lo más reciente
+  destacado: Destacado
   mas_recientes: Más recientes
   todas: Todas
   todos: Todos
@@ -160,6 +161,7 @@ en:
   solo_disponible_reporte: This report is only available in Spanish on the web.
   pdf_en_tu_idioma: Download the PDF in English
   lo_mas_reciente: Latest
+  destacado: Featured
   mas_recientes: Recent
   todas: All
   todos: All
