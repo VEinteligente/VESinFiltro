@@ -1,7 +1,7 @@
 {% assign L = include.lang | default: "es" %}{% assign t = site.data.ui[L] %}
 {% assign todas = site.noticias | reverse %}
 {% assign tipos = "Comunicado,Análisis,Alerta,Noticia,Reporte,Guía" | split: "," %}
-{% assign temas = "Censura y bloqueos,Vigilancia,Ataques digitales,Datos personales,Conectividad,Libertad de expresión,Elecciones" | split: "," %}
+{% assign temas = "Censura y bloqueos,Vigilancia,Ciberseguridad y protección de datos,Ataques digitales,Datos personales,Conectividad,Libertad de expresión,Elecciones" | split: "," %}
 <section class="sec" style="padding-bottom:32px">
 	<div class="wrap">
 		<div class="sec-head" style="margin:0"><div><h1>{{ t.nav_publicaciones }}</h1><p>{{ t.pub_intro }}</p></div></div>
