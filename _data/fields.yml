@@ -19,13 +19,16 @@ classification:
   translation: URL of the same post in the other language. Also drives the reader-language switch (_includes/idioma.html) and the notice (_includes/aviso-idioma.html).
   categories: Legacy; kept, not used by the design.
 
+home:
+  featured: Optional date (YYYY-MM-DD, or with time and offset) that pins the post as the home's featured one from then on. The home features the newest post by default; a pinned post holds the place until any post dated after its featured date is published, or another post gets a later featured date. A translated post needs it on one language only.
+
 images:
   image: The post's own image, as published.
   image_alt: Text describing the shared image.
   share_image: Social card when image crops badly. Lines made by generar.py (generador-imagenes/, outside the repo for now) end in "# generada".
   credits: A string or a list of image credits, shown at the end of the post.
-  list_image: Optional image for the /publicaciones/ list, instead of the report cover or share image (for example a report's horizontal share card). /reportes/ still shows report.cover.
-  precedence: Report header uses report.cover; social uses share_image, then image; list thumbnails use list_image, then report.cover, then share_image, then image.
+  list_image: Optional image for the /publicaciones/ list, instead of the share image or image. /reportes/ still shows report.cover.
+  precedence: Report header uses report.cover; social uses share_image, then image; list thumbnails use list_image, then share_image, then image. A report with no horizontal image (at least 1.3 times wider than tall) shows its report.cover in the list.
 
 report:  # only with layout: reporte
   series: Informe anual | Especial | Política tecnológica | Estudio

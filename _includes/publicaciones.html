@@ -26,7 +26,7 @@
 		{% assign pl = p.lang | default: "es" %}{% assign pt = site.data.ui[pl] %}
 		{% assign mini = site.data.miniaturas[p.url] %}
 		<article class="row" data-year="{{ y }}" data-type="{{ p.type }}" data-topics="{{ p.topics | join: '|' }}" data-idioma="{{ pl }}"{% if p.translation %} data-par="1"{% endif %} lang="{{ pl }}">
-			<a class="row-img{% if p.layout == 'reporte' and p.list_image == nil %} row-img--portada{% endif %}" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if mini %}<img src="{{ mini | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}</a>
+			<a class="row-img{% if mini contains '-portada.jpg' %} row-img--portada{% endif %}" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if mini %}<img src="{{ mini | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}</a>
 			<div class="row-b">
 				<div class="row-m"><span class="row-d">{{ p.date | date: "%Y-%m-%d" }}</span><span class="kind{% if p.type == 'Alerta' %} kind-alerta{% endif %}"><i class="sq" aria-hidden="true"></i>{{ pt.tipos[p.type] | default: p.type }}</span>{% include chips-idioma.html p=p solo_pares=true %}</div>
 				<a class="row-t" href="{{ p.url | relative_url }}">{{ p.title }}</a>

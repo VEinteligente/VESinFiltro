@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: reporte
 title: "Desbloqueos de septiembre: 143 dominios y 24 sitios de noticias siguen bloqueados en Venezuela"
 excerpt: "Entre las dos olas de desbloqueos, el 16 de septiembre y desde el 25, 71 dominios dejaron de estar bloqueados en al menos un proveedor, pero 45 son accesibles en todos. Noticias, política y herramientas anticensura concentran los bloqueos que permanecen."
 permalink: /noticias/2026-10-06-reporte-desbloqueos/
@@ -9,6 +9,9 @@ image: /res/post_img/2026-10-06/2026-10-06.png
 type: Reporte
 topics: ["Censura y bloqueos", "Libertad de expresión"]
 lang: es
+report:
+  cover: /res/reportes/2026-desbloqueos-septiembre-es.jpg
+  cover_in_header: false
 ---
 <style>
 /* Key figures strip (look of the stat tiles on bloqueos.vesinfiltro.org). Colours: red = blocked, amber = unblocked on some ISPs, green = unblocked on all. */
