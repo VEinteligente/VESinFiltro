@@ -1,0 +1,2 @@
+{{- /* /en/ (the Spanish home is index.html). */ -}}
+{{ define "main" }}{{ partial "inicio.html" (dict "L" (.Params.include_lang | default "es")) }}{{ end }}

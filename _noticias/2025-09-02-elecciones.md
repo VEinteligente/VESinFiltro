@@ -90,6 +90,7 @@ en un contexto electoral.
             <tr>
                <td>elecciones2024venezuela.com</td><td>NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="partial">DNS</td>
             </tr>
+            <tr>
                 <td>www.noticierovenevision.net</td><td>NEWS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="partial">DNS</td><td class="http-dns">DNS + HTTP/HTTPS</td><td class="partial">DNS</td><td class="accesible">No</td>
             </tr>
             <tr>

@@ -1,0 +1,2 @@
+{{- /* Liquid's strip_html | normalize_whitespace | strip */ -}}
+{{- return (. | default "" | string | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace) -}}

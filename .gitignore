@@ -80,3 +80,11 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 
+
+### Hugo (migration branch) ###
+/public/
+/resources/
+/content/
+.hugo_build.lock
+/migracion/salida/
+/migracion/.venv/

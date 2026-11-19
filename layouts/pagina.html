@@ -1,0 +1,12 @@
+{{- /* Port of _layouts/page.html */ -}}
+{{ define "main" }}
+<div class="wrap">
+	<header class="page-top">
+		{{ if in (slice "bloqueos" "documenta") .Section }}<nav class="crumbs" aria-label="Ruta"><a href="{{ "/bloqueos/" | relURL }}">Guías</a></nav>{{ end }}
+		<h1>{{ .Title }}</h1>
+	</header>
+	<article class="page-body prose legacy post-content">
+		{{ .Content }}
+	</article>
+</div>
+{{ end }}

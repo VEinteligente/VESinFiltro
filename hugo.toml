@@ -1,0 +1,105 @@
+# Hugo build of vesinfiltro.org. It runs next to Jekyll on the same sources; see README.md.
+# Content is generated into content/ by migracion/convertir.py from _noticias, _bloqueos, _documenta and the root pages.
+baseURL = "https://vesinfiltro.org/"
+title = "VE sin Filtro"
+locale = "es"
+defaultContentLanguage = "es"
+timeZone = "America/Caracas"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+# Jekyll's site.static_files equivalent and the redirect pages need no extra kinds.
+enableRobotsTXT = false
+
+[params]
+  email = "vesinfiltro@conexionsegura.org"
+  description = "VEsinFiltro es un repositorio de información sobre la censura y filtrado de contenidos en Venezuela. Herramientas para denunciar y evadir bloqueos y más"
+  tagline = "Infórmate sobre el estado de internet en Venezuela"
+  twitter_username = "vesinfiltro"
+
+# Files the home page also writes: the Atom feed and the Cloudflare Pages config (_redirects, _headers).
+[outputs]
+  home = ["html", "feed", "redirects", "headers"]
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+  [mediaTypes."text/cloudflare"]   # files with no extension
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.feed]
+    mediaType = "application/atom+xml"
+    baseName = "feed"
+    isPlainText = false
+    rel = "alternate"
+  [outputFormats.redirects]
+    mediaType = "text/cloudflare"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.headers]
+    mediaType = "text/cloudflare"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true          # posts carry raw HTML, as kramdown allowed
+  [markup.goldmark.parser]
+    autoHeadingIDType = "github"   # keeps accents in ids, as kramdown does, so links to sections still work
+    [markup.goldmark.parser.attribute]
+      block = true         # {.vsf-table} after a table, converted from kramdown's {: .vsf-table}
+  [markup.goldmark.extensions]
+    typographer = true     # kramdown curls quotes and turns -- into an en dash; Goldmark does the same with this on
+
+[markup.highlight]
+  noClasses = false
+
+# The Jekyll tree stays the source of static files until cutover: mount it instead of copying.
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "_data"
+    target = "data"
+  [[module.mounts]]
+    source = "res"
+    target = "static/res"
+  [[module.mounts]]
+    source = "img"
+    target = "static/img"
+  [[module.mounts]]
+    source = "files"
+    target = "static/files"
+  [[module.mounts]]
+    source = "lib"
+    target = "static/lib"
+  [[module.mounts]]
+    source = "temp"
+    target = "static/temp"
+  [[module.mounts]]
+    source = "assets"
+    target = "static/assets"
+  [[module.mounts]]
+    source = "CNAME"
+    target = "static/CNAME"
+  [[module.mounts]]
+    source = "2019-01-15-wikipedia.png"
+    target = "static/2019-01-15-wikipedia.png"
+  [[module.mounts]]
+    source = "2024-08-05.png"
+    target = "static/2024-08-05.png"
+  [[module.mounts]]
+    source = "post_img.png"
+    target = "static/post_img.png"
+  [[module.mounts]]
+    source = "digital_repression-venezuela.pdf"
+    target = "static/digital_repression-venezuela.pdf"
+
+# The guides (_bloqueos, _documenta) and several root pages are HTML content files, as in Jekyll.
+[security]
+  allowContent = ['^text/html$', '^text/markdown$']

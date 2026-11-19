@@ -1,0 +1,9 @@
+{{- /* The header's current section (seccion front matter, else from layout and url, as _includes/header.html does). */ -}}
+{{- $s := .Params.seccion -}}
+{{- $u := .Params.url | default .RelPermalink -}}
+{{- if not $s -}}
+  {{- if or (eq .Params.layout "reporte") (in (slice "/reportes/" "/en/reports/") $u) }}{{ $s = "reportes" -}}
+  {{- else if or (eq .Section "noticias") (in (slice "/publicaciones/" "/en/publications/") $u) }}{{ $s = "publicaciones" -}}
+  {{- else if or (in (slice "bloqueos" "documenta") .Section) (eq $u "/bloqueos/") }}{{ $s = "guias" }}{{ end -}}
+{{- end -}}
+{{- return $s -}}

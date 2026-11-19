@@ -1778,9 +1778,9 @@ Two data classification categories were identified for the criteria for identify
     2. Serious: 51-80%
     3. Mild: If the drop is not lower than 80% and also coincides with a clear connectivity drop event. 
 2. Cause of the incident:
-    4. Electric outage
-    5. ISP outage
-    6. Other
+    1. Electric outage
+    2. ISP outage
+    3. Other
 
 It is important to note that the measurements use /24 normalized network segments compared to the highest connectivity value in the region or ISP that is being monitored as a metric.
 

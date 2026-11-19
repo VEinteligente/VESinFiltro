@@ -1,0 +1,14 @@
+{{- /* Port of _layouts/minimal.html (no site frame) */ -}}
+<!DOCTYPE html>
+<html lang="{{ .Params.lang | default "es" }}">
+{{ partial "head.html" . }}
+<body class="{{ .Params.bodyclass }}">
+<header class="sh"><div class="wrap sh-in"><a class="sh-logo" href="{{ "/" | relURL }}"><img src="{{ "/res/VeSinFiltro-long.svg" | relURL }}" alt="VE sin Filtro" width="178" height="36"></a></div></header>
+<main class="wrap">
+	<header class="page-top"><h1>{{ .Title }}</h1></header>
+	<article class="page-body prose legacy post-content">
+		{{ .Content }}
+	</article>
+</main>
+</body>
+</html>

@@ -1760,9 +1760,9 @@ Con respecto al criterio de identificación de los incidentes/eventos, se defini
     3. Leve: si se observa una caída que no es inferior a 80%, y a su vez coincide con un evento evidente de baja de conectividad. 
 
 2. Causa del incidente:
-    4. Por fallas eléctricas
-    5. Por falla de proveedores de internet
-    6. otras
+    1. Por fallas eléctricas
+    2. Por falla de proveedores de internet
+    3. otras
 
 Es importante conocer que las mediciones tienen como métrica segmentos de red /24 normalizados con respecto al valor más alto de conectividad de la región o ISP, que se está monitoreando.
 

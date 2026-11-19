@@ -1,0 +1,15 @@
+{{- /* /404.html: Cloudflare Pages serves it, with status 404, for any address that has no file. In both languages. */ -}}
+{{ define "main" }}
+<section class="sec">
+	<div class="wrap">
+		<div class="sec-head" style="margin:0"><div>
+			<h1>Página no encontrada</h1>
+			<p>La dirección que buscas no existe o cambió. Puedes volver al <a href="{{ "/" | relURL }}">inicio</a> o buscarla entre las <a href="{{ "/publicaciones/" | relURL }}">publicaciones</a> y los <a href="{{ "/reportes/" | relURL }}">reportes</a>.</p>
+		</div></div>
+		<div class="sec-head" style="margin:32px 0 0" lang="en"><div>
+			<h2>Page not found</h2>
+			<p>This address does not exist or has changed. Go to the <a href="{{ "/en/" | relURL }}">home page</a>, or look for it among the <a href="{{ "/en/publications/" | relURL }}">publications</a> and <a href="{{ "/en/reports/" | relURL }}">reports</a>.</p>
+		</div></div>
+	</div>
+</section>
+{{ end }}

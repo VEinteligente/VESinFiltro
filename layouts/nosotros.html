@@ -1,0 +1,2 @@
+{{- /* /nosotros pages, Spanish and English (include_lang). */ -}}
+{{ define "main" }}{{ partial "nosotros.html" (dict "L" (.Params.include_lang | default "es")) }}{{ end }}

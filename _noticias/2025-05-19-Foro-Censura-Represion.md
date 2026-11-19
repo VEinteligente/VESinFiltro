@@ -17,7 +17,7 @@ lang: es
 
 Caracas. 19-05-2025.- Hay elementos diferenciadores de la censura y las violaciones a la libertad de expresión en Venezuela, así lo expresó el relator especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (CIDH), Pedro Vaca, quien analizó la situación local en perspectiva con los problemas que afronta el continente en esta misma materia.
 
-Vaca explicó que, pese al complejo contexto en toda América, en Venezuela destaca “el despliegue de décadas de intento de control de los medios de comunicación”, “la concentración del poder y la ausencia del Estado de derecho" y el hecho grave de que "personas por pensar distinto han estado en prisión". 
+Vaca explicó que, pese al complejo contexto en toda América, en Venezuela destaca “el despliegue de décadas de intento de control de los medios de comunicación”, “la concentración del poder y la ausencia del Estado de derecho” y el hecho grave de que “personas por pensar distinto han estado en prisión”. 
 
 El relator citó como ejemplos de esta caracterización las detenciones de periodistas, la falta de autonomía de instituciones administrativas que restringen el trabajo de medios audiovisuales y el uso de funcionarios policiales para la revisión de equipos electrónicos personales, entre otros. 
 
@@ -42,7 +42,7 @@ Estas restricciones, prosiguió, han continuado pasadas las elecciones, ejecutad
 
 Al respecto, el relator especial de la CIDH planteó que “no todo lo que está pasando tiene que ver con lo electoral, aunque incluya lo electoral”, haciendo referencia a las múltiples violaciones de garantías básicas por parte del Estado venezolano. 
 
-En este sentido, puntualizó la necesidad de “acudir a llamamientos mínimos" que especifiquen y pongan de manifiesto vulneraciones específicas a los derechos humanos ante contextos y grupos particulares. 
+En este sentido, puntualizó la necesidad de “acudir a llamamientos mínimos” que especifiquen y pongan de manifiesto vulneraciones específicas a los derechos humanos ante contextos y grupos particulares. 
 
 Por su parte, la jurista Marianne Díaz aseguró que es un “momento muy clave en la historia de la censura y de la vigilancia en Venezuela”, pues durante los comicios presidenciales se engranaron todos los elementos  que hasta entonces se habían configurado para la “creación de un estado de vigilancia masiva y control biosociopolítico en internet”. 
 

@@ -1,0 +1,59 @@
+{{- /* Port of _layouts/post.html */ -}}
+{{ define "main" }}
+{{- $L := .Params.lang | default "es" }}{{ $t := index hugo.Data.ui $L }}
+{{- $tipo_l := index $t.tipos .Params.tipo | default .Params.tipo }}
+{{- $plain := partial "plano.html" .Content }}
+{{- $ex := partial "plano.html" .Params.excerpt }}
+{{- $ex_head := substr $ex 0 60 }}
+{{- $img := .Params.image }}
+{{- $img_name := "" }}{{ with $img }}{{ $img_name = path.Base (string .) }}{{ end }}
+{{- /* design: image-first puts the cover full width under the header and sets the title smaller (for covers that carry the headline). */}}
+{{- $imagen_primero := eq .Params.design "image-first" }}
+{{- $portada := .Params.cover | default $img }}
+{{- $url_abs := .Permalink }}
+{{- $share_t := .Params.title_short | default .Title }}
+{{ if $imagen_primero }}<figure class="post-hero"><img src="{{ partial "uri.html" $portada | relURL }}" alt="{{ .Params.image_alt | default "" }}"></figure>{{ end }}
+<div class="wrap post-top{{ if $imagen_primero }} imagen-primero{{ end }}">
+	<nav class="crumbs" aria-label="Ruta"><a href="{{ "/publicaciones/" | relURL }}">{{ $t.nav_publicaciones }}</a>{{ with .Params.tipo }}<span aria-hidden="true">/</span><a href="{{ printf "/publicaciones/?tipo=%s" . | relURL }}">{{ index $t.tipos_plural . | default . }}</a>{{ end }}</nav>
+	<header class="post-head">
+		<div class="meta">{{ if .Params.tipo }}<b class="kind{{ if eq .Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ $tipo_l }}</b>{{ end }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date.Format "2006-01-02" }}</time></div>
+		{{ with .Params.pretitle }}<p class="label" style="margin:0;color:var(--sec)">{{ . | safeHTML }}</p>{{ end }}
+		<h1>{{ .Title | safeHTML }}</h1>
+		{{ if and (ne $ex "") (not (strings.Contains $plain $ex_head)) }}<p class="lede">{{ $ex }}</p>{{ end }}
+		<p class="byline">{{ $t.por }} <b>{{ with .Params.authors }}{{ partial "names.html" (dict "v" . "t" $t) }}{{ else }}VE sin Filtro{{ end }}</b></p>
+		{{ with .Params.topics }}<div class="temas">{{ range . }}<a class="tema" href="{{ printf "/publicaciones/?tema=%s" . | relURL }}">{{ index $t.temas . | default . }}</a>{{ end }}</div>{{ end }}
+	</header>
+	{{ if and $img (ne $img "no") (not $imagen_primero) }}{{ if not (or (strings.Contains (string .Content) `class="cover"`) (strings.Contains (string .Content) $img_name)) }}
+	<figure class="post-cover"><img src="{{ partial "uri.html" $img | relURL }}" alt="{{ .Params.image_alt | default "" }}"></figure>
+	{{ end }}{{ end }}
+</div>
+<div class="wrap post-grid">
+	<aside class="post-aside">
+		<div><span class="k">{{ $t.compartir }}</span>
+			<div class="share">
+				<a href="https://x.com/intent/post?url={{ $url_abs | urlquery }}&amp;text={{ $share_t | urlquery }}" aria-label="X"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+				<a href="https://bsky.app/intent/compose?text={{ printf "%s %s" $share_t $url_abs | urlquery }}" aria-label="Bluesky"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.335 5.144c-1.654-1.199-4.335-2.127-4.335.826c0 .59.35 4.953.556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045.665-4.889 3.208-2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134-2.769 3.5-3.5c.333-.667.5-1.167.5-1.5c0 .333.167.833.5 1.5c.366.731 1.5 3.5 3.5 3.5c.754 0 1.637-.571 2.667-1.59c2.222-2.203 1.378-4.746-2.667-5.41c2.314.38 4.73.094 5.444-2.369c.206-.708.556-5.072.556-5.661c0-2.953-2.68-2.025-4.335-.826c-2.293 1.662-4.76 5.048-5.665 6.856c-.905-1.808-3.372-5.194-5.665-6.856z"/></svg></a>
+				<button type="button" class="copy" data-copy="{{ $url_abs }}" data-done="{{ $t.copiado }}">{{ $t.copiar_enlace }}</button>
+			</div>
+		</div>
+		{{ with .Params.translation }}<div><span class="k">{{ $t.disponible_en }}</span><a href="{{ . | relURL }}" lang="{{ $t.traduccion_lang }}" data-cambia-idioma="{{ $t.traduccion_lang }}" style="color:var(--text)">{{ if eq $L "en" }}Español{{ else }}English{{ end }}</a></div>
+		{{ else }}{{ $ot := cond (eq $L "en") hugo.Data.ui.es hugo.Data.ui.en }}<div class="solo-idioma" hidden lang="{{ $ot.lang_code }}"><span class="k">{{ $ot.idioma }}</span><span class="v">{{ $ot.solo_disponible }}</span></div>{{ end }}
+	</aside>
+	<article class="prose post-content{{ if $imagen_primero }} sin-portada{{ end }}{{ with .Params.subtype }} subtipo-{{ urlize . }}{{ end }}">
+		{{ .Content }}
+		{{ partial "creditos.html" (dict "page" . "t" $t) }}
+	</article>
+	<aside class="post-rel">
+		<nav class="post-toc" aria-label="{{ $t.en_esta }}" hidden><span class="k">{{ $t.en_esta }}</span><div></div></nav>
+		{{ with .Params.topics }}{{ $tema1 := index . 0 }}
+		{{ $rel := where (where (where site.RegularPages "Section" "noticias") "Params.lang" $L) "Params.topics" "intersect" (slice $tema1) }}
+		<div><span class="k">{{ $t.relacionado }}</span><ul>
+		{{ range first 3 (where $rel.ByDate.Reverse "RelPermalink" "!=" $.RelPermalink) }}
+			<li><span class="meta"><b>{{ index $t.tipos .Params.tipo | default .Params.tipo }}</b><span>{{ .Date.Format "2006-01-02" }}</span></span><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+		{{ end }}
+		</ul></div>
+		{{ end }}
+	</aside>
+</div>
+{{ partial "page-scripts.html" . }}
+{{ end }}

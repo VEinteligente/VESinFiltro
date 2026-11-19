@@ -1,0 +1,38 @@
+{{- /* Port of _includes/footer.html */ -}}
+{{- $L := .Params.lang | default "es" }}{{ $t := index hugo.Data.ui $L -}}
+{{- $reps := where (where (where site.RegularPages "Section" "noticias") "Params.layout" "reporte") "Params.lang" "es" -}}
+{{- $ultimos := where $reps "Params.report.full_report" "==" nil -}}
+<footer class="sf">
+	<div class="wrap">
+		<div class="sf-grid">
+			<div class="sf-brand">
+				<img src="{{ "/res/VeSinFiltro-long.svg" | relURL }}" alt="VE sin Filtro" width="178" height="36" style="height:36px;width:auto">
+				<p>{{ if eq $L "en" }}Monitoring and documenting censorship, surveillance and digital attacks in Venezuela since 2014.{{ else }}Monitoreo y documentación de la censura, la vigilancia y los ataques digitales en Venezuela desde 2014.{{ end }}</p>
+				<a class="sf-csl" href="https://conexionsegura.org/"><span>{{ if eq $L "en" }}A programme of{{ else }}Un programa de{{ end }}</span><img src="{{ "/res/conexion-segura-y-libre-blanco.png" | relURL }}" alt="Conexión Segura y Libre" width="185" height="52"></a>
+			</div>
+			<div class="sf-col">
+				<h2>{{ $t.nav_publicaciones }}</h2>
+				<a href="{{ "/publicaciones/" | relURL }}">{{ $t.ver_todas }}</a>
+				<a href="{{ "/publicaciones/?tipo=Comunicado" | relURL }}">{{ index $t.tipos_plural "Comunicado" }}</a>
+				<a href="{{ "/publicaciones/?tipo=Análisis" | relURL }}">{{ index $t.tipos_plural "Análisis" }}</a>
+				<a href="{{ "/publicaciones/?tipo=Alerta" | relURL }}">{{ index $t.tipos_plural "Alerta" }}</a>
+			</div>
+			<div class="sf-col">
+				<h2>{{ $t.nav_reportes }}</h2>
+				<a href="{{ $t.url_reportes | default "/reportes/" | relURL }}">{{ $t.todos_reportes }}</a>
+				{{ range first 3 $ultimos.ByDate.Reverse }}{{ $tr := index hugo.Data.ui .Params.lang }}<a href="{{ .RelPermalink }}">{{ with .Params.report.series }}{{ index $tr.series . | default . }}{{ else }}{{ $tr.reporte | default "Reporte" }}{{ end }} {{ .Date.Format "2006" }}</a>{{ end }}
+			</div>
+			<div class="sf-col">
+				<h2>{{ $t.nav_guias }}</h2>
+				<a href="{{ "/bloqueos/" | relURL }}">Evade los bloqueos</a>
+				<a href="{{ "/test/" | relURL }}">Prueba rápida de internet</a>
+				<a href="{{ "/test-medios/" | relURL }}">Prueba de medios</a>
+				<a href="https://bloqueos.vesinfiltro.org/">{{ $t.nav_lista }}</a>
+			</div>
+		</div>
+		<div class="sf-base">
+			<span>{{ site.Params.email }}</span>
+			<div class="sf-social"><a href="https://x.com/{{ site.Params.twitter_username }}" aria-label="X"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a href="https://bsky.app/profile/vesinfiltro.bsky.social" aria-label="Bluesky"><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.335 5.144c-1.654-1.199-4.335-2.127-4.335.826c0 .59.35 4.953.556 5.661c.713 2.463 3.13 2.75 5.444 2.369c-4.045.665-4.889 3.208-2.667 5.41c1.03 1.018 1.913 1.59 2.667 1.59c2 0 3.134-2.769 3.5-3.5c.333-.667.5-1.167.5-1.5c0 .333.167.833.5 1.5c.366.731 1.5 3.5 3.5 3.5c.754 0 1.637-.571 2.667-1.59c2.222-2.203 1.378-4.746-2.667-5.41c2.314.38 4.73.094 5.444-2.369c.206-.708.556-5.072.556-5.661c0-2.953-2.68-2.025-4.335-.826c-2.293 1.662-4.76 5.048-5.665 6.856c-.905-1.808-3.372-5.194-5.665-6.856z"/></svg></a><a href="https://www.instagram.com/conexion_segura" aria-label="Instagram"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4z"/><path d="M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0"/><path d="M16.5 7.5v.01"/></svg></a></div>
+		</div>
+	</div>
+</footer>

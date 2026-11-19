@@ -16,7 +16,7 @@ translation: /noticias/2019-10-09-preserve_access_to_services/
 
 Venezuela Inteligente y el proyecto VE sin Filtro, Junto a Internet Society Capítulo Venezuela y Redes Ayuda más de 30 organizaciones instamos a las empresas de tecnología a mantener sus servicios y plataformas disponibles a los venezolanos. En respuesta a las acciones exageradas de algunas empresas por la Orden Ejecutiva 13884 de los Estados Unidos.
 
-"Los servicios en línea son críticos para las vidas diarias de millones de venezolanos. Medidas innecesarias y exageradas como bloquear todas las cuentas de Venezuela producen más daños a venezolanos que luchan por ser productivos,  estudiar, mantenerse informado y expresarse libremente en medio de la crisis" " afirmó Andrés Azpúrua, director de VE sin Filtro and Vice-presidente de Internet Society, Capítulo Venezuela."Esperamos que las empresas de tecnología entiendan la importancia que tiene el acceso a sus servicios digitales y mantengan sus servicios disponibles a los venezolanos".
+"Los servicios en línea son críticos para las vidas diarias de millones de venezolanos. Medidas innecesarias y exageradas como bloquear todas las cuentas de Venezuela producen más daños a venezolanos que luchan por ser productivos,  estudiar, mantenerse informado y expresarse libremente en medio de la crisis”, afirmó Andrés Azpúrua, director de VE sin Filtro and Vice-presidente de Internet Society, Capítulo Venezuela. “Esperamos que las empresas de tecnología entiendan la importancia que tiene el acceso a sus servicios digitales y mantengan sus servicios disponibles a los venezolanos".
 
 
 <br>

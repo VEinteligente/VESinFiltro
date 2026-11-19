@@ -1,0 +1,41 @@
+{{- /* Port of _includes/reportes.html: /reportes/ and /en/reports/. dict "L" */ -}}
+{{- $L := .L }}{{ $t := index hugo.Data.ui $L -}}
+{{- $todos := where (where (partial "noticias.html" .) "Params.layout" "reporte") "Params.report.full_report" "==" nil -}}
+{{- /* Reports in the page language plus reports with no version in it */ -}}
+{{- $r_l := where $todos "Params.lang" $L -}}
+{{- $r_solo := where (where $todos "Params.translation" "==" nil) "Params.lang" "!=" $L -}}
+{{- $lista := sort (union $r_l $r_solo) "Date" "desc" -}}
+{{- $h := index $lista 0 -}}
+<section class="rep-hero on-dark ht">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap">
+		<a href="{{ $h.RelPermalink }}"><img class="cover" src="{{ $h.Params.report.cover | relURL }}" alt="{{ $t.portada }}: {{ $h.Title }}" width="620" height="877"></a>
+		<div class="body">
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{{ $t.reporte_reciente }} · {{ $h.Date.Format "2006-01-02" }}</span>
+			<h1{{ if ne $h.Params.lang $L }} lang="{{ $h.Params.lang }}"{{ end }}><a href="{{ $h.RelPermalink }}" style="color:inherit;text-decoration:none">{{ $h.Title | safeHTML }}</a></h1>
+			<p class="lede"{{ if ne $h.Params.lang $L }} lang="{{ $h.Params.lang }}"{{ end }}>{{ partial "plano.html" $h.Params.excerpt }}</p>
+			<dl class="rep-meta">
+				{{ with $h.Params.authors }}<dt>{{ $t.autores }}</dt><dd>{{ partial "names.html" (dict "v" . "t" $t) }}</dd>{{ end }}
+				{{ with $h.Params.report.partners }}<dt>{{ $t.con }}</dt><dd>{{ if reflect.IsSlice . }}{{ delimit . "" }}{{ else }}{{ . }}{{ end }}</dd>{{ end }}
+				<dt>{{ $t.formato }}</dt><dd style="font-family:var(--mono)">{{ if $h.Params.report.pdf }}PDF{{ else }}{{ $t.web }}{{ end }}</dd>
+			</dl>
+			<div class="rep-btns"><a class="btn btn--solid" href="{{ $h.RelPermalink }}">{{ $t.leer }}</a>{{ with $h.Params.report.pdf }}<a class="btn" href="{{ . | relURL }}">{{ $t.descargar_pdf }}</a>{{ end }}{{ with $h.Params.report.pdf_other }}<a class="btn" href="{{ . | relURL }}" lang="{{ cond (eq $h.Params.lang "en") "es" "en" }}">{{ (index hugo.Data.ui $h.Params.lang).descargar_pdf_otro }}</a>{{ end }}</div>
+		</div>
+	</div>
+</section>
+<section class="sec">
+	<div class="wrap">
+		<div class="sec-head"><div><h2>{{ $t.todos_reportes }}</h2></div></div>
+		<div class="rlib">
+		{{ range $lista }}{{ $rt := index hugo.Data.ui .Params.lang }}
+			<article class="rlib-item">
+				<span class="d" style="font-family:var(--mono);font-size:15px;color:var(--sec);padding-top:2px">{{ .Date.Format "2006-01" }}</span>
+				<a href="{{ .RelPermalink }}"><img src="{{ .Params.report.cover | relURL }}" alt="{{ $t.portada }}: {{ .Title }}" loading="lazy" width="620" height="877"></a>
+				<div style="display:flex;flex-direction:column;gap:10px"{{ if ne .Params.lang $L }} lang="{{ .Params.lang }}"{{ end }}><span class="label" style="font-size:12px;color:var(--sec)">{{ with .Params.report.series }}{{ index $rt.series . | default . }}{{ else }}{{ $rt.reporte | default "Reporte" }}{{ end }}</span><h3><a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h3><p>{{ partial "truncatewords.html" (dict "s" (partial "plano.html" .Params.excerpt) "n" 45) }}</p></div>
+				<dl><dt>{{ $t.formato }}</dt><dd>{{ if .Params.report.pdf }}PDF{{ else }}{{ $t.web }}{{ end }}</dd><dt>{{ $t.idiomas }}</dt><dd>{{ if or .Params.translation .Params.report.pdf_other }}ES · EN{{ else }}{{ upper .Params.lang }}{{ end }}</dd></dl>
+				<div class="acts"><a class="btn" href="{{ .RelPermalink }}">{{ $t.leer }}</a>{{ with .Params.report.pdf }}<a class="btn" href="{{ . | relURL }}">PDF</a>{{ end }}{{ $tl := cond (eq .Params.lang "en") "es" "en" }}{{ with .Params.translation }}<a class="btn" href="{{ . | relURL }}" lang="{{ $tl }}" hreflang="{{ $tl }}" data-cambia-idioma="{{ $tl }}">{{ upper $tl }}</a>{{ end }}</div>
+			</article>
+		{{ end }}
+		</div>
+	</div>
+</section>

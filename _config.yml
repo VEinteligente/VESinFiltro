@@ -42,3 +42,10 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  # Hugo build files (see README): not part of the Jekyll site. Keep the trailing /: Jekyll matches by prefix, so "public" would also drop publicaciones.html
+  - hugo.toml
+  - layouts/
+  - content/
+  - public/
+  - resources/
+  - migracion/

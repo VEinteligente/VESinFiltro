@@ -265,8 +265,8 @@ the traffic and we observe some successful measurements as well.
 While access to these social media sites has since been restored,
 Venezuela Inteligente
 [reported](https://twitter.com/vesinfiltro/status/1088833974603001856)
-that Instagram was temporarily blocked *again* on Friday, 25th January
-2019. OONI data, illustrated below,
+that Instagram was temporarily blocked *again* on Friday, 25th January 2019.
+OONI data, illustrated below,
 [corroborates](https://explorer.ooni.torproject.org/measurement/20190125T145344Z_AS8048_fsz5ZGIn2LwE6Efw4Mj3UIcv9RbvG0OMdrNExbw7yD6GVLxczt?input=https:%2F%2Finstagram.com)
 this report.
 

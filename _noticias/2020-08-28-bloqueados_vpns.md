@@ -55,6 +55,7 @@ Ambas aplicaciones siguen estando disponibles para ser instaladas desde las tien
 - [tuneloso.com](http://tuneloso.com)
 
 <br>
+
 **Actualización 2020-08-29:** El bloqueo DNS a anonymouse.org ha sido levantado en CANTV
 <br>
 ![](/res/post_img/2020-08-28/tabla.png)

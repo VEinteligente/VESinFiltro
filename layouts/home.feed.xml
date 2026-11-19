@@ -1,0 +1,43 @@
+{{- /* /feed.xml: Atom feed of the latest publications, each one once, as the Spanish home lists them
+(Spanish posts and English posts with no Spanish version). Links in the content are made absolute for feed readers. */ -}}
+{{- $todas := partial "noticias.html" . -}}
+{{- $lista := where $todas "Params.lang" "!=" "en" -}}
+{{- $solo_en := where (where $todas "Params.lang" "en") "Params.translation" "==" nil -}}
+{{- $lista = first 20 (sort (union $lista $solo_en) "Date" "desc") -}}
+{{- $base := strings.TrimSuffix "/" site.BaseURL -}}
+{{ printf `<?xml version="1.0" encoding="utf-8"?>` | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>{{ site.Title }}</title>
+  <subtitle>{{ site.Params.description }}</subtitle>
+  <link href="{{ absURL "feed.xml" }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.BaseURL }}" rel="alternate" type="text/html"/>
+  <id>{{ absURL "feed.xml" }}</id>
+  <icon>{{ absURL "res/favicon.svg" }}</icon>
+  <author><name>{{ site.Title }}</name><email>{{ site.Params.email }}</email></author>
+  {{- with index $lista 0 }}
+  <updated>{{ (.Lastmod | default .Date).Format "2006-01-02T15:04:05-07:00" }}</updated>
+  {{- end }}
+  {{- range $lista }}
+  {{- $l := .Params.lang | default "es" }}
+  <entry xml:lang="{{ $l }}">
+    <title type="html">{{ .Title }}</title>
+    <link href="{{ .Permalink }}" rel="alternate" type="text/html"/>
+    {{- with .Params.translation }}
+    <link href="{{ $base }}{{ . }}" rel="alternate" type="text/html" hreflang="{{ cond (eq $l "en") "es" "en" }}"/>
+    {{- end }}
+    <id>{{ .Permalink }}</id>
+    <published>{{ .Date.Format "2006-01-02T15:04:05-07:00" }}</published>
+    <updated>{{ (.Lastmod | default .Date).Format "2006-01-02T15:04:05-07:00" }}</updated>
+    {{- with .Params.tipo }}
+    <category term="{{ . }}"/>
+    {{- end }}
+    {{- range .Params.topics }}
+    <category term="{{ . }}"/>
+    {{- end }}
+    {{- with .Params.excerpt }}
+    <summary type="html">{{ partial "plano.html" . }}</summary>
+    {{- end }}
+    <content type="html">{{ replaceRE `(src|href|poster)="/([^/])` (printf `$1="%s/$2` $base) (string .Content) }}</content>
+  </entry>
+  {{- end }}
+</feed>

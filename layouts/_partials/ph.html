@@ -1,0 +1,7 @@
+{{- /* Port of _includes/ph.html: placeholder for a missing image. dict "p" "t" "portada" */ -}}
+{{- $pp := .p }}{{ $tt := .t -}}
+{{- if .portada -}}
+<span class="ph ph--portada" aria-hidden="true"><span class="ph-k"><i class="sq"></i>{{ with $pp.Params.report.series }}{{ index $tt.series . | default . }}{{ else }}{{ $tt.reporte }}{{ end }}</span><span class="ph-t">{{ partial "truncatewords.html" (dict "s" $pp.Title "n" 12) | safeHTML }}</span><span class="ph-d">{{ $pp.Date.Format "2006" }}</span></span>
+{{- else -}}
+<span class="ph" aria-hidden="true"><span class="ph-k"><i class="sq"></i>{{ index $tt.tipos $pp.Params.tipo | default $pp.Params.tipo | default "VE sin Filtro" }}</span><span class="ph-d">{{ $pp.Date.Format "2006-01-02" }}</span></span>
+{{- end -}}

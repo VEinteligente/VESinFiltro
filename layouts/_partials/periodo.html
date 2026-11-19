@@ -1,0 +1,10 @@
+{{- /* Port of _includes/periodo.html: ["YYYY-MM", "YYYY-MM"] or one value, months from data/ui. dict "v" "t" */ -}}
+{{- $v := .v -}}{{- if not (reflect.IsSlice $v) }}{{ $v = slice $v }}{{ end -}}
+{{- $partes := slice -}}
+{{- range $v -}}
+  {{- $x := split (string .) "-" -}}
+  {{- $s := index $x 0 -}}
+  {{- if gt (len $x) 1 }}{{ $s = printf "%s %s" (index $.t.meses (sub (int (strings.TrimLeft "0" (index $x 1))) 1)) (index $x 0) }}{{ end -}}
+  {{- $partes = $partes | append $s -}}
+{{- end -}}
+{{- return (delimit $partes " – ") -}}

@@ -1,0 +1,29 @@
+{{- /* Port of _includes/header.html */ -}}
+{{- $L := .Params.lang | default "es" }}{{ $t := index hugo.Data.ui $L }}{{ $es := hugo.Data.ui.es }}{{ $en := hugo.Data.ui.en }}
+{{- $seccion := partial "seccion.html" . }}
+{{- $alt_url := "/en/publications/" }}{{ $alt_label := "English" }}
+{{- if .Params.translation }}{{ $alt_url = .Params.translation }}{{ $alt_label = $t.otro_idioma }}{{ else if eq $L "en" }}{{ $alt_url = "/" }}{{ $alt_label = $t.otro_idioma }}{{ end }}
+{{- $alt_l := cond (eq $alt_label "Español") "es" "en" }}
+{{- $nav := printf `
+<a href="%s"%s data-t-es="%s" data-t-en="%s">%s</a>
+<a href="%s"%s data-t-es="%s" data-t-en="%s">%s</a>
+<a href="%s"%s data-t-es="%s" data-t-en="%s">%s</a>
+<a href="%s"%s data-t-es="%s" data-t-en="%s">%s</a>
+<a href="https://bloqueos.vesinfiltro.org/" data-t-es="%s" data-t-en="%s">%s <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a>
+`
+  (cond (eq $L "en") ("/en/publications/" | relURL) ("/publicaciones/" | relURL)) (cond (eq $seccion "publicaciones") ` aria-current="page"` "") $es.nav_publicaciones $en.nav_publicaciones $t.nav_publicaciones
+  ($t.url_reportes | default "/reportes/" | relURL) (cond (eq $seccion "reportes") ` aria-current="page"` "") $es.nav_reportes $en.nav_reportes $t.nav_reportes
+  ("/bloqueos/" | relURL) (cond (eq $seccion "guias") ` aria-current="page"` "") $es.nav_guias $en.nav_guias $t.nav_guias
+  (cond (eq $L "en") ("/en/about/" | relURL) ("/nosotros/" | relURL)) (cond (eq $seccion "nosotros") ` aria-current="page"` "") $es.nav_nosotros $en.nav_nosotros $t.nav_nosotros
+  $es.nav_lista $en.nav_lista $t.nav_lista | safeHTML }}
+<header class="sh">
+	<div class="wrap sh-in">
+		<a class="sh-logo" href="{{ "/" | relURL }}" aria-label="VE sin Filtro, {{ lower $t.inicio }}"><img src="{{ "/res/VeSinFiltro-long.svg" | relURL }}" alt="VE sin Filtro" width="178" height="36"></a>
+		<nav class="sh-nav" aria-label="Principal">{{ $nav }}</nav>
+		<a class="sh-lang" href="{{ $alt_url | relURL }}?lang={{ $alt_l }}" lang="{{ $alt_l }}" data-cambia-idioma="{{ $alt_l }}" data-t-es="{{ $es.otro_idioma }}" data-t-en="{{ $en.otro_idioma }}">{{ $alt_label }}</a>
+		<details class="sh-menu">
+			<summary aria-label="{{ $t.menu }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg></summary>
+			<nav aria-label="{{ $t.menu }}">{{ $nav }}</nav>
+		</details>
+	</div>
+</header>
