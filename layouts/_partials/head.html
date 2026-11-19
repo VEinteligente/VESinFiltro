@@ -1,0 +1,48 @@
+{{- /* Port of _includes/head.html */ -}}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{- $page_title := .Title | default site.Title }}
+	{{- $desc := partial "plano.html" (.Params.excerpt_short | default .Params.excerpt | default site.Params.description) }}
+	{{- $page_description := partial "truncatewords.html" (dict "s" $desc "n" 75) }}
+	{{- $page_url := .Permalink }}
+	{{- $share_src := .Params.share_image | default .Params.image }}
+	{{- $hay_imagen := and $share_src (ne $share_src "no") }}
+	{{- $share_image := cond $hay_imagen (absURL (string $share_src)) (absURL "/res/TWcard.png") }}
+	{{- $share_title := .Params.title_short | default $page_title }}
+	{{- $page_type := cond (eq .Section "noticias") "article" "website" }}
+	<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ $page_title }} · {{ site.Title }}{{ end }}</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300..800;1,9..40,400&display=swap">
+	<link rel="stylesheet" href="{{ "/assets/css/vsf.css" | relURL }}">
+	{{- if or (strings.Contains (string .Content) "fa fa-") (strings.Contains (string .Content) "class=\"fa ") }}
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	{{- end }}
+	<link rel="icon" href="{{ "/res/favicon.svg" | relURL }}" type="image/svg+xml">
+	<link rel="canonical" href="{{ $page_url }}">
+	{{ with .Params.translation }}<link rel="alternate" hreflang="{{ if eq $.Params.lang "en" }}es{{ else }}en{{ end }}" href="{{ printf "https://vesinfiltro.org%s" . }}">{{ end }}
+	<meta name="description" content="{{ $page_description }}">
+
+	<!-- OG meta tags -->
+	<meta property="og:title" content="{{ $page_title }}">
+	<meta property="og:image" content="{{ $share_image }}">
+	<meta property="og:type" content="{{ $page_type }}">
+	<meta property="og:description" content="{{ $page_description }}">
+	<meta property="og:url" content="{{ $page_url }}">
+	<meta property="og:site_name" content="{{ site.Title }}">
+	<meta property="og:locale" content="{{ if eq .Params.lang "en" }}en_US{{ else }}es_VE{{ end }}">
+	{{ with .Params.image_alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
+	{{ if .Params.share_image }}<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">{{ else if .Params.image_width }}<meta property="og:image:width" content="{{ .Params.image_width }}"><meta property="og:image:height" content="{{ .Params.image_height }}">{{ end }}
+	{{ if eq $page_type "article" }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+
+	<!-- Tw meta tags -->
+	<meta name="twitter:card" content="{{ if $hay_imagen }}summary_large_image{{ else }}summary{{ end }}" />
+	<meta name="twitter:image" content="{{ $share_image }}" />
+	<meta name="twitter:site" content="@VEsinFiltro" />
+	<meta name="twitter:title" content="{{ $share_title }}" />
+	<meta name="twitter:description" content="{{ $page_description }}" />
+	<meta name="twitter:url" content="{{ $page_url }}" />
+	{{ with .Params.image_alt }}<meta name="twitter:image:alt" content="{{ . }}" />{{ end }}
+	{{ partial "idioma.html" . }}
+</head>

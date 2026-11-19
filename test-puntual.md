@@ -16,6 +16,6 @@ destination: "https://run.ooni.org/v2/10148"
 
 Esta prueba incluye varios sitios claves que estamos monitoreando en este momento, con frecuencia cambiamos su contenido.
 
-<a class="btn btn-info" href="{{page.destination}}">Correr prueba
+<a class="btn btn-info" href="{{page.destination}}">Correr prueba</a>
 
 Si quieres colaborar, puedes cargar esta página regularmente y presionar el botón para [correr esta prueba]({{page.destination}})

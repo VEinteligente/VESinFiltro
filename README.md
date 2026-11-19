@@ -26,6 +26,57 @@ GitHub Pages publica el sitio desde `master`. GitHub Pages usa Jekyll 3.10, no J
 - No uses `plugins` fuera de la lista de GitHub Pages.
 - Un `build` local sin errores no garantiza un `build` sin errores en GitHub Pages.
 
+## Build con Hugo
+
+El sitio también se puede construir con Hugo (0.170 o posterior). Hugo todavía no publica el sitio. Jekyll y Hugo leen las mismas fuentes: las publicaciones se siguen escribiendo en `_noticias/`.
+
+```sh
+python3 -m venv migracion/.venv && migracion/.venv/bin/pip install pyyaml   # una vez
+migracion/.venv/bin/python migracion/convertir.py
+hugo server
+```
+
+Abre `http://localhost:1313/`.
+
+- `migracion/convertir.py` genera `content/` desde `_noticias/`, `_bloqueos/`, `_documenta/` y las páginas de la raíz. `content/` no está en git. Corre el script de nuevo después de cada cambio en las fuentes.
+- `hugo.toml` monta `res/`, `img/`, `assets/`, `_data/` y los archivos de la raíz. Hugo no copia esos archivos.
+- `_config.yml` excluye los archivos de Hugo. Cada exclusión termina en `/`: Jekyll compara por prefijo, y `public` también excluiría `publicaciones.html`.
+
+| Ruta | Contenido |
+|---|---|
+| `hugo.toml` | La configuración de Hugo. |
+| `layouts/baseof.html` | El marco de todas las páginas (equivale a `_layouts/default.html`). |
+| `layouts/noticias/` | `post.html` y `reporte.html`. |
+| `layouts/_partials/` | Equivale a `_includes/`: `head`, `header`, `footer`, `idioma`. |
+| `layouts/_shortcodes/` | Fragmentos que se usan dentro del contenido. |
+| `layouts/alias.html` | Las páginas de `redirect`. |
+| `migracion/convertir.py` | Convierte las fuentes de Jekyll a `content/`. |
+| `migracion/paridad.py` | Compara un `build` de Jekyll con uno de Hugo: ids, título, `URL` canónica, texto y `redirects`. |
+
+El convertidor cambia estos campos, porque Hugo los reserva o los nombra de otra forma:
+
+| Jekyll | Hugo |
+|---|---|
+| `permalink` | `url` |
+| `redirect_from` | `aliases` |
+| `type` | `tipo` (Hugo usa `type` para elegir la carpeta de plantillas) |
+| `sites` | `sitios` |
+| `layout: page` | `layout: pagina` (`page.html` es la plantilla de todas las páginas en Hugo) |
+| `{: .clase}` | `{.clase}` |
+
+Para comparar los dos `builds`:
+
+```sh
+LC_ALL=en_US.UTF-8 bundle exec jekyll build -d migracion/salida/jekyll
+hugo -d migracion/salida/hugo
+python3 migracion/paridad.py comparar migracion/salida/jekyll migracion/salida/hugo
+```
+
+Diferencias de Markdown entre kramdown (Jekyll) y Goldmark (Hugo):
+
+- Una línea de HTML seguida de Markdown, sin línea en blanco, queda como HTML. Goldmark no convierte el Markdown de esa línea. Deja una línea en blanco después del HTML.
+- Las tablas HTML con sangría se muestran como código. No uses sangría en el HTML.
+
 ## Estructura
 
 | Ruta | Contenido |

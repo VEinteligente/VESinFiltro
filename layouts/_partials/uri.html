@@ -1,0 +1,2 @@
+{{- /* Liquid's uri_escape for site paths: spaces and non-ASCII escaped, / and : kept. */ -}}
+{{- return (replace (. | string) " " "%20") -}}

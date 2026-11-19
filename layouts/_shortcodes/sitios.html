@@ -1,0 +1,3 @@
+{{- /* Media list of /jump_point/ and /psiphon-jump_point/ (front matter `sites`, renamed `sitios` because Hugo reserves `sites`). Jekyll printed media.URL, which is empty; this prints the url. */ -}}
+{{ range .Page.Params.sitios }}<li class=""><a href="{{ .url }}"><i class="glyphicon glyphicon-chevron-right action"></i> {{ .nombre }}</a></li>
+{{ end }}

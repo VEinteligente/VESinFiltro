@@ -1,0 +1,82 @@
+{{- /* Port of _layouts/reporte.html */ -}}
+{{ define "main" }}
+{{- $L := .Params.lang | default "es" }}{{ $t := index hugo.Data.ui $L }}
+{{- $r := .Params.report | default dict }}
+{{- /* cover_in_header: false keeps report.cover for lists and thumbnails but lays out the header as if there were no cover */}}
+{{- $portada_cabecera := $r.cover }}{{ if eq $r.cover_in_header false }}{{ $portada_cabecera = false }}{{ end }}
+{{- $serie_l := $t.reporte }}{{ with $r.series }}{{ $serie_l = index $t.series . | default . }}{{ end }}
+{{- /* Hero summary: excerpt_short when there is one, else the excerpt, trimmed */}}
+{{- $ex := partial "truncatewords.html" (dict "s" (partial "plano.html" (.Params.excerpt_short | default .Params.excerpt)) "n" 60) }}
+{{- $h1 := strings.Replace (strings.Replace .Title "Reporte: " "" 1) "Report: " "" 1 }}
+{{- $year := .Date.Format "2006" }}
+{{- $portada_l := cond (eq $L "en") "Cover" "Portada" }}
+<section class="rep-hero on-dark ht{{ if not $portada_cabecera }} rep-sin-portada{{ end }}">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap">
+		{{ if $portada_cabecera }}<img class="cover" src="{{ $r.cover | relURL }}" alt="{{ $portada_l }}: {{ .Title }}" width="620" height="877">{{ end }}
+		<div class="body">
+			<nav class="crumbs" aria-label="Ruta" style="color:var(--dsec)"><a href="{{ "/reportes/" | relURL }}" style="color:var(--dsec)">{{ $t.nav_reportes }}</a><span aria-hidden="true">/</span><span>{{ $serie_l }}</span></nav>
+			<span class="kicker"><i class="sq" aria-hidden="true"></i>{{ if $r.full_report }}{{ $t.adelanto }}{{ else }}{{ $t.reporte }}{{ end }} · {{ .Date.Format "2006-01-02" }}</span>
+			<h1>{{ $h1 | safeHTML }}</h1>
+			{{ if ne $ex "" }}<p class="lede">{{ $ex }}</p>{{ end }}
+			<dl class="rep-meta">
+				{{ with .Params.authors }}<dt>{{ $t.autores }}</dt><dd>{{ partial "names.html" (dict "v" . "t" $t) }}</dd>{{ end }}
+				{{ with $r.partners }}<dt>{{ $t.con }}</dt><dd>{{ partial "names.html" (dict "v" . "t" $t) }}</dd>{{ end }}
+				{{ with $r.period }}<dt>{{ $t.periodo }}</dt><dd>{{ partial "periodo.html" (dict "v" . "t" $t) }}</dd>{{ end }}
+				<dt>{{ $t.formato }}</dt><dd style="font-family:var(--mono)">{{ if $r.pdf }}PDF{{ else }}{{ $t.web }}{{ end }}</dd>
+				<dt>{{ $t.idiomas }}</dt><dd style="font-family:var(--mono)">{{ if or .Params.translation $r.pdf_other }}ES · EN{{ else if eq $L "en" }}EN{{ else }}ES{{ end }}</dd>
+			</dl>
+			<div class="rep-btns">
+				{{ with $r.full_report }}<a class="btn btn--solid" href="{{ . | relURL }}">{{ $t.ver_completo }}</a>{{ end }}
+				{{ with $r.pdf }}<a class="btn {{ if not $r.full_report }}btn--solid{{ end }}" href="{{ . | relURL }}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/><path d="M7 11l5 5l5-5"/><path d="M12 4l0 12"/></svg>{{ $t.descargar_pdf }}</a>{{ end }}
+				{{ with $r.pdf_other }}<a class="btn" href="{{ . | relURL }}" lang="{{ $t.traduccion_lang }}">{{ $t.pdf_otro }}</a>{{ end }}
+				{{ with .Params.translation }}<a class="btn" href="{{ . | relURL }}" lang="{{ $t.traduccion_lang }}" data-cambia-idioma="{{ $t.traduccion_lang }}">{{ $t.leer_en }}</a>{{ end }}
+				{{ if not $r.pdf }}<button type="button" class="btn" data-print>{{ $t.imprimir }}</button>{{ end }}
+			</div>
+		</div>
+	</div>
+</section>
+<div class="wrap rp-grid">
+	<article class="prose post-content rp-body">
+		{{ .Content }}
+		{{ partial "creditos.html" (dict "page" . "t" $t) }}
+	</article>
+	<aside class="rp-side">
+		{{ if not .Params.translation }}{{ $ot := cond (eq $L "en") hugo.Data.ui.es hugo.Data.ui.en }}<div class="box solo-idioma" hidden lang="{{ $ot.lang_code }}"><h2>{{ $ot.idioma }}</h2><p>{{ $ot.solo_disponible_reporte }}</p>{{ with $r.pdf_other }}<a href="{{ . | relURL }}">{{ $ot.pdf_en_tu_idioma }}</a>{{ end }}</div>{{ end }}
+		{{ with $r.contents }}
+		<div class="box"><h2>{{ $t.contenido }}{{ if $r.pages }} · PDF{{ end }}</h2><ol class="toc">{{ range . }}<li><span>{{ index . 0 }}</span><span>{{ index . 1 }}</span></li>{{ end }}</ol></div>
+		{{ else }}
+		<nav class="box rp-toc post-toc" aria-label="{{ $t.en_este_reporte }}" hidden><h2>{{ $t.en_este_reporte }}</h2><div></div></nav>
+		{{ end }}
+		{{- /* Authors without their affiliations in brackets, title without a final period, partners joined in the page's language. */}}
+		{{- $autores := "VE sin Filtro" }}{{ with .Params.authors }}{{ $autores = partial "names.html" (dict "v" . "t" $t "short" true) }}{{ end }}
+		{{- $titulo := strings.TrimSpace $h1 }}{{ $titulo = strings.TrimSuffix "." $titulo }}
+		{{- $socios := "" }}{{ with $r.partners }}{{ $socios = partial "names.html" (dict "v" . "t" $t) }}{{ end }}
+		{{- $cita := printf "%s (%s). %s." $autores $year $titulo }}
+		{{- if .Params.authors }}{{ $cita = printf "%s VE sin Filtro%s." $cita (cond (ne $socios "") (printf ", %s" $socios) "") }}{{ else if ne $socios "" }}{{ $cita = printf "%s %s." $cita $socios }}{{ end }}
+		{{- $cita = printf "%s %s" $cita .Permalink }}
+		<div class="box"><h2>{{ $t.como_citar }}</h2><p class="cite">{{ $cita }}</p><button type="button" class="copy" data-copy="{{ $cita }}" data-done="{{ $t.cita_copiada }}">{{ $t.copiar_cita }}</button></div>
+		{{ if or $r.pdf $r.pdf_other }}
+		<div class="box"><h2>{{ $t.descargas }}</h2><ul class="dl">
+			{{ with $r.pdf }}<li><a href="{{ . | relURL }}"><span>{{ if eq $L "en" }}English{{ else }}Español{{ end }}</span><small>PDF</small></a></li>{{ end }}
+			{{ with $r.pdf_other }}<li><a href="{{ . | relURL }}" lang="{{ $t.traduccion_lang }}"><span>{{ if eq $L "en" }}Español{{ else }}English{{ end }}</span><small>PDF</small></a></li>{{ end }}
+		</ul></div>
+		{{ end }}
+		{{ with .Params.topics }}<div class="temas">{{ range . }}<a class="tema" href="{{ printf "/publicaciones/?tema=%s" . | relURL }}">{{ index $t.temas . | default . }}</a>{{ end }}</div>{{ end }}
+	</aside>
+</div>
+{{- $otros := where (where (where site.RegularPages "Section" "noticias") "Params.layout" "reporte") "Params.lang" $L }}
+{{- $otros = where $otros "Params.report.full_report" "==" nil }}
+{{- $excluir := slice .RelPermalink }}{{ with $r.full_report }}{{ $excluir = $excluir | append . }}{{ end }}
+<section class="sec sec--surface sec--line rp-otros">
+	<div class="wrap">
+		<div class="sec-head"><h2>{{ $t.otros_reportes }}</h2><a class="lnk" href="{{ "/reportes/" | relURL }}">{{ $t.todos_reportes }}</a></div>
+		<div class="reps">
+		{{ range first 5 (where $otros.ByDate.Reverse "RelPermalink" "not in" $excluir) }}
+			<article class="rep"><a href="{{ .RelPermalink }}"><img src="{{ .Params.report.cover | relURL }}" alt="{{ $portada_l }}: {{ .Title }}" loading="lazy" width="620" height="877"></a><span class="meta">{{ .Date.Format "2006" }} · {{ with .Params.report.series }}{{ index $t.series . | default . }}{{ else }}{{ $t.reporte }}{{ end }}</span><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3></article>
+		{{ end }}
+		</div>
+	</div>
+</section>
+{{ partial "page-scripts.html" . }}
+{{ end }}

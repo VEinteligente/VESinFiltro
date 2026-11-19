@@ -1,0 +1,4 @@
+{{- /* Port of _includes/creditos.html. dict "page" "t" */ -}}
+{{- with .page.Params.credits -}}
+<footer class="creditos"><span class="k">{{ $.t.creditos }}</span>{{ if reflect.IsSlice . }}<ul>{{ range . }}<li>{{ . | markdownify | replaceRE `</?p>` "" | safeHTML }}</li>{{ end }}</ul>{{ else }}<p>{{ . | markdownify | replaceRE `</?p>` "" | safeHTML }}</p>{{ end }}</footer>
+{{- end -}}

@@ -16,6 +16,6 @@ destination: "https://run.ooni.org/v2/10148"
 
 Esta prueba incluye sitios de medios de comunicación, con frecuencia cambiamos su contenido.
 
-<a class="btn btn-info" href="{{page.destination}}">Corre prueba
+<a class="btn btn-info" href="{{page.destination}}">Corre prueba</a>
 
 Si quieres colaborar, puedes cargar esta página regurlarmente y apretar el boton para [correr esta prueba]({{page.destination}})

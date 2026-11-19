@@ -1,0 +1,11 @@
+{{- /* Port of _includes/names.html: names from a string or a list joined "a, b y c". dict "v" "t" "short" */ -}}
+{{- $items := .v -}}
+{{- if not (reflect.IsSlice .v) }}{{ $items = split (string .v) ", " }}{{ end -}}
+{{- $out := "" -}}{{- $n := len $items -}}
+{{- range $i, $a := $items -}}
+  {{- $x := strings.TrimSpace (string $a) -}}
+  {{- if $.short }}{{ $x = strings.TrimSpace (index (split $x " (") 0) }}{{ end -}}
+  {{- if and (eq (add $i 1) $n) (gt $n 1) }}{{ $out = printf "%s%s" $out $.t.y_sep }}{{ else if gt $i 0 }}{{ $out = printf "%s, " $out }}{{ end -}}
+  {{- $out = printf "%s%s" $out $x -}}
+{{- end -}}
+{{- return (strings.TrimSpace $out) -}}

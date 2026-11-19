@@ -1,0 +1,13 @@
+{{- /* Port of _layouts/default.html */ -}}
+<!DOCTYPE html>
+<html lang="{{ .Params.lang | default "es" }}">
+{{ partial "head.html" . }}
+<body class="{{ .Params.bodyclass }}">
+{{ partial "header.html" . }}
+{{ partial "aviso-idioma.html" . }}
+<main id="contenido">
+{{ block "main" . }}{{ .Content }}{{ end }}
+</main>
+{{ partial "footer.html" . }}
+</body>
+</html>
