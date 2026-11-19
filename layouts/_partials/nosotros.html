@@ -1,0 +1,29 @@
+{{- /* Port of _includes/nosotros.html: About page body. Text from data/nosotros.yml (official, verbatim). dict "L" */ -}}
+{{- $L := .L }}{{ $t := index hugo.Data.ui $L }}{{ $n := index hugo.Data.nosotros $L -}}
+<section class="rep-hero rep-sin-portada on-dark ht nos-hero">
+	<i class="glow" aria-hidden="true"></i>
+	<div class="wrap">
+		<div class="body">
+			<h1>{{ $n.titulo }}</h1>
+			<p class="lede">{{ index $n.parrafos 0 }}</p>
+			<a class="sf-csl" href="https://conexionsegura.org/"><span>{{ $t.un_programa_de }}</span><img src="{{ "/res/conexion-segura-y-libre-blanco.png" | relURL }}" alt="Conexión Segura y Libre" width="185" height="52"></a>
+		</div>
+	</div>
+</section>
+<section class="sec">
+	<div class="wrap nos-grid">
+		<div class="prose">
+			{{ range after 1 $n.parrafos }}<p>{{ . }}</p>
+			{{ end }}
+		</div>
+		<aside class="nos-aside" aria-label="{{ $t.contacto }}">
+			<div><span class="k">{{ $t.contacto }}</span><span class="mono">{{ site.Params.email }}</span></div>
+			<div><span class="k">{{ $t.redes }}</span>
+				<a href="https://x.com/vesinfiltro">X · @vesinfiltro</a>
+				<a href="https://bsky.app/profile/vesinfiltro.bsky.social">Bluesky · vesinfiltro.bsky.social</a>
+				<a href="https://www.instagram.com/conexion_segura">Instagram · @conexion_segura</a>
+			</div>
+			<div><span class="k">Conexión Segura y Libre</span><a href="https://conexionsegura.org/">conexionsegura.org</a></div>
+		</aside>
+	</div>
+</section>

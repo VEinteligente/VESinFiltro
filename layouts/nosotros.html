@@ -1,2 +1,2 @@
-{{- /* Not ported from _includes/nosotros.html yet: renders a placeholder. */ -}}
-{{ define "main" }}{{ partial "pendiente.html" (dict "page" . "include" "nosotros") }}{{ end }}
+{{- /* /nosotros pages, Spanish and English (include_lang). */ -}}
+{{ define "main" }}{{ partial "nosotros.html" (dict "L" (.Params.include_lang | default "es")) }}{{ end }}

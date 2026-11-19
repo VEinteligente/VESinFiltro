@@ -1,0 +1,13 @@
+{{- /* Port of _includes/chips-idioma.html: language chips for one post. dict "p" "solo_pares" */ -}}
+{{- $cp := .p }}{{ $cl := $cp.Params.lang | default "es" -}}
+{{- $u := $cp.Params.url | default $cp.RelPermalink -}}
+{{- $tr := $cp.Params.translation -}}
+{{- /* Jekyll's include left a line break before the chips: a space between them and the text before. */ -}}
+{{- "\n" -}}
+{{- if $tr -}}
+{{- $u_es := cond (eq $cl "en") $tr $u }}{{ $u_en := cond (eq $cl "en") $u $tr -}}
+<span class="langs"><a class="chip-lang{{ if eq $cl "es" }} is-cur{{ end }}"{{ if eq $cl "es" }} aria-current="true"{{ end }} href="{{ $u_es | relURL }}" lang="es" hreflang="es" data-cambia-idioma="es">ES</a><a class="chip-lang{{ if eq $cl "en" }} is-cur{{ end }}"{{ if eq $cl "en" }} aria-current="true"{{ end }} href="{{ $u_en | relURL }}" lang="en" hreflang="en" data-cambia-idioma="en">EN</a></span>
+{{- else if $.solo_pares -}}{{ if eq $cl "en" }}<span class="chip-lang">EN</span>{{ end -}}
+{{- else -}}<span class="langs"><span class="chip-lang">{{ upper $cl }}</span></span>{{- end -}}
+
+{{- "\n" -}}

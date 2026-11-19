@@ -1,0 +1,14 @@
+{{- /* site.noticias | reverse: newest first and, on the same date and time, by file path descending, as Jekyll orders
+collection documents. Paths are compared byte by byte with gt: Hugo's sort uses language collation, which ignores - and _. */ -}}
+{{- $out := slice -}}
+{{- range (where site.RegularPages "Section" "noticias").GroupByDate "2006-01-02T15:04:05Z07:00" -}}
+  {{- $g := slice -}}
+  {{- range .Pages -}}
+    {{- $x := . }}{{ $nuevo := slice }}{{ $puesto := false -}}
+    {{- range $g }}{{ if and (not $puesto) (gt $x.File.Path .File.Path) }}{{ $nuevo = $nuevo | append $x }}{{ $puesto = true }}{{ end }}{{ $nuevo = $nuevo | append . }}{{ end -}}
+    {{- if not $puesto }}{{ $nuevo = $nuevo | append $x }}{{ end -}}
+    {{- $g = $nuevo -}}
+  {{- end -}}
+  {{- range $g }}{{ $out = $out | append . }}{{ end -}}
+{{- end -}}
+{{- return $out -}}

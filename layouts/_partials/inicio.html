@@ -1,0 +1,102 @@
+{{- /* Port of _includes/inicio.html: home page, in Spanish (/) or English (/en/). Each list shows a translated post once,
+in the home's language; posts in only one language appear as they are. Images missing on disk become a typographic placeholder. dict "L" */ -}}
+{{- $L := .L }}{{ $t := index hugo.Data.ui $L -}}
+{{- $pub_url := cond (eq $L "en") "/en/publications/" "/publicaciones/" -}}
+{{- $home_otro := cond (eq $L "en") "/" "/en/" -}}
+<script>
+// The home follows the reader's language: / and /en/ swap to match it. Crawlers stay on the page they asked for.
+(function () {
+  if (!window.VSF_IDIOMA || /bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent)) return;
+  // Only a visit from outside the site follows the browser language; inside it, the home reached is the one chosen.
+  var interna = false; try { interna = !!document.referrer && new URL(document.referrer).origin === location.origin; } catch (e) {}
+  var quiere = VSF_MARCA || (interna ? {{ $L }} : VSF_DETECTADO());
+  window.VSF_REDIRIGE = quiere !== {{ $L }};
+  if (window.VSF_REDIRIGE) location.replace({{ $home_otro | relURL }} + location.search.replace(/([?&])lang=(es|en)&?/, '$1').replace(/[?&]$/, '') + location.hash);
+})();
+</script>
+{{- $todas := partial "noticias.html" . -}}
+{{- /* English home: English posts plus Spanish posts with no translation. */ -}}
+{{- $lista := where $todas "Params.lang" "!=" "en" -}}
+{{- if eq $L "en" -}}
+  {{- $l_en := where $todas "Params.lang" "en" -}}
+  {{- $l_solo := where (where $todas "Params.translation" "==" nil) "Params.lang" "!=" "en" -}}
+  {{- $lista = sort (union $l_en $l_solo) "Date" "desc" -}}
+{{- end -}}
+{{- /* Featured: the newest post, unless a post's `featured` date (front matter) is later than that post's date.
+The latest such date wins, and any post published after it takes the place back. A pinned post shows in the home's language when it has a translation. */ -}}
+{{- $primera := index $lista 0 -}}
+{{- $feat := $primera }}{{ $fijada := false }}{{ $marca := $primera.Date.Unix -}}
+{{- range where $todas "Params.featured" "!=" nil -}}
+  {{- $m := (time.AsTime .Params.featured "America/Caracas").Unix -}}
+  {{- if gt $m $marca }}{{ $marca = $m }}{{ $fijada = . }}{{ end -}}
+{{- end -}}
+{{- with $fijada -}}
+  {{- if and (ne (.Params.lang | default "es") $L) .Params.translation -}}
+    {{- with index (where $todas "Params.url" .Params.translation) 0 }}{{ $fijada = . }}{{ end -}}
+  {{- end -}}
+  {{- $feat = $fijada -}}
+{{- end -}}
+{{- $feat_label := cond (eq $feat $primera) $t.lo_mas_reciente $t.destacado -}}
+{{- $pubs := where (where $lista "Params.layout" "!=" "reporte") "RelPermalink" "!=" $feat.RelPermalink -}}
+{{- $reps := where (where $lista "Params.layout" "reporte") "Params.report.full_report" "==" nil -}}
+{{- $feat_img := "" -}}
+{{- if partial "existe.html" $feat.Params.share_image }}{{ $feat_img = $feat.Params.share_image }}{{ else if partial "existe.html" $feat.Params.image }}{{ $feat_img = $feat.Params.image }}{{ end }}
+<section class="sec">
+	<div class="wrap lead">
+		<article class="lead-feat">
+			<span class="label" style="color:var(--sec)">{{ $feat_label }}</span>
+			<a href="{{ $feat.RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with $feat_img }}<img src="{{ partial "uri.html" . | relURL }}" alt="" width="1200" height="630">{{ else }}{{ partial "ph.html" (dict "p" $feat "t" $t) }}{{ end }}</a>
+			<div class="meta"><b class="kind{{ if eq $feat.Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ index $t.tipos $feat.Params.tipo | default $feat.Params.tipo }}</b><time datetime="{{ $feat.Date.Format "2006-01-02T15:04:05-07:00" }}">{{ $feat.Date.Format "2006-01-02" }}</time>{{ if eq $L "en" }}{{ partial "chips-idioma.html" (dict "p" $feat) }}{{ end }}</div>
+			<h2><a href="{{ $feat.RelPermalink }}" lang="{{ $feat.Params.lang }}">{{ $feat.Title | safeHTML }}</a></h2>
+			{{ with $feat.Params.excerpt }}<p lang="{{ $feat.Params.lang }}">{{ partial "truncatewords.html" (dict "s" (plainify .) "n" 60) }}</p>{{ end }}
+			{{ with $feat.Params.topics }}<div class="temas">{{ range . }}<a class="tema" href="{{ printf "%s?tema=%s" $pub_url . | relURL }}">{{ index $t.temas . | default . }}</a>{{ end }}</div>{{ end }}
+		</article>
+		<aside aria-labelledby="recientes-h">
+			<div class="side-h"><h2 id="recientes-h">{{ $t.mas_recientes }}</h2><a class="lnk" href="{{ $pub_url | relURL }}">{{ $t.todas }}</a></div>
+			<ul class="rlist">
+			{{ range first 5 $pubs }}
+				<li><span class="meta" style="justify-content:space-between"><b class="kind{{ if eq .Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ index $t.tipos .Params.tipo | default .Params.tipo }}</b><span class="meta-r">{{ if eq $L "en" }}{{ partial "chips-idioma.html" (dict "p" .) }}{{ end }}<span>{{ .Date.Format "2006-01-02" }}</span></span></span><a class="t" href="{{ .RelPermalink }}" lang="{{ .Params.lang }}">{{ .Title | safeHTML }}</a></li>
+			{{ end }}
+			</ul>
+		</aside>
+	</div>
+</section>
+
+<section class="sec sec--surface sec--line" aria-labelledby="reportes-h">
+	<div class="wrap">
+		<div class="sec-head"><div><h2 id="reportes-h">{{ $t.nav_reportes }}</h2><p>{{ $t.inicio_reportes }}</p></div><a class="lnk" href="{{ $t.url_reportes | relURL }}">{{ $t.todos_reportes }}</a></div>
+		<div class="reps">
+		{{ range first 5 $reps }}
+			{{- $rl := .Params.lang | default "es" }}{{ $r := .Params.report }}
+			{{- $u := .Params.url | default .RelPermalink }}
+			{{- $u_es := "" }}{{ $u_en := "" }}{{ $en_pdf := false }}
+			{{- if eq $rl "en" }}{{ $u_en = $u }}{{ $u_es = .Params.translation | default "" }}{{ else }}{{ $u_es = $u }}{{ $u_en = .Params.translation | default $r.pdf_other | default "" }}{{ if and (not .Params.translation) $r.pdf_other }}{{ $en_pdf = true }}{{ end }}{{ end }}
+			<article class="rep">
+				{{ if partial "existe.html" $r.cover }}<img src="{{ $r.cover | relURL }}" alt="" loading="lazy" width="620" height="877">{{ else }}{{ partial "ph.html" (dict "p" . "t" $t "portada" true) }}{{ end }}
+				<span class="meta">{{ .Date.Format "2006" }} · {{ with $r.series }}{{ index $t.series . | default . }}{{ else }}{{ $t.reporte }}{{ end }}</span>
+				<h3><a class="rep-a" href="{{ .RelPermalink }}" lang="{{ $rl }}">{{ .Title | safeHTML }}</a></h3>
+				<span class="langs"><a class="chip-lang" href="{{ .RelPermalink }}" lang="{{ $rl }}">{{ if $r.pages }}PDF{{ else }}WEB{{ end }}</a>{{ with $u_es }}<a class="chip-lang{{ if eq $rl "es" }} is-cur{{ end }}"{{ if eq $rl "es" }} aria-current="true"{{ end }} href="{{ . | relURL }}" lang="es" hreflang="es" data-cambia-idioma="es">ES</a>{{ end }}{{ with $u_en }}<a class="chip-lang{{ if eq $rl "en" }} is-cur{{ end }}"{{ if eq $rl "en" }} aria-current="true"{{ end }} href="{{ . | relURL }}" lang="en" hreflang="en"{{ if $en_pdf }} data-idioma-fijo{{ else }} data-cambia-idioma="en"{{ end }}>EN</a>{{ end }}</span>
+			</article>
+		{{ end }}
+		</div>
+	</div>
+</section>
+
+<section class="sec sec--line" aria-labelledby="publicaciones-h">
+	<div class="wrap">
+		<div class="sec-head"><div><h2 id="publicaciones-h">{{ $t.nav_publicaciones }}</h2><p>{{ $t.inicio_publicaciones }}</p></div>
+			<nav class="tabs" aria-label="{{ $t.inicio_tipos }}"><a href="{{ $pub_url | relURL }}">{{ $t.todas }}</a>{{ range slice "Comunicado" "Análisis" "Alerta" "Noticia" }}<a href="{{ printf "%s?tipo=%s" $pub_url . | relURL }}">{{ index $t.tipos_plural . }}</a>{{ end }}{{ if eq $L "en" }}<a href="{{ printf "%s?idioma=en" $pub_url | relURL }}" lang="en" title="Publications available in English">EN</a>{{ end }}</nav>
+		</div>
+		<div class="cards">
+		{{ range first 6 (after 5 $pubs) }}
+			{{- $pimg := "" }}{{ if partial "existe.html" .Params.share_image }}{{ $pimg = .Params.share_image }}{{ else if partial "existe.html" .Params.image }}{{ $pimg = .Params.image }}{{ end }}
+			<article class="card">
+				<a href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with $pimg }}<img src="{{ partial "uri.html" . | relURL }}" alt="" loading="lazy" width="1200" height="630">{{ else }}{{ partial "ph.html" (dict "p" . "t" $t) }}{{ end }}</a>
+				<div class="meta"><b class="kind{{ if eq .Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ index $t.tipos .Params.tipo | default .Params.tipo }}</b><span>{{ .Date.Format "2006-01-02" }}</span>{{ if eq $L "en" }}{{ partial "chips-idioma.html" (dict "p" .) }}{{ end }}</div>
+				<h3><a href="{{ .RelPermalink }}" lang="{{ .Params.lang }}">{{ .Title | safeHTML }}</a></h3>
+			</article>
+		{{ end }}
+		</div>
+		<p style="margin:36px 0 0"><a class="lnk" href="{{ $pub_url | relURL }}">{{ $t.ver_todas }}</a></p>
+	</div>
+</section>

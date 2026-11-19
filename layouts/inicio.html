@@ -1,2 +1,2 @@
-{{- /* Not ported from _includes/inicio.html yet: renders a placeholder. */ -}}
-{{ define "main" }}{{ partial "pendiente.html" (dict "page" . "include" "inicio") }}{{ end }}
+{{- /* /en/ (the Spanish home is index.html). */ -}}
+{{ define "main" }}{{ partial "inicio.html" (dict "L" (.Params.include_lang | default "es")) }}{{ end }}

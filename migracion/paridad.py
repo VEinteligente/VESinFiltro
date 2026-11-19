@@ -113,7 +113,7 @@ def comparar(base, nuevo):
             continue
         if "texto" in vb and "texto" in vn and vb["texto"] != vn["texto"]:
             r = difflib.SequenceMatcher(None, vb["texto"], vn["texto"], autojunk=False)
-            if r.ratio() < 0.999:
+            if True:  # any difference, however small
                 op = next(o for o in r.get_opcodes() if o[0] != "equal")
                 difs.append((kb, "texto %.3f" % r.ratio(), vb["texto"][max(0, op[1] - 40):op[2] + 40], vn["texto"][max(0, op[3] - 40):op[4] + 40]))
         for campo in ("ids", "titulo", "canonica"):
@@ -160,7 +160,7 @@ def main(argv):
         print()
         return 0
     if len(argv) == 4 and argv[1] == "comparar":
-        # Two build folders: the text of <main> is compared as well (difflib ratio under 0.999 is reported).
+        # Two build folders: the text of <main> is compared as well; any difference is reported, with its difflib ratio.
         dirs = os.path.isdir(argv[2]) and os.path.isdir(argv[3])
         base, nuevo = [extraer(a, dirs) if os.path.isdir(a) else json.load(open(a, encoding="utf-8")) for a in argv[2:4]]
         return comparar(base, nuevo)

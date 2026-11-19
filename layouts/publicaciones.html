@@ -1,2 +1,2 @@
-{{- /* Not ported from _includes/publicaciones.html yet: renders a placeholder. */ -}}
-{{ define "main" }}{{ partial "pendiente.html" (dict "page" . "include" "publicaciones") }}{{ end }}
+{{- /* /publicaciones pages, Spanish and English (include_lang). */ -}}
+{{ define "main" }}{{ partial "publicaciones.html" (dict "L" (.Params.include_lang | default "es")) }}{{ end }}

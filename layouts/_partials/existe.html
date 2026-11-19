@@ -1,0 +1,5 @@
+{{- /* Jekyll's `site.static_files | map: "path" | contains`: true when a site path (/res/...) is a file in the repo. */ -}}
+{{- $s := . | default "" | string -}}
+{{- $ok := false -}}
+{{- if hasPrefix $s "/" }}{{ $ok = os.FileExists (strings.TrimPrefix "/" (urls.Parse $s).Path) }}{{ end -}}
+{{- return $ok -}}

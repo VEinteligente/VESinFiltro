@@ -1,5 +1,5 @@
-{{- /* Liquid's truncatewords: the first n words, and "..." when there were more. dict "s" "n" */ -}}
-{{- $w := split (strings.TrimSpace .s) " " | complement (slice "") -}}
-{{- $out := delimit (first .n $w) " " -}}
-{{- if gt (len $w) .n }}{{ $out = printf "%s..." $out }}{{ end -}}
+{{- /* Liquid's truncatewords: the first n words, and "..." when there were more; the text as it was otherwise. dict "s" "n" */ -}}
+{{- $w := split (replaceRE `\s+` " " (strings.TrimSpace .s)) " " | complement (slice "") -}}
+{{- $out := .s -}}
+{{- if gt (len $w) .n }}{{ $out = printf "%s..." (delimit (first .n $w) " ") }}{{ end -}}
 {{- return $out -}}

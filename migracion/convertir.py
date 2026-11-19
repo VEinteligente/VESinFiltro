@@ -10,17 +10,20 @@ What it changes (everything else in the front matter is kept as it is):
   sites, type    -> sitios, tipo (Hugo reserves both: `type` picks the template folder)
   layout: page   -> layout: pagina (page.html is Hugo's template for all regular pages)
   redirect_from  -> aliases
-  date           -> RFC 3339; from the filename when missing (Jekyll's rule)
+  date           -> RFC 3339 in America/Caracas, as Jekyll shows it; from the filename when missing
   {: .a .b}      -> {.a .b}         (kramdown block attributes to Goldmark)
+  pipe tables only kramdown reads (no |---| line, or two header rows) -> the HTML table kramdown renders
   {{page.x}} / {{ site.url }} in page bodies -> the literal value
   root pages whose body is only {% include X.html lang="..." %} -> layout X, the body is dropped
 It prints a warning for any Liquid left in a body: that page needs a template or a shortcode.
 """
+import html
 import os
 import re
 import shutil
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -32,9 +35,11 @@ PAGINAS = ["noticias.html", "inicio-en.html", "about.html", "nosotros.html", "pu
            "publications.html", "reportes.html", "reports.html", "bloqueos.html", "jump_point.html",
            "psiphon-jump_point.html", "reporta.html", "test.md", "test-medios.md", "test-puntual.md"]
 
+CARACAS = ZoneInfo("America/Caracas")
 FM = re.compile(r"\A---\s*\n(.*?)\n---\s*\n?(.*)\Z", re.S)
 FECHA_ARCHIVO = re.compile(r"^(\d{4})-(\d{2})-(\d{2})")
 INCLUDE_SOLO = re.compile(r"\A\s*\{%\s*include\s+([\w-]+)\.html(?:\s+lang=\"(\w+)\")?\s*%\}\s*\Z")
+SEPARADOR = re.compile(r"^\s*\|?\s*:?-{2,}")
 IAL = re.compile(r"^\{:\s*([^}]*)\}\s*$", re.M)
 RENOMBRAR = {"sites": "sitios", "type": "tipo"}
 # Jekyll layouts whose name means something else in Hugo: page.html is the template for every regular page.
@@ -51,20 +56,24 @@ Fecha.yaml_implicit_resolvers = {k: [r for r in v if r[0] != "tag:yaml.org,2002:
 
 
 def fecha_iso(valor, archivo):
+    """The date as Jekyll shows it: in the site's timezone (America/Caracas).
+    YAML reads a date and time without offset as UTC; a date alone is local midnight."""
     if valor is None:
         m = FECHA_ARCHIVO.match(os.path.basename(archivo))
         if not m:
             return None
-        return "%s-%s-%sT00:00:00-04:00" % m.groups()
+        valor = "%s-%s-%s" % m.groups()
     s = str(valor).strip()
     for fmt in ("%Y-%m-%d %H:%M:%S %z", "%Y-%m-%d %H:%M %z", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
         try:
             d = datetime.strptime(s, fmt)
         except ValueError:
             continue
-        if d.tzinfo is None:  # Jekyll reads it in the site's timezone (America/Caracas, -04:00 today)
-            return d.strftime("%Y-%m-%dT%H:%M:%S") + "-04:00"
-        return d.isoformat()
+        if fmt == "%Y-%m-%d":
+            d = d.replace(tzinfo=CARACAS)
+        elif d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d.astimezone(CARACAS).isoformat()
     avisos.append("%s: fecha sin formato conocido: %r" % (archivo, s))
     return s
 
@@ -74,6 +83,63 @@ def ial(m):
     ids = re.findall(r"#([\w-]+)", m.group(1))
     partes = ["#" + i for i in ids] + ["." + c for c in clases]
     return "{" + " ".join(partes) + "}"
+
+
+def en_linea(texto):
+    """The inline Markdown that table cells use (bold, italics, code, links), as HTML."""
+    t = html.escape(texto.strip(), quote=False)
+    t = re.sub(r"`([^`]+)`", r"<code>\1</code>", t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<em>\1</em>", t)
+    t = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", r'<a href="\2">\1</a>', t)
+    return t
+
+
+def celdas(linea):
+    return linea.strip().strip("|").split("|")
+
+
+def tablas_kramdown(cuerpo, origen):
+    """Pipe tables that only kramdown reads, as the HTML kramdown renders:
+    rows with no |---| line (a <tbody> only), and tables whose |---| line comes after two or more header rows
+    (GFM allows one). Tables in GFM shape are left to Goldmark."""
+    lineas, salida, i = cuerpo.split("\n"), [], 0
+    while i < len(lineas):
+        if not lineas[i].startswith("|") or (i and "|" in lineas[i - 1]):
+            salida.append(lineas[i])
+            i += 1
+            continue
+        j = i
+        while j < len(lineas) and lineas[j].startswith("|"):
+            j += 1
+        bloque = lineas[i:j]
+        seps = [n for n, l in enumerate(bloque) if SEPARADOR.match(l)]
+        if seps == [1] or (not seps and j < len(lineas) and SEPARADOR.match(lineas[j])):
+            salida.extend(bloque)  # GFM table
+            i = j
+            continue
+        if seps and seps[0] > 1:
+            cabecera, alineacion, filas = bloque[:seps[0]], celdas(bloque[seps[0]]), bloque[seps[0] + 1:]
+        else:
+            cabecera, alineacion, filas = [], [], bloque
+        estilos = []
+        for c in alineacion:
+            c = c.strip()
+            estilos.append(' style="text-align: center"' if c.startswith(":") and c.endswith(":") else
+                           ' style="text-align: left"' if c.startswith(":") else
+                           ' style="text-align: right"' if c.endswith(":") else "")
+
+        def fila(l, tag):
+            cs = celdas(l)
+            return "    <tr>\n" + "".join("      <%s%s>%s</%s>\n" % (tag, estilos[n] if n < len(estilos) else "", en_linea(c), tag)
+                                          for n, c in enumerate(cs)) + "    </tr>"
+        partes = ["<table>"]
+        if cabecera:
+            partes += ["  <thead>"] + [fila(l, "th") for l in cabecera] + ["  </thead>"]
+        partes += ["  <tbody>"] + [fila(l, "td") for l in filas] + ["  </tbody>", "</table>"]
+        salida.append("\n".join(partes))
+        i = j
+    return "\n".join(salida)
 
 
 def convertir(origen, destino, extra=None):
@@ -115,6 +181,7 @@ def convertir(origen, destino, extra=None):
         cuerpo = re.sub(r"\{\{\s*site\.url\s*\}\}", "https://vesinfiltro.org", cuerpo)
         cuerpo = re.sub(r"\{%\s*for media in page\.sites\s*%\}.*?\{%\s*endfor\s*%\}", "{{< sitios >}}", cuerpo, flags=re.S)
         cuerpo = IAL.sub(ial, cuerpo)
+        cuerpo = tablas_kramdown(cuerpo, origen)
         if fm.get("layout") == "home-6d":
             cuerpo = ""  # the layout never printed its content
         resto = re.findall(r"\{%.*?%\}|\{\{(?!<).*?\}\}", cuerpo)

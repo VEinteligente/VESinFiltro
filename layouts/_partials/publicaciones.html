@@ -1,0 +1,66 @@
+{{- /* Port of _includes/publicaciones.html: /publicaciones/ and /en/publications/. dict "L" */ -}}
+{{- $L := .L }}{{ $t := index hugo.Data.ui $L -}}
+{{- $todas := partial "noticias.html" . -}}
+{{- $tipos := slice "Comunicado" "Análisis" "Alerta" "Noticia" "Reporte" "Guía" -}}
+{{- $temas := slice "Censura y bloqueos" "Vigilancia" "Ciberseguridad y protección de datos" "Ataques digitales" "Datos personales" "Conectividad" "Libertad de expresión" "Elecciones" -}}
+<section class="sec" style="padding-bottom:32px">
+	<div class="wrap">
+		<div class="sec-head" style="margin:0"><div><h1>{{ $t.nav_publicaciones }}</h1><p>{{ $t.pub_intro }}</p></div></div>
+	</div>
+</section>
+<form class="filters" id="filtros" role="search" aria-label="{{ $t.pub_filtrar }}">
+	<div class="wrap">
+		<div style="display:flex;flex-wrap:wrap;gap:16px 24px">
+			<label for="f-tipo">{{ $t.pub_tipo }}<select id="f-tipo" name="tipo"><option value="">{{ $t.todos }}</option>{{ range $tipos }}<option value="{{ . }}">{{ index $t.tipos_plural . }}</option>{{ end }}</select></label>
+			<label for="f-tema">{{ $t.pub_tema }}<select id="f-tema" name="tema"><option value="">{{ $t.todos }}</option>{{ range $temas }}<option value="{{ . }}">{{ index $t.temas . | default . }}</option>{{ end }}</select></label>
+			<label for="f-idioma">{{ $t.pub_idioma }}<select id="f-idioma" name="idioma"><option value="">{{ $t.todos }}</option><option value="es">Español</option><option value="en">English</option></select></label>
+		</div>
+		<span class="count" id="f-count" aria-live="polite">{{ len $todas }} {{ $t.pub_plural }}</span>
+	</div>
+</form>
+<section class="sec" style="padding-top:12px">
+	<div class="wrap" id="lista" data-idioma-fijo>
+	{{- $anio := "" }}
+	{{- range $todas }}
+		{{- $y := .Date.Format "2006" }}
+		{{- if ne $y $anio }}<h2 class="year" data-year="{{ $y }}">{{ $y }}</h2>{{ $anio = $y }}{{ end }}
+		{{- $pl := .Params.lang | default "es" }}{{ $pt := index hugo.Data.ui $pl }}
+		{{- $mini := index hugo.Data.miniaturas (.Params.url | default .RelPermalink) }}
+		<article class="row" data-year="{{ $y }}" data-type="{{ .Params.tipo }}" data-topics="{{ delimit (.Params.topics | default slice) "|" }}" data-idioma="{{ $pl }}"{{ if .Params.translation }} data-par="1"{{ end }} lang="{{ $pl }}">
+			<a class="row-img{{ if and $mini (strings.Contains $mini "-portada.jpg") }} row-img--portada{{ end }}" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with $mini }}<img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">{{ end }}</a>
+			<div class="row-b">
+				<div class="row-m"><span class="row-d">{{ .Date.Format "2006-01-02" }}</span><span class="kind{{ if eq .Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ index $pt.tipos .Params.tipo | default .Params.tipo }}</span>{{ partial "chips-idioma.html" (dict "p" . "solo_pares" true) }}</div>
+				<a class="row-t" href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+				{{ with .Params.topics }}<span class="temas">{{ range . }}<span class="tema">{{ index $pt.temas . | default . }}</span>{{ end }}</span>{{ end }}
+			</div>
+		</article>
+	{{- end }}
+	<p class="empty" id="f-vacio" hidden>{{ $t.pub_vacio }}</p>
+	</div>
+</section>
+<script>
+(function () {
+  var f = document.getElementById('filtros'), sel = { tipo: f.tipo, tema: f.tema, idioma: f.idioma };
+  var rows = [].slice.call(document.querySelectorAll('#lista .row')), years = [].slice.call(document.querySelectorAll('#lista .year'));
+  var q = new URLSearchParams(location.search);
+  Object.keys(sel).forEach(function (k) { if (q.get(k)) sel[k].value = q.get(k); });
+  var uno = {{ printf " %s" $t.pub_singular }}, varios = {{ printf " %s" $t.pub_plural }};
+  function apply() {
+    var tipo = sel.tipo.value, tema = sel.tema.value, idioma = sel.idioma.value, n = 0, shown = {};
+    var pref = window.VSF_IDIOMA ? window.VSF_IDIOMA() : 'es';
+    rows.forEach(function (r) {
+      var ok = (!tipo || r.dataset.type === tipo) && (!tema || r.dataset.topics.split('|').indexOf(tema) > -1) && (!idioma || r.dataset.idioma === idioma);
+      // Without a language filter, show each translated publication once, in the reader's language.
+      if (!idioma && r.dataset.par && r.dataset.idioma !== pref) ok = false;
+      r.hidden = !ok; if (ok) { n++; shown[r.dataset.year] = 1; }
+    });
+    years.forEach(function (y) { y.hidden = !shown[y.dataset.year]; });
+    document.getElementById('f-count').textContent = n + (n === 1 ? uno : varios);
+    document.getElementById('f-vacio').hidden = n > 0;
+    var p = new URLSearchParams(); Object.keys(sel).forEach(function (k) { if (sel[k].value) p.set(k, sel[k].value); });
+    history.replaceState(null, '', location.pathname + (p.toString() ? '?' + p : ''));
+  }
+  f.addEventListener('change', apply); f.addEventListener('submit', function (e) { e.preventDefault(); });
+  apply();
+})();
+</script>
