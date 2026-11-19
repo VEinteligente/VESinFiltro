@@ -54,14 +54,12 @@ También refuerza la importancia de que los usuarios en riesgo opten por configu
       <tr>
         <td style="text-align: left">Nº de solicitudes recibidas</td>
         <td>
-
             861.004
         </td>
       </tr>
       <tr>
         <td style="text-align: left">Nº de solicitudes rechazadas</td>
         <td>
-
             21.601
         </td>
       </tr>
@@ -69,7 +67,6 @@ También refuerza la importancia de que los usuarios en riesgo opten por configu
         <td style="text-align: left">Nº de accesos afectados
         </td>
         <td>
-
             1.584.547
         </td>
       </tr>
@@ -80,21 +77,18 @@ También refuerza la importancia de que los usuarios en riesgo opten por configu
       <tr>
         <td style="text-align: left">Nº de solicitudes recibidas</td>
         <td>
-
             149.152
         </td>
       </tr>
       <tr>
         <td style="text-align: left">Nº de solicitudes rechazadas</td>
         <td>
-
             1.613
         </td>
       </tr>
       <tr>
         <td style="text-align: left">Nº de accesos afectados</td>
         <td>
-
             997.679
         </td>
       </tr>
