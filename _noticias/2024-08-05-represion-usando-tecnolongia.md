@@ -235,7 +235,7 @@ Muhammed Bello Buhari, Digital Grassroots
 
 Nevin Thompson
 
-Patricia Díaz Charquero, DATA Uruguay | Datysoc
+Patricia Díaz Charquero, DATA Uruguay \| Datysoc
 
 Raisa Urribarri, Universidad de Los Andes
 

@@ -68,7 +68,7 @@ Además, las direcciones IP conocidas previamente para este sitio web tampoco re
   </figcaption>
 </figure>
 <br>
-Cabe destacar que no todos los servicios del CNE están afectados. Siguen operativos el sistema de correos electrónicos institucional, el campus virtual del Instituto de Altos Estudios del Poder Electoral "Tibisay Lucena" (virtualiaepe.cne.gob.ve) y varios portales privados del CNE que requieren credenciales para acceso.
+Cabe destacar que no todos los servicios del CNE están afectados. Siguen operativos el sistema de correos electrónicos institucional, el campus virtual del Instituto de Altos Estudios del Poder Electoral “Tibisay Lucena” (virtualiaepe.cne.gob.ve) y varios portales privados del CNE que requieren credenciales para acceso.
 
 Durante las recientes elecciones del 25 de mayo, el CNE utilizó el portal doe.postulaciones.org.ve para difundir información sobre los candidatos. Este portal dejó de estar operativo tras la votación y actualmente responde con un error 503: Servicio no disponible.
 
