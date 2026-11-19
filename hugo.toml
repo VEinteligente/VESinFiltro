@@ -15,6 +15,33 @@ enableRobotsTXT = false
   tagline = "Infórmate sobre el estado de internet en Venezuela"
   twitter_username = "vesinfiltro"
 
+# Files the home page also writes: the Atom feed and the Cloudflare Pages config (_redirects, _headers).
+[outputs]
+  home = ["html", "feed", "redirects", "headers"]
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+  [mediaTypes."text/cloudflare"]   # files with no extension
+    delimiter = ""
+
+[outputFormats]
+  [outputFormats.feed]
+    mediaType = "application/atom+xml"
+    baseName = "feed"
+    isPlainText = false
+    rel = "alternate"
+  [outputFormats.redirects]
+    mediaType = "text/cloudflare"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+  [outputFormats.headers]
+    mediaType = "text/cloudflare"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
+
 [markup.goldmark]
   [markup.goldmark.renderer]
     unsafe = true          # posts carry raw HTML, as kramdown allowed

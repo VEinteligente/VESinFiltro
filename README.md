@@ -50,6 +50,10 @@ Abre `http://localhost:1313/`.
 | `layouts/_partials/` | Equivale a `_includes/`: `head`, `header`, `footer`, `idioma`. |
 | `layouts/_shortcodes/` | Fragmentos que se usan dentro del contenido. |
 | `layouts/alias.html` | Las páginas de `redirect`. |
+| `layouts/home.feed.xml` | `/feed.xml`: el feed Atom con las 20 publicaciones más recientes, cada una una sola vez, como las lista el inicio en español. |
+| `layouts/home.redirects` | `_redirects` para Cloudflare Pages: un 301 por cada `redirect_from`. Se genera solo; no se edita a mano. |
+| `layouts/home.headers` | `_headers` para Cloudflare Pages: cabeceras de seguridad y `noindex` en las vistas previas de `pages.dev`. |
+| `layouts/404.html` | La página de error, en los dos idiomas. Cloudflare Pages la sirve con estado 404. |
 | `migracion/convertir.py` | Convierte las fuentes de Jekyll a `content/`. |
 | `migracion/paridad.py` | Compara un `build` de Jekyll con uno de Hugo: ids, título, `URL` canónica, texto y `redirects`. |
 

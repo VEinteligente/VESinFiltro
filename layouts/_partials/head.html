@@ -2,7 +2,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	{{- $page_title := .Title | default site.Title }}
+	{{- $page_title := cond (eq .Kind "404") "Página no encontrada · Page not found" (.Title | default site.Title) }}
 	{{- $desc := partial "plano.html" (.Params.excerpt_short | default .Params.excerpt | default site.Params.description) }}
 	{{- $page_description := partial "truncatewords.html" (dict "s" $desc "n" 75) }}
 	{{- $page_url := .Permalink }}
@@ -21,6 +21,7 @@
 	{{- end }}
 	<link rel="icon" href="{{ "/res/favicon.svg" | relURL }}" type="image/svg+xml">
 	<link rel="canonical" href="{{ $page_url }}">
+	<link rel="alternate" type="application/atom+xml" title="{{ site.Title }}" href="{{ "/feed.xml" | relURL }}">
 	{{ with .Params.translation }}<link rel="alternate" hreflang="{{ if eq $.Params.lang "en" }}es{{ else }}en{{ end }}" href="{{ printf "https://vesinfiltro.org%s" . }}">{{ end }}
 	<meta name="description" content="{{ $page_description }}">
 
