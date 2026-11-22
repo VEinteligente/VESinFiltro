@@ -12,7 +12,9 @@ image: res/post_img/2026-11-22-vulnerabilidad-mitigada-constructores.png
 > Informacion en desarrollo
 
 El 21 de Noviembre a la 1:30 pm hora de Venezuela un actor de amenaza publicó en un canal público de Telegram las vulnerabilidad que pudieron explotar en dos endpoints que responden datos personales sensibles sin autenticación.
+
 Investigadores de VE sin Filtro (parte de Conexión Segura y Libre)  verificaron las fallas de seguridad en dos endpoints del sistema y evaluaron su impacto. Pocas horas después de conocer las vulnerabilidades, se envió una divulgación responsable a los administradores de la web.
+
 Las vulnerabilidades identificadas corresponden a dos endpoints pertenecientes a hastaelfinal[.]app, backend de la plataforma monitoreociudadano[.]net y venteavente[.]org, que carecían de medidas de seguridad mínimas y no requerían autenticación para su acceso. El acceso a datos por esta vía era trivial, y potencialmente podría usarse para extraer datos de forma automatizada.
 
 CSL envió comunicaciones por email y otros medios al equipo de Constructores y Monitoreo Ciudadano de Vente Venezuela. La comunicación fue posible y recibida hoy 22 de noviembre a las 8:30 am (VET).
