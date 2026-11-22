@@ -9,7 +9,7 @@ topics: ["Ciberseguridad y protección de datos"]
 lang: es
 image: res/post_img/2026-11-22-vulnerabilidad-mitigada-constructores.png
 ---
-> Informacion en desarrollo
+> Información en desarrollo
 
 El 21 de Noviembre a la 1:30 pm hora de Venezuela un actor de amenaza publicó en un canal público de Telegram las vulnerabilidad que pudieron explotar en dos endpoints que responden datos personales sensibles sin autenticación.
 
