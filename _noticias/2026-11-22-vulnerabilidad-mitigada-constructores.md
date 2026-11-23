@@ -17,7 +17,7 @@ Investigadores de VE sin Filtro (parte de Conexión Segura y Libre) verificaron 
 
 Ayer mismo, pocas horas después de conocer las vulnerabilidades, se envió una comunicación responsable a los administradores de la web por email y otros medios al equipo de Constructores y Monitoreo Ciudadano de Vente Venezuela. La comunicación fue posible y recibida hoy 22 de noviembre a las 8:30 am (VET).
 
-Las vulnerabilidades identificadas corresponden a dos endpoints pertenecientes a hastaelfinal\[.\]app, backend de la plataforma monitoreociudadano\[.\]net y venteavente\[.\]org, que carecían de medidas de seguridad mínimas y no requerían autenticación para su acceso. El acceso a datos por esta vía era trivial, y potencialmente podría usarse para extraer datos de forma automatizada.
+Las vulnerabilidades identificadas corresponden a dos endpoints pertenecientes a hastaelfinal.app, backend de la plataforma monitoreociudadano.net y venteavente.org, que carecían de medidas de seguridad mínimas y no requerían autenticación para su acceso. El acceso a datos por esta vía era trivial, y potencialmente podría usarse para extraer datos de forma automatizada.
 
 A las 9:00 am las mitigaciones implementadas impedían la explotación de las vulnerabilidades mediante los vectores que habían sido difundidos, confirmado de forma independiente por nuestro equipo. Nuestra validación se extiende únicamente a esos métodos de explotación, **no hemos realizado ninguna auditoría de seguridad sobre las plataformas de Vente Venezuela**.
 
@@ -49,10 +49,10 @@ Estas vulnerabilidades no habían sido publicadas por actores de amenaza ni por 
 - Teléfono
 - Organización o comunidad
 - Cargo o rol
-- Presentación
-- La parte local (antes de @dominio.com) de los correos electrónicos usados como nombre de usuario en el sistema, de los creadores de los mismos, identificando cual fue creado por cada usuario
+- Presentación personal escrita por el usuario
+- La [parte local](https://en.wikipedia.org/wiki/Email_address#Local-part)  (antes de @dominio.com) de los correos electrónicos usados como nombre de usuario en el sistema, de los creadores de los mismos, identificando cual fue creado por cada usuario.
 
 Estas fallas son distintas de las encontradas en hastaelfinal.app, aunque son similares. La primera es un feed RSS con lo que parecen ser los últimos 10 "Puntos de Acuerdo" registrados y el usuario que creó cada uno. La segunda es una página que muestra datos personales de usuarios, entre otros objetos del sistema, identificados con un ID secuencial.
 
-En ninguno de los casos tenemos cómo conocer de qué forma pudieron ser abusadas estas vulnerabilidades, ni su alcance. Esperamos que el reporte temprano de estas vulnerabilidades haya servido para evitar cualquier ataque de exfiltración de datos del sistema. 
+En ninguno de los casos VE sin Filtro tiene forma de saber si estas vulnerabilidades ya estaban siendo abusadas. Esperamos que el reporte temprano de estas fallas de seguridad haya servido para evitar cualquier ataque de exfiltración de datos del sistema. 
 
