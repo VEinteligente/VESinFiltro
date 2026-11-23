@@ -21,14 +21,19 @@ Las vulnerabilidades identificadas corresponden a dos endpoints pertenecientes a
 
 A las 9:00 am las mitigaciones implementadas impedían la explotación de las vulnerabilidades mediante los vectores que habían sido difundidos, confirmado de forma independiente por nuestro equipo. Nuestra validación se extiende únicamente a esos métodos de explotación, **no hemos realizado ninguna auditoría de seguridad sobre las plataformas de Vente Venezuela**.
 
-Agradecemos al equipo de Constructores por actuar con rapidez una vez estuvieron al tanto de la vulnerabilidad, y les urgimos que investiguen el posible acceso a estos datos y su alcance de ser el caso, para poder comunicarse de forma efectiva con los usuarios que pudieran haber sido afectados. 
+Agradecemos al equipo de Constructores por actuar con rapidez una vez estuvieron al tanto de la vulnerabilidad, y les urgimos que investiguen el posible acceso a estos datos y su alcance de ser el caso, para poder comunicarse de forma efectiva con los usuarios que pudieran haber sido afectados.
 
-# **Datos expuestos:**
+Es necesario que la plataforma aclare públicamente el alcance real del abuso de esta vulnerabilidad, especialmente de existir un esfuerzo de exfiltración de datos, reciente o en el pasado; los tipos de datos vulnerados; y notificar individualmente a los afectados.  Así como un análisis técnico que explique el incidente y sus medidas de mitigación. 
 
-Entre los datos que estuvieron expuestos se encuentran: nombres completos, nacionalidad, cédula, emails, números de teléfono, país de residencia, centro de votación, afiliación política, **plantillas de identificación biométrica generadas a través de modelos de reconocimiento facial**. 
+Insistimos en la importancia de una auditoria de seguridad independiente. Recomendamos que se mejore la seguridad de la plataforma y que se permita a los usuarios registrarse sin datos biométricos y con la menor cantidad de datos sensibles posibles, para que cada persona pueda ajustar su riesgo frente a posibles vulneraciones.
+
+## Datos expuestos:
+
+Entre los datos expuestos y accesibles públicamente se encuentran: nombres completos, nacionalidad, cédula, emails, números de teléfono, país de residencia, centro de votación, afiliación política, **plantillas de identificación biométrica generadas a través de modelos de reconocimiento facial**. 
 
 Una parte de los datos expuestos podía accederse a través de un feed RSS que registraba cambios en la plataforma, incluyendo el registro de nuevos usuarios. A través de esta ruta era posible ver en texto plano datos relacionados con la plantilla biométrica generada en base a la foto de la cédula y *selfie* que los usuarios suben a la plataforma.
 
 Otro *endpoint* inseguro permitía a cualquier persona sin autenticación acceder a información histórica de la plataforma, incluyendo datos personales de personas que participaron en el proceso electoral del 2024 y miembros adscritos al partido Vente Venezuela**.**
 
 Si bien la vulnerabilidad se hizo conocida el día 21 de noviembre de 2026, no podemos determinar de manera independiente desde hace cuánto tiempo estos datos han estado expuestos ni quiénes pudieron tener acceso a ellos.
+
