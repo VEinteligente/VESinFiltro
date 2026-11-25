@@ -77,6 +77,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 .on-dark { background: var(--chrome); color: var(--ctext); }
 
 /* ---------- header ---------- */
+/* top bar: the organisation and its other programmes; under 860px its links move into the menu */
+.sb { background: var(--chrome2); border-bottom: 1px solid var(--dhair); color: oklch(100% 0 0 / .72); font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+.sb-in { display: flex; align-items: center; gap: 28px; min-height: 32px; }
+.sb a { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+.sb a:hover { color: var(--ctext); text-decoration: underline; text-decoration-color: var(--dburg); text-underline-offset: 3px; }
+.sb-csl::before, .sb-sd::before, .sb-nsf::before { content: ""; width: 7px; height: 7px; flex: none; }
+.sb-csl::before { background: #638AD6; }
+.sb-sd::before { background: #EB803A; }
+.sb-nsf::before { background: oklch(70.7% 0.161 159.4); } /* the Noticias Sin Filtro green (#4FFFB0, oklch 89.2% 0.180 159.4) at the lightness of the orange marker; chroma is the most sRGB holds there */
+.sh-menu-red { display: flex; flex-direction: column; margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--dhair); }
 .sh { background: var(--chrome); color: var(--ctext); }
 .sh-in { display: flex; align-items: center; gap: 40px; min-height: 80px; }
 .sh-logo { display: flex; flex-shrink: 0; }
@@ -94,7 +104,7 @@ a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible
 @media (max-width: 860px) {
   .sh-in { gap: 12px; min-height: 64px; }
   .sh-logo img { height: 28px; }
-  .sh-nav { display: none; }
+  .sb, .sh-nav { display: none; }
   .sh-menu { display: block; margin-left: 0; }
   .sh-lang { margin-left: auto; }
 }
@@ -384,7 +394,7 @@ a.row-t:hover { color: var(--burg); }
 
 /* printing a web-only report: the article and how to cite it, nothing else */
 @media print {
-  .sh, .sf, .rep-btns, .rp-otros, .rp-side .box:has(.toc), .rp-side .dl, .post-rel, .post-aside, .rep-list, .crumbs { display: none !important; }
+  .sb, .sh, .sf, .rep-btns, .rp-otros, .rp-side .box:has(.toc), .rp-side .dl, .post-rel, .post-aside, .rep-list, .crumbs { display: none !important; }
   body, .rep-hero, .on-dark { background: #fff !important; color: #000 !important; }
   .rep-hero .glow, .ht::before, .ht::after { display: none !important; }
   .rep-hero h1, .rep-hero .lede, .rep-meta dd, .rep-meta dt, .kicker { color: #000 !important; }

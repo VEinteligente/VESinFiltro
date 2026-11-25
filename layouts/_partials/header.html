@@ -16,6 +16,17 @@
   ("/bloqueos/" | relURL) (cond (eq $seccion "guias") ` aria-current="page"` "") $es.nav_guias $en.nav_guias $t.nav_guias
   (cond (eq $L "en") ("/en/about/" | relURL) ("/nosotros/" | relURL)) (cond (eq $seccion "nosotros") ` aria-current="page"` "") $es.nav_nosotros $en.nav_nosotros $t.nav_nosotros
   $es.nav_lista $en.nav_lista $t.nav_lista | safeHTML }}
+{{- $red := "" }}
+{{- range hugo.Data.barra }}
+  {{- $n_en := .name }}{{ $url := .url }}
+  {{- with .en }}{{ with .name }}{{ $n_en = . }}{{ end }}{{ if eq $L "en" }}{{ with .url }}{{ $url = . }}{{ end }}{{ end }}{{ end }}
+  {{- $red = printf `%s
+<a class="sb-%s" href="%s" data-t-es="%s" data-t-en="%s">%s</a>` $red .key $url .name $n_en (cond (eq $L "en") $n_en .name) }}
+{{- end }}
+{{- $red = $red | safeHTML }}
+<div class="sb">
+	<nav class="wrap sb-in" aria-label="{{ $t.nav_red }}">{{ $red }}</nav>
+</div>
 <header class="sh">
 	<div class="wrap sh-in">
 		<a class="sh-logo" href="{{ "/" | relURL }}" aria-label="VE sin Filtro, {{ lower $t.inicio }}"><img src="{{ "/res/VeSinFiltro-long.svg" | relURL }}" alt="VE sin Filtro" width="178" height="36"></a>
@@ -23,7 +34,7 @@
 		<a class="sh-lang" href="{{ $alt_url | relURL }}?lang={{ $alt_l }}" lang="{{ $alt_l }}" data-cambia-idioma="{{ $alt_l }}" data-t-es="{{ $es.otro_idioma }}" data-t-en="{{ $en.otro_idioma }}">{{ $alt_label }}</a>
 		<details class="sh-menu">
 			<summary aria-label="{{ $t.menu }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg></summary>
-			<nav aria-label="{{ $t.menu }}">{{ $nav }}</nav>
+			<nav aria-label="{{ $t.menu }}">{{ $nav }}<div class="sh-menu-red">{{ $red }}</div></nav>
 		</details>
 	</div>
 </header>

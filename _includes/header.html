@@ -15,6 +15,12 @@
 <a href="{% if L == 'en' %}{{ '/en/about/' | relative_url }}{% else %}{{ '/nosotros/' | relative_url }}{% endif %}"{% if seccion == "nosotros" %} aria-current="page"{% endif %} data-t-es="{{ site.data.ui.es.nav_nosotros }}" data-t-en="{{ site.data.ui.en.nav_nosotros }}">{{ t.nav_nosotros }}</a>
 <a href="https://bloqueos.vesinfiltro.org/" data-t-es="{{ site.data.ui.es.nav_lista }}" data-t-en="{{ site.data.ui.en.nav_lista }}">{{ t.nav_lista }} <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7"/><path d="M8 7h9v9"/></svg></a>
 {% endcapture %}
+{% capture red_items %}{% for p in site.data.barra %}{% assign nombre_en = p.en.name | default: p.name %}{% assign red_url = p.url %}{% if L == "en" and p.en.url %}{% assign red_url = p.en.url %}{% endif %}
+<a class="sb-{{ p.key }}" href="{{ red_url }}" data-t-es="{{ p.name }}" data-t-en="{{ nombre_en }}">{% if L == "en" %}{{ nombre_en }}{% else %}{{ p.name }}{% endif %}</a>{% endfor %}
+{% endcapture %}
+<div class="sb">
+	<nav class="wrap sb-in" aria-label="{{ t.nav_red }}">{{ red_items }}</nav>
+</div>
 <header class="sh">
 	<div class="wrap sh-in">
 		<a class="sh-logo" href="{{ '/' | relative_url }}" aria-label="VE sin Filtro, {{ t.inicio | downcase }}"><img src="{{ '/res/VeSinFiltro-long.svg' | relative_url }}" alt="VE sin Filtro" width="178" height="36"></a>
@@ -22,7 +28,7 @@
 		<a class="sh-lang" href="{{ alt_url | relative_url }}?lang={% if alt_label == 'Español' %}es{% else %}en{% endif %}" lang="{% if alt_label == 'Español' %}es{% else %}en{% endif %}" data-cambia-idioma="{% if alt_label == 'Español' %}es{% else %}en{% endif %}" data-t-es="{{ site.data.ui.es.otro_idioma }}" data-t-en="{{ site.data.ui.en.otro_idioma }}">{{ alt_label }}</a>
 		<details class="sh-menu">
 			<summary aria-label="{{ t.menu }}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg></summary>
-			<nav aria-label="{{ t.menu }}">{{ nav_items }}</nav>
+			<nav aria-label="{{ t.menu }}">{{ nav_items }}<div class="sh-menu-red">{{ red_items }}</div></nav>
 		</details>
 	</div>
 </header>

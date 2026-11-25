@@ -1,0 +1,16 @@
+# Top bar above the header: the organisation first, then its other programmes (VE sin Filtro is this site, so it is not listed).
+# key picks the marker colour (.sb-<key> in vsf.css). en: what changes on English pages.
+- key: csl
+  name: ONG Conexión Segura y Libre
+  url: https://conexionsegura.org/
+  en:
+    name: NGO Conexión Segura y Libre
+    url: https://conexionsegura.org/en/
+- key: sd
+  name: Seguridad Digital
+  url: https://conexionsegura.org/guias/
+  en:
+    name: Digital Security
+- key: nsf
+  name: Noticias Sin Filtro
+  url: https://noticiassinfiltro.com/
