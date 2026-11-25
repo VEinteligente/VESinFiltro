@@ -431,7 +431,7 @@ a.row-t:hover { color: var(--burg); }
 
 /* About: /nosotros/ and /en/about/ (_includes/nosotros.html) and the band at the end of the home page */
 .nos-hero .sf-csl { margin-top: 8px; }
-.nos-grid { display: grid; grid-template-columns: minmax(0, 720px) minmax(0, 1fr); gap: 64px; align-items: start; }
+.nos-grid { display: grid; grid-template-columns: minmax(0, 720px) minmax(280px, 1fr); gap: 64px; align-items: start; }
 .nos-aside { display: flex; flex-direction: column; gap: 22px; font-size: 15px; }
 .nos-aside > div { display: flex; flex-direction: column; gap: 6px; padding-top: 12px; border-top: 1px solid var(--border); }
 .nos-aside .k { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--sec); }
