@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Alegan filtración de datos y contraseñas de millones de usuarios del INTT"
-excerpt: "Dos actores de amenaza aseguran tener los datos personales y las contraseñas de millones de usuarios del INTT. Aunque no ha sido verificado, recomendamos cambiar la contraseña del INTT y la de cualquier otro servicio donde se use la misma."
+excerpt: "Dos actores de amenaza aseguran tener los datos personales y las contraseñas de millones de usuarios del INTT. Recomendamos cambiar la contraseña del INTT y la de cualquier otro servicio donde se use la misma."
 permalink: /noticias/2026-11-25-filtracion-datos-intt/
 date:   2026-11-25 07:00:00 -0400
 type: Alerta
@@ -14,7 +14,7 @@ En el último mes, dos actores de amenaza distintos aseguraron haber obtenido lo
 
 El anuncio más reciente, del 23 de noviembre de 2026, asegura contener los datos de más de 4 millones de usuarios y funcionarios. El primero, del 26 de octubre, no había sido identificado previamente y asegura contener la base de datos de usuarios completa, sin especificar el número de registros.
 
-Ninguna de estas filtraciones ha sido verificada, pero los datos son muy verosímiles. Según las publicaciones, incluyen:
+Ninguna de estas filtraciones ha sido plenamente verificada, pero los datos son muy verosímiles. Según las publicaciones, incluyen:
 
 - Nombre
 - Cédula
