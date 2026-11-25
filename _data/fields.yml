@@ -13,7 +13,7 @@ people:
 
 classification:
   type: Comunicado | Análisis | Alerta | Noticia | Reporte | Guía
-  subtype: Optional and not shown to readers (Carta abierta). Adds a subtype-… class for styling.
+  subtype: Optional and not shown to readers (Carta abierta under Comunicado, Aviso de seguridad under Alerta). Adds a subtype-… class for styling.
   topics: Up to three, from the list in publicaciones.html.
   lang: es | en
   translation: URL of the same post in the other language. Also drives the reader-language switch (_includes/idioma.html) and the notice (_includes/aviso-idioma.html).
