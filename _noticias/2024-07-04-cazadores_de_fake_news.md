@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dos sitios en Internet destinados a la verificación de información fueron bloqueados en Venezuela"
-title_short: "Bloquean los sitios web de Cazadores de Fake News y Es Paja"
+small: "Bloquean los sitios web de Cazadores de Fake News y Es Paja"
 excerpt: "Los sitios web de Cazadores de Fake News y Es Paja, dedicados a la verificación de información y al fact checking fueron bloqueados el día en que se inició la campaña electoral."
 permalink: /noticias/2024-07-04-cazadores_de_fake_news/
 date: 2024-07-04 12:00:00 -0400
