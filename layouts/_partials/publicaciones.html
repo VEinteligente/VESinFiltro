@@ -26,8 +26,9 @@
 		{{- if ne $y $anio }}<h2 class="year" data-year="{{ $y }}">{{ $y }}</h2>{{ $anio = $y }}{{ end }}
 		{{- $pl := .Params.lang | default "es" }}{{ $pt := index hugo.Data.ui $pl }}
 		{{- $mini := index hugo.Data.miniaturas (.Params.url | default .RelPermalink) }}
+		{{- if not $mini }}{{ if partial "existe.html" .Params.share_image }}{{ $mini = .Params.share_image }}{{ else if partial "existe.html" .Params.image }}{{ $mini = .Params.image }}{{ end }}{{ end }}
 		<article class="row" data-year="{{ $y }}" data-type="{{ .Params.tipo }}" data-topics="{{ delimit (.Params.topics | default slice) "|" }}" data-idioma="{{ $pl }}"{{ if .Params.translation }} data-par="1"{{ end }} lang="{{ $pl }}">
-			<a class="row-img{{ if and $mini (strings.Contains $mini "-portada.jpg") }} row-img--portada{{ end }}" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with $mini }}<img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">{{ end }}</a>
+			<a class="row-img{{ if and $mini (strings.Contains $mini "-portada.jpg") }} row-img--portada{{ end }}" href="{{ .RelPermalink }}" tabindex="-1" aria-hidden="true">{{ with $mini }}<img src="{{ . | relURL }}" alt="" loading="lazy" decoding="async">{{ else }}{{ partial "ph.html" (dict "p" . "t" $pt) }}{{ end }}</a>
 			<div class="row-b">
 				<div class="row-m"><span class="row-d">{{ .Date.Format "2006-01-02" }}</span><span class="kind{{ if eq .Params.tipo "Alerta" }} kind-alerta{{ end }}"><i class="sq" aria-hidden="true"></i>{{ index $pt.tipos .Params.tipo | default .Params.tipo }}</span>{{ partial "chips-idioma.html" (dict "p" . "solo_pares" true) }}</div>
 				<a class="row-t" href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
