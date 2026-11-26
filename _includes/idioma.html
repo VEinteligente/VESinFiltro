@@ -54,7 +54,7 @@ window.VSF_PARES = { {% for p in pares %}{% assign o = todo | where: "url", p.tr
     // and the sidebar says the content exists only in this language.
     if (marca && marca !== aqui && !buscar(location.pathname)) {
       var tk = marca === 'en' ? 'tEn' : 'tEs';
-      [].forEach.call(document.querySelectorAll('.sh-nav a[data-t-en], .sh-menu a[data-t-en]'), function (a) {
+      [].forEach.call(document.querySelectorAll('.sb a[data-t-en], .sh-nav a[data-t-en], .sh-menu a[data-t-en]'), function (a) {
         if (a.firstChild && a.firstChild.nodeType === 3) a.firstChild.nodeValue = a.dataset[tk] + (a.children.length ? ' ' : '');
         a.setAttribute('lang', marca);
       });
