@@ -8,7 +8,7 @@ type: Comunicado
 topics: ["Censura y bloqueos"]
 lang: es
 image: /res/post_img/2026-11-26/desbloqueo-vpn.png
-image_alt: "Comunicado de VE sin Filtro: Exigimos levantar los bloqueos contra las VPN en Venezuela. 31 dominios de VPN y herramientas anticensura bloqueados, 140 dominios bloqueados en total. Tabla con el estado de protonvpn.com, psiphon.ca, tunnelbear.com, windscribe.com, nordvpn.com, mullvad.net y torproject.org en CANTV, Movistar, Digitel, Inter, NetUno y Airtek. Datos al 26 de noviembre de 2026"
+image_alt: "Comunicado de VE sin Filtro: Exigimos levantar los bloqueos contra las VPN en Venezuela. 31 dominios de VPN y herramientas anticensura bloqueados, 140 dominios bloqueados en total. Datos al 26 de noviembre de 2026"
 image_width: 1600
 image_height: 900
 ---
